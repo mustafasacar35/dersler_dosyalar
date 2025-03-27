@@ -1,0 +1,1860 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bulgarca Öğrenme Uygulaması</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body { 
+            background-color: #f8f9fa; 
+            padding: 20px; 
+            display: flex; 
+            flex-direction: column; 
+            min-height: 100vh; 
+            margin: 0; 
+            transition: background-color 0.3s, color 0.3s;
+        }
+        .top-bar { margin-bottom: 20px; }
+        .content-wrapper { display: flex; flex-grow: 1; }
+        .sidebar { width: 250px; margin-right: 20px; flex-shrink: 0; }
+        .main-content { flex-grow: 1; overflow-y: auto; }
+        .card { margin-bottom: 15px; background-color: #fff; transition: background-color 0.3s; }
+        .result-icon { font-size: 1.5em; margin-right: 10px; }
+        .correct { color: green; }
+        .incorrect { color: red; }
+        .unanswered { color: black; }
+        #score { font-size: 1.2em; font-weight: bold; }
+        #recent-questions, #search-results, #blacklist, #missed-questions { 
+            margin-top: 20px; 
+            max-height: 150px; 
+            overflow-y: auto; 
+        }
+        .recent-question, .search-result, .blacklist-item, .missed-question { 
+            cursor: pointer; 
+            padding: 5px; 
+            border-bottom: 1px solid #ddd; 
+        }
+        .recent-question:hover, .search-result:hover, .blacklist-item:hover, .missed-question:hover { 
+            background-color: #e9ecef; 
+        }
+        .edit-icon { cursor: pointer; margin-left: 10px; color: #007bff; }
+        .edit-icon:hover { color: #0056b3; }
+        .blacklist-toggle { margin-right: 10px; }
+        .search-active { background-color: #d4edda; }
+        .search-container { display: flex; align-items: center; }
+        .search-container label { margin-left: 5px; margin-right: 10px; }
+        .json-file { display: flex; align-items: center; justify-content: space-between; margin-bottom: 10px; }
+        .delete-btn { margin-left: 10px; }
+        .speaking { color: #28a745; }
+        .card-title { font-size: 1.5em; font-weight: bold; }
+        #input-answer { width: 70%; font-size: 1.1em; }
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        #result.correct { animation: fadeIn 0.5s ease-in; color: green; }
+        #result.incorrect { animation: fadeIn 0.5s ease-in; color: red; }
+        .dark-theme { background-color: #343a40; color: #f8f9fa; }
+        .dark-theme .card { background-color: #495057; }
+        .dark-theme .btn-primary { background-color: #007bff; }
+        .reference-table { margin-top: 20px; }
+        .reference-table table { 
+            width: 100%; 
+            border-collapse: collapse; 
+            font-size: 0.9em; 
+        }
+        .reference-table th, .reference-table td { 
+            border: 1px solid #ddd; 
+            padding: 8px; 
+            text-align: center; 
+        }
+        .reference-table th { background-color: #f2f2f2; }
+        .highlight { background-color: #ffff99; }
+        .correct-highlight { background-color: #ccffcc; }
+        .incorrect-highlight { background-color: #ffcccc; }
+        @keyframes blinkCorrect {
+            0% { background-color: #ccffcc; }
+            50% { background-color: #99cc99; }
+            100% { background-color: #ccffcc; }
+        }
+        @keyframes blinkIncorrect {
+            0% { background-color: #ffcccc; }
+            50% { background-color: #ff9999; }
+            100% { background-color: #ffcccc; }
+        }
+        .blink-correct { animation: blinkCorrect 0.5s ease 3; }
+        .blink-incorrect { animation: blinkIncorrect 0.5s ease 3; }
+        #question-slider { width: 100%; margin-bottom: 20px; }
+        #slider-info { font-size: 1em; margin-top: 5px; }
+        #progress-percentage { margin-right: 15px; font-weight: bold; }
+        #question-count { font-weight: bold; }
+        #virtual-keyboard {
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            background-color: #f1f1f1;
+            padding: 10px;
+            display: none;
+            z-index: 1000;
+            transition: all 0.3s;
+        }
+        #virtual-keyboard button {
+            margin: 2px;
+            padding: 5px 10px;
+            font-size: 1em;
+            min-width: 40px;
+        }
+        .dark-theme #virtual-keyboard {
+            background-color: #495057;
+        }
+        .keyboard-row {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        @media (max-width: 768px) {
+            .sidebar { width: 100%; margin-right: 0; margin-bottom: 20px; }
+            .content-wrapper { flex-direction: column; }
+            .btn { font-size: 0.9em; padding: 5px; }
+            #input-answer { width: 100%; }
+            #virtual-keyboard button { font-size: 0.8em; padding: 4px 8px; min-width: 30px; }
+        }
+    </style>
+</head>
+<body>
+    <div class="top-bar container">
+        <h1 class="text-center mb-4">Bulgarca Öğrenme Uygulaması</h1>
+        <input type="range" id="question-slider" min="0" max="0" value="0" class="form-range">
+        <div id="slider-info" class="text-center mb-3">
+            <span id="progress-percentage">0%</span> 
+            <span id="question-count">0 / 0</span>
+        </div>
+        <div class="progress mb-3">
+            <div id="progressBar" class="progress-bar" role="progressbar" style="width: 0%;" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+        </div>
+        <div class="row mb-3">
+            <div class="col-md-2">
+                <div class="dropdown">
+                    <button class="btn btn-primary dropdown-toggle w-100" type="button" data-bs-toggle="dropdown">Seçenekler</button>
+                    <ul class="dropdown-menu">
+                        <li><button class="dropdown-item" data-bs-toggle="modal" data-bs-target="#loadJsonModal">Ders Ekle</button></li>
+                        <li><button class="dropdown-item" id="exportJsonBtn">Dersi Dışarı Aktar</button></li>
+                        <li><button class="dropdown-item" id="saveToGitHubBtn">GitHub’a Kaydet</button></li>
+                        <li><button class="dropdown-item" id="saveBtn">Kaydet</button></li>
+                        <li><button class="dropdown-item" id="loadStateBtn">Durum Yükle</button></li>
+                        <li><button class="dropdown-item" id="resetBtn">Reset</button></li>
+                        <li><button class="dropdown-item" id="toggleThemeBtn">Koyu Tema</button></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-2"><button id="toggleOrderBtn" class="btn btn-info w-100 mb-2">Sıralı Mod (Şu an: Sıralı)</button></div>
+            <div class="col-md-2"><button id="toggleLangBtn" class="btn btn-warning w-100 mb-2">Türkçe Sorulara Geç</button></div>
+            <div class="col-md-2"><button id="toggleSpeechBtn" class="btn btn-secondary w-100 mb-2">Sesli Okuma (Kapalı)</button></div>
+            <div class="col-md-2"><button id="toggleSoundBtn" class="btn btn-secondary w-100 mb-2">Ses Efektleri (Kapalı)</button></div>
+            <div class="col-md-2"><button id="reviewMissedBtn" class="btn btn-danger w-100 mb-2">Bilemediklerim Sınavı</button></div>
+        </div>
+        <div class="modal fade" id="loadJsonModal" tabindex="-1" aria-labelledby="loadJsonModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="loadJsonModalLabel">Ders Ekle</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="mb-3">
+                            <label for="fileUrl" class="form-label">GitHub Raw URL’si:</label>
+                            <input type="text" class="form-control" id="fileUrl" placeholder="Örn: https://raw.githubusercontent.com/.../DERS_6.JSON">
+                        </div>
+                        <div class="mb-3">
+                            <label for="localJsonFile" class="form-label">Yerel JSON Dosyası:</label>
+                            <input type="file" class="form-control" id="localJsonFile" accept=".json">
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Kapat</button>
+                        <button type="button" class="btn btn-primary" id="loadFromUrlBtn">URL’den Ekle</button>
+                        <button type="button" class="btn btn-primary" id="loadFromLocalBtn">Yerelden Ekle</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row mb-3">
+            <div class="col-md-2"><button id="toggleRepeatWrongBtn" class="btn btn-secondary w-100 mb-2">Yanlışları Tekrarla (Açık)</button></div>
+            <div class="col-md-2"><button id="toggleLatinBtn" class="btn btn-secondary w-100 mb-2">Latince Göster (Kapalı)</button></div>
+            <div class="col-md-2"><button id="toggleKeyboardBtn" class="btn btn-info w-100 mb-2">Klavye Aç</button></div>
+            <div class="col-md-6">
+                <div class="search-container">
+                    <input type="checkbox" id="focus-questions" />
+                    <label for="focus-questions">Odak Sorular</label>
+                    <input type="text" class="form-control" id="search-input" placeholder="Sorularda ara...">
+                    <div class="form-check ms-3">
+                        <input class="form-check-input" type="checkbox" id="autoNextToggle" checked>
+                        <label class="form-check-label" for="autoNextToggle">Otomatik İlerle</label>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="score" class="text-center mb-3">Puan: 0</div>
+    </div>
+    <div class="content-wrapper container">
+        <div class="sidebar card">
+            <div class="card-body">
+                <h6>Yüklenen Dersler</h6>
+                <div id="json-files"></div>
+            </div>
+        </div>
+        <div class="main-content">
+            <div id="content" class="card"></div>
+            <div id="recent-questions" class="card"><div class="card-body"><h6>Son 5 Soru:</h6><div id="recent-list"></div></div></div>
+            <div id="search-results" class="card"><div class="card-body"><h6>Arama Sonuçları:</h6><div id="search-list"></div></div></div>
+            <div id="blacklist" class="card"><div class="card-body"><h6>Karalisteye Alınanlar:</h6><div id="blacklist-list"></div></div></div>
+            <div id="missed-questions" class="card"><div class="card-body"><h6>Bilemediğim Sorular:</h6><div id="missed-list"></div></div></div>
+        </div>
+    </div>
+    <div id="virtual-keyboard">
+        <div class="keyboard-row" id="keyboard-content"></div>
+        <div class="keyboard-row">
+            <button onclick="toggleCaps()">Caps</button>
+            <button onclick="addToInput(' ')">Space</button>
+            <button onclick="deleteLast()">Backspace</button>
+            <button onclick="checkAnswer()">Enter</button>
+            <button onclick="moveCursor(-1)">←</button>
+            <button onclick="moveCursor(1)">→</button>
+            <button onclick="copyText()">Copy</button>
+            <button onclick="pasteText()">Paste</button>
+            <button onclick="toggleLanguage()">TR/BG</button>
+            <button onclick="closeKeyboard()">Kapat</button>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+    <script>
+        let lessonData = [];
+        let jsonFiles = {};
+        let currentIndex = 0;
+        let score = 0;
+        let answers = [];
+        let recentQuestions = [];
+        let blacklist = [];
+        let wrongCount = {};
+        let priorityQueue = [];
+        let missedQuestions = [];
+        let questionCounter = 0;
+        let isRandomOrder = false;
+        let isTurkishQuestion = false;
+        let lastIndexBeforeJump = -1;
+        let autoNextTimeout = null;
+        let isAutoNextPaused = false;
+        let lastSequentialIndex = 0;
+        let searchResults = [];
+        let searchIndex = 0;
+        let isSearchMode = false;
+        let isResultShown = false;
+        let isSpeechEnabled = false;
+        let isLatinVisible = false;
+        let isRepeatWrongEnabled = false;
+        let isSoundEnabled = false;
+        let isMissedMode = false;
+        let isBulgarianKeyboard = true; // Varsayılan olarak Bulgarca klavye
+        let isCapsOn = false;
+
+        const githubLessonUrls = [
+            { name: "Ders 1", url: "https://raw.githubusercontent.com/mustafasacar35/dersler_dosyalar/main/DERS_1.JSON" },
+            { name: "Ders 2", url: "https://raw.githubusercontent.com/mustafasacar35/dersler_dosyalar/main/DERS_2.JSON" },
+            { name: "Ders 3", url: "https://raw.githubusercontent.com/mustafasacar35/dersler_dosyalar/main/DERS_3.JSON" },
+            { name: "Ders 4", url: "https://raw.githubusercontent.com/mustafasacar35/dersler_dosyalar/main/DERS_4.JSON" },
+            { name: "Ders 5", url: "https://raw.githubusercontent.com/mustafasacar35/dersler_dosyalar/main/DERS_5.JSON" },
+            { name: "Ders 6", url: "https://raw.githubusercontent.com/mustafasacar35/dersler_dosyalar/main/DERS_6.JSON" },
+            { name: "Ders 7", url: "https://raw.githubusercontent.com/mustafasacar35/dersler_dosyalar/main/DERS_7.JSON" },
+        ];
+        const numberToText = {
+            "0": "sıfır", "1": "bir", "2": "iki", "3": "üç", "4": "dört", "5": "beş",
+            "6": "altı", "7": "yedi", "8": "sekiz", "9": "dokuz", "10": "on",
+            "11": "onbir", "12": "oniki", "13": "onüç", "14": "ondört", "15": "onbeş",
+            "16": "onaltı", "17": "onyedi", "18": "onsekiz", "19": "ondokuz", "20": "yirmi",
+            "30": "otuz", "40": "kırk", "50": "elli", "60": "altmış", "70": "yetmiş",
+            "80": "seksen", "90": "doksan", "100": "yüz"
+        };
+        const textToNumber = Object.fromEntries(Object.entries(numberToText).map(([key, value]) => [value, key]));
+        const cyrillicToLatin = {
+            "А": "A", "Б": "B", "В": "V", "Г": "G", "Д": "D", "Е": "E", "Ж": "ZH",
+            "З": "Z", "И": "I", "Й": "Y", "К": "K", "Л": "L", "М": "M", "Н": "N",
+            "О": "O", "П": "P", "Р": "R", "С": "S", "Т": "T", "У": "U", "Ф": "F",
+            "Х": "H", "Ц": "TS", "Ч": "CH", "Ш": "SH", "Щ": "SHT", "Ъ": "A", "Ь": "",
+            "Ю": "YU", "Я": "YA", "Ѝ": "I"
+        };
+        const possessivePronouns = {
+            "benim": ["МОЯТ (moyat)", "МОЯТА (moyata)", "МОЕТО (moeto)", "МОИТЕ (moite)"],
+            "senin": ["ТВОЯТ (tvoyat)", "ТВОЯТА (tvoyata)", "ТВОЕТО (tvoeto)", "ТВОИТЕ (tvoite)"],
+            "onun_erkek": ["НЕГОВИЯТ (negoviyat)", "НЕГОВАТА (negovata)", "НЕГОВОТО (negovoto)", "НЕГОВИТЕ (negovite)"],
+            "onun_kadın": ["НЕЙНИЯТ (neyniyat)", "НЕЙНАТА (neynata)", "НЕЙНОТО (neynoto)", "НЕЙНИТЕ (neynite)"],
+            "bizim": ["НАШИЯТ (naşiyat)", "НАШАТА (naşata)", "НАШЕТО (naşeto)", "НАШИТЕ (naşite)"],
+            "sizin": ["ВАШИЯТ (vaşiyat)", "ВАШАТА (vaşata)", "ВАШЕТО (vaşeto)", "ВАШИТЕ (vaşite)"],
+            "onların": ["ТЕХНИЯТ (tehniyat)", "ТЯХНАТА (tyahnata)", "ТЯХНОТО (tyahnoto)", "ТЕХНИТЕ (tehnite)"]
+        };
+        const shortPossessivePronouns = {
+            "benim": "МИ (mi)",
+            "senin": "ТИ (ti)",
+            "onun_erkek": "МУ (mu)",
+            "onun_kadın": "И (i)",
+            "bizim": "НИ (ni)",
+            "sizin": "ВИ (vi)",
+            "onların": "ИМ (im)"
+        };
+        const demonstrativePronouns = {
+            "bu": ["ТОЗИ (TOZİ)", "ТАЗИ (TAZİ)", "ТОВА (TOVA)", "ТЕЗИ (TEZİ)"],
+            "şu_o": ["ОНЗИ (ONZİ)", "ОНАЗИ (ONAZİ)", "ОНОВА (ONOVA)", "ОНЕЗИ (ONEZİ)"]
+        };
+        const prepositions = [
+            ["В (V)", "İçinde, -de, -da", "КНИГАТА Е В ЧАНТАТА", "Kitap çantanın içinde"],
+            ["За (Za)", "İçin", "ТОВА Е ЧАНТА ЗА КНИГИ", "Bu çanta kitap için"],
+            ["С (S)", "İle, birlikte", "ТОЙ ИДВА С КОЛА", "O, araba ile geliyor"],
+            ["ДО (Do)", "Yanında; -e kadar", "РАБОТИ ДО 5 ЧАСА", "Saat 5’e kadar çalışıyor"],
+            ["СЛЕД (Sled)", "Sonra", "ЩЕ ДОЙДА СЛЕД ВЕЧЕРЯ", "Yemekten sonra geleceğim"],
+            ["ОТ (Ot)", "-den, -dan", "ИДВА ОТ УЧИЛИЩЕ", "Okuldan geliyor"],
+            ["НА (Na)", "-nın/-nin, -e/-a üzerinde", "КНИГАТА Е НА МАСАТА", "Kitap masanın üzerinde"]
+        ];
+        const questionParticles = { "li": "ЛИ (li) - Soru eki, cümleyi soru haline getirir" };
+        const bulgarianKeys = [
+            'А', 'Б', 'В', 'Г', 'Д', 'Е', 'Ж', 'З', 'И', 'Й', 'К', 'Л', 'М', 'Н', 'О', 'П', 'Р', 'С', 'Т', 'У', 'Ф', 'Х', 'Ц', 'Ч', 'Ш', 'Щ', 'Ъ', 'Ь', 'Ю', 'Я',
+            '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', '.', ',', '!', '?', ';', ':', '"', "'"
+        ];
+        const turkishKeys = [
+            'A', 'B', 'C', 'Ç', 'D', 'E', 'F', 'G', 'Ğ', 'H', 'I', 'İ', 'J', 'K', 'L', 'M', 'N', 'O', 'Ö', 'P', 'R', 'S', 'Ş', 'T', 'U', 'Ü', 'V', 'Y', 'Z',
+            '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', '.', ',', '!', '?', ';', ':', '"', "'"
+        ];
+
+        async function loadAllLessons() {
+            for (const lesson of githubLessonUrls) {
+                try {
+                    const response = await fetch(lesson.url);
+                    if (!response.ok) throw new Error(`Ders yüklenemedi: ${lesson.name} - ${response.status}`);
+                    const data = await response.json();
+                    jsonFiles[lesson.name] = { data: data, selected: lesson.name === "Ders 1" };
+                } catch (error) {
+                    console.error(`Hata: ${lesson.name} yüklenemedi - ${error.message}`);
+                }
+            }
+            updateLessonData();
+            updateJsonFilesList();
+            renderContent();
+            updateSlider();
+        }
+
+        function cyrillicToLatinText(text) {
+            return text.split('').map(char => cyrillicToLatin[char] || char).join('').toUpperCase();
+        }
+
+        function normalizeText(text) {
+            let normalized = text
+                .toLowerCase()
+                .normalize('NFKD')
+                .replace(/[\u0300-\u036f]/g, '')
+                .replace(/[ıİ]/g, 'i')
+                .replace(/[iI]/g, 'i')
+                .replace(/sh/g, 'ş')
+                .replace(/zh/g, 'j')
+                .replace(/ch/g, 'ç')
+                .replace(/sht/g, 'şt')
+                .replace(/ъ/g, 'ı')
+                .replace(/[^\w\s]/g, '')
+                .replace(/\s+/g, ' ')
+                .trim();
+
+            const words = normalized.split(/\s+/);
+            const numberNormalized = words.map(word => textToNumber[word] || word).join(' ');
+            const textNormalized = words.map(word => numberToText[word] || word).join(' ');
+            const joined = words.join('');
+            const numberJoined = numberNormalized.replace(/\s+/g, '');
+            const textJoined = textNormalized.replace(/\s+/g, '');
+
+            return {
+                original: normalized,
+                numberForm: numberNormalized,
+                textForm: textNormalized,
+                joinedForm: joined,
+                numberJoinedForm: numberJoined,
+                textJoinedForm: textJoined
+            };
+        }
+
+        function isCyrillic(text) {
+            return /[А-ЯЁЪЬ]/i.test(text.charAt(0));
+        }
+
+        function cleanTextForSpeech(text) {
+            return text.replace(/\s*\(.*?\)\s*/g, ' ').trim();
+        }
+
+        function cleanTextForDisplay(text) {
+            if (!isLatinVisible || isTurkishQuestion) {
+                return text.replace(/\s*\(.*?\)\s*/g, '').trim();
+            }
+            if (isCyrillic(text) && isLatinVisible) {
+                const baseText = text.replace(/\s*\(.*?\)\s*/g, '').trim();
+                return `${baseText} (${cyrillicToLatinText(baseText)})`;
+            }
+            return text;
+        }
+
+        function playSound(type) {
+            if (!isSoundEnabled) return;
+            const audio = new Audio(type === 'correct' 
+                ? 'https://www.myinstants.com/media/sounds/correct-ding.mp3'
+                : 'https://www.myinstants.com/media/sounds/wrong-buzzer.mp3');
+            audio.play();
+        }
+
+        function speakText(text) {
+            if (isSpeechEnabled && 'speechSynthesis' in window) {
+                const cleanText = cleanTextForSpeech(text);
+                const utterance = new SpeechSynthesisUtterance(cleanText);
+                const isBulgarian = isCyrillic(cleanText);
+                utterance.lang = isBulgarian ? 'bg-BG' : 'tr-TR';
+                utterance.rate = 0.9;
+                utterance.pitch = 1.0;
+
+                const availableVoices = speechSynthesis.getVoices();
+                const hasBulgarianVoice = availableVoices.some(voice => voice.lang === 'bg-BG');
+                if (isBulgarian && !hasBulgarianVoice) {
+                    utterance.text = cyrillicToLatinText(cleanText);
+                    utterance.lang = 'tr-TR';
+                }
+
+                speechSynthesis.cancel();
+                speechSynthesis.speak(utterance);
+
+                const title = document.querySelector('.card-title');
+                if (title) title.classList.add('speaking');
+                utterance.onend = () => { if (title) title.classList.remove('speaking'); };
+            }
+        }
+
+        window.addEventListener('load', () => {
+            speechSynthesis.getVoices();
+            loadAllLessons();
+        });
+
+        function levenshteinDistance(a, b) {
+            const matrix = Array(b.length + 1).fill(null).map(() => Array(a.length + 1).fill(null));
+            for (let i = 0; i <= a.length; i++) matrix[0][i] = i;
+            for (let j = 0; j <= b.length; j++) matrix[j][0] = j;
+            for (let j = 1; j <= b.length; j++) {
+                for (let i = 1; i <= a.length; i++) {
+                    const indicator = a[i - 1] === b[j - 1] ? 0 : 1;
+                    matrix[j][i] = Math.min(
+                        matrix[j][i - 1] + 1,
+                        matrix[j - 1][i] + 1,
+                        matrix[j - 1][i - 1] + indicator
+                    );
+                }
+            }
+            return matrix[b.length][a.length];
+        }
+
+        function isAnswerCloseEnough(input, correct) {
+            const inputNorm = typeof input === 'string' ? normalizeText(input) : input;
+            const correctNorm = typeof correct === 'string' ? normalizeText(correct) : correct;
+            const inputWords = inputNorm.original.split(/\s+/);
+            const correctWords = correctNorm.original.split(/\s+/);
+
+            if (Math.abs(inputWords.length - correctWords.length) > 1) return false;
+
+            function isTransposition(word1, word2) {
+                if (word1.length !== word2.length || Math.abs(word1.length - word2.length) > 1) return false;
+                if (word1 === word2) return true;
+
+                let diffCount = 0;
+                let diffPositions = [];
+                for (let i = 0; i < word1.length; i++) {
+                    if (word1[i] !== word2[i]) {
+                        diffCount++;
+                        diffPositions.push(i);
+                        if (diffCount > 2) return false;
+                    }
+                }
+                if (diffCount !== 2) return false;
+
+                const [pos1, pos2] = diffPositions;
+                return word1[pos1] === word2[pos2] && word1[pos2] === word2[pos1];
+            }
+
+            const matches = inputWords.every((inputWord, i) => {
+                if (i >= correctWords.length) return true;
+                const correctWord = correctWords[i];
+                return (
+                    inputWord === correctWord ||
+                    levenshteinDistance(inputWord, correctWord) <= 1 ||
+                    isTransposition(inputWord, correctWord)
+                );
+            });
+
+            const coversAll = correctWords.every((correctWord, i) => {
+                if (i >= inputWords.length) return true;
+                const inputWord = inputWords[i];
+                return (
+                    inputWord === correctWord ||
+                    levenshteinDistance(inputWord, correctWord) <= 1 ||
+                    isTransposition(inputWord, correctWord)
+                );
+            });
+
+            return matches && coversAll;
+        }
+
+        function getActiveQuestionCount() {
+            return isMissedMode ? missedQuestions.length : isSearchMode ? searchResults.length : lessonData.length - blacklist.length;
+        }
+
+        function getTotalQuestionCount() {
+            return Object.values(jsonFiles).reduce((sum, file) => sum + file.data.length, 0);
+        }
+
+        function extractParentheticalWords(question) {
+            const match = question.match(/\((.*?)\)/);
+            if (!match) return [];
+            return match[1].split(' - ')[0].trim().split(/\s+/);
+        }
+
+        function extractBaseAnswer(answer) {
+            const match = answer.match(/^(.*?)\s*\((.*?)\)$/);
+            return match ? [match[1].trim(), answer] : [answer, answer];
+        }
+
+        function generateCombinations(words, baseAnswer) {
+            const results = [baseAnswer];
+            const combos = [];
+            for (let i = 1; i < (1 << words.length); i++) {
+                const combo = [];
+                for (let j = 0; j < words.length; j++) {
+                    if (i & (1 << j)) combo.push(words[j]);
+                }
+                combos.push(combo);
+            }
+            combos.forEach(combo => {
+                const permutations = getPermutations(combo);
+                permutations.forEach(perm => {
+                    results.push(`${perm.join(' ')} ${baseAnswer}`);
+                });
+            });
+            return results;
+        }
+
+        function getPermutations(arr) {
+            if (arr.length === 0) return [[]];
+            const result = [];
+            for (let i = 0; i < arr.length; i++) {
+                const rest = arr.slice(0, i).concat(arr.slice(i + 1));
+                const subPerms = getPermutations(rest);
+                subPerms.forEach(subPerm => {
+                    result.push([arr[i]].concat(subPerm));
+                });
+            }
+            return result;
+        }
+
+        function saveState() {
+            const state = {
+                currentIndex, score, answers, recentQuestions, blacklist, wrongCount, priorityQueue,
+                missedQuestions, questionCounter, isRandomOrder, isTurkishQuestion, lastSequentialIndex,
+                searchResults, searchIndex, isSearchMode, isSpeechEnabled, isLatinVisible, isRepeatWrongEnabled,
+                isSoundEnabled, jsonFiles, isMissedMode, isBulgarianKeyboard, isCapsOn
+            };
+            const defaultName = 'bulgarca_app_state.json';
+            const fileName = prompt("Durumu kaydetmek için bir dosya adı girin:", defaultName) || defaultName;
+            const jsonStr = JSON.stringify(state, null, 2);
+            const blob = new Blob([jsonStr], { type: 'application/json' });
+            const url = URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = fileName.endsWith('.json') ? fileName : `${fileName}.json`;
+            a.click();
+            URL.revokeObjectURL(url);
+            localStorage.setItem('bulgarcaAppState', jsonStr);
+            alert(`Durum '${a.download}' olarak kaydedildi!`);
+        }
+
+        function loadSavedState() {
+            const input = document.createElement('input');
+            input.type = 'file';
+            input.accept = '.json';
+            input.onchange = (e) => {
+                const file = e.target.files[0];
+                if (!file) return;
+                const reader = new FileReader();
+                reader.onload = (event) => {
+                    try {
+                        const state = JSON.parse(event.target.result);
+                        applyState(state);
+                        localStorage.setItem('bulgarcaAppState', JSON.stringify(state));
+                        alert(`Durum '${file.name}' dosyasından yüklendi!`);
+                    } catch (error) {
+                        alert('Geçersiz durum dosyası: ' + error.message);
+                    }
+                };
+                reader.readAsText(file);
+            };
+            input.click();
+        }
+
+        function applyState(state) {
+            currentIndex = state.currentIndex || 0;
+            score = state.score || 0;
+            answers = state.answers || [];
+            recentQuestions = state.recentQuestions || [];
+            blacklist = state.blacklist || [];
+            wrongCount = state.wrongCount || {};
+            priorityQueue = state.priorityQueue || [];
+            missedQuestions = state.missedQuestions || [];
+            questionCounter = state.questionCounter || 0;
+            isRandomOrder = state.isRandomOrder || false;
+            isTurkishQuestion = state.isTurkishQuestion || false;
+            lastSequentialIndex = state.lastSequentialIndex || 0;
+            searchResults = state.searchResults || [];
+            searchIndex = state.searchIndex || 0;
+            isSearchMode = state.isSearchMode || false;
+            isSpeechEnabled = state.isSpeechEnabled || false;
+            isLatinVisible = state.isLatinVisible || false;
+            isRepeatWrongEnabled = state.isRepeatWrongEnabled !== undefined ? state.isRepeatWrongEnabled : true;
+            isSoundEnabled = state.isSoundEnabled || false;
+            jsonFiles = state.jsonFiles || {};
+            isMissedMode = state.isMissedMode || false;
+            isBulgarianKeyboard = state.isBulgarianKeyboard !== undefined ? state.isBulgarianKeyboard : true;
+            isCapsOn = state.isCapsOn || false;
+            lessonData = [];
+            Object.entries(jsonFiles).forEach(([name, file]) => {
+                if (file.selected) lessonData = lessonData.concat(file.data);
+            });
+            updateUIFromState();
+            renderContent();
+            updateSlider();
+        }
+
+        function updateUIFromState() {
+            document.getElementById('toggleOrderBtn').innerText = `Sıralı Mod (Şu an: ${isRandomOrder ? 'Rastgele' : 'Sıralı'})`;
+            document.getElementById('toggleLangBtn').innerText = isTurkishQuestion ? 'Bulgarca Sorulara Geç' : 'Türkçe Sorulara Geç';
+            document.getElementById('toggleSpeechBtn').innerText = `Sesli Okuma (${isSpeechEnabled ? 'Açık' : 'Kapalı'})`;
+            document.getElementById('toggleSoundBtn').innerText = `Ses Efektleri (${isSoundEnabled ? 'Açık' : 'Kapalı'})`;
+            document.getElementById('toggleRepeatWrongBtn').innerText = `Yanlışları Tekrarla (${isRepeatWrongEnabled ? 'Açık' : 'Kapalı'})`;
+            document.getElementById('toggleLatinBtn').innerText = `Latince Göster (${isLatinVisible ? 'Açık' : 'Kapalı'})`;
+            document.getElementById('toggleThemeBtn').innerText = document.body.classList.contains('dark-theme') ? 'Açık Tema' : 'Koyu Tema';
+            document.getElementById('score').innerText = `Puan: ${score}`;
+            updateJsonFilesList();
+            updateProgressBar();
+            updateMissedQuestions();
+        }
+
+        function resetState() {
+            localStorage.removeItem('bulgarcaAppState');
+            currentIndex = 0;
+            score = 0;
+            answers = [];
+            recentQuestions = [];
+            blacklist = [];
+            wrongCount = {};
+            priorityQueue = [];
+            missedQuestions = [];
+            questionCounter = 0;
+            isRandomOrder = false;
+            isTurkishQuestion = false;
+            lastIndexBeforeJump = -1;
+            lastSequentialIndex = 0;
+            searchResults = [];
+            searchIndex = 0;
+            isSearchMode = false;
+            isSpeechEnabled = false;
+            isLatinVisible = false;
+            isRepeatWrongEnabled = true;
+            isSoundEnabled = false;
+            isMissedMode = false;
+            isBulgarianKeyboard = true;
+            isCapsOn = false;
+            jsonFiles = {};
+            lessonData = [];
+            loadAllLessons();
+            updateUIFromState();
+            renderContent();
+            alert("Durum sıfırlandı!");
+        }
+
+        function saveToGitHub() {
+            Object.entries(jsonFiles).forEach(([name, file]) => {
+                const jsonStr = JSON.stringify(file.data, null, 2);
+                const blob = new Blob([jsonStr], { type: 'application/json' });
+                const url = URL.createObjectURL(blob);
+                const a = document.createElement('a');
+                a.href = url;
+                a.download = `${name}.json`;
+                a.click();
+                URL.revokeObjectURL(url);
+            });
+            alert("Tüm ders dosyaları yerel olarak indirildi. Lütfen bu dosyaları GitHub’a manuel olarak yükleyin!");
+        }
+
+        function updateLessonData() {
+            lessonData = [];
+            Object.entries(jsonFiles).forEach(([name, file]) => {
+                if (file.selected) {
+                    lessonData = lessonData.concat(file.data);
+                }
+            });
+            currentIndex = lessonData.length > 0 ? Math.min(currentIndex, lessonData.length - 1) : 0;
+            answers = Array(lessonData.length).fill(null);
+            recentQuestions = [];
+            blacklist = [];
+            wrongCount = {};
+            priorityQueue = [];
+            missedQuestions = [];
+            renderContent();
+            updateSlider();
+        }
+
+        function updateProgressBar() {
+            const progress = getActiveQuestionCount() > 0 ? ((currentIndex + 1) / getActiveQuestionCount()) * 100 : 0;
+            const progressBar = document.getElementById('progressBar');
+            progressBar.style.width = `${progress}%`;
+            progressBar.setAttribute('aria-valuenow', progress);
+        }
+
+        function updateSlider() {
+            const slider = document.getElementById('question-slider');
+            const totalQuestions = getActiveQuestionCount();
+            slider.max = totalQuestions - 1;
+            slider.value = isMissedMode ? missedQuestions.indexOf(currentIndex) : isSearchMode ? searchIndex : currentIndex;
+
+            const progressPercentage = totalQuestions > 0 ? Math.round(((slider.value / slider.max) * 100)) : 0;
+            const percentageSpan = document.getElementById('progress-percentage');
+            if (percentageSpan) percentageSpan.innerText = `${progressPercentage}%`;
+
+            const currentQuestionNumber = isMissedMode ? missedQuestions.indexOf(currentIndex) + 1 : isSearchMode ? searchIndex + 1 : currentIndex + 1;
+            const questionCountSpan = document.getElementById('question-count');
+            if (questionCountSpan) questionCountSpan.innerText = `${currentQuestionNumber} / ${totalQuestions}`;
+        }
+
+        function renderPossessiveTable(matchedWord) {
+            let tableHTML = `
+                <div class="reference-table possessive-table">
+                    <h6>TAM İYELİK ZAMİRLERİ:</h6>
+                    <p>Tam iyelik zamirleri, isimden önce ya da vurgu gerektiğinde kullanılır.</p>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th></th>
+                                <th>Eril</th>
+                                <th>Dişil</th>
+                                <th>Nötr</th>
+                                <th>Çoğul</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+            `;
+            const rows = [
+                ["Benim", possessivePronouns["benim"]],
+                ["Senin", possessivePronouns["senin"]],
+                ["Onun (erkek)", possessivePronouns["onun_erkek"]],
+                ["Onun (kadın)", possessivePronouns["onun_kadın"]],
+                ["Bizim", possessivePronouns["bizim"]],
+                ["Sizin", possessivePronouns["sizin"]],
+                ["Onların", possessivePronouns["onların"]]
+            ];
+            rows.forEach(([label, pronouns]) => {
+                tableHTML += `<tr><td>${label}</td>`;
+                pronouns.forEach(pronoun => {
+                    const word = pronoun.split(' ')[0];
+                    const isHighlighted = matchedWord && word === matchedWord;
+                    tableHTML += `<td class="${isHighlighted ? 'highlight' : ''}" data-word="${word}">${pronoun}</td>`;
+                });
+                tableHTML += `</tr>`;
+            });
+            tableHTML += `</tbody></table></div>`;
+            return tableHTML;
+        }
+
+        function renderShortPossessiveTable(matchedWord) {
+            let tableHTML = `
+                <div class="reference-table short-possessive-table">
+                    <h6>KISA İYELİK ZAMİRLERİ:</h6>
+                    <p>Kısa iyelik zamirleri günlük konuşmalarda çok sık kullanılır ve Bulgarca iletişimde temel bir rol oynar.</p>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Türkçe</th>
+                                <th>Bulgarca</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+            `;
+            const rows = [
+                ["Benim", shortPossessivePronouns["benim"]],
+                ["Senin", shortPossessivePronouns["senin"]],
+                ["Onun (erkek)", shortPossessivePronouns["onun_erkek"]],
+                ["Onun (kadın)", shortPossessivePronouns["onun_kadın"]],
+                ["Bizim", shortPossessivePronouns["bizim"]],
+                ["Sizin", shortPossessivePronouns["sizin"]],
+                ["Onların", shortPossessivePronouns["onların"]]
+            ];
+            rows.forEach(([turkish, bulgarian]) => {
+                const word = bulgarian.split(' ')[0];
+                const isHighlighted = matchedWord && word === matchedWord;
+                tableHTML += `<tr><td>${turkish}</td><td class="${isHighlighted ? 'highlight' : ''}" data-word="${word}">${bulgarian}</td></tr>`;
+            });
+            tableHTML += `</tbody></table></div>`;
+            return tableHTML;
+        }
+
+        function renderDemonstrativeTable(matchedWord) {
+            let tableHTML = `
+                <div class="reference-table demonstrative-table">
+                    <h6>YAKIN NESNELER (BU) - UZAK NESNELER (ŞU/O):</h6>
+                    <p>Gösterim zamirleri, nesnelerin yakınlık veya uzaklığını belirtmek için kullanılır.</p>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Tür</th>
+                                <th>Eril</th>
+                                <th>Dişil</th>
+                                <th>Nötr</th>
+                                <th>Çoğul</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+            `;
+            const rows = [
+                ["BU", demonstrativePronouns["bu"]],
+                ["ŞU/O", demonstrativePronouns["şu_o"]]
+            ];
+            rows.forEach(([label, pronouns]) => {
+                tableHTML += `<tr><td>${label}</td>`;
+                pronouns.forEach(pronoun => {
+                    const word = pronoun.split(' ')[0];
+                    const isHighlighted = matchedWord && word === matchedWord;
+                    tableHTML += `<td class="${isHighlighted ? 'highlight' : ''}" data-word="${word}">${pronoun}</td>`;
+                });
+                tableHTML += `</tr>`;
+            });
+            tableHTML += `</tbody></table></div>`;
+            return tableHTML;
+        }
+
+        function renderPrepositionTable(matchedWord) {
+            let tableHTML = `
+                <div class="reference-table preposition-table">
+                    <h6>BULGARCADA EDATLAR:</h6>
+                    <p>Bulgarcada edatlar cümlede nesneler, kişiler ve olaylar arasındaki ilişkileri ifade etmek için kullanılır.</p>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Edat</th>
+                                <th>Türkçe Anlamı</th>
+                                <th>Örnek Cümle</th>
+                                <th>Anlamı</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+            `;
+            prepositions.forEach(row => {
+                tableHTML += `<tr>`;
+                row.forEach((cell, index) => {
+                    const word = index === 0 ? cell.split(' ')[0] : '';
+                    const isHighlighted = matchedWord && index === 0 && word === matchedWord;
+                    tableHTML += `<td class="${isHighlighted ? 'highlight' : ''}" data-word="${word}">${cell}</td>`;
+                });
+                tableHTML += `</tr>`;
+            });
+            tableHTML += `</tbody></table></div>`;
+            return tableHTML;
+        }
+
+        function renderQuestionParticlesTable(matchedWord) {
+            let tableHTML = `
+                <div class="reference-table question-particles-table">
+                    <h6>SORU EKLERİ:</h6>
+                    <p>Soru ekleri, Bulgarca'da cümleleri soru haline getirmek için kullanılır.</p>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Bulgarca</th>
+                                <th>Açıklama</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+            `;
+            const rows = [["ЛИ (li)", "Soru eki, cümleyi soru haline getirir"]];
+            rows.forEach(([bulgarian, description]) => {
+                const word = bulgarian.split(' ')[0];
+                const isHighlighted = matchedWord && word === matchedWord;
+                tableHTML += `<tr><td class="${isHighlighted ? 'highlight' : ''}" data-word="${word}">${bulgarian}</td><td>${description}</td></tr>`;
+            });
+            tableHTML += `</tbody></table></div>`;
+            return tableHTML;
+        }
+
+        function getReferenceTables(text) {
+            const words = text.split(/\s+/);
+            const allPossessives = Object.values(possessivePronouns).flat().map(p => p.split(' ')[0]);
+            const allShortPossessives = Object.values(shortPossessivePronouns).map(p => p.split(' ')[0]);
+            const allDemonstratives = Object.values(demonstrativePronouns).flat().map(p => p.split(' ')[0]);
+            const allPrepositions = prepositions.map(p => p[0].split(' ')[0]);
+            const allQuestionParticles = Object.values(questionParticles).map(p => p.split(' ')[0]);
+
+            const matchedPossessive = words.find(word => allPossessives.includes(word));
+            const matchedShortPossessive = words.find(word => allShortPossessives.includes(word));
+            const matchedDemonstrative = words.find(word => allDemonstratives.includes(word));
+            const matchedPreposition = words.find(word => allPrepositions.includes(word));
+            const matchedQuestionParticle = words.find(word => allQuestionParticles.includes(word));
+
+            let tables = '';
+            const tableOrder = [];
+
+            if (matchedPossessive) tableOrder.push({ type: 'possessive', word: matchedPossessive, index: text.indexOf(matchedPossessive) });
+            if (matchedShortPossessive) tableOrder.push({ type: 'shortPossessive', word: matchedShortPossessive, index: text.indexOf(matchedShortPossessive) });
+            if (matchedDemonstrative) tableOrder.push({ type: 'demonstrative', word: matchedDemonstrative, index: text.indexOf(matchedDemonstrative) });
+            if (matchedPreposition) tableOrder.push({ type: 'preposition', word: matchedPreposition, index: text.indexOf(matchedPreposition) });
+            if (matchedQuestionParticle) tableOrder.push({ type: 'questionParticle', word: matchedQuestionParticle, index: text.indexOf(matchedQuestionParticle) });
+
+            tableOrder.sort((a, b) => a.index - b.index);
+
+            tableOrder.forEach(item => {
+                if (item.type === 'possessive') tables += renderPossessiveTable(item.word);
+                else if (item.type === 'shortPossessive') tables += renderShortPossessiveTable(item.word);
+                else if (item.type === 'demonstrative') tables += renderDemonstrativeTable(item.word);
+                else if (item.type === 'preposition') tables += renderPrepositionTable(item.word);
+                else if (item.type === 'questionParticle') tables += renderQuestionParticlesTable(item.word);
+            });
+
+            return tables;
+        }
+
+        function updateTableFeedback(isCorrect, matchedWords) {
+            const tables = document.querySelectorAll('.reference-table');
+            tables.forEach(table => {
+                const cells = table.querySelectorAll('td[data-word]');
+                cells.forEach(cell => {
+                    const word = cell.getAttribute('data-word');
+                    if (matchedWords.includes(word)) {
+                        cell.classList.remove('highlight', 'correct-highlight', 'incorrect-highlight');
+                        if (isCorrect) {
+                            cell.classList.add('blink-correct');
+                            cell.classList.add('correct-highlight');
+                            cell.innerHTML = `✅ ${cell.innerHTML.replace(/^✅\s*|^❌\s*/, '')}`;
+                        } else {
+                            cell.classList.add('blink-incorrect');
+                            cell.classList.add('incorrect-highlight');
+                            cell.innerHTML = `❌ ${cell.innerHTML.replace(/^✅\s*|^❌\s*/, '')}`;
+                        }
+                        setTimeout(() => {
+                            cell.classList.remove('blink-correct', 'blink-incorrect');
+                        }, 1500);
+                    }
+                });
+            });
+        }
+
+        async function loadOnlineLesson(fileUrl, fileName = 'GitHubLesson.json') {
+            try {
+                const response = await fetch(fileUrl);
+                if (!response.ok) throw new Error('Ağ yanıtı başarısız: ' + response.status);
+                const newData = await response.json();
+                jsonFiles[fileName] = { data: newData, selected: true };
+                updateLessonData();
+                updateJsonFilesList();
+                score = 0;
+                document.getElementById('score').innerText = `Puan: 0`;
+                alert(`${fileName} başarıyla yüklendi!`);
+            } catch (error) {
+                alert('GitHub’dan ders yüklenemedi: ' + error.message);
+            }
+        }
+
+        function renderContent() {
+            const contentDiv = document.getElementById('content');
+            if (!contentDiv) return;
+
+            const tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'));
+            tooltipTriggerList.forEach(tooltipTriggerEl => {
+                const tooltip = bootstrap.Tooltip.getInstance(tooltipTriggerEl);
+                if (tooltip) tooltip.dispose();
+            });
+
+            if (!lessonData || lessonData.length === 0) {
+                contentDiv.innerHTML = '<div class="card-body"><p>Lütfen bir ders ekleyin.</p></div>';
+                return;
+            }
+
+            if (currentIndex < 0 || currentIndex >= lessonData.length) {
+                currentIndex = 0;
+            }
+
+            const item = lessonData[currentIndex];
+            if (!item || !item.question || !item.answer) {
+                contentDiv.innerHTML = '<div class="card-body"><p>Geçersiz veri formatı: Soru veya cevap eksik.</p></div>';
+                return;
+            }
+
+            let question = isTurkishQuestion ? item.answer : (Array.isArray(item.question) ? item.question[0] : item.question);
+            question = cleanTextForDisplay(question);
+            const tooltipAnswer = isTurkishQuestion 
+                ? (Array.isArray(item.question) ? item.question.map(q => `${q} - ${cyrillicToLatinText(q)}`).join(' / ') : `${item.question} - ${cyrillicToLatinText(item.question)}`)
+                : item.answer;
+
+            const referenceTables = getReferenceTables(question + ' ' + tooltipAnswer);
+
+            contentDiv.innerHTML = `
+                <div class="card-body ${isSearchMode ? 'search-active' : ''} ${isMissedMode ? 'missed-active' : ''}">
+                    <h5 class="card-title" data-bs-toggle="tooltip" data-bs-placement="top" title="${tooltipAnswer}">${question} <span class="edit-icon" onclick="editQuestion()">✏️</span> <span class="edit-icon" onclick="toggleBlacklist(${currentIndex})">${blacklist.includes(currentIndex) ? '✖' : '🚫'}</span></h5>
+                    <div class="input-group mb-3">
+                        <input type="text" class="form-control" id="input-answer" placeholder="Cevabınızı buraya yazın" value="${answers[currentIndex] || ''}">
+                        <button class="btn btn-outline-primary" onclick="checkAnswer()">Kontrol Et</button>
+                        <button id="prevBtn" class="btn btn-secondary me-2" ${isMissedMode ? (missedQuestions.indexOf(currentIndex) === 0) : isSearchMode ? (searchIndex === 0) : (currentIndex === 0) ? 'disabled' : ''}>Geri</button>
+                        <button id="nextBtn" class="btn btn-secondary" ${isMissedMode ? (missedQuestions.indexOf(currentIndex) === missedQuestions.length - 1) : currentIndex === lessonData.length - 1 || blacklist.includes(currentIndex) ? 'disabled' : ''}>İleri</button>
+                        <button class="btn btn-outline-warning" id="editBtn" onclick="enableEdit()" ${answers[currentIndex] ? '' : 'disabled'}>Düzenle</button>
+                    </div>
+                    <div id="result"></div>
+                    <p>Soru: ${isMissedMode ? missedQuestions.indexOf(currentIndex) + 1 : isSearchMode ? searchIndex + 1 : currentIndex + 1}/${getActiveQuestionCount()} (${getTotalQuestionCount()}) ${isMissedMode ? '(Bilemediklerim Modu)' : isSearchMode ? '(Arama Modu)' : ''}</p>
+                    ${referenceTables}
+                </div>
+            `;
+            updateRecentQuestions();
+            updateBlacklist();
+            updateMissedQuestions();
+            updateProgressBar();
+            updateSlider();
+
+            const newTooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'));
+            newTooltipTriggerList.map(function (tooltipTriggerEl) {
+                return new bootstrap.Tooltip(tooltipTriggerEl);
+            });
+
+            const input = document.getElementById('input-answer');
+            if (input) {
+                input.focus();
+                input.removeEventListener('keypress', input._keypressHandler);
+                document.removeEventListener('keydown', document._keydownHandler);
+
+                const keydownHandler = (event) => {
+                    const isInputActive = document.activeElement === input;
+
+                    switch (event.key) {
+                        case 'ArrowLeft':
+                            if (isInputActive) return;
+                            else {
+                                if (isMissedMode && missedQuestions.indexOf(currentIndex) > 0) {
+                                    currentIndex = missedQuestions[missedQuestions.indexOf(currentIndex) - 1];
+                                    renderContent();
+                                } else if (isSearchMode && searchIndex > 0) {
+                                    searchIndex--;
+                                    currentIndex = searchResults[searchIndex];
+                                    renderContent();
+                                } else if (currentIndex > 0) {
+                                    do {
+                                        currentIndex--;
+                                    } while (blacklist.includes(currentIndex) && currentIndex > 0);
+                                    renderContent();
+                                }
+                            }
+                            break;
+
+                        case 'ArrowRight':
+                            if (isInputActive) return;
+                            else {
+                                moveToNextQuestion();
+                                renderContent();
+                            }
+                            break;
+
+                        case 'ArrowUp':
+                            if (isMissedMode && missedQuestions.indexOf(currentIndex) > 0) {
+                                currentIndex = missedQuestions[missedQuestions.indexOf(currentIndex) - 1];
+                                renderContent();
+                            } else if (isSearchMode && searchIndex > 0) {
+                                searchIndex--;
+                                currentIndex = searchResults[searchIndex];
+                                renderContent();
+                            } else if (currentIndex > 0) {
+                                do {
+                                    currentIndex--;
+                                } while (blacklist.includes(currentIndex) && currentIndex > 0);
+                                renderContent();
+                            }
+                            break;
+
+                        case 'ArrowDown':
+                            moveToNextQuestion();
+                            renderContent();
+                            break;
+
+                        case 'Enter':
+                            if (isInputActive) {
+                                event.preventDefault();
+                                if (!isResultShown) checkAnswer();
+                            } else {
+                                event.preventDefault();
+                                moveToNextQuestion();
+                                renderContent();
+                            }
+                            break;
+
+                        case ' ':
+                            if (isInputActive) return;
+                            else {
+                                event.preventDefault();
+                                enableEdit();
+                            }
+                            break;
+                    }
+                };
+
+                document.addEventListener('keydown', keydownHandler);
+                document._keydownHandler = keydownHandler;
+
+                input._keypressHandler = (event) => {
+                    if (event.key === 'Enter') {
+                        event.preventDefault();
+                        if (!isResultShown) {
+                            checkAnswer();
+                        } else {
+                            if (autoNextTimeout) clearTimeout(autoNextTimeout);
+                            moveToNextQuestion();
+                            renderContent();
+                        }
+                    }
+                };
+            }
+
+            if (!isResultShown) {
+                contentDiv.addEventListener('click', function() {
+                    isAutoNextPaused = true;
+                    if (autoNextTimeout) {
+                        clearTimeout(autoNextTimeout);
+                        autoNextTimeout = null;
+                    }
+                }, { once: true });
+            }
+
+            if (answers[currentIndex] && !isAutoNextPaused) {
+                checkAnswer(true);
+            }
+
+            const prevBtn = document.getElementById('prevBtn');
+            const nextBtn = document.getElementById('nextBtn');
+            if (prevBtn) {
+                prevBtn.addEventListener('click', () => {
+                    if (isMissedMode) {
+                        const currentMissedIdx = missedQuestions.indexOf(currentIndex);
+                        if (currentMissedIdx > 0) {
+                            currentIndex = missedQuestions[currentMissedIdx - 1];
+                            renderContent();
+                        }
+                    } else if (isSearchMode) {
+                        if (searchIndex > 0) {
+                            searchIndex--;
+                            currentIndex = searchResults[searchIndex];
+                            renderContent();
+                        }
+                    } else if (currentIndex > 0) {
+                        do {
+                            currentIndex--;
+                        } while (blacklist.includes(currentIndex) && currentIndex > 0);
+                        renderContent();
+                    }
+                });
+            }
+            if (nextBtn) {
+                nextBtn.addEventListener('click', () => {
+                    moveToNextQuestion();
+                    renderContent();
+                });
+            }
+
+            if (autoNextTimeout) {
+                clearTimeout(autoNextTimeout);
+                autoNextTimeout = null;
+            }
+            isResultShown = false;
+
+            if (isSpeechEnabled) {
+                speakText(question);
+            }
+        }
+
+        function checkAnswer(isReload = false) {
+            const input = document.getElementById('input-answer');
+            if (!input) return;
+            const inputValue = input.value.trim();
+            const item = lessonData[currentIndex];
+            let correctAnswers = isTurkishQuestion 
+                ? (Array.isArray(item.question) ? item.question : [item.question]) 
+                : [item.answer];
+
+            const baseCorrectAnswers = correctAnswers.map(a => extractBaseAnswer(a)[0]);
+            const normalizedCorrectAnswers = baseCorrectAnswers.map(a => normalizeText(a));
+            const latinAnswers = baseCorrectAnswers.map(a => normalizeText(cyrillicToLatinText(a)));
+            const inputNormalized = normalizeText(inputValue);
+
+            const questionText = isTurkishQuestion ? item.answer : (Array.isArray(item.question) ? item.question[0] : item.question);
+            const parentheticalWords = extractParentheticalWords(questionText);
+            const normalizedBaseAnswer = normalizeText(extractBaseAnswer(correctAnswers[0])[0]);
+            const extendedCorrectAnswers = parentheticalWords.length > 0 
+                ? generateCombinations(parentheticalWords.map(w => normalizeText(w).original), normalizedBaseAnswer.original) 
+                : [normalizedBaseAnswer.original];
+
+            const pronouns = ['ben', 'sen', 'o', 'biz', 'siz', 'onlar'];
+            const inputWords = inputNormalized.original.split(/\s+/);
+            const hasPronounPrefix = pronouns.includes(inputWords[0]);
+            const inputWithoutPronoun = hasPronounPrefix ? inputWords.slice(1).join(' ') : inputNormalized.original;
+            const inputWithoutPronounJoined = hasPronounPrefix ? inputWords.slice(1).join('') : inputNormalized.joinedForm;
+
+            let isCorrect = false;
+
+            if (inputValue === '') {
+                if (!isReload) {
+                    answers[currentIndex] = inputValue;
+                    wrongCount[currentIndex] = (wrongCount[currentIndex] || 0) + 1;
+                    if (isRepeatWrongEnabled && !priorityQueue.includes(currentIndex)) priorityQueue.push(currentIndex);
+                    if (!missedQuestions.includes(currentIndex)) missedQuestions.push(currentIndex);
+                    playSound('incorrect');
+                }
+            } else {
+                const checkForms = (inputForms, correctForms) => {
+                    return correctForms.some(c => 
+                        inputForms.some(inputForm => 
+                            c === inputForm || 
+                            isAnswerCloseEnough(inputForm, c) ||
+                            c === (hasPronounPrefix ? inputWithoutPronoun : inputForm) ||
+                            isAnswerCloseEnough(hasPronounPrefix ? inputWithoutPronoun : inputForm, c) ||
+                            c === (hasPronounPrefix ? inputWithoutPronounJoined : inputForm) ||
+                            isAnswerCloseEnough(hasPronounPrefix ? inputWithoutPronounJoined : inputForm, c)
+                        )
+                    );
+                };
+
+                if (isTurkishQuestion) {
+                    const allCorrectAnswers = normalizedCorrectAnswers.flatMap(a => [
+                        a.original, a.numberForm, a.textForm, a.joinedForm, a.numberJoinedForm, a.textJoinedForm
+                    ]).concat(latinAnswers.flatMap(a => [
+                        a.original, a.numberForm, a.textForm, a.joinedForm, a.numberJoinedForm, a.textJoinedForm
+                    ]));
+                    const answerOptions = [...new Set(allCorrectAnswers)].flatMap(a => a.split(/\s*\/\s*/));
+                    const answerParts = answerOptions.map(opt => opt.split(/\s+/));
+                    isCorrect = answerOptions.some(option => 
+                        checkForms([inputNormalized.original, inputNormalized.numberForm, inputNormalized.textForm, 
+                                    inputNormalized.joinedForm, inputNormalized.numberJoinedForm, inputNormalized.textJoinedForm], [option]) ||
+                        answerParts.some(parts => 
+                            parts.includes(inputNormalized.original) || 
+                            parts.includes(inputNormalized.numberForm) || 
+                            parts.includes(inputNormalized.textForm) ||
+                            parts.includes(inputNormalized.joinedForm) || 
+                            parts.includes(inputNormalized.numberJoinedForm) || 
+                            parts.includes(inputNormalized.textJoinedForm)
+                        )
+                    );
+                } else {
+                    const allCorrectAnswers = extendedCorrectAnswers.flatMap(a => {
+                        const norm = normalizeText(a);
+                        return [norm.original, norm.numberForm, norm.textForm, norm.joinedForm, norm.numberJoinedForm, norm.textJoinedForm];
+                    });
+                    const answerParts = allCorrectAnswers.map(a => a.split(/\s+/));
+                    isCorrect = allCorrectAnswers.some(a => 
+                        checkForms([inputNormalized.original, inputNormalized.numberForm, inputNormalized.textForm, 
+                                    inputNormalized.joinedForm, inputNormalized.numberJoinedForm, inputNormalized.textJoinedForm], [a]) ||
+                        answerParts.some(parts => 
+                            parts.includes(inputNormalized.original) || 
+                            parts.includes(inputNormalized.numberForm) || 
+                            parts.includes(inputNormalized.textForm) ||
+                            parts.includes(inputNormalized.joinedForm) || 
+                            parts.includes(inputNormalized.numberJoinedForm) || 
+                            parts.includes(inputNormalized.textJoinedForm)
+                        )
+                    );
+                }
+
+                if (!isReload) {
+                    answers[currentIndex] = inputValue;
+                    if (isCorrect) {
+                        if (!wrongCount[currentIndex]) score += 1;
+                        delete wrongCount[currentIndex];
+                        priorityQueue = priorityQueue.filter(i => i !== currentIndex);
+                        missedQuestions = missedQuestions.filter(i => i !== currentIndex);
+                        playSound('correct');
+                    } else {
+                        wrongCount[currentIndex] = (wrongCount[currentIndex] || 0) + 1;
+                        if (isRepeatWrongEnabled && !priorityQueue.includes(currentIndex)) priorityQueue.push(currentIndex);
+                        if (!missedQuestions.includes(currentIndex)) missedQuestions.push(currentIndex);
+                        playSound('incorrect');
+                    }
+                }
+            }
+
+            const fullCorrectAnswer = isTurkishQuestion 
+                ? correctAnswers.map(a => `${a}${isLatinVisible ? ` - ${cyrillicToLatinText(a)}` : ''}`).join(' / ')
+                : correctAnswers.map(a => `${a}`).join(' / ');
+
+            const words = (questionText + ' ' + fullCorrectAnswer).split(/\s+/);
+            const allPossessives = Object.values(possessivePronouns).flat().map(p => p.split(' ')[0]);
+            const allShortPossessives = Object.values(shortPossessivePronouns).map(p => p.split(' ')[0]);
+            const allDemonstratives = Object.values(demonstrativePronouns).flat().map(p => p.split(' ')[0]);
+            const allPrepositions = prepositions.map(p => p[0].split(' ')[0]);
+            const allQuestionParticles = Object.values(questionParticles).map(p => p.split(' ')[0]);
+
+            const matchedWords = [];
+            if (words.some(word => allPossessives.includes(word))) matchedWords.push(words.find(word => allPossessives.includes(word)));
+            if (words.some(word => allShortPossessives.includes(word))) matchedWords.push(words.find(word => allShortPossessives.includes(word)));
+            if (words.some(word => allDemonstratives.includes(word))) matchedWords.push(words.find(word => allDemonstratives.includes(word)));
+            if (words.some(word => allPrepositions.includes(word))) matchedWords.push(words.find(word => allPrepositions.includes(word)));
+            if (words.some(word => allQuestionParticles.includes(word))) matchedWords.push(words.find(word => allQuestionParticles.includes(word)));
+
+            const resultDiv = document.getElementById('result');
+            if (resultDiv) {
+                if (inputValue === '') {
+                    resultDiv.innerHTML = `<span class="result-icon incorrect">❌</span> Cevap boş bırakıldı! Doğru cevap: ${fullCorrectAnswer}`;
+                    resultDiv.className = 'incorrect';
+                } else if (isCorrect) {
+                    resultDiv.innerHTML = `<span class="result-icon correct">✅</span> Doğru! Girdiğiniz cevap: ${inputValue}`;
+                    if (matchedWords.length > 0) updateTableFeedback(true, matchedWords);
+                    if (!isReload && !isAutoNextPaused && (isMissedMode ? missedQuestions.indexOf(currentIndex) < missedQuestions.length - 1 : currentIndex < lessonData.length - 1)) {
+                        autoNextTimeout = setTimeout(() => {
+                            if (!isAutoNextPaused) {
+                                moveToNextQuestion();
+                                renderContent();
+                            }
+                        }, 2000);
+                    }
+                } else {
+                    const closestAnswer = extendedCorrectAnswers.reduce((prev, curr) => 
+                        levenshteinDistance(normalizeText(prev).original, inputNormalized.original) < levenshteinDistance(inputNormalized.original, normalizeText(curr).original) ? prev : curr
+                    );
+                    resultDiv.innerHTML = `<span class="result-icon incorrect">❌</span> Yanlış! '${inputValue}' yerine '${correctAnswers[0]}' bekleniyor. Tam cevap: ${fullCorrectAnswer}`;
+                    if (matchedWords.length > 0) updateTableFeedback(false, matchedWords);
+                }
+                resultDiv.className = isCorrect ? 'correct' : 'incorrect';
+            }
+            if (input) input.disabled = true;
+            const editBtn = document.getElementById('editBtn');
+            if (editBtn) editBtn.disabled = false;
+            document.getElementById('score').innerText = `Puan: ${score}`;
+            isResultShown = true;
+        }
+
+        function moveToNextQuestion() {
+            questionCounter++;
+            if (isMissedMode && missedQuestions.length > 0) {
+                const currentMissedIdx = missedQuestions.indexOf(currentIndex);
+                if (currentMissedIdx < missedQuestions.length - 1) {
+                    currentIndex = missedQuestions[currentMissedIdx + 1];
+                }
+            } else if (isSearchMode && searchResults.length > 0) {
+                searchIndex = (searchIndex + 1) % searchResults.length;
+                currentIndex = searchResults[searchIndex];
+            } else if (!isSearchMode && priorityQueue.length > 0) {
+                const nextInQueue = priorityQueue[0];
+                const wrongTimes = wrongCount[nextInQueue] || 0;
+                const interval = wrongTimes === 1 ? 10 : wrongTimes === 2 ? 5 : 3;
+                if (questionCounter >= interval) {
+                    const tempIndex = currentIndex;
+                    currentIndex = nextInQueue;
+                    questionCounter = 0;
+                    renderContent();
+                    setTimeout(() => {
+                        currentIndex = tempIndex;
+                        moveToNextSequential();
+                        renderContent();
+                    }, 2000);
+                    return;
+                }
+                moveToNextSequential();
+            } else {
+                moveToNextSequential();
+            }
+        }
+
+        function moveToNextSequential() {
+            if (currentIndex < lessonData.length - 1) {
+                do {
+                    currentIndex++;
+                } while (blacklist.includes(currentIndex) && currentIndex < lessonData.length - 1);
+                lastSequentialIndex = currentIndex;
+            }
+        }
+
+        function enableEdit() {
+            const input = document.getElementById('input-answer');
+            if (input) {
+                input.disabled = false;
+                input.focus();
+            }
+            const resultDiv = document.getElementById('result');
+            if (resultDiv) resultDiv.innerHTML = '';
+            const editBtn = document.getElementById('editBtn');
+            if (editBtn) editBtn.disabled = true;
+            isAutoNextPaused = true;
+            if (autoNextTimeout) clearTimeout(autoNextTimeout);
+            isResultShown = false;
+        }
+
+        function editQuestion() {
+            const item = lessonData[currentIndex];
+            if (isTurkishQuestion) {
+                const newAnswer = prompt("Cevabı düzenle:", item.answer);
+                if (newAnswer !== null) {
+                    item.answer = newAnswer;
+                    alert("Kaydedildi!");
+                    renderContent();
+                }
+            } else {
+                const currentQuestions = Array.isArray(item.question) ? item.question : [item.question];
+                const newQuestion = prompt("Soruyu düzenle (birden fazla cevap için / ile ayırın):", currentQuestions.join(' / '));
+                if (newQuestion !== null) {
+                    item.question = newQuestion.includes('/') ? newQuestion.split(' / ') : newQuestion;
+                    alert("Kaydedildi!");
+                    renderContent();
+                }
+            }
+        }
+
+        function toggleBlacklist(index) {
+            const idx = blacklist.indexOf(index);
+            if (idx === -1) {
+                blacklist.push(index);
+                if (currentIndex === index && !isAutoNextPaused && currentIndex < lessonData.length - 1) {
+                    autoNextTimeout = setTimeout(() => {
+                        if (!isAutoNextPaused) {
+                            moveToNextQuestion();
+                            renderContent();
+                        }
+                    }, 2000);
+                }
+            } else {
+                blacklist.splice(idx, 1);
+            }
+            renderContent();
+            updateBlacklist();
+        }
+
+        function updateRecentQuestions() {
+            if (!recentQuestions.includes(currentIndex)) {
+                recentQuestions.push(currentIndex);
+                if (recentQuestions.length > 5) recentQuestions.shift();
+            }
+            const recentList = document.getElementById('recent-list');
+            if (!recentList) return;
+            recentList.innerHTML = '';
+            recentQuestions.slice().reverse().forEach(index => {
+                const item = lessonData[index];
+                const answer = answers[index];
+                let symbol = '';
+                let symbolClass = '';
+                if (answer === '' || answer === null || answer === undefined) {
+                    symbol = '∅';
+                    symbolClass = 'unanswered';
+                } else if (answer) {
+                    const correctAnswers = isTurkishQuestion ? (Array.isArray(item.question) ? item.question : [item.question]) : [item.answer];
+                    const normalizedCorrectAnswers = correctAnswers.map(a => normalizeText(extractBaseAnswer(a)[0]));
+                    const latinAnswers = correctAnswers.map(a => normalizeText(cyrillicToLatinText(extractBaseAnswer(a)[0])));
+                    const allCorrectAnswers = [...normalizedCorrectAnswers, ...latinAnswers];
+                    const questionText = isTurkishQuestion ? item.answer : (Array.isArray(item.question) ? item.question[0] : item.question);
+                    const parentheticalWords = extractParentheticalWords(questionText);
+                    const normalizedBaseAnswer = normalizeText(extractBaseAnswer(correctAnswers[0])[0]);
+                    const extendedCorrectAnswers = parentheticalWords.length > 0 
+                        ? generateCombinations(parentheticalWords.map(w => normalizeText(w).original), normalizedBaseAnswer.original) 
+                        : [normalizedBaseAnswer.original];
+                    const inputNormalized = normalizeText(answer);
+
+                    const isCorrect = extendedCorrectAnswers.some(a => 
+                        inputNormalized.original === a || 
+                        isAnswerCloseEnough(inputNormalized.original, a) ||
+                        inputNormalized.joinedForm === a ||
+                        isAnswerCloseEnough(inputNormalized.joinedForm, a)
+                    );
+                    symbol = isCorrect ? '✅' : '❌';
+                    symbolClass = isCorrect ? 'correct' : 'incorrect';
+                }
+                const question = isTurkishQuestion ? item.answer : (Array.isArray(item.question) ? item.question[0] : item.question);
+                const li = document.createElement('li');
+                li.className = `recent-question ${symbolClass}`;
+                li.innerHTML = `<span class="result-icon ${symbolClass}">${symbol}</span> ${question}`;
+                li.onclick = () => {
+                    lastIndexBeforeJump = currentIndex;
+                    currentIndex = index;
+                    renderContent();
+                };
+                recentList.appendChild(li);
+            });
+        }
+
+        function updateBlacklist() {
+            const blacklistList = document.getElementById('blacklist-list');
+            if (!blacklistList) return;
+            blacklistList.innerHTML = '';
+            blacklist.forEach(index => {
+                const item = lessonData[index];
+                const question = isTurkishQuestion ? item.answer : (Array.isArray(item.question) ? item.question[0] : item.question);
+                const li = document.createElement('li');
+                li.className = 'blacklist-item';
+                li.innerHTML = question;
+                li.onclick = () => toggleBlacklist(index);
+                blacklistList.appendChild(li);
+            });
+        }
+
+        function updateMissedQuestions() {
+            const missedList = document.getElementById('missed-list');
+            if (!missedList) return;
+            missedList.innerHTML = '';
+            missedQuestions.forEach(index => {
+                const item = lessonData[index];
+                const question = isTurkishQuestion ? item.answer : (Array.isArray(item.question) ? item.question[0] : item.question);
+                const li = document.createElement('li');
+                li.className = 'missed-question';
+                li.innerHTML = question;
+                li.onclick = () => {
+                    lastIndexBeforeJump = currentIndex;
+                    currentIndex = index;
+                    renderContent();
+                };
+                missedList.appendChild(li);
+            });
+        }
+
+        function updateJsonFilesList() {
+            const jsonFilesDiv = document.getElementById('json-files');
+            if (!jsonFilesDiv) return;
+            jsonFilesDiv.innerHTML = '';
+            Object.entries(jsonFiles).forEach(([name, file]) => {
+                const div = document.createElement('div');
+                div.className = 'json-file';
+                const checkbox = document.createElement('input');
+                checkbox.type = 'checkbox';
+                checkbox.checked = file.selected;
+                checkbox.onchange = () => {
+                    file.selected = checkbox.checked;
+                    updateLessonData();
+                };
+                const label = document.createElement('label');
+                label.innerText = `${name} (${file.data.length} soru)`;
+                label.style.marginLeft = '5px';
+                const deleteBtn = document.createElement('button');
+                deleteBtn.className = 'btn btn-danger btn-sm delete-btn';
+                deleteBtn.innerText = 'Sil';
+                deleteBtn.onclick = () => {
+                    if (confirm(`${name} dersini silmek istediğinizden emin misiniz?`)) {
+                        delete jsonFiles[name];
+                        updateLessonData();
+                        updateJsonFilesList();
+                    }
+                };
+                div.appendChild(checkbox);
+                div.appendChild(label);
+                div.appendChild(deleteBtn);
+                jsonFilesDiv.appendChild(div);
+            });
+        }
+
+        function exportJson() {
+            const exportData = Object.entries(jsonFiles).reduce((acc, [name, file]) => {
+                if (file.selected) acc[name] = file.data;
+                return acc;
+            }, {});
+            const jsonStr = JSON.stringify(exportData, null, 2);
+            const blob = new Blob([jsonStr], { type: 'application/json' });
+            const url = URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = 'exported_lessons.json';
+            a.click();
+            URL.revokeObjectURL(url);
+            alert("Ders verileri 'exported_lessons.json' olarak dışa aktarıldı!");
+        }
+
+        function searchQuestions() {
+            const query = document.getElementById('search-input').value.trim().toLowerCase();
+            const focusOnly = document.getElementById('focus-questions').checked;
+            if (query === '') {
+                searchResults = [];
+                isSearchMode = false;
+                currentIndex = lastIndexBeforeJump !== -1 ? lastIndexBeforeJump : currentIndex;
+                lastIndexBeforeJump = -1;
+            } else {
+                searchResults = lessonData
+                    .map((item, index) => {
+                        const question = isTurkishQuestion ? item.answer : (Array.isArray(item.question) ? item.question[0] : item.question);
+                        const answer = isTurkishQuestion ? (Array.isArray(item.question) ? item.question.join(' / ') : item.question) : item.answer;
+                        const searchableText = `${question} ${answer}`.toLowerCase();
+                        if (focusOnly && !wrongCount[index] && !missedQuestions.includes(index)) return null;
+                        return searchableText.includes(query) ? index : null;
+                    })
+                    .filter(index => index !== null && !blacklist.includes(index));
+                if (searchResults.length > 0) {
+                    isSearchMode = true;
+                    lastIndexBeforeJump = currentIndex;
+                    searchIndex = 0;
+                    currentIndex = searchResults[searchIndex];
+                } else {
+                    isSearchMode = false;
+                    alert('Aramanıza uygun sonuç bulunamadı.');
+                    return;
+                }
+            }
+            renderContent();
+            const searchList = document.getElementById('search-list');
+            if (searchList) {
+                searchList.innerHTML = '';
+                searchResults.forEach(index => {
+                    const item = lessonData[index];
+                    const question = isTurkishQuestion ? item.answer : (Array.isArray(item.question) ? item.question[0] : item.question);
+                    const li = document.createElement('li');
+                    li.className = 'search-result';
+                    li.innerHTML = question;
+                    li.onclick = () => {
+                        searchIndex = searchResults.indexOf(index);
+                        currentIndex = index;
+                        renderContent();
+                    };
+                    searchList.appendChild(li);
+                });
+            }
+        }
+
+        function reviewMissedQuestions() {
+            if (missedQuestions.length === 0) {
+                alert("Bilemediğiniz soru yok!");
+                return;
+            }
+            isMissedMode = !isMissedMode;
+            if (isMissedMode) {
+                lastIndexBeforeJump = currentIndex;
+                currentIndex = missedQuestions[0];
+            } else {
+                currentIndex = lastIndexBeforeJump !== -1 ? lastIndexBeforeJump : currentIndex;
+                lastIndexBeforeJump = -1;
+            }
+            renderContent();
+        }
+
+        function toggleKeyboard() {
+            const keyboard = document.getElementById('virtual-keyboard');
+            if (keyboard.style.display === 'block') {
+                keyboard.style.display = 'none';
+                document.getElementById('toggleKeyboardBtn').innerText = 'Klavye Aç';
+            } else {
+                keyboard.style.display = 'block';
+                document.getElementById('toggleKeyboardBtn').innerText = 'Klavye Kapat';
+                renderKeyboard();
+                document.getElementById('input-answer').focus();
+            }
+        }
+
+        function renderKeyboard() {
+            const keyboardContent = document.getElementById('keyboard-content');
+            keyboardContent.innerHTML = '';
+            const keys = isBulgarianKeyboard ? bulgarianKeys : turkishKeys;
+            keys.forEach(key => {
+                const button = document.createElement('button');
+                button.innerText = isCapsOn ? key.toUpperCase() : key.toLowerCase();
+                button.onclick = () => addToInput(isCapsOn ? key.toUpperCase() : key.toLowerCase());
+                keyboardContent.appendChild(button);
+            });
+        }
+
+        function addToInput(char) {
+            const input = document.getElementById('input-answer');
+            if (input && !input.disabled) {
+                const start = input.selectionStart;
+                const end = input.selectionEnd;
+                const value = input.value;
+                input.value = value.substring(0, start) + char + value.substring(end);
+                input.selectionStart = input.selectionEnd = start + char.length;
+                input.focus();
+            }
+        }
+
+        function toggleCaps() {
+            isCapsOn = !isCapsOn;
+            renderKeyboard();
+        }
+
+        function deleteLast() {
+            const input = document.getElementById('input-answer');
+            if (input && !input.disabled) {
+                const start = input.selectionStart;
+                const end = input.selectionEnd;
+                if (start === end && start > 0) {
+                    input.value = input.value.substring(0, start - 1) + input.value.substring(end);
+                    input.selectionStart = input.selectionEnd = start - 1;
+                } else if (start !== end) {
+                    input.value = input.value.substring(0, start) + input.value.substring(end);
+                    input.selectionStart = input.selectionEnd = start;
+                }
+                input.focus();
+            }
+        }
+
+        function moveCursor(direction) {
+            const input = document.getElementById('input-answer');
+            if (input && !input.disabled) {
+                const pos = input.selectionStart;
+                input.selectionStart = input.selectionEnd = pos + direction;
+                input.focus();
+            }
+        }
+
+        function copyText() {
+            const input = document.getElementById('input-answer');
+            if (input && !input.disabled) {
+                navigator.clipboard.writeText(input.value);
+            }
+        }
+
+        async function pasteText() {
+            const input = document.getElementById('input-answer');
+            if (input && !input.disabled) {
+                const text = await navigator.clipboard.readText();
+                const start = input.selectionStart;
+                const end = input.selectionEnd;
+                input.value = input.value.substring(0, start) + text + input.value.substring(end);
+                input.selectionStart = input.selectionEnd = start + text.length;
+                input.focus();
+            }
+        }
+
+        function toggleLanguage() {
+            isBulgarianKeyboard = !isBulgarianKeyboard;
+            renderKeyboard();
+            document.getElementById('toggleKeyboardBtn').innerText = `Klavye (${isBulgarianKeyboard ? 'BG' : 'TR'})`;
+        }
+
+        function closeKeyboard() {
+            const keyboard = document.getElementById('virtual-keyboard');
+            keyboard.style.display = 'none';
+            document.getElementById('toggleKeyboardBtn').innerText = 'Klavye Aç';
+        }
+
+        document.getElementById('toggleOrderBtn').addEventListener('click', () => {
+            isRandomOrder = !isRandomOrder;
+            document.getElementById('toggleOrderBtn').innerText = `Sıralı Mod (Şu an: ${isRandomOrder ? 'Rastgele' : 'Sıralı'})`;
+            if (isRandomOrder && !isSearchMode && !isMissedMode) {
+                currentIndex = Math.floor(Math.random() * (lessonData.length - blacklist.length));
+                while (blacklist.includes(currentIndex)) {
+                    currentIndex = Math.floor(Math.random() * (lessonData.length - blacklist.length));
+                }
+            }
+            renderContent();
+        });
+
+        document.getElementById('toggleLangBtn').addEventListener('click', () => {
+            isTurkishQuestion = !isTurkishQuestion;
+            document.getElementById('toggleLangBtn').innerText = isTurkishQuestion ? 'Bulgarca Sorulara Geç' : 'Türkçe Sorulara Geç';
+            renderContent();
+        });
+
+        document.getElementById('toggleSpeechBtn').addEventListener('click', () => {
+            isSpeechEnabled = !isSpeechEnabled;
+            document.getElementById('toggleSpeechBtn').innerText = `Sesli Okuma (${isSpeechEnabled ? 'Açık' : 'Kapalı'})`;
+            if (isSpeechEnabled) speakText(lessonData[currentIndex][isTurkishQuestion ? 'answer' : 'question']);
+        });
+
+        document.getElementById('toggleSoundBtn').addEventListener('click', () => {
+            isSoundEnabled = !isSoundEnabled;
+            document.getElementById('toggleSoundBtn').innerText = `Ses Efektleri (${isSoundEnabled ? 'Açık' : 'Kapalı'})`;
+        });
+
+        document.getElementById('toggleRepeatWrongBtn').addEventListener('click', () => {
+            isRepeatWrongEnabled = !isRepeatWrongEnabled;
+            document.getElementById('toggleRepeatWrongBtn').innerText = `Yanlışları Tekrarla (${isRepeatWrongEnabled ? 'Açık' : 'Kapalı'})`;
+            if (!isRepeatWrongEnabled) priorityQueue = [];
+        });
+
+        document.getElementById('toggleLatinBtn').addEventListener('click', () => {
+            isLatinVisible = !isLatinVisible;
+            document.getElementById('toggleLatinBtn').innerText = `Latince Göster (${isLatinVisible ? 'Açık' : 'Kapalı'})`;
+            renderContent();
+        });
+
+        document.getElementById('toggleThemeBtn').addEventListener('click', () => {
+            document.body.classList.toggle('dark-theme');
+            document.getElementById('toggleThemeBtn').innerText = document.body.classList.contains('dark-theme') ? 'Açık Tema' : 'Koyu Tema';
+        });
+
+        document.getElementById('search-input').addEventListener('input', searchQuestions);
+        document.getElementById('focus-questions').addEventListener('change', searchQuestions);
+        document.getElementById('autoNextToggle').addEventListener('change', () => {
+            isAutoNextPaused = !document.getElementById('autoNextToggle').checked;
+        });
+
+        document.getElementById('question-slider').addEventListener('input', (e) => {
+            const value = parseInt(e.target.value);
+            if (isMissedMode && missedQuestions.length > 0) {
+                currentIndex = missedQuestions[value];
+            } else if (isSearchMode && searchResults.length > 0) {
+                searchIndex = value;
+                currentIndex = searchResults[searchIndex];
+            } else {
+                currentIndex = value;
+                while (blacklist.includes(currentIndex) && currentIndex < lessonData.length - 1) {
+                    currentIndex++;
+                }
+            }
+            renderContent();
+        });
+
+        document.getElementById('loadFromUrlBtn').addEventListener('click', () => {
+            const fileUrl = document.getElementById('fileUrl').value.trim();
+            if (fileUrl) {
+                const fileName = prompt("Bu ders için bir isim girin:", "Yeni Ders") || "Yeni Ders";
+                loadOnlineLesson(fileUrl, fileName);
+                bootstrap.Modal.getInstance(document.getElementById('loadJsonModal')).hide();
+            } else {
+                alert("Lütfen geçerli bir URL girin!");
+            }
+        });
+
+        document.getElementById('loadFromLocalBtn').addEventListener('click', () => {
+            const fileInput = document.getElementById('localJsonFile');
+            if (fileInput.files.length > 0) {
+                const file = fileInput.files[0];
+                const reader = new FileReader();
+                reader.onload = (e) => {
+                    try {
+                        const newData = JSON.parse(e.target.result);
+                        const fileName = prompt("Bu ders için bir isim girin:", file.name.replace('.json', '')) || file.name.replace('.json', '');
+                        jsonFiles[fileName] = { data: newData, selected: true };
+                        updateLessonData();
+                        updateJsonFilesList();
+                        score = 0;
+                        document.getElementById('score').innerText = `Puan: 0`;
+                        bootstrap.Modal.getInstance(document.getElementById('loadJsonModal')).hide();
+                        alert(`${fileName} başarıyla yüklendi!`);
+                    } catch (error) {
+                        alert('Geçersiz JSON dosyası: ' + error.message);
+                    }
+                };
+                reader.readAsText(file);
+            } else {
+                alert("Lütfen bir dosya seçin!");
+            }
+        });
+
+        document.getElementById('exportJsonBtn').addEventListener('click', exportJson);
+        document.getElementById('saveToGitHubBtn').addEventListener('click', saveToGitHub);
+        document.getElementById('saveBtn').addEventListener('click', saveState);
+        document.getElementById('loadStateBtn').addEventListener('click', loadSavedState);
+        document.getElementById('resetBtn').addEventListener('click', resetState);
+        document.getElementById('toggleKeyboardBtn').addEventListener('click', toggleKeyboard);
+        document.getElementById('reviewMissedBtn').addEventListener('click', reviewMissedQuestions);
+
+        const savedState = localStorage.getItem('bulgarcaAppState');
+        if (savedState) {
+            try {
+                const state = JSON.parse(savedState);
+                applyState(state);
+            } catch (error) {
+                console.error('Kaydedilmiş durum yüklenemedi:', error);
+                resetState();
+            }
+        } else {
+            loadAllLessons();
+        }
+    </script>
+</body>
+</html>
