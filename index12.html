@@ -1190,198 +1190,178 @@
         }
 
         function checkAnswer(isReload = false) {
-            const input = document.getElementById('input-answer');
-            if (!input) return;
-            const inputValue = input.value.trim();
-            const item = lessonData[currentIndex];
-            let correctAnswers = isTurkishQuestion 
-                ? (Array.isArray(item.question) ? item.question : [item.question]) 
-                : [item.answer];
+    const input = document.getElementById('input-answer');
+    if (!input) return;
+    const inputValue = input.value.trim();
+    const item = lessonData[currentIndex];
+    let correctAnswers = isTurkishQuestion 
+        ? (Array.isArray(item.question) ? item.question : [item.question]) 
+        : [item.answer];
 
-            const baseCorrectAnswers = correctAnswers.map(a => extractBaseAnswer(a)[0]);
-            const normalizedCorrectAnswers = baseCorrectAnswers.map(a => normalizeText(a));
-            const latinCorrectAnswers = baseCorrectAnswers.map(a => normalizeText(cyrillicToLatinText(a)));
-            const inputNormalized = normalizeText(inputValue);
+    const baseCorrectAnswers = correctAnswers.map(a => extractBaseAnswer(a)[0]);
+    const normalizedCorrectAnswers = baseCorrectAnswers.map(a => normalizeText(a));
+    const latinCorrectAnswers = baseCorrectAnswers.map(a => normalizeText(cyrillicToLatinText(a)));
+    const inputNormalized = normalizeText(inputValue);
 
-            const questionText = isTurkishQuestion ? item.answer : (Array.isArray(item.question) ? item.question[0] : item.question);
-            const parentheticalWords = extractParentheticalWords(questionText);
-            const normalizedBaseAnswer = normalizeText(extractBaseAnswer(correctAnswers[0])[0]);
-            const extendedCorrectAnswers = parentheticalWords.length > 0 
-                ? generateCombinations(parentheticalWords.map(w => normalizeText(w).original), normalizedBaseAnswer.original) 
-                : [normalizedBaseAnswer.original];
-            const extendedLatinCorrectAnswers = parentheticalWords.length > 0 
-                ? generateCombinations(parentheticalWords.map(w => normalizeText(w).original), normalizeText(cyrillicToLatinText(extractBaseAnswer(correctAnswers[0])[0])).original) 
-                : [normalizeText(cyrillicToLatinText(extractBaseAnswer(correctAnswers[0])[0])).original];
+    const questionText = isTurkishQuestion ? item.answer : (Array.isArray(item.question) ? item.question[0] : item.question);
+    const parentheticalWords = extractParentheticalWords(questionText);
+    const normalizedBaseAnswer = normalizeText(extractBaseAnswer(correctAnswers[0])[0]);
+    const extendedCorrectAnswers = parentheticalWords.length > 0 
+        ? generateCombinations(parentheticalWords.map(w => normalizeText(w).original), normalizedBaseAnswer.original) 
+        : [normalizedBaseAnswer.original];
+    const extendedLatinCorrectAnswers = parentheticalWords.length > 0 
+        ? generateCombinations(parentheticalWords.map(w => normalizeText(w).original), normalizeText(cyrillicToLatinText(extractBaseAnswer(correctAnswers[0])[0])).original) 
+        : [normalizeText(cyrillicToLatinText(extractBaseAnswer(correctAnswers[0])[0])).original];
 
-            const pronouns = ['ben', 'sen', 'o', 'biz', 'siz', 'onlar'];
-            const inputWords = inputNormalized.original.split(/\s+/);
-            const hasPronounPrefix = pronouns.includes(inputWords[0]);
-            const inputWithoutPronoun = hasPronounPrefix ? inputWords.slice(1).join(' ') : inputNormalized.original;
-            const inputWithoutPronounJoined = hasPronounPrefix ? inputWords.slice(1).join('') : inputNormalized.joinedForm;
+    let isCorrect = false;
 
-            let isCorrect = false;
+    if (inputValue === '') {
+        if (!isReload) {
+            answers[currentIndex] = inputValue;
+            wrongCount[currentIndex] = (wrongCount[currentIndex] || 0) + 1;
+            if (isRepeatWrongEnabled && !priorityQueue.includes(currentIndex)) priorityQueue.push(currentIndex);
+            if (!missedQuestions.includes(currentIndex)) missedQuestions.push(currentIndex);
+            playSound('incorrect');
+        }
+    } else {
+        const inputForms = [
+            inputNormalized.original.toLowerCase(),
+            inputNormalized.numberForm.toLowerCase(),
+            inputNormalized.textForm.toLowerCase(),
+            inputNormalized.joinedForm.toLowerCase(),
+            inputNormalized.numberJoinedForm.toLowerCase(),
+            inputNormalized.textJoinedForm.toLowerCase()
+        ];
 
-            if (inputValue === '') {
-                if (!isReload) {
-                    answers[currentIndex] = inputValue;
-                    wrongCount[currentIndex] = (wrongCount[currentIndex] || 0) + 1;
-                    if (isRepeatWrongEnabled && !priorityQueue.includes(currentIndex)) priorityQueue.push(currentIndex);
-                    if (!missedQuestions.includes(currentIndex)) missedQuestions.push(currentIndex);
-                    playSound('incorrect');
-                }
-            } else {
-                const checkForms = (inputForms, correctForms) => {
-                    return correctForms.some(c => 
-                        inputForms.some(inputForm => 
-                            c === inputForm || 
-                            isAnswerCloseEnough(inputForm, c) ||
-                            c === (hasPronounPrefix ? inputWithoutPronoun : inputForm) ||
-                            isAnswerCloseEnough(hasPronounPrefix ? inputWithoutPronoun : inputForm, c) ||
-                            c === (hasPronounPrefix ? inputWithoutPronounJoined : inputForm) ||
-                            isAnswerCloseEnough(hasPronounPrefix ? inputWithoutPronounJoined : inputForm, c)
-                        )
-                    );
-                };
-
-                const inputForms = [
-                    inputNormalized.original, inputNormalized.numberForm, inputNormalized.textForm,
-                    inputNormalized.joinedForm, inputNormalized.numberJoinedForm, inputNormalized.textJoinedForm
+        if (isTurkishQuestion) {
+            // Türkçe soru, Bulgarca cevap bekleniyor
+            const allCorrectAnswers = extendedCorrectAnswers.flatMap(a => {
+                const norm = normalizeText(a);
+                return [
+                    norm.original.toLowerCase(),
+                    norm.numberForm.toLowerCase(),
+                    norm.textForm.toLowerCase(),
+                    norm.joinedForm.toLowerCase(),
+                    norm.numberJoinedForm.toLowerCase(),
+                    norm.textJoinedForm.toLowerCase()
                 ];
+            });
+            const allLatinCorrectAnswers = extendedLatinCorrectAnswers.flatMap(a => {
+                const norm = normalizeText(a);
+                return [
+                    norm.original.toLowerCase(),
+                    norm.numberForm.toLowerCase(),
+                    norm.textForm.toLowerCase(),
+                    norm.joinedForm.toLowerCase(),
+                    norm.numberJoinedForm.toLowerCase(),
+                    norm.textJoinedForm.toLowerCase()
+                ];
+            });
 
-                if (isTurkishQuestion) {
-                    const allCorrectAnswers = normalizedCorrectAnswers.flatMap(a => [
-                        a.original, a.numberForm, a.textForm, a.joinedForm, a.numberJoinedForm, a.textJoinedForm
-                    ]).concat(latinCorrectAnswers.flatMap(a => [
-                        a.original, a.numberForm, a.textForm, a.joinedForm, a.numberJoinedForm, a.textJoinedForm
-                    ]));
-                    const answerOptions = [...new Set(allCorrectAnswers)].flatMap(a => a.split(/\s*\/\s*/));
-                    const answerParts = answerOptions.map(opt => opt.split(/\s+/));
-                    isCorrect = answerOptions.some(option => 
-                        checkForms(inputForms, [option]) ||
-                        answerParts.some(parts => 
-                            parts.includes(inputNormalized.original) || 
-                            parts.includes(inputNormalized.numberForm) || 
-                            parts.includes(inputNormalized.textForm) ||
-                            parts.includes(inputNormalized.joinedForm) || 
-                            parts.includes(inputNormalized.numberJoinedForm) || 
-                            parts.includes(inputNormalized.textJoinedForm)
-                        )
-                    );
-                } else {
-                    const allCorrectAnswers = extendedCorrectAnswers.flatMap(a => {
-                        const norm = normalizeText(a);
-                        return [norm.original, norm.numberForm, norm.textForm, norm.joinedForm, norm.numberJoinedForm, norm.textJoinedForm];
-                    });
-                    const allLatinCorrectAnswers = isLatinVisible ? extendedLatinCorrectAnswers.flatMap(a => {
-                        const norm = normalizeText(a);
-                        return [norm.original, norm.numberForm, norm.textForm, norm.joinedForm, norm.numberJoinedForm, norm.textJoinedForm];
-                    }) : [];
+            console.log("Türkçe soru - Doğru cevaplar (Kiril):", allCorrectAnswers);
+            console.log("Türkçe soru - Doğru cevaplar (Latin):", allLatinCorrectAnswers);
+            console.log("Girilen cevap:", inputForms);
 
-                    const answerParts = allCorrectAnswers.map(a => a.split(/\s+/));
-                    const latinAnswerParts = isLatinVisible ? allLatinCorrectAnswers.map(a => a.split(/\s+/)) : [];
+            isCorrect = allCorrectAnswers.some(a => inputForms.includes(a)) || 
+                        allLatinCorrectAnswers.some(a => inputForms.includes(a));
+        } else {
+            // Bulgarca soru, Türkçe cevap bekleniyor
+            const allCorrectAnswers = extendedCorrectAnswers.flatMap(a => {
+                const norm = normalizeText(a);
+                return [
+                    norm.original.toLowerCase(),
+                    norm.numberForm.toLowerCase(),
+                    norm.textForm.toLowerCase(),
+                    norm.joinedForm.toLowerCase(),
+                    norm.numberJoinedForm.toLowerCase(),
+                    norm.textJoinedForm.toLowerCase()
+                ];
+            });
 
-                    isCorrect = allCorrectAnswers.some(a => 
-                        checkForms(inputForms, [a]) ||
-                        answerParts.some(parts => 
-                            parts.includes(inputNormalized.original) || 
-                            parts.includes(inputNormalized.numberForm) || 
-                            parts.includes(inputNormalized.textForm) ||
-                            parts.includes(inputNormalized.joinedForm) || 
-                            parts.includes(inputNormalized.numberJoinedForm) || 
-                            parts.includes(inputNormalized.textJoinedForm)
-                        )
-                    ) || (isLatinVisible && allLatinCorrectAnswers.some(a => 
-                        checkForms(inputForms, [a]) ||
-                        latinAnswerParts.some(parts => 
-                            parts.includes(inputNormalized.original) || 
-                            parts.includes(inputNormalized.numberForm) || 
-                            parts.includes(inputNormalized.textForm) ||
-                            parts.includes(inputNormalized.joinedForm) || 
-                            parts.includes(inputNormalized.numberJoinedForm) || 
-                            parts.includes(inputNormalized.textJoinedForm)
-                        )
-                    ));
-                }
+            console.log("Bulgarca soru - Doğru cevaplar:", allCorrectAnswers);
+            console.log("Girilen cevap:", inputForms);
 
-                if (!isReload) {
-                    answers[currentIndex] = inputValue;
-                    if (isCorrect) {
-                        if (!wrongCount[currentIndex]) score += 1;
-                        delete wrongCount[currentIndex];
-                        priorityQueue = priorityQueue.filter(i => i !== currentIndex);
-                        missedQuestions = missedQuestions.filter(i => i !== currentIndex);
-                        playSound('correct');
-                    } else {
-                        wrongCount[currentIndex] = (wrongCount[currentIndex] || 0) + 1;
-                        if (isRepeatWrongEnabled && !priorityQueue.includes(currentIndex)) priorityQueue.push(currentIndex);
-                        if (!missedQuestions.includes(currentIndex)) missedQuestions.push(currentIndex);
-                        playSound('incorrect');
-                    }
-                }
-            }
+            isCorrect = allCorrectAnswers.some(a => inputForms.includes(a));
+        }
 
-            const fullCorrectAnswer = isTurkishQuestion 
-                ? correctAnswers.map(a => `${a}${isLatinVisible ? ` - ${cyrillicToLatinText(a)}` : ''}`).join(' / ')
-                : correctAnswers.map(a => `${a}${isLatinVisible ? ` (${cyrillicToLatinText(a)})` : ''}`).join(' / ');
-
-            const words = (questionText + ' ' + fullCorrectAnswer).split(/\s+/);
-            const allPossessives = Object.values(possessivePronouns).flat().map(p => p.split(' ')[0]);
-            const allShortPossessives = Object.values(shortPossessivePronouns).map(p => p.split(' ')[0]);
-            const allDemonstratives = Object.values(demonstrativePronouns).flat().map(p => p.split(' ')[0]);
-            const allPrepositions = prepositions.map(p => p[0].split(' ')[0]);
-            const allQuestionParticles = Object.values(questionParticles).map(p => p.split(' ')[0]);
-
-            const matchedWords = [];
-            if (words.some(word => allPossessives.includes(word))) matchedWords.push(words.find(word => allPossessives.includes(word)));
-            if (words.some(word => allShortPossessives.includes(word))) matchedWords.push(words.find(word => allShortPossessives.includes(word)));
-            if (words.some(word => allDemonstratives.includes(word))) matchedWords.push(words.find(word => allDemonstratives.includes(word)));
-            if (words.some(word => allPrepositions.includes(word))) matchedWords.push(words.find(word => allPrepositions.includes(word)));
-            if (words.some(word => allQuestionParticles.includes(word))) matchedWords.push(words.find(word => allQuestionParticles.includes(word)));
-
-            const resultDiv = document.getElementById('result');
-            if (resultDiv) {
-                if (inputValue === '') {
-                    resultDiv.innerHTML = `<span class="result-icon incorrect">❌</span> Cevap boş bırakıldı! Doğru cevap: ${fullCorrectAnswer}`;
-                    resultDiv.className = 'incorrect';
-                } else if (isCorrect) {
-                    resultDiv.innerHTML = `<span class="result-icon correct">✅</span> Doğru! Girdiğiniz cevap: ${inputValue}`;
-                    if (matchedWords.length > 0) updateTableFeedback(true, matchedWords);
-                    if (!isReload && !isAutoNextPaused && (isMissedMode ? missedQuestions.indexOf(currentIndex) < missedQuestions.length - 1 : currentIndex < lessonData.length - 1)) {
-                        if (document.getElementById('autoNextToggle').checked) {
-                            autoNextTimeout = setTimeout(() => {
-                                moveToNextQuestion();
-                                renderContent();
-                            }, 1500);
-                        }
-                    }
-                    resultDiv.className = 'correct';
-                } else {
-                    resultDiv.innerHTML = `<span class="result-icon incorrect">❌</span> Yanlış! Doğru cevap: ${fullCorrectAnswer} (Sizinki: ${inputValue})`;
-                    if (matchedWords.length > 0) updateTableFeedback(false, matchedWords);
-                    resultDiv.className = 'incorrect';
-                }
-            }
-
-            document.getElementById('score').innerText = `Puan: ${score}`;
-            input.disabled = true;
-
-            // Türkçe sorular aktifse ve metin alanı devre dışı bırakıldıysa klavyeyi kapat
-            if (isTurkishQuestion) {
-                const keyboard = document.getElementById('virtual-keyboard');
-                if (keyboard.style.display === 'block') {
-                    keyboard.style.display = 'none';
-                    document.getElementById('toggleKeyboardBtn').innerText = 'Klavye Aç';
-                }
-            }
-
-            updateMissedQuestions();
-            isResultShown = true;
-
-            if (!isReload) {
-                questionCounter++;
-                updateRecentQuestions();
+        if (!isReload) {
+            answers[currentIndex] = inputValue;
+            if (isCorrect) {
+                if (!wrongCount[currentIndex]) score += 1;
+                delete wrongCount[currentIndex];
+                priorityQueue = priorityQueue.filter(i => i !== currentIndex);
+                missedQuestions = missedQuestions.filter(i => i !== currentIndex);
+                playSound('correct');
+            } else {
+                wrongCount[currentIndex] = (wrongCount[currentIndex] || 0) + 1;
+                if (isRepeatWrongEnabled && !priorityQueue.includes(currentIndex)) priorityQueue.push(currentIndex);
+                if (!missedQuestions.includes(currentIndex)) missedQuestions.push(currentIndex);
+                playSound('incorrect');
             }
         }
+    }
+
+    const fullCorrectAnswer = isTurkishQuestion 
+        ? correctAnswers.map(a => `${a}${isLatinVisible ? ` (${cyrillicToLatinText(a)})` : ''}`).join(' / ')
+        : correctAnswers.map(a => `${a}${isLatinVisible ? ` - ${cyrillicToLatinText(a)}` : ''}`).join(' / ');
+
+    const words = (questionText + ' ' + fullCorrectAnswer).split(/\s+/);
+    const allPossessives = Object.values(possessivePronouns).flat().map(p => p.split(' ')[0]);
+    const allShortPossessives = Object.values(shortPossessivePronouns).map(p => p.split(' ')[0]);
+    const allDemonstratives = Object.values(demonstrativePronouns).flat().map(p => p.split(' ')[0]);
+    const allPrepositions = prepositions.map(p => p[0].split(' ')[0]);
+    const allQuestionParticles = Object.values(questionParticles).map(p => p.split(' ')[0]);
+
+    const matchedWords = [];
+    if (words.some(word => allPossessives.includes(word))) matchedWords.push(words.find(word => allPossessives.includes(word)));
+    if (words.some(word => allShortPossessives.includes(word))) matchedWords.push(words.find(word => allShortPossessives.includes(word)));
+    if (words.some(word => allDemonstratives.includes(word))) matchedWords.push(words.find(word => allDemonstratives.includes(word)));
+    if (words.some(word => allPrepositions.includes(word))) matchedWords.push(words.find(word => allPrepositions.includes(word)));
+    if (words.some(word => allQuestionParticles.includes(word))) matchedWords.push(words.find(word => allQuestionParticles.includes(word)));
+
+    const resultDiv = document.getElementById('result');
+    if (resultDiv) {
+        if (inputValue === '') {
+            resultDiv.innerHTML = `<span class="result-icon incorrect">❌</span> Cevap boş bırakıldı! Doğru cevap: ${fullCorrectAnswer}`;
+            resultDiv.className = 'incorrect';
+        } else if (isCorrect) {
+            resultDiv.innerHTML = `<span class="result-icon correct">✅</span> Doğru! Girdiğiniz cevap: ${inputValue}`;
+            if (matchedWords.length > 0) updateTableFeedback(true, matchedWords);
+            if (!isReload && !isAutoNextPaused && (isMissedMode ? missedQuestions.indexOf(currentIndex) < missedQuestions.length - 1 : currentIndex < lessonData.length - 1)) {
+                if (document.getElementById('autoNextToggle').checked) {
+                    autoNextTimeout = setTimeout(() => {
+                        moveToNextQuestion();
+                        renderContent();
+                    }, 1500);
+                }
+            }
+            resultDiv.className = 'correct';
+        } else {
+            resultDiv.innerHTML = `<span class="result-icon incorrect">❌</span> Yanlış! Doğru cevap: ${fullCorrectAnswer} (Sizinki: ${inputValue})`;
+            if (matchedWords.length > 0) updateTableFeedback(false, matchedWords);
+            resultDiv.className = 'incorrect';
+        }
+    }
+
+    document.getElementById('score').innerText = `Puan: ${score}`;
+    input.disabled = true;
+
+    if (isTurkishQuestion) {
+        const keyboard = document.getElementById('virtual-keyboard');
+        if (keyboard.style.display === 'block') {
+            keyboard.style.display = 'none';
+            document.getElementById('toggleKeyboardBtn').innerText = 'Klavye Aç';
+        }
+    }
+
+    updateMissedQuestions();
+    isResultShown = true;
+
+    if (!isReload) {
+        questionCounter++;
+        updateRecentQuestions();
+    }
+}
 
         function moveToNextQuestion() {
             if (isMissedMode) {
