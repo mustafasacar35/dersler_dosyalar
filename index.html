@@ -187,9 +187,9 @@
 <div class="col-md-2"><button class="btn btn-info w-100 mb-2" id="toggleKeyboardBtn">Klavye Aç</button></div>
 <div class="col-md-6">
 <div class="search-container">
-<input id="focus-questions" type="checkbox">
+<input id="focus-questions" type="checkbox"/>
 <label for="focus-questions">Odak Sorular</label>
-<input class="form-control" id="search-input" placeholder="Sorularda ara..." type="text"/>
+<input class="form-control" id="search-input" placeholder="Sorularda ara..." type="text">
 <div class="form-check ms-3">
 <input checked="" class="form-check-input" id="autoNextToggle" type="checkbox"/>
 <label class="form-check-label" for="autoNextToggle">Otomatik İlerle</label>
@@ -335,7 +335,7 @@
                     const response = await fetch(lesson.url);
                     if (!response.ok) throw new Error(`Ders yüklenemedi: ${lesson.name} - ${response.status}`);
                     const data = await response.json();
-                    jsonFiles[lesson.name] = { data: data, selected: lesson.name === "Ders 1" };
+                    jsonFiles[lesson.name] = { data: data, selected: true };
                 } catch (error) {
                     console.error(`Hata: ${lesson.name} yüklenemedi - ${error.message}`);
                 }
