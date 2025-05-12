@@ -1,11 +1,12 @@
 <!DOCTYPE html>
+
 <html lang="tr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bulgarca Öğrenme Uygulaması</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <style>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Bulgarca Öğrenme Uygulaması</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"/>
+<style>
         body { 
             background-color: #f8f9fa; 
             padding: 20px; 
@@ -123,114 +124,114 @@
     </style>
 </head>
 <body>
-    <div class="top-bar container">
-        <h1 class="text-center mb-4">Bulgarca Öğrenme Uygulaması</h1>
-        <input type="range" id="question-slider" min="0" max="0" value="0" class="form-range">
-        <div id="slider-info" class="text-center mb-3">
-            <span id="progress-percentage">0%</span> 
-            <span id="question-count">0 / 0</span>
-        </div>
-        <div class="progress mb-3">
-            <div id="progressBar" class="progress-bar" role="progressbar" style="width: 0%;" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
-        </div>
-        <div class="row mb-3">
-            <div class="col-md-2">
-                <div class="dropdown">
-                    <button class="btn btn-primary dropdown-toggle w-100" type="button" data-bs-toggle="dropdown">Seçenekler</button>
-                    <ul class="dropdown-menu">
-                        <li><button class="dropdown-item" data-bs-toggle="modal" data-bs-target="#loadJsonModal">Ders Ekle</button></li>
-                        <li><button class="dropdown-item" id="exportJsonBtn">Dersi Dışarı Aktar</button></li>
-                        <li><button class="dropdown-item" id="saveToGitHubBtn">GitHub’a Kaydet</button></li>
-                        <li><button class="dropdown-item" id="saveBtn">Kaydet</button></li>
-                        <li><button class="dropdown-item" id="loadStateBtn">Durum Yükle</button></li>
-                        <li><button class="dropdown-item" id="resetBtn">Reset</button></li>
-                        <li><button class="dropdown-item" id="toggleThemeBtn">Koyu Tema</button></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="col-md-2"><button id="toggleOrderBtn" class="btn btn-info w-100 mb-2">Sıralı Mod (Şu an: Sıralı)</button></div>
-            <div class="col-md-2"><button id="toggleLangBtn" class="btn btn-warning w-100 mb-2">Türkçe Sorulara Geç</button></div>
-            <div class="col-md-2"><button id="toggleSpeechBtn" class="btn btn-secondary w-100 mb-2">Sesli Okuma (Kapalı)</button></div>
-            <div class="col-md-2"><button id="toggleSoundBtn" class="btn btn-secondary w-100 mb-2">Ses Efektleri (Kapalı)</button></div>
-            <div class="col-md-2"><button id="reviewMissedBtn" class="btn btn-danger w-100 mb-2">Bilemediklerim Sınavı</button></div>
-        </div>
-        <div class="modal fade" id="loadJsonModal" tabindex="-1" aria-labelledby="loadJsonModalLabel" aria-hidden="true">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title" id="loadJsonModalLabel">Ders Ekle</h5>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                    </div>
-                    <div class="modal-body">
-                        <div class="mb-3">
-                            <label for="fileUrl" class="form-label">GitHub Raw URL’si:</label>
-                            <input type="text" class="form-control" id="fileUrl" placeholder="Örn: https://raw.githubusercontent.com/.../DERS_6.JSON">
-                        </div>
-                        <div class="mb-3">
-                            <label for="localJsonFile" class="form-label">Yerel JSON Dosyası:</label>
-                            <input type="file" class="form-control" id="localJsonFile" accept=".json">
-                        </div>
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Kapat</button>
-                        <button type="button" class="btn btn-primary" id="loadFromUrlBtn">URL’den Ekle</button>
-                        <button type="button" class="btn btn-primary" id="loadFromLocalBtn">Yerelden Ekle</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="row mb-3">
-            <div class="col-md-2"><button id="toggleRepeatWrongBtn" class="btn btn-secondary w-100 mb-2">Yanlışları Tekrarla (Açık)</button></div>
-            <div class="col-md-2"><button id="toggleLatinBtn" class="btn btn-secondary w-100 mb-2">Latince Göster (Kapalı)</button></div>
-            <div class="col-md-2"><button id="toggleKeyboardBtn" class="btn btn-info w-100 mb-2">Klavye Aç</button></div>
-            <div class="col-md-6">
-                <div class="search-container">
-                    <input type="checkbox" id="focus-questions" />
-                    <label for="focus-questions">Odak Sorular</label>
-                    <input type="text" class="form-control" id="search-input" placeholder="Sorularda ara...">
-                    <div class="form-check ms-3">
-                        <input class="form-check-input" type="checkbox" id="autoNextToggle" checked>
-                        <label class="form-check-label" for="autoNextToggle">Otomatik İlerle</label>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div id="score" class="text-center mb-3">Puan: 0</div>
-    </div>
-    <div class="content-wrapper container">
-        <div class="sidebar card">
-            <div class="card-body">
-                <h6>Yüklenen Dersler</h6>
-                <div id="json-files"></div>
-            </div>
-        </div>
-        <div class="main-content">
-            <div id="content" class="card"></div>
-            <div id="recent-questions" class="card"><div class="card-body"><h6>Son 5 Soru:</h6><div id="recent-list"></div></div></div>
-            <div id="search-results" class="card"><div class="card-body"><h6>Arama Sonuçları:</h6><div id="search-list"></div></div></div>
-            <div id="blacklist" class="card"><div class="card-body"><h6>Karalisteye Alınanlar:</h6><div id="blacklist-list"></div></div></div>
-            <div id="missed-questions" class="card"><div class="card-body"><h6>Bilemediğim Sorular:</h6><div id="missed-list"></div></div></div>
-        </div>
-    </div>
-    <div id="virtual-keyboard">
-        <div class="keyboard-row" id="keyboard-content"></div>
-        <div class="keyboard-row">
-            <button onclick="toggleCaps()">Caps</button>
-            <button onclick="addToInput(' ')">Space</button>
-            <button onclick="deleteLast()">Backspace</button>
-            <button onclick="checkAnswer()">Enter</button>
-            <button onclick="moveCursor(-1)">←</button>
-            <button onclick="moveCursor(1)">→</button>
-            <button onclick="copyText()">Copy</button>
-            <button onclick="pasteText()">Paste</button>
-            <button onclick="toggleLanguage()">TR/BG</button>
-            <button onclick="closeKeyboard()">Kapat</button>
-        </div>
-    </div>
-
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
-    <script>
+<div class="top-bar container">
+<h1 class="text-center mb-4">Bulgarca Öğrenme Uygulaması</h1>
+<input class="form-range" id="question-slider" max="0" min="0" type="range" value="0"/>
+<div class="text-center mb-3" id="slider-info">
+<span id="progress-percentage">0%</span>
+<span id="question-count">0 / 0</span>
+</div>
+<div class="progress mb-3">
+<div aria-valuemax="100" aria-valuemin="0" aria-valuenow="0" class="progress-bar" id="progressBar" role="progressbar" style="width: 0%;"></div>
+</div>
+<div class="row mb-3">
+<div class="col-md-2">
+<div class="dropdown">
+<button class="btn btn-primary dropdown-toggle w-100" data-bs-toggle="dropdown" type="button">Seçenekler</button>
+<ul class="dropdown-menu">
+<li><button class="dropdown-item" data-bs-target="#loadJsonModal" data-bs-toggle="modal">Ders Ekle</button></li>
+<li><button class="dropdown-item" id="exportJsonBtn">Dersi Dışarı Aktar</button></li>
+<li><button class="dropdown-item" id="saveToGitHubBtn">GitHub’a Kaydet</button></li>
+<li><button class="dropdown-item" id="saveBtn">Kaydet</button></li>
+<li><button class="dropdown-item" id="loadStateBtn">Durum Yükle</button></li>
+<li><button class="dropdown-item" id="resetBtn">Reset</button></li>
+<li><button class="dropdown-item" id="toggleThemeBtn">Koyu Tema</button></li>
+</ul>
+</div>
+</div>
+<div class="col-md-2"><button class="btn btn-info w-100 mb-2" id="toggleOrderBtn">Sıralı Mod (Şu an: Sıralı)</button></div>
+<div class="col-md-2"><button class="btn btn-warning w-100 mb-2" id="toggleLangBtn">Türkçe Sorulara Geç</button></div>
+<div class="col-md-2"><button class="btn btn-secondary w-100 mb-2" id="toggleSpeechBtn">Sesli Okuma (Kapalı)</button></div>
+<div class="col-md-2"><button class="btn btn-secondary w-100 mb-2" id="toggleSoundBtn">Ses Efektleri (Kapalı)</button></div>
+<div class="col-md-2"><button class="btn btn-danger w-100 mb-2" id="reviewMissedBtn">Bilemediklerim Sınavı</button></div>
+</div>
+<div aria-hidden="true" aria-labelledby="loadJsonModalLabel" class="modal fade" id="loadJsonModal" tabindex="-1">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-header">
+<h5 class="modal-title" id="loadJsonModalLabel">Ders Ekle</h5>
+<button aria-label="Close" class="btn-close" data-bs-dismiss="modal" type="button"></button>
+</div>
+<div class="modal-body">
+<div class="mb-3">
+<label class="form-label" for="fileUrl">GitHub Raw URL’si:</label>
+<input class="form-control" id="fileUrl" placeholder="Örn: https://raw.githubusercontent.com/.../DERS_6.JSON" type="text"/>
+</div>
+<div class="mb-3">
+<label class="form-label" for="localJsonFile">Yerel JSON Dosyası:</label>
+<input accept=".json" class="form-control" id="localJsonFile" type="file"/>
+</div>
+</div>
+<div class="modal-footer">
+<button class="btn btn-secondary" data-bs-dismiss="modal" type="button">Kapat</button>
+<button class="btn btn-primary" id="loadFromUrlBtn" type="button">URL’den Ekle</button>
+<button class="btn btn-primary" id="loadFromLocalBtn" type="button">Yerelden Ekle</button>
+</div>
+</div>
+</div>
+</div>
+<div class="row mb-3">
+<div class="col-md-2"><button class="btn btn-secondary w-100 mb-2" id="toggleRepeatWrongBtn">Yanlışları Tekrarla (Açık)</button></div>
+<div class="col-md-2"><button class="btn btn-secondary w-100 mb-2" id="toggleLatinBtn">Latince Göster (Kapalı)</button></div>
+<div class="col-md-2"></div>
+<div class="col-md-2"><button class="btn btn-info w-100 mb-2" id="toggleKeyboardBtn">Klavye Aç</button></div>
+<div class="col-md-6">
+<div class="search-container">
+<input id="focus-questions" type="checkbox">
+<label for="focus-questions">Odak Sorular</label>
+<input class="form-control" id="search-input" placeholder="Sorularda ara..." type="text"/>
+<div class="form-check ms-3">
+<input checked="" class="form-check-input" id="autoNextToggle" type="checkbox"/>
+<label class="form-check-label" for="autoNextToggle">Otomatik İlerle</label>
+</div>
+</input></div>
+</div>
+</div>
+<div class="text-center mb-3" id="score">Puan: 0</div>
+<div class="d-flex gap-2 mb-3"><button class="btn btn-outline-secondary mb-3" id="toggleFontBtn" style="margin-right: 10px;">Bahnschrift Font</button><button class="btn btn-outline-secondary mb-3" id="toggleCaseBtn" style="margin-right: 10px;">Büyük/Küçük Harf</button><button class="btn btn-outline-secondary mb-3" id="toggleItalicBtn">İtalik Yazı</button></div></div>
+<div class="content-wrapper container">
+<div class="sidebar card">
+<div class="card-body">
+<h6>Yüklenen Dersler</h6>
+<div id="json-files"></div>
+</div>
+</div>
+<div class="main-content">
+<div class="card" id="content"></div>
+<div class="card" id="recent-questions"><div class="card-body"><h6>Son 5 Soru:</h6><div id="recent-list"></div></div></div>
+<div class="card" id="search-results"><div class="card-body"><h6>Arama Sonuçları:</h6><div id="search-list"></div></div></div>
+<div class="card" id="blacklist"><div class="card-body"><h6>Karalisteye Alınanlar:</h6><div id="blacklist-list"></div></div></div>
+<div class="card" id="missed-questions"><div class="card-body"><h6>Bilemediğim Sorular:</h6><div id="missed-list"></div></div></div>
+</div>
+</div>
+<div id="virtual-keyboard">
+<div class="keyboard-row" id="keyboard-content"></div>
+<div class="keyboard-row">
+<button onclick="toggleCaps()">Caps</button>
+<button onclick="addToInput(' ')">Space</button>
+<button onclick="deleteLast()">Backspace</button>
+<button onclick="checkAnswer()">Enter</button>
+<button onclick="moveCursor(-1)">←</button>
+<button onclick="moveCursor(1)">→</button>
+<button onclick="copyText()">Copy</button>
+<button onclick="pasteText()">Paste</button>
+<button onclick="toggleLanguage()">TR/BG</button>
+<button onclick="closeKeyboard()">Kapat</button>
+</div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+<script>
         let lessonData = [];
         let jsonFiles = {};
         let currentIndex = 0;
@@ -259,6 +260,7 @@
         let isMissedMode = false;
         let isBulgarianKeyboard = true;
         let isCapsOn = false;
+        let isItalicEnabled = false;
 
         const githubLessonUrls = [
             { name: "Ders 1", url: "https://raw.githubusercontent.com/mustafasacar35/dersler_dosyalar/main/DERS_1.JSON" },
@@ -389,15 +391,24 @@
         }
 
         function cleanTextForDisplay(text) {
-            if (!isLatinVisible || isTurkishQuestion) {
-                return text.replace(/\s*\(.*?\)\s*/g, '').trim();
-            }
-            if (isCyrillic(text) && isLatinVisible) {
-                const baseText = text.replace(/\s*\(.*?\)\s*/g, '').trim();
-                return `${baseText} (${cyrillicToLatinText(baseText)})`;
-            }
-            return text;
+    if (!isLatinVisible || isTurkishQuestion) {
+        const baseText = text.replace(/\s*\(.*?\)\s*/g, '').trim();
+        // Sadece Kiril alfabesi için italik uygula
+        if (isItalicEnabled && isCyrillic(baseText)) {
+            return `<i>${baseText}</i>`;
         }
+        return baseText;
+    }
+    if (isCyrillic(text) && isLatinVisible) {
+        const baseText = text.replace(/\s*\(.*?\)\s*/g, '').trim();
+        // Kiril kısmı için italik uygula, Latin kısmına değil
+        if (isItalicEnabled) {
+            return `<i>${baseText}</i> (${cyrillicToLatinText(baseText)})`;
+        }
+        return `${baseText} (${cyrillicToLatinText(baseText)})`;
+    }
+    return text;
+}
 
         function playSound(type) {
             if (!isSoundEnabled) return;
@@ -633,19 +644,23 @@
         }
 
         function updateUIFromState() {
-            document.getElementById('toggleOrderBtn').innerText = `Sıralı Mod (Şu an: ${isRandomOrder ? 'Rastgele' : 'Sıralı'})`;
-            document.getElementById('toggleLangBtn').innerText = isTurkishQuestion ? 'Bulgarca Sorulara Geç' : 'Türkçe Sorulara Geç';
-            document.getElementById('toggleSpeechBtn').innerText = `Sesli Okuma (${isSpeechEnabled ? 'Açık' : 'Kapalı'})`;
-            document.getElementById('toggleSoundBtn').innerText = `Ses Efektleri (${isSoundEnabled ? 'Açık' : 'Kapalı'})`;
-            document.getElementById('toggleRepeatWrongBtn').innerText = `Yanlışları Tekrarla (${isRepeatWrongEnabled ? 'Açık' : 'Kapalı'})`;
-            document.getElementById('toggleLatinBtn').innerText = `Latince Göster (${isLatinVisible ? 'Açık' : 'Kapalı'})`;
-            document.getElementById('toggleThemeBtn').innerText = document.body.classList.contains('dark-theme') ? 'Açık Tema' : 'Koyu Tema';
-            document.getElementById('score').innerText = `Puan: ${score}`;
-            updateJsonFilesList();
-            updateProgressBar();
-            updateMissedQuestions();
-        }
-
+    document.getElementById('toggleOrderBtn').innerText = `Sıralı Mod (Şu an: ${isRandomOrder ? 'Rastgele' : 'Sıralı'})`;
+    document.getElementById('toggleLangBtn').innerText = isTurkishQuestion ? 'Bulgarca Sorulara Geç' : 'Türkçe Sorulara Geç';
+    document.getElementById('toggleSpeechBtn').innerText = `Sesli Okuma (${isSpeechEnabled ? 'Açık' : 'Kapalı'})`;
+    document.getElementById('toggleSoundBtn').innerText = `Ses Efektleri (${isSoundEnabled ? 'Açık' : 'Kapalı'})`;
+    document.getElementById('toggleRepeatWrongBtn').innerText = `Yanlışları Tekrarla (${isRepeatWrongEnabled ? 'Açık' : 'Kapalı'})`;
+    document.getElementById('toggleLatinBtn').innerText = `Latince Göster (${isLatinVisible ? 'Açık' : 'Kapalı'})`;
+    document.getElementById('toggleItalicBtn').innerText = `İtalik Yazı (${isItalicEnabled ? 'Açık' : 'Kapalı'})`; // YENİ SATIR
+    document.getElementById('toggleThemeBtn').innerText = document.body.classList.contains('dark-theme') ? 'Açık Tema' : 'Koyu Tema';
+    document.getElementById('score').innerText = `Puan: ${score}`;
+    updateJsonFilesList();
+    updateProgressBar();
+    updateMissedQuestions();
+    document.getElementById('toggleItalicBtn').addEventListener('click', () => {
+    isItalicEnabled = !isItalicEnabled;
+    renderContent();
+});
+}
         function resetState() {
             localStorage.removeItem('bulgarcaAppState');
             currentIndex = 0;
@@ -1028,8 +1043,7 @@
             });
 
             const input = document.getElementById('input-answer');
-            if (input) {
-                input.focus();
+            if (input && document.activeElement.id !== 'search-input') { input.focus();
                 input.removeEventListener('keypress', input._keypressHandler);
                 document.removeEventListener('keydown', document._keydownHandler);
 
@@ -1044,78 +1058,80 @@
                 }
 
                 const keydownHandler = (event) => {
-                    const isInputActive = document.activeElement === input;
+    const isInputActive = document.activeElement === input;
+    
+    // Arama kutusunda odaklanma varsa, klavye kontrollerini devre dışı bırak
+    if (isSearchFocused) return;
 
-                    switch (event.key) {
-                        case 'ArrowLeft':
-                            if (isInputActive) return;
-                            else {
-                                if (isMissedMode && missedQuestions.indexOf(currentIndex) > 0) {
-                                    currentIndex = missedQuestions[missedQuestions.indexOf(currentIndex) - 1];
-                                    renderContent();
-                                } else if (isSearchMode && searchIndex > 0) {
-                                    searchIndex--;
-                                    currentIndex = searchResults[searchIndex];
-                                    renderContent();
-                                } else if (currentIndex > 0) {
-                                    do {
-                                        currentIndex--;
-                                    } while (blacklist.includes(currentIndex) && currentIndex > 0);
-                                    renderContent();
-                                }
-                            }
-                            break;
+    switch (event.key) {
+        case 'ArrowLeft':
+            if (isInputActive) return;
+            else {
+                if (isMissedMode && missedQuestions.indexOf(currentIndex) > 0) {
+                    currentIndex = missedQuestions[missedQuestions.indexOf(currentIndex) - 1];
+                    renderContent();
+                } else if (isSearchMode && searchIndex > 0) {
+                    searchIndex--;
+                    currentIndex = searchResults[searchIndex];
+                    renderContent();
+                } else if (currentIndex > 0) {
+                    do {
+                        currentIndex--;
+                    } while (blacklist.includes(currentIndex) && currentIndex > 0);
+                    renderContent();
+                }
+            }
+            break;
 
-                        case 'ArrowRight':
-                            if (isInputActive) return;
-                            else {
-                                moveToNextQuestion();
-                                renderContent();
-                            }
-                            break;
+        case 'ArrowRight':
+            if (isInputActive) return;
+            else {
+                moveToNextQuestion();
+                renderContent();
+            }
+            break;
 
-                        case 'ArrowUp':
-                            if (isMissedMode && missedQuestions.indexOf(currentIndex) > 0) {
-                                currentIndex = missedQuestions[missedQuestions.indexOf(currentIndex) - 1];
-                                renderContent();
-                            } else if (isSearchMode && searchIndex > 0) {
-                                searchIndex--;
-                                currentIndex = searchResults[searchIndex];
-                                renderContent();
-                            } else if (currentIndex > 0) {
-                                do {
-                                    currentIndex--;
-                                } while (blacklist.includes(currentIndex) && currentIndex > 0);
-                                renderContent();
-                            }
-                            break;
+        case 'ArrowUp':
+            if (isMissedMode && missedQuestions.indexOf(currentIndex) > 0) {
+                currentIndex = missedQuestions[missedQuestions.indexOf(currentIndex) - 1];
+                renderContent();
+            } else if (isSearchMode && searchIndex > 0) {
+                searchIndex--;
+                currentIndex = searchResults[searchIndex];
+                renderContent();
+            } else if (currentIndex > 0) {
+                do {
+                    currentIndex--;
+                } while (blacklist.includes(currentIndex) && currentIndex > 0);
+                renderContent();
+            }
+            break;
 
-                        case 'ArrowDown':
-                            moveToNextQuestion();
-                            renderContent();
-                            break;
+        case 'ArrowDown':
+            moveToNextQuestion();
+            renderContent();
+            break;
 
-                        case 'Enter':
-                            if (isInputActive) {
-                                event.preventDefault();
-                                if (!isResultShown) checkAnswer();
-                            } else {
-                                event.preventDefault();
-                                moveToNextQuestion();
-                                renderContent();
-                            }
-                            break;
+        case 'Enter':
+            if (isInputActive) {
+                event.preventDefault();
+                if (!isResultShown) checkAnswer();
+            } else {
+                event.preventDefault();
+                moveToNextQuestion();
+                renderContent();
+            }
+            break;
 
-                        case ' ':
-                            if (isInputActive) return;
-                            else {
-                                event.preventDefault();
-                                enableEdit();
-                            }
-                            break;
-                    }
-                };
-
+        case ' ':
+            if (isInputActive) return;
+            else {
+                event.preventDefault();
+                enableEdit();
+            }
+            break;
+    }
+};
                 document.addEventListener('keydown', keydownHandler);
                 document._keydownHandler = keydownHandler;
 
@@ -1496,48 +1512,47 @@
         }
 
         function searchQuestions() {
-            const searchInput = document.getElementById('search-input').value.toLowerCase();
-            const focusOnly = document.getElementById('focus-questions').checked;
-            if (searchInput === '') {
-                isSearchMode = false;
-                searchResults = [];
-                searchIndex = 0;
-                currentIndex = lastIndexBeforeJump !== -1 ? lastIndexBeforeJump : currentIndex;
-                lastIndexBeforeJump = -1;
-                renderContent();
-                document.getElementById('search-results').style.display = 'none';
-                return;
-            }
+    const searchInput = document.getElementById('search-input').value.toLowerCase();
+    const focusOnly = document.getElementById('focus-questions').checked;
+    if (searchInput === '') {
+        isSearchMode = false;
+        searchResults = [];
+        searchIndex = 0;
+        currentIndex = lastIndexBeforeJump !== -1 ? lastIndexBeforeJump : currentIndex;
+        lastIndexBeforeJump = -1;
+        renderContent();
+        document.getElementById('search-results').style.display = 'none';
+        return;
+    }
 
-            searchResults = lessonData
-                .map((item, index) => ({ item, index }))
-                .filter(({ item, index }) => {
-                    if (focusOnly && !wrongCount[index] && !missedQuestions.includes(index)) return false;
-                    const question = (isTurkishQuestion ? item.answer : item.question).toLowerCase();
-                    const answer = (isTurkishQuestion ? item.question : item.answer).toLowerCase();
-                    return question.includes(searchInput) || answer.includes(searchInput);
-                })
-                .map(({ index }) => index);
+    searchResults = lessonData
+        .map((item, index) => ({ item, index }))
+        .filter(({ item, index }) => {
+            if (focusOnly && !wrongCount[index] && !missedQuestions.includes(index)) return false;
+            const question = (isTurkishQuestion ? item.answer : item.question).toLowerCase();
+            const answer = (isTurkishQuestion ? item.question : item.answer).toLowerCase();
+            return question.includes(searchInput) || answer.includes(searchInput);
+        })
+        .map(({ index }) => index);
 
-            if (searchResults.length > 0) {
-                isSearchMode = true;
-                searchIndex = 0;
-                currentIndex = searchResults[searchIndex];
-                document.getElementById('search-results').style.display = 'block';
-                const searchList = document.getElementById('search-list');
-                if (searchList) {
-                    searchList.innerHTML = searchResults.map(index => {
-                        const item = lessonData[index];
-                        return `<div class="search-result" onclick="jumpToQuestion(${index})">${item.question}</div>`;
-                    }).join('');
-                }
-            } else {
-                isSearchMode = false;
-                document.getElementById('search-results').style.display = 'none';
-            }
-            renderContent();
+    if (searchResults.length > 0) {
+        isSearchMode = true;
+        searchIndex = 0;
+        currentIndex = searchResults[searchIndex];
+        document.getElementById('search-results').style.display = 'block';
+        const searchList = document.getElementById('search-list');
+        if (searchList) {
+            searchList.innerHTML = searchResults.map(index => {
+                const item = lessonData[index];
+                return `<div class="search-result" onclick="jumpToQuestion(${index})">${item.question}</div>`;
+            }).join('');
         }
-
+    } else {
+        isSearchMode = false;
+        document.getElementById('search-results').style.display = 'none';
+    }
+    renderContent();
+}
         function toggleTheme() {
             document.body.classList.toggle('dark-theme');
             document.getElementById('toggleThemeBtn').innerText = document.body.classList.contains('dark-theme') ? 'Açık Tema' : 'Koyu Tema';
@@ -1725,9 +1740,17 @@
             renderContent();
         });
 
-        document.getElementById('search-input').addEventListener('input', searchQuestions);
-        document.getElementById('focus-questions').addEventListener('change', searchQuestions);
+// Arama kutusu için event listener'lar
+document.getElementById('search-input').addEventListener('input', searchQuestions);
+document.getElementById('focus-questions').addEventListener('change', searchQuestions);
 
+// Arama kutusunda odaklanma kontrolü için event listener'lar
+document.getElementById('search-input').addEventListener('focus', function() {
+    isSearchFocused = true;
+});
+document.getElementById('search-input').addEventListener('blur', function() {
+    isSearchFocused = false;
+});
         document.getElementById('question-slider').addEventListener('input', (e) => {
             const newIndex = parseInt(e.target.value);
             if (isMissedMode) {
@@ -1793,5 +1816,83 @@
             }
         });
     </script>
-</body>
+<script>
+(function() {
+    let fontState = 0;
+    let caseState = 0;
+    let italicState = 0;
+
+    function isCyrillicText(text) {
+        return /[\u0400-\u04FF]/.test(text);
+    }
+
+    function applyToCyrillicTextNodes(callback) {
+        const walker = document.createTreeWalker(document.body, NodeFilter.SHOW_TEXT, null, false);
+        while (walker.nextNode()) {
+            const node = walker.currentNode;
+            if (isCyrillicText(node.textContent.trim())) {
+                callback(node);
+            }
+        }
+    }
+
+    function updateFont() {
+        applyToCyrillicTextNodes((node) => {
+            const el = node.parentElement;
+            if (el && el.tagName !== 'STYLE' && el.tagName !== 'SCRIPT') {
+                el.style.fontFamily = fontState ? 'Bahnschrift, sans-serif' : '';
+            }
+        });
+
+        const input = document.getElementById('input-answer');
+        if (input && isCyrillicText(input.value)) {
+            input.style.fontFamily = fontState ? 'Bahnschrift, sans-serif' : '';
+        }
+    }
+
+    function updateCase() {
+        applyToCyrillicTextNodes((node) => {
+            if (caseState === 0) {
+                node.textContent = node.textContent.toLowerCase();
+            } else if (caseState === 1) {
+                node.textContent = node.textContent.toLowerCase().replace(/(^|[\.?!]\s*)([а-яё])/g, function(m, p1, p2) {
+                    return p1 + p2.toUpperCase();
+                });
+            } else {
+                node.textContent = node.textContent.toUpperCase();
+            }
+        });
+        caseState = (caseState + 1) % 3;
+    }
+
+    function updateItalic() {
+        applyToCyrillicTextNodes((node) => {
+            const el = node.parentElement;
+            if (el && el.tagName !== 'STYLE' && el.tagName !== 'SCRIPT') {
+                el.style.fontStyle = italicState ? 'italic' : '';
+            }
+        });
+
+        const input = document.getElementById('input-answer');
+        if (input && isCyrillicText(input.value)) {
+            input.style.fontStyle = italicState ? 'italic' : '';
+        }
+
+        italicState = (italicState + 1) % 2;
+    }
+
+    document.getElementById('toggleFontBtn').addEventListener('click', () => {
+        fontState = (fontState + 1) % 2;
+        updateFont();
+    });
+
+    document.getElementById('toggleCaseBtn').addEventListener('click', () => {
+        updateCase();
+    });
+
+    document.getElementById('toggleItalicBtn').addEventListener('click', () => {
+        updateItalic();
+    });
+})();
+</script></body>
 </html>
