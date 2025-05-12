@@ -1,0 +1,1030 @@
+[
+    {
+        "question": "НОВИ ДУМИ (NOVI DUMI)",
+        "answer": "YENİ KELİMELER:"
+    },
+    {
+        "question": "Банкомат (Bankomat)",
+        "answer": "Atm"
+    },
+    {
+        "question": "Каса (Kasa)",
+        "answer": "Vezne"
+    },
+    {
+        "question": "Автогара (Avtogara)",
+        "answer": "Otogar"
+    },
+    {
+        "question": "(ЖП)Гара ((ZHP)Gara)",
+        "answer": "Tren istasyonu"
+    },
+    {
+        "question": "Гараж (Garazh)",
+        "answer": "Garaj"
+    },
+    {
+        "question": "Паркинг (Parking)",
+        "answer": "Otopark"
+    },
+    {
+        "question": "Аптека (Apteka)",
+        "answer": "Eczane"
+    },
+    {
+        "question": "Банка (Banka)",
+        "answer": "Banka"
+    },
+    {
+        "question": "Огън (Ogan)",
+        "answer": "Ateş"
+    },
+    {
+        "question": "Дърво (Darvo)",
+        "answer": "Ağaç"
+    },
+    {
+        "question": "Чадър (CHadar)",
+        "answer": "Şemsiye"
+    },
+    {
+        "question": "Топка (Topka)",
+        "answer": "Top"
+    },
+    {
+        "question": "Лед (Led)",
+        "answer": "Buz"
+    },
+    {
+        "question": "Прозорец (Prozorets)",
+        "answer": "Pencere"
+    },
+    {
+        "question": "Парк (Park)",
+        "answer": "park"
+    },
+    {
+        "question": "Стъкло (Staklo)",
+        "answer": "cam"
+    },
+    {
+        "question": "Пластмаса (Plastmasa)",
+        "answer": "plastik"
+    },
+    {
+        "question": "Колие (Kolie)",
+        "answer": "kolye"
+    },
+    {
+        "question": "Гривна (Grivna)",
+        "answer": "Bileklik"
+    },
+    {
+        "question": "Обици (Obitsi)",
+        "answer": "Küpe"
+    },
+    {
+        "question": "Раница (Ranitsa)",
+        "answer": "Sırt çantası"
+    },
+    {
+        "question": "Дънки (Danki)",
+        "answer": "Kot pantalon"
+    },
+    {
+        "question": "Препарат (Preparat)",
+        "answer": "deterjan (genel)"
+    },
+    {
+        "question": "Храна (Hrana)",
+        "answer": "Yiyecek"
+    },
+    {
+        "question": "Продукт (Produkt)",
+        "answer": "Ürün"
+    },
+    {
+        "question": "Меню (Menyu)",
+        "answer": "Menü"
+    },
+    {
+        "question": "Сметка (Smetka)",
+        "answer": "Hesap"
+    },
+    {
+        "question": "Помощ (Pomosht)",
+        "answer": "Yardım"
+    },
+    {
+        "question": "Трева (Treva)",
+        "answer": "Ot/ çim"
+    },
+    {
+        "question": "Декорация (Dekoratsiya)",
+        "answer": "Dekorasyon"
+    },
+    {
+        "question": "Аксесоар (Aksesoar)",
+        "answer": "Aksesuar"
+    },
+    {
+        "question": "Климатик (Klimatik)",
+        "answer": "Klima"
+    },
+    {
+        "question": "Одеяло (Odeyalo)",
+        "answer": "Battaniye"
+    },
+    {
+        "question": "Портмоне (Portmone)",
+        "answer": "Cüzdan"
+    },
+    {
+        "question": "Самолет (Samolet)",
+        "answer": "Uçak"
+    },
+    {
+        "question": "Летище/ Аерогара (Letishte/ Aerogara)",
+        "answer": "Havaalanı"
+    },
+    {
+        "question": "Ключ (Klyuch)",
+        "answer": "Anahtar"
+    },
+    {
+        "question": "Писмо (Pismo)",
+        "answer": "Mektup"
+    },
+    {
+        "question": "Оферта (Oferta)",
+        "answer": "Teklif"
+    },
+    {
+        "question": "Аз ям вечеря (Az yam vecherya)",
+        "answer": "Ben akşam yemeği yiyorum"
+    },
+    {
+        "question": "Аз ям пилешко за вечеря (Az yam pileshko za vecherya)",
+        "answer": "Ben akşam yemeği için tavuk yiyorum"
+    },
+    {
+        "question": "Ти ядеш банани и грозде (Ti yadesh banani i grozde)",
+        "answer": "Sen muz ve üzüm yiyorsun"
+    },
+    {
+        "question": "Ти ядеш пилешко с ориз (Ti yadesh pileshko s oriz)",
+        "answer": "Sen tavuklu pilav yiyorsun"
+    },
+    {
+        "question": "Ти  ядеш баница (Ti  yadesh banitsa)",
+        "answer": "Sen börek yiyorsun"
+    },
+    {
+        "question": "Той яде червени ягоди (Toy yade cherveni yagodi)",
+        "answer": "O kırmızı çilekler yiyor"
+    },
+    {
+        "question": "Тя яде закуска в осем часа сутринта (Tya yade zakuska v osem chasa sutrinta)",
+        "answer": "O sabahleyin saat 8 de kahvaltı yiyor"
+    },
+    {
+        "question": "То яде кисело мляко и банан за закуска (To yade kiselo mlyako i banan za zakuska)",
+        "answer": "O kahvaltı için yoğurt ve muz yiyor"
+    },
+    {
+        "question": "Ние ядем риба за вечеря (Nie yadem riba za vecherya)",
+        "answer": "Akşam yemeği için biz balık yiyoruz"
+    },
+    {
+        "question": "Ние ядем портокали (Nie yadem portokali)",
+        "answer": "Biz portakal yiyoruz"
+    },
+    {
+        "question": "Вие ядете пилешка супа (Vie yadete pileshka supa)",
+        "answer": "Siz tavuk çorbası yiyorsunuz"
+    },
+    {
+        "question": "Те ядат пилешко шишче (Te yadat pileshko shishche)",
+        "answer": "Onlar tavuk şiş yiyor"
+    },
+    {
+        "question": "Аз ядох баница за вечеря (Az yadoh banitsa za vecherya)",
+        "answer": "Ben akşam yemeği için börek yedim"
+    },
+    {
+        "question": "Аз ядох хляб (Az yadoh hlyab)",
+        "answer": "Ben ekmek yedim"
+    },
+    {
+        "question": "Ти яде закуска (Ti yade zakuska)",
+        "answer": "Sen kahvaltı yedin"
+    },
+    {
+        "question": "Ти яде пилешка супа (Ti yade pileshka supa)",
+        "answer": "Sen tavuk çorbası yedin"
+    },
+    {
+        "question": "Той яде торта с ягода (Toy yade torta s yagoda)",
+        "answer": "O çilekli pasta yedi"
+    },
+    {
+        "question": "Тя вчера яде торта с банани (Tya vchera yade torta s banani)",
+        "answer": "O dün muzlu pasta yedi"
+    },
+    {
+        "question": "То яде сладолед (To yade sladoled)",
+        "answer": "O dondurma yedi"
+    },
+    {
+        "question": "Ние вчера ядохме пилешко с ориз (Nie vchera yadohme pileshko s oriz)",
+        "answer": "Biz dün tavuklu pilav yedik"
+    },
+    {
+        "question": "Вие ядохте баница (Vie yadohte banitsa)",
+        "answer": "Siz börek yediniz"
+    },
+    {
+        "question": "Те ядоха сладолед (Te yadoha sladoled)",
+        "answer": "Onlar dondurma yedi"
+    },
+    {
+        "question": "Аз не ям закуска (Az ne yam zakuska)",
+        "answer": "Ben kahvaltı yemiyorum"
+    },
+    {
+        "question": "Аз не ям закуска в осем часа (Az ne yam zakuska v osem chasa)",
+        "answer": "Ben saat 8 de kahvaltı yemiyorum"
+    },
+    {
+        "question": "Ти не ядеш вечеря (Ti ne yadesh vecherya)",
+        "answer": "Sen akşam yemeği yemiyorsun"
+    },
+    {
+        "question": "Ти не ядеш ядки (Ti ne yadesh yadki)",
+        "answer": "Sen çerez yemiyorsun"
+    },
+    {
+        "question": "Той не яде домати (Toy ne yade domati)",
+        "answer": "O domates yemiyor"
+    },
+    {
+        "question": "Тя не яде праскови (Tya ne yade praskovi)",
+        "answer": "O şeftali yemiyor"
+    },
+    {
+        "question": "То не яде зеле (To ne yade zele)",
+        "answer": "O lahana yemiyor"
+    },
+    {
+        "question": "Ние не ядем сирене (Nie ne yadem sirene)",
+        "answer": "Biz peynir yemiyoruz"
+    },
+    {
+        "question": "Вие не ядете ориз (Vie ne yadete oriz)",
+        "answer": "Siz pilav / pirinç yemiyorsunuz"
+    },
+    {
+        "question": "Те не ядат хляб (Te ne yadat hlyab)",
+        "answer": "Onlar ekmek yemiyor"
+    },
+    {
+        "question": "Аз не ядох кисело мляко (Az ne yadoh kiselo mlyako)",
+        "answer": "Ben yoğurt yemedim"
+    },
+    {
+        "question": "Аз не ядох кашкавал (Az ne yadoh kashkaval)",
+        "answer": "Ben kaşar yemedim"
+    },
+    {
+        "question": "Ти не яде картофено кюфте (Ti ne yade kartofeno kyufte)",
+        "answer": "Sen patates köftesi yemedin"
+    },
+    {
+        "question": "Той не яде пилешка супа (Toy ne yade pileshka supa)",
+        "answer": "O tavuk çorbası yemedi"
+    },
+    {
+        "question": "Тя не яде плодове (Tya ne yade plodove)",
+        "answer": "O meyve yemedi / O meyve yemiyor"
+    },
+    {
+        "question": "То не яде мляско с ориз (To ne yade mlyasko s oriz)",
+        "answer": "O sütlaç yemedi/ O sütlaç yemiyor"
+    },
+    {
+        "question": "Ние не ядохме диня със сирене (Nie ne yadohme dinya sas sirene)",
+        "answer": "Biz peynirli karpuz yemedik"
+    },
+    {
+        "question": "Вие не ядохте зеле (Vie ne yadohte zele)",
+        "answer": "Siz lahana yemediniz"
+    },
+    {
+        "question": "Те не ядоха вечеря (Te ne yadoha vecherya)",
+        "answer": "Onlar akşam yemeği yemedi"
+    },
+    {
+        "question": "Аз ям ли хляб? (Az yam li hlyab?)",
+        "answer": "Ben ekmek yiyor muyum?"
+    },
+    {
+        "question": "Ти ядеш ли сирене? (Ti yadesh li sirene?)",
+        "answer": "Sen peynir yiyor musun?"
+    },
+    {
+        "question": "Вие ядете ли сладолед? (Vie yadete li sladoled?)",
+        "answer": "Siz dondurma yiyor musunuz?"
+    },
+    {
+        "question": "Той яде ли кашкавал? (Toy yade li kashkaval?)",
+        "answer": "O kaşar yiyor mu?"
+    },
+    {
+        "question": "Тя яде ли зеленчуци? (Tya yade li zelenchutsi?)",
+        "answer": "O sebze yiyor mu?"
+    },
+    {
+        "question": "То яде ли шоколад? (To yade li shokolad?)",
+        "answer": "O çikolata yiyor mu?"
+    },
+    {
+        "question": "Ние ядем ли пъпеш? (Nie yadem li papesh?)",
+        "answer": "Biz kavun yiyor muyuz?"
+    },
+    {
+        "question": "Вие ядете ли яйце? (Vie yadete li yaytse?)",
+        "answer": "Siz yumurta yiyor musunuz?"
+    },
+    {
+        "question": "Те ядат ли мед? (Te yadat li med?)",
+        "answer": "Onlar bal yiyor mu?"
+    },
+    {
+        "question": "Аз ядох ли баница? (Az yadoh li banitsa?)",
+        "answer": "Ben börek yedim mi?"
+    },
+    {
+        "question": "Ти яде ли риба? (Ti yade li riba?)",
+        "answer": "Sen balık yedin mi?"
+    },
+    {
+        "question": "Той яде ли зелена ябълка? (Toy yade li zelena yabalka?)",
+        "answer": "O yeşil elma yedi mi?"
+    },
+    {
+        "question": "Тя яде ли червена ябълка? (Tya yade li chervena yabalka?)",
+        "answer": "O kırmızı elma yedi mi?"
+    },
+    {
+        "question": "То яде ли шопска салата? (To yade li shopska salata?)",
+        "answer": "O şopska salata yedi mi?"
+    },
+    {
+        "question": "Ние ядохме ли кебапче? (Nie yadohme li kebapche?)",
+        "answer": "Biz kebapçe yedik mi?"
+    },
+    {
+        "question": "Вие ядохте ли баничка и боза? (Vie yadohte li banichka i boza?)",
+        "answer": "Siz baniçka ve boza yediniz mi?"
+    },
+    {
+        "question": "Вие ядохте ли баничка и пихте ли боза? (Vie yadohte li banichka i pihte li boza?)",
+        "answer": "Siz baniçka yediniz mi ve boza içtiniz mi?"
+    },
+    {
+        "question": "Те ядоха ли макарони? (Te yadoha li makaroni?)",
+        "answer": "Onlar makarna yediler mi?"
+    },
+    {
+        "question": "Аз пия студена вода (Az piya studena voda)",
+        "answer": "Ben soğuk su içiyorum"
+    },
+    {
+        "question": "Пия вода с лед (Piya voda s led)",
+        "answer": "Buzlu su içiyorum"
+    },
+    {
+        "question": "Ти пиеш студена минерална вода (Ti piesh studena mineralna voda)",
+        "answer": "Sen soğuk su içiyorsun"
+    },
+    {
+        "question": "Той пие газирана вода (Toy pie gazirana voda)",
+        "answer": "O soda içiyor"
+    },
+    {
+        "question": "Тя пие капучино (Tya pie kapuchino)",
+        "answer": "O kapuçino içiyor"
+    },
+    {
+        "question": "То пие мляко с шоколад (To pie mlyako s shokolad)",
+        "answer": "O çikolatalı süt içiyor"
+    },
+    {
+        "question": "Ние пием портокалов сок (Nie piem portokalov sok)",
+        "answer": "Biz portakal suyu içiyoruz"
+    },
+    {
+        "question": "Вие пиете горещ шоколад (Vie piete goresht shokolad)",
+        "answer": "Siz sıcak çikolata içiyorsunuz"
+    },
+    {
+        "question": "Те пият айран (Te piyat ayran)",
+        "answer": "Onlar ayran içiyor"
+    },
+    {
+        "question": "Тази сутрин пих кафе (Tazi sutrin pih kafe)",
+        "answer": "Bu sabah kahve içtim"
+    },
+    {
+        "question": "Ти сутринта пи чай (Ti sutrinta pi chay)",
+        "answer": "Sen sabahleyin çay içtin"
+    },
+    {
+        "question": "Той пи мляко с мед (Toy pi mlyako s med)",
+        "answer": "O ballı süt içti"
+    },
+    {
+        "question": "Тя пи кафе с мляко (Tya pi kafe s mlyako)",
+        "answer": "O sütlü kahve içti"
+    },
+    {
+        "question": "То пи студена кола (To pi studena kola)",
+        "answer": "O soğuk kola içti"
+    },
+    {
+        "question": "Ние пихме студен чай (Nie pihme studen chay)",
+        "answer": "Biz soğuk çay içtik"
+    },
+    {
+        "question": "Вие пихте билков чай (Vie pihte bilkov chay)",
+        "answer": "Siz bitki çayı içtiniz"
+    },
+    {
+        "question": "Те пиха чай от липа (Te piha chay ot lipa)",
+        "answer": "Onlar ıhlamur çayı içti"
+    },
+    {
+        "question": "Аз не пия студена вода (Az ne piya studena voda)",
+        "answer": "Ben soğuk su içmiyorum"
+    },
+    {
+        "question": "Ти не пиеш кафе (Ti ne piesh kafe)",
+        "answer": "Sen kahve içmiyorsun"
+    },
+    {
+        "question": "Той не пие сок (Toy ne pie sok)",
+        "answer": "O meyve suyu içmiyor"
+    },
+    {
+        "question": "Тя не пие горещ шоколад (Tya ne pie goresht shokolad)",
+        "answer": "O sıcak çikolata içmiyor"
+    },
+    {
+        "question": "То не пие студена бира (To ne pie studena bira)",
+        "answer": "O soğuk bira içmiyor"
+    },
+    {
+        "question": "Ние не пием студен сок (Nie ne piem studen sok)",
+        "answer": "Biz soğuk meyve suyu içmiyoruz"
+    },
+    {
+        "question": "Вие не пиете газирана вода (Vie ne piete gazirana voda)",
+        "answer": "Siz soda içmiyorsunuz"
+    },
+    {
+        "question": "Те не пият зелен чай (Te ne piyat zelen chay)",
+        "answer": "Onlar yeşil çay içmiyor"
+    },
+    {
+        "question": "Аз днес не пих зелен чай (Az dnes ne pih zelen chay)",
+        "answer": "Ben bugün yeşil çay içmedim"
+    },
+    {
+        "question": "Ти не пи газирана вода (Ti ne pi gazirana voda)",
+        "answer": "Sen soda içmedin"
+    },
+    {
+        "question": "Той не пи капучино (Toy ne pi kapuchino)",
+        "answer": "O kapuçino içmedi"
+    },
+    {
+        "question": "Тя не пи алкохол (Tya ne pi alkohol)",
+        "answer": "O alkol içmedi"
+    },
+    {
+        "question": "То не пи вода (To ne pi voda)",
+        "answer": "O su içmedi"
+    },
+    {
+        "question": "Ние не пихме алкохол (Nie ne pihme alkohol)",
+        "answer": "Biz alkol içmedik"
+    },
+    {
+        "question": "Вие не пихте бира (Vie ne pihte bira)",
+        "answer": "Siz bira içmediniz"
+    },
+    {
+        "question": "Те не пиха сок от плодове (Te ne piha sok ot plodove)",
+        "answer": "Onlar meyve suyu içmedi"
+    },
+    {
+        "question": "Ти пиеш ли алкохол? (Ti piesh li alkohol?)",
+        "answer": "Sen alkol içiyor musun?"
+    },
+    {
+        "question": "Пиеш ли кафе? (Piesh li kafe?)",
+        "answer": "Kahve içiyor musun?"
+    },
+    {
+        "question": "Той пие ли зелен чай? (Toy pie li zelen chay?)",
+        "answer": "O yeşil çay içiyor mu?"
+    },
+    {
+        "question": "Тя пие ли сок ? (Tya pie li sok ?)",
+        "answer": "O meyve suyu içiyor mu?"
+    },
+    {
+        "question": "То пие ли горещо мляко? (To pie li goreshto mlyako?)",
+        "answer": "O sıcak süt içiyor mu?"
+    },
+    {
+        "question": "Ние пием ли мляко без захар? (Nie piem li mlyako bez zahar?)",
+        "answer": "Biz şekersiz süt içiyor muyuz?"
+    },
+    {
+        "question": "Вие пиете ли студен чай? (Vie piete li studen chay?)",
+        "answer": "Siz soğuk çay içiyor musunuz?"
+    },
+    {
+        "question": "Те пият ли сок от портокал? (Te piyat li sok ot portokal?)",
+        "answer": "Onlar portakal suyu içiyor mu?"
+    },
+    {
+        "question": "Аз вчера не пих лекарства (Az vchera ne pih lekarstva)",
+        "answer": "Ben dün ilaç içmedim"
+    },
+    {
+        "question": "Вчера пих ли лекарства? (Vchera pih li lekarstva?)",
+        "answer": "Dün ilaç içtim mi?"
+    },
+    {
+        "question": "Аз пих ли вода? (Az pih li voda?)",
+        "answer": "Ben su içtim mi?"
+    },
+    {
+        "question": "Ти пи ли лимонада? (Ti pi li limonada?)",
+        "answer": "Sen limonata içtin mi?"
+    },
+    {
+        "question": "Той пи ли капучино? (Toy pi li kapuchino?)",
+        "answer": "O kapuçino içti mi?"
+    },
+    {
+        "question": "Тя пи ли чай от липа? (Tya pi li chay ot lipa?)",
+        "answer": "O ıhlamur çayı içti mi?"
+    },
+    {
+        "question": "То пи ли мляко с мед? (To pi li mlyako s med?)",
+        "answer": "O ballı süt içti mi?"
+    },
+    {
+        "question": "Ние понеделник пихме кайсиева ракия (Nie ponedelnik pihme kaysieva rakiya)",
+        "answer": "Biz pazartesi kayısı rakısı içtik"
+    },
+    {
+        "question": "Ние понеделник пихме ли кайсиева ракия? (Nie ponedelnik pihme li kaysieva rakiya?)",
+        "answer": "Biz pazartesi kayısı rakısı içtik mi?"
+    },
+    {
+        "question": "Вие днес пихте ли кафе? (Vie dnes pihte li kafe?)",
+        "answer": "Siz bugün kahve içtiniz mi?"
+    },
+    {
+        "question": "Те пиха ли вино? (Te piha li vino?)",
+        "answer": "Onlar şarap içti mi?"
+    },
+    {
+        "question": "Чета книга (CHeta kniga)",
+        "answer": "Kitap okuyorum"
+    },
+    {
+        "question": "Ти четеш вестник (Ti chetesh vestnik)",
+        "answer": "Sen gazete okuyorsun"
+    },
+    {
+        "question": "Той чете списание (Toy chete spisanie)",
+        "answer": "O dergi okuyor"
+    },
+    {
+        "question": "Тя чете интересна книга (Tya chete interesna kniga)",
+        "answer": "O ilginç kitap okuyor"
+    },
+    {
+        "question": "То чете роман (To chete roman)",
+        "answer": "O roman okuyor"
+    },
+    {
+        "question": "Ние четем стихотворение (Nie chetem stihotvorenie)",
+        "answer": "Biz şiir okuyoruz"
+    },
+    {
+        "question": "Вие четете списание за дома (Vie chetete spisanie za doma)",
+        "answer": "Siz ev için dergi okuyorsunuz"
+    },
+    {
+        "question": "Те четат писмо (Te chetat pismo)",
+        "answer": "Onlar mektup okuyor"
+    },
+    {
+        "question": "Аз четох статия (Az chetoh statiya)",
+        "answer": "Ben makale okudum"
+    },
+    {
+        "question": "Ти чете разкази (Ti chete razkazi)",
+        "answer": "Sen hikaye okudun"
+    },
+    {
+        "question": "Той чете детска книжка (Toy chete detska knizhka)",
+        "answer": "O çocuk kitabı okudu"
+    },
+    {
+        "question": "Тя чете книга с приказки (Tya chete kniga s prikazki)",
+        "answer": "O masal kitabı okudu"
+    },
+    {
+        "question": "То чете бебешка книжка (To chete bebeshka knizhka)",
+        "answer": "O bebek kitabı okudu"
+    },
+    {
+        "question": "Ние четохме вестник (Nie chetohme vestnik)",
+        "answer": "Biz gazete okuduk"
+    },
+    {
+        "question": "Вие четохте електронна поща (Vie chetohte elektronna poshta)",
+        "answer": "Siz elektronik posta okudunuz"
+    },
+    {
+        "question": "Те четоха готварска книга (Te chetoha gotvarska kniga)",
+        "answer": "Onlar yemek kitabı okudu"
+    },
+    {
+        "question": "Не чета книги (Ne cheta knigi)",
+        "answer": "Kitap okumuyorum"
+    },
+    {
+        "question": "Ти не четеш готварски книги (Ti ne chetesh gotvarski knigi)",
+        "answer": "Sen yemek kitapları okumuyorsun"
+    },
+    {
+        "question": "Той не чете статии (Toy ne chete statii)",
+        "answer": "O makale okumuyor"
+    },
+    {
+        "question": "Тя не чете списание (Tya ne chete spisanie)",
+        "answer": "O dergi okumuyor"
+    },
+    {
+        "question": "То не чете детски книжки (To ne chete detski knizhki)",
+        "answer": "O çocuk kitapları okumuyor"
+    },
+    {
+        "question": "Ние не четем комикси (Nie ne chetem komiksi)",
+        "answer": "Biz komiks okumuyoruz"
+    },
+    {
+        "question": "Вие не четете вестник (Vie ne chetete vestnik)",
+        "answer": "Siz gazete okumuyorsunuz"
+    },
+    {
+        "question": "Те не четат книга с приказки (Te ne chetat kniga s prikazki)",
+        "answer": "Onlar masal kitabı okumuyor"
+    },
+    {
+        "question": "Аз не четох вестник (Az ne chetoh vestnik)",
+        "answer": "Ben gazete okumadım"
+    },
+    {
+        "question": "Ти не чете роман (Ti ne chete roman)",
+        "answer": "Sen roman okumadın"
+    },
+    {
+        "question": "Той/Тя/ То не чете стихотворение (Toy/Tya/ To ne chete stihotvorenie)",
+        "answer": "O şiir okumadı"
+    },
+    {
+        "question": "Ние не четохме съобщението (Nie ne chetohme saobshtenieto)",
+        "answer": "Biz mesajı okumadık"
+    },
+    {
+        "question": "Вие не четохте електронната поща (Vie ne chetohte elektronnata poshta)",
+        "answer": "Siz elektronik postayı okumadanız"
+    },
+    {
+        "question": "Те не четоха речник (Te ne chetoha rechnik)",
+        "answer": "Onlar sözlük okumadı"
+    },
+    {
+        "question": "Чета ли вестник? (CHeta li vestnik?)",
+        "answer": "Gazete okuyor muyum?"
+    },
+    {
+        "question": "Четеш ли комикси? (CHetesh li komiksi?)",
+        "answer": "Komiks okuyor musun?"
+    },
+    {
+        "question": "Той чете ли готварска книга? (Toy chete li gotvarska kniga?)",
+        "answer": "O yemek kitabı okudu mu?"
+    },
+    {
+        "question": "Тя чете ли списание за жени? (Tya chete li spisanie za zheni?)",
+        "answer": "O kadın dergisi okudu mu?"
+    },
+    {
+        "question": "То чете ли книга с приказки? (To chete li kniga s prikazki?)",
+        "answer": "O masal kitabı okudu mu?"
+    },
+    {
+        "question": "Ние четем ли книги? (Nie chetem li knigi?)",
+        "answer": "Biz kitap okuyor muyuz?"
+    },
+    {
+        "question": "Вие четете ли романи? (Vie chetete li romani?)",
+        "answer": "Siz roman okuyor musunuz?"
+    },
+    {
+        "question": "Те четат ли вестници? (Te chetat li vestnitsi?)",
+        "answer": "Onlar gazete okuyor mu?"
+    },
+    {
+        "question": "Четох ли учебник? (CHetoh li uchebnik?)",
+        "answer": "Ders kitabı okudum mu?"
+    },
+    {
+        "question": "Ти чете ли списание? (Ti chete li spisanie?)",
+        "answer": "Sen dergi okudun mu?"
+    },
+    {
+        "question": "Той чете ли проспект? (Toy chete li prospekt?)",
+        "answer": "O prospektüs okudu mu?"
+    },
+    {
+        "question": "Тя чете ли списание за жени? (Tya chete li spisanie za zheni?)",
+        "answer": "O kadın dergisi okudu mu?"
+    },
+    {
+        "question": "То чете ли бебешка книжка? (To chete li bebeshka knizhka?)",
+        "answer": "O bebek kitabı okudu mu?"
+    },
+    {
+        "question": "Ние четохме ли рецепта за лекарства? (Nie chetohme li retsepta za lekarstva?)",
+        "answer": "Biz ilaç reçetesi okuduk mu?"
+    },
+    {
+        "question": "Вие четохте ли спортен вестник? (Vie chetohte li sporten vestnik?)",
+        "answer": "Siz spor gazetesi okudunuz mu?"
+    },
+    {
+        "question": "Те четоха ли правилата ? (Te chetoha li pravilata ?)",
+        "answer": "Onlar kuralları okudu mu?"
+    },
+    {
+        "question": "Aз купувам едно кафе (Az kupuvam edno kafe)",
+        "answer": "Ben bir kahve satın alıyorum"
+    },
+    {
+        "question": "Ти купуваш еднa черна кола (Ti kupuvash edna cherna kola)",
+        "answer": "Sen siyah bir araba satın alıyorsun"
+    },
+    {
+        "question": "Той купува една чанта (Toy kupuva edna chanta)",
+        "answer": "O bir çanta satın alıyor"
+    },
+    {
+        "question": "Тя купува малка кьща (Tya kupuva malka kshta)",
+        "answer": "O küçük bir ev satın alıyor"
+    },
+    {
+        "question": "То купува един сладолед (To kupuva edin sladoled)",
+        "answer": "O bir dondurma satın alıyor"
+    },
+    {
+        "question": "Ние купуваме седем вели маси (Nie kupuvame sedem veli masi)",
+        "answer": "Biz yedi büyük masa satın alıyoruz"
+    },
+    {
+        "question": "Вие купувате две червени ябълки (Vie kupuvate dve cherveni yabalki)",
+        "answer": "Siz iki kırmızı elma satın alıyorsunuz"
+    },
+    {
+        "question": "Те купуват рет малки тетрадки (Te kupuvat ret malki tetradki)",
+        "answer": "Onlar birkaç küçük defter satın alıyor"
+    },
+    {
+        "question": "Аз купих три химикали (Az kupih tri himikali)",
+        "answer": "Ben üç kalem satın aldım"
+    },
+    {
+        "question": "Ти купи един банан (Ti kupi edin banan)",
+        "answer": "Sen bir muz satın aldın"
+    },
+    {
+        "question": "Той купи черно колело (Toy kupi cherno kolelo)",
+        "answer": "O siyah bir bisiklet satın aldı"
+    },
+    {
+        "question": "Тя купи една играчка (Tya kupi edna igrachka)",
+        "answer": "O bir oyuncak satın aldı"
+    },
+    {
+        "question": "То купи розова тениска (To kupi rozova teniska)",
+        "answer": "O pembe bir tişört satın aldı"
+    },
+    {
+        "question": "Ние купихме телевизор (Nie kupihme televizor)",
+        "answer": "Biz televizyon satın aldık"
+    },
+    {
+        "question": "Вие купихте шест бутилки вода (Vie kupihte shest butilki voda)",
+        "answer": "Siz altı şişe su satın aldınız"
+    },
+    {
+        "question": "Те купиха жълт пъпеш (Te kupiha zhalt papesh)",
+        "answer": "Onlar sarı bir kavun satın aldı"
+    },
+    {
+        "question": "Aз не купивам петел (Az ne kupivam petel)",
+        "answer": "Ben horoz satın almıyorum"
+    },
+    {
+        "question": "Ти не купуваш сок (Ti ne kupuvash sok)",
+        "answer": "Sen meyve suyu satın almıyorsun"
+    },
+    {
+        "question": "Той не купува ягуди (Toy ne kupuva yagudi)",
+        "answer": "O çilek satın almıyor"
+    },
+    {
+        "question": "Тя не купува кола (Tya ne kupuva kola)",
+        "answer": "O araba satın almıyor"
+    },
+    {
+        "question": "То не купува малко колело (To ne kupuva malko kolelo)",
+        "answer": "O küçük bir bisiklet satın almıyor"
+    },
+    {
+        "question": "Ние не купуваме гореш бира (Nie ne kupuvame goresh bira)",
+        "answer": "Biz sıcak bira satın almıyoruz"
+    },
+    {
+        "question": "Вие не купувате карфиол (Vie ne kupuvate karfiol)",
+        "answer": "Siz karnabahar satın almıyorsunuz"
+    },
+    {
+        "question": "Те не купуват кисело мляко (Te ne kupuvat kiselo mlyako)",
+        "answer": "Onlar yoğurt satın almıyor"
+    },
+    {
+        "question": "Аз не купих котка (Az ne kupih kotka)",
+        "answer": "Ben bir kedi satın almadım"
+    },
+    {
+        "question": "Ти не купи ботуши (Ti ne kupi botushi)",
+        "answer": "Sen bot satın almadın"
+    },
+    {
+        "question": "Той не купи червен домат (Toy ne kupi cherven domat)",
+        "answer": "O kırmızı domates satın almadı"
+    },
+    {
+        "question": "Тя не купи две шапка (Tya ne kupi dve shapka)",
+        "answer": "O iki şapka satın almadı"
+    },
+    {
+        "question": "То не купи бяла пижама (To ne kupi byala pizhama)",
+        "answer": "O beyaz bir pijama satın almadı"
+    },
+    {
+        "question": "Ние не купихме един портокал (Nie ne kupihme edin portokal)",
+        "answer": "Biz bir portakal satın almadık"
+    },
+    {
+        "question": "Вие не купихте хляб за закуска (Vie ne kupihte hlyab za zakuska)",
+        "answer": "Siz kahvaltı için ekmek satın almadınız"
+    },
+    {
+        "question": "Те не купиха вода и лимон (Te ne kupiha voda i limon)",
+        "answer": "Onlar su ve limon satın almadı"
+    },
+    {
+        "question": "купивам ли сини тениски (kupivam li sini teniski)",
+        "answer": "Ben mavi tişörtler satın alıyor muyum?"
+    },
+    {
+        "question": "Ти купуваш ли домат (Ti kupuvash li domat)",
+        "answer": "Sen domates satın alıyor musun?"
+    },
+    {
+        "question": "Той купува ли бяла кола (Toy kupuva li byala kola)",
+        "answer": "O beyaz bir araba satın alıyor mu?"
+    },
+    {
+        "question": "Тя купува ли черно колело (Tya kupuva li cherno kolelo)",
+        "answer": "O siyah bisiklet satın alıyor mu?"
+    },
+    {
+        "question": "То купува ли бели маси (To kupuva li beli masi)",
+        "answer": "O beyaz masalar satın alıyor mu?"
+    },
+    {
+        "question": "Ние купуваме ли чай (Nie kupuvame li chay)",
+        "answer": "Biz çay satın alıyor muyuz?"
+    },
+    {
+        "question": "Вие купувате ли картоф (Vie kupuvate li kartof)",
+        "answer": "Siz patates satın alıyor musunuz?"
+    },
+    {
+        "question": "Те купуват ли прясно мляко (Te kupuvat li pryasno mlyako)",
+        "answer": "Onlar taze süt satın alıyor mu?"
+    },
+    {
+        "question": "Аз купих ли малко куче (Az kupih li malko kuche)",
+        "answer": "Ben küçük bir köpek satın aldım mı?"
+    },
+    {
+        "question": "Ти купи ли едно сафе (Ti kupi li edno safe)",
+        "answer": "Sen bir kahve satın aldın mı?"
+    },
+    {
+        "question": "Той купи ли осем столове (Toy kupi li osem stolove)",
+        "answer": "O sekiz sandalye satın aldı mı?"
+    },
+    {
+        "question": "Тя купи ли зелзни панталони (Tya kupi li zelzni pantaloni)",
+        "answer": "O yeşil pantolon satın aldı mı?"
+    },
+    {
+        "question": "То купи ли десет бяли чаши (To kupi li deset byali chashi)",
+        "answer": "O on beyaz fincan satın aldı mı?"
+    },
+    {
+        "question": "Ние купихме ли черни книги (Nie kupihme li cherni knigi)",
+        "answer": "Biz siyah kitaplar satın aldık mı?"
+    },
+    {
+        "question": "Вие купихте ли четири сирене за закуска (Vie kupihte li chetiri sirene za zakuska)",
+        "answer": "Siz kahvaltı için dört peynir satın aldınız mı?"
+    },
+    {
+        "question": "Те купиха ли банича (Te kupiha li banicha)",
+        "answer": "Onlar börek satın aldı mı?"
+    },
+    {
+        "question": "Аз купувам (Az kupuvam)",
+        "answer": "Ben satın alıyorum"
+    },
+    {
+        "question": "Аз купих (Az kupih)",
+        "answer": "Ben satın aldım"
+    },
+    {
+        "question": "Ти купуваш (Ti kupuvash)",
+        "answer": "Sen satın alıyorsun"
+    },
+    {
+        "question": "Ти купи (Ti kupi)",
+        "answer": "Sen satın aldın"
+    },
+    {
+        "question": "Той/тя/то купува (Toy/tya/to kupuva)",
+        "answer": "O satın alıyor"
+    },
+    {
+        "question": "Той/тя/то купи (Toy/tya/to kupi)",
+        "answer": "O satın aldı"
+    },
+    {
+        "question": "Ние купуваме (Nie kupuvame)",
+        "answer": "Biz satın alıyoruz"
+    },
+    {
+        "question": "Ние купихме (Nie kupihme)",
+        "answer": "Biz satın aldık"
+    },
+    {
+        "question": "Вие купувате (Vie kupuvate)",
+        "answer": "Siz satın alıyorsunuz"
+    },
+    {
+        "question": "Вие купихте (Vie kupihte)",
+        "answer": "Siz satın aldınız"
+    },
+    {
+        "question": "Те купуват (Te kupuvat)",
+        "answer": "Onlar satın alıyor"
+    },
+    {
+        "question": "Те купиха (Te kupiha)",
+        "answer": "Onlar satın aldı"
+    }
+]
