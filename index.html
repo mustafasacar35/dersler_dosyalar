@@ -229,19 +229,109 @@
 <button onclick="closeKeyboard()">Kapat</button>
 </div>
 </div>
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js">
+window.onload = function() {
+  window.addEventListener('keydown', window.keydownHandler);
+};
+
+window.addEventListener('DOMContentLoaded', function () {
+  document.addEventListener('keydown', function(event) {
+
+    const title = document.getElementById('title');
+    if (title) {
+      title.innerText = "Tuş algılandı: " + event.key;
+    }
+
+    const input = document.getElementById('input-answer');
+    const isInputActive = document.activeElement === input;
+    const isSearchActive = document.activeElement === document.getElementById('search-input');
+
+    if (event.key === 'ArrowUp' || event.key === 'ArrowDown') {
+        event.preventDefault();
+        if (event.key === 'ArrowUp') {
+            if (typeof isMissedMode !== 'undefined' && isMissedMode && missedQuestions.indexOf(currentIndex) > 0) {
+                currentIndex = missedQuestions[missedQuestions.indexOf(currentIndex) - 1];
+            } else if (typeof isSearchMode !== 'undefined' && isSearchMode && searchIndex > 0) {
+                searchIndex--;
+                currentIndex = searchResults[searchIndex];
+            } else if (currentIndex > 0) {
+                do {
+                    currentIndex--;
+                } while (typeof blacklist !== 'undefined' && blacklist.includes(currentIndex) && currentIndex > 0);
+            }
+        } else {
+            if (typeof moveToNextQuestion === 'function') {
+                moveToNextQuestion();
+            }
+        }
+        if (typeof renderContent === 'function') {
+            renderContent();
+        }
+        return;
+    }
+
+    if (!isInputActive && !isSearchActive) {
+        if (event.key === 'ArrowLeft') {
+            event.preventDefault();
+            if (typeof isMissedMode !== 'undefined' && isMissedMode && missedQuestions.indexOf(currentIndex) > 0) {
+                currentIndex = missedQuestions[missedQuestions.indexOf(currentIndex) - 1];
+            } else if (typeof isSearchMode !== 'undefined' && isSearchMode && searchIndex > 0) {
+                searchIndex--;
+                currentIndex = searchResults[searchIndex];
+            } else if (currentIndex > 0) {
+                do {
+                    currentIndex--;
+                } while (typeof blacklist !== 'undefined' && blacklist.includes(currentIndex) && currentIndex > 0);
+            }
+            if (typeof renderContent === 'function') {
+                renderContent();
+            }
+            return;
+        } else if (event.key === 'ArrowRight') {
+            event.preventDefault();
+            if (typeof moveToNextQuestion === 'function') {
+                moveToNextQuestion();
+            }
+            if (typeof renderContent === 'function') {
+                renderContent();
+            }
+            return;
+        }
+    }
+
+    if (event.key === 'Enter') {
+        event.preventDefault();
+        if (isInputActive && typeof checkAnswer === 'function') {
+            checkAnswer();
+        } else if (typeof moveToNextQuestion === 'function') {
+            moveToNextQuestion();
+            if (typeof renderContent === 'function') {
+                renderContent();
+            }
+        }
+    }
+  });
+});
+
+</script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js">
+window.onload = function() {
+  window.addEventListener('keydown', window.keydownHandler);
+};
+
+
+</script>
 <script>
         let lessonData = [];
         let jsonFiles = {};
-        let currentIndex = 0;
+        window.currentIndex = 0;
         let score = 0;
         let answers = [];
         let recentQuestions = [];
-        let blacklist = [];
+        window.blacklist = [];
         let wrongCount = {};
         let priorityQueue = [];
-        let missedQuestions = [];
+        window.missedQuestions = [];
         let questionCounter = 0;
         let isRandomOrder = false;
         let isTurkishQuestion = false;
@@ -249,15 +339,15 @@
         let autoNextTimeout = null;
         let isAutoNextPaused = false;
         let lastSequentialIndex = 0;
-        let searchResults = [];
-        let searchIndex = 0;
-        let isSearchMode = false;
+        window.searchResults = [];
+        window.searchIndex = 0;
+        window.isSearchMode = false;
         let isResultShown = false;
         let isSpeechEnabled = false;
         let isLatinVisible = false;
         let isRepeatWrongEnabled = false;
         let isSoundEnabled = false;
-        let isMissedMode = false;
+        window.isMissedMode = false;
         let isBulgarianKeyboard = true;
         let isCapsOn = false;
         let isItalicEnabled = false;
@@ -330,21 +420,22 @@
         ];
 
         async function loadAllLessons() {
-            for (const lesson of githubLessonUrls) {
-                try {
-                    const response = await fetch(lesson.url);
-                    if (!response.ok) throw new Error(`Ders yüklenemedi: ${lesson.name} - ${response.status}`);
-                    const data = await response.json();
-                    jsonFiles[lesson.name] = { data: data, selected: true };
-                } catch (error) {
-                    console.error(`Hata: ${lesson.name} yüklenemedi - ${error.message}`);
-                }
-            }
-            updateLessonData();
-            updateJsonFilesList();
-            renderContent();
-            updateSlider();
+    for (const lesson of githubLessonUrls) {
+        try {
+            const response = await fetch(lesson.url);
+            if (!response.ok) throw new Error(`Ders yüklenemedi: ${lesson.name} - ${response.status}`);
+            const data = await response.json();
+            // Sadece "Ders 1" için selected: true, diğerleri için false
+            jsonFiles[lesson.name] = { data: data, selected: lesson.name === "Ders 1" };
+        } catch (error) {
+            console.error(`Hata: ${lesson.name} yüklenemedi - ${error.message}`);
         }
+    }
+    updateLessonData();
+    updateJsonFilesList();
+    renderContent();
+    updateSlider();
+}
 
         function cyrillicToLatinText(text) {
             return text.split('').map(char => cyrillicToLatin[char] || char).join('').toUpperCase();
@@ -984,7 +1075,7 @@
             }
         }
 
-        function renderContent() {
+        window.renderContent = function() {
             const contentDiv = document.getElementById('content');
             if (!contentDiv) return;
 
@@ -1044,7 +1135,7 @@
             });
 
             const input = document.getElementById('input-answer');
-            if (input && document.activeElement.id !== 'search-input') { input.focus();
+            if (input && document.activeElement.id === 'input-answer') { input.focus();
                 input.removeEventListener('keypress', input._keypressHandler);
                 document.removeEventListener('keydown', document._keydownHandler);
 
@@ -1058,81 +1149,136 @@
                     }
                 }
 
-                const keydownHandler = (event) => {
-    const isInputActive = document.activeElement === input;
-    
-    // Arama kutusunda odaklanma varsa, klavye kontrollerini devre dışı bırak
-    if (isSearchFocused) return;
+                
 
-    switch (event.key) {
-        case 'ArrowLeft':
-            if (isInputActive) return;
-            else {
-                if (isMissedMode && missedQuestions.indexOf(currentIndex) > 0) {
-                    currentIndex = missedQuestions[missedQuestions.indexOf(currentIndex) - 1];
-                    renderContent();
-                } else if (isSearchMode && searchIndex > 0) {
-                    searchIndex--;
-                    currentIndex = searchResults[searchIndex];
-                    renderContent();
-                } else if (currentIndex > 0) {
-                    do {
-                        currentIndex--;
-                    } while (blacklist.includes(currentIndex) && currentIndex > 0);
-                    renderContent();
-                }
-            }
-            break;
+window.keydownHandler = (event) => {
+    const inputAnswer = document.getElementById('input-answer');
+    const searchInput = document.getElementById('search-input');
+    const isInputActive = document.activeElement === inputAnswer;
+    const isSearchActive = document.activeElement === searchInput;
 
-        case 'ArrowRight':
-            if (isInputActive) return;
-            else {
-                moveToNextQuestion();
-                renderContent();
-            }
-            break;
-
-        case 'ArrowUp':
+    // Yukarı / Aşağı → Her zaman çalışır
+    if (event.key === 'ArrowUp' || event.key === 'ArrowDown') {
+        event.preventDefault();
+        if (event.key === 'ArrowUp') {
             if (isMissedMode && missedQuestions.indexOf(currentIndex) > 0) {
                 currentIndex = missedQuestions[missedQuestions.indexOf(currentIndex) - 1];
-                renderContent();
             } else if (isSearchMode && searchIndex > 0) {
                 searchIndex--;
                 currentIndex = searchResults[searchIndex];
-                renderContent();
             } else if (currentIndex > 0) {
                 do {
                     currentIndex--;
                 } while (blacklist.includes(currentIndex) && currentIndex > 0);
-                renderContent();
             }
-            break;
+        } else {
+            moveToNextQuestion();
+        }
+        renderContent();
+        return;
+    }
 
-        case 'ArrowDown':
+    // Sağ / Sol → input'lar aktif değilse çalışır
+    if (!isInputActive && !isSearchActive) {
+        if (event.key === 'ArrowLeft') {
+            event.preventDefault();
+            if (isMissedMode && missedQuestions.indexOf(currentIndex) > 0) {
+                currentIndex = missedQuestions[missedQuestions.indexOf(currentIndex) - 1];
+            } else if (isSearchMode && searchIndex > 0) {
+                searchIndex--;
+                currentIndex = searchResults[searchIndex];
+            } else if (currentIndex > 0) {
+                do {
+                    currentIndex--;
+                } while (blacklist.includes(currentIndex) && currentIndex > 0);
+            }
+            renderContent();
+            return;
+        } else if (event.key === 'ArrowRight') {
+            event.preventDefault();
             moveToNextQuestion();
             renderContent();
-            break;
+            return;
+        }
+    }
 
-        case 'Enter':
-            if (isInputActive) {
-                event.preventDefault();
-                if (!isResultShown) checkAnswer();
-            } else {
-                event.preventDefault();
-                moveToNextQuestion();
-                renderContent();
-            }
-            break;
+    // Enter tuşu
+    if (event.key === 'Enter') {
+        event.preventDefault();
+        if (isInputActive) {
+            checkAnswer();
+        } else {
+            moveToNextQuestion();
+            renderContent();
+        }
+        return;
+    }
 
-        case ' ':
-            if (isInputActive) return;
-            else {
-                event.preventDefault();
-                enableEdit();
+document.removeEventListener('keydown', window.boundKeydownHandler);
+window.boundKeydownHandler = function(event) {
+    const input = document.getElementById('input-answer');
+    const isInputActive = document.activeElement === input;
+    const isSearchActive = document.activeElement === document.getElementById('search-input');
+
+    if (event.key === 'ArrowUp' || event.key === 'ArrowDown') {
+        event.preventDefault();
+        if (event.key === 'ArrowUp') {
+            if (isMissedMode && missedQuestions.indexOf(currentIndex) > 0) {
+                currentIndex = missedQuestions[missedQuestions.indexOf(currentIndex) - 1];
+            } else if (isSearchMode && searchIndex > 0) {
+                searchIndex--;
+                currentIndex = searchResults[searchIndex];
+            } else if (currentIndex > 0) {
+                do {
+                    currentIndex--;
+                } while (blacklist.includes(currentIndex) && currentIndex > 0);
             }
-            break;
+        } else {
+            moveToNextQuestion();
+        }
+        renderContent();
+        return;
+    }
+
+    if (!isInputActive && !isSearchActive) {
+        if (event.key === 'ArrowLeft') {
+            event.preventDefault();
+            if (isMissedMode && missedQuestions.indexOf(currentIndex) > 0) {
+                currentIndex = missedQuestions[missedQuestions.indexOf(currentIndex) - 1];
+            } else if (isSearchMode && searchIndex > 0) {
+                searchIndex--;
+                currentIndex = searchResults[searchIndex];
+            } else if (currentIndex > 0) {
+                do {
+                    currentIndex--;
+                } while (blacklist.includes(currentIndex) && currentIndex > 0);
+            }
+            renderContent();
+            return;
+        } else if (event.key === 'ArrowRight') {
+            event.preventDefault();
+            moveToNextQuestion();
+            renderContent();
+            return;
+        }
+    }
+
+    if (event.key === 'Enter') {
+        event.preventDefault();
+        if (isInputActive) {
+            checkAnswer();
+        } else {
+            moveToNextQuestion();
+            renderContent();
+        }
+        return;
     }
 };
+document.addEventListener('keydown', window.boundKeydownHandler);
+
+};
+
+
                 document.addEventListener('keydown', keydownHandler);
                 document._keydownHandler = keydownHandler;
 
@@ -1206,7 +1352,7 @@
             }
         }
 
-        function checkAnswer(isReload = false) {
+        window.checkAnswer = function(isReload = false) {
     const input = document.getElementById('input-answer');
     if (!input) return;
     const inputValue = input.value.trim();
@@ -1380,7 +1526,7 @@
     }
 }
 
-        function moveToNextQuestion() {
+        window.moveToNextQuestion = function() {
             if (isMissedMode) {
                 const currentMissedIdx = missedQuestions.indexOf(currentIndex);
                 if (currentMissedIdx < missedQuestions.length - 1) {
@@ -1816,7 +1962,13 @@ document.getElementById('search-input').addEventListener('blur', function() {
                 closeKeyboard();
             }
         });
-    </script>
+    
+window.onload = function() {
+  window.addEventListener('keydown', window.keydownHandler);
+};
+
+
+</script>
 <script>
 (function() {
     let fontState = 0;
@@ -1895,5 +2047,102 @@ document.getElementById('search-input').addEventListener('blur', function() {
         updateItalic();
     });
 })();
-</script></body>
+
+window.onload = function() {
+  window.addEventListener('keydown', window.keydownHandler);
+};
+
+
+</script>
+<script>
+  document.addEventListener('keydown', (e) => {
+    console.log("KEY PRESSED:", e.key);
+  });
+
+window.onload = function() {
+  window.addEventListener('keydown', window.keydownHandler);
+};
+
+window.addEventListener('DOMContentLoaded', function () {
+  document.addEventListener('keydown', function(event) {
+
+    const title = document.getElementById('title');
+    if (title) {
+      title.innerText = "Tuş algılandı: " + event.key;
+    }
+
+    const input = document.getElementById('input-answer');
+    const isInputActive = document.activeElement === input;
+    const isSearchActive = document.activeElement === document.getElementById('search-input');
+
+    if (event.key === 'ArrowUp' || event.key === 'ArrowDown') {
+        event.preventDefault();
+        if (event.key === 'ArrowUp') {
+            if (typeof isMissedMode !== 'undefined' && isMissedMode && missedQuestions.indexOf(currentIndex) > 0) {
+                currentIndex = missedQuestions[missedQuestions.indexOf(currentIndex) - 1];
+            } else if (typeof isSearchMode !== 'undefined' && isSearchMode && searchIndex > 0) {
+                searchIndex--;
+                currentIndex = searchResults[searchIndex];
+            } else if (currentIndex > 0) {
+                do {
+                    currentIndex--;
+                } while (typeof blacklist !== 'undefined' && blacklist.includes(currentIndex) && currentIndex > 0);
+            }
+        } else {
+            if (typeof moveToNextQuestion === 'function') {
+                moveToNextQuestion();
+            }
+        }
+        if (typeof renderContent === 'function') {
+            renderContent();
+        }
+        return;
+    }
+
+    if (!isInputActive && !isSearchActive) {
+        if (event.key === 'ArrowLeft') {
+            event.preventDefault();
+            if (typeof isMissedMode !== 'undefined' && isMissedMode && missedQuestions.indexOf(currentIndex) > 0) {
+                currentIndex = missedQuestions[missedQuestions.indexOf(currentIndex) - 1];
+            } else if (typeof isSearchMode !== 'undefined' && isSearchMode && searchIndex > 0) {
+                searchIndex--;
+                currentIndex = searchResults[searchIndex];
+            } else if (currentIndex > 0) {
+                do {
+                    currentIndex--;
+                } while (typeof blacklist !== 'undefined' && blacklist.includes(currentIndex) && currentIndex > 0);
+            }
+            if (typeof renderContent === 'function') {
+                renderContent();
+            }
+            return;
+        } else if (event.key === 'ArrowRight') {
+            event.preventDefault();
+            if (typeof moveToNextQuestion === 'function') {
+                moveToNextQuestion();
+            }
+            if (typeof renderContent === 'function') {
+                renderContent();
+            }
+            return;
+        }
+    }
+
+    if (event.key === 'Enter') {
+        event.preventDefault();
+        if (isInputActive && typeof checkAnswer === 'function') {
+            checkAnswer();
+        } else if (typeof moveToNextQuestion === 'function') {
+            moveToNextQuestion();
+            if (typeof renderContent === 'function') {
+                renderContent();
+            }
+        }
+    }
+  });
+});
+
+</script>
+</body>
+
 </html>
