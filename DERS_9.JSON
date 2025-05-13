@@ -1,0 +1,1022 @@
+[
+  {
+    "question": "АЗ ИМАХ (AZ IMAH)",
+    "answer": "BENİM VARDI"
+  },
+  {
+    "question": "ТИ ИМАШЕ (TI IMASHE)",
+    "answer": "SENİN VARDI"
+  },
+  {
+    "question": "ТОЙ ИМАШЕ (TOY IMASHE) (Eril)",
+    "answer": "ONUN VARDI (ERİL)"
+  },
+  {
+    "question": "ТЯ ИМАШЕ (TYA IMASHE) (Dişil)",
+    "answer": "ONUN VARDI (DİŞİL)"
+  },
+  {
+    "question": "ТО ИМАШЕ (TO IMASHE) (Nötr)",
+    "answer": "ONUN VARDI (NÖTR)"
+  },
+  {
+    "question": "НИЕ ИМАХМЕ (NIE IMAHME) (Çoğul)",
+ faj    "answer": "BİZİM VARDI"
+  },
+  {
+    "question": "ВИЕ ИМАХТЕ (VIE IMAHTE) (Çoğul)",
+    "answer": "SİZİN VARDI"
+  },
+  {
+    "question": "ТЕ ИМАХА (TE IMAHA) (Çoğul)",
+    "answer": "ONLARIN VARDI"
+  },
+  {
+    "question": "АЗ ИМАХ КУЧЕ (AZ IMAH KUCHE) (Nötr)",
+    "answer": "BENİM KÖPEĞİM VARDI"
+  },
+  {
+    "question": "АЗ ИМАХ ВРЕМЕ (AZ IMAH VREME) (Nötr)",
+    "answer": "BENİM ZAMANIM VARDI"
+  },
+  {
+    "question": "АЗ ИМАХ ЧЕРНА КОЛА (AZ IMAH CHERNA KOLA) (Dişil)",
+    "answer": "BENİM SİYAH ARABAM VARDI"
+  },
+  {
+    "question": "АЗ ИМАХ ПАРИ (AZ IMAH PARI) (Çoğul)",
+    "answer": "BENİM PARAM VARDI"
+  },
+  {
+    "question": "ТИ ИМАШЕ БЯЛО КОЛЕЛО (TI IMASHE BYALO KOLELO) (Nötr)",
+    "answer": "SENİN BEYAZ BİSİKLETİN VARDI"
+  },
+  {
+    "question": "ТИ ИМАШЕ МНОГО РАБОТА (TI IMASHE MNOGO RABOTA) (Dişil)",
+    "answer": "SENİN ÇOK İŞİN VARDI"
+  },
+  {
+    "question": "ТОЙ ИМАШЕ УРОК (TOY IMASHE UROK) (Eril)",
+    "answer": "ONUN DERSİ VARDI (ERİL)"
+  },
+  {
+    "question": "ТОЙ ИМАШЕ ПАРИ (TOY IMASHE PARI) (Çoğul)",
+    "answer": "ONUN PARASI VARDI (ERİL)"
+  },
+  {
+    "question": "ТЯ ИМАШЕ МАЛКА КОТКА (TYA IMASHE MALKA KOTKA) (Dişil)",
+    "answer": "ONUN KÜÇÜK KEDİSİ VARDI (DİŞİL)"
+  },
+  {
+    "question": "ТЯ ИМАШЕ ЧЕРНИ ОБУВКИ (TYA IMASHE CHERNI OBUVKI) (Çoğul)",
+    "answer": "ONUN SİYAH AYAKKABILARI VARDI (DİŞİL)"
+  },
+  {
+    "question": "ТО ИМАШЕ КУЧЕ (TO IMASHE KUCHE) (Nötr)",
+    "answer": "ONUN KÖPEĞİ VARDI (NÖTR)"
+  },
+  {
+    "question": "ТО ИМАШЕ 10 ЛЕВА (TO IMASHE DESET LEVA) (Çoğul)",
+    "answer": "ONUN 10 LEVASI VARDI (NÖTR)"
+  },
+  {
+    "question": "НИЕ ИМАХМЕ УРОК (NIE IMAHME UROK) (Çoğul)",
+    "answer": "BİZİM DERSİMİZ VARDI"
+  },
+  {
+    "question": "ВИЕ ИМАХТЕ МНОГО КНИГИ (VIE IMAHTE MNOGO KNIGI) (Çoğul)",
+    "answer": "SİZİN ÇOK KİTAPLARINIZ VARDI"
+  },
+  {
+    "question": "ТЕ ИМАХА БИЛЕТ ЗА АВТОБУС (TE IMAHA BILET ZA AVTOBUS) (Çoğul)",
+    "answer": "ONLARIN OTOBÜS İÇİN BİLETİ VARDI"
+  },
+  {
+    "question": "НА МАСАТА ИМАШЕ ХРАНА (NA MASATA IMASHE HRANA) (Dişil)",
+    "answer": "MASADA YİYECEK VARDI"
+  },
+  {
+    "question": "В СТАЯТА ИМАШЕ ЧОВЕК (V STAYATA IMASHE CHOVEK) (Eril)",
+    "answer": "ODADA İNSAN VARDI"
+  },
+  {
+    "question": "В ЧАНТАТА МИ ИМАШЕ ПОРТМОНЕ (V CHANTATA MI IMASHE PORTMONE) (Nötr)",
+    "answer": "ÇANTAMDA CÜZDAN VARDI"
+  },
+  {
+    "question": "ИМАШЕ МНОГО РАБОТА (IMASHE MNOGO RABOTA) (Dişil)",
+    "answer": "ÇOK İŞİ VARDI"
+  },
+  {
+    "question": "ИМАХМЕ ПРОБЛЕМ (IMAHME PROBLEM) (Çoğul)",
+    "answer": "SORUNUMUZ VARDI"
+  },
+  {
+    "question": "ИМАХМЕ ГОСТИ (IMAHME GOSTI) (Çoğul)",
+    "answer": "MİSAFİRİMİZ VARDI"
+  },
+  {
+    "question": "КАКВО ИМАХ? (KAKVO IMAH?)",
+    "answer": "NEYİM VARDI?"
+  },
+  {
+    "question": "ИМАХ ЯГОДА (IMAH YAGODA) (Dişil)",
+    "answer": "ÇİLEĞİM VARDI"
+  },
+  {
+    "question": "ДНЕС ИМАХ МНОГО БОЛКИ (DNES IMAH MNOGO BOLKI) (Çoğul)",
+    "answer": "BUGÜN ÇOK AĞRIM VARDI"
+  },
+  {
+    "question": "ДНЕС ИМАХ МНОГО БОЛКИ В ГЛАВАТА (DNES IMAH MNOGO BOLKI V GLAVATA) (Çoğul)",
+    "answer": "BUGÜN BAŞIMDA ÇOK AĞRIM VARDI"
+  },
+  {
+    "question": "ДНЕС ИМАХ ЕДИН ТРУДЕН ДЕН (DNES IMAH EDIN TRUDEN DEN) (Eril)",
+    "answer": "BUGÜN ZOR BİR GÜNÜM VARDI"
+  },
+  {
+    "question": "ИМАХ ГОЛЯМА КЪЩА (IMAH GOLYAMA KASHTA) (Dişil)",
+    "answer": "BÜYÜK EVİM VARDI"
+  },
+  {
+    "question": "ИМАХ ГОЛЯМА КЪЩА ВЪВ ВАРНА (IMAH GOLYAMA KASHTA VAV VARNA) (Dişil)",
+    "answer": "VARNADA BÜYÜK EVİM VARDI"
+  },
+  {
+    "question": "ИМАХ ЛИ? (IMAH LI?)",
+    "answer": "BENİM VAR MIYDI?"
+  },
+  {
+    "question": "ИМАШЕ ЛИ? (IMASHE LI?)",
+    "answer": "SENİN VAR MIYDI?"
+  },
+  {
+    "question": "ИМАХ ЛИ ТЕЛЕФОН? (IMAH LI TELEFON?) (Eril)",
+    "answer": "BENİM TELEFONUM VAR MIYDI?"
+  },
+  {
+    "question": "ИМАХ ЛИ ПАРИ? (IMAH LI PARI?) (Çoğul)",
+    "answer": "PARAM VAR MIYDI?"
+  },
+  {
+    "question": "ИМАШЕ ЛИ ДОКУМЕНТИ? (IMASHE LI DOKUMENTI?) (Çoğul)",
+    "answer": "SENİN EVRAKLARIN VAR MIYDI?"
+  },
+  {
+    "question": "ИМАШЕ ЛИ КУЧЕ? (IMASHE LI KUCHE?) (Nötr)",
+    "answer": "KÖPEĞİN VAR MIYDI?"
+  },
+  {
+    "question": "ИМАШЕ ЛИ УРОК? (IMASHE LI UROK?) (Eril)",
+    "answer": "DERSİN VAR MIYDI?"
+  },
+  {
+    "question": "ИМАШЕ ЛИ СНЯГ? (IMASHE LI SNYAG?) (Eril)",
+    "answer": "KAR VAR MIYDI?"
+  },
+  {
+    "question": "ТОЙ ИМАШЕ ЛИ СИНЯ КОЛА? (TOY IMASHE LI SINYA KOLA?) (Eril)",
+    "answer": "ONUN MAVİ ARABASI VAR MIYDI? (ERİL)"
+  },
+  {
+    "question": "ТЯ ИМАШЕ ЛИ ЧЕРНА ЧАНТА? (TYA IMASHE LI CHERNA CHANTA?) (Dişil)",
+    "answer": "ONUN SİYAH ÇANTASI VAR MIYDI? (DİŞİL)"
+  },
+  {
+    "question": "ТО ИМАШЕ ЛИ САНДВИЧ ЗА ЗАКУСКА? (TO IMASHE LI SANDVICH ZA ZAKUSKA?) (Nötr)",
+    "answer": "ONUN KAHVALTI İÇİN SANDVİÇİ VAR MIYDI? (NÖTR)"
+  },
+  {
+    "question": "НИЕ ВЧЕРА ИМАХМЕ ЛИ МНОГО РАБОТА В ОФИСА? (NIE VCHERA IMAHME LI MNOGO RABOTA V OFISA?) (Çoğul)",
+    "answer": "BİZİM DÜN OFİSTE ÇOK İŞİMİZ VAR MIYDI?"
+  },
+  {
+    "question": "ВИЕ ИМАХТЕ ЛИ ЧЕРНО КУЧЕ? (VIE IMAHTE LI CHERNO KUCHE?) (Çoğul)",
+    "answer": "SİZİN SİYAH KÖPEĞİNİZ VAR MIYDI?"
+  },
+  {
+    "question": "ТЕ ИМАХА ЛИ ПРОБЛЕМ НА ГРАНИЦАТА? (TE IMAHA LI PROBLEM NA GRANITSATA?) (Çoğul)",
+    "answer": "ONLARIN SINIRDA SORUNU VAR MIYDI?"
+  },
+  {
+    "question": "АЗ НЯМАХ (AZ NYAMAH)",
+    "answer": "BENİM YOKTU"
+  },
+  {
+    "question": "ТИ НЯМАШЕ (TI NYAMASHE)",
+    "answer": "SENİN YOKTU"
+  },
+  {
+    "question": "ТОЙ НЯМАШЕ (TOY NYAMASHE) (Eril)",
+    "answer": "ONUN YOKTU (ERİL)"
+  },
+  {
+    "question": "ТЯ НЯМАШЕ (TYA NYAMASHE) (Dişil)",
+    "answer": "ONUN YOKTU (DİŞİL)"
+  },
+  {
+    "question": "ТО НЯМАШЕ (TO NYAMASHE) (Nötr)",
+    "answer": "ONUN YOKTU (NÖTR)"
+  },
+  {
+    "question": "НИЕ НЯМАХМЕ (NIE NYAMAHME) (Çoğul)",
+    "answer": "BİZİM YOKTU"
+  },
+  {
+    "question": "ВИЕ НЯМАХТЕ (VIE NYAMAHTE) (Çoğul)",
+    "answer": "SİZİN YOKTU"
+  },
+  {
+    "question": "ТЕ НЯМАХА (TE NYAMAHA) (Çoğul)",
+    "answer": "ONLARIN YOKTU"
+  },
+  {
+    "question": "АЗ НЯМАХ КУЧЕ (AZ NYAMAH KUCHE) (Nötr)",
+    "answer": "BENİM KÖPEĞİM YOKTU"
+  },
+  {
+    "question": "АЗ НЯМАХ ВРЕМЕ (AZ NYAMAH VREME) (Nötr)",
+    "answer": "BENİM ZAMANIM YOKTU"
+  },
+  {
+    "question": "АЗ НЯМАХ ЧЕРНА КОЛА (AZ NYAMAH CHERNA KOLA) (Dişil)",
+    "answer": "SİYAH ARABAM YOKTU"
+  },
+  {
+    "question": "АЗ НЯМАХ БИЛЕТ ЗА САМОЛЕТ (AZ NYAMAH BILET ZA SAMOLET) (Eril)",
+    "answer": "UÇAK BİLETİM YOKTU"
+  },
+  {
+    "question": "ТИ НЯМАШЕ БЯЛО КОЛЕЛО (TI NYAMASHE BYALO KOLELO) (Nötr)",
+    "answer": "SENİN BEYAZ BİSİKLETİN YOKTU"
+  },
+  {
+    "question": "ТИ НЯМАШЕ МНОГО РАБОТА (TI NYAMASHE MNOGO RABOTA) (Dişil)",
+    "answer": "SENİN ÇOK İŞİN YOKTU"
+  },
+  {
+    "question": "ТОЙ НЯМАШЕ УРОК (TOY NYAMASHE UROK) (Eril)",
+    "answer": "ONUN DERSİ YOKTU (ERİL)"
+  },
+  {
+    "question": "ТОЙ НЯМАШЕ ПАРИ (TOY NYAMASHE PARI) (Çoğul)",
+    "answer": "ONUN PARASI YOKTU (ERİL)"
+  },
+  {
+    "question": "ТЯ НЯМАШЕ МАЛКА КОТКА (TYA NYAMASHE MALKA KOTKA) (Dişil)",
+    "answer": "ONUN KÜÇÜK KEDİSİ YOKTU (DİŞİL)"
+  },
+  {
+    "question": "ТЯ НЯМАШЕ ЧЕРНИ ОБУВКИ (TYA NYAMASHE CHERNI OBUVKI) (Çoğul)",
+    "answer": "ONUN SİYAH AYAKKABILARI YOKTU (DİŞİL)"
+  },
+  {
+    "question": "ТО НЯМАШЕ КУЧЕ (TO NYAMASHE KUCHE) (Nötr)",
+    "answer": "ONUN KÖPEĞİ YOKTU (NÖTR)"
+  },
+  {
+    "question": "ТО НЯМАШЕ 10 ЛЕВА (TO NYAMASHE DESET LEVA) (Çoğul)",
+    "answer": "ONUN 10 LEVASI YOKTU (NÖTR)"
+  },
+  {
+    "question": "НИЕ НЯМАХМЕ УРОК (NIE NYAMAHME UROK) (Çoğul)",
+    "answer": "BİZİM DERSİMİZ YOKTU"
+  },
+  {
+    "question": "ВИЕ НЯМАХТЕ МНОГО КНИГИ (VIE NYAMAHTE MNOGO KNIGI) (Çoğul)",
+    "answer": "SİZİN ÇOK KİTABINIZ YOKTU"
+  },
+  {
+    "question": "ТЕ НЯМАХА БИЛЕТ ЗА АВТОБУС (TE NYAMAHA BILET ZA AVTOBUS) (Çoğul)",
+    "answer": "ONLARIN OTOBÜS İÇİN BİLETİ YOKTU"
+  },
+  {
+    "question": "НА МАСАТА НЯМАШЕ ВОДА (NA MASATA NYAMASHE VODA) (Dişil)",
+    "answer": "MASADA SU YOKTU"
+  },
+  {
+    "question": "В СТАЯТА НЯМАШЕ КЛИМАТИК (V STAYATA NYAMASHE KLIMATIK) (Eril)",
+    "answer": "ODADA KLİMA YOKTU"
+  },
+  {
+    "question": "В ПАРКА НЯМАШЕ ЦВЕТЯ (V PARKA NYAMASHE TSVETYA) (Çoğul)",
+    "answer": "PARKTA ÇİÇEK YOKTU"
+  },
+  {
+    "question": "НЯМАХ КУЧЕ, НО ИМАХ КОТКА (NYAMAH KUCHE, NO IMAH KOTKA)",
+    "answer": "KÖPEĞİM YOKTU AMA KEDİM VARDI"
+  },
+  {
+    "question": "НЯМАХТЕ ЗЕЛЕНА ГРАДИНА (NYAMAHTE ZELENA GRADINA) (Çoğul)",
+    "answer": "YEŞİL BAHÇENİZ YOKTU"
+  },
+  {
+    "question": "НЯМАХ ЧЕРВЕН ПУЛОВЕР (NYAMAH CHERVEN PULOVER) (Eril)",
+    "answer": "KIRMIZI KAZAĞIM YOKTU"
+  },
+  {
+    "question": "ТЕ НЯМАХА САЛФЕТКА (TE NYAMAHA SALFETKA) (Çoğul)",
+    "answer": "ONLARIN PEÇETESİ YOKTU"
+  },
+  {
+    "question": "НЯМАХМЕ ИНТЕРЕСНА КНИГА (NYAMAHME INTERESNA KNIGA) (Çoğul)",
+    "answer": "İLGİNÇ KİTABIMIZ YOKTU"
+  },
+  {
+    "question": "НЯМАХ ЛИ? (NYAMAH LI?)",
+    "answer": "BENİM YOK MUYDU?"
+  },
+  {
+    "question": "НЯМАШЕ ЛИ? (NYAMASHE LI?)",
+    "answer": "SENİN YOK MUYDU?"
+  },
+  {
+    "question": "НЯМАХ ЛИ РАБОТА? (NYAMAH LI RABOTA?) (Dişil)",
+    "answer": "İŞİM YOK MUYDU?"
+  },
+  {
+    "question": "НЯМАХ ЛИ ДОКУМЕНТИ? (NYAMAH LI DOKUMENTI?) (Çoğul)",
+    "answer": "EVRAKLARIM YOK MUYDU?"
+  },
+  {
+    "question": "НЯМАШЕ ЛИ ПАРИ? (NYAMASHE LI PARI?) (Çoğul)",
+    "answer": "SENİN PARAN YOK MUYDU?"
+  },
+  {
+    "question": "ТОЙ НЯМАШЕ ЛИ ПАРИ В СМЕТКАТА? (TOY NYAMASHE LI PARI V SMETKATA?) (Eril)",
+    "answer": "ONUN HESABINDA PARASI YOK MUYDU? (ERİL)"
+  },
+  {
+    "question": "ТЯ НЯМАШЕ ЛИ ПАРИ В СМЕТКАТА? (TYA NYAMASHE LI PARI V SMETKATA?) (Dişil)",
+    "answer": "ONUN HESABINDA PARASI YOK MUYDU? (DİŞİL)"
+  },
+  {
+    "question": "ТО НЯМАШЕ ЛИ ПАРИ В СМЕТКАТА? (TO NYAMASHE LI PARI V SMETKATA?) (Nötr)",
+    "answer": "ONUN HESABINDA PARASI YOK MUYDU? (NÖTR)"
+  },
+  {
+    "question": "НИЕ НЯМАХМЕ ЛИ УРОК ТАЗИ ВЕЧЕР? (NIE NYAMAHME LI UROK TAZI VECHER?) (Çoğul)",
+    "answer": "BİZİM BU AKŞAM DERSİMİZ YOK MUYDU?"
+  },
+  {
+    "question": "ВИЕ НЯМАХТЕ ЛИ 50 ЛЕВА? (VIE NYAMAHTE LI PETDESET LEVA?) (Çoğul)",
+    "answer": "SİZİN 50 LEVANIZ YOK MUYDU?"
+  },
+  {
+    "question": "ТЕ НЯМАХА ЛИ ЧЕРНА КОЛА? (TE NYAMAHA LI CHERNA KOLA?) (Çoğul)",
+    "answer": "ONLARIN SİYAH ARABASI YOK MUYDU?"
+  },
+  {
+    "question": "ДНЕС НЯМАХ ЛИ ВОДА? (DNES NYAMAH LI VODA?) (Dişil)",
+    "answer": "BUGÜN SUYUM YOK MUYDU?"
+  },
+  {
+    "question": "НЯМАШЕ ЛИ ДОБЪР ФРИЗЬОР В КЪРДЖАЛИ? (NYAMASHE LI DOBAR FRIZYOR V KARDZHALI?) (Eril)",
+    "answer": "KIRCAALİDE İYİ KUAFÖR YOK MUYDU?"
+  },
+  {
+    "question": "ТИ НЯМАШЕ ЛИ ТОРТА? (TI NYAMASHE LI TORTA?) (Dişil)",
+    "answer": "SENİN PASTAN YOK MUYDU?"
+  },
+  {
+    "question": "НЯМАШЕ ЛИ ТОК В ОФИСА? (NYAMASHE LI TOK V OFISA?) (Eril)",
+    "answer": "OFİSTE ELEKTRİK YOK MUYDU?"
+  },
+  {
+    "question": "В ШУМЕН НЯМАШЕ ЛИ ЕЗЕРО? (V SHUMEN NYAMASHE LI EZERO?) (Nötr)",
+    "answer": "ŞUMENDE GÖL YOK MUYDU?"
+  },
+  {
+    "question": "НЯМАШЕ ЛИ ДОБЪР ПЪТ В БЪЛГАРИЯ? (NYAMASHE LI DOBAR PAT V BALGARIYA?) (Eril)",
+    "answer": "BULGARİSTANDA İYİ BİR YOL YOK MUYDU?"
+  },
+  {
+    "question": "ГОТОВ Л負責İ СИ? (GOTOV LI SI?) (Eril)",
+    "answer": "HAZIR MISIN? (ERİL)"
+  },
+  {
+    "question": "ГОТОВА ЛИ СИ? (GOTOVA LI SI?) (Dişil)",
+    "answer": "HAZIR MISIN? (DİŞİL)"
+  },
+  {
+    "question": "ИМАМ ТЕМПЕРАТУРА (IMAM TEMPERATURA) (Dişil)",
+    "answer": "ATEŞİM VAR"
+  },
+  {
+    "question": "ИМАМ ТЕМПЕРАТУРА 38 ГРАДУСА (IMAM TEMPERATURA 38 GRADUSA) (Dişil)",
+    "answer": "38 DERECE ATEŞİM VAR"
+  },
+  {
+    "question": "СЛЪНЧЕВО (SLANCHEVO) (Nötr)",
+    "answer": "GÜNEŞLİ"
+  },
+  {
+    "question": "ДЪЖДОВНО (DAZHDOVNO) (Nötr)",
+    "answer": "YAĞMURLU"
+  },
+  {
+    "question": "ВЕТРОВИТО (VETROVITO) (Nötr)",
+    "answer": "RÜZGARLI"
+  },
+  {
+    "question": "МЪГЛИВО (MAGLIVO) (Nötr)",
+    "answer": "SİSLİ"
+  },
+  {
+    "question": "СНЕЖНО (SNEZHNO) (Nötr)",
+    "answer": "KARLI"
+  },
+  {
+    "question": "ОБЛАЧНО (OBLACHNO) (Nötr)",
+    "answer": "BULUTLU"
+  },
+  {
+    "question": "ЯСНО (YASNO) (Nötr)",
+    "answer": "AÇIK (GÖKYÜZÜ)"
+  },
+  {
+    "question": "ХЛАДНО (HLADNO) (Nötr)",
+    "answer": "SERİN"
+  },
+  {
+    "question": "ГОРЕЩО (GORESHTO) (Nötr)",
+    "answer": "ÇOK SICAK"
+  },
+  {
+    "question": "ТОПЛО (TOPLO) (Nötr)",
+    "answer": "SICAK / ILIK"
+  },
+  {
+    "question": "СТУДЕНО (STUDENO) (Nötr)",
+    "answer": "SOĞUK"
+  },
+  {
+    "question": "ТЪМНО (TAMNO) (Nötr)",
+    "answer": "KARANLIK"
+  },
+  {
+    "question": "СВЕТЛО (SVETLO) (Nötr)",
+    "answer": "AYDINLIK"
+  },
+  {
+    "question": "НЕБЕ (NEBE) (Nötr)",
+    "answer": "GÖKYÜZÜ"
+  },
+  {
+    "question": "ЯСНО НЕБЕ (YASNO NEBE) (Nötr)",
+    "answer": "AÇIK GÖKYÜZÜ"
+  },
+  {
+    "question": "ПРОГНОЗАТА ЗА ВРЕМЕТО ВЪВ ВАРНА Е ВЛАЖНО И ГОРЕЩО (PROGNOZATA ZA VREMETO VAV VARNA E VLAZHNO I GORESHTO)",
+    "answer": "VARNA İÇİN HAVA DURUMU TAHMİNİ NEMLİ VE SICAK"
+  },
+  {
+    "question": "ПРОГНОЗАТА ЗА ВРЕМЕТО В ШУМЕН Е 25 ГРАДУСА (PROGNOZATA ZA VREMETO V SHUMEN E 25 GRADUSA)",
+    "answer": "ŞUMEN İÇİN HAVA DURUMU TAHMİNİ 25 DERECE"
+  },
+  {
+    "question": "ВРЕМЕТО В ЧОРЛУ Е ВЕТРОВИТО (VREMETO V CHORLU E VETROVITO)",
+    "answer": "ÇORLUDA HAVA RÜZGARLI"
+  },
+  {
+    "question": "ВРЕМЕТО Е СЛЪНЧЕВО (VREMETO E SLANCHEVO)",
+    "answer": "HAVA GÜNEŞLİ"
+  },
+  {
+    "question": "ВРЕМЕТО Е ОБЛАЧНО, ВЕТРОВИТО И ДЪЖДОВНО (VREMETO E OBLACHNO, VETROVITO I DAZHDOVNO)",
+    "answer": "HAVA BULUTLU, RÜZGARLI VE YAĞMURLU"
+  },
+  {
+    "question": "ДНЕС Е ХЛАДНО (DNES E HLADNO)",
+    "answer": "BUGÜN SERİN"
+  },
+  {
+    "question": "ДНЕС ВРЕМЕТО В ИСТАНБУЛ Е ТОПЛО (DNES VREMETO V ISTANBUL E TOPLO)",
+    "answer": "BUGÜN İSTANBULDA HAVA SICAK / ILIK"
+  },
+  {
+    "question": "ДНЕС ВРЕМЕТО Е СТУДЕНО (DNES VREMETO E STUDENO)",
+    "answer": "BUGÜN HAVA SOĞUK"
+  },
+  {
+    "question": "ДНЕС НЕБЕТО БЕШЕ ЯСНО И ВРЕМЕТО БЕШЕ ГОРЕЩО (DNES NEBETO BESHE YASNO I VREMETO BESHE GORESHTO)",
+    "answer": "BUGÜN GÖKYÜZÜ AÇIKTI VE HAVA ÇOK SICAKTI"
+  },
+  {
+    "question": "ДНЕС Е МНОГО ГОРЕЩО, НО УТРЕ ЩЕ БЪДЕ ДЪЖДОВНО (DNES E MNOGO GORESHTO, NO UTRE SHTE BADE DAZHDOVNO)",
+    "answer": "BUGÜN ÇOK SICAK AMA YARIN YAĞMURLU OLACAK"
+  },
+  {
+    "question": "СЕГА Е ОБЛАЧНО И ТЪМНО (SEGA E OBLACHNO I TAMNO)",
+    "answer": "ŞİMDİ BULUTLU VE KARANLIK"
+  },
+  {
+    "question": "СУТРИНТА БЕШЕ МЪГЛИВО (SUTRINTA BESHE MAGLIVO)",
+    "answer": "SABAH SİSLİYDİ"
+  },
+  {
+    "question": "ВЧЕРА БЕШЕ СНЕЖНО (VCHERA BESHE SNEZHNO)",
+    "answer": "DÜN KARLIYDI"
+  },
+  {
+    "question": "ВЧЕРА ВРЕМЕТО БЕШЕ ОБЛАЧНО И ДЪЖДОВНО (VCHERA VREMETO BESHE OBLACHNO I DAZHDOVNO)",
+    "answer": "DÜN HAVA BULUTLU VE YAĞMURLUYDU"
+  },
+  {
+    "question": "СЛЕДОБЕД ВРЕМЕТО БЕШЕ МНОГО ХУБАВО И ИМАШЕ СЛЪНЦЕ (SLEDOBED VREMETO BESHE MNOGO HUBAVO I IMASHE SLANTSE)",
+    "answer": "ÖĞLEDEN SONRA HAVA ÇOK GÜZELDİ VE GÜNEŞ VARDI"
+  },
+  {
+    "question": "СЛЕДОБЕД ИМАШЕ ДЪЖД (SLEDOBED IMASHE DAZHD) (Eril)",
+    "answer": "ÖĞLEDEN SONRA YAĞMUR VARDI"
+  },
+  {
+    "question": "ВЕЧЕРТА БЕШЕ МНОГО ХЛАДНО (VECHERTA BESHE MNOGO HLADNO)",
+    "answer": "AKŞAM ÇOK SERİNDİ"
+  },
+  {
+    "question": "ВЕЧЕРТА БЕШЕ ТОПЛО И ПРИЯТНО (VECHERTA BESHE TOPLO I PRIYATNO)",
+    "answer": "AKŞAM SICAK / ILIK VE HOŞTU"
+  },
+  {
+    "question": "В ТОВА ВРЕМЕ ЯДЕ ЛИ СЕ СЛАДОЛЕД? (V TOVA VREME YADE LI SE SLADOLED?)",
+    "answer": "BU HAVADA DONDURMA YENİYOR MU?"
+  },
+  {
+    "question": "ДНЕС ВРЕМЕТО Е СЛЪНЧЕВО И ХУБАВО (DNES VREMETO E SLANCHEVO I HUBAVO)",
+    "answer": "BUGÜN HAVA GÜNEŞLİ VE HOŞ"
+  },
+  {
+    "question": "ТЕМПЕРАТУРАТА Е ОКОЛО 22 ГРАДУСА (TEMPERATURA E OKOLO 22 GRADUSA)",
+    "answer": "SICAKLIK YAKLAŞIK 22 DERECE"
+  },
+  {
+    "question": "НЯМА ВЯТЪР И НЕБЕТО Е ЯСНО (NYAMA VYATAR I NEBETO E YASNO)",
+    "answer": "RÜZGAR YOK VE GÖKYÜZÜ AÇIK"
+  },
+  {
+    "question": "СУТРИНТА БЕШЕ МАЛКО ХЛАДНО, НО СЕГА Е ТОПЛО (SUTRINTA BESHE MALKO HLADNO, NO SEGA E TOPLO)",
+    "answer": "SABAH BİRAZ SERİNDİ AMA ŞİMDİ SICAK"
+  },
+  {
+    "question": "СПОРЕД ПРОГНОЗАТА, УТРЕ ЩЕ БЪДЕ ОБЛАЧНО И МОЖЕ БИ ЩЕ ВАЛИ ДЪЖД (SPORED PROGNOZATA, UTRE SHTE BADE OBLACHNO I MOZHE BI SHTE VALI DAZHD)",
+    "answer": "HAVA DURUMU TAHMİNİNE GÖRE YARIN HAVA BULUTLU OLACAK VE BELKİ YAĞMUR YAĞACAK"
+  },
+  {
+    "question": "КАКВО Е ВРЕМЕТО ДНЕС? (KAKVO E VREMETO DNES?)",
+    "answer": "BUGÜN HAVA NASIL?"
+  },
+  {
+    "question": "КОЛКО ГРАДУСА Е? (KOLKO GRADUSA E?)",
+    "answer": "KAÇ DERECE?"
+  },
+  {
+    "question": "ИМА ЛИ ВЯТЪР? (IMA LI VYATAR?) (Eril)",
+    "answer": "RÜZGAR VAR MI?"
+  },
+  {
+    "question": "КАКВА Е ПРОГНОЗАТА ЗА УТРЕ? (KAKVA E PROGNOZATA ZA UTRE?)",
+    "answer": "YARIN İÇİN HAVA DURUMU TAHMİNİ NEDİR?"
+  },
+  {
+    "question": "ДНЕС ВРЕМЕТО Е СЛЪНЧЕВО И ПРИЯТНО (DNES VREMETO E SLANCHEVO I PRIYATNO)",
+    "answer": "BUGÜN HAVA GÜNEŞLİ VE HOŞ"
+  },
+  {
+    "question": "ТЕМПЕРАТУРАТА Е ОКОЛО 22 ГРАДУСА (TEMPERATURA E OKOLO 22 GRADUSA)",
+    "answer": "SICAKLIK YAKLAŞIK 22 DERECE"
+  },
+  {
+    "question": "НЯМА ВЯТЪР И НЕБЕТО Е ЯСНО (NYAMA VYATAR I NEBETO E YASNO)",
+    "answer": "RÜZGAR YOK VE GÖKYÜZÜ AÇIK"
+  },
+  {
+    "question": "СПОРЕД ПРОГНОЗАТА ЗА ВРЕМЕТО УТРЕ ЩЕ БЪДЕ ОБЛАЧНО И МОЖЕ БИ ЩЕ ВАЛИ ДЪЖД (SPORED PROGNOZATA ZA VREMETO UTRE SHTE BADE OBLACHNO I MOZHE BI SHTE VALI DAZHD)",
+    "answer": "HAVA DURUMU TAHMİNİNE GÖRE YARIN HAVA BULUTLU OLACAK VE BELKİ YAĞMUR YAĞACAK"
+  },
+  {
+    "question": "ТЯ Е ПО-КРАСИВА (TYA E PO-KRASIVA) (Dişil)",
+    "answer": "O DAHA GÜZEL"
+  },
+  {
+    "question": "ТАЗИ КОЛА Е ПО-БЪРЗА (TAZI KOLA E PO-BARZA) (Dişil)",
+    "answer": "BU ARABA DAHA HIZLI"
+  },
+  {
+    "question": "АЗ ГОВОРЯ ПО-БЪРЗО ОТ БРАТ МИ (AZ GOVORYA PO-BARZO OT BRAT MI)",
+    "answer": "BEN KARDEŞİMDEN DAHA HIZLI KONUŞUYORUM"
+  },
+  {
+    "question": "ИМАМ ПО-ХУБАВА ЧАНТА ОТ ЕЛИФ (IMAM PO-HUBAVA CHANTA OT ELIF) (Dişil)",
+    "answer": "ELİFTEN DAHA GÜZEL ÇANTAM VAR"
+  },
+  {
+    "question": "ТОЙ Е НАЙ-ДОБРИЯТ УЧЕНИК (TOY E NAY-DOBRIYAT UCHENIK) (Eril)",
+    "answer": "O EN İYİ ÖĞRENCİ"
+  },
+  {
+    "question": "ТОВА Е НАЙ-ХУБАВИЯТ РЕСТОРАНТ (TOVA E NAY-HUBAVIYAT RESTORANT) (Eril)",
+    "answer": "BU EN GÜZEL RESTORAN"
+  },
+  {
+    "question": "ТЯ ЧЕТЕ НАЙ-ДОБРЕ (TYA CHETE NAY-DOBRE) (Dişil)",
+    "answer": "O EN İYİ OKUYOR"
+  },
+  {
+    "question": "ТОЙ Е НАЙ-УМЕН ОТ ВСИЧКИ (TOY E NAY-UMEN OT VSICHKI) (Eril)",
+    "answer": "O HERKESTEN EN AKILLI"
+  },
+  {
+    "question": "АЗ ИМАМ ПО-ХУБАВА ЧАНТА (AZ IMAM PO-HUBAVA CHANTA) (Dişil)",
+    "answer": "BENDE DAHA GÜZEL ÇANTA VAR"
+  },
+  {
+    "question": "АЗ ИМАМ ПО-ХУБАВИ ОБУВКИ (AZ IMAM PO-HUBAVI OBUVKI) (Çoğul)",
+    "answer": "BENDE DAHA GÜZEL AYAKKABILAR VAR"
+  },
+  {
+    "question": "МОЯТА КОЛА Е ПО-ГОЛЯМА (MOYATA KOLA E PO-GOLYAMA) (Dişil)",
+    "answer": "BENİM ARABAM DAHA BÜYÜK"
+  },
+  {
+    "question": "ТОЗИ АВТОБУС Е ПО-ГОЛЯМ (TOZI AVTOBUS E PO-GOLYAM) (Eril)",
+    "answer": "BU OTOBÜS DAHA BÜYÜK"
+  },
+  {
+    "question": "ТАЗИ КОЛА Е ПО-БЪРЗА (TAZI KOLA E PO-BARZA) (Dişil)",
+    "answer": "BU ARABA DAHA HIZLI"
+  },
+  {
+    "question": "ТАКА Е ПО-ДОБРЕ (TAKA E PO-DOBRE)",
+    "answer": "BÖYLE DAHA İYİ"
+  },
+  {
+    "question": "АЗ ИМАМ НАЙ-ХУБАВАТА ЧАНТА (AZ IMAM NAY-HUBAVATA CHANTA) (Dişil)",
+    "answer": "BENDE EN GÜZEL ÇANTA VAR"
+  },
+  {
+    "question": "АЗ ИМАМ НАЙ-ДОБРАТА МАЙКА (AZ IMAM NAY-DOBRATA MAYKA) (Dişil)",
+    "answer": "BENDE EN İYİ ANNE VAR"
+  },
+  {
+    "question": "МОЯТА КОЛА Е НАЙ-ГОЛЯМА (MOYATA KOLA E NAY-GOLYAMA) (Dişil)",
+    "answer": "BENİM ARABAM EN BÜYÜK"
+  },
+  {
+    "question": "ТОЗИ САМОЛЕТ Е НАЙ-БЪРЗ (TOZI SAMOLET E NAY-BARZ) (Eril)",
+    "answer": "BU UÇAK EN HIZLI"
+  },
+  {
+    "question": "ТАКА Е НАЙ-ДОБРЕ (TAKA E NAY-DOBRE)",
+    "answer": "BÖYLE EN İYİ"
+  },
+  {
+    "question": "ПО-ДОБРЕ (PO-DOBRE)",
+    "answer": "DAHA İYİ"
+  },
+  {
+    "question": "НАЙ-ДОБРЕ (NAY-DOBRE)",
+    "answer": "EN İYİ"
+  },
+  {
+    "question": "ПО-МАЛКО (PO-MALKO)",
+    "answer": "DAHA AZ"
+  },
+  {
+    "question": "НАЙ-МАЛКО (NAY-MALKO)",
+    "answer": "EN AZ"
+  },
+  {
+    "question": "СЕГА СЪМ ПО-ЩАСТЛИВА (SEGA SAM PO-SHTASTLIVA) (Dişil)",
+    "answer": "ŞİMDİ DAHA MUTLUYUM"
+  },
+  {
+    "question": "ДНЕС РАБОТАТА БЕШЕ ПО-ЛЕСНА (DNES RABOTATA BESHE PO-LESNA) (Dişil)",
+    "answer": "BUGÜN İŞ DAHA KOLAYDI"
+  },
+  {
+    "question": "ДНЕС УРОКЪТ БЕШЕ ПО-ЛЕСЕН (DNES UROKAT BESHE PO-LESEN) (Eril)",
+    "answer": "BUGÜN DERS DAHA KOLAYDI"
+  },
+  {
+    "question": "ИМАМ ПО-ДОБЪР ТЕЛЕФОН (IMAM PO-DOBAR TELEFON) (Eril)",
+    "answer": "DAHA İYİ TELEFONUM VAR"
+  },
+  {
+    "question": "ПО-ТРУДНО (PO-TRUDNO)",
+    "answer": "DAHA ZOR"
+  },
+  {
+    "question": "ДНЕС БЕШЕ ПО-ТОПЛО ОТ ВЧЕРА (DNES BESHE PO-TOPLO OT VCHERA)",
+    "answer": "BUGÜN DÜNDEN DAHA SICAKTI"
+  },
+  {
+    "question": "МОЕТО КОЛЕЛО Е ПО-ГОЛЯМО ОТ ТВОЕТО (MOETO KOLELO E PO-GOLYAMO OT TVOETO) (Nötr)",
+    "answer": "BENİM BİSİKLETİM SENİN BİSİKLETİNDEN DAHA BÜYÜK"
+  },
+  {
+    "question": "МОЯТА ЧАНТА Е ПО-ХУБАВА ОТ ТВОЯТА (MOYATA CHANTA E PO-HUBAVA OT TVOYATA) (Dişil)",
+    "answer": "BENİM ÇANTAM SENİN ÇANTANDAN DAHA GÜZEL"
+  },
+  {
+    "question": "ДНЕС Е НАЙ-ХУБАВИЯТ ДЕН (DNES E NAY-HUBAVIYAT DEN) (Eril)",
+    "answer": "BUGÜN EN GÜZEL GÜN"
+  },
+  {
+    "question": "ДНЕС БЕШЕ НАЙ-ГОРЕЩИЯТ ДЕН (DNES BESHE NAY-GORESHTIYAT DEN) (Eril)",
+    "answer": "BUGÜN EN SICAK GÜNDÜ"
+  },
+  {
+    "question": "НАЙ-МНОГО ОБИЧАМ ЧЕРЕШИ (NAY-MNOGO OBICHAM CHERESHI) (Çoğul)",
+    "answer": "EN ÇOK KİRAZ SEVİYORUM"
+  },
+  {
+    "question": "НАЙ-МНОГО ОБИЧАМ БАНИЦА И БОЗА (NAY-MNOGO OBICHAM BANITSA I BOZA) (Çoğul)",
+    "answer": "EN ÇOK BÖREK VE BOZA SEVİYORUM"
+  },
+  {
+    "question": "НАЙ-МАЛКО ОБИЧАМ ЗЕЛЕ И ЛУК (NAY-MALKO OBICHAM ZELE I LUK) (Çoğul)",
+    "answer": "EN AZ LAHANA VE SOĞAN SEVİYORUM"
+  },
+  {
+    "question": "НАЙ-СТУДЕНИЯТ ДЕН ОТ МЕСЕЦА (NAY-STUDENIYAT DEN OT MESETSA) (Eril)",
+    "answer": "AYIN EN SOĞUK GÜNÜ"
+  },
+  {
+    "question": "НАЙ-ТРУДНАТА РАБОТА (NAY-TRUDNATA RABOTA) (Dişil)",
+    "answer": "EN ZOR İŞ"
+  },
+  {
+    "question": "НАЙ-ЛЕСНАТА РАБОТА (NAY-LESNATA RABOTA) (Dişil)",
+    "answer": "EN KOLAY İŞ"
+  },
+  {
+    "question": "ДНЕС МИ Е НАЙ-ЩАСТЛИВИЯТ ДЕН (DNES MI E NAY-SHTASTLIVIYAT DEN) (Eril)",
+    "answer": "BUGÜN BENİM EN MUTLU GÜNÜM"
+  },
+  {
+    "question": "АЗ (AZ)",
+    "answer": "BEN"
+  },
+  {
+    "question": "МЕН (MEN)",
+    "answer": "BENİ"
+  },
+  {
+    "question": "ТИ (TI)",
+    "answer": "SEN"
+  },
+  {
+    "question": "ТЕБ (TEB)",
+    "answer": "SENİ"
+  },
+  {
+    "question": "ТОЙ (TOY) (Eril)",
+    "answer": "O (ERKEK)"
+  },
+  {
+    "question": "НЕГО (NEGO) (Eril)",
+    "answer": "ONU (ERKEK)"
+  },
+  {
+    "question": "ТЯ (TYA) (Dişil)",
+    "answer": "O (KADIN)"
+  },
+  {
+    "question": "НЕЯ (NEYA) (Dişil)",
+    "answer": "ONU (KADIN)"
+  },
+  {
+    "question": "ТО (TO) (Nötr)",
+    "answer": "O (NÖTR)"
+  },
+  {
+    "question": "НЕГО (NEGO) (Nötr)",
+    "answer": "ONU (NÖTR)"
+  },
+  {
+    "question": "НИЕ (NIE) (Çoğul)",
+    "answer": "BİZ"
+  },
+  {
+    "question": "НАС (NAS) (Çoğul)",
+    "answer": "BİZİ"
+  },
+  {
+    "question": "ВИЕ (VIE) (Çoğul)",
+    "answer": "SİZ"
+  },
+  {
+    "question": "ВАС (VAS) (Çoğul)",
+    "answer": "SİZİ"
+  },
+  {
+    "question": "ТЕ (TE) (Çoğul)",
+    "answer": "ONLAR"
+  },
+  {
+    "question": "ТЯХ (TYAH) (Çoğul)",
+    "answer": "ONLARI"
+  },
+  {
+    "question": "УЧИТЕЛЯТ ГЛЕДА МЕН (UCHITELYAT GLEDA MEN)",
+    "answer": "ÖĞRETMEN BANA BAKIYOR / ÖĞRETMEN BENİ İZLİYOR"
+  },
+  {
+    "question": "ДЕТЕТО Е С МЕН (DETETO E S MEN)",
+    "answer": "ÇOCUK BENİMLE"
+  },
+  {
+    "question": "ИДВАШ ЛИ С МЕН? (IDVASH LI S MEN?)",
+    "answer": "BENİMLE GELİYOR MUSUN?"
+  },
+  {
+    "question": "МОМЧЕТО ИДВА С МЕН НА УЧИЛИЩЕ (MOMCHETO IDVA S MEN NA UCHILISHTE)",
+    "answer": "ÇOCUK BENİMLE OKULA GELİYOR"
+  },
+  {
+    "question": "ЗА МЕН ЕДНО КАФЕ (ZA MEN EDNO KAFE) (Nötr)",
+    "answer": "BENİM İÇİN BİR KAHVE"
+  },
+  {
+    "question": "ЗА ВАС? (ZA VAS?)",
+    "answer": "SİZİN İÇİN?"
+  },
+  {
+    "question": "ДАЙ НА МЕН (DAY NA MEN)",
+    "answer": "BANA VER"
+  },
+  {
+    "question": "ДАЙ КНИГАТА НА МЕН (DAY KNIGATA NA MEN) (Dişil)",
+    "answer": "KİTABI BANA VER"
+  },
+  {
+    "question": "НА МЕН МИ ХАРЕСВА ТОЗИ ФИЛМ (NA MEN MI HARESVA TOZI FILM)",
+    "answer": "BU FİLMİ BEĞENİYORUM"
+  },
+  {
+    "question": "ТОВА ЦВЕТЕ ЗА МЕН ЛИ Е? (TOVA TSVETE ZA MEN LI E?) (Nötr)",
+    "answer": "BU ÇİÇEK BENİM İÇİN Mİ?"
+  },
+  {
+    "question": "ТОВА КАФЕ ЗА МЕН ЛИ Е? (TOVA KAFE ZA MEN LI E?) (Nötr)",
+    "answer": "BU KAHVE BENİM İÇİN Mİ?"
+  },
+  {
+    "question": "ТОЗИ ПОДАРЪК Е ОТ МЕН (TOZI PODARAK E OT MEN) (Eril)",
+    "answer": "BU HEDİYE BENDENDİR"
+  },
+  {
+    "question": "НА ТЕБ ХАРЕСВА ЛИ ТИ ТОЗИ ЦВЯТ? (NA TEB HARESVA LI TI TOZI TSVIAT?)",
+    "answer": "BU RENK SENİN HOŞUNA GİDİYOR MU?"
+  },
+  {
+    "question": "НА ТЕБ ЛИ ХАРЕСВА ТОЗИ ФИЛМ? (NA TEB LI HARESVA TOZI FILM?)",
+    "answer": "BU FİLMİ BEĞENİYOR MUSUN?"
+  },
+  {
+    "question": "ТАЗИ КНИГА Е ЗА ТЕБ (TAZI KNIGA E ZA TEB) (Dişil)",
+    "answer": "BU KİTAP SENİN İÇİNDİR"
+  },
+  {
+    "question": "С ТЕБ ОТИВАМЕ НА УЧИЛИЩЕ (S TEB OTIVAME NA UCHILISHTE)",
+    "answer": "SENİNLE OKULA GİDİYORUM"
+  },
+  {
+    "question": "ИМАМ ПИСМО ОТ ТЕБ (IMAM PISMO OT TEB) (Nötr)",
+    "answer": "SENDEN MEKTUBUM VAR"
+  },
+  {
+    "question": "НА НЕГО ЛИ? (NA NEGO LI?) (Eril)",
+    "answer": "ONA MI? (ERİL)"
+  },
+  {
+    "question": "ЗА НЕГО ЛИ СА ТЕЗИ СИНИ ОБУВКИ? (ZA NEGO LI SA TEZI SINI OBUVKI?) (Eril)",
+    "answer": "BU MAVİ AYAKKABILAR ONUN İÇİN Mİ? (ERİL)"
+  },
+  {
+    "question": "КУПУВАМ ПАРФЮМ ЗА НЕЯ (KUPUVAM PARFYUM ZA NEYA) (Dişil)",
+    "answer": "ONUN İÇİN PARFÜM SATIN ALIYORUM (DİŞİL)"
+  },
+  {
+    "question": "ИСКАМ ЦВЕТЯ ЗА НЕЯ (ISKAM TSVETYA ZA NEYA) (Dişil)",
+    "answer": "ONUN İÇİN ÇİÇEK İSTİYORUM (DİŞİL)"
+  },
+  {
+    "question": "ИМАМ ПИСМО ОТ НЕЯ (IMAM PISMO OT NEYA) (Dişil)",
+    "answer": "ONDAN MEKTUBUM VAR (DİŞİL)"
+  },
+  {
+    "question": "НА НАС НИ ТРЯБВА ПОМОЩ (NA NAS NI TRYABVA POMOSHT) (Çoğul)",
+    "answer": "BİZE YARDIM LAZIM"
+  },
+  {
+    "question": "ТРЯБВА НИ ПОМОЩ (TRYABVA NI POMOSHT) (Çoğul)",
+    "answer": "BİZE YARDIM LAZIM"
+  },
+  {
+    "question": "ТОВА Е ВАЖНО ЗА НАС (TOVA E VAZHNO ZA NAS) (Çoğul)",
+    "answer": "BU BİZİM İÇİN ÖNEMLİDİR"
+  },
+  {
+    "question": "ИДВАШ ЛИ С НАС? (IDVASH LI S NAS?) (Çoğul)",
+    "answer": "BİZİMLE GELİYOR MUSUN?"
+  },
+  {
+    "question": "ТАЗИ ОФЕРТА Е ЗА ВАС (TAZI OFERTA E ZA VAS) (Çoğul)",
+    "answer": "BU TEKLİF SİZİN İÇİNDİR"
+  },
+  {
+    "question": "ЗА ВАС ЛИ Е ТОВА КАФЕ? (ZA VAS LI E TOVA KAFE?) (Çoğul)",
+    "answer": "BU KAHVE SİZİN İÇİN MİDİR?"
+  },
+  {
+    "question": "НА ТЯХ ИМ ХАРЕСВА ТАЗИ МУЗИКА (NA TYAH IM HARESVA TAZI MUZIKA) (Çoğul)",
+    "answer": "BU MÜZİK ONLARIN HOŞUNA GİDİYOR"
+  },
+  {
+    "question": "ЗА ТЯХ ТОВА Е ВАЖНО (ZA TYAH TOVA E VAZHNO) (Çoğul)",
+    "answer": "BU ONLAR İÇİN ÖNEMLİ"
+  },
+  {
+    "question": "ИМАМ ПИСМО ОТ ТЯХ (IMAM PISMO OT TYAH) (Çoğul)",
+    "answer": "ONLARDAN MEKTUBUM VAR"
+  },
+  {
+    "question": "НА ТЯХ ЛИ? (NA TYAH LI?) (Çoğul)",
+    "answer": "ONLARA MI?"
+  },
+  {
+    "question": "ВСИЧКО ЗА ТЯХ ЛИ Е? (VSICHKO ZA TYAH LI E?)",
+    "answer": "HER ŞEY ONLAR İÇİN Mİ?"
+  },
+  {
+    "question": "КАФЕТАТА ЗА ВАС ЛИ СА? (KAFETATA ZA VAS LI SA?) (Çoğul)",
+    "answer": "KAHVELER SİZİN İÇİN MİDİR?"
+  },
+  {
+    "question": "КАФЕТО ЗА ВАС ЛИ Е? (KAFETO ZA VAS LI E?) (Nötr)",
+    "answer": "KAHVE SİZİN İÇİN MİDİR?"
+  },
+  {
+    "question": "ДА, КАФЕТО Е ЗА МЕН (DA, KAFETO E ZA MEN) (Nötr)",
+    "answer": "EVET, KAHVE BENİM İÇİN"
+  },
+  {
+    "question": "НЕ, КАФЕТО НЕ Е ЗА МЕН (NE, KAFETO NE E ZA MEN) (Nötr)",
+    "answer": "HAYIR, KAHVE BENİM İÇİN DEĞİL"
+  },
+  {
+    "question": "ЗА МЕН ЕДНА ВОДА МОЛЯ (ZA MEN EDNA VODA MOLYA) (Dişil)",
+    "answer": "BENİM İÇİN BİR SU LÜTFEN"
+  },
+  {
+    "question": "ТЕЗИ ЦВЕТЯ ЗА МЕН ЛИ СА? (TEZI TSVETYA ZA MEN LI SA?) (Çoğul)",
+    "answer": "BU ÇİÇEKLER BENİM İÇİN Mİ?"
+  },
+  {
+    "question": "ВАШАТА ПОМОЩ Е ВАЖНА ЗА МЕН (VASHATA POMOSHT E VAZHNA ZA MEN) (Dişil)",
+    "answer": "SİZİN YARDIMINIZ BENİM İÇİN ÖNEMLİDİR"
+  },
+  {
+    "question": "ЗА МЕН ЛИ СА ТЕЗИ ПАРИ? (ZA MEN LI SA TEZI PARI?) (Çoğul)",
+    "answer": "BU PARALAR BENİM İÇİN Mİ?"
+  },
+  {
+    "question": "НА ВАС ВИ ТРЯБВА ПОМОЩ (NA VAS VI TRYABVA POMOSHT) (Çoğul)",
+    "answer": "SİZE YARDIM GEREKİYOR"
+  },
+  {
+    "question": "МОЖЕ ЛИ ДА ИЗБЕРЕШ ЗА МЕН? (MOZHE LI DA IZBERESH ZA MEN?)",
+    "answer": "BENİM İÇİN SEÇEBİLİR MİSİN?"
+  },
+  {
+    "question": "ИЗБИРАМ (IZBIRAM)",
+    "answer": "SEÇİYORUM"
+  },
+  {
+    "question": "РАЗБИРАМ (RAZBIRAM)",
+    "answer": "ANLIYORUM"
+  },
+  {
+    "question": "МОЖЕ ЛИ ДА ВЗЕМЕШ ЕДНО КАФЕ ЗА МЕН? (MOZHE LI DA VZEMESH EDNO KAFE ZA MEN?) (Nötr)",
+    "answer": "BENİM İÇİN BİR KAHVE ALABİLİR MİSİN?"
+  },
+  {
+    "question": "ТРЯБВА (TRYABVA)",
+    "answer": "LAZIM / GEREKİYOR"
+  },
+  {
+    "question": "ТРЯБВА ВИ (TRYABVA VI) (Çoğul)",
+    "answer": "SİZE LAZIM / SİZE GEREKİYOR"
+  },
+  {
+    "question": "ТОВА КАФЕ С МЛЯКО ЗА МЕН ЛИ Е? (TOVA KAFE S MLYAKO ZA MEN LI E?) (Nötr)",
+    "answer": "BU SÜTLÜ KAHVE BENİM İÇİN MİDİR?"
+  },
+  {
+    "question": "ТОВА МЛЯКО ЗА МОЕТО КАФЕ ЛИ Е? (TOVA MLYAKO ZA MOETO KAFE LI E?) (Nötr)",
+    "answer": "BU SÜT BENİM KAHVEM İÇİN Mİ?"
+  }
+]
