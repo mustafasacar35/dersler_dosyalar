@@ -26,7 +26,7 @@
     text-transform: uppercase !important; 
 }
 .cyrillicText {
-    transition: all 0.3s ease;
+    /* transition: all 0.3s ease; */ /* Zaten kaldırılmış, emin olmak için yorum satırı */
 }
 
 .bahnschrift-font {
@@ -37,7 +37,6 @@
     font-style: italic !important;
 }
 
-/* İlk harf büyük formatını düzelttik */
 .sentence-case {
     text-transform: lowercase !important;
 }
@@ -520,72 +519,43 @@ window.onload = function() {
             return text.replace(/\s*\(.*?\)\s*/g, ' ').trim();
         }
 
-        function cleanTextForDisplay(text) {
-    // Parantez içindeki metinleri kaldır
+function cleanTextForDisplay(text, preserveCase = false) {
+    // Parantez içindeki metinleri kaldır (isteğe bağlı, bazı durumlarda korunabilir)
     const baseText = text.replace(/\s*\(.*?\)\s*/g, '').trim();
     
-    if (!isLatinVisible || isTurkishQuestion) {
-        if (!isCyrillic(baseText)) {
-            return baseText; // Kiril alfabesi değilse değişiklik yapma
-        }
-        
-        // Kiril alfabesi için formatlamaları uygula
-        let formattedText = baseText;
-        
-        // İlk harf büyük formatını JavaScript ile uygulayalım
-        if (window.globalCaseState === 1 && formattedText.length > 0) {
-            formattedText = formattedText.charAt(0).toUpperCase() + formattedText.slice(1).toLowerCase();
-        } else if (window.globalCaseState === 2) {
-            formattedText = formattedText.toUpperCase();
-        } else {
-            formattedText = formattedText.toLowerCase();
-        }
-        
-        // Stil sınıflarını ve etiketleri şimdi ekleyelim
-        let classes = ['cyrillicText'];
-        
-        if (window.globalFontState) {
-            classes.push('bahnschrift-font');
-        }
-        
-        if (isItalicEnabled) {
-            classes.push('italic-text');
-        }
-        
-        return `<span class="${classes.join(' ')}">${formattedText}</span>`;
+    if (!isCyrillic(baseText)) {
+        return baseText; // Kiril alfabesi değilse değişiklik yapma
     }
     
-    if (isCyrillic(text) && isLatinVisible) {
-        // Kiril alfabesi ve Latin görünümü aktif
-        let formattedText = baseText;
-        
-        // İlk harf büyük formatını JavaScript ile uygulayalım
-        if (window.globalCaseState === 1 && formattedText.length > 0) {
-            formattedText = formattedText.charAt(0).toUpperCase() + formattedText.slice(1).toLowerCase();
-        } else if (window.globalCaseState === 2) {
-            formattedText = formattedText.toUpperCase();
-        } else {
-            formattedText = formattedText.toLowerCase();
-        }
-        
-        // Stil sınıflarını ve etiketleri şimdi ekleyelim
-        let classes = ['cyrillicText'];
-        
-        if (window.globalFontState) {
-            classes.push('bahnschrift-font');
-        }
-        
-        if (isItalicEnabled) {
-            classes.push('italic-text');
-        }
-        
+    // Kiril alfabesi için formatlamaları uygula
+    let formattedText = baseText;
+    
+    // Stil sınıflarını ekle
+    let classes = ['cyrillicText'];
+    if (window.globalFontState) {
+        classes.push('bahnschrift-font');
+    }
+    if (isItalicEnabled) {
+        classes.push('italic-text');
+    }
+    // Büyük/küçük harf yönetimi tamamen CSS ile
+    if (window.globalCaseState === 1) {
+        classes.push('sentence-case');
+    } else if (window.globalCaseState === 2) {
+        classes.push('uppercase-text');
+    } else {
+        classes.push('lowercase-text');
+    }
+    
+    // Latin görünümü için
+    if (isLatinVisible && !isTurkishQuestion) {
         return `<span class="${classes.join(' ')}">${formattedText}</span> (${cyrillicToLatinText(baseText)})`;
     }
     
-    return text;
+    return `<span class="${classes.join(' ')}">${formattedText}</span>`;
 }
-
-        function playSound(type) {
+        
+function playSound(type) {
             if (!isSoundEnabled) return;
             const audio = new Audio(type === 'correct' 
                 ? 'https://www.myinstants.com/media/sounds/correct-ding.mp3'
@@ -848,9 +818,7 @@ window.onload = function() {
     updateProgressBar();
     updateMissedQuestions();
     
-    // Formatları uygula
-    setTimeout(applyFormatsToDOM, 100);
-}
+   }
         function resetState() {
             localStorage.removeItem('bulgarcaAppState');
             currentIndex = 0;
@@ -938,78 +906,80 @@ window.onload = function() {
             if (questionCountSpan) questionCountSpan.innerText = `${currentQuestionNumber} / ${totalQuestions}`;
         }
 
-        function renderPossessiveTable(matchedWord) {
-            let tableHTML = `
-                <div class="reference-table possessive-table">
-                    <h6>TAM İYELİK ZAMİRLERİ:</h6>
-                    <p>Tam iyelik zamirleri, isimden önce ya da vurgu gerektiğinde kullanılır.</p>
-                    <table>
-                        <thead>
-                            <tr>
-                                <th></th>
-                                <th>Eril</th>
-                                <th>Dişil</th>
-                                <th>Nötr</th>
-                                <th>Çoğul</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-            `;
-            const rows = [
-                ["Benim", possessivePronouns["benim"]],
-                ["Senin", possessivePronouns["senin"]],
-                ["Onun (erkek)", possessivePronouns["onun_erkek"]],
-                ["Onun (kadın)", possessivePronouns["onun_kadın"]],
-                ["Bizim", possessivePronouns["bizim"]],
-                ["Sizin", possessivePronouns["sizin"]],
-                ["Onların", possessivePronouns["onların"]]
-            ];
-            rows.forEach(([label, pronouns]) => {
-                tableHTML += `<tr><td>${label}</td>`;
-                pronouns.forEach(pronoun => {
-                    const word = pronoun.split(' ')[0];
-                    const isHighlighted = matchedWord && word === matchedWord;
-                    tableHTML += `<td class="${isHighlighted ? 'highlight' : ''}" data-word="${word}">${pronoun}</td>`;
-                });
-                tableHTML += `</tr>`;
-            });
-            tableHTML += `</tbody></table></div>`;
-            return tableHTML;
-        }
-
-        function renderShortPossessiveTable(matchedWord) {
-            let tableHTML = `
-                <div class="reference-table short-possessive-table">
-                    <h6>KISA İYELİK ZAMİRLERİ:</h6>
-                    <p>Kısa iyelik zamirleri günlük konuşmalarda çok sık kullanılır ve Bulgarca iletişimde temel bir rol oynar.</p>
-                    <table>
-                        <thead>
-                            <tr>
-                                <th>Türkçe</th>
-                                <th>Bulgarca</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-            `;
-            const rows = [
-                ["Benim", shortPossessivePronouns["benim"]],
-                ["Senin", shortPossessivePronouns["senin"]],
-                ["Onun (erkek)", shortPossessivePronouns["onun_erkek"]],
-                ["Onun (kadın)", shortPossessivePronouns["onun_kadın"]],
-                ["Bizim", shortPossessivePronouns["bizim"]],
-                ["Sizin", shortPossessivePronouns["sizin"]],
-                ["Onların", shortPossessivePronouns["onların"]]
-            ];
-            rows.forEach(([turkish, bulgarian]) => {
-                const word = bulgarian.split(' ')[0];
-                const isHighlighted = matchedWord && word === matchedWord;
-                tableHTML += `<tr><td>${turkish}</td><td class="${isHighlighted ? 'highlight' : ''}" data-word="${word}">${bulgarian}</td></tr>`;
-            });
-            tableHTML += `</tbody></table></div>`;
-            return tableHTML;
-        }
-
-        function renderDemonstrativeTable(matchedWord) {
+function renderPossessiveTable(matchedWord) {
+    let tableHTML = `
+        <div class="reference-table possessive-table">
+            <h6>TAM İYELİK ZAMİRLERİ:</h6>
+            <p>Tam iyelik zamirleri, isimden önce ya da vurgu gerektiğinde kullanılır.</p>
+            <table>
+                <thead>
+                    <tr>
+                        <th></th>
+                        <th>Eril</th>
+                        <th>Dişil</th>
+                        <th>Nötr</th>
+                        <th>Çoğul</th>
+                    </tr>
+                </thead>
+                <tbody>
+    `;
+    const rows = [
+        ["Benim", possessivePronouns["benim"]],
+        ["Senin", possessivePronouns["senin"]],
+        ["Onun (erkek)", possessivePronouns["onun_erkek"]],
+        ["Onun (kadın)", possessivePronouns["onun_kadın"]],
+        ["Bizim", possessivePronouns["bizim"]],
+        ["Sizin", possessivePronouns["sizin"]],
+        ["Onların", possessivePronouns["onların"]]
+    ];
+    rows.forEach(([label, pronouns]) => {
+        tableHTML += `<tr><td>${label}</td>`;
+        pronouns.forEach(pronoun => {
+            const word = pronoun.split(' ')[0];
+            const isHighlighted = matchedWord && word === matchedWord;
+            const formattedPronoun = cleanTextForDisplay(pronoun);
+            tableHTML += `<td class="${isHighlighted ? 'highlight' : ''}" data-word="${word}">${formattedPronoun}</td>`;
+        });
+        tableHTML += `</tr>`;
+    });
+    tableHTML += `</tbody></table></div>`;
+    return tableHTML;
+}
+       
+function renderShortPossessiveTable(matchedWord) {
+    let tableHTML = `
+        <div class="reference-table short-possessive-table">
+            <h6>KISA İYELİK ZAMİRLERİ:</h6>
+            <p>Kısa iyelik zamirleri günlük konuşmalarda çok sık kullanılır ve Bulgarca iletişimde temel bir rol oynar.</p>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Türkçe</th>
+                        <th>Bulgarca</th>
+                    </tr>
+                </thead>
+                <tbody>
+    `;
+    const rows = [
+        ["Benim", shortPossessivePronouns["benim"]],
+        ["Senin", shortPossessivePronouns["senin"]],
+        ["Onun (erkek)", shortPossessivePronouns["onun_erkek"]],
+        ["Onun (kadın)", shortPossessivePronouns["onun_kadın"]],
+        ["Bizim", shortPossessivePronouns["bizim"]],
+        ["Sizin", shortPossessivePronouns["sizin"]],
+        ["Onların", shortPossessivePronouns["onların"]]
+    ];
+    rows.forEach(([turkish, bulgarian]) => {
+        const word = bulgarian.split(' ')[0];
+        const isHighlighted = matchedWord && word === matchedWord;
+        const formattedBulgarian = cleanTextForDisplay(bulgarian);
+        tableHTML += `<tr><td>${turkish}</td><td class="${isHighlighted ? 'highlight' : ''}" data-word="${word}">${formattedBulgarian}</td></tr>`;
+    });
+    tableHTML += `</tbody></table></div>`;
+    return tableHTML;
+}
+        
+function renderDemonstrativeTable(matchedWord) {
             let tableHTML = `
                 <div class="reference-table demonstrative-table">
                     <h6>YAKIN NESNELER (BU) - UZAK NESNELER (ŞU/O):</h6>
@@ -1448,7 +1418,6 @@ document.addEventListener('keydown', window.boundKeydownHandler);
             if (isSpeechEnabled) {
                 speakText(question);
             }
-            setTimeout(applyCurrentStyles, 100); // Biraz gecikme ekleyerek DOM güncellemelerine izin veriyoruz
 
         }
 
@@ -1700,56 +1669,60 @@ document.addEventListener('keydown', window.boundKeydownHandler);
             renderContent();
         }
 
-        function updateRecentQuestions() {
-            if (!lessonData[currentIndex]) return;
-            const recentItem = {
-                index: currentIndex,
-                question: isTurkishQuestion ? lessonData[currentIndex].answer : lessonData[currentIndex].question,
-                answer: answers[currentIndex],
-                correctAnswer: isTurkishQuestion ? lessonData[currentIndex].question : lessonData[currentIndex].answer,
-                isCorrect: answers[currentIndex] && isAnswerCloseEnough(answers[currentIndex], isTurkishQuestion ? lessonData[currentIndex].question : lessonData[currentIndex].answer)
-            };
-            const existingIndex = recentQuestions.findIndex(item => item.index === currentIndex);
-            if (existingIndex !== -1) {
-                recentQuestions.splice(existingIndex, 1);
-            }
-            recentQuestions.unshift(recentItem);
-            if (recentQuestions.length > 5) recentQuestions.pop();
+function updateRecentQuestions() {
+    if (!lessonData[currentIndex]) return;
+    const recentItem = {
+        index: currentIndex,
+        question: isTurkishQuestion ? lessonData[currentIndex].answer : lessonData[currentIndex].question,
+        answer: answers[currentIndex],
+        correctAnswer: isTurkishQuestion ? lessonData[currentIndex].question : lessonData[currentIndex].answer,
+        isCorrect: answers[currentIndex] && isAnswerCloseEnough(answers[currentIndex], isTurkishQuestion ? lessonData[currentIndex].question : lessonData[currentIndex].answer)
+    };
+    const existingIndex = recentQuestions.findIndex(item => item.index === currentIndex);
+    if (existingIndex !== -1) {
+        recentQuestions.splice(existingIndex, 1);
+    }
+    recentQuestions.unshift(recentItem);
+    if (recentQuestions.length > 5) recentQuestions.pop();
 
-            const recentList = document.getElementById('recent-list');
-            if (recentList) {
-                recentList.innerHTML = recentQuestions.map((item, idx) => {
-                    const statusClass = item.answer === '' ? 'unanswered' : item.isCorrect ? 'correct' : 'incorrect';
-                    return `
-                        <div class="recent-question ${statusClass}" onclick="jumpToQuestion(${item.index})">
-                            ${idx + 1}. ${item.question} 
-                            ${item.answer ? `(Cevap: ${item.answer})` : '(Boş bırakıldı)'}
-                        </div>`;
-                }).join('');
-            }
-        }
+    const recentList = document.getElementById('recent-list');
+    if (recentList) {
+        recentList.innerHTML = recentQuestions.map((item, idx) => {
+            const statusClass = item.answer === '' ? 'unanswered' : item.isCorrect ? 'correct' : 'incorrect';
+            const formattedQuestion = cleanTextForDisplay(item.question);
+            const formattedAnswer = item.answer ? cleanTextForDisplay(item.answer) : '(Boş bırakıldı)';
+            return `
+                <div class="recent-question ${statusClass}" onclick="jumpToQuestion(${item.index})">
+                    ${idx + 1}. ${formattedQuestion} 
+                    (Cevap: ${formattedAnswer})
+                </div>`;
+        }).join('');
+    }
+}
 
-        function updateBlacklist() {
-            const blacklistList = document.getElementById('blacklist-list');
-            if (blacklistList) {
-                blacklistList.innerHTML = blacklist.map(index => {
-                    const item = lessonData[index];
-                    return `<div class="blacklist-item" onclick="jumpToQuestion(${index})">${item.question}</div>`;
-                }).join('');
-            }
-        }
+function updateBlacklist() {
+    const blacklistList = document.getElementById('blacklist-list');
+    if (blacklistList) {
+        blacklistList.innerHTML = blacklist.map(index => {
+            const item = lessonData[index];
+            const formattedQuestion = cleanTextForDisplay(item.question);
+            return `<div class="blacklist-item" onclick="jumpToQuestion(${index})">${formattedQuestion}</div>`;
+        }).join('');
+    }
+}
 
-        function updateMissedQuestions() {
-            const missedList = document.getElementById('missed-list');
-            if (missedList) {
-                missedList.innerHTML = missedQuestions.map(index => {
-                    const item = lessonData[index];
-                    return `<div class="missed-question" onclick="jumpToQuestion(${index})">${item.question}</div>`;
-                }).join('');
-            }
-        }
-
-        function jumpToQuestion(index) {
+function updateMissedQuestions() {
+    const missedList = document.getElementById('missed-list');
+    if (missedList) {
+        missedList.innerHTML = missedQuestions.map(index => {
+            const item = lessonData[index];
+            const formattedQuestion = cleanTextForDisplay(item.question);
+            return `<div class="missed-question" onclick="jumpToQuestion(${index})">${formattedQuestion}</div>`;
+        }).join('');
+    }
+}
+        
+function jumpToQuestion(index) {
             if (lastIndexBeforeJump === -1) lastIndexBeforeJump = currentIndex;
             currentIndex = index;
             if (isSearchMode) {
@@ -1758,10 +1731,12 @@ document.addEventListener('keydown', window.boundKeydownHandler);
             renderContent();
         }
 
-        function searchQuestions() {
-    const searchInput = document.getElementById('search-input').value.toLowerCase();
+function searchQuestions() {
+    const searchInput = document.getElementById('search-input').value;
+    const normalizedSearch = normalizeText(searchInput).original.toLowerCase();
     const focusOnly = document.getElementById('focus-questions').checked;
-    if (searchInput === '') {
+    
+    if (normalizedSearch === '') {
         isSearchMode = false;
         searchResults = [];
         searchIndex = 0;
@@ -1776,9 +1751,9 @@ document.addEventListener('keydown', window.boundKeydownHandler);
         .map((item, index) => ({ item, index }))
         .filter(({ item, index }) => {
             if (focusOnly && !wrongCount[index] && !missedQuestions.includes(index)) return false;
-            const question = (isTurkishQuestion ? item.answer : item.question).toLowerCase();
-            const answer = (isTurkishQuestion ? item.question : item.answer).toLowerCase();
-            return question.includes(searchInput) || answer.includes(searchInput);
+            const question = normalizeText(isTurkishQuestion ? item.answer : item.question).original.toLowerCase();
+            const answer = normalizeText(isTurkishQuestion ? item.question : item.answer).original.toLowerCase();
+            return question.includes(normalizedSearch) || answer.includes(normalizedSearch);
         })
         .map(({ index }) => index);
 
@@ -1791,7 +1766,8 @@ document.addEventListener('keydown', window.boundKeydownHandler);
         if (searchList) {
             searchList.innerHTML = searchResults.map(index => {
                 const item = lessonData[index];
-                return `<div class="search-result" onclick="jumpToQuestion(${index})">${item.question}</div>`;
+                const formattedQuestion = cleanTextForDisplay(item.question);
+                return `<div class="search-result" onclick="jumpToQuestion(${index})">${formattedQuestion}</div>`;
             }).join('');
         }
     } else {
@@ -1800,7 +1776,8 @@ document.addEventListener('keydown', window.boundKeydownHandler);
     }
     renderContent();
 }
-        function toggleTheme() {
+
+function toggleTheme() {
             document.body.classList.toggle('dark-theme');
             document.getElementById('toggleThemeBtn').innerText = document.body.classList.contains('dark-theme') ? 'Açık Tema' : 'Koyu Tema';
         }
@@ -2075,72 +2052,8 @@ window.globalFontState = 0; // 0: normal, 1: bahnschrift
 window.globalCaseState = 0; // 0: küçük harf, 1: ilk harf büyük, 2: büyük harf
 window.globalItalicState = 0; // 0: normal, 1: italik
 
-
 function isCyrillicText(text) {
     return /[\u0400-\u04FF]/.test(text);
-}
-
-function applyToCyrillicTextNodes(callback) {
-    const walker = document.createTreeWalker(document.body, NodeFilter.SHOW_TEXT, null, false);
-    while (walker.nextNode()) {
-        const node = walker.currentNode;
-        if (isCyrillicText(node.textContent.trim())) {
-            callback(node);
-        }
-    }
-}
-
-function updateFont() {
-    applyToCyrillicTextNodes((node) => {
-        const el = node.parentElement;
-        if (el && el.tagName !== 'STYLE' && el.tagName !== 'SCRIPT') {
-            el.style.fontFamily = window.globalFontState ? 'Bahnschrift, sans-serif' : '';
-        }
-    });
-
-    const input = document.getElementById('input-answer');
-    if (input && isCyrillicText(input.value)) {
-        input.style.fontFamily = window.globalFontState ? 'Bahnschrift, sans-serif' : '';
-    }
-}
-
-function updateCase() {
-    applyToCyrillicTextNodes((node) => {
-        if (window.globalCaseState === 0) {
-            // Normal durum (küçük harf)
-            node.textContent = node.textContent.toLowerCase();
-        } else if (window.globalCaseState === 1) {
-            // Her kelimenin ilk harfi büyük
-            node.textContent = node.textContent.toLowerCase().replace(/(^|[\.?!]\s*)([а-яё])/g, function(m, p1, p2) {
-                return p1 + p2.toUpperCase();
-            });
-        } else if (window.globalCaseState === 2) {
-            // Hepsi büyük harf
-            node.textContent = node.textContent.toUpperCase();
-        }
-    });
-
-}
-
-function updateItalic() {
-    applyToCyrillicTextNodes((node) => {
-        const el = node.parentElement;
-        if (el && el.tagName !== 'STYLE' && el.tagName !== 'SCRIPT') {
-            el.style.fontStyle = window.globalItalicState ? 'italic' : '';
-        }
-    });
-
-    const input = document.getElementById('input-answer');
-    if (input && isCyrillicText(input.value)) {
-        input.style.fontStyle = window.globalItalicState ? 'italic' : '';
-    }
-}
-
-// renderContent sonrasında stil uygulamak için
-function applyCurrentStyles() {
-    if (window.globalFontState) updateFont();
-    if (window.globalCaseState) updateCase();
-    if (window.globalItalicState) updateItalic();
 }
 
 document.getElementById('toggleFontBtn').addEventListener('click', () => {
@@ -2262,45 +2175,6 @@ window.addEventListener('DOMContentLoaded', function () {
     }
   });
 });
-function applyFormatsToDOM() {
-    // Tüm kiril alfabesi ile yazılmış metinleri bul
-    const cyrillicElements = document.querySelectorAll('.card-title, .card-body p');
-    
-    cyrillicElements.forEach(el => {
-        // Elementler içindeki tüm kiril metin düğümlerini bul
-        const walker = document.createTreeWalker(el, NodeFilter.SHOW_TEXT, {
-            acceptNode: function(node) {
-                return isCyrillic(node.textContent) ? NodeFilter.FILTER_ACCEPT : NodeFilter.FILTER_REJECT;
-            }
-        }, false);
-        
-        // Her metin düğümünü bir span içine al ve stil uygula
-        while (walker.nextNode()) {
-            const textNode = walker.currentNode;
-            if (isCyrillic(textNode.textContent)) {
-                // Eğer zaten bir span içinde değilse
-                if (textNode.parentElement.className.indexOf('cyrillicText') === -1) {
-                    const span = document.createElement('span');
-                    span.className = 'cyrillicText';
-                    span.textContent = textNode.textContent;
-                    textNode.parentNode.replaceChild(span, textNode);
-                    
-                    // Formatları uygula
-                    if (window.globalFontState) span.classList.add('bahnschrift-font');
-                    if (isItalicEnabled) span.classList.add('italic-text');
-                    
-                    if (window.globalCaseState === 1) {
-                        span.classList.add('sentence-case');
-                    } else if (window.globalCaseState === 2) {
-                        span.classList.add('uppercase-text');
-                    } else {
-                        span.classList.add('lowercase-text');
-                    }
-                }
-            }
-        }
-    });
-}
 </script>
 </body>
 
