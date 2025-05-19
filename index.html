@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 
 <html lang="tr">
@@ -238,7 +239,11 @@
 <div class="sidebar card">
 <div class="card-body">
 <h6>Yüklenen Dersler</h6>
-<div id="json-files"></div>
+<div id="json-files"></div><h6 class="mt-4">Paragraf Çalışmaları</h6><div id="paragraph-files"></div>
+<hr/>
+<h6 class="mt-4">Paragraf Çalışmaları</h6>
+<div id="paragraph-files"></div>
+
 </div>
 </div>
 <div class="main-content">
@@ -387,7 +392,73 @@ window.onload = function() {
         let isCapsOn = false;
         let isItalicEnabled = false;
 
-        const githubLessonUrls = [
+        
+
+
+async function loadParagraphs() {
+  const container = document.getElementById("paragraph-files");
+  if (!container) return;
+  for (const para of paragraphUrls) {
+    try {
+      const res = await fetch(para.url);
+      if (!res.ok) throw new Error();
+      const data = await res.json();
+      const btn = document.createElement("button");
+      btn.textContent = para.name;
+      btn.className = "btn btn-outline-primary w-100 mb-2";
+      btn.onclick = () => renderParagraph(data[0]);
+      container.appendChild(btn);
+    } catch (e) {
+      console.error(`Paragraf yüklenemedi: ${para.name}`);
+    }
+  }
+}
+
+function renderParagraph(paragraph) {
+  const contentDiv = document.getElementById("content");
+  const isBG = !isTurkishQuestion;
+  const text = isBG ? paragraph.bg : paragraph.tr;
+  const matchWords = isBG ? paragraph.tr.split(/\s+/) : paragraph.bg.split(/\s+/);
+  const bgWords = text.split(/\s+/);
+  const wordMap = new Map();
+  bgWords.forEach((w, i) => {
+    const clean = w.replace(/[^\wа-яА-ЯёЁ]/gi, '');
+    const tooltip = matchWords[i] || '';
+    wordMap.set(clean, tooltip);
+  });
+
+  const sentence = bgWords.map(w => {
+    const base = w.replace(/[^\wа-яА-ЯёЁ]/gi, '');
+    const title = wordMap.get(base) || '';
+    return `<span class="paragraph-word" title="${title}" onclick="addToWordList('${base}', '${title}')">${w}</span>`;
+  }).join(' ');
+
+  contentDiv.innerHTML = `
+    <div class="card-body">
+      <h5 class="card-title">${paragraph.title}</h5>
+      <p>${sentence}</p>
+      <div class="mt-3">
+        <h6>Bilinmeyen Kelimeler</h6>
+        <ul id="word-list" class="list-group"></ul>
+      </div>
+    </div>
+  `;
+}
+
+function addToWordList(bg, tr) {
+  const ul = document.getElementById("word-list");
+  const id = bg + "=" + tr;
+  if (document.getElementById(id)) return;
+  const li = document.createElement("li");
+  li.textContent = `${bg} = ${tr}`;
+  li.id = id;
+  li.className = "list-group-item";
+  li.onclick = () => li.remove();
+  ul.appendChild(li);
+}
+
+
+const githubLessonUrls = [
             { name: "Ders 1", url: "https://raw.githubusercontent.com/mustafasacar35/dersler_dosyalar/main/DERS_1.JSON" },
             { name: "Ders 2", url: "https://raw.githubusercontent.com/mustafasacar35/dersler_dosyalar/main/DERS_2.JSON" },
             { name: "Ders 3", url: "https://raw.githubusercontent.com/mustafasacar35/dersler_dosyalar/main/DERS_3.JSON" },
@@ -593,6 +664,7 @@ function playSound(type) {
         window.addEventListener('load', () => {
             speechSynthesis.getVoices();
             loadAllLessons();
+  
         });
 
         function levenshteinDistance(a, b) {
@@ -849,6 +921,7 @@ function playSound(type) {
             jsonFiles = {};
             lessonData = [];
             loadAllLessons();
+  
             updateUIFromState();
             renderContent();
             alert("Durum sıfırlandı!");
@@ -2178,6 +2251,344 @@ window.addEventListener('DOMContentLoaded', function () {
   });
 });
 </script>
+<script>
+async function loadParagraphs() {
+  const container = document.getElementById("paragraph-files");
+  if (!container) return console.warn("Sidebar paragraf container bulunamadı.");
+
+  
+
+  for (const para of paragraphUrls) {
+    try {
+      const res = await fetch(para.url);
+      if (!res.ok) throw new Error("Veri çekilemedi");
+      const data = await res.json();
+      console.log("Yüklenen veri:", data);
+      const btn = document.createElement("button");
+      btn.textContent = para.name;
+      btn.className = "btn btn-outline-primary w-100 mb-2";
+      btn.onclick = () => {
+        console.log("Paragraf butonuna tıklandı:", para.name);
+        if (data && data.bg && data.tr) {
+          renderParagraph(data);
+        } else {
+          console.error("Beklenen formatta veri yok:", data);
+          alert("Paragraf formatı hatalı ya da eksik.");
+        }
+      };
+      container.appendChild(btn);
+    } catch (e) {
+      console.error("Paragraf yüklenemedi:", para.name, e);
+    }
+  }
+}
+
+
+function renderParagraph(paragraph) {
+  const contentDiv = document.getElementById("content");
+  const isBG = !isTurkishQuestion;
+  const text = isBG ? paragraph.bg : paragraph.tr;
+  const wordMap = paragraph.map || {};
+  const words = text.split(/(\s+|(?=[.,!?„“”":;]))/);
+  const sentence = words.map(w => {
+    const clean = w.replace(/[.,!?“”„";:]/g, '').trim();
+    const tooltip = isBG ? (wordMap[clean] || '') : '';
+    return `<span class="paragraph-word" title="${tooltip}" onclick="addToWordList('${clean}', '${tooltip}')">${w}</span>`;
+  }).join('');
+  contentDiv.innerHTML = `
+    <div class="card-body">
+      <h5 class="card-title">${paragraph.title}</h5>
+      <p>${sentence}</p>
+      <div class="mt-3">
+        <h6>Bilinmeyen Kelimeler</h6>
+        <ul id="word-list" class="list-group"></ul>
+      </div>
+    </div>
+  `;
+}
+
+window.addEventListener("load", () => { loadAllLessons();  });</script>
+<script>
+
+
+async function loadParagraphs() {
+  const container = document.getElementById("paragraph-files");
+  if (!container) return;
+  for (const para of paragraphUrls) {
+    try {
+      const res = await fetch(para.url);
+      if (!res.ok) throw new Error("Veri çekilemedi");
+      const data = await res.json();
+      const btn = document.createElement("button");
+      btn.textContent = para.name;
+      btn.className = "btn btn-outline-primary w-100 mb-2";
+      btn.onclick = () => {
+        if (data && data.bg && data.tr) {
+          renderParagraph(data);
+        } else {
+          alert("Paragraf formatı hatalı.");
+        }
+      };
+      container.appendChild(btn);
+    } catch (e) {
+      console.error("Paragraf yüklenemedi:", para.name, e);
+    }
+  }
+}
+
+window.addEventListener("load", () => {
+  loadAllLessons();
+  
+});
+
+
+function renderParagraph(paragraph) {
+  const contentDiv = document.getElementById("content");
+  const isBG = !isTurkishQuestion;
+  const text = isBG ? paragraph.bg : paragraph.tr;
+  const wordMap = paragraph.map || {};
+  const words = text.split(/(\s+|(?=[.,!?„“”":;]))/);
+  const sentence = words.map(w => {
+    const clean = w.replace(/[.,!?“”„";:]/g, '').trim();
+    const tooltip = isBG ? (wordMap[clean] || '') : '';
+    return `<span class="paragraph-word" title="${tooltip}" onclick="addToWordList('${clean}', '${tooltip}')">${w}</span>`;
+  }).join('');
+  contentDiv.innerHTML = `
+    <div class="card-body">
+      <h5 class="card-title">${paragraph.title}</h5>
+      <p>${sentence}</p>
+      <div class="mt-3">
+        <h6>Bilinmeyen Kelimeler</h6>
+        <ul id="word-list" class="list-group"></ul>
+      </div>
+    </div>
+  `;
+}
+</script>
+<script>
+
+
+async function loadParagraphs() {
+  const container = document.getElementById("paragraph-files");
+  if (!container) return;
+  for (const para of paragraphUrls) {
+    try {
+      const res = await fetch(para.url);
+      if (!res.ok) throw new Error("Veri çekilemedi");
+      const data = await res.json();
+      const btn = document.createElement("button");
+      btn.textContent = para.name;
+      btn.className = "btn btn-outline-primary w-100 mb-2";
+      btn.onclick = () => {
+        if (data && data.bg && data.tr) {
+          renderParagraph(data);
+        } else {
+          alert("Paragraf formatı hatalı.");
+        }
+      };
+      container.appendChild(btn);
+    } catch (e) {
+      console.error("Paragraf yüklenemedi:", para.name, e);
+    }
+  }
+}
+
+window.addEventListener("load", () => {
+  loadAllLessons();
+  
+});
+
+
+function renderParagraph(paragraph) {
+  const contentDiv = document.getElementById("content");
+  const isBG = !isTurkishQuestion;
+  const text = isBG ? paragraph.bg : paragraph.tr;
+  const wordMap = paragraph.map || {};
+  const words = text.split(/(\s+|(?=[.,!?„“”":;]))/);
+  const sentence = words.map(w => {
+    const clean = w.replace(/[.,!?“”„";:]/g, '').trim();
+    const tooltip = isBG ? (wordMap[clean] || '') : '';
+    return `<span class="paragraph-word" title="${tooltip}" onclick="addToWordList('${clean}', '${tooltip}')">${w}</span>`;
+  }).join('');
+  contentDiv.innerHTML = `
+    <div class="card-body">
+      <h5 class="card-title">${paragraph.title}</h5>
+      <p>${sentence}</p>
+      <div class="mt-3">
+        <h6>Bilinmeyen Kelimeler</h6>
+        <ul id="word-list" class="list-group"></ul>
+      </div>
+    </div>
+  `;
+}
+</script>
+<script>
+const paragraphUrls = [
+  { name: "Paragraf 1", url: "https://raw.githubusercontent.com/mustafasacar35/dersler_dosyalar/main/paragraf_1.JSON" },
+  { name: "Paragraf 2", url: "https://raw.githubusercontent.com/mustafasacar35/dersler_dosyalar/main/paragraf_2.JSON" },
+  { name: "Paragraf 3", url: "https://raw.githubusercontent.com/mustafasacar35/dersler_dosyalar/main/paragraf_3.JSON" },
+  { name: "Paragraf 4", url: "https://raw.githubusercontent.com/mustafasacar35/dersler_dosyalar/main/paragraf_4.JSON" },
+  { name: "Paragraf 5", url: "https://raw.githubusercontent.com/mustafasacar35/dersler_dosyalar/main/paragraf_5.JSON" },
+  { name: "Paragraf 6", url: "https://raw.githubusercontent.com/mustafasacar35/dersler_dosyalar/main/paragraf_6.JSON" },
+  { name: "Paragraf 7", url: "https://raw.githubusercontent.com/mustafasacar35/dersler_dosyalar/main/paragraf_7.JSON" },
+  { name: "Paragraf 8", url: "https://raw.githubusercontent.com/mustafasacar35/dersler_dosyalar/main/paragraf_8.JSON" },
+  { name: "Paragraf 9", url: "https://raw.githubusercontent.com/mustafasacar35/dersler_dosyalar/main/paragraf_9.JSON" },
+  { name: "Paragraf 10", url: "https://raw.githubusercontent.com/mustafasacar35/dersler_dosyalar/main/paragraf_10.JSON" }
+];
+
+async function loadParagraphs() {
+  const container = document.getElementById("paragraph-files");
+  if (!container) return;
+  for (const para of paragraphUrls) {
+    try {
+      const res = await fetch(para.url);
+      if (!res.ok) throw new Error("Veri çekilemedi");
+      const data = await res.json();
+      const btn = document.createElement("button");
+      btn.textContent = para.name;
+      btn.className = "btn btn-outline-primary w-100 mb-2";
+      btn.onclick = () => {
+        if (data && data.bg && data.tr) {
+          renderParagraph(data);
+        } else {
+          alert("Paragraf formatı hatalı.");
+        }
+      };
+      container.appendChild(btn);
+    } catch (e) {
+      console.error("Paragraf yüklenemedi:", para.name, e);
+    }
+  }
+}
+
+window.addEventListener("load", () => {
+  loadAllLessons();
+  loadParagraphs();
+});
+
+
+function renderParagraph(paragraph) {
+  const contentDiv = document.getElementById("content");
+  const isBG = !isTurkishQuestion;
+  const text = isBG ? paragraph.bg : paragraph.tr;
+  const wordMap = paragraph.map || {};
+  const words = text.split(/(\s+|(?=[.,!?„“”":;]))/);
+  const sentence = words.map(w => {
+    const clean = w.replace(/[.,!?“”„";:]/g, '').trim();
+    const tooltip = isBG ? (wordMap[clean] || '') : '';
+    return `<span class="paragraph-word" title="${tooltip}" onclick="addToWordList('${clean}', '${tooltip}')">${w}</span>`;
+  }).join('');
+  contentDiv.innerHTML = `
+    <div class="card-body">
+      <h5 class="card-title">${paragraph.title}</h5>
+      <p>${sentence}</p>
+      <div class="mt-3">
+        <h6>Bilinmeyen Kelimeler</h6>
+        <ul id="word-list" class="list-group"></ul>
+      </div>
+    </div>
+  `;
+}
+</script>
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+    const italicBtn = document.getElementById("toggleItalicBtn");
+    if (!italicBtn) return;
+
+    // Eski event listener'ları temizle
+    const newBtn = italicBtn.cloneNode(true);
+    italicBtn.parentNode.replaceChild(newBtn, italicBtn);
+
+    newBtn.addEventListener("click", (e) => {
+        e.preventDefault();
+        e.stopPropagation();
+
+        isItalicEnabled = !isItalicEnabled;
+        newBtn.innerText = `İtalik Yazı (${isItalicEnabled ? 'Açık' : 'Kapalı'})`;
+
+        const content = document.getElementById("content");
+        if (!content) return;
+
+        const paragraphWords = content.querySelectorAll(".paragraph-word");
+        if (paragraphWords.length > 0) {
+            paragraphWords.forEach(span => {
+                span.classList.toggle("italic-text", isItalicEnabled);
+            });
+        } else if (typeof renderContent === "function") {
+            renderContent();
+        }
+    });
+});
+</script>
+
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+    // FONT BUTONU
+    const fontBtn = document.getElementById("toggleFontBtn");
+    if (fontBtn) {
+        const newFontBtn = fontBtn.cloneNode(true);
+        fontBtn.parentNode.replaceChild(newFontBtn, fontBtn);
+        newFontBtn.addEventListener("click", (e) => {
+            e.preventDefault();
+            e.stopPropagation();
+
+            window.globalFontState = !window.globalFontState;
+            newFontBtn.innerText = window.globalFontState ? 'Normal Font' : 'Bahnschrift Font';
+
+            const content = document.getElementById("content");
+            if (!content) return;
+
+            const paragraphWords = content.querySelectorAll(".paragraph-word");
+            if (paragraphWords.length > 0) {
+                paragraphWords.forEach(span => {
+                    span.classList.toggle("bahnschrift-font", window.globalFontState);
+                });
+            } else if (typeof renderContent === "function") {
+                renderContent();
+            }
+        });
+    }
+
+    // HARF DURUMU BUTONU
+    const caseBtn = document.getElementById("toggleCaseBtn");
+    if (caseBtn) {
+        const newCaseBtn = caseBtn.cloneNode(true);
+        caseBtn.parentNode.replaceChild(newCaseBtn, caseBtn);
+        newCaseBtn.addEventListener("click", (e) => {
+            e.preventDefault();
+            e.stopPropagation();
+
+            window.globalCaseState = (window.globalCaseState + 1) % 3;
+            const caseText = window.globalCaseState === 1 ? "İlk Harf Büyük"
+                             : window.globalCaseState === 2 ? "TÜMÜ BÜYÜK"
+                             : "tümü küçük";
+            newCaseBtn.innerText = caseText;
+
+            const content = document.getElementById("content");
+            if (!content) return;
+
+            const paragraphWords = content.querySelectorAll(".paragraph-word");
+            if (paragraphWords.length > 0) {
+                paragraphWords.forEach(span => {
+                    span.classList.remove("sentence-case", "uppercase-text", "lowercase-text");
+                    if (window.globalCaseState === 1) {
+                        span.classList.add("sentence-case");
+                    } else if (window.globalCaseState === 2) {
+                        span.classList.add("uppercase-text");
+                    } else {
+                        span.classList.add("lowercase-text");
+                    }
+                });
+            } else if (typeof renderContent === "function") {
+                renderContent();
+            }
+        });
+    }
+});
+</script>
+
 </body>
 
 </html>
