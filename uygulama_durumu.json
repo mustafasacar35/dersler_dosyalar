@@ -1,5 +1,5 @@
 {
-  "currentIndex": 23,
+  "currentIndex": 48,
   "score": 0,
   "answers": [
     null,
@@ -216,38 +216,38 @@
   ],
   "recentQuestions": [
     {
-      "index": 23,
-      "question": "ЕДИН АВТОБУС (EDIN AVTOBUS) (Eril)",
+      "index": 48,
+      "question": "ХУБАВ ГРАД (HUBAV GRAD) (Eril)",
       "answer": null,
-      "correctAnswer": "BİR OTOBÜS",
+      "correctAnswer": "GÜZEL ŞEHİR",
       "isCorrect": null
     },
     {
-      "index": 22,
-      "question": "ЕДНО ЯКЕ (EDNO YAKE) (Nötr)",
+      "index": 47,
+      "question": "ТОВА Е ЕДНО БЕБЕ (TOVA E EDNO BEBE)",
       "answer": null,
-      "correctAnswer": "BİR MONT",
+      "correctAnswer": "BU BİR BEBEK (Nötr)",
       "isCorrect": null
     },
     {
-      "index": 20,
-      "question": "ЕДНА ЧАША (EDNA CHASHA) (Dişil)",
+      "index": 46,
+      "question": "ТОВА Е ЕДНО КУЧЕ (TOVA E EDNO KUCHE)",
       "answer": null,
-      "correctAnswer": "BİR BARDAK",
+      "correctAnswer": "BU BİR KÖPEK (Nötr)",
       "isCorrect": null
     },
     {
-      "index": 18,
-      "question": "ЕДНА ВРАТА (EDNA VRATA) (Dişil)",
+      "index": 43,
+      "question": "ЕДНО ДЕТЕ (EDNO DETE) (Nötr)",
       "answer": null,
-      "correctAnswer": "BİR KAPI",
+      "correctAnswer": "BİR ÇOCUK",
       "isCorrect": null
     },
     {
-      "index": 13,
-      "question": "ЕДИН УЧИТЕЛ (EDIN UCHITEL) (Eril)",
+      "index": 41,
+      "question": "ЕДИН МЪЖ (EDIN MAZH) (Eril)",
       "answer": null,
-      "correctAnswer": "BİR ÖĞRETMEN",
+      "correctAnswer": "BİR ERKEK / BİR ADAM",
       "isCorrect": null
     }
   ],
