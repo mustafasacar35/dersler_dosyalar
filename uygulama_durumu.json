@@ -1,5 +1,5 @@
 {
-  "currentIndex": 165,
+  "currentIndex": 0,
   "score": 0,
   "answers": [
     null,
@@ -216,38 +216,10 @@
   ],
   "recentQuestions": [
     {
-      "index": 165,
-      "question": "КОЙ? (KOY?)",
+      "index": 0,
+      "question": "ЕДНO КУЧЕ (EDNO KUCHE) (Eril)",
       "answer": null,
-      "correctAnswer": "KİM? / HANGİ?",
-      "isCorrect": null
-    },
-    {
-      "index": 164,
-      "question": "ТОВА Е КОМПЮТЪР (TOVA E KOMPYUTAR)",
-      "answer": null,
-      "correctAnswer": "BU BİLGİSAYAR",
-      "isCorrect": null
-    },
-    {
-      "index": 162,
-      "question": "ТОВА Е МАСА (TOVA E MASA)",
-      "answer": null,
-      "correctAnswer": "BU MASA",
-      "isCorrect": null
-    },
-    {
-      "index": 161,
-      "question": "ТОВА МАСА ЛИ Е? (TOVA MASA LI E?)",
-      "answer": null,
-      "correctAnswer": "BU MASA MI?",
-      "isCorrect": null
-    },
-    {
-      "index": 159,
-      "question": "ЕВЕТ BULGARCADA NASILDIR? (EVET BULGARTSADA NASILDIR?)",
-      "answer": null,
-      "correctAnswer": "ДА (DA)",
+      "correctAnswer": "BİR KÖPEK",
       "isCorrect": null
     }
   ],
