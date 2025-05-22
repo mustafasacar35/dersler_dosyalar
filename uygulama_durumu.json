@@ -1,5 +1,5 @@
 {
-  "currentIndex": 145,
+  "currentIndex": 13,
   "score": 0,
   "answers": [
     null,
@@ -216,38 +216,24 @@
   ],
   "recentQuestions": [
     {
-      "index": 145,
-      "question": "ЕДИН ДОМАТ (EDIN DOMAT) (Eril)",
+      "index": 13,
+      "question": "ЕДИН УЧИТЕЛ (EDIN UCHITEL) (Eril)",
       "answer": null,
-      "correctAnswer": "BİR DOMATES",
+      "correctAnswer": "BİR ÖĞRETMEN",
       "isCorrect": null
     },
     {
-      "index": 144,
-      "question": "ЯМ ПРАСКОВА (YAM PRASKOVA)",
+      "index": 4,
+      "question": "ЕДНА КОЛА (EDNA KOLA) (Dişil)",
       "answer": null,
-      "correctAnswer": "ŞEFTALİ YİYORUM",
+      "correctAnswer": "BİR ARABA",
       "isCorrect": null
     },
     {
-      "index": 143,
-      "question": "ЯМ ЯГОДА (YAM YAGODA)",
+      "index": 0,
+      "question": "ЕДНO КУЧЕ (EDNO KUCHE) (Eril)",
       "answer": null,
-      "correctAnswer": "ÇİLEK YİYORUM",
-      "isCorrect": null
-    },
-    {
-      "index": 142,
-      "question": "АЗ ЯМ ЯБЪЛКА (AZ YAM YABALKA)",
-      "answer": null,
-      "correctAnswer": "ELMA YİYORUM",
-      "isCorrect": null
-    },
-    {
-      "index": 141,
-      "question": "АЗ ЯМ БАНАН (AZ YAM BANAN)",
-      "answer": null,
-      "correctAnswer": "MUZ YİYORUM",
+      "correctAnswer": "BİR KÖPEK",
       "isCorrect": null
     }
   ],
