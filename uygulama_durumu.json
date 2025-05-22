@@ -1,5 +1,5 @@
 {
-  "currentIndex": 14,
+  "currentIndex": 23,
   "score": 0,
   "answers": [
     null,
@@ -216,10 +216,31 @@
   ],
   "recentQuestions": [
     {
-      "index": 14,
-      "question": "ЕДИН УЧЕНИК (EDIN UCHENIK) (Eril)",
+      "index": 23,
+      "question": "ЕДИН АВТОБУС (EDIN AVTOBUS) (Eril)",
       "answer": null,
-      "correctAnswer": "BİR ÖĞRENCİ",
+      "correctAnswer": "BİR OTOBÜS",
+      "isCorrect": null
+    },
+    {
+      "index": 22,
+      "question": "ЕДНО ЯКЕ (EDNO YAKE) (Nötr)",
+      "answer": null,
+      "correctAnswer": "BİR MONT",
+      "isCorrect": null
+    },
+    {
+      "index": 20,
+      "question": "ЕДНА ЧАША (EDNA CHASHA) (Dişil)",
+      "answer": null,
+      "correctAnswer": "BİR BARDAK",
+      "isCorrect": null
+    },
+    {
+      "index": 18,
+      "question": "ЕДНА ВРАТА (EDNA VRATA) (Dişil)",
+      "answer": null,
+      "correctAnswer": "BİR KAPI",
       "isCorrect": null
     },
     {
@@ -227,27 +248,6 @@
       "question": "ЕДИН УЧИТЕЛ (EDIN UCHITEL) (Eril)",
       "answer": null,
       "correctAnswer": "BİR ÖĞRETMEN",
-      "isCorrect": null
-    },
-    {
-      "index": 10,
-      "question": "ЕДИН ТЕЛЕФОН (EDIN TELEFON) (Eril)",
-      "answer": null,
-      "correctAnswer": "BİR TELEFON",
-      "isCorrect": null
-    },
-    {
-      "index": 6,
-      "question": "ЕДИН ЛАПТОП (EDIN LAPTOP) (Eril)",
-      "answer": null,
-      "correctAnswer": "BİR LAPTOP",
-      "isCorrect": null
-    },
-    {
-      "index": 4,
-      "question": "ЕДНА КОЛА (EDNA KOLA) (Dişil)",
-      "answer": null,
-      "correctAnswer": "BİR ARABA",
       "isCorrect": null
     }
   ],
