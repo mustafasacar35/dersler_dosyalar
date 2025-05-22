@@ -1,5 +1,5 @@
 {
-  "currentIndex": 15,
+  "currentIndex": 0,
   "score": 0,
   "answers": [
     null,
@@ -216,38 +216,10 @@
   ],
   "recentQuestions": [
     {
-      "index": 15,
-      "question": "ЕДНА КЪЩА (EDNA KASHTA) (Dişil)",
+      "index": 0,
+      "question": "ЕДНO КУЧЕ (EDNO KUCHE) (Eril)",
       "answer": null,
-      "correctAnswer": "BİR EV",
-      "isCorrect": null
-    },
-    {
-      "index": 14,
-      "question": "ЕДИН УЧЕНИК (EDIN UCHENIK) (Eril)",
-      "answer": null,
-      "correctAnswer": "BİR ÖĞRENCİ",
-      "isCorrect": null
-    },
-    {
-      "index": 13,
-      "question": "ЕДИН УЧИТЕЛ (EDIN UCHITEL) (Eril)",
-      "answer": null,
-      "correctAnswer": "BİR ÖĞRETMEN",
-      "isCorrect": null
-    },
-    {
-      "index": 11,
-      "question": "ЕДНА РИЗА (EDNA RIZA) (Dişil)",
-      "answer": null,
-      "correctAnswer": "BİR GÖMLEK",
-      "isCorrect": null
-    },
-    {
-      "index": 10,
-      "question": "ЕДИН ТЕЛЕФОН (EDIN TELEFON) (Eril)",
-      "answer": null,
-      "correctAnswer": "BİR TELEFON",
+      "correctAnswer": "BİR KÖPEK",
       "isCorrect": null
     }
   ],
