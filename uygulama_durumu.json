@@ -1,5 +1,5 @@
 {
-  "currentIndex": 13,
+  "currentIndex": 0,
   "score": 0,
   "answers": [
     null,
@@ -215,20 +215,6 @@
     null
   ],
   "recentQuestions": [
-    {
-      "index": 13,
-      "question": "ЕДИН УЧИТЕЛ (EDIN UCHITEL) (Eril)",
-      "answer": null,
-      "correctAnswer": "BİR ÖĞRETMEN",
-      "isCorrect": null
-    },
-    {
-      "index": 4,
-      "question": "ЕДНА КОЛА (EDNA KOLA) (Dişil)",
-      "answer": null,
-      "correctAnswer": "BİR ARABA",
-      "isCorrect": null
-    },
     {
       "index": 0,
       "question": "ЕДНO КУЧЕ (EDNO KUCHE) (Eril)",
