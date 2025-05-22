@@ -1,0 +1,6310 @@
+[
+  {
+    "question": "АЗ ЯМ (AZ YAM)",
+    "answer": "BEN YİYORUM"
+  },
+  {
+    "question": "ТИ ЯДЕШ (TI YADESH)",
+    "answer": "SEN YİYORSUN"
+  },
+  {
+    "question": "ТОЙ ЯДЕ (TOY YADE) (Eril)",
+    "answer": "O YİYOR (ERİL)"
+  },
+  {
+    "question": "ТЯ ЯДЕ (TYA YADE) (Dişil)",
+    "answer": "O YİYOR (DİŞİL)"
+  },
+  {
+    "question": "ТО ЯДЕ (TO YADE) (Nötr)",
+    "answer": "O YİYOR (NÖTR)"
+  },
+  {
+    "question": "НИЕ ЯДЕМ (NIE YADEM) (Çoğul)",
+    "answer": "BİZ YİYORUZ"
+  },
+  {
+    "question": "ВИЕ ЯДЕТЕ (VIE YADETE) (Çoğul)",
+    "answer": "SİZ YİYORSUNUZ"
+  },
+  {
+    "question": "ТЕ ЯДАТ (TE YADAT) (Çoğul)",
+    "answer": "ONLAR YİYOR"
+  },
+  {
+    "question": "АЗ ЯДОХ (AZ YADOH)",
+    "answer": "BEN YEDİM"
+  },
+  {
+    "question": "ТИ ЯДЕ (TI YADE)",
+    "answer": "SEN YEDİN"
+  },
+  {
+    "question": "ТОЙ ЯДЕ (TOY YADE) (Eril)",
+    "answer": "O YEDİ (ERİL)"
+  },
+  {
+    "question": "ТЯ ЯДЕ (TYA YADE) (Dişil)",
+    "answer": "O YEDİ (DİŞİL)"
+  },
+  {
+    "question": "ТО ЯДЕ (TO YADE) (Nötr)",
+    "answer": "O YEDİ (NÖTR)"
+  },
+  {
+    "question": "НИЕ ЯДОХМЕ (NIE YADOHME) (Çoğul)",
+    "answer": "BİZ YEDİK"
+  },
+  {
+    "question": "ВИЕ ЯДОХТЕ (VIE YADOHTE) (Çoğul)",
+    "answer": "SİZ YEDİNİZ"
+  },
+  {
+    "question": "ТЕ ЯДОХА (TE YADOHA) (Çoğul)",
+    "answer": "ONLAR YEDİ"
+  },
+  {
+    "question": "АЗ ЯМ ВЕЧЕРЯ (AZ YAM VECHERYA) (Dişil)",
+    "answer": "BEN AKŞAM YEMEĞİ YİYORUM"
+  },
+  {
+    "question": "АЗ ЯМ ПИЛЕШКО ЗА ВЕЧЕРЯ (AZ YAM PILESHKO ZA VECHERYA) (Nötr)",
+    "answer": "BEN AKŞAM YEMEĞİ İÇİN TAVUK YİYORUM"
+  },
+  {
+    "question": "ТИ ЯДЕШ БАНАНИ И ГРОЗДЕ (TI YADESH BANANI I GROZDE) (Çoğul)",
+    "answer": "SEN MUZ VE ÜZÜM YİYORSUN"
+  },
+  {
+    "question": "ТИ ЯДЕШ ПИЛЕШКО С ОРИЗ (TI YADESH PILESHKO S ORIZ) (Nötr)",
+    "answer": "SEN TAVUKLU PİLAV YİYORSUN"
+  },
+  {
+    "question": "ТИ ЯДЕШ БАНИЦА (TI YADESH BANITSA) (Dişil)",
+    "answer": "SEN BÖREK YİYORSUN"
+  },
+  {
+    "question": "ТОЙ ЯДЕ ЧЕРВЕНИ ЯГОДИ (TOY YADE CHERVENI YAGODI) (Eril)",
+    "answer": "O KIRMIZI ÇİLEKLER YİYOR (ERİL)"
+  },
+  {
+    "question": "ТЯ ЯДЕ ЗАКУСКА В ОСЕМ ЧАСА СУТРИНТА (TYA YADE ZAKUSKA V OSEM CHASA SUTRINTA) (Dişil)",
+    "answer": "O SABAHLEYİN SAAT 8’DE KAHVALTI YİYOR (DİŞİL)"
+  },
+  {
+    "question": "ТО ЯДЕ КИСЕЛО МЛЯКО И БАНАН ЗА ЗАКУСКА (TO YADE KISELO MLYAKO I BANAN ZA ZAKUSKA) (Nötr)",
+    "answer": "O KAHVALTI İÇİN YOĞURT VE MUZ YİYOR (NÖTR)"
+  },
+  {
+    "question": "НИЕ ЯДЕМ РИБА ЗА ВЕЧЕРЯ (NIE YADEM RIBA ZA VECHERYA) (Çoğul)",
+    "answer": "AKŞAM YEMEĞİ İÇİN BİZ BALIK YİYORUZ"
+  },
+  {
+    "question": "НИЕ ЯДЕМ ПОРТОКАЛИ (NIE YADEM PORTOKALI) (Çoğul)",
+    "answer": "BİZ PORTAKAL YİYORUZ"
+  },
+  {
+    "question": "ВИЕ ЯДЕТЕ ПИЛЕШКА СУПА (VIE YADETE PILESHKA SUPA) (Çoğul)",
+    "answer": "SİZ TAVUK ÇORBASI YİYORSUNUZ"
+  },
+  {
+    "question": "ТЕ ЯДАТ ПИЛЕШКО ШИШЧЕ (TE YADAT PILESHKO SHISHCHE) (Çoğul)",
+    "answer": "ONLAR TAVUK ŞİŞ YİYOR"
+  },
+  {
+    "question": "АЗ ЯДОХ БАНИЦА ЗА ВЕЧЕРЯ (AZ YADOH BANITSA ZA VECHERYA) (Dişil)",
+    "answer": "BEN AKŞAM YEMEĞİ İÇİN BÖREK YEDİM"
+  },
+  {
+    "question": "АЗ ЯДОХ ХЛЯБ (AZ YADOH HLYAB) (Eril)",
+    "answer": "BEN EKMEK YEDİM"
+  },
+  {
+    "question": "ТИ ЯДЕ ЗАКУСКА (TI YADE ZAKUSKA) (Dişil)",
+    "answer": "SEN KAHVALTI YEDİN"
+  },
+  {
+    "question": "ТИ ЯДЕ ПИЛЕШКА СУПА (TI YADE PILESHKA SUPA) (Dişil)",
+    "answer": "SEN TAVUK ÇORBASI YEDİN"
+  },
+  {
+    "question": "ТОЙ ЯДЕ ТОРТА С ЯГОДА (TOY YADE TORTA S YAGODA) (Eril)",
+    "answer": "O ÇİLEKLİ PASTA YEDİ (ERİL)"
+  },
+  {
+    "question": "ТЯ ВЧЕРА ЯДЕ ТОРТА С БАНАНИ (TYA VCHERA YADE TORTA S BANANI) (Dişil)",
+    "answer": "O DÜN MUZLU PASTA YEDİ (DİŞİL)"
+  },
+  {
+    "question": "ТО ЯДЕ СЛАДОЛЕД (TO YADE SLADOLED) (Nötr)",
+    "answer": "O DONDURMA YEDİ (NÖTR)"
+  },
+  {
+    "question": "НИЕ ВЧЕРА ЯДОХМЕ ПИЛЕШКО С ОРИЗ (NIE VCHERA YADOHME PILESHKO S ORIZ) (Çoğul)",
+    "answer": "BİZ DÜN TAVUKLU PİLAV YEDİK"
+  },
+  {
+    "question": "ВИЕ ЯДОХТЕ БАНИЦА (VIE YADOHTE BANITSA) (Çoğul)",
+    "answer": "SİZ BÖREK YEDİNİZ"
+  },
+  {
+    "question": "ТЕ ЯДОХА СЛАДОЛЕД (TE YADOHA SLADOLED) (Çoğul)",
+    "answer": "ONLAR DONDURMA YEDİ"
+  },
+  {
+    "question": "АЗ НЕ ЯМ ЗАКУСКА (AZ NE YAM ZAKUSKA) (Dişil)",
+    "answer": "BEN KAHVALTI YEMİYORUM"
+  },
+  {
+    "question": "АЗ НЕ ЯМ ЗАКУСКА В ОСЕМ ЧАСА (AZ NE YAM ZAKUSKA V OSEM CHASA) (Dişil)",
+    "answer": "BEN SAAT 8’DE KAHVALTI YEMİYORUM"
+  },
+  {
+    "question": "ТИ НЕ ЯДЕШ ВЕЧЕРЯ (TI NE YADESH VECHERYA) (Dişil)",
+    "answer": "SEN AKŞAM YEMEĞİ YEMİYORSUN"
+  },
+  {
+    "question": "ТИ НЕ ЯДЕШ ЯДКИ (TI NE YADESH YADKI) (Çoğul)",
+    "answer": "SEN ÇEREZ YEMİYORSUN"
+  },
+  {
+    "question": "ТОЙ НЕ ЯДЕ ДОМАТИ (TOY NE YADE DOMATI) (Eril)",
+    "answer": "O DOMATES YEMİYOR (ERİL)"
+  },
+  {
+    "question": "ТЯ НЕ ЯДЕ ПРАСКОВИ (TYA NE YADE PRASKOVI) (Dişil)",
+    "answer": "O ŞEFTALİ YEMİYOR (DİŞİL)"
+  },
+  {
+    "question": "ТО НЕ ЯДЕ ЗЕЛЕ (TO NE YADE ZELE) (Nötr)",
+    "answer": "O LAHANA YEMİYOR (NÖTR)"
+  },
+  {
+    "question": "НИЕ НЕ ЯДЕМ СИРЕНЕ (NIE NE YADEM SIRENE) (Çoğul)",
+    "answer": "BİZ PEYNİR YEMİYORUZ"
+  },
+  {
+    "question": "ВИЕ НЕ ЯДЕТЕ ОРИЗ (VIE NE YADETE ORIZ) (Çoğul)",
+    "answer": "SİZ PİLAV / PİRİNÇ YEMİYORSUNUZ"
+  },
+  {
+    "question": "ТЕ НЕ ЯДАТ ХЛЯБ (TE NE YADAT HLYAB) (Çoğul)",
+    "answer": "ONLAR EKMEK YEMİYOR"
+  },
+  {
+    "question": "АЗ НЕ ЯДОХ КИСЕЛО МЛЯКО (AZ NE YADOH KISELO MLYAKO) (Nötr)",
+    "answer": "BEN YOĞURT YEMEDİM"
+  },
+  {
+    "question": "АЗ НЕ ЯДОХ КАШКАВАЛ (AZ NE YADOH KASHKAVAL) (Eril)",
+    "answer": "BEN KAŞAR YEMEDİM"
+  },
+  {
+    "question": "ТИ НЕ ЯДЕ КАРТОФЕНО КЮФТЕ (TI NE YADE KARTOFENO KYUFTE) (Nötr)",
+    "answer": "SEN PATATES KÖFTESİ YEMEDİN"
+  },
+  {
+    "question": "ТОЙ НЕ ЯДЕ ПИЛЕШКА СУПА (TOY NE YADE PILESHKA SUPA) (Eril)",
+    "answer": "O TAVUK ÇORBASI YEMEDİ (ERİL)"
+  },
+  {
+    "question": "ТЯ НЕ ЯДЕ ПЛОДОВЕ (TYA NE YADE PLODOVE) (Dişil)",
+    "answer": "O MEYVE YEMEDİ / O MEYVE YEMİYOR (DİŞİL)"
+  },
+  {
+    "question": "ТО НЕ ЯДЕ МЛЯСКО С ОРИЗ (TO NE YADE MLYASKO S ORIZ) (Nötr)",
+    "answer": "O SÜTLAÇ YEMEDİ / O SÜTLAÇ YEMİYOR (NÖTR)"
+  },
+  {
+    "question": "НИЕ НЕ ЯДОХМЕ ДИНЯ СЪС СИРЕНЕ (NIE NE YADOHME DINYA SAS SIRENE) (Çoğul)",
+    "answer": "BİZ PEYNİRLİ KARPUZ YEMEDİK"
+  },
+  {
+    "question": "ВИЕ НЕ ЯДОХТЕ ЗЕЛЕ (VIE NE YADOHTE ZELE) (Çoğul)",
+    "answer": "SİZ LAHANA YEMEDİNİZ"
+  },
+  {
+    "question": "ТЕ НЕ ЯДОХА ВЕЧЕРЯ (TE NE YADOHA VECHERYA) (Çoğul)",
+    "answer": "ONLAR AKŞAM YEMEĞİ YEMEDİ"
+  },
+  {
+    "question": "АЗ ЯМ ЛИ ХЛЯБ? (AZ YAM LI HLYAB?) (Eril)",
+    "answer": "BEN EKMEK YİYOR MUYUM?"
+  },
+  {
+    "question": "ТИ ЯДЕШ ЛИ СИРЕНЕ? (TI YADESH LI SIRENE?) (Nötr)",
+    "answer": "SEN PEYNİR YİYOR MUSUN?"
+  },
+  {
+    "question": "ВИЕ ЯДЕТЕ ЛИ СЛАДОЛЕД? (VIE YADETE LI SLADOLED?) (Çoğul)",
+    "answer": "SİZ DONDURMA YİYOR MUSUNUZ?"
+  },
+  {
+    "question": "ТОЙ ЯДЕ ЛИ КАШКАВАЛ? (TOY YADE LI KASHKAVAL?) (Eril)",
+    "answer": "O KAŞAR YİYOR MU? (ERİL)"
+  },
+  {
+    "question": "ТЯ ЯДЕ ЛИ ЗЕЛЕНЧУЦИ? (TYA YADE LI ZELENCHUTSI?) (Dişil)",
+    "answer": "O SEBZE YİYOR MU? (DİŞİL)"
+  },
+  {
+    "question": "ТО ЯДЕ ЛИ ШОКОЛАД? (TO YADE LI SHOKOLAD?) (Nötr)",
+    "answer": "O ÇİKOLATA YİYOR MU? (NÖTR)"
+  },
+  {
+    "question": "НИЕ ЯДЕМ ЛИ ПЪПЕШ? (NIE YADEM LI PAPESH?) (Çoğul)",
+    "answer": "BİZ KAVUN YİYOR MUYUZ?"
+  },
+  {
+    "question": "ВИЕ ЯДЕТЕ ЛИ ЯЙЦЕ? (VIE YADETE LI YAYTSE?) (Çoğul)",
+    "answer": "SİZ YUMURTA YİYOR MUSUNUZ?"
+  },
+  {
+    "question": "ТЕ ЯДАТ ЛИ МЕД? (TE YADAT LI MED?) (Çoğul)",
+    "answer": "ONLAR BAL YİYOR MU?"
+  },
+  {
+    "question": "АЗ ЯДОХ ЛИ БАНИЦА? (AZ YADOH LI BANITSA?) (Dişil)",
+    "answer": "BEN BÖREK YEDİM Mİ?"
+  },
+  {
+    "question": "ТИ ЯДЕ ЛИ РИБА? (TI YADE LI RIBA?) (Dişil)",
+    "answer": "SEN BALIK YEDİN Mİ?"
+  },
+  {
+    "question": "ТОЙ ЯДЕ ЛИ ЗЕЛЕНА ЯБЪЛКА? (TOY YADE LI ZELENA YABALKA?) (Eril)",
+    "answer": "O YEŞİL ELMA YEDİ Mİ? (ERİL)"
+  },
+  {
+    "question": "ТЯ ЯДЕ ЛИ ЧЕРВЕНА ЯБЪЛКА? (TYA YADE LI CHERVENA YABALKA?) (Dişil)",
+    "answer": "O KIRMIZI ELMA YEDİ Mİ? (DİŞİL)"
+  },
+  {
+    "question": "ТО ЯДЕ ЛИ ШОПСКА САЛАТА? (TO YADE LI SHOPSKA SALATA?) (Nötr)",
+    "answer": "O ŞOPSKA SALATA YEDİ Mİ? (NÖTR)"
+  },
+  {
+    "question": "НИЕ ЯДОХМЕ ЛИ КЕБАПЧЕ? (NIE YADOHME LI KEBAPCHE?) (Çoğul)",
+    "answer": "BİZ KEBAPÇE YEDİK Mİ?"
+  },
+  {
+    "question": "ВИЕ ЯДОХТЕ ЛИ БАНИЧКА И БОЗА? (VIE YADOHTE LI BANICHKA I BOZA?) (Çoğul)",
+    "answer": "SİZ BANİÇKA VE BOZA YEDİNİZ Mİ?"
+  },
+  {
+    "question": "ВИЕ ЯДОХТЕ ЛИ БАНИЧКА И ПИХТЕ ЛИ БОЗА? (VIE YADOHTE LI BANICHKA I PIHTE LI BOZA?) (Çoğul)",
+    "answer": "SİZ BANİÇKA YEDİNİZ Mİ VE BOZA İÇTİNİZ Mİ?"
+  },
+  {
+    "question": "ТЕ ЯДОХА ЛИ МАКАРОНИ? (TE YADOHA LI MAKARONI?) (Çoğul)",
+    "answer": "ONLAR MAKARNA YEDİLER Mİ?"
+  },
+  {
+    "question": "АЗ ПИЯ (AZ PIYA)",
+    "answer": "BEN İÇİYORUM"
+  },
+  {
+    "question": "ТИ ПИЕШ (TI PIESH)",
+    "answer": "SEN İÇİYORSUN"
+  },
+  {
+    "question": "ТОЙ ПИЕ (TOY PIE) (Eril)",
+    "answer": "O İÇİYOR (ERİL)"
+  },
+  {
+    "question": "ТЯ ПИЕ (TYA PIE) (Dişil)",
+    "answer": "O İÇİYOR (DİŞİL)"
+  },
+  {
+    "question": "ТО ПИЕ (TO PIE) (Nötr)",
+    "answer": "O İÇİYOR (NÖTR)"
+  },
+  {
+    "question": "НИЕ ПИЕМ (NIE PIEM) (Çoğul)",
+    "answer": "BİZ İÇİYORUZ"
+  },
+  {
+    "question": "ВИЕ ПИЕТЕ (VIE PIETE) (Çoğul)",
+    "answer": "SİZ İÇİYORSUNUZ"
+  },
+  {
+    "question": "ТЕ ПИЯТ (TE PIYAT) (Çoğul)",
+    "answer": "ONLAR İÇİYOR"
+  },
+  {
+    "question": "АЗ ПИХ (AZ PIH)",
+    "answer": "BEN İÇTİM"
+  },
+  {
+    "question": "ТИ ПИ (TI PI)",
+    "answer": "SEN İÇTİN"
+  },
+  {
+    "question": "ТОЙ ПИ (TOY PI) (Eril)",
+    "answer": "O İÇTİ (ERİL)"
+  },
+  {
+    "question": "ТЯ ПИ (TYA PI) (Dişil)",
+    "answer": "O İÇTİ (DİŞİL)"
+  },
+  {
+    "question": "ТО ПИ (TO PI) (Nötr)",
+    "answer": "O İÇTİ (NÖTR)"
+  },
+  {
+    "question": "НИЕ ПИХМЕ (NIE PIHME) (Çoğul)",
+    "answer": "BİZ İÇTİK"
+  },
+  {
+    "question": "ВИЕ ПИХТЕ (VIE PIHTE) (Çoğul)",
+    "answer": "SİZ İÇTİNİZ"
+  },
+  {
+    "question": "ТЕ ПИХА (TE PIHA) (Çoğul)",
+    "answer": "ONLAR İÇTİ"
+  },
+  {
+    "question": "АЗ ПИЯ СТУДЕНА ВОДА (AZ PIYA STUDENA VODA) (Dişil)",
+    "answer": "BEN SOĞUK SU İÇİYORUM"
+  },
+  {
+    "question": "ПИЯ ВОДА С ЛЕД (PIYA VODA S LED) (Dişil)",
+    "answer": "BUZLU SU İÇİYORUM"
+  },
+  {
+    "question": "ТИ ПИЕШ СТУДЕНА МИНЕРАЛНА ВОДА (TI PIESH STUDENA MINERALNA VODA) (Dişil)",
+    "answer": "SEN SOĞUK SU İÇİYORSUN"
+  },
+  {
+    "question": "ТОЙ ПИЕ ГАЗИРАНА ВОДА (TOY PIE GAZIRANA VODA) (Eril)",
+    "answer": "O SODA İÇİYOR (ERİL)"
+  },
+  {
+    "question": "ТЯ ПИЕ КАПУЧИНО (TYA PIE KAPUCHINO) (Dişil)",
+    "answer": "O KAPUÇİNO İÇİYOR (DİŞİL)"
+  },
+  {
+    "question": "ТО ПИЕ МЛЯКО С ШОКОЛАД (TO PIE MLYAKO S SHOKOLAD) (Nötr)",
+    "answer": "O ÇİKOLATALI SÜT İÇİYOR (NÖTR)"
+  },
+  {
+    "question": "НИЕ ПИЕМ ПОРТОКАЛОВ СОК (NIE PIEM PORTOKALOV SOK) (Çoğul)",
+    "answer": "BİZ PORTAKAL SUYU İÇİYORUZ"
+  },
+  {
+    "question": "ВИЕ ПИЕТЕ ГОРЕЩ ШОКОЛАД (VIE PIETE GORESHT SHOKOLAD) (Çoğul)",
+    "answer": "SİZ SICAK ÇİKOLATA İÇİYORSUNUZ"
+  },
+  {
+    "question": "ТЕ ПИЯТ АЙРАН (TE PIYAT AYRAN) (Çoğul)",
+    "answer": "ONLAR AYRAN İÇİYOR"
+  },
+  {
+    "question": "ТАЗИ СУТРИН ПИХ КАФЕ (TAZI SUTRIN PIH KAFE) (Nötr)",
+    "answer": "BU SABAH KAHVE İÇTİM"
+  },
+  {
+    "question": "ТИ СУТРИНТА ПИ ЧАЙ (TI SUTRINTA PI CHAY) (Eril)",
+    "answer": "SEN SABAHLEYİN ÇAY İÇTİN"
+  },
+  {
+    "question": "ТОЙ ПИ МЛЯКО С МЕД (TOY PI MLYAKO S MED) (Eril)",
+    "answer": "O BALLI SÜT İÇTİ (ERİL)"
+  },
+  {
+    "question": "ТЯ ПИ КАФЕ С МЛЯКО (TYA PI KAFE S MLYAKO) (Dişil)",
+    "answer": "O SÜTLÜ KAHVE İÇTİ (DİŞİL)"
+  },
+  {
+    "question": "ТО ПИ СТУДЕНА КОЛА (TO PI STUDENA KOLA) (Nötr)",
+    "answer": "O SOĞUK KOLA İÇTİ (NÖTR)"
+  },
+  {
+    "question": "НИЕ ПИХМЕ СТУДЕН ЧАЙ (NIE PIHME STUDEN CHAY) (Çoğul)",
+    "answer": "BİZ SOĞUK ÇAY İÇTİK"
+  },
+  {
+    "question": "ВИЕ ПИХТЕ БИЛКОВ ЧАЙ (VIE PIHTE BILKOV CHAY) (Çoğul)",
+    "answer": "SİZ BİTKİ ÇAYI İÇTİNİZ"
+  },
+  {
+    "question": "ТЕ ПИХА ЧАЙ ОТ ЛИПА (TE PIHA CHAY OT LIPA) (Çoğul)",
+    "answer": "ONLAR IHLMUR ÇAYI İÇTİ"
+  },
+  {
+    "question": "АЗ НЕ ПИЯ СТУДЕНА ВОДА (AZ NE PIYA STUDENA VODA) (Dişil)",
+    "answer": "BEN SOĞUK SU İÇMİYORUM"
+  },
+  {
+    "question": "ТИ НЕ ПИЕШ КАФЕ (TI NE PIESH KAFE) (Nötr)",
+    "answer": "SEN KAHVE İÇMİYORSUN"
+  },
+  {
+    "question": "ТОЙ НЕ ПИЕ СОК (TOY NE PIE SOK) (Eril)",
+    "answer": "O MEYVE SUYU İÇMİYOR (ERİL)"
+  },
+  {
+    "question": "ТЯ НЕ ПИЕ ГОРЕЩ ШОКОЛАД (TYA NE PIE GORESHT SHOKOLAD) (Dişil)",
+    "answer": "O SICAK ÇİKOLATA İÇMİYOR (DİŞİL)"
+  },
+  {
+    "question": "ТО НЕ ПИЕ СТУДЕНА БИРА (TO NE PIE STUDENA BIRA) (Nötr)",
+    "answer": "O SOĞUK BİRA İÇMİYOR (NÖTR)"
+  },
+  {
+    "question": "НИЕ НЕ ПИЕМ СТУДЕН СОК (NIE NE PIEM STUDEN SOK) (Çoğul)",
+    "answer": "BİZ SOĞUK MEYVE SUYU İÇMİYORUZ"
+  },
+  {
+    "question": "ВИЕ НЕ ПИЕТЕ ГАЗИРАНА ВОДА (VIE NE PIETE GAZIRANA VODA) (Çoğul)",
+    "answer": "SİZ SODA İÇMİYORSUNUZ"
+  },
+  {
+    "question": "ТЕ НЕ ПИЯТ ЗЕЛЕН ЧАЙ (TE NE PIYAT ZELEN CHAY) (Çoğul)",
+    "answer": "ONLAR YEŞİL ÇAY İÇMİYOR"
+  },
+  {
+    "question": "АЗ ДНЕС НЕ ПИХ ЗЕЛЕН ЧАЙ (AZ DNES NE PIH ZELEN CHAY) (Eril)",
+    "answer": "BEN BUGÜN YEŞİL ÇAY İÇMEDİM"
+  },
+  {
+    "question": "ТИ НЕ ПИ ГАЗИРАНА ВОДА (TI NE PI GAZIRANA VODA) (Dişil)",
+    "answer": "SEN SODA İÇMEDİN"
+  },
+  {
+    "question": "ТОЙ НЕ ПИ КАПУЧИНО (TOY NE PI KAPUCHINO) (Eril)",
+    "answer": "O KAPUÇİNO İÇMEDİ (ERİL)"
+  },
+  {
+    "question": "ТЯ НЕ ПИ АЛКОХОЛ (TYA NE PI ALKOHOL) (Dişil)",
+    "answer": "O ALKOL İÇMEDİ (DİŞİL)"
+  },
+  {
+    "question": "ТО НЕ ПИ ВОДА (TO NE PI VODA) (Nötr)",
+    "answer": "O SU İÇMEDİ (NÖTR)"
+  },
+  {
+    "question": "НИЕ НЕ ПИХМЕ АЛКОХОЛ (NIE NE PIHME ALKOHOL) (Çoğul)",
+    "answer": "BİZ ALKOL İÇMEDİK"
+  },
+  {
+    "question": "ВИЕ НЕ ПИХТЕ БИРА (VIE NE PIHTE BIRA) (Çoğul)",
+    "answer": "SİZ BİRA İÇMEDİNİZ"
+  },
+  {
+    "question": "ТЕ НЕ ПИХА СОК ОТ ПЛОДОВЕ (TE NE PIHA SOK OT PLODOVE) (Çoğul)",
+    "answer": "ONLAR MEYVE SUYU İÇMEDİ"
+  },
+  {
+    "question": "ТИ ПИЕШ ЛИ АЛКОХОЛ? (TI PIESH LI ALKOHOL?)",
+    "answer": "SEN ALKOL İÇİYOR MUSUN?"
+  },
+  {
+    "question": "ПИЕШ ЛИ КАФЕ? (PIESH LI KAFE?) (Nötr)",
+    "answer": "KAHVE İÇİYOR MUSUN?"
+  },
+  {
+    "question": "ТОЙ ПИЕ ЛИ ЗЕЛЕН ЧАЙ? (TOY PIE LI ZELEN CHAY?) (Eril)",
+    "answer": "O YEŞİL ÇAY İÇİYOR MU? (ERİL)"
+  },
+  {
+    "question": "ТЯ ПИЕ ЛИ СОК? (TYA PIE LI SOK?) (Dişil)",
+    "answer": "O MEYVE SUYU İÇİYOR MU? (DİŞİL)"
+  },
+  {
+    "question": "ТО ПИЕ ЛИ ГОРЕЩО МЛЯКО? (TO PIE LI GORESHTO MLYAKO?) (Nötr)",
+    "answer": "O SICAK SÜT İÇİYOR MU? (NÖTR)"
+  },
+  {
+    "question": "НИЕ ПИЕМ ЛИ МЛЯКО БЕЗ ЗАХАР? (NIE PIEM LI MLYAKO BEZ ZAHAR?) (Çoğul)",
+    "answer": "BİZ ŞEKERSİZ SÜT İÇİYOR MUYUZ?"
+  },
+  {
+    "question": "ВИЕ ПИЕТЕ ЛИ СТУДЕН ЧАЙ? (VIE PIETE LI STUDEN CHAY?) (Çoğul)",
+    "answer": "SİZ SOĞUK ÇAY İÇİYOR MUSUNUZ?"
+  },
+  {
+    "question": "ТЕ ПИЯТ ЛИ СОК ОТ ПОРТОКАЛ? (TE PIYAT LI SOK OT PORTOKAL?) (Çoğul)",
+    "answer": "ONLAR PORTAKAL SUYU İÇİYOR MU?"
+  },
+  {
+    "question": "АЗ ВЧЕРА НЕ ПИХ ЛЕКАРСТВА (AZ VCHERA NE PIH LEKARSTVA) (Çoğul)",
+    "answer": "BEN DÜN İLAÇ İÇMEDİM"
+  },
+  {
+    "question": "ВЧЕРА ПИХ ЛИ ЛЕКАРСТВА? (VCHERA PIH LI LEKARSTVA?) (Çoğul)",
+    "answer": "DÜN İLAÇ İÇTİM Mİ?"
+  },
+  {
+    "question": "АЗ ПИХ ЛИ ВОДА? (AZ PIH LI VODA?) (Dişil)",
+    "answer": "BEN SU İÇTİM Mİ?"
+  },
+  {
+    "question": "ТИ ПИ ЛИ ЛИМОНАДА? (TI PI LI LIMONADA?) (Dişil)",
+    "answer": "SEN LİMONATA İÇTİN Mİ?"
+  },
+  {
+    "question": "ТОЙ ПИ ЛИ КАПУЧИНО? (TOY PI LI KAPUCHINO?) (Eril)",
+    "answer": "O KAPUÇİNO İÇTİ Mİ? (ERİL)"
+  },
+  {
+    "question": "ТЯ ПИ ЛИ ЧАЙ ОТ ЛИПА? (TYA PI LI CHAY OT LIPA?) (Dişil)",
+    "answer": "O IHLMUR ÇAYI İÇTİ Mİ? (DİŞİL)"
+  },
+  {
+    "question": "ТО ПИ ЛИ МЛЯКО С МЕД? (TO PI LI MLYAKO S MED?) (Nötr)",
+    "answer": "O BALLI SÜT İÇTİ Mİ? (NÖTR)"
+  },
+  {
+    "question": "НИЕ ПОНЕДЕЛНИК ПИХМЕ КАЙСИЕВА РАКИЯ (NIE PONEDELNIK PIHME KAYSIEVA RAKIYA) (Çoğul)",
+    "answer": "BİZ PAZARTESİ KAYISI RAKISI İÇTİK"
+  },
+  {
+    "question": "НИЕ ПОНЕДЕЛНИК ПИХМЕ ЛИ КАЙСИЕВА РАКИЯ? (NIE PONEDELNIK PIHME LI KAYSIEVA RAKIYA?) (Çoğul)",
+    "answer": "BİZ PAZARTESİ KAYISI RAKISI İÇTİK Mİ?"
+  },
+  {
+    "question": "ВИЕ ДНЕС ПИХТЕ ЛИ КАФЕ? (VIE DNES PIHTE LI KAFE?) (Çoğul)",
+    "answer": "SİZ BUGÜN KAHVE İÇTİNİZ Mİ?"
+  },
+  {
+    "question": "ТЕ ПИХА ЛИ ВИНО? (TE PIHA LI VINO?) (Çoğul)",
+    "answer": "ONLAR ŞARAP İÇTİ Mİ?"
+  },
+  {
+    "question": "АЗ ЧЕТА (AZ CHETA)",
+    "answer": "BEN OKUYORUM"
+  },
+  {
+    "question": "ТИ ЧЕТЕШ (TI CHETESH)",
+    "answer": "SEN OKUYORSUN"
+  },
+  {
+    "question": "ТОЙ ЧЕТЕ (TOY CHETE) (Eril)",
+    "answer": "O OKUYOR (ERİL)"
+  },
+  {
+    "question": "ТЯ ЧЕТЕ (TYA CHETE) (Dişil)",
+    "answer": "O OKUYOR (DİŞİL)"
+  },
+  {
+    "question": "ТО ЧЕТЕ (TO CHETE) (Nötr)",
+    "answer": "O OKUYOR (NÖTR)"
+  },
+  {
+    "question": "НИЕ ЧЕТЕМ (NIE CHETEM) (Çoğul)",
+    "answer": "BİZ OKUYORUZ"
+  },
+  {
+    "question": "ВИЕ ЧЕТЕТЕ (VIE CHETETE) (Çoğul)",
+    "answer": "SİZ OKUYORSUNUZ"
+  },
+  {
+    "question": "ТЕ ЧЕТАТ (TE CHETAT) (Çoğul)",
+    "answer": "ONLAR OKUYORLAR"
+  },
+  {
+    "question": "АЗ ЧЕТОХ (AZ CHETOH)",
+    "answer": "BEN OKUDUM"
+  },
+  {
+    "question": "ТИ ЧЕТЕ (TI CHETE)",
+    "answer": "SEN OKUDUN"
+  },
+  {
+    "question": "ТОЙ ЧЕТЕ (TOY CHETE) (Eril)",
+    "answer": "O OKUDU (ERİL)"
+  },
+  {
+    "question": "ТЯ ЧЕТЕ (TYA CHETE) (Dişil)",
+    "answer": "O OKUDU (DİŞİL)"
+  },
+  {
+    "question": "ТО ЧЕТЕ (TO CHETE) (Nötr)",
+    "answer": "O OKUDU (NÖTR)"
+  },
+  {
+    "question": "НИЕ ЧЕТОХМЕ (NIE CHETOHME) (Çoğul)",
+    "answer": "BİZ OKUDUK"
+  },
+  {
+    "question": "ВИЕ ЧЕТОХТЕ (VIE CHETOHTE) (Çoğul)",
+    "answer": "SİZ OKUDUNUZ"
+  },
+  {
+    "question": "ТЕ ЧЕТОХА (TE CHETOHA) (Çoğul)",
+    "answer": "ONLAR OKUDU"
+  },
+  {
+    "question": "ЧЕТА КНИГА (CHETA KNIGA) (Dişil)",
+    "answer": "KİTAP OKUYORUM"
+  },
+  {
+    "question": "ТИ ЧЕТЕШ ВЕСТНИК (TI CHETESH VESTNIK) (Eril)",
+    "answer": "SEN GAZETE OKUYORSUN"
+  },
+  {
+    "question": "ТОЙ ЧЕТЕ СПИСАНИЕ (TOY CHETE SPISANIE) (Eril)",
+    "answer": "O DERGİ OKUYOR (ERİL)"
+  },
+  {
+    "question": "ТЯ ЧЕТЕ ИНТЕРЕСНА КНИГА (TYA CHETE INTERESNA KNIGA) (Dişil)",
+    "answer": "O İLGİNÇ KİTAP OKUYOR (DİŞİL)"
+  },
+  {
+    "question": "ТО ЧЕТЕ РОМАН (TO CHETE ROMAN) (Nötr)",
+    "answer": "O ROMAN OKUYOR (NÖTR)"
+  },
+  {
+    "question": "НИЕ ЧЕТЕМ СТИХОТВОРЕНИЕ (NIE CHETEM STIHOTVORENIE) (Çoğul)",
+    "answer": "BİZ ŞİİR OKUYORUZ"
+  },
+  {
+    "question": "ВИЕ ЧЕТЕТЕ СПИСАНИЕ ЗА ДОМА (VIE CHETETE SPISANIE ZA DOMA) (Çoğul)",
+    "answer": "SİZ EV İÇİN DERGİ OKUYORSUNUZ"
+  },
+  {
+    "question": "ТЕ ЧЕТАТ ПИСМО (TE CHETAT PISMO) (Çoğul)",
+    "answer": "ONLAR MEKTUP OKUYOR"
+  },
+  {
+    "question": "АЗ ЧЕТОХ СТАТИЯ (AZ CHETOH STATIYA) (Dişil)",
+    "answer": "BEN MAKALE OKUDUM"
+  },
+  {
+    "question": "ТИ ЧЕТЕ РАЗКАЗИ (TI CHETE RAZKAZI) (Çoğul)",
+    "answer": "SEN HİKAYE OKUDUN"
+  },
+  {
+    "question": "ТОЙ ЧЕТЕ ДЕТСКА КНИЖКА (TOY CHETE DETSKA KNIZHKA) (Eril)",
+    "answer": "O ÇOCUK KİTABI OKUDU (ERİL)"
+  },
+  {
+    "question": "ТЯ ЧЕТЕ КНИГА С ПРИКАЗКИ (TYA CHETE KNIGA S PRIKAZKI) (Dişil)",
+    "answer": "O MASAL KİTABI OKUDU (DİŞİL)"
+  },
+  {
+    "question": "ТО ЧЕТЕ БЕБЕШКА КНИЖКА (TO CHETE BEBESHKA KNIZHKA) (Nötr)",
+    "answer": "O BEBEK KİTABI OKUDU (NÖTR)"
+  },
+  {
+    "question": "НИЕ ЧЕТОХМЕ ВЕСТНИК (NIE CHETOHME VESTNIK) (Çoğul)",
+    "answer": "BİZ GAZETE OKUDUK"
+  },
+  {
+    "question": "ВИЕ ЧЕТОХТЕ ЕЛЕКТРОННА ПОЩА (VIE CHETOHTE ELEKTRONNA POSHTA) (Çoğul)",
+    "answer": "SİZ ELEKTRONİK POSTA OKUDUNUZ"
+  },
+  {
+    "question": "ТЕ ЧЕТОХА ГОТВАРСКА КНИГА (TE CHETOHA GOTVARSKA KNIGA) (Çoğul)",
+    "answer": "ONLAR YEMEK KİTABI OKUDU"
+  },
+  {
+    "question": "НЕ ЧЕТА КНИГИ (NE CHETA KNIGI) (Çoğul)",
+    "answer": "KİTAP OKUMUYORUM"
+  },
+  {
+    "question": "ТИ НЕ ЧЕТЕШ ГОТВАРСКИ КНИГИ (TI NE CHETESH GOTVARSKI KNIGI) (Çoğul)",
+    "answer": "SEN YEMEK KİTAPLARI OKUMUYORSUN"
+  },
+  {
+    "question": "ТОЙ НЕ ЧЕТЕ СТАТИИ (TOY NE CHETE STATII) (Eril)",
+    "answer": "O MAKALE OKUMUYOR (ERİL)"
+  },
+  {
+    "question": "ТЯ НЕ ЧЕТЕ СПИСАНИЕ (TYA NE CHETE SPISANIE) (Dişil)",
+    "answer": "O DERGİ OKUMUYOR (DİŞİL)"
+  },
+  {
+    "question": "ТО НЕ ЧЕТЕ ДЕТСКИ КНИЖКИ (TO NE CHETE DETSKI KNIZHKI) (Nötr)",
+    "answer": "O ÇOCUK KİTAPLARI OKUMUYOR (NÖTR)"
+  },
+  {
+    "question": "НИЕ НЕ ЧЕТЕМ КОМИКСИ (NIE NE CHETEM KOMIKSI) (Çoğul)",
+    "answer": "BİZ KOMİKS OKUMUYORUZ"
+  },
+  {
+    "question": "ВИЕ НЕ ЧЕТЕТЕ ВЕСТНИК (VIE NE CHETETE VESTNIK) (Çoğul)",
+    "answer": "SİZ GAZETE OKUMUYORSUNUZ"
+  },
+  {
+    "question": "ТЕ НЕ ЧЕТАТ КНИГА С ПРИКАЗКИ (TE NE CHETAT KNIGA S PRIKAZKI) (Çoğul)",
+    "answer": "ONLAR MASAL KİTABI OKUMUYOR"
+  },
+  {
+    "question": "АЗ НЕ ЧЕТОХ ВЕСТНИК (AZ NE CHETOH VESTNIK) (Eril)",
+    "answer": "BEN GAZETE OKUMADIM"
+  },
+  {
+    "question": "ТИ НЕ ЧЕТЕ РОМАН (TI NE CHETE ROMAN) (Eril)",
+    "answer": "SEN ROMAN OKUMADIN"
+  },
+  {
+    "question": "ТОЙ НЕ ЧЕТЕ СТИХОТВОРЕНИЕ (TOY NE CHETE STIHOTVORENIE) (Eril)",
+    "answer": "O ŞİİR OKUMADI (ERİL)"
+  },
+  {
+    "question": "ТЯ НЕ ЧЕТЕ СТИХОТВОРЕНИЕ (TYA NE CHETE STIHOTVORENIE) (Dişil)",
+    "answer": "O ŞİİR OKUMADI (DİŞİL)"
+  },
+  {
+    "question": "ТО НЕ ЧЕТЕ СТИХОТВОРЕНИЕ (TO NE CHETE STIHOTVORENIE) (Nötr)",
+    "answer": "O ŞİİR OKUMADI (NÖTR)"
+  },
+  {
+    "question": "НИЕ НЕ ЧЕТОХМЕ СЪОБЩЕНИЕТО (NIE NE CHETOHME SAOBSHTENIETO) (Çoğul)",
+    "answer": "BİZ MESAJI OKUMADIK"
+  },
+  {
+    "question": "ВИЕ НЕ ЧЕТОХТЕ ЕЛЕКТРОННАТА ПОЩА (VIE NE CHETOHTE ELEKTRONNATA POSHTA) (Çoğul)",
+    "answer": "SİZ ELEKTRONİK POSTAYI OKUMADINIZ"
+  },
+  {
+    "question": "ТЕ НЕ ЧЕТОХА РЕЧНИК (TE NE CHETOHA RECHNIK) (Çoğul)",
+    "answer": "ONLAR SÖZLÜK OKUMADI"
+  },
+  {
+    "question": "ЧЕТА ЛИ ВЕСТНИК? (CHETA LI VESTNIK?) (Eril)",
+    "answer": "GAZETE OKUYOR MUYUM?"
+  },
+  {
+    "question": "ЧЕТЕШ ЛИ КОМИКСИ? (CHETESH LI KOMIKSI?) (Çoğul)",
+    "answer": "KOMİKS OKUYOR MUSUN?"
+  },
+  {
+    "question": "ТОЙ ЧЕТЕ ЛИ ГОТВАРСКА КНИГА? (TOY CHETE LI GOTVARSKA KNIGA?) (Eril)",
+    "answer": "O YEMEK KİTABI OKUDU MU? (ERİL)"
+  },
+  {
+    "question": "ТЯ ЧЕТЕ ЛИ СПИСАНИЕ ЗА ЖЕНИ? (TYA CHETE LI SPISANIE ZA ZHENI?) (Dişil)",
+    "answer": "O KADIN DERGİSİ OKUDU MU? (DİŞİL)"
+  },
+  {
+    "question": "ТО ЧЕТЕ ЛИ КНИГА С ПРИКАЗКИ? (TO CHETE LI KNIGA S PRIKAZKI?) (Nötr)",
+    "answer": "O MASAL KİTABI OKUDU MU? (NÖTR)"
+  },
+  {
+    "question": "НИЕ ЧЕТЕМ ЛИ КНИГИ? (NIE CHETEM LI KNIGI?) (Çoğul)",
+    "answer": "BİZ KİTAP OKUYOR MUYUZ?"
+  },
+  {
+    "question": "ВИЕ ЧЕТЕТЕ ЛИ РОМАНИ? (VIE CHETETE LI ROMANI?) (Çoğul)",
+    "answer": "SİZ ROMAN OKUYOR MUSUNUZ?"
+  },
+  {
+    "question": "ТЕ ЧЕТАТ ЛИ ВЕСТНИЦИ? (TE CHETAT LI VESTNITSI?) (Çoğul)",
+    "answer": "ONLAR GAZETE OKUYOR MU?"
+  },
+  {
+    "question": "ЧЕТОХ ЛИ УЧЕБНИК? (CHETOH LI UCHBNIK?) (Eril)",
+    "answer": "DERS KİTABI OKUDUM MU?"
+  },
+  {
+    "question": "ТИ ЧЕТЕ ЛИ СПИСАНИЕ? (TI CHETE LI SPISANIE?) (Eril)",
+    "answer": "SEN DERGİ OKUDUN MU?"
+  },
+  {
+    "question": "ТОЙ ЧЕТЕ ЛИ ПРОСПЕКТ? (TOY CHETE LI PROSPEKT?) (Eril)",
+    "answer": "O PROSPEKTÜS OKUDU MU? (ERİL)"
+  },
+  {
+    "question": "ТЯ ЧЕТЕ ЛИ СПИСАНИЕ ЗА ЖЕНИ? (TYA CHETE LI SPISANIE ZA ZHENI?) (Dişil)",
+    "answer": "O KADIN DERGİSİ OKUDU MU? (DİŞİL)"
+  },
+  {
+    "question": "ТО ЧЕТЕ ЛИ БЕБЕШКА КНИЖКА? (TO CHETE LI BEBESHKA KNIZHKA?) (Nötr)",
+    "answer": "O BEBEK KİTABI OKUDU MU? (NÖTR)"
+  },
+  {
+    "question": "НИЕ ЧЕТОХМЕ ЛИ РЕЦЕПТА ЗА ЛЕКАРСТВА? (NIE CHETOHME LI RETSEPTA ZA LEKARSTVA?) (Çoğul)",
+    "answer": "BİZ İLAÇ REÇETESİ OKUDUK MU?"
+  },
+  {
+    "question": "ВИЕ ЧЕТОХТЕ ЛИ СПОРТЕН ВЕСТНИК? (VIE CHETOHTE LI SPORTEN VESTNIK?) (Çoğul)",
+    "answer": "SİZ SPOR GAZETESİ OKUDUNUZ MU?"
+  },
+  {
+    "question": "ТЕ ЧЕТОХА ЛИ ПРАВИЛАТА? (TE CHETOHA LI PRAVILATA?) (Çoğul)",
+    "answer": "ONLAR KURALLARI OKUDU MU?"
+  },
+  {
+    "question": "АЗ КУПУВАМ (AZ KUPUVAM)",
+    "answer": "BEN SATIN ALIYORUM"
+  },
+  {
+    "question": "ТИ КУПУВАШ (TI KUPUVASH)",
+    "answer": "SEN SATIN ALIYORSUN"
+  },
+  {
+    "question": "ТОЙ КУПУВА (TOY KUPUVA) (Eril)",
+    "answer": "O SATIN ALIYOR (ERİL)"
+  },
+  {
+    "question": "ТЯ КУПУВА (TYA KUPUVA) (Dişil)",
+    "answer": "O SATIN ALIYOR (DİŞİL)"
+  },
+  {
+    "question": "ТО КУПУВА (TO KUPUVA) (Nötr)",
+    "answer": "O SATIN ALIYOR (NÖTR)"
+  },
+  {
+    "question": "НИЕ КУПУВАМЕ (NIE KUPUVAME) (Çoğul)",
+    "answer": "BİZ SATIN ALIYORUZ"
+  },
+  {
+    "question": "ВИЕ КУПУВАТЕ (VIE KUPUVATE) (Çoğul)",
+    "answer": "SİZ SATIN ALIYORSUNUZ"
+  },
+  {
+    "question": "ТЕ КУПУВАТ (TE KUPUVAT) (Çoğul)",
+    "answer": "ONLAR SATIN ALIYORLAR"
+  },
+  {
+    "question": "АЗ КУПИХ (AZ KUPIH)",
+    "answer": "BEN SATIN ALDIM"
+  },
+  {
+    "question": "ТИ КУПИ (TI KUPI)",
+    "answer": "SEN SATIN ALDIN"
+  },
+  {
+    "question": "ТОЙ КУПИ (TOY KUPI) (Eril)",
+    "answer": "O SATIN ALDI (ERİL)"
+  },
+  {
+    "question": "ТЯ КУПИ (TYA KUPI) (Dişil)",
+    "answer": "O SATIN ALDI (DİŞİL)"
+  },
+  {
+    "question": "ТО КУПИ (TO KUPI) (Nötr)",
+    "answer": "O SATIN ALDI (NÖTR)"
+  },
+  {
+    "question": "НИЕ КУПИХМЕ (NIE KUPIHME) (Çoğul)",
+    "answer": "BİZ SATIN ALDIK"
+  },
+  {
+    "question": "ВИЕ КУПИХТЕ (VIE KUPIHTE) (Çoğul)",
+    "answer": "SİZ SATIN ALDINIZ"
+  },
+  {
+    "question": "ТЕ КУПИХА (TE KUPIHA) (Çoğul)",
+    "answer": "ONLAR SATIN ALDI"
+  },
+  {
+    "question": "АЗ КУПУВАМ КНИГА (AZ KUPUVAM KNIGA) (Dişil)",
+    "answer": "BEN KİTAP SATIN ALIYORUM"
+  },
+  {
+    "question": "ТИ КУПУВАШ СИРЕНЕ (TI KUPUVASH SIRENE) (Nötr)",
+    "answer": "SEN PEYNİR SATIN ALIYORSUN"
+  },
+  {
+    "question": "ТОЙ КУПУВА ЧЕРВЕНО КОЛЕЛО (TOY KUPUVA CHERVENO KOLELO) (Eril)",
+    "answer": "O KIRMIZI BİSİKLET SATIN ALIYOR (ERİL)"
+  },
+  {
+    "question": "ТЯ КУПУВА ЧЕРВЕНО КОЛЕЛО (TYA KUPUVA CHERVENO KOLELO) (Dişil)",
+    "answer": "O KIRMIZI BİSİKLET SATIN ALIYOR (DİŞİL)"
+  },
+  {
+    "question": "ТО КУПУВА ЧЕРВЕНО КОЛЕЛО (TO KUPUVA CHERVENO KOLELO) (Nötr)",
+    "answer": "O KIRMIZI BİSİKLET SATIN ALIYOR (NÖTR)"
+  },
+  {
+    "question": "НИЕ КУПУВАМЕ ДЕСЕТ КНИГИ (NIE KUPUVAME DESET KNIGI) (Çoğul)",
+    "answer": "BİZ ON KİTAP SATIN ALIYORUZ"
+  },
+  {
+    "question": "ВИЕ КУПУВАТЕ ПЕТ ЧЕРНИ ТЕТРАДКИ (VIE KUPUVATE PET CHERNI TETRADKI) (Çoğul)",
+    "answer": "SİZ BEŞ SİYAH DEFTER SATIN ALIYORSUNUZ"
+  },
+  {
+    "question": "ТЕ КУПУВАТ СЕДЕМ ХИМИКАЛИ (TE KUPUVAT SEDEM HIMIKALI) (Çoğul)",
+    "answer": "ONLAR YEDİ KALEM SATIN ALIYORLAR"
+  },
+  {
+    "question": "АЗ КУПИХ ТЕЛЕФОН (AZ KUPIH TELEFON) (Eril)",
+    "answer": "BEN TELEFON SATIN ALDIM"
+  },
+  {
+    "question": "ТИ КУПИ ТЕЛЕВИЗОР (TI KUPI TELEVIZOR) (Eril)",
+    "answer": "SEN TELEVİZYON SATIN ALDIN"
+  },
+  {
+    "question": "ТОЙ КУПИ БЯЛО ПОРТМОНЕ (TOY KUPI BYALO PORTMONE) (Eril)",
+    "answer": "O BEYAZ CÜZDAN SATIN ALDI (ERİL)"
+  },
+  {
+    "question": "ТЯ КУПИ БЯЛО ПОРТМОНЕ (TYA KUPI BYALO PORTMONE) (Dişil)",
+    "answer": "O BEYAZ CÜZDAN SATIN ALDI (DİŞİL)"
+  },
+  {
+    "question": "ТО КУПИ БЯЛО ПОРТМОНЕ (TO KUPI BYALO PORTMONE) (Nötr)",
+    "answer": "O BEYAZ CÜZDAN SATIN ALDI (NÖTR)"
+  },
+  {
+    "question": "НИЕ КУПИХМЕ ДВАЙСЕ КНИГИ (NIE KUPIHME DVAYSE KNIGI) (Çoğul)",
+    "answer": "BİZ YİRMİ KİTAP SATIN ALDIK"
+  },
+  {
+    "question": "ВИЕ КУПИХТЕ ГОРЕЩО КАФЕ (VIE KUPIHTE GORESHTO KAFE) (Çoğul)",
+    "answer": "SİZ SICAK KAHVE SATIN ALDINIZ"
+  },
+  {
+    "question": "ТЕ КУПИХА ТОПКА (TE KUPIHA TOPKA) (Çoğul)",
+    "answer": "ONLAR TOP SATIN ALDI"
+  },
+  {
+    "question": "АЗ НЕ КУПУВАМ КНИГА (AZ NE KUPUVAM KNIGA) (Dişil)",
+    "answer": "BEN KİTAP SATIN ALMIYORUM"
+  },
+  {
+    "question": "ТИ НЕ КУПУВАШ СИРЕНЕ (TI NE KUPUVASH SIRENE) (Nötr)",
+    "answer": "SEN PEYNİR SATIN ALMIYORSUN"
+  },
+  {
+    "question": "ТОЙ НЕ КУПУВА ЧЕРВЕНО КОЛЕЛО (TOY NE KUPUVA CHERVENO KOLELO) (Eril)",
+    "answer": "O KIRMIZI BİSİKLET SATIN ALMIYOR (ERİL)"
+  },
+  {
+    "question": "ТЯ НЕ КУПУВА ЧЕРВЕНО КОЛЕЛО (TYA NE KUPUVA CHERVENO KOLELO) (Dişil)",
+    "answer": "O KIRMIZI BİSİKLET SATIN ALMIYOR (DİŞİL)"
+  },
+  {
+    "question": "ТО НЕ КУПУВА ЧЕРВЕНО КОЛЕЛО (TO NE KUPUVA CHERVENO KOLELO) (Nötr)",
+    "answer": "O KIRMIZI BİSİKLET SATIN ALMIYOR (NÖTR)"
+  },
+  {
+    "question": "НИЕ НЕ КУПУВАМЕ ДЕСЕТ КНИГИ (NIE NE KUPUVAME DESET KNIGI) (Çoğul)",
+    "answer": "BİZ ON KİTAP SATIN ALMIYORUZ"
+  },
+  {
+    "question": "ВИЕ НЕ КУПУВАТЕ ПЕТ ЧЕРНИ ТЕТРАДКИ (VIE NE KUPUVATE PET CHERNI TETRADKI) (Çoğul)",
+    "answer": "SİZ BEŞ SİYAH DEFTER SATIN ALMIYORSUNUZ"
+  },
+  {
+    "question": "ТЕ НЕ КУПУВАТ СЕДЕМ ХИМИКАЛИ (TE NE KUPUVAT SEDEM HIMIKALI) (Çoğul)",
+    "answer": "ONLAR YEDİ KALEM SATIN ALMIYORLAR"
+  },
+  {
+    "question": "АЗ НЕ КУПИХ ТЕЛЕФОН (AZ NE KUPIH TELEFON) (Eril)",
+    "answer": "BEN TELEFON SATIN ALMADIM"
+  },
+  {
+    "question": "ТИ НЕ КУПИ ТЕЛЕВИЗОР (TI NE KUPI TELEVIZOR) (Eril)",
+    "answer": "SEN TELEVİZYON SATIN ALMADIN"
+  },
+  {
+    "question": "ТОЙ НЕ КУПИ БЯЛО ПОРТМОНЕ (TOY NE KUPI BYALO PORTMONE) (Eril)",
+    "answer": "O BEYAZ CÜZDAN SATIN ALMADI (ERİL)"
+  },
+  {
+    "question": "ТЯ НЕ КУПИ БЯЛО ПОРТМОНЕ (TYA NE KUPI BYALO PORTMONE) (Dişil)",
+    "answer": "O BEYAZ CÜZDAN SATIN ALMADI (DİŞİL)"
+  },
+  {
+    "question": "ТО НЕ КУПИ БЯЛО ПОРТМОНЕ (TO NE KUPI BYALO PORTMONE) (Nötr)",
+    "answer": "O BEYAZ CÜZDAN SATIN ALMADI (NÖTR)"
+  },
+  {
+    "question": "НИЕ НЕ КУПИХМЕ ДВАЙСЕ КНИГИ (NIE NE KUPIHME DVAYSE KNIGI) (Çoğul)",
+    "answer": "BİZ YİRMİ KİTAP SATIN ALMADIK"
+  },
+  {
+    "question": "ВИЕ НЕ КУПИХТЕ ГОРЕЩО КАФЕ (VIE NE KUPIHTE GORESHTO KAFE) (Çoğul)",
+    "answer": "SİZ SICAK KAHVE SATIN ALMADINIZ"
+  },
+  {
+    "question": "ТЕ НЕ КУПИХА ТОПКА (TE NE KUPIHA TOPKA) (Çoğul)",
+    "answer": "ONLAR TOP SATIN ALMADI"
+  },
+  {
+    "question": "АЗ КУПУВАМ ЛИ КНИГА? (AZ KUPUVAM LI KNIGA?) (Dişil)",
+    "answer": "BEN KİTAP SATIN ALIYOR MUYUM?"
+  },
+  {
+    "question": "ТИ КУПУВАШ ЛИ СИРЕНЕ? (TI KUPUVASH LI SIRENE?) (Nötr)",
+    "answer": "SEN PEYNİR SATIN ALIYOR MUSUN?"
+  },
+  {
+    "question": "ТОЙ КУПУВА ЛИ ЧЕРВЕНО КОЛЕЛО? (TOY KUPUVA LI CHERVENO KOLELO?) (Eril)",
+    "answer": "O KIRMIZI BİSİKLET SATIN ALIYOR MU? (ERİL)"
+  },
+  {
+    "question": "ТЯ КУПУВА ЛИ ЧЕРВЕНО КОЛЕЛО? (TYA KUPUV reputA LI CHERVENO KOLELO?) (Dişil)",
+    "answer": "O KIRMIZI BİSİKLET SATIN ALIYOR MU? (DİŞİL)"
+  },
+  {
+    "question": "ТО КУПУВА ЛИ ЧЕРВЕНО КОЛЕЛО? (TO KUPUVA LI CHERVENO KOLELO?) (Nötr)",
+    "answer": "O KIRMIZI BİSİKLET SATIN ALIYOR MU? (NÖTR)"
+  },
+  {
+    "question": "НИЕ КУПУВАМЕ ЛИ ДЕСЕТ КНИГИ? (NIE KUPUVAME LI DESET KNIGI?) (Çoğul)",
+    "answer": "BİZ ON KİTAP SATIN ALIYOR MUYUZ?"
+  },
+  {
+    "question": "ВИЕ КУПУВАТЕ ЛИ ПЕТ ЧЕРНИ ТЕТРАДКИ? (VIE KUPUVATE LI PET CHERNI TETRADKI?) (Çoğul)",
+    "answer": "SİZ BEŞ SİYAH DEFTER SATIN ALIYOR MUSUNUZ?"
+  },
+  {
+    "question": "ТЕ КУПУВАТ ЛИ СЕДЕМ ХИМИКАЛИ? (TE KUPUVAT LI SEDEM HIMIKALI?) (Çoğul)",
+    "answer": "ONLAR YEDİ KALEM SATIN ALIYOR MU?"
+  },
+  {
+    "question": "АЗ КУПИХ ЛИ ТЕЛЕФОН? (AZ KUPIH LI TELEFON?) (Eril)",
+    "answer": "BEN TELEFON SATIN ALDIM Mİ?"
+  },
+  {
+    "question": "ТИ КУПИ ЛИ ТЕЛЕВИЗОР? (TI KUPI LI TELEVIZOR?) (Eril)",
+    "answer": "SEN TELEVİZYON SATIN ALDIN Mİ?"
+  },
+  {
+    "question": "ТОЙ КУПИ ЛИ БЯЛО ПОРТМОНЕ? (TOY KUPI LI BYALO PORTMONE?) (Eril)",
+    "answer": "O BEYAZ CÜZDAN SATIN ALDI Mİ? (ERİL)"
+  },
+  {
+    "question": "ТЯ КУПИ ЛИ БЯЛО ПОРТМОНЕ? (TYA KUPI LI BYALO PORTMONE?) (Dişil)",
+    "answer": "O BEYAZ CÜZDAN SATIN ALDI Mİ? (DİŞİL)"
+  },
+  {
+    "question": "ТО КУПИ ЛИ БЯЛО ПОРТМОНЕ? (TO KUPI LI BYALO PORTMONE?) (Nötr)",
+    "answer": "O BEYAZ CÜZDAN SATIN ALDI Mİ? (NÖTR)"
+  },
+  {
+    "question": "НИЕ КУПИХМЕ ЛИ ДВАЙСЕ КНИГИ? (NIE KUPIHME LI DVAYSE KNIGI?) (Çoğul)",
+    "answer": "BİZ YİRMİ KİTAP SATIN ALDIK Mİ?"
+  },
+  {
+    "question": "ВИЕ КУПИХТЕ ЛИ ГОРЕЩО КАФЕ? (VIE KUPIHTE LI GORESHTO KAFE?) (Çoğul)",
+    "answer": "SİZ SICAK KAHVE SATIN ALDINIZ Mİ?"
+  },
+  {
+    "question": "ТЕ КУПИХА ЛИ ТОПКА? (TE KUPIHA LI TOPKA?) (Çoğul)",
+    "answer": "ONLAR TOP SATIN ALDI Mİ?"
+  },
+  {
+    "question": "АЗ ИДВАМ (AZ IDVAM)",
+    "answer": "BEN GELİYORUM"
+  },
+  {
+    "question": "ТИ ИДВАШ (TI IDVASH)",
+    "answer": "SEN GELİYORSUN"
+  },
+  {
+    "question": "ТОЙ ИДВА (TOY IDVA) (Eril)",
+    "answer": "O GELİYOR (ERİL)"
+  },
+  {
+    "question": "ТЯ ИДВА (TYA IDVA) (Dişil)",
+    "answer": "O GELİYOR (DİŞİL)"
+  },
+  {
+    "question": "ТО ИДВА (TO IDVA) (Nötr)",
+    "answer": "O GELİYOR (NÖTR)"
+  },
+  {
+    "question": "НИЕ ИДВАМЕ (NIE IDVAME) (Çoğul)",
+    "answer": "BİZ GELİYORUZ"
+  },
+  {
+    "question": "ВИЕ ИДВАТЕ (VIE IDVATE) (Çoğul)",
+    "answer": "SİZ GELİYORSUNUZ"
+  },
+  {
+    "question": "ТЕ ИДВАТ (TE IDVAT) (Çoğul)",
+    "answer": "ONLAR GELİYORLAR"
+  },
+  {
+    "question": "АЗ ДОЙДОХ (AZ DOYDOH)",
+    "answer": "BEN GELDİM"
+  },
+  {
+    "question": "ТИ ДОЙДЕ (TI DOYDE)",
+    "answer": "SEN GELDİN"
+  },
+  {
+    "question": "ТОЙ ДОЙДЕ (TOY DOYDE) (Eril)",
+    "answer": "O GELDİ (ERİL)"
+  },
+  {
+    "question": "ТЯ ДОЙДЕ (TYA DOYDE) (Dişil)",
+    "answer": "O GELDİ (DİŞİL)"
+  },
+  {
+    "question": "ТО ДОЙДЕ (TO DOYDE) (Nötr)",
+    "answer": "O GELDİ (NÖTR)"
+  },
+  {
+    "question": "НИЕ ДОЙДОХМЕ (NIE DOYDOHME) (Çoğul)",
+    "answer": "BİZ GELDİK"
+  },
+  {
+    "question": "ВИЕ ДОЙДОХТЕ (VIE DOYDOHTE) (Çoğul)",
+    "answer": "SİZ GELDİNİZ"
+  },
+  {
+    "question": "ТЕ ДОЙДОХА (TE DOYDOHA) (Çoğul)",
+    "answer": "ONLAR GELDİ"
+  },
+  {
+    "question": "АЗ ИДВАМ В ИСТАНБУЛ (AZ IDVAM V ISTANBUL) (Eril)",
+    "answer": "BEN İSTANBULA GELİYORUM"
+  },
+  {
+    "question": "ИДВАМ ОТ РАБОТА (IDVAM OT RABOTA) (Dişil)",
+    "answer": "İŞTEN GELİYORUM"
+  },
+  {
+    "question": "ИДВАШ ОТ МАГАЗИНА (IDVASH OT MAGAZINA) (Eril)",
+    "answer": "MARKETTEN GELİYORSUN"
+  },
+  {
+    "question": "ТОЙ ИДВА ОТ ШОПИНГ (TOY IDVA OT SHOPING) (Eril)",
+    "answer": "O ALIŞVERİŞTEN GELİYOR (ERİL)"
+  },
+  {
+    "question": "ТЯ ИДВА ОТ ШОПИНГ (TYA IDVA OT SHOPING) (Dişil)",
+    "answer": "O ALIŞVERİŞTEN GELİYOR (DİŞİL)"
+  },
+  {
+    "question": "ТО ИДВА ОТ ШОПИНГ (TO IDVA OT SHOPING) (Nötr)",
+    "answer": "O ALIŞVERİŞTEN GELİYOR (NÖTR)"
+  },
+  {
+    "question": "НИЕ ИДВАМЕ В ПАРКА (NIE IDVAME V PARKA) (Çoğul)",
+    "answer": "BİZ PARKA GELİYORUZ"
+  },
+  {
+    "question": "ВИЕ ИДВАТЕ НА РАБОТА В 8 ЧАСА (VIE IDVATE NA RABOTA V 8 CHASA) (Çoğul)",
+    "answer": "SİZ SAAT 8’DE İŞE GELİYORSUNUZ"
+  },
+  {
+    "question": "ТЕ ИДВАТ НА УРОК (TE IDVAT NA UROK) (Çoğul)",
+    "answer": "ONLAR DERSE GELİYOR"
+  },
+  {
+    "question": "АЗ ДОЙДОХ ОТ РАБОТА В 18 ЧАСА (AZ DOYDOH OT RABOTA V 18 CHASA) (Dişil)",
+    "answer": "BEN SAAT 18’DE İŞTEN GELDİM"
+  },
+  {
+    "question": "ТИ ДОЙДЕ ОТ УЧИЛИЩЕ (TI DOYDE OT UCHILISHTE) (Nötr)",
+    "answer": "SEN OKULDAN GELDİN"
+  },
+  {
+    "question": "ТОЙ ДОЙДЕ В БЪЛГАРИЯ (TOY DOYDE V BALGARIYA) (Eril)",
+    "answer": "O BULGARİSTANA GELDİ (ERİL)"
+  },
+  {
+    "question": "ТЯ ДОЙДЕ В БЪЛГАРИЯ (TYA DOYDE V BALGARIYA) (Dişil)",
+    "answer": "O BULGARİSTANA GELDİ (DİŞİL)"
+  },
+  {
+    "question": "ТО ДОЙДЕ В БЪЛГАРИЯ (TO DOYDE V BALGARIYA) (Nötr)",
+    "answer": "O BULGARİSTANA GELDİ (NÖTR)"
+  },
+  {
+    "question": "НИЕ ДОЙДОХМЕ ОТ ТУРЦИЯ (NIE DOYDOHME OT TURTSIYA) (Çoğul)",
+    "answer": "BİZ TÜRKİYE’DEN GELDİK"
+  },
+  {
+    "question": "ВИЕ ДОЙДОХТЕ С АВТОБУС (VIE DOYDOHTE S AVTOBUS) (Çoğul)",
+    "answer": "SİZ OTOBÜSLE GELDİNİZ"
+  },
+  {
+    "question": "ТЕ ДОЙДОХА С КОЛА (TE DOYDOHA S KOLA) (Çoğul)",
+    "answer": "ONLAR ARABAYLA GELDİ"
+  },
+  {
+    "question": "АЗ НЕ ИДВАМ В ИСТАНБУЛ (AZ NE IDVAM V ISTANBUL) (Eril)",
+    "answer": "BEN İSTANBULA GELMİYORUM"
+  },
+  {
+    "question": "НЕ ИДВАМ ОТ РАБОТА (NE IDVAM OT RABOTA) (Dişil)",
+    "answer": "İŞTEN GELMİYORUM"
+  },
+  {
+    "question": "НЕ ИДВАШ ОТ МАГАЗИНА (NE IDVASH OT MAGAZINA) (Eril)",
+    "answer": "MARKETTEN GELMİYORSUN"
+  },
+  {
+    "question": "ТОЙ НЕ ИДВА ОТ ШОПИНГ (TOY NE IDVA OT SHOPING) (Eril)",
+    "answer": "O ALIŞVERİŞTEN GELMİYOR (ERİL)"
+  },
+  {
+    "question": "ТЯ НЕ ИДВА ОТ ШОПИНГ (TYA NE IDVA OT SHOPING) (Dişil)",
+    "answer": "O ALIŞVERİŞTEN GELMİYOR (DİŞİL)"
+  },
+  {
+    "question": "ТО НЕ ИДВА ОТ ШОПИНГ (TO NE IDVA OT SHOPING) (Nötr)",
+    "answer": "O ALIŞVERİŞTEN GELMİYOR (NÖTR)"
+  },
+  {
+    "question": "НИЕ НЕ ИДВАМЕ В ПАРКА (NIE NE IDVAME V PARKA) (Çoğul)",
+    "answer": "BİZ PARKA GELMİYORUZ"
+  },
+  {
+    "question": "ВИЕ НЕ ИДВАТЕ НА РАБОТА В 8 ЧАСА (VIE NE IDVATE NA RABOTA V 8 CHASA) (Çoğul)",
+    "answer": "SİZ SAAT 8’DE İŞE GELMİYORSUNUZ"
+  },
+  {
+    "question": "ТЕ НЕ ИДВАТ НА УРОК (TE NE IDVAT NA UROK) (Çoğul)",
+    "answer": "ONLAR DERSE GELMİYOR"
+  },
+  {
+    "question": "АЗ НЕ ДОЙДОХ ОТ РАБОТА В 18 ЧАСА (AZ NE DOYDOH OT RABOTA V 18 CHASA) (Dişil)",
+    "answer": "BEN SAAT 18’DE İŞTEN GELMEDİM"
+  },
+  {
+    "question": "ТИ НЕ ДОЙДЕ ОТ УЧИЛИЩЕ (TI NE DOYDE OT UCHILISHTE) (Nötr)",
+    "answer": "SEN OKULDAN GELMEDİN"
+  },
+  {
+    "question": "ТОЙ НЕ ДОЙДЕ В БЪЛГАРИЯ (TOY NE DOYDE V BALGARIYA) (Eril)",
+    "answer": "O BULGARİSTANA GELMEDİ (ERİL)"
+  },
+  {
+    "question": "ТЯ НЕ ДОЙДЕ В БЪЛГАРИЯ (TYA NE DOYDE V BALGARIYA) (Dişil)",
+    "answer": "O BULGARİSTANA GELMEDİ (DİŞİL)"
+  },
+  {
+    "question": "ТО НЕ ДОЙДЕ В БЪЛГАРИЯ (TO NE DOYDE V BALGARIYA) (Nötr)",
+    "answer": "O BULGARİSTANA GELMEDİ (NÖTR)"
+  },
+  {
+    "question": "НИЕ НЕ ДОЙДОХМЕ ОТ ТУРЦИЯ (NIE NE DOYDOHME OT TURTSIYA) (Çoğul)",
+    "answer": "BİZ TÜRKİYE’DEN GELMEDİK"
+  },
+  {
+    "question": "ВИЕ НЕ ДОЙДОХТЕ С АВТОБУС (VIE NE DOYDOHTE S AVTOBUS) (Çoğul)",
+    "answer": "SİZ OTOBÜSLE GELMEDİNİZ"
+  },
+  {
+    "question": "ТЕ НЕ ДОЙДОХА С КОЛА (TE NE DOYDOHA S KOLA) (Çoğul)",
+    "answer": "ONLAR ARABAYLA GELMEDİ"
+  },
+  {
+    "question": "АЗ ИДВАМ ЛИ В ИСТАНБУЛ? (AZ IDVAM LI V ISTANBUL?) (Eril)",
+    "answer": "BEN İSTANBULA GELİYOR MUYUM?"
+  },
+  {
+    "question": "ИДВАМ ЛИ ОТ РАБОТА? (IDVAM LI OT RABOTA?) (Dişil)",
+    "answer": "İŞTEN GELİYOR MUYUM?"
+  },
+  {
+    "question": "ИДВАШ ЛИ ОТ МАГАЗИНА? (IDVASH LI OT MAGAZINA?) (Eril)",
+    "answer": "MARKETTEN GELİYOR MUSUN?"
+  },
+  {
+    "question": "ТОЙ ИДВА ЛИ ОТ ШОПИНГ? (TOY IDVA LI OT SHOPING?) (Eril)",
+    "answer": "O ALIŞVERİŞTEN GELİYOR MU? (ERİL)"
+  },
+  {
+    "question": "ТЯ ИДВА ЛИ ОТ ШОПИНГ? (TYA IDVA LI OT SHOPING?) (Dişil)",
+    "answer": "O ALIŞVERİŞTEN GELİYOR MU? (DİŞİL)"
+  },
+  {
+    "question": "ТО ИДВА ЛИ ОТ ШОПИНГ? (TO IDVA LI OT SHOPING?) (Nötr)",
+    "answer": "O ALIŞVERİŞTEN GELİYOR MU? (NÖTR)"
+  },
+  {
+    "question": "НИЕ ИДВАМЕ ЛИ В ПАРКА? (NIE IDVAME LI V PARKA?) (Çoğul)",
+    "answer": "BİZ PARKA GELİYOR MUYUZ?"
+  },
+  {
+    "question": "ВИЕ ИДВАТЕ ЛИ НА РАБОТА В 8 ЧАСА? (VIE IDVATE LI NA RABOTA V 8 CHASA?) (Çoğul)",
+    "answer": "SİZ SAAT 8’DE İŞE GELİYOR MUSUNUZ?"
+  },
+  {
+    "question": "ТЕ ИДВАТ ЛИ НА УРОК? (TE IDVAT LI NA UROK?) (Çoğul)",
+    "answer": "ONLAR DERSE GELİYOR MU?"
+  },
+  {
+    "question": "АЗ ДОЙДОХ ЛИ ОТ РАБОТА В 18 ЧАСА? (AZ DOYDOH LI OT RABOTA V 18 CHASA?) (Dişil)",
+    "answer": "BEN SAAT 18’DE İŞTEN GELDİM Mİ?"
+  },
+  {
+    "question": "ТИ ДОЙДЕ ЛИ ОТ УЧИЛИЩЕ? (TI DOYDE LI OT UCHILISHTE?) (Nötr)",
+    "answer": "SEN OKULDAN GELDİN Mİ?"
+  },
+  {
+    "question": "ТОЙ ДОЙДЕ ЛИ В БЪЛГАРИЯ? (TOY DOYDE LI V BALGARIYA?) (Eril)",
+    "answer": "O BULGARİSTANA GELDİ Mİ? (ERİL)"
+  },
+  {
+    "question": "ТЯ ДОЙДЕ ЛИ В БЪЛГАРИЯ? (TYA DOYDE LI V BALGARIYA?) (Dişil)",
+    "answer": "O BULGARİSTANA GELDİ Mİ? (DİŞİL)"
+  },
+  {
+    "question": "ТО ДОЙДЕ ЛИ В БЪЛГАРИЯ? (TO DOYDE LI V BALGARIYA?) (Nötr)",
+    "answer": "O BULGARİSTANA GELDİ Mİ? (NÖTR)"
+  },
+  {
+    "question": "НИЕ ДОЙДОХМЕ ЛИ ОТ ТУРЦИЯ? (NIE DOYDOHME LI OT TURTSIYA?) (Çoğul)",
+    "answer": "BİZ TÜRKİYE’DEN GELDİK Mİ?"
+  },
+  {
+    "question": "ВИЕ ДОЙДОХТЕ ЛИ С АВТОБУС? (VIE DOYDOHTE LI S AVTOBUS?) (Çoğul)",
+    "answer": "SİZ OTOBÜSLE GELDİNİZ Mİ?"
+  },
+  {
+    "question": "ТЕ ДОЙДОХА ЛИ С КОЛА? (TE DOYDOHA LI S KOLA?) (Çoğul)",
+    "answer": "ONLAR ARABAYLA GELDİ Mİ?"
+  },
+  {
+    "question": "АЗ СЕДЯ (AZ SEDYA)",
+    "answer": "BEN OTURUYORUM"
+  },
+  {
+    "question": "ТИ СЕДИШ (TI SEDISH)",
+    "answer": "SEN OTURUYORSUN"
+  },
+  {
+    "question": "ТОЙ СЕДИ (TOY SEDI) (Eril)",
+    "answer": "O OTURUYOR (ERİL)"
+  },
+  {
+    "question": "ТЯ СЕДИ (TYA SEDI) (Dişil)",
+    "answer": "O OTURUYOR (DİŞİL)"
+  },
+  {
+    "question": "ТО СЕДИ (TO SEDI) (Nötr)",
+    "answer": "O OTURUYOR (NÖTR)"
+  },
+  {
+    "question": "НИЕ СЕДИМ (NIE SEDIM) (Çoğul)",
+    "answer": "BİZ OTURUYORUZ"
+  },
+  {
+    "question": "ВИЕ СЕДИТЕ (VIE SEDITE) (Çoğul)",
+    "answer": "SİZ OTURUYORSUNUZ"
+  },
+  {
+    "question": "ТЕ СЕДЯТ (TE SEDYAT) (Çoğul)",
+    "answer": "ONLAR OTURUYORLAR"
+  },
+  {
+    "question": "АЗ СЕДЯХ (AZ SEDYAH)",
+    "answer": "BEN OTURDUM"
+  },
+  {
+    "question": "ТИ СЕДЯ (TI SEDYA)",
+    "answer": "SEN OTURDUN"
+  },
+  {
+    "question": "ТОЙ СЕДЯ (TOY SEDYA) (Eril)",
+    "answer": "O OTURDU (ERİL)"
+  },
+  {
+    "question": "ТЯ СЕДЯ (TYA SEDYA) (Dişil)",
+    "answer": "O OTURDU (DİŞİL)"
+  },
+  {
+    "question": "ТО СЕДЯ (TO SEDYA) (Nötr)",
+    "answer": "O OTURDU (NÖTR)"
+  },
+  {
+    "question": "НИЕ СЕДЯХМЕ (NIE SEDYAHME) (Çoğul)",
+    "answer": "BİZ OTURDUK"
+  },
+  {
+    "question": "ВИЕ СЕДЯХТЕ (VIE SEDYAHTE) (Çoğul)",
+    "answer": "SİZ OTURDUNUZ"
+  },
+  {
+    "question": "ТЕ СЕДЯХА (TE SEDYAHA) (Çoğul)",
+    "answer": "ONLAR OTURDU"
+  },
+  {
+    "question": "АЗ СЕДЯ НА СТОЛА (AZ SEDYA NA STOLA) (Eril)",
+    "answer": "BEN SANDALYEDE OTURUYORUM"
+  },
+  {
+    "question": "ТИ СЕДИШ ДО ПРОЗОРЕЦА (TI SEDISH DO PROZORETSA) (Eril)",
+    "answer": "SEN CAMIN YANINDA OTURUYORSUN"
+  },
+  {
+    "question": "ТОЙ СЕДИ В КОЛАТА (TOY SEDI V KOLATA) (Eril)",
+    "answer": "O ARABADA OTURUYOR (ERİL)"
+  },
+  {
+    "question": "ТЯ СЕДИ В КОЛАТА (TYA SEDI V KOLATA) (Dişil)",
+    "answer": "O ARABADA OTURUYOR (DİŞİL)"
+  },
+  {
+    "question": "ТО СЕДИ В КОЛАТА (TO SEDI V KOLATA) (Nötr)",
+    "answer": "O ARABADA OTURUYOR (NÖTR)"
+  },
+  {
+    "question": "НИЕ СЕДИМ В СТАЯТА (NIE SEDIM V STAYATA) (Çoğul)",
+    "answer": "BİZ ODADA OTURUYORUZ"
+  },
+  {
+    "question": "ВИЕ СЕДИТЕ НА ДИВАНА (VIE SEDITE NA DIVANA) (Çoğul)",
+    "answer": "SİZ KOLTUKTA OTURUYORSUNUZ"
+  },
+  {
+    "question": "ТЕ СЕДЯТ НА ПЕЙКАТА (TE SEDYAT NA PEYKATA) (Çoğul)",
+    "answer": "ONLAR BANKTA OTURUYOR"
+  },
+  {
+    "question": "АЗ СЕДЯХ НА БАЛКОНА (AZ SEDYAH NA BALKONA) (Eril)",
+    "answer": "BEN BALKONDA OTURDUM"
+  },
+  {
+    "question": "ТИ СЕДЯ В ОФИСА (TI SEDYA V OFISA) (Eril)",
+    "answer": "SEN OFİSTE OTURDUN"
+  },
+  {
+    "question": "ТОЙ СЕДЯ ДО МЕН В АВТОБУСА (TOY SEDYA DO MEN V AVTOBUSA) (Eril)",
+    "answer": "O OTOBÜSTE BENİM YANIMDA OTURDU (ERİL)"
+  },
+  {
+    "question": "ТЯ СЕДЯ ДО МЕН В АВТОБУСА (TYA SEDYA DO MEN V AVTOBUSA) (Dişil)",
+    "answer": "O OTOBÜSTE BENİM YANIMDA OTURDU (DİŞİL)"
+  },
+  {
+    "question": "ТО СЕДЯ ДО МЕН В АВТОБУСА (TO SEDYA DO MEN V AVTOBUSA) (Nötr)",
+    "answer": "O OTOBÜSTE BENİM YANIMDA OTURDU (NÖTR)"
+  },
+  {
+    "question": "НИЕ СЕДЯХМЕ В СТАЯТА (NIE SEDYAHME V STAYATA) (Çoğul)",
+    "answer": "BİZ ODADA OTURDUK"
+  },
+  {
+    "question": "ВИЕ СЕДЯХТЕ ДО ПРОЗОРЕЦА (VIE SEDYAHTE DO PROZORETSA) (Çoğul)",
+    "answer": "SİZ CAMIN YANINDA OTURDUNUZ"
+  },
+  {
+    "question": "ТЕ СЕДЯХА В ПАРКА (TE SEDYAHA V PARKA) (Çoğul)",
+    "answer": "ONLAR PARKTA OTURDU"
+  },
+  {
+    "question": "АЗ НЕ СЕДЯ НА СТОЛА (AZ NE SEDYA NA STOLA) (Eril)",
+    "answer": "BEN SANDALYEDE OTURMUYORUM"
+  },
+  {
+    "question": "ТИ НЕ СЕДИШ ДО ПРОЗОРЕЦА (TI NE SEDISH DO PROZORETSA) (Eril)",
+    "answer": "SEN CAMIN YANINDA OTURMUYORSUN"
+  },
+  {
+    "question": "ТОЙ НЕ СЕДИ В КОЛАТА (TOY NE SEDI V KOLATA) (Eril)",
+    "answer": "O ARABADA OTURMUYOR (ERİL)"
+  },
+  {
+    "question": "ТЯ НЕ СЕДИ В КОЛАТА (TYA NE SEDI V KOLATA) (Dişil)",
+    "answer": "O ARABADA OTURMUYOR (DİŞİL)"
+  },
+  {
+    "question": "ТО НЕ СЕДИ В КОЛАТА (TO NE SEDI V KOLATA) (Nötr)",
+    "answer": "O ARABADA OTURMUYOR (NÖTR)"
+  },
+  {
+    "question": "НИЕ НЕ СЕДИМ В СТАЯТА (NIE NE SEDIM V STAYATA) (Çoğul)",
+    "answer": "BİZ ODADA OTURMUYORUZ"
+  },
+  {
+    "question": "ВИЕ НЕ СЕДИТЕ НА ДИВАНА (VIE NE SEDITE NA DIVANA) (Çoğul)",
+    "answer": "SİZ KOLTUKTA OTURMUYORSUNUZ"
+  },
+  {
+    "question": "ТЕ НЕ СЕДЯТ НА ПЕЙКАТА (TE NE SEDYAT NA PEYKATA) (Çoğul)",
+    "answer": "ONLAR BANKTA OTURMUYOR"
+  },
+  {
+    "question": "АЗ НЕ СЕДЯХ НА БАЛКОНА (AZ NE SEDYAH NA BALKONA) (Eril)",
+    "answer": "BEN BALKONDA OTURMADIM"
+  },
+  {
+    "question": "ТИ НЕ СЕДЯ В ОФИСА (TI NE SEDYA V OFISA) (Eril)",
+    "answer": "SEN OFİSTE OTURMADIN"
+  },
+  {
+    "question": "ТОЙ НЕ СЕДЯ ДО МЕН В АВТОБУСА (TOY NE SEDYA DO MEN V AVTOBUSA) (Eril)",
+    "answer": "O OTOBÜSTE BENİM YANIMDA OTURMADI (ERİL)"
+  },
+  {
+    "question": "ТЯ НЕ СЕДЯ ДО МЕН В АВТОБУСА (TYA NE SEDYA DO MEN V AVTOBUSA) (Dişil)",
+    "answer": "O OTOBÜSTE BENİM YANIMDA OTURMADI (DİŞİL)"
+  },
+  {
+    "question": "ТО НЕ СЕДЯ ДО МЕН В АВТОБУСА (TO NE SEDYA DO MEN V AVTOBUSA) (Nötr)",
+    "answer": "O OTOBÜSTE BENİM YANIMDA OTURMADI (NÖTR)"
+  },
+  {
+    "question": "НИЕ НЕ СЕДЯХМЕ В СТАЯТА (NIE NE SEDYAHME V STAYATA) (Çoğul)",
+    "answer": "BİZ ODADA OTURMADIK"
+  },
+  {
+    "question": "ВИЕ НЕ СЕДЯХТЕ ДО ПРОЗОРЕЦА (VIE NE SEDYAHTE DO PROZORETSA) (Çoğul)",
+    "answer": "SİZ CAMIN YANINDA OTURMADINIZ"
+  },
+  {
+    "question": "ТЕ НЕ СЕДЯХА В ПАРКА (TE NE SEDYAHA V PARKA) (Çoğul)",
+    "answer": "ONLAR PARKTA OTURMADI"
+  },
+  {
+    "question": "АЗ СЕДЯ ЛИ НА СТОЛА? (AZ SEDYA LI NA STOLA?) (Eril)",
+    "answer": "BEN SANDALYEDE OTURUYOR MUYUM?"
+  },
+  {
+    "question": "ТИ СЕДИШ ЛИ ДО ПРОЗОРЕЦА? (TI SEDISH LI DO PROZORETSA?) (Eril)",
+    "answer": "SEN CAMIN YANINDA OTURUYOR MUSUN?"
+  },
+  {
+    "question": "ТОЙ СЕДИ ЛИ В КОЛАТА? (TOY SEDI LI V KOLATA?) (Eril)",
+    "answer": "O ARABADA OTURUYOR MU? (ERİL)"
+  },
+  {
+    "question": "ТЯ СЕДИ ЛИ В КОЛАТА? (TYA SEDI LI V KOLATA?) (Dişil)",
+    "answer": "O ARABADA OTURUYOR MU? (DİŞİL)"
+  },
+  {
+    "question": "ТО СЕДИ ЛИ В КОЛАТА? (TO SEDI LI V KOLATA?) (Nötr)",
+    "answer": "O ARABADA OTURUYOR MU? (NÖTR)"
+  },
+  {
+    "question": "НИЕ СЕДИМ ЛИ В СТАЯТА? (NIE SEDIM LI V STAYATA?) (Çoğul)",
+    "answer": "BİZ ODADA OTURUYOR MUYUZ?"
+  },
+  {
+    "question": "ВИЕ СЕДИТЕ ЛИ НА ДИВАНА? (VIE SEDITE LI NA DIVANA?) (Çoğul)",
+    "answer": "SİZ KOLTUKTA OTURUYOR MUSUNUZ?"
+  },
+  {
+    "question": "ТЕ СЕДЯТ ЛИ НА ПЕЙКАТА? (TE SEDYAT LI NA PEYKATA?) (Çoğul)",
+    "answer": "ONLAR BANKTA OTURUYOR MU?"
+  },
+  {
+    "question": "АЗ СЕДЯХ ЛИ НА БАЛКОНА? (AZ SEDYAH LI NA BALKONA?) (Eril)",
+    "answer": "BEN BALKONDA OTURDUM MU?"
+  },
+  {
+    "question": "ТИ СЕДЯ ЛИ В ОФИСА? (TI SEDYA LI V OFISA?) (Eril)",
+    "answer": "SEN OFİSTE OTURDUN MU?"
+  },
+  {
+    "question": "ТОЙ СЕДЯ ЛИ ДО МЕН В АВТОБУСА? (TOY SEDYA LI DO MEN V AVTOBUSA?) (Eril)",
+    "answer": "O OTOBÜSTE BENİM YANIMDA OTURDU MU? (ERİL)"
+  },
+  {
+    "question": "ТЯ СЕДЯ ЛИ ДО МЕН В АВТОБУСА? (TYA SEDYA LI DO MEN V AVTOBUSA?) (Dişil)",
+    "answer": "O OTOBÜSTE BENİM YANIMDA OTURDU MU? (DİŞİL)"
+  },
+  {
+    "question": "ТО СЕДЯ ЛИ ДО МЕН В АВТОБУСА? (TO SEDYA LI DO MEN V AVTOBUSA?) (Nötr)",
+    "answer": "O OTOBÜSTE BENİM YANIMDA OTURDU MU? (NÖTR)"
+  },
+  {
+    "question": "НИЕ СЕДЯХМЕ ЛИ В СТАЯТА? (NIE SEDYAHME LI V STAYATA?) (Çoğul)",
+    "answer": "BİZ ODADA OTURDUK MU?"
+  },
+  {
+    "question": "ВИЕ СЕДЯХТЕ ЛИ ДО ПРОЗОРЕЦА? (VIE SEDYAHTE LI DO PROZORETSA?) (Çoğul)",
+    "answer": "SİZ CAMIN YANINDA OTURDUNUZ MU?"
+  },
+  {
+    "question": "ТЕ СЕДЯХА ЛИ В ПАРКА? (TE SEDYAHA LI V PARKA?) (Çoğul)",
+    "answer": "ONLAR PARKTA OTURDU MU?"
+  },
+  {
+    "question": "АЗ ОТИВАМ (AZ OTIVAM)",
+    "answer": "BEN GİDİYORUM"
+  },
+  {
+    "question": "ТИ ОТИВАШ (TI OTIVASH)",
+    "answer": "SEN GİDİYORSUN"
+  },
+  {
+    "question": "ТОЙ ОТИВА (TOY OTIVA) (Eril)",
+    "answer": "O GİDİYOR (ERİL)"
+  },
+  {
+    "question": "ТЯ ОТИВА (TYA OTIVA) (Dişil)",
+    "answer": "O GİDİYOR (DİŞİL)"
+  },
+  {
+    "question": "ТО ОТИВА (TO OTIVA) (Nötr)",
+    "answer": "O GİDİYOR (NÖTR)"
+  },
+  {
+    "question": "НИЕ ОТИВАМЕ (NIE OTIVAME) (Çoğul)",
+    "answer": "BİZ GİDİYORUZ"
+  },
+  {
+    "question": "ВИЕ ОТИВАТЕ (VIE OTIVATE) (Çoğul)",
+    "answer": "SİZ GİDİYORSUNUZ"
+  },
+  {
+    "question": "ТЕ ОТИВАТ (TE OTIVAT) (Çoğul)",
+    "answer": "ONLAR GİDİYORLAR"
+  },
+  {
+    "question": "АЗ ОТИДОХ (AZ OTIDOH)",
+    "answer": "BEN GİTTİM"
+  },
+  {
+    "question": "ТИ ОТИДЕ (TI OTIDE)",
+    "answer": "SEN GİTTİN"
+  },
+  {
+    "question": "ТОЙ ОТИДЕ (TOY OTIDE) (Eril)",
+    "answer": "O GİTTİ (ERİL)"
+  },
+  {
+    "question": "ТЯ ОТИДЕ (TYA OTIDE) (Dişil)",
+    "answer": "O GİTTİ (DİŞİL)"
+  },
+  {
+    "question": "ТО ОТИДЕ (TO OTIDE) (Nötr)",
+    "answer": "O GİTTİ (NÖTR)"
+  },
+  {
+    "question": "НИЕ ОТИДОХМЕ (NIE OTIDOHME) (Çoğul)",
+    "answer": "BİZ GİTTİK"
+  },
+  {
+    "question": "ВИЕ ОТИДОХТЕ (VIE OTIDOHTE) (Çoğul)",
+    "answer": "SİZ GİTTİNİZ"
+  },
+  {
+    "question": "ТЕ ОТИДОХА (TE OTIDOHA) (Çoğul)",
+    "answer": "ONLAR GİTTİ"
+  },
+  {
+    "question": "ОТИВАМ НА РАБОТА ТОЧНО В ДЕВЕТ ЧАСА (OTIVAM NA RABOTA TOCHNO V DEVET CHASA) (Dişil)",
+    "answer": "TAM SAAT 9’DA İŞE GİDİYORUM"
+  },
+  {
+    "question": "ОТИВАШ С КОЛА НА МАГАЗИНА (OTIVASH S KOLA NA MAGAZINA) (Dişil)",
+    "answer": "ARABA İLE MARKETE GİDİYORSUN"
+  },
+  {
+    "question": "ТОЙ ОТИВА НА УРОК (TOY OTIVA NA UROK) (Eril)",
+    "answer": "O DERSE GİDİYOR (ERİL)"
+  },
+  {
+    "question": "ТЯ ОТИВА НА УРОК (TYA OTIVA NA UROK) (Dişil)",
+    "answer": "O DERSE GİDİYOR (DİŞİL)"
+  },
+  {
+    "question": "ТО ОТИВА НА УРОК (TO OTIVA NA UROK) (Nötr)",
+    "answer": "O DERSE GİDİYOR (NÖTR)"
+  },
+  {
+    "question": "НИЕ ОТИВАМЕ В БЪЛГАРИЯ С АВТОБУС (NIE OTIVAME V BALGARIYA S AVTOBUS) (Çoğul)",
+    "answer": "BİZ BULGARİSTANA OTOBÜSLE GİDİYORUZ"
+  },
+  {
+    "question": "ВИЕ ОТИВАТЕ В ПАРКА (VIE OTIVATE V PARKA) (Çoğul)",
+    "answer": "SİZ PARKA GİDİYORSUNUZ"
+  },
+  {
+    "question": "ТЕ ОТИВАТ НА РАЗХОДКА (TE OTIVAT NA RAZHODKA) (Çoğul)",
+    "answer": "ONLAR GEZMEYE GİDİYOR"
+  },
+  {
+    "question": "АЗ ОТИДОХ НА УЧИЛИЩЕ (AZ OTIDOH NA UCHILISHTE) (Nötr)",
+    "answer": "BEN OKULA GİTTİM"
+  },
+  {
+    "question": "ТИ ОТИДЕ НА РАБОТА (TI OTIDE NA RABOTA) (Dişil)",
+    "answer": "SEN İŞE GİTTİN"
+  },
+  {
+    "question": "ТОЙ ОТИДЕ НА ШОПИНГ (TOY OTIDE NA SHOPING) (Eril)",
+    "answer": "O ALIŞVERİŞE GİTTİ (ERİL)"
+  },
+  {
+    "question": "ТЯ ОТИДЕ НА ШОПИНГ (TYA OTIDE NA SHOPING) (Dişil)",
+    "answer": "O ALIŞVERİŞE GİTTİ (DİŞİL)"
+  },
+  {
+    "question": "ТО ОТИДЕ НА ШОПИНГ (TO OTIDE NA SHOPING) (Nötr)",
+    "answer": "O ALIŞVERİŞE GİTTİ (NÖTR)"
+  },
+  {
+    "question": "НИЕ ОТИДОХМЕ НА РАБОТА (NIE OTIDOHME NA RABOTA) (Çoğul)",
+    "answer": "BİZ İŞE GİTTİK"
+  },
+  {
+    "question": "ВИЕ ОТИДОХТЕ НА ЛЕКАР (VIE OTIDOHTE NA LEKAR) (Çoğul)",
+    "answer": "SİZ DOKTORA GİTTİNİZ"
+  },
+  {
+    "question": "ТЕ ОТИДОХА НА УЧИЛИЩЕ (TE OTIDOHA NA UCHILISHTE) (Çoğul)",
+    "answer": "ONLAR OKULA GİTTİ"
+  },
+  {
+    "question": "АЗ НЕ ОТИВАМ НА РАБОТА ТОЧНО В ДЕВЕТ ЧАСА (AZ NE OTIVAM NA RABOTA TOCHNO V DEVET CHASA) (Dişil)",
+    "answer": "TAM SAAT 9’DA İŞE GİTMİYORUM"
+  },
+  {
+    "question": "ТИ НЕ ОТИВАШ С КОЛА НА МАГАЗИНА (TI NE OTIVASH S KOLA NA MAGAZINA) (Dişil)",
+    "answer": "ARABA İLE MARKETE GİTMİYORSUN"
+  },
+  {
+    "question": "ТОЙ НЕ ОТИВА НА УРОК (TOY NE OTIVA NA UROK) (Eril)",
+    "answer": "O DERSE GİTMİYOR (ERİL)"
+  },
+  {
+    "question": "ТЯ НЕ ОТИВА НА УРОК (TYA NE OTIVA NA UROK) (Dişil)",
+    "answer": "O DERSE GİTMİYOR (DİŞİL)"
+  },
+  {
+    "question": "ТО НЕ ОТИВА НА УРОК (TO NE OTIVA NA UROK) (Nötr)",
+    "answer": "O DERSE GİTMİYOR (NÖTR)"
+  },
+  {
+    "question": "НИЕ НЕ ОТИВАМЕ В БЪЛГАРИЯ С АВТОБУС (NIE NE OTIVAME V BALGARIYA S AVTOBUS) (Çoğul)",
+    "answer": "BİZ BULGARİSTANA OTOBÜSLE GİTMİYORUZ"
+  },
+  {
+    "question": "ВИЕ НЕ ОТИВАТЕ В ПАРКА (VIE NE OTIVATE V PARKA) (Çoğul)",
+    "answer": "SİZ PARKA GİTMİYORSUNUZ"
+  },
+  {
+    "question": "ТЕ НЕ ОТИВАТ НА РАЗХОДКА (TE NE OTIVAT NA RAZHODKA) (Çoğul)",
+    "answer": "ONLAR GEZMEYE GİTMİYOR"
+  },
+  {
+    "question": "АЗ НЕ ОТИДОХ НА УЧИЛИЩЕ (AZ NE OTIDOH NA UCHILISHTE) (Nötr)",
+    "answer": "BEN OKULA GİTMEDİM"
+  },
+  {
+    "question": "ТИ НЕ ОТИДЕ НА РАБОТА (TI NE OTIDE NA RABOTA) (Dişil)",
+    "answer": "SEN İŞE GİTMEDİN"
+  },
+  {
+    "question": "ТОЙ НЕ ОТИДЕ НА ШОПИНГ (TOY NE OTIDE NA SHOPING) (Eril)",
+    "answer": "O ALIŞVERİŞE GİTMEDİ (ERİL)"
+  },
+  {
+    "question": "ТЯ НЕ ОТИДЕ НА ШОПИНГ (TYA NE OTIDE NA SHOPING) (Dişil)",
+    "answer": "O ALIŞVERİŞE GİTMEDİ (DİŞİL)"
+  },
+  {
+    "question": "ТО НЕ ОТИДЕ НА ШОПИНГ (TO NE OTIDE NA SHOPING) (Nötr)",
+    "answer": "O ALIŞVERİŞE GİTMEDİ (NÖTR)"
+  },
+  {
+    "question": "НИЕ НЕ ОТИДОХМЕ НА РАБОТА (NIE NE OTIDOHME NA RABOTA) (Çoğul)",
+    "answer": "BİZ İŞE GİTMEDİK"
+  },
+  {
+    "question": "ВИЕ НЕ ОТИДОХТЕ НА ЛЕКАР (VIE NE OTIDOHTE NA LEKAR) (Çoğul)",
+    "answer": "SİZ DOKTORA GİTMEDİNİZ"
+  },
+  {
+    "question": "ТЕ НЕ ОТИДОХА НА УЧИЛИЩЕ (TE NE OTIDOHA NA UCHILISHTE) (Çoğul)",
+    "answer": "ONLAR OKULA GİTMEDİ"
+  },
+  {
+    "question": "ОТИВАМ ЛИ НА РАБОТА ТОЧНО В ДЕВЕТ ЧАСА? (OTIVAM LI NA RABOTA TOCHNO V DEVET CHASA?) (Dişil)",
+    "answer": "TAM SAAT 9’DA İŞE GİDİYOR MUYUM?"
+  },
+  {
+    "question": "ОТИВАШ ЛИ С КОЛА НА МАГАЗИНА? (OTIVASH LI S KOLA NA MAGAZINA?) (Dişil)",
+    "answer": "ARABA İLE MARKETE GİDİYOR MUSUN?"
+  },
+  {
+    "question": "ТОЙ ОТИВА ЛИ НА УРОК? (TOY OTIVA LI NA UROK?) (Eril)",
+    "answer": "O DERSE GİDİYOR MU? (ERİL)"
+  },
+  {
+    "question": "ТЯ ОТИВА ЛИ НА УРОК? (TYA OTIVA LI NA UROK?) (Dişil)",
+    "answer": "O DERSE GİDİYOR MU? (DİŞİL)"
+  },
+  {
+    "question": "ТО ОТИВА ЛИ НА УРОК? (TO OTIVA LI NA UROK?) (Nötr)",
+    "answer": "O DERSE GİDİYOR MU? (NÖTR)"
+  },
+  {
+    "question": "НИЕ ОТИВАМЕ ЛИ В БЪЛГАРИЯ С АВТОБУС? (NIE OTIVAME LI V BALGARIYA S AVTOBUS?) (Çoğul)",
+    "answer": "BİZ BULGARİSTANA OTOBÜSLE GİDİYOR MUYUZ?"
+  },
+  {
+    "question": "ВИЕ ОТИВАТЕ ЛИ В ПАРКА? (VIE OTIVATE LI V PARKA?) (Çoğul)",
+    "answer": "SİZ PARKA GİDİYOR MUSUNUZ?"
+  },
+  {
+    "question": "ТЕ ОТИВАТ ЛИ НА РАЗХОДКА? (TE OTIVAT LI NA RAZHODKA?) (Çoğul)",
+    "answer": "ONLAR GEZMEYE GİDİYOR MU?"
+  },
+  {
+    "question": "АЗ ОТИДОХ ЛИ НА УЧИЛИЩЕ? (AZ OTIDOH LI NA UCHILISHTE?) (Nötr)",
+    "answer": "BEN OKULA GİTTİM Mİ?"
+  },
+  {
+    "question": "ТИ ОТИДЕ ЛИ НА РАБОТА? (TI OTIDE LI NA RABOTA?) (Dişil)",
+    "answer": "SEN İŞE GİTTİN Mİ?"
+  },
+  {
+    "question": "ТОЙ ОТИДЕ ЛИ НА ШОПИНГ? (TOY OTIDE LI NA SHOPING?) (Eril)",
+    "answer": "O ALIŞVERİŞE GİTTİ Mİ? (ERİL)"
+  },
+  {
+    "question": "ТЯ ОТИДЕ ЛИ НА ШОПИНГ? (TYA OTIDE LI NA SHOPING?) (Dişil)",
+    "answer": "O ALIŞVERİŞE GİTTİ Mİ? (DİŞİL)"
+  },
+  {
+    "question": "ТО ОТИДЕ ЛИ НА ШОПИНГ? (TO OTIDE LI NA SHOPING?) (Nötr)",
+    "answer": "O ALIŞVERİŞE GİTTİ Mİ? (NÖTR)"
+  },
+  {
+    "question": "НИЕ ОТИДОХМЕ ЛИ НА РАБОТА? (NIE OTIDOHME LI NA RABOTA?) (Çoğul)",
+    "answer": "BİZ İŞE GİTTİK Mİ?"
+  },
+  {
+    "question": "ВИЕ ОТИДОХТЕ ЛИ НА ЛЕКАР? (VIE OTIDOHTE LI NA LEKAR?) (Çoğul)",
+    "answer": "SİZ DOKTORA GİTTİNİZ Mİ?"
+  },
+  {
+    "question": "ТЕ ОТИДОХА ЛИ НА УЧИЛИЩЕ? (TE OTIDOHA LI NA UCHILISHTE?) (Çoğul)",
+    "answer": "ONLAR OKULA GİTTİ Mİ?"
+  },
+  {
+    "question": "АЗ СТАВАМ (AZ STAVAM)",
+    "answer": "BEN KALKIYORUM"
+  },
+  {
+    "question": "ТИ СТАВАШ (TI STAVASH)",
+    "answer": "SEN KALKIYORSUN"
+  },
+  {
+    "question": "ТОЙ СТАВА (TOY STAVA) (Eril)",
+    "answer": "O KALKIYOR (ERİL)"
+  },
+  {
+    "question": "ТЯ СТАВА (TYA STAVA) (Dişil)",
+    "answer": "O KALKIYOR (DİŞİL)"
+  },
+  {
+    "question": "ТО СТАВА (TO STAVA) (Nötr)",
+    "answer": "O KALKIYOR (NÖTR)"
+  },
+  {
+    "question": "НИЕ СТАВАМЕ (NIE STAVAME) (Çoğul)",
+    "answer": "BİZ KALKIYORUZ"
+  },
+  {
+    "question": "ВИЕ СТАВАТЕ (VIE STAVATE) (Çoğul)",
+    "answer": "SİZ KALKIYORSUNUZ"
+  },
+  {
+    "question": "ТЕ СТАВАТ (TE STAVAT) (Çoğul)",
+    "answer": "ONLAR KALKIYORLAR"
+  },
+  {
+    "question": "АЗ СТАНАХ (AZ STANAH)",
+    "answer": "BEN KALKTIM"
+  },
+  {
+    "question": "ТИ СТАНА (TI STANA)",
+    "answer": "SEN KALKTIN"
+  },
+  {
+    "question": "ТОЙ СТАНА (TOY STANA) (Eril)",
+    "answer": "O KALKTİ (ERİL)"
+  },
+  {
+    "question": "ТЯ СТАНА (TYA STANA) (Dişil)",
+    "answer": "O KALKTİ (DİŞİL)"
+  },
+  {
+    "question": "ТО СТАНА (TO STANA) (Nötr)",
+    "answer": "O KALKTİ (NÖTR)"
+  },
+  {
+    "question": "НИЕ СТАНАХМЕ (NIE STANAHME) (Çoğul)",
+    "answer": "BİZ KALKTIM"
+  },
+  {
+    "question": "ВИЕ СТАНАХТЕ (VIE STANAHTE) (Çoğul)",
+    "answer": "SİZ KALKTINIZ"
+  },
+  {
+    "question": "ТЕ СТАНАХА (TE STANAHA) (Çoğul)",
+    "answer": "ONLAR KALKTİ"
+  },
+  {
+    "question": "СТАВАМ В СЕДЕМ И ПЕТНАЙСЕ (STAVAM V SEDEM I PETNAYSE) (Eril)",
+    "answer": "SAAT YEDİYİ ONBEŞ GEÇE KALKIYORUM"
+  },
+  {
+    "question": "СТАВАШ РАНО ЗА УЧИЛИЩЕ (STAVASH RANO ZA UCHILISHTE) (Eril)",
+    "answer": "SEN OKUL İÇİN ERKEN KALKIYORSUN"
+  },
+  {
+    "question": "ТОЙ СТАВА ОТ ЛЕГЛОТО БАВНО (TOY STAVA OT LEGLOTO BAVNO) (Eril)",
+    "answer": "O YATAKTAN YAVAŞ KALKIYOR (ERİL)"
+  },
+  {
+    "question": "ТЯ СТАВА ОТ ЛЕГЛОТО БАВНО (TYA STAVA OT LEGLOTO BAVNO) (Dişil)",
+    "answer": "O YATAKTAN YAVAŞ KALKIYOR (DİŞİL)"
+  },
+  {
+    "question": "ТО СТАВА ОТ ЛЕГЛОТО БАВНО (TO STAVA OT LEGLOTO BAVNO) (Nötr)",
+    "answer": "O YATAKTAN YAVAŞ KALKIYOR (NÖTR)"
+  },
+  {
+    "question": "НИЕ СТАВАМЕ РАНО (NIE STAVAME RANO) (Çoğul)",
+    "answer": "BİZ ERKEN KALKIYORUZ"
+  },
+  {
+    "question": "ВИЕ СТАВАТЕ В ДЕСЕТ ЧАСА (VIE STAVATE V DESET CHASA) (Çoğul)",
+    "answer": "SİZ SAAT ONDA KALKIYORSUNUZ"
+  },
+  {
+    "question": "ТЕ СТАВАТ РАНО В СЪБОТА (TE STAVAT RANO V SABOTA) (Çoğul)",
+    "answer": "ONLAR CUMARTESİ ERKEN KALKIYOR"
+  },
+  {
+    "question": "АЗ СТАНАХ РАНО ТАЗИ СУТРИН (AZ STANAH RANO TAZI SUTRIN) (Eril)",
+    "answer": "BEN BU SABAH ERKEN KALKTIM"
+  },
+  {
+    "question": "ТИ СТАНА КЪСНО В НЕДЕЛЯ (TI STANA KASNO V NEDELYA) (Eril)",
+    "answer": "SEN PAZAR GÜNÜ GEÇ KALKTIN"
+  },
+  {
+    "question": "ТОЙ СТАВА В 6 ЧАСА И ОТИВА НА РАБОТА (TOY STAVA V 6 CHASA I OTIVA NA RABOTA) (Eril)",
+    "answer": "O SAAT 6’DA KALKIYOR VE İŞE GİDİYOR (ERİL)"
+  },
+  {
+    "question": "ТЯ СТАВА В 6 ЧАСА И ОТИВА НА РАБОТА (TYA STAVA V 6 CHASA I OTIVA NA RABOTA) (Dişil)",
+    "answer": "O SAAT 6’DA KALKIYOR VE İŞE GİDİYOR (DİŞİL)"
+  },
+  {
+    "question": "ТО СТАВА В 6 ЧАСА И ОТИВА НА РАБОТА (TO STAVA V 6 CHASA I OTIVA NA RABOTA) (Nötr)",
+    "answer": "O SAAT 6’DA KALKIYOR VE İŞE GİDİYOR (NÖTR)"
+  },
+  {
+    "question": "НИЕ СТАНАХМЕ ЗА РАБОТА (NIE STANAHME ZA RABOTA) (Çoğul)",
+    "answer": "BİZ İŞE İÇİN KALKTIM"
+  },
+  {
+    "question": "ВИЕ СТАНАХТЕ РАНО (VIE STANAHTE RANO) (Çoğul)",
+    "answer": "SİZ ERKEN KALKTINIZ"
+  },
+  {
+    "question": "ТЕ СТАНАХА И ОТИДОХА В ПАРКА (TE STANAHA I OTIDOHA V PARKA) (Çoğul)",
+    "answer": "ONLAR KALKTI VE PARKA GİTTİ"
+  },
+  {
+    "question": "АЗ НЕ СТАВАМ В СЕДЕМ И ПЕТНАЙСЕ (AZ NE STAVAM V SEDEM I PETNAYSE) (Eril)",
+    "answer": "SAAT YEDİYİ ONBEŞ GEÇE KALKMIYORUM"
+  },
+  {
+    "question": "ТИ НЕ СТАВАШ РАНО ЗА УЧИЛИЩЕ (TI NE STAVASH RANO ZA UCHILISHTE) (Eril)",
+    "answer": "SEN OKUL İÇİN ERKEN KALKMIYORSUN"
+  },
+  {
+    "question": "ТОЙ НЕ СТАВА ОТ ЛЕГЛОТО БАВНО (TOY NE STAVA OT LEGLOTO BAVNO) (Eril)",
+    "answer": "O YATAKTAN YAVAŞ KALKMIYOR (ERİL)"
+  },
+  {
+    "question": "ТЯ НЕ СТАВА ОТ ЛЕГЛОТО БАВНО (TYA NE STAVA OT LEGLOTO BAVNO) (Dişil)",
+    "answer": "O YATAKTAN YAVAŞ KALKMIYOR (DİŞİL)"
+  },
+  {
+    "question": "ТО НЕ СТАВА ОТ ЛЕГЛОТО БАВНО (TO NE STAVA OT LEGLOTO BAVNO) (Nötr)",
+    "answer": "O YATAKTAN YAVAŞ KALKMIYOR (NÖTR)"
+  },
+  {
+    "question": "НИЕ НЕ СТАВАМЕ РАНО (NIE NE STAVAME RANO) (Çoğul)",
+    "answer": "BİZ ERKEN KALKMIYORUZ"
+  },
+  {
+    "question": "ВИЕ НЕ СТАВАТЕ В ДЕСЕТ ЧАСА (VIE NE STAVATE V DESET CHASA) (Çoğul)",
+    "answer": "SİZ SAAT ONDA KALKMIYORSUNUZ"
+  },
+  {
+    "question": "ТЕ НЕ СТАВАТ РАНО В СЪБОТА (TE NE STAVAT RANO V SABOTA) (Çoğul)",
+    "answer": "ONLAR CUMARTESİ ERKEN KALKMIYOR"
+  },
+  {
+    "question": "АЗ НЕ СТАНАХ РАНО ТАЗИ СУТРИН (AZ NE STANAH RANO TAZI SUTRIN) (Eril)",
+    "answer": "BEN BU SABAH ERKEN KALKMADIM"
+  },
+  {
+    "question": "ТИ НЕ СТАНА КЪСНО В НЕДЕЛЯ (TI NE STANA KASNO V NEDELYA) (Eril)",
+    "answer": "SEN PAZAR GÜNÜ GEÇ KALKMADIN"
+  },
+  {
+    "question": "ТОЙ НЕ СТАВА В 6 ЧАСА И НЕ ОТИВА НА РАБОТА (TOY NE STAVA V 6 CHASA I NE OTIVA NA RABOTA) (Eril)",
+    "answer": "O SAAT 6’DA KALKMIYOR VE İŞE GİTMİYOR (ERİL)"
+  },
+  {
+    "question": "ТЯ НЕ СТАВА В 6 ЧАСА И НЕ ОТИВА НА РАБОТА (TYA NE STAVA V 6 CHASA I NE OTIVA NA RABOTA) (Dişil)",
+    "answer": "O SAAT 6’DA KALKMIYOR VE İŞE GİTMİYOR (DİŞİL)"
+  },
+  {
+    "question": "ТО НЕ СТАВА В 6 ЧАСА И НЕ ОТИВА НА РАБОТА (TO NE STAVA V 6 CHASA I NE OTIVA NA RABOTA) (Nötr)",
+    "answer": "O SAAT 6’DA KALKMIYOR VE İŞE GİTMİYOR (NÖTR)"
+  },
+  {
+    "question": "НИЕ НЕ СТАНАХМЕ ЗА РАБОТА (NIE NE STANAHME ZA RABOTA) (Çoğul)",
+    "answer": "BİZ İŞE İÇİN KALKMADIK"
+  },
+  {
+    "question": "ВИЕ НЕ СТАНАХТЕ РАНО (VIE NE STANAHTE RANO) (Çoğul)",
+    "answer": "SİZ ERKEN KALKMADINIZ"
+  },
+  {
+    "question": "ТЕ НЕ СТАНАХА И НЕ ОТИДОХА В ПАРКА (TE NE STANAHA I NE OTIDOHA V PARKA) (Çoğul)",
+    "answer": "ONLAR KALKMADI VE PARKA GİTMEDİ"
+  },
+  {
+    "question": "АЗ СТАВАМ ЛИ В СЕДЕМ И ПЕТНАЙСЕ? (AZ STAVAM LI V SEDEM I PETNAYSE?) (Eril)",
+    "answer": "SAAT YEDİYİ ONBEŞ GEÇE KALKIYOR MUYUM?"
+  },
+  {
+    "question": "ТИ СТАВАШ ЛИ РАНО ЗА УЧИЛИЩЕ? (TI STAVASH LI RANO ZA UCHILISHTE?) (Eril)",
+    "answer": "SEN OKUL İÇİN ERKEN KALKIYOR MUSUN?"
+  },
+  {
+    "question": "ТОЙ СТАВА ЛИ ОТ ЛЕГЛОТО БАВНО? (TOY STAVA LI OT LEGLOTO BAVNO?) (Eril)",
+    "answer": "O YATAKTAN YAVAŞ KALKIYOR MU? (ERİL)"
+  },
+  {
+    "question": "ТЯ СТАВА ЛИ ОТ ЛЕГЛОТО БАВНО? (TYA STAVA LI OT LEGLOTO BAVNO?) (Dişil)",
+    "answer": "O YATAKTAN YAVAŞ KALKIYOR MU? (DİŞİL)"
+  },
+  {
+    "question": "ТО СТАВА ЛИ ОТ ЛЕГЛОТО БАВНО? (TO STAVA LI OT LEGLOTO BAVNO?) (Nötr)",
+    "answer": "O YATAKTAN YAVAŞ KALKIYOR MU? (NÖTR)"
+  },
+  {
+    "question": "НИЕ СТАВАМЕ ЛИ РАНО? (NIE STAVAME LI RANO?) (Çoğul)",
+    "answer": "BİZ ERKEN KALKIYOR MUYUZ?"
+  },
+  {
+    "question": "ВИЕ СТАВАТЕ ЛИ В ДЕСЕТ ЧАСА? (VIE STAVATE LI V DESET CHASA?) (Çoğul)",
+    "answer": "SİZ SAAT ONDA KALKIYOR MUSUNUZ?"
+  },
+  {
+    "question": "ТЕ СТАВАТ ЛИ РАНО В СЪБОТА? (TE STAVAT LI RANO V SABOTA?) (Çoğul)",
+    "answer": "ONLAR CUMARTESİ ERKEN KALKIYOR MU?"
+  },
+  {
+    "question": "АЗ МИЯ (AZ MIYA)",
+    "answer": "BEN YIKIYORUM"
+  },
+  {
+    "question": "ТИ МИЕШ (TI MIESH)",
+    "answer": "SEN YIKIYORSUN"
+  },
+  {
+    "question": "ТОЙ МИЕ (TOY MIE) (Eril)",
+    "answer": "O YIKIYOR (ERİL)"
+  },
+  {
+    "question": "ТЯ МИЕ (TYA MIE) (Dişil)",
+    "answer": "O YIKIYOR (DİŞİL)"
+  },
+  {
+    "question": "ТО МИЕ (TO MIE) (Nötr)",
+    "answer": "O YIKIYOR (NÖTR)"
+  },
+  {
+    "question": "НИЕ МИЕМ (NIE MIEM) (Çoğul)",
+    "answer": "BİZ YIKIYORUZ"
+  },
+  {
+    "question": "ВИЕ МИЕТЕ (VIE MIETE) (Çoğul)",
+    "answer": "SİZ YIKIYORSUNUZ"
+  },
+  {
+    "question": "ТЕ МИЯТ (TE MIYAT) (Çoğul)",
+    "answer": "ONLAR YIKIYORLAR"
+  },
+  {
+    "question": "АЗ МИХ (AZ MIH)",
+    "answer": "BEN YIKADIM"
+  },
+  {
+    "question": "ТИ МИ (TI MI)",
+    "answer": "SEN YIKADIN"
+  },
+  {
+    "question": "ТОЙ МИ (TOY MI) (Eril)",
+    "answer": "O YIKADI (ERİL)"
+  },
+  {
+    "question": "ТЯ МИ (TYA MI) (Dişil)",
+    "answer": "O YIKADI (DİŞİL)"
+  },
+  {
+    "question": "ТО МИ (TO MI) (Nötr)",
+    "answer": "O YIKADI (NÖTR)"
+  },
+  {
+    "question": "НИЕ МИХМЕ (NIE MIHME) (Çoğul)",
+    "answer": "BİZ YIKADIK"
+  },
+  {
+    "question": "ВИЕ МИХТЕ (VIE MIHTE) (Çoğul)",
+    "answer": "SİZ YIKADINIZ"
+  },
+  {
+    "question": "ТЕ МИХА (TE MIHA) (Çoğul)",
+    "answer": "ONLAR YIKADI"
+  },
+  {
+    "question": "АЗ МИЯ КОЛАТА (AZ MIYA KOLATA) (Dişil)",
+    "answer": "ARABAYI YIKIYORUM"
+  },
+  {
+    "question": "ТИ МИЕШ КОЛЕЛОТО (TI MIESH KOLELOTO) (Nötr)",
+    "answer": "SEN BİSİKLETİ YIKIYORSUN"
+  },
+  {
+    "question": "ТОЙ МИЕ ПРОЗОРЕЦА (TOY MIE PROZORETSA) (Eril)",
+    "answer": "O CAMI YIKIYOR (ERİL)"
+  },
+  {
+    "question": "ТЯ МИЕ ПРОЗОРЕЦА (TYA MIE PROZORETSA) (Dişil)",
+    "answer": "O CAMI YIKIYOR (DİŞİL)"
+  },
+  {
+    "question": "ТО МИЕ ПРОЗОРЕЦА (TO MIE PROZORETSA) (Nötr)",
+    "answer": "O CAMI YIKIYOR (NÖTR)"
+  },
+  {
+    "question": "НИЕ МИЕМ РЪЦЕТЕ СИ СЪС САПУН (NIE MIEM RATSETE SI SAS SAPUN) (Çoğul)",
+    "answer": "BİZ ELLERİMİZİ SABUNLA YIKIYORUZ"
+  },
+  {
+    "question": "ВИЕ МИЕТЕ КОЛАТА В АВТОМИВКА (VIE MIETE KOLATA V AVTOMIVKA) (Çoğul)",
+    "answer": "SİZ ARABAYI YIKAMACIDA YIKIYORSUNUZ"
+  },
+  {
+    "question": "АЗ МИХ ЧИНИИТЕ СЛЕД ВЕЧЕРЯ (AZ MIH CHINIITE SLED VECHERYA) (Çoğul)",
+    "answer": "AKŞAM YEMEĞİNDEN SONRA TABAKLARI YIKADIM"
+  },
+  {
+    "question": "ТИ МИ КОЛАТА ВЧЕРА (TI MI KOLATA VCHERA) (Dişil)",
+    "answer": "SEN ARABAYI DÜN YIKADIN"
+  },
+  {
+    "question": "ТОЙ МИ КОЛЕЛОТО НА ДЕТЕТО (TOY MI KOLELOTO NA DETETO) (Eril)",
+    "answer": "O ÇOCUĞUN BİSİKLETİNİ YIKADI (ERİL)"
+  },
+  {
+    "question": "ТЯ МИ КОЛЕЛОТО НА ДЕТЕТО (TYA MI KOLELOTO NA DETETO) (Dişil)",
+    "answer": "O ÇOCUĞUN BİSİKLETİNİ YIKADI (DİŞİL)"
+  },
+  {
+    "question": "ТО МИ КОЛЕЛОТО НА ДЕТЕТО (TO MI KOLELOTO NA DETETO) (Nötr)",
+    "answer": "O ÇOCUĞUN BİSİKLETİNİ YIKADI (NÖTR)"
+  },
+  {
+    "question": "НИЕ МИХМЕ ПРОЗОРЦИТЕ ВЧЕРА (NIE MIHME PROZORTSITE VCHERA) (Çoğul)",
+    "answer": "BİZ CAMLARI DÜN YIKADIK"
+  },
+  {
+    "question": "ВИЕ МИХТЕ ГАРАЖА МНОГО ДОБРЕ (VIE MIHTE GARAZHA MNOGO DOBRE) (Çoğul)",
+    "answer": "SİZ GARAJI ÇOK İYİ YIKADINIZ"
+  },
+  {
+    "question": "ТЕ МИХА КИЛИМИТЕ (TE MIHA KILIMITE) (Çoğul)",
+    "answer": "ONLAR HALILARI YIKADI"
+  },
+  {
+    "question": "АЗ НЕ МИЯ КОЛАТА (AZ NE MIYA KOLATA) (Dişil)",
+    "answer": "ARABAYI YIKAMIYORUM"
+  },
+  {
+    "question": "ТИ НЕ МИЕШ КОЛЕЛОТО (TI NE MIESH KOLELOTO) (Nötr)",
+    "answer": "SEN BİSİKLETİ YIKAMIYORSUN"
+  },
+  {
+    "question": "ТОЙ НЕ МИЕ ПРОЗОРЕЦА (TOY NE MIE PROZORETSA) (Eril)",
+    "answer": "O CAMI YIKAMIYOR (ERİL)"
+  },
+  {
+    "question": "ТЯ НЕ МИЕ ПРОЗОРЕЦА (TYA NE MIE PROZORETSA) (Dişil)",
+    "answer": "O CAMI YIKAMIYOR (DİŞİL)"
+  },
+  {
+    "question": "ТО НЕ МИЕ ПРОЗОРЕЦА (TO NE MIE PROZORETSA) (Nötr)",
+    "answer": "O CAMI YIKAMIYOR (NÖTR)"
+  },
+  {
+    "question": "НИЕ НЕ МИЕМ РЪЦЕТЕ СИ СЪС САПУН (NIE NE MIEM RATSETE SI SAS SAPUN) (Çoğul)",
+    "answer": "BİZ ELLERİMİZİ SABUNLA YIKAMIYORUZ"
+  },
+  {
+    "question": "ВИЕ НЕ МИЕТЕ КОЛАТА В АВТОМИВКА (VIE NE MIETE KOLATA V AVTOMIVKA) (Çoğul)",
+    "answer": "SİZ ARABAYI YIKAMACIDA YIKAMIYORSUNUZ"
+  },
+  {
+    "question": "АЗ НЕ МИХ ЧИНИИТЕ СЛЕД ВЕЧЕРЯ (AZ NE MIH CHINIITE SLED VECHERYA) (Çoğul)",
+    "answer": "AKŞAM YEMEĞİNDEN SONRA TABAKLARI YIKAMADIM"
+  },
+  {
+    "question": "ТИ НЕ МИ КОЛАТА ВЧЕРА (TI NE MI KOLATA VCHERA) (Dişil)",
+    "answer": "SEN ARABAYI DÜN YIKAMADIN"
+  },
+  {
+    "question": "ТОЙ НЕ МИ КОЛЕЛОТО НА ДЕТЕТО (TOY NE MI KOLELOTO NA DETETO) (Eril)",
+    "answer": "O ÇOCUĞUN BİSİKLETİNİ YIKAMADI (ERİL)"
+  },
+  {
+    "question": "ТЯ НЕ МИ КОЛЕЛОТО НА ДЕТЕТО (TYA NE MI KOLELOTO NA DETETO) (Dişil)",
+    "answer": "O ÇOCUĞUN BİSİKLETİNİ YIKAMADI (DİŞİL)"
+  },
+  {
+    "question": "ТО НЕ МИ КОЛЕЛОТО НА ДЕТЕТО (TO NE MI KOLELOTO NA DETETO) (Nötr)",
+    "answer": "O ÇOCUĞUN BİSİKLETİNİ YIKAMADI (NÖTR)"
+  },
+  {
+    "question": "НИЕ НЕ МИХМЕ ПРОЗОРЦИТЕ ВЧЕРА (NIE NE MIHME PROZORTSITE VCHERA) (Çoğul)",
+    "answer": "BİZ CAMLARI DÜN YIKAMADIK"
+  },
+  {
+    "question": "ВИЕ НЕ МИХТЕ ГАРАЖА МНОГО ДОБРЕ (VIE NE MIHTE GARAZHA MNOGO DOBRE) (Çoğul)",
+    "answer": "SİZ GARAJI ÇOK İYİ YIKAMADINIZ"
+  },
+  {
+    "question": "ТЕ НЕ МИХА КИЛИМИТЕ (TE NE MIHA KILIMITE) (Çoğul)",
+    "answer": "ONLAR HALILARI YIKAMADI"
+  },
+  {
+    "question": "АЗ МИЯ ЛИ КОЛАТА? (AZ MIYA LI KOLATA?) (Dişil)",
+    "answer": "ARABAYI YIKIYOR MUYUM?"
+  },
+  {
+    "question": "ТИ МИЕШ ЛИ КОЛЕЛОТО? (TI MIESH LI KOLELOTO?) (Nötr)",
+    "answer": "SEN BİSİKLETİ YIKIYOR MUSUN?"
+  },
+  {
+    "question": "ТОЙ МИЕ ЛИ ПРОЗОРЕЦА? (TOY MIE LI PROZORETSA?) (Eril)",
+    "answer": "O CAMI YIKIYOR MU? (ERİL)"
+  },
+  {
+    "question": "ТЯ МИЕ ЛИ ПРОЗОРЕЦА? (TYA MIE LI PROZORETSA?) (Dişil)",
+    "answer": "O CAMI YIKIYOR MU? (DİŞİL)"
+  },
+  {
+    "question": "ТО МИЕ ЛИ ПРОЗОРЕЦА? (TO MIE LI PROZORETSA?) (Nötr)",
+    "answer": "O CAMI YIKIYOR MU? (NÖTR)"
+  },
+  {
+    "question": "НИЕ МИЕМ ЛИ РЪЦЕТЕ СИ СЪС САПУН? (NIE MIEM LI RATSETE SI SAS SAPUN?) (Çoğul)",
+    "answer": "BİZ ELLERİMİZİ SABUNLA YIKIYOR MUYUZ?"
+  },
+  {
+    "question": "ВИЕ МИЕТЕ ЛИ КОЛАТА В АВТОМИВКА? (VIE MIETE LI KOLATA V AVTOMIVKA?) (Çoğul)",
+    "answer": "SİZ ARABAYI YIKAMACIDA YIKIYOR MUSUNUZ?"
+  },
+  {
+    "question": "АЗ ЧИСТЯ (AZ CHISTYA)",
+    "answer": "BEN TEMİZLİYORUM"
+  },
+  {
+    "question": "ТИ ЧИСТИШ (TI CHISTISH)",
+    "answer": "SEN TEMİZLİYORSUN"
+  },
+  {
+    "question": "ТОЙ ЧИСТИ (TOY CHISTI) (Eril)",
+    "answer": "O TEMİZLİYOR (ERİL)"
+  },
+  {
+    "question": "ТЯ ЧИСТИ (TYA CHISTI) (Dişil)",
+    "answer": "O TEMİZLİYOR (DİŞİL)"
+  },
+  {
+    "question": "ТО ЧИСТИ (TO CHISTI) (Nötr)",
+    "answer": "O TEMİZLİYOR (NÖTR)"
+  },
+  {
+    "question": "НИЕ ЧИСТИМ (NIE CHISTIM) (Çoğul)",
+    "answer": "BİZ TEMİZLİYORUZ"
+  },
+  {
+    "question": "ВИЕ ЧИСТИТЕ (VIE CHISTITE) (Çoğul)",
+    "answer": "SİZ TEMİZLİYORSUNUZ"
+  },
+  {
+    "question": "ТЕ ЧИСТЯТ (TE CHISTYAT) (Çoğul)",
+    "answer": "ONLAR TEMİZLİYORLAR"
+  },
+  {
+    "question": "АЗ ЧИСТИХ (AZ CHISTIH)",
+    "answer": "BEN TEMİZLEDİM"
+  },
+  {
+    "question": "ТИ ЧИСТИ (TI CHISTI)",
+    "answer": "SEN TEMİZLEDİN"
+  },
+  {
+    "question": "ТОЙ ЧИСТИ (TOY CHISTI) (Eril)",
+    "answer": "O TEMİZLEDİ (ERİL)"
+  },
+  {
+    "question": "ТЯ ЧИСТИ (TYA CHISTI) (Dişil)",
+    "answer": "O TEMİZLEDİ (DİŞİL)"
+  },
+  {
+    "question": "ТО ЧИСТИ (TO CHISTI) (Nötr)",
+    "answer": "O TEMİZLEDİ (NÖTR)"
+  },
+  {
+    "question": "НИЕ ЧИСТИХМЕ (NIE CHISTIHME) (Çoğul)",
+    "answer": "BİZ TEMİZLEDİK"
+  },
+  {
+    "question": "ВИЕ ЧИСТИХТЕ (VIE CHISTIHTE) (Çoğul)",
+    "answer": "SİZ TEMİZLEDİNİZ"
+  },
+  {
+    "question": "ТЕ ЧИСТИХА (TE CHISTIHA) (Çoğul)",
+    "answer": "ONLAR TEMİZLEDİ"
+  },
+  {
+    "question": "АЗ ЧИСТЯ СТАЯТА МИ ВСЯКА СУТРИН (AZ CHISTYA STAYATA MI VSYAKA SUTRIN) (Dişil)",
+    "answer": "ODAMI HER SABAH TEMİZLİYORUM"
+  },
+  {
+    "question": "ТИ ЧИСТИШ БАНЯТА МНОГО ДОБРЕ (TI CHISTISH BANYATA MNOGO DOBRE) (Dişil)",
+    "answer": "SEN BANYOYU ÇOK İYİ TEMİZLİYORSUN"
+  },
+  {
+    "question": "ТОЙ ЧИСТИ ОФИСА ВСЕКИ ПЕТЪК (TOY CHISTI OFISA VSEKI PETAK) (Eril)",
+    "answer": "O OFİSİ HER CUMA TEMİZLİYOR (ERİL)"
+  },
+  {
+    "question": "ТЯ ЧИСТИ ОФИСА ВСЕКИ ПЕТЪК (TYA CHISTI OFISA VSEKI PETAK) (Dişil)",
+    "answer": "O OFİSİ HER CUMA TEMİZLİYOR (DİŞİL)"
+  },
+  {
+    "question": "ТО ЧИСТИ ОФИСА ВСЕКИ ПЕТЪК (TO CHISTI OFISA VSEKI PETAK) (Nötr)",
+    "answer": "O OFİSİ HER CUMA TEMİZLİYOR (NÖTR)"
+  },
+  {
+    "question": "НИЕ ЧИСТИМ КУХНЯТА СЛЕД ВЕЧЕРЯ (NIE CHISTIM KUHNYATA SLED VECHERYA) (Çoğul)",
+    "answer": "BİZ AKŞAM YEMEĞİNDEN SONRA MUTFAĞI TEMİZLİYORUZ"
+  },
+  {
+    "question": "ВИЕ ЧИСТИТЕ ПРОЗОРЦИТЕ ДНЕС (VIE CHISTITE PROZORTSITE DNES) (Çoğul)",
+    "answer": "SİZ BUGÜN CAMLARI TEMİZLİYORSUNUZ"
+  },
+  {
+    "question": "ТЕ ЧИСТЯТ УЛИЦАТА ВСЕКИ ДЕН (TE CHISTYAT ULITSATA VSEKI DEN) (Çoğul)",
+    "answer": "ONLAR SOKAĞI HER GÜN TEMİZLİYOR"
+  },
+  {
+    "question": "АЗ ЧИСТИХ КУХНЯТА ВЧЕРА (AZ CHISTIH KUHNYATA VCHERA) (Dişil)",
+    "answer": "DÜN MUTFAĞI TEMİZLEDİM"
+  },
+  {
+    "question": "ТИ ЧИСТИ МАСАТА СЛЕД ВЕЧЕРЯ (TI CHISTI MASATA SLED VECHERYA) (Dişil)",
+    "answer": "SEN AKŞAM YEMEĞİNDEN SONRA MASAYI TEMİZLEDİN"
+  },
+  {
+    "question": "ТОЙ ЧИСТИ БАНЯТА ТАЗИ СУТРИН (TOY CHISTI BANYATA TAZI SUTRIN) (Eril)",
+    "answer": "O BU SABAH BANYOYU TEMİZLEDİ (ERİL)"
+  },
+  {
+    "question": "ТЯ ЧИСТИ БАНЯТА ТАЗИ СУТРИН (TYA CHISTI BANYATA TAZI SUTRIN) (Dişil)",
+    "answer": "O BU SABAH BANYOYU TEMİZLEDİ (DİŞİL)"
+  },
+  {
+    "question": "ТО ЧИСТИ БАНЯТА ТАЗИ СУТРИН (TO CHISTI BANYATA TAZI SUTRIN) (Nötr)",
+    "answer": "O BU SABAH BANYOYU TEMİZLEDİ (NÖTR)"
+  },
+  {
+    "question": "НИЕ ЧИСТИХМЕ СТАЯТА (NIE CHISTIHME STAYATA) (Çoğul)",
+    "answer": "BİZ ODAYI TEMİZLEDİK"
+  },
+  {
+    "question": "ВИЕ ЧИСТИХТЕ ДВОРА (VIE CHISTIHTE DVORA) (Çoğul)",
+    "answer": "SİZ BAHÇEYİ TEMİZLEDİNİZ"
+  },
+  {
+    "question": "ТЕ ЧИСТИХА КЪЩАТА (TE CHISTIHA KASHTATA) (Çoğul)",
+    "answer": "ONLAR EVİ TEMİZLEDİ"
+  },
+  {
+    "question": "АЗ НЕ ЧИСТЯ СТАЯТА МИ ВСЯКА СУТРИН (AZ NE CHISTYA STAYATA MI VSYAKA SUTRIN) (Dişil)",
+    "answer": "ODAMI HER SABAH TEMİZLEMİYORUM"
+  },
+  {
+    "question": "ТИ НЕ ЧИСТИШ БАНЯТА МНОГО ДОБРЕ (TI NE CHISTISH BANYATA MNOGO DOBRE) (Dişil)",
+    "answer": "SEN BANYOYU ÇOK İYİ TEMİZLEMİYORSUN"
+  },
+  {
+    "question": "ТОЙ НЕ ЧИСТИ ОФИСА ВСЕКИ ПЕТЪК (TOY NE CHISTI OFISA VSEKI PETAK) (Eril)",
+    "answer": "O OFİSİ HER CUMA TEMİZLEMİYOR (ERİL)"
+  },
+  {
+    "question": "ТЯ НЕ ЧИСТИ ОФИСА ВСЕКИ ПЕТЪК (TYA NE CHISTI OFISA VSEKI PETAK) (Dişil)",
+    "answer": "O OFİSİ HER CUMA TEMİZLEMİYOR (DİŞİL)"
+  },
+  {
+    "question": "ТО НЕ ЧИСТИ ОФИСА ВСЕКИ ПЕТЪК (TO NE CHISTI OFISA VSEKI PETAK) (Nötr)",
+    "answer": "O OFİSİ HER CUMA TEMİZLEMİYOR (NÖTR)"
+  },
+  {
+    "question": "НИЕ НЕ ЧИСТИМ КУХНЯТА СЛЕД ВЕЧЕРЯ (NIE NE CHISTIM KUHNYATA SLED VECHERYA) (Çoğul)",
+    "answer": "BİZ AKŞAM YEMEĞİNDEN SONRA MUTFAĞI TEMİZLEMİYORUZ"
+  },
+  {
+    "question": "ВИЕ НЕ ЧИСТИТЕ ПРОЗОРЦИТЕ ДНЕС (VIE NE CHISTITE PROZORTSITE DNES) (Çoğul)",
+    "answer": "SİZ BUGÜN CAMLARI TEMİZLEMİYORSUNUZ"
+  },
+  {
+    "question": "ТЕ НЕ ЧИСТЯТ УЛИЦАТА ВСЕКИ ДЕН (TE NE CHISTYAT ULITSATA VSEKI DEN) (Çoğul)",
+    "answer": "ONLAR SOKAĞI HER GÜN TEMİZLEMİYOR"
+  },
+  {
+    "question": "АЗ НЕ ЧИСТИХ КУХНЯТА ВЧЕРА (AZ NE CHISTIH KUHNYATA VCHERA) (Dişil)",
+    "answer": "DÜN MUTFAĞI TEMİZLEMEDİM"
+  },
+  {
+    "question": "ТИ НЕ ЧИСТИ МАСАТА СЛЕД ВЕЧЕРЯ (TI NE CHISTI MASATA SLED VECHERYA) (Dişil)",
+    "answer": "SEN AKŞAM YEMEĞİNDEN SONRA MASAYI TEMİZLEMEDİN"
+  },
+  {
+    "question": "ТОЙ НЕ ЧИСТИ БАНЯТА ТАЗИ СУТРИН (TOY NE CHISTI BANYATA TAZI SUTRIN) (Eril)",
+    "answer": "O BU SABAH BANYOYU TEMİZLEMEDİ (ERİL)"
+  },
+  {
+    "question": "ТЯ НЕ ЧИСТИ БАНЯТА ТАЗИ СУТРИН (TYA NE CHISTI BANYATA TAZI SUTRIN) (Dişil)",
+    "answer": "O BU SABAH BANYOYU TEMİZLEMEDİ (DİŞİL)"
+  },
+  {
+    "question": "ТО НЕ ЧИСТИ БАНЯТА ТАЗИ СУТРИН (TO NE CHISTI BANYATA TAZI SUTRIN) (Nötr)",
+    "answer": "O BU SABAH BANYOYU TEMİZLEMEDİ (NÖTR)"
+  },
+  {
+    "question": "НИЕ НЕ ЧИСТИХМЕ СТАЯТА (NIE NE CHISTIHME STAYATA) (Çoğul)",
+    "answer": "BİZ ODAYI TEMİZLEMEDİK"
+  },
+  {
+    "question": "ВИЕ НЕ ЧИСТИХТЕ ДВОРА (VIE NE CHISTIHTE DVORA) (Çoğul)",
+    "answer": "SİZ BAHÇEYİ TEMİZLEMEDİNİZ"
+  },
+  {
+    "question": "ТЕ НЕ ЧИСТИХА КЪЩАТА (TE NE CHISTIHA KASHTATA) (Çoğul)",
+    "answer": "ONLAR EVİ TEMİZLEMEDİ"
+  },
+  {
+    "question": "АЗ ЧИСТЯ ЛИ СТАЯТА МИ ВСЯКА СУТРИН? (AZ CHISTYA LI STAYATA MI VSYAKA SUTRIN?) (Dişil)",
+    "answer": "ODAMI HER SABAH TEMİZLİYOR MUYUM?"
+  },
+  {
+    "question": "ТИ ЧИСТИШ ЛИ БАНЯТА МНОГО ДОБРЕ? (TI CHISTISH LI BANYATA MNOGO DOBRE?) (Dişil)",
+    "answer": "SEN BANYOYU ÇOK İYİ TEMİZLİYOR MUSUN?"
+  },
+  {
+    "question": "ТОЙ ЧИСТИ ЛИ ОФИСА ВСЕКИ ПЕТЪК? (TOY CHISTI LI OFISA VSEKI PETAK?) (Eril)",
+    "answer": "O OFİSİ HER CUMA TEMİZLİYOR MU? (ERİL)"
+  },
+  {
+    "question": "ТЯ ЧИСТИ ЛИ ОФИСА ВСЕКИ ПЕТЪК? (TYA CHISTI LI OFISA VSEKI PETAK?) (Dişil)",
+    "answer": "O OFİSİ HER CUMA TEMİZLİYOR MU? (DİŞİL)"
+  },
+  {
+    "question": "ТО ЧИСТИ ЛИ ОФИСА ВСЕКИ ПЕТЪК? (TO CHISTI LI OFISA VSEKI PETAK?) (Nötr)",
+    "answer": "O OFİSİ HER CUMA TEMİZLİYOR MU? (NÖTR)"
+  },
+  {
+    "question": "НИЕ ЧИСТИМ ЛИ КУХНЯТА СЛЕД ВЕЧЕРЯ? (NIE CHISTIM LI KUHNYATA SLED VECHERYA?) (Çoğul)",
+    "answer": "BİZ AKŞAM YEMEĞİNDEN SONRA MUTFAĞI TEMİZLİYOR MUYUZ?"
+  },
+  {
+    "question": "ВИЕ ЧИСТИТЕ ЛИ ПРОЗОРЦИТЕ ДНЕС? (VIE CHISTITE LI PROZORTSITE DNES?) (Çoğul)",
+    "answer": "SİZ BUGÜN CAMLARI TEMİZLİYOR MUSUNUZ?"
+  },
+  {
+    "question": "ТЕ ЧИСТЯТ ЛИ УЛИЦАТА ВСЕКИ ДЕН? (TE CHISTYAT LI ULITSATA VSEKI DEN?) (Çoğul)",
+    "answer": "ONLAR SOKAĞI HER GÜN TEMİZLİYOR MU?"
+  },
+  {
+    "question": "АЗ ПРАВЯ (AZ PRAVYA)",
+    "answer": "BEN YAPIYORUM"
+  },
+  {
+    "question": "ТИ ПРАВИШ (TI PRAVISH)",
+    "answer": "SEN YAPIYORSUN"
+  },
+  {
+    "question": "ТОЙ ПРАВИ (TOY PRAVI) (Eril)",
+    "answer": "O YAPIYOR (ERİL)"
+  },
+  {
+    "question": "ТЯ ПРАВИ (TYA PRAVI) (Dişil)",
+    "answer": "O YAPIYOR (DİŞİL)"
+  },
+  {
+    "question": "ТО ПРАВИ (TO PRAVI) (Nötr)",
+    "answer": "O YAPIYOR (NÖTR)"
+  },
+  {
+    "question": "НИЕ ПРАВИМ (NIE PRAVIM) (Çoğul)",
+    "answer": "BİZ YAPIYORUZ"
+  },
+  {
+    "question": "ВИЕ ПРАВИТЕ (VIE PRAVITE) (Çoğul)",
+    "answer": "SİZ YAPIYORSUNUZ"
+  },
+  {
+    "question": "ТЕ ПРАВЯТ (TE PRAVYAT) (Çoğul)",
+    "answer": "ONLAR YAPIYORLAR"
+  },
+  {
+    "question": "АЗ ПРАВИХ (AZ PRAVIH)",
+    "answer": "BEN YAPTIM"
+  },
+  {
+    "question": "ТИ ПРАВИ (TI PRAVI)",
+    "answer": "SEN YAPTIM"
+  },
+  {
+    "question": "ТОЙ ПРАВИ (TOY PRAVI) (Eril)",
+    "answer": "O YAPTI (ERİL)"
+  },
+  {
+    "question": "ТЯ ПРАВИ (TYA PRAVI) (Dişil)",
+    "answer": "O YAPTI (DİŞİL)"
+  },
+  {
+    "question": "ТО ПРАВИ (TO PRAVI) (Nötr)",
+    "answer": "O YAPTI (NÖTR)"
+  },
+  {
+    "question": "НИЕ ПРАВИХМЕ (NIE PRAVIHME) (Çoğul)",
+    "answer": "BİZ YAPTIK"
+  },
+  {
+    "question": "ВИЕ ПРАВИХТЕ (VIE PRAVIHTE) (Çoğul)",
+    "answer": "SİZ YAPTINIZ"
+  },
+  {
+    "question": "ТЕ ПРАВИХА (TE PRAVIHA) (Çoğul)",
+    "answer": "ONLAR YAPTI"
+  },
+  {
+    "question": "АЗ ПРАВЯ КАФЕ С МЛЯКО (AZ PRAVYA KAFE S MLYAKO) (Nötr)",
+    "answer": "SÜTLÜ KAHVE YAPIYORUM"
+  },
+  {
+    "question": "ПРАВЯ ХУБАВ КЕКС (PRAVYA HUBAV KEKS) (Eril)",
+    "answer": "GÜZEL KEK YAPIYORUM"
+  },
+  {
+    "question": "ПРАВЯ ПРОЕКТ (PRAVYA PROEKT) (Eril)",
+    "answer": "PROJE YAPIYORUM"
+  },
+  {
+    "question": "ТИ ПРАВИШ ЧАЙ ВСЯКА СУТРИН (TI PRAVISH CHAY VSYAKA SUTRIN) (Eril)",
+    "answer": "SEN HER SABAH ÇAY YAPIYORSUN"
+  },
+  {
+    "question": "ТОЙ ПРАВИ ХУБАВО КАФЕ (TOY PRAVI HUBAVO KAFE) (Eril)",
+    "answer": "O GÜZEL KAHVE YAPIYOR (ERİL)"
+  },
+  {
+    "question": "ТЯ ПРАВИ ХУБАВО КАФЕ (TYA PRAVI HUBAVO KAFE) (Dişil)",
+    "answer": "O GÜZEL KAHVE YAPIYOR (DİŞİL)"
+  },
+  {
+    "question": "ТО ПРАВИ ХУБАВО КАФЕ (TO PRAVI HUBAVO KAFE) (Nötr)",
+    "answer": "O GÜZEL KAHVE YAPIYOR (NÖTR)"
+  },
+  {
+    "question": "НИЕ ПРАВИМ ЗЕЛЕНА ГРАДИНА (NIE PRAVIM ZELENA GRADINA) (Çoğul)",
+    "answer": "BİZ YEŞİL BAHÇE YAPIYORUZ"
+  },
+  {
+    "question": "ВИЕ ПРАВИТЕ ХУБАВА ТОРТА (VIE PRAVITE HUBAVA TORTA) (Çoğul)",
+    "answer": "SİZ GÜZEL PASTA YAPIYORSUNUZ"
+  },
+  {
+    "question": "ТЕ ПРАВЯТ СЛАДКО ОТ СЛИВИ (TE PRAVYAT SLADKO OT SLIVI) (Çoğul)",
+    "answer": "ONLAR ERİK TATLISI YAPIYOR"
+  },
+  {
+    "question": "ВЧЕРА ПРАВИХ МНОГО ХУБАВА ТОРТА С ШОКОЛАД (VCHERA PRAVIH MNOGO HUBAVA TORTA S SHOKOLAD) (Dişil)",
+    "answer": "DÜN ÇOK GÜZEL ÇİKOLATALI PASTA YAPTIM"
+  },
+  {
+    "question": "ТИ ПРАВИ НОВ ПРОЕКТ ЗА УЧИЛИЩЕ (TI PRAVI NOV PROEKT ZA UCHILISHTE) (Eril)",
+    "answer": "SEN OKUL İÇİN YENİ PROJE YAPTIM"
+  },
+  {
+    "question": "ТОЙ ПРАВИ СПОРТ (TOY PRAVI SPORT) (Eril)",
+    "answer": "O SPOR YAPTI (ERİL)"
+  },
+  {
+    "question": "ТЯ ПРАВИ СПОРТ (TYA PRAVI SPORT) (Dişil)",
+    "answer": "O SPOR YAPTI (DİŞİL)"
+  },
+  {
+    "question": "ТО ПРАВИ СПОРТ (TO PRAVI SPORT) (Nötr)",
+    "answer": "O SPOR YAPTI (NÖTR)"
+  },
+  {
+    "question": "НИЕ ПРАВИХМЕ НОВИ ДОКУМЕНТИ (NIE PRAVIHME NOVI DOKUMENTI) (Çoğul)",
+    "answer": "BİZ YENİ EVRAKLAR YAPTIK"
+  },
+  {
+    "question": "ВИЕ ПРАВИХТЕ ПЪЛНОМОЩНО (VIE PRAVIHTE PALNOMOSHTNO) (Çoğul)",
+    "answer": "SİZ VEKALETNAME YAPTINIZ"
+  },
+  {
+    "question": "ТЕ ПРАВИХА КОНТРОЛ НА ГРАНИЦАТА (TE PRAVIHA KONTROl NA GRANITSATA) (Çoğul)",
+    "answer": "ONLAR SINIRDA KONTROl YAPTI"
+  },
+  {
+    "question": "АЗ НЕ ПРАВЯ КАФЕ С МЛЯКО (AZ NE PRAVYA KAFE S MLYAKO) (Nötr)",
+    "answer": "SÜTLÜ KAHVE YAPMIYORUM"
+  },
+  {
+    "question": "НЕ ПРАВЯ ХУБАВ КЕКС (NE PRAVYA HUBAV KEKS) (Eril)",
+    "answer": "GÜZEL KEK YAPMIYORUM"
+  },
+  {
+    "question": "НЕ ПРАВЯ ПРОЕКТ (NE PRAVYA PROEKT) (Eril)",
+    "answer": "PROJE YAPMIYORUM"
+  },
+  {
+    "question": "ТИ НЕ ПРАВИШ ЧАЙ ВСЯКА СУТРИН (TI NE PRAVISH CHAY VSYAKA SUTRIN) (Eril)",
+    "answer": "SEN HER SABAH ÇAY YAPMIYORSUN"
+  },
+  {
+    "question": "ТОЙ НЕ ПРАВИ ХУБАВО КАФЕ (TOY NE PRAVI HUBAVO KAFE) (Eril)",
+    "answer": "O GÜZEL KAHVE YAPMIYOR (ERİL)"
+  },
+  {
+    "question": "ТЯ НЕ ПРАВИ ХУБАВО КАФЕ (TYA NE PRAVI HUBAVO KAFE) (Dişil)",
+    "answer": "O GÜZEL KAHVE YAPMIYOR (DİŞİL)"
+  },
+  {
+    "question": "ТО НЕ ПРАВИ ХУБАВО КАФЕ (TO NE PRAVI HUBAVO KAFE) (Nötr)",
+    "answer": "O GÜZEL KAHVE YAPMIYOR (NÖTR)"
+  },
+  {
+    "question": "НИЕ НЕ ПРАВИМ ЗЕЛЕНА ГРАДИНА (NIE NE PRAVIM ZELENA GRADINA) (Çoğul)",
+    "answer": "BİZ YEŞİL BAHÇE YAPMIYORUZ"
+  },
+  {
+    "question": "ВИЕ НЕ ПРАВИТЕ ХУБАВА ТОРТА (VIE NE PRAVITE HUBAVA TORTA) (Çoğul)",
+    "answer": "SİZ GÜZEL PASTA YAPMIYORSUNUZ"
+  },
+  {
+    "question": "ТЕ НЕ ПРАВЯТ СЛАДКО ОТ СЛИВИ (TE NE PRAVYAT SLADKO OT SLIVI) (Çoğul)",
+    "answer": "ONLAR ERİK TATLISI YAPMIYOR"
+  },
+  {
+    "question": "АЗ ПРАВЯ ЛИ КАФЕ С МЛЯКО? (AZ PRAVYA LI KAFE S MLYAKO?) (Nötr)",
+    "answer": "SÜTLÜ KAHVE YAPIYOR MUYUM?"
+  },
+  {
+    "question": "ПРАВЯ ЛИ ХУБАВ КЕКС? (PRAVYA LI HUBAV KEKS?) (Eril)",
+    "answer": "GÜZEL KEK YAPIYOR MUYUM?"
+  },
+  {
+    "question": "ПРАВЯ ЛИ ПРОЕКТ? (PRAVYA LI PROEKT?) (Eril)",
+    "answer": "PROJE YAPIYOR MUYUM?"
+  },
+  {
+    "question": "ТИ ПРАВИШ ЛИ ЧАЙ ВСЯКА СУТРИН? (TI PRAVISH LI CHAY VSYAKA SUTRIN?) (Eril)",
+    "answer": "SEN HER SABAH ÇAY YAPIYOR MUSUN?"
+  },
+  {
+    "question": "ТОЙ ПРАВИ ЛИ ХУБАВО КАФЕ? (TOY PRAVI LI HUBAVO KAFE?) (Eril)",
+    "answer": "O GÜZEL KAHVE YAPIYOR MU? (ERİL)"
+  },
+  {
+    "question": "ТЯ ПРАВИ ЛИ ХУБАВО КАФЕ? (TYA PRAVI LI HUBAVO KAFE?) (Dişil)",
+    "answer": "O GÜZEL KAHVE YAPIYOR MU? (DİŞİL)"
+  },
+  {
+    "question": "ТО ПРАВИ ЛИ ХУБАВО КАФЕ? (TO PRAVI LI HUBAVO KAFE?) (Nötr)",
+    "answer": "O GÜZEL KAHVE YAPIYOR MU? (NÖTR)"
+  },
+  {
+    "question": "НИЕ ПРАВИМ ЛИ ЗЕЛЕНА ГРАДИНА? (NIE PRAVIM LI ZELENA GRADINA?) (Çoğul)",
+    "answer": "BİZ YEŞİL BAHÇE YAPIYOR MUYUZ?"
+  },
+  {
+    "question": "ВИЕ ПРАВИТЕ ЛИ ХУБАВА ТОРТА? (VIE PRAVITE LI HUBAVA TORTA?) (Çoğul)",
+    "answer": "SİZ GÜZEL PASTA YAPIYOR MUSUNUZ?"
+  },
+  {
+    "question": "ТЕ ПРАВЯТ ЛИ СЛАДКО ОТ СЛИВИ? (TE PRAVYAT LI SLADKO OT SLIVI?) (Çoğul)",
+    "answer": "ONLAR ERİK TATLISI YAPIYOR MU?"
+  },
+  {
+    "question": "АЗ ОБИЧАМ (AZ OBICHAM)",
+    "answer": "BEN SEVİYORUM"
+  },
+  {
+    "question": "ТИ ОБИЧАШ (TI OBICHASH)",
+    "answer": "SEN SEVİYORSUN"
+  },
+  {
+    "question": "ТОЙ ОБИЧА (TOY OBICHA) (Eril)",
+    "answer": "O SEVİYOR (ERİL)"
+  },
+  {
+    "question": "ТЯ ОБИЧА (TYA OBICHA) (Dişil)",
+    "answer": "O SEVİYOR (DİŞİL)"
+  },
+  {
+    "question": "ТО ОБИЧА (TO OBICHA) (Nötr)",
+    "answer": "O SEVİYOR (NÖTR)"
+  },
+  {
+    "question": "НИЕ ОБИЧАМЕ (NIE OBICHAME) (Çoğul)",
+    "answer": "BİZ SEVİYORUZ"
+  },
+  {
+    "question": "ВИЕ ОБИЧАТЕ (VIE OBICHATE) (Çoğul)",
+    "answer": "SİZ SEVİYORSUNUZ"
+  },
+  {
+    "question": "ТЕ ОБИЧАТ (TE OBICHAT) (Çoğul)",
+    "answer": "ONLAR SEVİYORLAR"
+  },
+  {
+    "question": "АЗ ОБИЧАХ (AZ OBICHAH)",
+    "answer": "BEN SEVİYORDUM"
+  },
+  {
+    "question": "ТИ ОБИЧАШЕ (TI OBICHASHE)",
+    "answer": "SEN SEVİYORDUN"
+  },
+  {
+    "question": "ТОЙ ОБИЧАШЕ (TOY OBICHASHE) (Eril)",
+    "answer": "O SEVİYORDU (ERİL)"
+  },
+  {
+    "question": "ТЯ ОБИЧАШЕ (TYA OBICHASHE) (Dişil)",
+    "answer": "O SEVİYORDU (DİŞİL)"
+  },
+  {
+    "question": "ТО ОБИЧАШЕ (TO OBICHASHE) (Nötr)",
+    "answer": "O SEVİYORDU (NÖTR)"
+  },
+  {
+    "question": "НИЕ ОБИЧАХМЕ (NIE OBICHAHME) (Çoğul)",
+    "answer": "BİZ SEVİYORDUK"
+  },
+  {
+    "question": "ВИЕ ОБИЧАХТЕ (VIE OBICHAHTE) (Çoğul)",
+    "answer": "SİZ SEVİYORDUNUZ"
+  },
+  {
+    "question": "ТЕ ОБИЧАХА (TE OBICHAHA) (Çoğul)",
+    "answer": "ONLAR SEVİYORDU"
+  },
+  {
+    "question": "АЗ ОБИЧАМ КАФЕ БЕЗ ЗАХАР (AZ OBICHAM KAFE BEZ ZAHAR) (Nötr)",
+    "answer": "ŞEKERSİZ KAHVE SEVİYORUM"
+  },
+  {
+    "question": "ТИ ОБИЧАШ ЧЕРВЕНИ РОЗИ (TI OBICHASH CHERVENI ROZI) (Çoğul)",
+    "answer": "SEN KIRMIZI GÜLLERİ SEVİYORSUN"
+  },
+  {
+    "question": "ТОЙ ОБИЧА СЛЪНЧЕВО ВРЕМЕ (TOY OBICHA SLANCHEVO VREME) (Eril)",
+    "answer": "O GÜNEŞLİ HAVA SEVİYOR (ERİL)"
+  },
+  {
+    "question": "ТЯ ОБИЧА СЛЪНЧЕВО ВРЕМЕ (TYA OBICHA SLANCHEVO VREME) (Dişil)",
+    "answer": "O GÜNEŞLİ HAVA SEVİYOR (DİŞİL)"
+  },
+  {
+    "question": "ТО ОБИЧА СЛЪНЧЕВО ВРЕМЕ (TO OBICHA SLANCHEVO VREME) (Nötr)",
+    "answer": "O GÜNEŞLİ HAVA SEVİYOR (NÖTR)"
+  },
+  {
+    "question": "НИЕ ОБИЧАМЕ СТУДЕНА ДИНЯ (NIE OBICHAME STUDENA DINYA) (Çoğul)",
+    "answer": "BİZ SOĞUK KARPUZ SEVİYORUZ"
+  },
+  {
+    "question": "ВИЕ ОБИЧАТЕ ГРОЗДЕ (VIE OBICHATE GROZDE) (Çoğul)",
+    "answer": "SİZ ÜZÜM SEVİYORSUNUZ"
+  },
+  {
+    "question": "ТЕ ОБИЧАТ СЛАДОЛЕД (TE OBICHAT SLADOLED) (Çoğul)",
+    "answer": "ONLAR DONDURMA SEVİYOR"
+  },
+  {
+    "question": "АЗ ОБИЧАХ ТАЗИ ПЕСЕН (AZ OBICHAH TAZI PESEN) (Dişil)",
+    "answer": "BEN BU ŞARKIYI SEVİYORDUM"
+  },
+  {
+    "question": "ТИ ОБИЧАШЕ ИНТЕРЕСНИ КНИГИ (TI OBICHASHE INTERESNI KNIGI) (Çoğul)",
+    "answer": "SEN İLGİNÇ KİTAPLARI SEVİYORDUN"
+  },
+  {
+    "question": "ТОЙ ОБИЧАШЕ ФУТБОЛ (TOY OBICHASHE FUTBOL) (Eril)",
+    "answer": "O FUTBOL SEVİYORDU (ERİL)"
+  },
+  {
+    "question": "ТЯ ОБИЧАШЕ ФУТБОЛ (TYA OBICHASHE FUTBOL) (Dişil)",
+    "answer": "O FUTBOL SEVİYORDU (DİŞİL)"
+  },
+  {
+    "question": "ТО ОБИЧАШЕ ФУТБОЛ (TO OBICHASHE FUTBOL) (Nötr)",
+    "answer": "O FUTBOL SEVİYORDU (NÖTR)"
+  },
+  {
+    "question": "НИЕ ОБИЧАХМЕ ХУБАВА МУЗИКА (NIE OBICHAHME HUBAVA MUZIKA) (Çoğul)",
+    "answer": "BİZ GÜZEL MÜZİK SEVİYORDUK"
+  },
+  {
+    "question": "ВИЕ ОБИЧАХТЕ БЪРЗИ КОЛИ (VIE OBICHAHTE BARZI KOLI) (Çoğul)",
+    "answer": "SİZ HIZLI ARABALARI SEVİYORDUNUZ"
+  },
+  {
+    "question": "ТЕ ОБИЧАХА ПЪРЖЕНИ КАРТОФИ (TE OBICHAHA PARZHENI KARTOFI) (Çoğul)",
+    "answer": "ONLAR KIZARMIŞ PATATES SEVİYORDU"
+  },
+  {
+    "question": "АЗ НЕ ОБИЧАМ КАФЕ БЕЗ ЗАХАР (AZ NE OBICHAM KAFE BEZ ZAHAR) (Nötr)",
+    "answer": "ŞEKERSİZ KAHVE SEVMİYORUM"
+  },
+  {
+    "question": "ТИ НЕ ОБИЧАШ ЧЕРВЕНИ РОЗИ (TI NE OBICHASH CHERVENI ROZI) (Çoğul)",
+    "answer": "SEN KIRMIZI GÜLLERİ SEVMİYORSUN"
+  },
+  {
+    "question": "ТОЙ НЕ ОБИЧА СЛЪНЧЕВО ВРЕМЕ (TOY NE OBICHA SLANCHEVO VREME) (Eril)",
+    "answer": "O GÜNEŞLİ HAVA SEVMİYOR (ERİL)"
+  },
+  {
+    "question": "ТЯ НЕ ОБИЧА СЛЪНЧЕВО ВРЕМЕ (TYA NE OBICHA SLANCHEVO VREME) (Dişil)",
+    "answer": "O GÜNEŞLİ HAVA SEVMİYOR (DİŞİL)"
+  },
+  {
+    "question": "ТО НЕ ОБИЧА СЛЪНЧЕВО ВРЕМЕ (TO NE OBICHA SLANCHEVO VREME) (Nötr)",
+    "answer": "O GÜNEŞLİ HAVA SEVMİYOR (NÖTR)"
+  },
+  {
+    "question": "НИЕ НЕ ОБИЧАМЕ СТУДЕНА ДИНЯ (NIE NE OBICHAME STUDENA DINYA) (Çoğul)",
+    "answer": "BİZ SOĞUK KARPUZ SEVMİYORUZ"
+  },
+  {
+    "question": "ВИЕ НЕ ОБИЧАТЕ ГРОЗДЕ (VIE NE OBICHATE GROZDE) (Çoğul)",
+    "answer": "SİZ ÜZÜM SEVMİYORSUNUZ"
+  },
+  {
+    "question": "ТЕ НЕ ОБИЧАТ СЛАДОЛЕД (TE NE OBICHAT SLADOLED) (Çoğul)",
+    "answer": "ONLAR DONDURMA SEVMİYOR"
+  },
+  {
+    "question": "АЗ ОБИЧАМ ЛИ КАФЕ БЕЗ ЗАХАР? (AZ OBICHAM LI KAFE BEZ ZAHAR?) (Nötr)",
+    "answer": "ŞEKERSİZ KAHVE SEVİYOR MUYUM?"
+  },
+  {
+    "question": "ТИ ОБИЧАШ ЛИ ЧЕРВЕНИ РОЗИ? (TI OBICHASH LI CHERVENI ROZI?) (Çoğul)",
+    "answer": "SEN KIRMIZI GÜLLERİ SEVİYOR MUSUN?"
+  },
+  {
+    "question": "ТОЙ ОБИЧА ЛИ СЛЪНЧЕВО ВРЕМЕ? (TOY OBICHA LI SLANCHEVO VREME?) (Eril)",
+    "answer": "O GÜNEŞLİ HAVA SEVİYOR MU? (ERİL)"
+  },
+  {
+    "question": "ТЯ ОБИЧА ЛИ СЛЪНЧЕВО ВРЕМЕ? (TYA OBICHA LI SLANCHEVO VREME?) (Dişil)",
+    "answer": "O GÜNEŞLİ HAVA SEVİYOR MU? (DİŞİL)"
+  },
+  {
+    "question": "ТО ОБИЧА ЛИ СЛЪНЧЕВО ВРЕМЕ? (TO OBICHA LI SLANCHEVO VREME?) (Nötr)",
+    "answer": "O GÜNEŞLİ HAVA SEVİYOR MU? (NÖTR)"
+  },
+  {
+    "question": "НИЕ ОБИЧАМЕ ЛИ СТУДЕНА ДИНЯ? (NIE OBICHAME LI STUDENA DINYA?) (Çoğul)",
+    "answer": "BİZ SOĞUK KARPUZ SEVİYOR MUYUZ?"
+  },
+  {
+    "question": "ВИЕ ОБИЧАТЕ ЛИ ГРОЗДЕ? (VIE OBICHATE LI GROZDE?) (Çoğul)",
+    "answer": "SİZ ÜZÜM SEVİYOR MUSUNUZ?"
+  },
+  {
+    "question": "ТЕ ОБИЧАТ ЛИ СЛАДОЛЕД? (TE OBICHAT LI SLADOLED?) (Çoğul)",
+    "answer": "ONLAR DONDURMA SEVİYOR MU?"
+  },
+  {
+    "question": "АЗ ЖИВЕЯ (AZ ZHIVEEYA)",
+    "answer": "BEN YAŞIYORUM"
+  },
+  {
+    "question": "ТИ ЖИВЕЕШ (TI ZHIVEEESH)",
+    "answer": "SEN YAŞIYORSUN"
+  },
+  {
+    "question": "ТОЙ ЖИВЕЕ (TOY ZHIVEE) (Eril)",
+    "answer": "O YAŞIYOR (ERİL)"
+  },
+  {
+    "question": "ТЯ ЖИВЕЕ (TYA ZHIVEE) (Dişil)",
+    "answer": "O YAŞIYOR (DİŞİL)"
+  },
+  {
+    "question": "ТО ЖИВЕЕ (TO ZHIVEE) (Nötr)",
+    "answer": "O YAŞIYOR (NÖTR)"
+  },
+  {
+    "question": "НИЕ ЖИВЕЕМ (NIE ZHIVEEEM) (Çoğul)",
+    "answer": "BİZ YAŞIYORUZ"
+  },
+  {
+    "question": "ВИЕ ЖИВЕЕТЕ (VIE ZHIVEEETE) (Çoğul)",
+    "answer": "SİZ YAŞIYORSUNUZ"
+  },
+  {
+    "question": "ТЕ ЖИВЕЯТ (TE ZHIVEEYAT) (Çoğul)",
+    "answer": "ONLAR YAŞIYORLAR"
+  },
+  {
+    "question": "АЗ ЖИВЯХ (AZ ZHIVEEYAH)",
+    "answer": "BEN YAŞADIM"
+  },
+  {
+    "question": "ТИ ЖИВЯ (TI ZHIVEEYA)",
+    "answer": "SEN YAŞADIN"
+  },
+  {
+    "question": "ТОЙ ЖИВЯ (TOY ZHIVEEYA) (Eril)",
+    "answer": "O YAŞADI (ERİL)"
+  },
+  {
+    "question": "ТЯ ЖИВЯ (TYA ZHIVEEYA) (Dişil)",
+    "answer": "O YAŞADI (DİŞİL)"
+  },
+  {
+    "question": "ТО ЖИВЯ (TO ZHIVEEYA) (Nötr)",
+    "answer": "O YAŞADI (NÖTR)"
+  },
+  {
+    "question": "НИЕ ЖИВЯХМЕ (NIE ZHIVEEYAHME) (Çoğul)",
+    "answer": "BİZ YAŞADIK"
+  },
+  {
+    "question": "ВИЕ ЖИВЯХТЕ (VIE ZHIVEEYAHTE) (Çoğul)",
+    "answer": "SİZ YAŞADINIZ"
+  },
+  {
+    "question": "ТЕ ЖИВЯХА (TE ZHIVEEYAHA) (Çoğul)",
+    "answer": "ONLAR YAŞADI"
+  },
+  {
+    "question": "АЗ ЖИВЕЯ В БЪЛГАРИЯ (AZ ZHIVEEYA V BALGARIYA) (Dişil)",
+    "answer": "BEN BULGARİSTANDA YAŞIYORUM"
+  },
+  {
+    "question": "ТИ ЖИВЕЕШ В ИЗМИР (TI ZHIVEEESH V IZMIR) (Eril)",
+    "answer": "SEN İZMİRDE YAŞIYORSUN"
+  },
+  {
+    "question": "ТОЙ ЖИВЕЕ В ГОЛЯМ ГРАД (TOY ZHIVEE V GOLYAM GRAD) (Eril)",
+    "answer": "O BÜYÜK ŞEHİRDE YAŞIYOR (ERİL)"
+  },
+  {
+    "question": "ТЯ ЖИВЕЕ В ГОЛЯМ ГРАД (TYA ZHIVEE V GOLYAM GRAD) (Dişil)",
+    "answer": "O BÜYÜK ŞEHİRDE YAŞIYOR (DİŞİL)"
+  },
+  {
+    "question": "ТО ЖИВЕЕ В ГОЛЯМ ГРАД (TO ZHIVEE V GOLYAM GRAD) (Nötr)",
+    "answer": "O BÜYÜK ŞEHİRDE YAŞIYOR (NÖTR)"
+  },
+  {
+    "question": "НИЕ ЖИВЕЕМ В ИНТЕРЕСНА ДЪРЖАВА (NIE ZHIVEEEM V INTERESNA DARZHAVA) (Çoğul)",
+    "answer": "BİZ İLGİNÇ ÜLKEDE YAŞIYORUZ"
+  },
+  {
+    "question": "ВИЕ ЖИВЕЕТЕ В ГОЛЯМА КЪЩА (VIE ZHIVEEETE V GOLYAMA KASHTA) (Çoğul)",
+    "answer": "SİZ BÜYÜK EVDE YAŞIYORSUNUZ"
+  },
+  {
+    "question": "ТЕ ЖИВЕЯТ В КЪЩА С ГРАДИНА (TE ZHIVEEYAT V KASHTA S GRADINA) (Çoğul)",
+    "answer": "ONLAR BAHÇELİ EVDE YAŞIYOR"
+  },
+  {
+    "question": "АЗ ЖИВЯХ 3 ГОДИНИ В ТУРЦИЯ (AZ ZHIVEEYAH 3 GODINI V TURTSIYA) (Dişil)",
+    "answer": "BEN 3 YIL TÜRKİYEDE YAŞADIM"
+  },
+  {
+    "question": "ТИ ЖИВЯ В ИСТАНБУЛ (TI ZHIVEEYA V ISTANBUL) (Eril)",
+    "answer": "SEN İSTANBULDA YAŞADIN"
+  },
+  {
+    "question": "ТОЙ ЖИВЯ В ГЕРМАНИЯ (TOY ZHIVEEYA V GERMANIYA) (Eril)",
+    "answer": "O ALMANYADA YAŞADI (ERİL)"
+  },
+  {
+    "question": "ТЯ ЖИВЯ В ГЕРМАНИЯ (TYA ZHIVEEYA V GERMANIYA) (Dişil)",
+    "answer": "O ALMANYADA YAŞADI (DİŞİL)"
+  },
+  {
+    "question": "ТО ЖИВЯ В ГЕРМАНИЯ (TO ZHIVEEYA V GERMANIYA) (Nötr)",
+    "answer": "O ALMANYADA YAŞADI (NÖTR)"
+  },
+  {
+    "question": "НИЕ ЖИВЯХМЕ В МАЛКО СЕЛО (NIE ZHIVEEYAHME V MALKO SELO) (Çoğul)",
+    "answer": "BİZ KÜÇÜK KÖYDE YAŞADIK"
+  },
+  {
+    "question": "ВИЕ ЖИВЯХТЕ ЗАЕДНО С ТВОЕТО СЕМЕЙСТВО (VIE ZHIVEEYAHTE ZAEDNO S TVOETO SEMEYSTVO) (Çoğul)",
+    "answer": "SİZ SENİN AİLEN İLE BİRLİKTE YAŞADINIZ"
+  },
+  {
+    "question": "ТЕ ЖИВЯХА В КЪЩА ДО ПАРКА (TE ZHIVEEYAHA V KASHTA DO PARKA) (Çoğul)",
+    "answer": "ONLAR PARKIN YANINDA EVDE YAŞADILAR"
+  },
+  {
+    "question": "АЗ НЕ ЖИВЕЯ В БЪЛГАРИЯ (AZ NE ZHIVEEYA V BALGARIYA) (Dişil)",
+    "answer": "BEN BULGARİSTANDA YAŞAMIYORUM"
+  },
+  {
+    "question": "ТИ НЕ ЖИВЕЕШ В ИЗМИР (TI NE ZHIVEEESH V IZMIR) (Eril)",
+    "answer": "SEN İZMİRDE YAŞAMIYORSUN"
+  },
+  {
+    "question": "ТОЙ НЕ ЖИВЕЕ В ГОЛЯМ ГРАД (TOY NE ZHIVEE V GOLYAM GRAD) (Eril)",
+    "answer": "O BÜYÜK ŞEHİRDE YAŞAMIYOR (ERİL)"
+  },
+  {
+    "question": "ТЯ НЕ ЖИВЕЕ В ГОЛЯМ ГРАД (TYA NE ZHIVEE V GOLYAM GRAD) (Dişil)",
+    "answer": "O BÜYÜK ŞEHİRDE YAŞAMIYOR (DİŞİL)"
+  },
+  {
+    "question": "ТО НЕ ЖИВЕЕ В ГОЛЯМ ГРАД (TO NE ZHIVEE V GOLYAM GRAD) (Nötr)",
+    "answer": "O BÜYÜK ŞEHİRDE YAŞAMIYOR (NÖTR)"
+  },
+  {
+    "question": "НИЕ НЕ ЖИВЕЕМ В ИНТЕРЕСНА ДЪРЖАВА (NIE NE ZHIVEEEM V INTERESNA DARZHAVA) (Çoğul)",
+    "answer": "BİZ İLGİNÇ ÜLKEDE YAŞAMIYORUZ"
+  },
+  {
+    "question": "ВИЕ НЕ ЖИВЕЕТЕ В ГОЛЯМА КЪЩА (VIE NE ZHIVEEETE V GOLYAMA KASHTA) (Çoğul)",
+    "answer": "SİZ BÜYÜK EVDE YAŞAMIYORSUNUZ"
+  },
+  {
+    "question": "ТЕ НЕ ЖИВЕЯТ В КЪЩА С ГРАДИНА (TE NE ZHIVEEYAT V KASHTA S GRADINA) (Çoğul)",
+    "answer": "ONLAR BAHÇELİ EVDE YAŞAMIYOR"
+  },
+  {
+    "question": "АЗ ЖИВЕЯ ЛИ В БЪЛГАРИЯ? (AZ ZHIVEEYA LI V BALGARIYA?) (Dişil)",
+    "answer": "BEN BULGARİSTANDA YAŞIYOR MUYUM?"
+  },
+  {
+    "question": "ТИ ЖИВЕЕШ ЛИ В ИЗМИР? (TI ZHIVEEESH LI V IZMIR?) (Eril)",
+    "answer": "SEN İZMİRDE YAŞIYOR MUSUN?"
+  },
+  {
+    "question": "ТОЙ ЖИВЕЕ ЛИ В ГОЛЯМ ГРАД? (TOY ZHIVEE LI V GOLYAM GRAD?) (Eril)",
+    "answer": "O BÜYÜK ŞEHİRDE YAŞIYOR MU? (ERİL)"
+  },
+  {
+    "question": "ТЯ ЖИВЕЕ ЛИ В ГОЛЯМ ГРАД? (TYA ZHIVEE LI V GOLYAM GRAD?) (Dişil)",
+    "answer": "O BÜYÜK ŞEHİRDE YAŞIYOR MU? (DİŞİL)"
+  },
+  {
+    "question": "ТО ЖИВЕЕ ЛИ В ГОЛЯМ ГРАД? (TO ZHIVEE LI V GOLYAM GRAD?) (Nötr)",
+    "answer": "O BÜYÜK ŞEHİRDE YAŞIYOR MU? (NÖTR)"
+  },
+  {
+    "question": "НИЕ ЖИВЕЕМ ЛИ В ИНТЕРЕСНА ДЪРЖАВА? (NIE ZHIVEEEM LI V INTERESNA DARZHAVA?) (Çoğul)",
+    "answer": "BİZ İLGİNÇ ÜLKEDE YAŞIYOR MUYUZ?"
+  },
+  {
+    "question": "ВИЕ ЖИВЕЕТЕ ЛИ В ГОЛЯМА КЪЩА? (VIE ZHIVEEETE LI V GOLYAMA KASHTA?) (Çoğul)",
+    "answer": "SİZ BÜYÜK EVDE YAŞIYOR MUSUNUZ?"
+  },
+  {
+    "question": "ТЕ ЖИВЕЯТ ЛИ В КЪЩА С ГРАДИНА? (TE ZHIVEEYAT LI V KASHTA S GRADINA?) (Çoğul)",
+    "answer": "ONLAR BAHÇELİ EVDE YAŞIYOR MU?"
+  },
+  {
+    "question": "АЗ ГЛЕДАМ (AZ GLEDAM)",
+    "answer": "BEN İZLİYORUM / BAKIYORUM"
+  },
+  {
+    "question": "ТИ ГЛЕДАШ (TI GLEDASH)",
+    "answer": "SEN İZLİYORSUN / BAKIYORSUN"
+  },
+  {
+    "question": "ТОЙ ГЛЕДА (TOY GLEDA) (Eril)",
+    "answer": "O İZLİYOR / BAKIYOR (ERİL)"
+  },
+  {
+    "question": "ТЯ ГЛЕДА (TYA GLEDA) (Dişil)",
+    "answer": "O İZLİYOR / BAKIYOR (DİŞİL)"
+  },
+  {
+    "question": "ТО ГЛЕДА (TO GLEDA) (Nötr)",
+    "answer": "O İZLİYOR / BAKIYOR (NÖTR)"
+  },
+  {
+    "question": "НИЕ ГЛЕДАМЕ (NIE GLEDAME) (Çoğul)",
+    "answer": "BİZ İZLİYORUZ / BAKIYORUZ"
+  },
+  {
+    "question": "ВИЕ ГЛЕДАТЕ (VIE GLEDATE) (Çoğul)",
+    "answer": "SİZ İZLİYORSUNUZ / BAKIYORSUNUZ"
+  },
+  {
+    "question": "ТЕ ГЛЕДАТ (TE GLEDAT) (Çoğul)",
+    "answer": "ONLAR İZLİYORLAR / BAKIYORLAR"
+  },
+  {
+    "question": "АЗ ГЛЕДАХ (AZ GLEDAH)",
+    "answer": "BEN İZLEDİM / BAKIYORDUM"
+  },
+  {
+    "question": "ТИ ГЛЕДАШЕ (TI GLEDASHE)",
+    "answer": "SEN İZLEDİN / BAKIYORDUN"
+  },
+  {
+    "question": "ТОЙ ГЛЕДАШЕ (TOY GLEDASHE) (Eril)",
+    "answer": "O İZLEDİ / BAKIYORDU (ERİL)"
+  },
+  {
+    "question": "ТЯ ГЛЕДАШЕ (TYA GLEDASHE) (Dişil)",
+    "answer": "O İZLEDİ / BAKIYORDU (DİŞİL)"
+  },
+  {
+    "question": "ТО ГЛЕДАШЕ (TO GLEDASHE) (Nötr)",
+    "answer": "O İZLEDİ / BAKIYORDU (NÖTR)"
+  },
+  {
+    "question": "НИЕ ГЛЕДАХМЕ (NIE GLEDAHME) (Çoğul)",
+    "answer": "BİZ İZLEDİK / BAKIYORDUK"
+  },
+  {
+    "question": "ВИЕ ГЛЕДАХТЕ (VIE GLEDAHTE) (Çoğul)",
+    "answer": "SİZ İZLEDİNİZ / BAKIYORDUNUZ"
+  },
+  {
+    "question": "ТЕ ГЛЕДАХА (TE GLEDAHA) (Çoğul)",
+    "answer": "ONLAR İZLEDİ / BAKIYORDU"
+  },
+  {
+    "question": "АЗ ГЛЕДАМ ИНТЕРЕСЕН ФИЛМ (AZ GLEDAM INTERESEN FILM) (Eril)",
+    "answer": "BEN İLGİNÇ FİLM İZLİYORUM"
+  },
+  {
+    "question": "АЗ ГЛЕДАМ ПРЕЗ ПРОЗОРЕЦА (AZ GLEDAM PREZ PROZORETSA) (Eril)",
+    "answer": "CAMDAN BAKIYORUM"
+  },
+  {
+    "question": "АЗ ГЛЕДАМ ДЕЦАТА (AZ GLEDAM DETSATA) (Çoğul)",
+    "answer": "ÇOCUKLARA BAKIYORUM"
+  },
+  {
+    "question": "ТИ ГЛЕДАШ КОКОШКИ (TI GLEDASH KOKOSHKI) (Çoğul)",
+    "answer": "SEN TAVUK BAKIYORSUN"
+  },
+  {
+    "question": "ТОЙ ГЛЕДА МЕНЮТО (TOY GLEDA MENYUTO) (Eril)",
+    "answer": "O MENÜYE BAKIYOR (ERİL)"
+  },
+  {
+    "question": "ТЯ ГЛЕДА МЕНЮТО (TYA GLEDA MENYUTO) (Dişil)",
+    "answer": "O MENÜYE BAKIYOR (DİŞİL)"
+  },
+  {
+    "question": "ТО ГЛЕДА МЕНЮТО (TO GLEDA MENYUTO) (Nötr)",
+    "answer": "O MENÜYE BAKIYOR (NÖTR)"
+  },
+  {
+    "question": "НИЕ ГЛЕДАМЕ ТЕАТЪР (NIE GLEDAME TEATAR) (Çoğul)",
+    "answer": "BİZ TİYATRO İZLİYORUZ"
+  },
+  {
+    "question": "ВИЕ ГЛЕДАТЕ ТЕЛЕФОНА (VIE GLEDATE TELEFONA) (Çoğul)",
+    "answer": "SİZ TELEFONA BAKIYORSUNUZ"
+  },
+  {
+    "question": "ТЕ ГЛЕДАТ ХУБАВИ КОЛИ (TE GLEDAT HUBAVI KOLI) (Çoğul)",
+    "answer": "ONLAR GÜZEL ARABALARA BAKIYOR"
+  },
+  {
+    "question": "АЗ ГЛЕДАХ СТРАШЕН ФИЛМ (AZ GLEDAH STRASHEN FILM) (Eril)",
+    "answer": "BEN KORKUNÇ FİLM İZLEDİM"
+  },
+  {
+    "question": "ТИ ГЛЕДАШЕ КОТКИ (TI GLEDASHE KOTKI) (Çoğul)",
+    "answer": "SEN KEDİ BAKIYORDUN"
+  },
+  {
+    "question": "ТОЙ ГЛЕДАШЕ МАЛКО КУЧЕ (TOY GLEDASHE MALKO KUCHE) (Eril)",
+    "answer": "O KÜÇÜK KÖPEK BAKIYORDU (ERİL)"
+  },
+  {
+    "question": "ТЯ ГЛЕДАШЕ МАЛКО КУЧЕ (TYA GLEDASHE MALKO KUCHE) (Dişil)",
+    "answer": "O KÜÇÜK KÖPEK BAKIYORDU (DİŞİL)"
+  },
+  {
+    "question": "ТО ГЛЕДАШЕ МАЛКО КУЧЕ (TO GLEDASHE MALKO KUCHE) (Nötr)",
+    "answer": "O KÜÇÜK KÖPEK BAKIYORDU (NÖTR)"
+  },
+  {
+    "question": "НИЕ ГЛЕДАХМЕ КОНЦЕРТ (NIE GLEDAHME KONTSERT) (Çoğul)",
+    "answer": "BİZ KONSER İZLİYORDUK"
+  },
+  {
+    "question": "ВИЕ ГЛЕДАХТЕ ФИЛМ (VIE GLEDAHTE FILM) (Çoğul)",
+    "answer": "SİZ FİLM İZLEDİNİZ"
+  },
+  {
+    "question": "ТЕ ГЛЕДАХА ПРЕЗ ПРОЗОРЕЦА (TE GLEDAHA PREZ PROZORETSA) (Çoğul)",
+    "answer": "ONLAR CAMDAN BAKIYORDU"
+  },
+  {
+    "question": "АЗ НЕ ГЛЕДАМ ИНТЕРЕСЕН ФИЛМ (AZ NE GLEDAM INTERESEN FILM) (Eril)",
+    "answer": "BEN İLGİNÇ FİLM İZLEMIYORUM"
+  },
+  {
+    "question": "АЗ НЕ ГЛЕДАМ ПРЕЗ ПРОЗОРЕЦА (AZ NE GLEDAM PREZ PROZORETSA) (Eril)",
+    "answer": "CAMDAN BAKMIYORUM"
+  },
+  {
+    "question": "АЗ НЕ ГЛЕДАМ ДЕЦАТА (AZ NE GLEDAM DETSATA) (Çoğul)",
+    "answer": "ÇOCUKLARA BAKMIYORUM"
+  },
+  {
+    "question": "ТИ НЕ ГЛЕДАШ КОКОШКИ (TI NE GLEDASH KOKOSHKI) (Çoğul)",
+    "answer": "SEN TAVUK BAKMIYORSUN"
+  },
+  {
+    "question": "ТОЙ НЕ ГЛЕДА МЕНЮТО (TOY NE GLEDA MENYUTO) (Eril)",
+    "answer": "O MENÜYE BAKMIYOR (ERİL)"
+  },
+  {
+    "question": "ТЯ НЕ ГЛЕДА МЕНЮТО (TYA NE GLEDA MENYUTO) (Dişil)",
+    "answer": "O MENÜYE BAKMIYOR (DİŞİL)"
+  },
+  {
+    "question": "ТО НЕ ГЛЕДА МЕНЮТО (TO NE GLEDA MENYUTO) (Nötr)",
+    "answer": "O MENÜYE BAKMIYOR (NÖTR)"
+  },
+  {
+    "question": "НИЕ НЕ ГЛЕДАМЕ ТЕАТЪР (NIE NE GLEDAME TEATAR) (Çoğul)",
+    "answer": "BİZ TİYATRO İZLEMİYORUZ"
+  },
+  {
+    "question": "ВИЕ НЕ ГЛЕДАТЕ ТЕЛЕФОНА (VIE NE GLEDATE TELEFONA) (Çoğul)",
+    "answer": "SİZ TELEFONA BAKMIYORSUNUZ"
+  },
+  {
+    "question": "ТЕ НЕ ГЛЕДАТ ХУБАВИ КОЛИ (TE NE GLEDAT HUBAVI KOLI) (Çoğul)",
+    "answer": "ONLAR GÜZEL ARABALARA BAKMIYOR"
+  },
+  {
+    "question": "АЗ ГЛЕДАМ ЛИ ИНТЕРЕСЕН ФИЛМ? (AZ GLEDAM LI INTERESEN FILM?) (Eril)",
+    "answer": "BEN İLGİNÇ FİLM İZLİYOR MUYUM?"
+  },
+  {
+    "question": "АЗ ГЛЕДАМ ЛИ ПРЕЗ ПРОЗОРЕЦА? (AZ GLEDAM LI PREZ PROZORETSA?) (Eril)",
+    "answer": "CAMDAN BAKIYOR MUYUM?"
+  },
+  {
+    "question": "АЗ ГЛЕДАМ ЛИ ДЕЦАТА? (AZ GLEDAM LI DETSATA?) (Çoğul)",
+    "answer": "ÇOCUKLARA BAKIYOR MUYUM?"
+  },
+  {
+    "question": "ТИ ГЛЕДАШ ЛИ КОКОШКИ? (TI GLEDASH LI KOKOSHKI?) (Çoğul)",
+    "answer": "SEN TAVUK BAKIYOR MUSUN?"
+  },
+  {
+    "question": "ТОЙ ГЛЕДА ЛИ МЕНЮТО? (TOY GLEDA LI MENYUTO?) (Eril)",
+    "answer": "O MENÜYE BAKIYOR MU? (ERİL)"
+  },
+  {
+    "question": "ТЯ ГЛЕДА ЛИ МЕНЮТО? (TYA GLEDA LI MENYUTO?) (Dişil)",
+    "answer": "O MENÜYE BAKIYOR MU? (DİŞİL)"
+  },
+  {
+    "question": "ТО ГЛЕДА ЛИ МЕНЮТО? (TO GLEDA LI MENYUTO?) (Nötr)",
+    "answer": "O MENÜYE BAKIYOR MU? (NÖTR)"
+  },
+  {
+    "question": "НИЕ ГЛЕДАМЕ ЛИ ТЕАТЪР? (NIE GLEDAME LI TEATAR?) (Çoğul)",
+    "answer": "BİZ TİYATRO İZLİYOR MUYUZ?"
+  },
+  {
+    "question": "ВИЕ ГЛЕДАТЕ ЛИ ТЕЛЕФОНА? (VIE GLEDATE LI TELEFONA?) (Çoğul)",
+    "answer": "SİZ TELEFONA BAKIYOR MUSUNUZ?"
+  },
+  {
+    "question": "ТЕ ГЛЕДАТ ЛИ ХУБАВИ КОЛИ? (TE GLEDAT LI HUBAVI KOLI?) (Çoğul)",
+    "answer": "ONLAR GÜZEL ARABALARA BAKIYOR MU?"
+  },
+  {
+    "question": "АЗ ИСКАМ (AZ ISKAM)",
+    "answer": "BEN İSTİYORUM"
+  },
+  {
+    "question": "ТИ ИСКАШ (TI ISKASH)",
+    "answer": "SEN İSTİYORSUN"
+  },
+  {
+    "question": "ТОЙ ИСКА (TOY ISKA) (Eril)",
+    "answer": "O İSTİYOR (ERİL)"
+  },
+  {
+    "question": "ТЯ ИСКА (TYA ISKA) (Dişil)",
+    "answer": "O İSTİYOR (DİŞİL)"
+  },
+  {
+    "question": "ТО ИСКА (TO ISKA) (Nötr)",
+    "answer": "O İSTİYOR (NÖTR)"
+  },
+  {
+    "question": "НИЕ ИСКАМЕ (NIE ISKAME) (Çoğul)",
+    "answer": "BİZ İSTİYORUZ"
+  },
+  {
+    "question": "ВИЕ ИСКАТЕ (VIE ISKATE) (Çoğul)",
+    "answer": "SİZ İSTİYORSUNUZ"
+  },
+  {
+    "question": "ТЕ ИСКАТ (TE ISKAT) (Çoğul)",
+    "answer": "ONLAR İSTİYORLAR"
+  },
+  {
+    "question": "АЗ ИСКАХ (AZ ISKAH)",
+    "answer": "BEN İSTİYORDUM"
+  },
+  {
+    "question": "ТИ ИСКАШЕ (TI ISKASHE)",
+    "answer": "SEN İSTİYORDUN"
+  },
+  {
+    "question": "ТОЙ ИСКАШЕ (TOY ISKASHE) (Eril)",
+    "answer": "O İSTİYORDU (ERİL)"
+  },
+  {
+    "question": "ТЯ ИСКАШЕ (TYA ISKASHE) (Dişil)",
+    "answer": "O İSTİYORDU (DİŞİL)"
+  },
+  {
+    "question": "ТО ИСКАШЕ (TO ISKASHE) (Nötr)",
+    "answer": "O İSTİYORDU (NÖTR)"
+  },
+  {
+    "question": "НИЕ ИСКАХМЕ (NIE ISKAHME) (Çoğul)",
+    "answer": "BİZ İSTİYORDUK"
+  },
+  {
+    "question": "ВИЕ ИСКАХТЕ (VIE ISKAHTE) (Çoğul)",
+    "answer": "SİZ İSTİYORDUNUZ"
+  },
+  {
+    "question": "ТЕ ИСКАХА (TE ISKAHA) (Çoğul)",
+    "answer": "ONLAR İSTİYORDU"
+  },
+  {
+    "question": "АЗ ИСКАМ ЕДНО КАФЕ (AZ ISKAM EDNO KAFE) (Nötr)",
+    "answer": "BİR KAHVE İSTİYORUM"
+  },
+  {
+    "question": "АЗ ИСКАМ МАЛКО ВРЕМЕ (AZ ISKAM MALKO VREME) (Nötr)",
+    "answer": "BİRAZ ZAMAN İSTİYORUM"
+  },
+  {
+    "question": "АЗ ИСКАМ ЕДНО ПАРЧЕ ТОРТА И ЕДИН СОК (AZ ISKAM EDNO PARCHE TORTA I EDIN SOK) (Nötr)",
+    "answer": "BEN BİR DİLİM PASTA VE BİR MEYVE SUYU İSTİYORUM"
+  },
+  {
+    "question": "ТИ ИСКАШ СТУДЕНА ВОДА (TI ISKASH STUDENA VODA) (Dişil)",
+    "answer": "SEN SOĞUK SU İSTİYORSUN"
+  },
+  {
+    "question": "ТОЙ ИСКА ИГРАЧКА (TOY ISKA IGRACHKA) (Eril)",
+    "answer": "O OYUNCAK İSTİYOR (ERİL)"
+  },
+  {
+    "question": "ТЯ ИСКА ИГРАЧКА (TYA ISKA IGRACHKA) (Dişil)",
+    "answer": "O OYUNCAK İSTİYOR (DİŞİL)"
+  },
+  {
+    "question": "ТО ИСКА ИГРАЧКА (TO ISKA IGRACHKA) (Nötr)",
+    "answer": "O OYUNCAK İSTİYOR (NÖTR)"
+  },
+  {
+    "question": "НИЕ ИСКАМЕ ПОЧИВКА (NIE ISKAME POCHIVKA) (Çoğul)",
+    "answer": "BİZ TATİL İSTİYORUZ"
+  },
+  {
+    "question": "ВИЕ ИСКАТЕ ЕДНА ПИЛЕШКА СУПА (VIE ISKATE EDNA PILESHKA SUPA) (Çoğul)",
+    "answer": "SİZ BİR TAVUK ÇORBASI İSTİYORSUNUZ"
+  },
+  {
+    "question": "ТЕ ИСКАТ СТУДЕН ЧАЙ (TE ISKAT STUDEN CHAY) (Çoğul)",
+    "answer": "ONLAR SOĞUK ÇAY İSTİYOR"
+  },
+  {
+    "question": "АЗ ИСКАХ ХУБАВА ЧАНТА (AZ ISKAH HUBAVA CHANTA) (Dişil)",
+    "answer": "BEN GÜZEL ÇANTA İSTİYORDUM"
+  },
+  {
+    "question": "ТИ ИСКАШЕ СИНИ ДЪНКИ (TI ISKASHE SINI DANKI) (Çoğul)",
+    "answer": "SEN MAVİ KOT PANTOLON İSTİYORDUN"
+  },
+  {
+    "question": "ТОЙ ИСКАШЕ ХУБАВА КОЛА (TOY ISKASHE HUBAVA KOLA) (Eril)",
+    "answer": "O GÜZEL ARABA İSTİYORDU (ERİL)"
+  },
+  {
+    "question": "ТЯ ИСКАШЕ ХУБАВА КОЛА (TYA ISKASHE HUBAVA KOLA) (Dişil)",
+    "answer": "O GÜZEL ARABA İSTİYORDU (DİŞİL)"
+  },
+  {
+    "question": "ТО ИСКАШЕ ХУБАВА КОЛА (TO ISKASHE HUBAVA KOLA) (Nötr)",
+    "answer": "O GÜZEL ARABA İSTİYORDU (NÖTR)"
+  },
+  {
+    "question": "НИЕ ИСКАХМЕ ТОРТА (NIE ISKAHME TORTA) (Çoğul)",
+    "answer": "BİZ PASTA İSTİYORDUK"
+  },
+  {
+    "question": "ВИЕ ИСКАХТЕ КУЧЕ (VIE ISKAHTE KUCHE) (Çoğul)",
+    "answer": "SİZ KÖPEK İSTİYORDUNUZ"
+  },
+  {
+    "question": "ТЕ ИСКАХА МОИТЕ ДОКУМЕНТИ (TE ISKAHA MOITE DOKUMENTI) (Çoğul)",
+    "answer": "ONLAR BENİM EVRAKLARIMI İSTİYORDU"
+  },
+  {
+    "question": "АЗ НЕ ИСКАМ ЕДНО КАФЕ (AZ NE ISKAM EDNO KAFE) (Nötr)",
+    "answer": "BİR KAHVE İSTEMİYORUM"
+  },
+  {
+    "question": "АЗ НЕ ИСКАМ МАЛКО ВРЕМЕ (AZ NE ISKAM MALKO VREME) (Nötr)",
+    "answer": "BİRAZ ZAMAN İSTEMİYORUM"
+  },
+  {
+    "question": "АЗ НЕ ИСКАМ ЕДНО ПАРЧЕ ТОРТА И ЕДИН СОК (AZ NE ISKAM EDNO PARCHE TORTA I EDIN SOK) (Nötr)",
+    "answer": "BEN BİR DİLİM PASTA VE BİR MEYVE SUYU İSTEMİYORUM"
+  },
+  {
+    "question": "ТИ НЕ ИСКАШ СТУДЕНА ВОДА (TI NE ISKASH STUDENA VODA) (Dişil)",
+    "answer": "SEN SOĞUK SU İSTEMİYORSUN"
+  },
+  {
+    "question": "ТОЙ НЕ ИСКА ИГРАЧКА (TOY NE ISKA IGRACHKA) (Eril)",
+    "answer": "O OYUNCAK İSTEMİYOR (ERİL)"
+  },
+  {
+    "question": "ТЯ НЕ ИСКА ИГРАЧКА (TYA NE ISKA IGRACHKA) (Dişil)",
+    "answer": "O OYUNCAK İSTEMİYOR (DİŞİL)"
+  },
+  {
+    "question": "ТО НЕ ИСКА ИГРАЧКА (TO NE ISKA IGRACHKA) (Nötr)",
+    "answer": "O OYUNCAK İSTEMİYOR (NÖTR)"
+  },
+  {
+    "question": "НИЕ НЕ ИСКАМЕ ПОЧИВКА (NIE NE ISKAME POCHIVKA) (Çoğul)",
+    "answer": "BİZ TATİL İSTEMİYORUZ"
+  },
+  {
+    "question": "ВИЕ НЕ ИСКАТЕ ЕДНА ПИЛЕШКА СУПА (VIE NE ISKATE EDNA PILESHKA SUPA) (Çoğul)",
+    "answer": "SİZ BİR TAVUK ÇORBASI İSTEMİYORSUNUZ"
+  },
+  {
+    "question": "ТЕ НЕ ИСКАТ СТУДЕН ЧАЙ (TE NE ISKAT STUDEN CHAY) (Çoğul)",
+    "answer": "ONLAR SOĞUK ÇAY İSTEMİYOR"
+  },
+  {
+    "question": "АЗ ИСКАМ ЛИ ЕДНО КАФЕ? (AZ ISKAM LI EDNO KAFE?) (Nötr)",
+    "answer": "BİR KAHVE İSTİYOR MUYUM?"
+  },
+  {
+    "question": "АЗ ИСКАМ ЛИ МАЛКО ВРЕМЕ? (AZ ISKAM LI MALKO VREME?) (Nötr)",
+    "answer": "BİRAZ ZAMAN İSTİYOR MUYUM?"
+  },
+  {
+    "question": "АЗ ИСКАМ ЛИ ЕДНО ПАРЧЕ ТОРТА И ЕДИН СОК? (AZ ISKAM LI EDNO PARCHE TORTA I EDIN SOK?) (Nötr)",
+    "answer": "BEN BİR DİLİM PASTA VE BİR MEYVE SUYU İSTİYOR MUYUM?"
+  },
+  {
+    "question": "ТИ ИСКАШ ЛИ СТУДЕНА ВОДА? (TI ISKASH LI STUDENA VODA?) (Dişil)",
+    "answer": "SEN SOĞUK SU İSTİYOR MUSUN?"
+  },
+  {
+    "question": "ТОЙ ИСКА ЛИ ИГРАЧКА? (TOY ISKA LI IGRACHKA?) (Eril)",
+    "answer": "O OYUNCAK İSTİYOR MU? (ERİL)"
+  },
+  {
+    "question": "ТЯ ИСКА ЛИ ИГРАЧКА? (TYA ISKA LI IGRACHKA?) (Dişil)",
+    "answer": "O OYUNCAK İSTİYOR MU? (DİŞİL)"
+  },
+  {
+    "question": "ТО ИСКА ЛИ ИГРАЧКА? (TO ISKA LI IGRACHKA?) (Nötr)",
+    "answer": "O OYUNCAK İSTİYOR MU? (NÖTR)"
+  },
+  {
+    "question": "НИЕ ИСКАМЕ ЛИ ПОЧИВКА? (NIE ISKAME LI POCHIVKA?) (Çoğul)",
+    "answer": "BİZ TATİL İSTİYOR MUYUZ?"
+  },
+  {
+    "question": "ВИЕ ИСКАТЕ ЛИ ЕДНА ПИЛЕШКА СУПА? (VIE ISKATE LI EDNA PILESHKA SUPA?) (Çoğul)",
+    "answer": "SİZ BİR TAVUK ÇORBASI İSTİYOR MUSUNUZ?"
+  },
+  {
+    "question": "ТЕ ИСКАТ ЛИ СТУДЕН ЧАЙ? (TE ISKAT LI STUDEN CHAY?) (Çoğul)",
+    "answer": "ONLAR SOĞUK ÇAY İSTİYOR MU?"
+  },
+  {
+    "question": "АЗ ПИША (AZ PISHA)",
+    "answer": "BEN YAZIYORUM"
+  },
+  {
+    "question": "ТИ ПИШЕШ (TI PISHESH)",
+    "answer": "SEN YAZIYORSUN"
+  },
+  {
+    "question": "ТОЙ ПИШЕ (TOY PISHE) (Eril)",
+    "answer": "O YAZIYOR (ERİL)"
+  },
+  {
+    "question": "ТЯ ПИШЕ (TYA PISHE) (Dişil)",
+    "answer": "O YAZIYOR (DİŞİL)"
+  },
+  {
+    "question": "ТО ПИШЕ (TO PISHE) (Nötr)",
+    "answer": "O YAZIYOR (NÖTR)"
+  },
+  {
+    "question": "НИЕ ПИШЕМ (NIE PISHEM) (Çoğul)",
+    "answer": "BİZ YAZIYORUZ"
+  },
+  {
+    "question": "ВИЕ ПИШЕТЕ (VIE PISHETE) (Çoğul)",
+    "answer": "SİZ YAZIYORSUNUZ"
+  },
+  {
+    "question": "ТЕ ПИШАТ (TE PISHAT) (Çoğul)",
+    "answer": "ONLAR YAZIYORLAR"
+  },
+  {
+    "question": "АЗ ПИСАХ (AZ PISAH)",
+    "answer": "BEN YAZDIM"
+  },
+  {
+    "question": "ТИ ПИСА (TI PISA)",
+    "answer": "SEN YAZDIN"
+  },
+  {
+    "question": "ТОЙ ПИСА (TOY PISA) (Eril)",
+    "answer": "O YAZDI (ERİL)"
+  },
+  {
+    "question": "ТЯ ПИСА (TYA PISA) (Dişil)",
+    "answer": "O YAZDI (DİŞİL)"
+  },
+  {
+    "question": "ТО ПИСА (TO PISA) (Nötr)",
+    "answer": "O YAZDI (NÖTR)"
+  },
+  {
+    "question": "НИЕ ПИСАХМЕ (NIE PISAHME) (Çoğul)",
+    "answer": "BİZ YAZDIK"
+  },
+  {
+    "question": "ВИЕ ПИСАХТЕ (VIE PISAHTE) (Çoğul)",
+    "answer": "SİZ YAZDINIZ"
+  },
+  {
+    "question": "ТЕ ПИСАХА (TE PISAHA) (Çoğul)",
+    "answer": "ONLAR YAZDI"
+  },
+  {
+    "question": "АЗ ПИША КНИГА (AZ PISHA KNIGA) (Dişil)",
+    "answer": "KİTAP YAZIYORUM"
+  },
+  {
+    "question": "АЗ ПИША ДЕКЛАРАЦИЯ (AZ PISHA DEKLARATSIYA) (Dişil)",
+    "answer": "DİLEKÇE YAZIYORUM"
+  },
+  {
+    "question": "ТИ ПИШЕШ ДОМАШНО ПО БЪЛГАРСКИ ЕЗИК (TI PISHESH DOMASHNO PO BALGARSKI EZIK) (Nötr)",
+    "answer": "SEN BULGARCA DİLİ ÖDEVİ YAZIYORSUN"
+  },
+  {
+    "question": "ТОЙ ПИШЕ СТИХОТВОРЕНИЕ (TOY PISHE STIHOTVORENIE) (Eril)",
+    "answer": "O ŞİİR YAZIYOR (ERİL)"
+  },
+  {
+    "question": "ТЯ ПИШЕ СТИХОТВОРЕНИЕ (TYA PISHE STIHOTVORENIE) (Dişil)",
+    "answer": "O ŞİİR YAZIYOR (DİŞİL)"
+  },
+  {
+    "question": "ТО ПИШЕ СТИХОТВОРЕНИЕ (TO PISHE STIHOTVORENIE) (Nötr)",
+    "answer": "O ŞİİR YAZIYOR (NÖTR)"
+  },
+  {
+    "question": "НИЕ ПИШЕМ ПИСМО (NIE PISHEM PISMO) (Çoğul)",
+    "answer": "BİZ MEKTUP YAZIYORUZ"
+  },
+  {
+    "question": "ВИЕ ПИШЕТЕ МНОГО ХУБАВО (VIE PISHETE MNOGO HUBAVO) (Çoğul)",
+    "answer": "SİZ ÇOK GÜZEL YAZIYORSUNUZ"
+  },
+  {
+    "question": "ТЕ ПИШАТ СЪОБЩЕНИЕ ОТ ТЕЛЕФОНА (TE PISHAT SAOBSHTENIE OT TELEFONA) (Çoğul)",
+    "answer": "ONLAR TELEFONDAN MESAJ YAZIYOR"
+  },
+  {
+    "question": "АЗ ПИСАХ ПИСМО ДО МАМА (AZ PISAH PISMO DO MAMA) (Nötr)",
+    "answer": "ANNEME MEKTUP YAZDIM"
+  },
+  {
+    "question": "ТИ ПИСА ИНТЕРЕСНА СТАТИЯ (TI PISA INTERESNA STATIYA) (Dişil)",
+    "answer": "SEN İLGİNÇ MAKALE YAZDIN"
+  },
+  {
+    "question": "ТОЙ ПИСА СТАТИЯ ЗА ВЕСТНИКА (TOY PISA STATIYA ZA VESTNIKA) (Eril)",
+    "answer": "O GAZETEYE MAKALE YAZDI (ERİL)"
+  },
+  {
+    "question": "ТЯ ПИСА СТАТИЯ ЗА ВЕСТНИКА (TYA PISA STATIYA ZA VESTNIKA) (Dişil)",
+    "answer": "O GAZETEYE MAKALE YAZDI (DİŞİL)"
+  },
+  {
+    "question": "ТО ПИСА СТАТИЯ ЗА ВЕСТНИКА (TO PISA STATIYA ZA VESTNIKA) (Nötr)",
+    "answer": "O GAZETEYE MAKALE YAZDI (NÖTR)"
+  },
+  {
+    "question": "НИЕ ПИСАХМЕ АЗБУКАТА (NIE PISAHME AZBUKATA) (Çoğul)",
+    "answer": "BİZ ALFABEYİ YAZDIK"
+  },
+  {
+    "question": "ВИЕ ПИСАХТЕ МНОГО ДОБРЕ (VIE PISAHTE MNOGO DOBRE) (Çoğul)",
+    "answer": "SİZ ÇOK İYİ YAZDINIZ"
+  },
+  {
+    "question": "ТЕ ПИСАХА ПИСМО ДО ДИРЕКТОРА (TE PISAHA PISMO DO DIREKTORA) (Çoğul)",
+    "answer": "ONLAR MÜDÜRE MEKTUP YAZDI"
+  },
+  {
+    "question": "АЗ НЕ ПИША КНИГА (AZ NE PISHA KNIGA) (Dişil)",
+    "answer": "KİTAP YAZMIYORUM"
+  },
+  {
+    "question": "АЗ НЕ ПИША ДЕКЛАРАЦИЯ (AZ NE PISHA DEKLARATSIYA) (Dişil)",
+    "answer": "DİLEKÇE YAZMIYORUM"
+  },
+  {
+    "question": "ТИ НЕ ПИШЕШ ДОМАШНО ПО БЪЛГАРСКИ ЕЗИК (TI NE PISHESH DOMASHNO PO BALGARSKI EZIK) (Nötr)",
+    "answer": "SEN BULGARCA DİLİ ÖDEVİ YAZMIYORSUN"
+  },
+  {
+    "question": "ТОЙ НЕ ПИШЕ СТИХОТВОРЕНИЕ (TOY NE PISHE STIHOTVORENIE) (Eril)",
+    "answer": "O ŞİİR YAZMIYOR (ERİL)"
+  },
+  {
+    "question": "ТЯ НЕ ПИШЕ СТИХОТВОРЕНИЕ (TYA NE PISHE STIHOTVORENIE) (Dişil)",
+    "answer": "O ŞİİR YAZMIYOR (DİŞİL)"
+  },
+  {
+    "question": "ТО НЕ ПИШЕ СТИХОТВОРЕНИЕ (TO NE PISHE STIHOTVORENIE) (Nötr)",
+    "answer": "O ŞİİR YAZMIYOR (NÖTR)"
+  },
+  {
+    "question": "НИЕ НЕ ПИШЕМ ПИСМО (NIE NE PISHEM PISMO) (Çoğul)",
+    "answer": "BİZ MEKTUP YAZMIYORUZ"
+  },
+  {
+    "question": "ВИЕ НЕ ПИШЕТЕ МНОГО ХУБАВО (VIE NE PISHETE MNOGO HUBAVO) (Çoğul)",
+    "answer": "SİZ ÇOK GÜZEL YAZMIYORSUNUZ"
+  },
+  {
+    "question": "ТЕ НЕ ПИШАТ СЪОБЩЕНИЕ ОТ ТЕЛЕФОНА (TE NE PISHAT SAOBSHTENIE OT TELEFONA) (Çoğul)",
+    "answer": "ONLAR TELEFONDAN MESAJ YAZMIYOR"
+  },
+  {
+    "question": "АЗ ПИША ЛИ КНИГА? (AZ PISHA LI KNIGA?) (Dişil)",
+    "answer": "KİTAP YAZIYOR MUYUM?"
+  },
+  {
+    "question": "АЗ ПИША ЛИ ДЕКЛАРАЦИЯ? (AZ PISHA LI DEKLARATSIYA?) (Dişil)",
+    "answer": "DİLEKÇE YAZIYOR MUYUM?"
+  },
+  {
+    "question": "ТИ ПИШЕШ ЛИ ДОМАШНО ПО БЪЛГАРСКИ ЕЗИК? (TI PISHESH LI DOMASHNO PO BALGARSKI EZIK?) (Nötr)",
+    "answer": "SEN BULGARCA DİLİ ÖDEVİ YAZIYOR MUSUN?"
+  },
+  {
+    "question": "ТОЙ ПИШЕ ЛИ СТИХОТВОРЕНИЕ? (TOY PISHE LI STIHOTVORENIE?) (Eril)",
+    "answer": "O ŞİİR YAZIYOR MU? (ERİL)"
+  },
+  {
+    "question": "ТЯ ПИШЕ ЛИ СТИХОТВОРЕНИЕ? (TYA PISHE LI STIHOTVORENIE?) (Dişil)",
+    "answer": "O ŞİİR YAZIYOR MU? (DİŞİL)"
+  },
+  {
+    "question": "ТО ПИШЕ ЛИ СТИХОТВОРЕНИЕ? (TO PISHE LI STIHOTVORENIE?) (Nötr)",
+    "answer": "O ŞİİR YAZIYOR MU? (NÖTR)"
+  },
+  {
+    "question": "НИЕ ПИШЕМ ЛИ ПИСМО? (NIE PISHEM LI PISMO?) (Çoğul)",
+    "answer": "BİZ MEKTUP YAZIYOR MUYUZ?"
+  },
+  {
+    "question": "ВИЕ ПИШЕТЕ ЛИ МНОГО ХУБАВО? (VIE PISHETE LI MNOGO HUBAVO?) (Çoğul)",
+    "answer": "SİZ ÇOK GÜZEL YAZIYOR MUSUNUZ?"
+  },
+  {
+    "question": "ТЕ ПИШАТ ЛИ СЪОБЩЕНИЕ ОТ ТЕЛЕФОНА? (TE PISHAT LI SAOBSHTENIE OT TELEFONA?) (Çoğul)",
+    "answer": "ONLAR TELEFONDAN MESAJ YAZIYOR MU?"
+  },
+  {
+    "question": "АЗ СЛУШАМ (AZ SLUSHAM)",
+    "answer": "BEN DİNLİYORUM"
+  },
+  {
+    "question": "ТИ СЛУШАШ (TI SLUSHASH)",
+    "answer": "SEN DİNLİYORSUN"
+  },
+  {
+    "question": "ТОЙ СЛУША (TOY SLUSHA) (Eril)",
+    "answer": "O DİNLİYOR (ERİL)"
+  },
+  {
+    "question": "ТЯ СЛУША (TYA SLUSHA) (Dişil)",
+    "answer": "O DİNLİYOR (DİŞİL)"
+  },
+  {
+    "question": "ТО СЛУША (TO SLUSHA) (Nötr)",
+    "answer": "O DİNLİYOR (NÖTR)"
+  },
+  {
+    "question": "НИЕ СЛУШАМЕ (NIE SLUSHAME) (Çoğul)",
+    "answer": "BİZ DİNLİYORUZ"
+  },
+  {
+    "question": "ВИЕ СЛУШАТЕ (VIE SLUSHATE) (Çoğul)",
+    "answer": "SİZ DİNLİYORSUNUZ"
+  },
+  {
+    "question": "ТЕ СЛУШАТ (TE SLUSHAT) (Çoğul)",
+    "answer": "ONLAR DİNLİYORLAR"
+  },
+  {
+    "question": "АЗ СЛУШАХ (AZ SLUSHAH)",
+    "answer": "BEN DİNLEDİM"
+  },
+  {
+    "question": "ТИ СЛУША (TI SLUSHA)",
+    "answer": "SEN DİNLEDİN"
+  },
+  {
+    "question": "ТОЙ СЛУША (TOY SLUSHA) (Eril)",
+    "answer": "O DİNLEDİ (ERİL)"
+  },
+  {
+    "question": "ТЯ СЛУША (TYA SLUSHA) (Dişil)",
+    "answer": "O DİNLEDİ (DİŞİL)"
+  },
+  {
+    "question": "ТО СЛУША (TO SLUSHA) (Nötr)",
+    "answer": "O DİNLEDİ (NÖTR)"
+  },
+  {
+    "question": "НИЕ СЛУШАХМЕ (NIE SLUSHAHME) (Çoğul)",
+    "answer": "BİZ DİNLEDİK"
+  },
+  {
+    "question": "ВИЕ СЛУШАХТЕ (VIE SLUSHAHTE) (Çoğul)",
+    "answer": "SİZ DİNLEDİNİZ"
+  },
+  {
+    "question": "ТЕ СЛУШАХА (TE SLUSHAHA) (Çoğul)",
+    "answer": "ONLAR DİNLEDİ"
+  },
+  {
+    "question": "АЗ СЛУШАМ ХУБАВА МУЗИКА (AZ SLUSHAM HUBAVA MUZIKA) (Dişil)",
+    "answer": "BEN GÜZEL MÜZİK DİNLİYORUM"
+  },
+  {
+    "question": "ТИ СЛУШАШ УРОК (TI SLUSHASH UROK) (Eril)",
+    "answer": "SEN DERS DİNLİYORSUN"
+  },
+  {
+    "question": "ТОЙ СЛУША УЧИТЕЛЯ (TOY SLUSHA UCHITELYA) (Eril)",
+    "answer": "O ÖĞRETMENİ DİNLİYOR (ERİL)"
+  },
+  {
+    "question": "ТЯ СЛУША УЧИТЕЛЯ (TYA SLUSHA UCHITELYA) (Dişil)",
+    "answer": "O ÖĞRETMENİ DİNLİYOR (DİŞİL)"
+  },
+  {
+    "question": "ТО СЛУША УЧИТЕЛЯ (TO SLUSHA UCHITELYA) (Nötr)",
+    "answer": "O ÖĞRETMENİ DİNLİYOR (NÖTR)"
+  },
+  {
+    "question": "НИЕ СЛУШАМЕ МУЗИКА ВСЕКИ ДЕН (NIE SLUSHAME MUZIKA VSEKI DEN) (Çoğul)",
+    "answer": "BİZ HER GÜN MÜZİK DİNLİYORUZ"
+  },
+  {
+    "question": "ВИЕ СЛУШАТЕ ДОБРЕ (VIE SLUSHATE DOBRE) (Çoğul)",
+    "answer": "SİZ İYİ DİNLİYORSUNUZ"
+  },
+  {
+    "question": "ТЕ СЛУШАТ КОНЦЕРТ В ПАРКА (TE SLUSHAT KONTSERT V PARKA) (Çoğul)",
+    "answer": "ONLAR PARKTA KONSER DİNLİYOR"
+  },
+  {
+    "question": "АЗ СЛУШАХ НОВИНИТЕ (AZ SLUSHAH NOVINITE) (Çoğul)",
+    "answer": "BEN HABERLERİ DİNLEDİM"
+  },
+  {
+    "question": "ТИ СЛУША МУЗИКА ПРЕЗ НОЩТА (TI SLUSHA MUZIKA PREZ NOSHTTA) (Dişil)",
+    "answer": "SEN GECE YARISI MÜZİK DİNLEDİN"
+  },
+  {
+    "question": "ТОЙ СЛУША ПРИКАЗКИ ВНИМАТЕЛНО (TOY SLUSHA PRIKAZKI VNIMATELNO) (Eril)",
+    "answer": "O MASALI DİKKATLE DİNLEDİ (ERİL)"
+  },
+  {
+    "question": "ТЯ СЛУША ПРИКАЗКИ ВНИМАТЕЛНО (TYA SLUSHA PRIKAZKI VNIMATELNO) (Dişil)",
+    "answer": "O MASALI DİKKATLE DİNLEDİ (DİŞİL)"
+  },
+  {
+    "question": "ТО СЛУША ПРИКАЗКИ ВНИМАТЕЛНО (TO SLUSHA PRIKAZKI VNIMATELNO) (Nötr)",
+    "answer": "O MASALI DİKKATLE DİNLEDİ (NÖTR)"
+  },
+  {
+    "question": "НИЕ СЛУШАХМЕ УЧИТЕЛКАТА (NIE SLUSHAHME UCHITELKATA) (Çoğul)",
+    "answer": "BİZ ÖĞRETMENİ DİNLEDİK"
+  },
+  {
+    "question": "ВИЕ СЛУШАХТЕ НОВАТА ПЕСЕН (VIE SLUSHAHTE NOVATA PESEN) (Çoğul)",
+    "answer": "SİZ YENİ ŞARKIYI DİNLEDİNİZ"
+  },
+  {
+    "question": "ТЕ СЛУШАХА РАДИО (TE SLUSHAHA RADIO) (Çoğul)",
+    "answer": "ONLAR RADYO DİNLEDİLER"
+  },
+  {
+    "question": "АЗ НЕ СЛУШАМ ХУБАВА МУЗИКА (AZ NE SLUSHAM HUBAVA MUZIKA) (Dişil)",
+    "answer": "BEN GÜZEL MÜZİK DİNLEMİYORUM"
+  },
+  {
+    "question": "ТИ НЕ СЛУШАШ УРОК (TI NE SLUSHASH UROK) (Eril)",
+    "answer": "SEN DERS DİNLEMİYORSUN"
+  },
+  {
+    "question": "ТОЙ НЕ СЛУША УЧИТЕЛЯ (TOY NE SLUSHA UCHITELYA) (Eril)",
+    "answer": "O ÖĞRETMENİ DİNLEMİYOR (ERİL)"
+  },
+  {
+    "question": "ТЯ НЕ СЛУША УЧИТЕЛЯ (TYA NE SLUSHA UCHITELYA) (Dişil)",
+    "answer": "O ÖĞRETMENİ DİNLEMİYOR (DİŞİL)"
+  },
+  {
+    "question": "ТО НЕ СЛУША УЧИТЕЛЯ (TO NE SLUSHA UCHITELYA) (Nötr)",
+    "answer": "O ÖĞRETMENİ DİNLEMİYOR (NÖTR)"
+  },
+  {
+    "question": "НИЕ НЕ СЛУШАМЕ МУЗИКА ВСЕКИ ДЕН (NIE NE SLUSHAME MUZIKA VSEKI DEN) (Çoğul)",
+    "answer": "BİZ HER GÜN MÜZİK DİNLEMİYORUZ"
+  },
+  {
+    "question": "ВИЕ НЕ СЛУШАТЕ ДОБРЕ (VIE NE SLUSHATE DOBRE) (Çoğul)",
+    "answer": "SİZ İYİ DİNLEMİYORSUNUZ"
+  },
+  {
+    "question": "ТЕ НЕ СЛУШАТ КОНЦЕРТ В ПАРКА (TE NE SLUSHAT KONTSERT V PARKA) (Çoğul)",
+    "answer": "ONLAR PARKTA KONSER DİNLEMİYOR"
+  },
+  {
+    "question": "АЗ СЛУШАМ ЛИ ХУБАВА МУЗИКА? (AZ SLUSHAM LI HUBAVA MUZIKA?) (Dişil)",
+    "answer": "BEN GÜZEL MÜZİK DİNLİYOR MUYUM?"
+  },
+  {
+    "question": "ТИ СЛУШАШ ЛИ УРОК? (TI SLUSHASH LI UROK?) (Eril)",
+    "answer": "SEN DERS DİNLİYOR MUSUN?"
+  },
+  {
+    "question": "ТОЙ СЛУША ЛИ УЧИТЕЛЯ? (TOY SLUSHA LI UCHITELYA?) (Eril)",
+    "answer": "O ÖĞRETMENİ DİNLİYOR MU? (ERİL)"
+  },
+  {
+    "question": "ТЯ СЛУША ЛИ УЧИТЕЛЯ? (TYA SLUSHA LI UCHITELYA?) (Dişil)",
+    "answer": "O ÖĞRETMENİ DİNLİYOR MU? (DİŞİL)"
+  },
+  {
+    "question": "ТО СЛУША ЛИ УЧИТЕЛЯ? (TO SLUSHA LI UCHITELYA?) (Nötr)",
+    "answer": "O ÖĞRETMENİ DİNLİYOR MU? (NÖTR)"
+  },
+  {
+    "question": "НИЕ СЛУШАМЕ ЛИ МУЗИКА ВСЕКИ ДЕН? (NIE SLUSHAME LI MUZIKA VSEKI DEN?) (Çoğul)",
+    "answer": "BİZ HER GÜN MÜZİK DİNLİYOR MUYUZ?"
+  },
+  {
+    "question": "ВИЕ СЛУШАТЕ ЛИ ДОБРЕ? (VIE SLUSHATE LI DOBRE?) (Çoğul)",
+    "answer": "SİZ İYİ DİNLİYOR MUSUNUZ?"
+  },
+  {
+    "question": "ТЕ СЛУШАТ ЛИ КОНЦЕРТ В ПАРКА? (TE SLUSHAT LI KONTSERT V PARKA?) (Çoğul)",
+    "answer": "ONLAR PARKTA KONSER DİNLİYOR MU?"
+  },
+  {
+    "question": "АЗ ИГРАЯ (AZ IGRAYA)",
+    "answer": "BEN OYNUYORUM"
+  },
+  {
+    "question": "ТИ ИГРАЕШ (TI IGRAESH)",
+    "answer": "SEN OYNUYORSUN"
+  },
+  {
+    "question": "ТОЙ ИГРАЕ (TOY IGRAE) (Eril)",
+    "answer": "O OYNUYOR (ERİL)"
+  },
+  {
+    "question": "ТЯ ИГРАЕ (TYA IGRAE) (Dişil)",
+    "answer": "O OYNUYOR (DİŞİL)"
+  },
+  {
+    "question": "ТО ИГРАЕ (TO IGRAE) (Nötr)",
+    "answer": "O OYNUYOR (NÖTR)"
+  },
+  {
+    "question": "НИЕ ИГРАЕМ (NIE IGRAEM) (Çoğul)",
+    "answer": "BİZ OYNUYORUZ"
+  },
+  {
+    "question": "ВИЕ ИГРАЕТЕ (VIE IGRAETE) (Çoğul)",
+    "answer": "SİZ OYNUYORSUNUZ"
+  },
+  {
+    "question": "ТЕ ИГРАЯТ (TE IGRAYAT) (Çoğul)",
+    "answer": "ONLAR OYNUYORLAR"
+  },
+  {
+    "question": "АЗ ИГРАХ (AZ IGRAH)",
+    "answer": "BEN OYNADIM"
+  },
+  {
+    "question": "ТИ ИГРА (TI IGRA)",
+    "answer": "SEN OYNADIN"
+  },
+  {
+    "question": "ТОЙ ИГРА (TOY IGRA) (Eril)",
+    "answer": "O OYNADI (ERİL)"
+  },
+  {
+    "question": "ТЯ ИГРА (TYA IGRA) (Dişil)",
+    "answer": "O OYNADI (DİŞİL)"
+  },
+  {
+    "question": "ТО ИГРА (TO IGRA) (Nötr)",
+    "answer": "O OYNADI (NÖTR)"
+  },
+  {
+    "question": "НИЕ ИГРАХМЕ (NIE IGRAHME) (Çoğul)",
+    "answer": "BİZ OYNADIK"
+  },
+  {
+    "question": "ВИЕ ИГРАХТЕ (VIE IGRAHTE) (Çoğul)",
+    "answer": "SİZ OYNADINIZ"
+  },
+  {
+    "question": "ТЕ ИГРАХА (TE IGRAHA) (Çoğul)",
+    "answer": "ONLAR OYNADI"
+  },
+  {
+    "question": "АЗ ИГРАЯ ФУТБОЛ (AZ IGRAYA FUTBOL) (Eril)",
+    "answer": "BEN FUTBOL OYNUYORUM"
+  },
+  {
+    "question": "ТИ ИГРАЕШ БАСКЕТБОЛ С ПРИЯТЕЛИ (TI IGRAESH BASKETBOL S PRIYATELI) (Eril)",
+    "answer": "SEN ARKADAŞLARLA BASKETBOL OYNUYORSUN"
+  },
+  {
+    "question": "ТОЙ ИГРАЕ С ТОПКА (TOY IGRAE S TOPKA) (Eril)",
+    "answer": "O TOPLA OYNUYOR (ERİL)"
+  },
+  {
+    "question": "ТЯ ИГРАЕ С ТОПКА (TYA IGRAE S TOPKA) (Dişil)",
+    "answer": "O TOPLA OYNUYOR (DİŞİL)"
+  },
+  {
+    "question": "ТО ИГРАЕ С ТОПКА (TO IGRAE S TOPKA) (Nötr)",
+    "answer": "O TOPLA OYNUYOR (NÖTR)"
+  },
+  {
+    "question": "НИЕ ИГРАЕМ В ПАРКА (NIE IGRAEM V PARKA) (Çoğul)",
+    "answer": "BİZ PARKTA OYNUYORUZ"
+  },
+  {
+    "question": "ВИЕ ИГРАЕТЕ С КАРТИ (VIE IGRAETE S KARTI) (Çoğul)",
+    "answer": "SİZ KARTLA OYNUYORSUNUZ"
+  },
+  {
+    "question": "ТЕ ИГРАЯТ НА УЛИЦАТА (TE IGRAYAT NA ULITSATA) (Çoğul)",
+    "answer": "ONLAR SOKAKTA OYNUYOR"
+  },
+  {
+    "question": "АЗ ИГРАХ ВОЛЕЙБОЛ ВЧЕРА (AZ IGRAH VOLEYBOL VCHERA) (Eril)",
+    "answer": "BEN DÜN VOLEYBOL OYNADIM"
+  },
+  {
+    "question": "ТИ ИГРА МНОГО ДОБРЕ (TI IGRA MNOGO DOBRE) (Eril)",
+    "answer": "SEN ÇOK İYİ OYNADIN"
+  },
+  {
+    "question": "ТОЙ ВЧЕРА ИГРА НА КОМПЮТЪРА (TOY VCHERA IGRA NA KOMPYUTARA) (Eril)",
+    "answer": "O DÜN BİLGİSAYARDA OYNADI (ERİL)"
+  },
+  {
+    "question": "ТЯ ВЧЕРА ИГРА НА КОМПЮТЪРА (TYA VCHERA IGRA NA KOMPYUTARA) (Dişil)",
+    "answer": "O DÜN BİLGİSAYARDA OYNADI (DİŞİL)"
+  },
+  {
+    "question": "ТО ВЧЕРА ИГРА НА КОМПЮТЪРА (TO VCHERA IGRA NA KOMPYUTARA) (Nötr)",
+    "answer": "O DÜN BİLGİSAYARDA OYNADI (NÖTR)"
+  },
+  {
+    "question": "НИЕ ИГРАХМЕ НА ПЛАЖА (NIE IGRAHME NA PLAZHA) (Çoğul)",
+    "answer": "BİZ PLAJDA OYNADIK"
+  },
+  {
+    "question": "ВИЕ ИГРАХТЕ МНОГО ДОБРЕ (VIE IGRAHTE MNOGO DOBRE) (Çoğul)",
+    "answer": "SİZ ÇOK İYİ OYNADINIZ"
+  },
+  {
+    "question": "ТЕ ИГРАХА ФУТБОЛ ДО ВЕЧЕРТА (TE IGRAHA FUTBOL DO VECHERTA) (Çoğul)",
+    "answer": "ONLAR AKŞAMA KADAR FUTBOL OYNADI"
+  },
+  {
+    "question": "АЗ НЕ ИГРАЯ ФУТБОЛ (AZ NE IGRAYA FUTBOL) (Eril)",
+    "answer": "BEN FUTBOL OYNAMIYORUM"
+  },
+  {
+    "question": "ТИ НЕ ИГРАЕШ БАСКЕТБОЛ С ПРИЯТЕЛИ (TI NE IGRAESH BASKETBOL S PRIYATELI) (Eril)",
+    "answer": "SEN ARKADAŞLARLA BASKETBOL OYNAMIYORSUN"
+  },
+  {
+    "question": "ТОЙ НЕ ИГРАЕ С ТОПКА (TOY NE IGRAE S TOPKA) (Eril)",
+    "answer": "O TOPLA OYNAMIYOR (ERİL)"
+  },
+  {
+    "question": "ТЯ НЕ ИГРАЕ С ТОПКА (TYA NE IGRAE S TOPKA) (Dişil)",
+    "answer": "O TOPLA OYNAMIYOR (DİŞİL)"
+  },
+  {
+    "question": "ТО НЕ ИГРАЕ С ТОПКА (TO NE IGRAE S TOPKA) (Nötr)",
+    "answer": "O TOPLA OYNAMIYOR (NÖTR)"
+  },
+  {
+    "question": "НИЕ НЕ ИГРАЕМ В ПАРКА (NIE NE IGRAEM V PARKA) (Çoğul)",
+    "answer": "BİZ PARKTA OYNAMIYORUZ"
+  },
+  {
+    "question": "ВИЕ НЕ ИГРАЕТЕ С КАРТИ (VIE NE IGRAETE S KARTI) (Çoğul)",
+    "answer": "SİZ KARTLA OYNAMIYORSUNUZ"
+  },
+  {
+    "question": "ТЕ НЕ ИГРАЯТ НА УЛИЦАТА (TE NE IGRAYAT NA ULITSATA) (Çoğul)",
+    "answer": "ONLAR SOKAKTA OYNAMIYOR"
+  },
+  {
+    "question": "АЗ ИГРАЯ ЛИ ФУТБОЛ? (AZ IGRAYA LI FUTBOL?) (Eril)",
+    "answer": "BEN FUTBOL OYNUYOR MUYUM?"
+  },
+  {
+    "question": "ТИ ИГРАЕШ ЛИ БАСКЕТБОЛ С ПРИЯТЕЛИ? (TI IGRAESH LI BASKETBOL S PRIYATELI?) (Eril)",
+    "answer": "SEN ARKADAŞLARLA BASKETBOL OYNUYOR MUSUN?"
+  },
+  {
+    "question": "ТОЙ ИГРАЕ ЛИ С ТОПКА? (TOY IGRAE LI S TOPKA?) (Eril)",
+    "answer": "O TOPLA OYNUYOR MU? (ERİL)"
+  },
+  {
+    "question": "ТЯ ИГРАЕ ЛИ С ТОПКА? (TYA IGRAE LI S TOPKA?) (Dişil)",
+    "answer": "O TOPLA OYNUYOR MU? (DİŞİL)"
+  },
+  {
+    "question": "ТО ИГРАЕ ЛИ С ТОПКА? (TO IGRAE LI S TOPKA?) (Nötr)",
+    "answer": "O TOPLA OYNUYOR MU? (NÖTR)"
+  },
+  {
+    "question": "НИЕ ИГРАЕМ ЛИ В ПАРКА? (NIE IGRAEM LI V PARKA?) (Çoğul)",
+    "answer": "BİZ PARKTA OYNUYOR MUYUZ?"
+  },
+  {
+    "question": "ВИЕ ИГРАЕТЕ ЛИ С КАРТИ? (VIE IGRAETE LI S KARTI?) (Çoğul)",
+    "answer": "SİZ KARTLA OYNUYOR MUSUNUZ?"
+  },
+  {
+    "question": "ТЕ ИГРАЯТ ЛИ НА УЛИЦАТА? (TE IGRAYAT LI NA ULITSATA?) (Çoğul)",
+    "answer": "ONLAR SOKAKTA OYNUYOR MU?"
+  },
+  {
+    "question": "АЗ МОГА (AZ MOGA)",
+    "answer": "BEN YAPABİLİRİM"
+  },
+  {
+    "question": "ТИ МОЖЕШ (TI MOZHESH)",
+    "answer": "SEN YAPABİLİRSİN"
+  },
+  {
+    "question": "ТОЙ МОЖЕ (TOY MOZHE) (Eril)",
+    "answer": "O YAPABİLİR (ERİL)"
+  },
+  {
+    "question": "ТЯ МОЖЕ (TYA MOZHE) (Dişil)",
+    "answer": "O YAPABİLİR (DİŞİL)"
+  },
+  {
+    "question": "ТО МОЖЕ (TO MOZHE) (Nötr)",
+    "answer": "O YAPABİLİR (NÖTR)"
+  },
+  {
+    "question": "НИЕ МОЖЕМ (NIE MOZHEM) (Çoğul)",
+    "answer": "BİZ YAPABİLİRİZ"
+  },
+  {
+    "question": "ВИЕ МОЖЕТЕ (VIE MOZHETE) (Çoğul)",
+    "answer": "SİZ YAPABİLİRSİNİZ"
+  },
+  {
+    "question": "ТЕ МОГАТ (TE MOGAT) (Çoğul)",
+    "answer": "ONLAR YAPABİLİR"
+  },
+  {
+    "question": "АЗ МОЖАХ (AZ MOZHAH)",
+    "answer": "BEN YAPABİLDİM"
+  },
+  {
+    "question": "ТИ МОЖА (TI MOZHA)",
+    "answer": "SEN YAPABİLDİN"
+  },
+  {
+    "question": "ТОЙ МОЖА (TOY MOZHA) (Eril)",
+    "answer": "O YAPABİLDİ (ERİL)"
+  },
+  {
+    "question": "ТЯ МОЖА (TYA MOZHA) (Dişil)",
+    "answer": "O YAPABİLDİ (DİŞİL)"
+  },
+  {
+    "question": "ТО МОЖА (TO MOZHA) (Nötr)",
+    "answer": "O YAPABİLDİ (NÖTR)"
+  },
+  {
+    "question": "НИЕ МОЖАХМЕ (NIE MOZHAHME) (Çoğul)",
+    "answer": "BİZ YAPABİLDİK"
+  },
+  {
+    "question": "ВИЕ МОЖАХТЕ (VIE MOZHAHTE) (Çoğul)",
+    "answer": "SİZ YAPABİLDİNİZ"
+  },
+  {
+    "question": "ТЕ МОЖАХА (TE MOZHAHA) (Çoğul)",
+    "answer": "ONLAR YAPABİLDİ"
+  },
+  {
+    "question": "АЗ МОГА ДА ЧЕТА НА БЪЛГАРСКИ ЕЗИК (AZ MOGA DA CHETA NA BALGARSKI EZIK) (Eril)",
+    "answer": "BEN BULGARCA DİLİ OKUYABİLİYORUM"
+  },
+  {
+    "question": "ТИ МОЖЕШ ДА ПИШЕШ (TI MOZHESH DA PISHESH) (Eril)",
+    "answer": "SEN YAZABİLİRSİN"
+  },
+  {
+    "question": "ТОЙ МОЖЕ ДА ГОВОРИ БЪЛГАРСКИ (TOY MOZHE DA GOVORI BALGARSKI) (Eril)",
+    "answer": "O BULGARCA KONUŞABİLİYOR (ERİL)"
+  },
+  {
+    "question": "ТЯ МОЖЕ ДА ГОВОРИ БЪЛГАРСКИ (TYA MOZHE DA GOVORI BALGARSKI) (Dişil)",
+    "answer": "O BULGARCA KONUŞABİLİYOR (DİŞİL)"
+  },
+  {
+    "question": "ТО МОЖЕ ДА ГОВОРИ БЪЛГАРСКИ (TO MOZHE DA GOVORI BALGARSKI) (Nötr)",
+    "answer": "O BULGARCA KONUŞABİLİYOR (NÖTR)"
+  },
+  {
+    "question": "НИЕ МОЖЕМ ДА ПИШЕМ (NIE MOZHEM DA PISHEM) (Çoğul)",
+    "answer": "BİZ YAZABİLİYORUZ"
+  },
+  {
+    "question": "ВИЕ МОЖЕТЕ ДА ЧЕТЕТЕ ВЕСТНИК (VIE MOZHETE DA CHETETE VESTNIK) (Çoğul)",
+    "answer": "SİZ GAZETE OKUYABİLİRSİNİZ"
+  },
+  {
+    "question": "ТЕ МОГАТ ДА ИГРАЯТ ВОЛЕЙБОЛ (TE MOGAT DA IGRAYAT VOLEYBOL) (Çoğul)",
+    "answer": "ONLAR VOLEYBOL OYNAYABİLİYOR"
+  },
+  {
+    "question": "АЗ МОЖАХ ДА ГОВОРЯ С ДИРЕКТОРА (AZ MOZHAH DA GOVORYA S DIREKTORA) (Eril)",
+    "answer": "BEN MÜDÜRLE KONUŞABİLDİM"
+  },
+  {
+    "question": "ТИ МОЖА ДА ПИШЕШ (TI MOZHA DA PISHESH) (Eril)",
+    "answer": "SEN YAZABİLDİN"
+  },
+  {
+    "question": "ТОЙ МОЖА ДА ЧЕТЕ (TOY MOZHA DA CHETE) (Eril)",
+    "answer": "O OKUYABİLDİ (ERİL)"
+  },
+  {
+    "question": "ТЯ МОЖА ДА ЧЕТЕ (TYA MOZHA DA CHETE) (Dişil)",
+    "answer": "O OKUYABİLDİ (DİŞİL)"
+  },
+  {
+    "question": "ТО МОЖА ДА ЧЕТЕ (TO MOZHA DA CHETE) (Nötr)",
+    "answer": "O OKUYABİLDİ (NÖTR)"
+  },
+  {
+    "question": "НИЕ МОЖАХМЕ ДА ГЛЕДАМЕ ФИЛМ (NIE MOZHAHME DA GLEDAME FILM) (Çoğul)",
+    "answer": "BİZ FİLM İZLEYEBİLDİK"
+  },
+  {
+    "question": "ВИЕ МОЖАХТЕ ДА СЛУШАТЕ МУЗИКА (VIE MOZHAHTE DA SLUSHATE MUZIKA) (Çoğul)",
+    "answer": "SİZ MÜZİK DİNLEYEBİLDİNİZ"
+  },
+  {
+    "question": "ТЕ МОЖАХА ДА ПИШАТ ПИСМО (TE MOZHAHA DA PISHAT PISMO) (Çoğul)",
+    "answer": "ONLAR MEKTUP YAZABİLDİ"
+  },
+  {
+    "question": "АЗ НЕ МОГА ДА ЧЕТА НА БЪЛГАРСКИ ЕЗИК (AZ NE MOGA DA CHETA NA BALGARSKI EZIK) (Eril)",
+    "answer": "BEN BULGARCA DİLİ OKUYAMIYORUM"
+  },
+  {
+    "question": "ТИ НЕ МОЖЕШ ДА ПИШЕШ (TI NE MOZHESH DA PISHESH) (Eril)",
+    "answer": "SEN YAZAMIYORSUN"
+  },
+  {
+    "question": "ТОЙ НЕ МОЖЕ ДА ГОВОРИ БЪЛГАРСКИ (TOY NE MOZHE DA GOVORI BALGARSKI) (Eril)",
+    "answer": "O BULGARCA KONUŞAMIYOR (ERİL)"
+  },
+  {
+    "question": "ТЯ НЕ МОЖЕ ДА ГОВОРИ БЪЛГАРСКИ (TYA NE MOZHE DA GOVORI BALGARSKI) (Dişil)",
+    "answer": "O BULGARCA KONUŞAMIYOR (DİŞİL)"
+  },
+  {
+    "question": "ТО НЕ МОЖЕ ДА ГОВОРИ БЪЛГАРСКИ (TO NE MOZHE DA GOVORI BALGARSKI) (Nötr)",
+    "answer": "O BULGARCA KONUŞAMIYOR (NÖTR)"
+  },
+  {
+    "question": "НИЕ НЕ МОЖЕМ ДА ПИШЕМ (NIE NE MOZHEM DA PISHEM) (Çoğul)",
+    "answer": "BİZ YAZAMIYORUZ"
+  },
+  {
+    "question": "ВИЕ НЕ МОЖЕТЕ ДА ЧЕТЕТЕ ВЕСТНИК (VIE NE MOZHETE DA CHETETE VESTNIK) (Çoğul)",
+    "answer": "SİZ GAZETE OKUYAMIYORSUNUZ"
+  },
+  {
+    "question": "ТЕ НЕ МОГАТ ДА ИГРАЯТ ВОЛЕЙБОЛ (TE NE MOGAT DA IGRAYAT VOLEYBOL) (Çoğul)",
+    "answer": "ONLAR VOLEYBOL OYNAYAMIYOR"
+  },
+  {
+    "question": "АЗ МОГА ЛИ ДА ЧЕТА НА БЪЛГАРСКИ ЕЗИК? (AZ MOGA LI DA CHETA NA BALGARSKI EZIK?) (Eril)",
+    "answer": "BEN BULGARCA DİLİ OKUYABİLİYOR MUYUM?"
+  },
+  {
+    "question": "ТИ МОЖЕШ ЛИ ДА ПИШЕШ? (TI MOZHESH LI DA PISHESH?) (Eril)",
+    "answer": "SEN YAZABİLİYOR MUSUN?"
+  },
+  {
+    "question": "ТОЙ МОЖЕ ЛИ ДА ГОВОРИ БЪЛГАРСКИ? (TOY MOZHE LI DA GOVORI BALGARSKI?) (Eril)",
+    "answer": "O BULGARCA KONUŞABİLİYOR MU? (ERİL)"
+  },
+  {
+    "question": "ТЯ МОЖЕ ЛИ ДА ГОВОРИ БЪЛГАРСКИ? (TYA MOZHE LI DA GOVORI BALGARSKI?) (Dişil)",
+    "answer": "O BULGARCA KONUŞABİLİYOR MU? (DİŞİL)"
+  },
+  {
+    "question": "ТО МОЖЕ ЛИ ДА ГОВОРИ БЪЛГАРСКИ? (TO MOZHE LI DA GOVORI BALGARSKI?) (Nötr)",
+    "answer": "O BULGARCA KONUŞABİLİYOR MU? (NÖTR)"
+  },
+  {
+    "question": "НИЕ МОЖЕМ ЛИ ДА ПИШЕМ? (NIE MOZHEM LI DA PISHEM?) (Çoğul)",
+    "answer": "BİZ YAZABİLİYOR MUYUZ?"
+  },
+  {
+    "question": "ВИЕ МОЖЕТЕ ЛИ ДА ЧЕТЕТЕ ВЕСТНИК? (VIE MOZHETE LI DA CHETETE VESTNIK?) (Çoğul)",
+    "answer": "SİZ GAZETE OKUYABİLİYOR MUSUNUZ?"
+  },
+  {
+    "question": "ТЕ МОГАТ ЛИ ДА ИГРАЯТ ВОЛЕЙБОЛ? (TE MOGAT LI DA IGRAYAT VOLEYBOL?) (Çoğul)",
+    "answer": "ONLAR VOLEYBOL OYNAYABİLİYOR MU?"
+  },
+  {
+    "question": "АЗ ВЗИМАМ (AZ VZIMAM)",
+    "answer": "BEN ALIYORUM"
+  },
+  {
+    "question": "ТИ ВЗИМАШ (TI VZIMASH)",
+    "answer": "SEN ALIYORSUN"
+  },
+  {
+    "question": "ТОЙ ВЗИМА (TOY VZIMA) (Eril)",
+    "answer": "O ALIYOR (ERİL)"
+  },
+  {
+    "question": "ТЯ ВЗИМА (TYA VZIMA) (Dişil)",
+    "answer": "O ALIYOR (DİŞİL)"
+  },
+  {
+    "question": "ТО ВЗИМА (TO VZIMA) (Nötr)",
+    "answer": "O ALIYOR (NÖTR)"
+  },
+  {
+    "question": "НИЕ ВЗИМАМЕ (NIE VZIMAME) (Çoğul)",
+    "answer": "BİZ ALIYORUZ"
+  },
+  {
+    "question": "ВИЕ ВЗИМАТЕ (VIE VZIMATE) (Çoğul)",
+    "answer": "SİZ ALIYORSUNUZ"
+  },
+  {
+    "question": "ТЕ ВЗИМАТ (TE VZIMAT) (Çoğul)",
+    "answer": "ONLAR ALIYOR"
+  },
+  {
+    "question": "АЗ ВЗЕХ (AZ VZEH)",
+    "answer": "BEN ALDIM"
+  },
+  {
+    "question": "ТИ ВЗЕ (TI VZE)",
+    "answer": "SEN ALDIN"
+  },
+  {
+    "question": "ТОЙ ВЗЕ (TOY VZE) (Eril)",
+    "answer": "O ALDI (ERİL)"
+  },
+  {
+    "question": "ТЯ ВЗЕ (TYA VZE) (Dişil)",
+    "answer": "O ALDI (DİŞİL)"
+  },
+  {
+    "question": "ТО ВЗЕ (TO VZE) (Nötr)",
+    "answer": "O ALDI (NÖTR)"
+  },
+  {
+    "question": "НИЕ ВЗЕХМЕ (NIE VZEHME) (Çoğul)",
+    "answer": "BİZ ALDIK"
+  },
+  {
+    "question": "ВИЕ ВЗЕХТЕ (VIE VZEHTE) (Çoğul)",
+    "answer": "SİZ ALDINIZ"
+  },
+  {
+    "question": "ТЕ ВЗЕХА (TE VZEHA) (Çoğul)",
+    "answer": "ONLAR ALDI"
+  },
+  {
+    "question": "АЗ ВЗИМАМ ЕДИН ХЛЯБ ОТ МАГАЗИНА (AZ VZIMAM EDIN HLYAB OT MAGAZINA) (Eril)",
+    "answer": "MARKETTEN BİR EKMEK ALIYORUM"
+  },
+  {
+    "question": "ТИ ВЗИМАШ ЕДНА ЧАША КАФЕ (TI VZIMASH EDNA CHASHA KAFE) (Dişil)",
+    "answer": "SEN BİR BARDAK KAHVE ALIYORSUN"
+  },
+  {
+    "question": "ТОЙ ВЗИМА 2 ТОРБИЧКИ С ПРОДУКТИ (TOY VZIMA 2 TORBICHKI S PRODUKTI) (Eril)",
+    "answer": "O 2 POŞET ÜRÜN ALIYOR (ERİL)"
+  },
+  {
+    "question": "ТЯ ВЗИМА 2 ТОРБИЧКИ С ПРОДУКТИ (TYA VZIMA 2 TORBICHKI S PRODUKTI) (Dişil)",
+    "answer": "O 2 POŞET ÜRÜN ALIYOR (DİŞİL)"
+  },
+  {
+    "question": "ТО ВЗИМА 2 ТОРБИЧКИ С ПРОДУКТИ (TO VZIMA 2 TORBICHKI S PRODUKTI) (Nötr)",
+    "answer": "O 2 POŞET ÜRÜN ALIYOR (NÖTR)"
+  },
+  {
+    "question": "НИЕ ВЗИМАМЕ 100 ЛЕВА ЗАПЛАТА (NIE VZIMAME 100 LEVA ZAPLATA) (Çoğul)",
+    "answer": "BİZ 100 LEVA MAAŞ ALIYORUZ"
+  },
+  {
+    "question": "ВИЕ ВЗИМАТЕ ПОДАРЪК (VIE VZIMATE PODARAK) (Çoğul)",
+    "answer": "SİZ HEDİYE ALIYORSUNUZ"
+  },
+  {
+    "question": "ТЕ ВЗИМАТ ВОДА ОТ КУХНЯТА (TE VZIMAT VODA OT KUHNYATA) (Çoğul)",
+    "answer": "ONLAR MUTFAKTAN SU ALIYOR"
+  },
+  {
+    "question": "АЗ ВЗЕХ ДРЕХИ ОТ МАГАЗИНА (AZ VZEH DREHI OT MAGAZINA) (Çoğul)",
+    "answer": "BEN MAĞAZADAN KIYAFET ALDIM"
+  },
+  {
+    "question": "ТИ ВЗЕ КАФЕ С МЛЯКО (TI VZE KAFE S MLYAKO) (Nötr)",
+    "answer": "SEN SÜTLÜ KAHVE ALDIN"
+  },
+  {
+    "question": "ТОЙ ВЗЕ КНИГА ОТ БИБЛИОТЕКАТА (TOY VZE KNIGA OT BIBLIOTEKATA) (Eril)",
+    "answer": "O KÜTÜPHANEDEN KİTAP ALDI (ERİL)"
+  },
+  {
+    "question": "ТЯ ВЗЕ КНИГА ОТ БИБЛИОТЕКАТА (TYA VZE KNIGA OT BIBLIOTEKATA) (Dişil)",
+    "answer": "O KÜTÜPHANEDEN KİTAP ALDI (DİŞİL)"
+  },
+  {
+    "question": "ТО ВЗЕ КНИГА ОТ БИБЛИОТЕКАТА (TO VZE KNIGA OT BIBLIOTEKATA) (Nötr)",
+    "answer": "O KÜTÜPHANEDEN KİTAP ALDI (NÖTR)"
+  },
+  {
+    "question": "НИЕ ВЗЕХМЕ ЧЕРВЕНО КОЛЕЛО ЗА СЕСТРА МИ (NIE VZEHME CHERVENO KOLELO ZA SESTRA MI) (Çoğul)",
+    "answer": "KIZ KARDEŞİM İÇİN KIRMIZI BİSİKLET ALDIK"
+  },
+  {
+    "question": "ВИЕ ВЗЕХТЕ ЛЮТЕНИЦА (VIE VZEHTE LYUTENITSA) (Çoğul)",
+    "answer": "SİZ SALÇA ALDINIZ"
+  },
+  {
+    "question": "ТЕ ВЗЕХА ХУБАВ ЛАПТОП (TE VZEHA HUBAV LAPTOP) (Çoğul)",
+    "answer": "ONLAR GÜZEL LAPTOP ALDI"
+  },
+  {
+    "question": "АЗ НЕ ВЗИМАМ ЕДИН ХЛЯБ ОТ МАГАЗИНА (AZ NE VZIMAM EDIN HLYAB OT MAGAZINA) (Eril)",
+    "answer": "MARKETTEN BİR EKMEK ALMIYORUM"
+  },
+  {
+    "question": "ТИ НЕ ВЗИМАШ ЕДНА ЧАША КАФЕ (TI NE VZIMASH EDNA CHASHA KAFE) (Dişil)",
+    "answer": "SEN BİR BARDAK KAHVE ALMIYORSUN"
+  },
+  {
+    "question": "ТОЙ НЕ ВЗИМА 2 ТОРБИЧКИ С ПРОДУКТИ (TOY NE VZIMA 2 TORBICHKI S PRODUKTI) (Eril)",
+    "answer": "O 2 POŞET ÜRÜN ALMIYOR (ERİL)"
+  },
+  {
+    "question": "ТЯ НЕ ВЗИМА 2 ТОРБИЧКИ С ПРОДУКТИ (TYA NE VZIMA 2 TORBICHKI S PRODUKTI) (Dişil)",
+    "answer": "O 2 POŞET ÜRÜN ALMIYOR (DİŞİL)"
+  },
+  {
+    "question": "ТО НЕ ВЗИМА 2 ТОРБИЧКИ С ПРОДУКТИ (TO NE VZIMA 2 TORBICHKI S PRODUKTI) (Nötr)",
+    "answer": "O 2 POŞET ÜRÜN ALMIYOR (NÖTR)"
+  },
+  {
+    "question": "НИЕ НЕ ВЗИМАМЕ 100 ЛЕВА ЗАПЛАТА (NIE NE VZIMAME 100 LEVA ZAPLATA) (Çoğul)",
+    "answer": "BİZ 100 LEVA MAAŞ ALMIYORUZ"
+  },
+  {
+    "question": "ВИЕ НЕ ВЗИМАТЕ ПОДАРЪК (VIE NE VZIMATE PODARAK) (Çoğul)",
+    "answer": "SİZ HEDİYE ALMIYORSUNUZ"
+  },
+  {
+    "question": "ТЕ НЕ ВЗИМАТ ВОДА ОТ КУХНЯТА (TE NE VZIMAT VODA OT KUHNYATA) (Çoğul)",
+    "answer": "ONLAR MUTFAKTAN SU ALMIYOR"
+  },
+  {
+    "question": "АЗ ВЗИМАМ ЛИ ЕДИН ХЛЯБ ОТ МАГАЗИНА? (AZ VZIMAM LI EDIN HLYAB OT MAGAZINA?) (Eril)",
+    "answer": "MARKETTEN BİR EKMEK ALIYOR MUYUM?"
+  },
+  {
+    "question": "ТИ ВЗИМАШ ЛИ ЕДНА ЧАША КАФЕ? (TI VZIMASH LI EDNA CHASHA KAFE?) (Dişil)",
+    "answer": "SEN BİR BARDAK KAHVE ALIYOR MUSUN?"
+  },
+  {
+    "question": "ТОЙ ВЗИМА ЛИ 2 ТОРБИЧКИ С ПРОДУКТИ? (TOY VZIMA LI 2 TORBICHKI S PRODUKTI?) (Eril)",
+    "answer": "O 2 POŞET ÜRÜN ALIYOR MU? (ERİL)"
+  },
+  {
+    "question": "ТЯ ВЗИМА ЛИ 2 ТОРБИЧКИ С ПРОДУКТИ? (TYA VZIMA LI 2 TORBICHKI S PRODUKTI?) (Dişil)",
+    "answer": "O 2 POŞET ÜRÜN ALIYOR MU? (DİŞİL)"
+  },
+  {
+    "question": "ТО ВЗИМА ЛИ 2 ТОРБИЧКИ С ПРОДУКТИ? (TO VZIMA LI 2 TORBICHKI S PRODUKTI?) (Nötr)",
+    "answer": "O 2 POŞET ÜRÜN ALIYOR MU? (NÖTR)"
+  },
+  {
+    "question": "НИЕ ВЗИМАМЕ ЛИ 100 ЛЕВА ЗАПЛАТА? (NIE VZIMAME LI 100 LEVA ZAPLATA?) (Çoğul)",
+    "answer": "BİZ 100 LEVA MAAŞ ALIYOR MUYUZ?"
+  },
+  {
+    "question": "ВИЕ ВЗИМАТЕ ЛИ ПОДАРЪК? (VIE VZIMATE LI PODARAK?) (Çoğul)",
+    "answer": "SİZ HEDİYE ALIYOR MUSUNUZ?"
+  },
+  {
+    "question": "ТЕ ВЗИМАТ ЛИ ВОДА ОТ КУХНЯТА? (TE VZIMAT LI VODA OT KUHNYATA?) (Çoğul)",
+    "answer": "ONLAR MUTFAKTAN SU ALIYOR MU?"
+  },
+  {
+    "question": "АЗ ДАВАМ (AZ DAVAM)",
+    "answer": "BEN VERİYORUM"
+  },
+  {
+    "question": "ТИ ДАВАШ (TI DAVASH)",
+    "answer": "SEN VERİYORSUN"
+  },
+  {
+    "question": "ТОЙ ДАВА (TOY DAVA) (Eril)",
+    "answer": "O VERİYOR (ERİL)"
+  },
+  {
+    "question": "ТЯ ДАВА (TYA DAVA) (Dişil)",
+    "answer": "O VERİYOR (DİŞİL)"
+  },
+  {
+    "question": "ТО ДАВА (TO DAVA) (Nötr)",
+    "answer": "O VERİYOR (NÖTR)"
+  },
+  {
+    "question": "НИЕ ДАВАМЕ (NIE DAVAME) (Çoğul)",
+    "answer": "BİZ VERİYORUZ"
+  },
+  {
+    "question": "ВИЕ ДАВАТЕ (VIE DAVATE) (Çoğul)",
+    "answer": "SİZ VERİYORSUNUZ"
+  },
+  {
+    "question": "ТЕ ДАВАТ (TE DAVAT) (Çoğul)",
+    "answer": "ONLAR VERİYOR"
+  },
+  {
+    "question": "АЗ ДАДОХ (AZ DADOH)",
+    "answer": "BEN VERDİM"
+  },
+  {
+    "question": "ТИ ДАДЕ (TI DADE)",
+    "answer": "SEN VERDİN"
+  },
+  {
+    "question": "ТОЙ ДАДЕ (TOY DADE) (Eril)",
+    "answer": "O VERDİ (ERİL)"
+  },
+  {
+    "question": "ТЯ ДАДЕ (TYA DADE) (Dişil)",
+    "answer": "O VERDİ (DİŞİL)"
+  },
+  {
+    "question": "ТО ДАДЕ (TO DADE) (Nötr)",
+    "answer": "O VERDİ (NÖTR)"
+  },
+  {
+    "question": "НИЕ ДАДОХМЕ (NIE DADOHME) (Çoğul)",
+    "answer": "BİZ VERDİK"
+  },
+  {
+    "question": "ВИЕ ДАДОХТЕ (VIE DADOHTE) (Çoğul)",
+    "answer": "SİZ VERDİNİZ"
+  },
+  {
+    "question": "ТЕ ДАДОХА (TE DADOHA) (Çoğul)",
+    "answer": "ONLAR VERDİ"
+  },
+  {
+    "question": "АЗ ДАВАМ ПАРИ ЗА КЪЩА (AZ DAVAM PARI ZA KASHTA) (Çoğul)",
+    "answer": "EV İÇİN PARA VERİYORUM"
+  },
+  {
+    "question": "ТИ ДАВАШ КНИГА НА ПРИЯТЕЛКА (TI DAVASH KNIGA NA PRIYATELKA) (Dişil)",
+    "answer": "SEN ARKADAŞINA KİTAP VERİYORSUN"
+  },
+  {
+    "question": "ТОЙ ДАВА РЕЦЕПТА ЗА КЕКС (TOY DAVA RETSEPTA ZA KEKS) (Eril)",
+    "answer": "O KEK İÇİN REÇETE VERİYOR (ERİL)"
+  },
+  {
+    "question": "ТЯ ДАВА РЕЦЕПТА ЗА КЕКС (TYA DAVA RETSEPTA ZA KEKS) (Dişil)",
+    "answer": "O KEK İÇİN REÇETE VERİYOR (DİŞİL)"
+  },
+  {
+    "question": "ТО ДАВА РЕЦЕПТА ЗА КЕКС (TO DAVA RETSEPTA ZA KEKS) (Nötr)",
+    "answer": "O KEK İÇİN REÇETE VERİYOR (NÖTR)"
+  },
+  {
+    "question": "НИЕ ДАВАМЕ ЦВЕТЯ НА МАМА (NIE DAVAME TSVETYA NA MAMA) (Çoğul)",
+    "answer": "BİZ ANNEMİZE ÇİÇEK VERİYORUZ"
+  },
+  {
+    "question": "ВИЕ ДАВАТЕ МНОГО ЩАСТИЕ НА ДЕТЕТО СИ (VIE DAVATE MNOGO SHTASTIE NA DETETO SI) (Çoğul)",
+    "answer": "SİZ ÇOCUĞUNUZA ÇOK MUTLULUK VERİYORSUNUZ"
+  },
+  {
+    "question": "ТЕ ДАВАТ ПАРИ НА БЕДНИТЕ ХОРА (TE DAVAT PARI NA BEDNITE HORA) (Çoğul)",
+    "answer": "ONLAR FAKİR İNSANLARA PARA VERİYOR"
+  },
+  {
+    "question": "АЗ ДАДОХ ПОДАРЪК НА СЕСТРА МИ (AZ DADOH PODARAK NA SESTRA MI) (Eril)",
+    "answer": "KIZ KARDEŞİME HEDİYE VERDİM"
+  },
+  {
+    "question": "ТИ ДАДЕ КНИГАТА НА УЧИТЕЛЯ (TI DADE KNIGATA NA UCHITELYA) (Dişil)",
+    "answer": "SEN KİTABI ÖĞRETMENE VERDİN"
+  },
+  {
+    "question": "ТОЙ ДАДЕ ТЕЛЕФОННИЯ СИ НОМЕР (TOY DADE TELEFONNIYA SI NOMER) (Eril)",
+    "answer": "O TELEFON NUMARASINI VERDİ (ERİL)"
+  },
+  {
+    "question": "ТЯ ДАДЕ ТЕЛЕФОННИЯ СИ НОМЕР (TYA DADE TELEFONNIYA SI NOMER) (Dişil)",
+    "answer": "O TELEFON NUMARASINI VERDİ (DİŞİL)"
+  },
+  {
+    "question": "ТО ДАДЕ ТЕЛЕФОННИЯ СИ НОМЕР (TO DADE TELEFONNIYA SI NOMER) (Nötr)",
+    "answer": "O TELEFON NUMARASINI VERDİ (NÖTR)"
+  },
+  {
+    "question": "НИЕ ДАДОХМЕ НАШИЯ АДРЕС (NIE DADOHME NASHIYA ADRES) (Çoğul)",
+    "answer": "BİZ BİZİM ADRESİ VERDİK"
+  },
+  {
+    "question": "ВИЕ ДАДОХТЕ ВАШАТА ЧАНТА (VIE DADOHTE VASHATA CHANTA) (Çoğul)",
+    "answer": "SİZ SİZİN ÇANTAYI VERDİNİZ"
+  },
+  {
+    "question": "ТЕ ДАДОХА ХРАНА НА КОТКИТЕ (TE DADOHA HRANA NA KOTKITE) (Çoğul)",
+    "answer": "ONLAR KEDİLERE YİYECEK VERDİ"
+  },
+  {
+    "question": "АЗ НЕ ДАВАМ ПАРИ ЗА КЪЩА (AZ NE DAVAM PARI ZA KASHTA) (Çoğul)",
+    "answer": "EV İÇİN PARA VERMİYORUM"
+  },
+  {
+    "question": "ТИ НЕ ДАВАШ КНИГА НА ПРИЯТЕЛКА (TI NE DAVASH KNIGA NA PRIYATELKA) (Dişil)",
+    "answer": "SEN ARKADAŞINA KİTAP VERMİYORSUN"
+  },
+  {
+    "question": "ТОЙ НЕ ДАВА РЕЦЕПТА ЗА КЕКС (TOY NE DAVA RETSEPTA ZA KEKS) (Eril)",
+    "answer": "O KEK İÇİN REÇETE VERMİYOR (ERİL)"
+  },
+  {
+    "question": "ТЯ НЕ ДАВА РЕЦЕПТА ЗА КЕКС (TYA NE DAVA RETSEPTA ZA KEKS) (Dişil)",
+    "answer": "O KEK İÇİN REÇETE VERMİYOR (DİŞİL)"
+  },
+  {
+    "question": "ТО НЕ ДАВА РЕЦЕПТА ЗА КЕКС (TO NE DAVA RETSEPTA ZA KEKS) (Nötr)",
+    "answer": "O KEK İÇİN REÇETE VERMİYOR (NÖTR)"
+  },
+  {
+    "question": "НИЕ НЕ ДАВАМЕ ЦВЕТЯ НА МАМА (NIE NE DAVAME TSVETYA NA MAMA) (Çoğul)",
+    "answer": "BİZ ANNEMİZE ÇİÇEK VERMİYORUZ"
+  },
+  {
+    "question": "ВИЕ НЕ ДАВАТЕ МНОГО ЩАСТИЕ НА ДЕТЕТО СИ (VIE NE DAVATE MNOGO SHTASTIE NA DETETO SI) (Çoğul)",
+    "answer": "SİZ ÇOCUĞUNUZA ÇOK MUTLULUK VERMİYORSUNUZ"
+  },
+  {
+    "question": "ТЕ НЕ ДАВАТ ПАРИ НА БЕДНИТЕ ХОРА (TE NE DAVAT PARI NA BEDNITE HORA) (Çoğul)",
+    "answer": "ONLAR FAKİR İNSANLARA PARA VERMİYOR"
+  },
+  {
+    "question": "АЗ ДАВАМ ЛИ ПАРИ ЗА КЪЩА? (AZ DAVAM LI PARI ZA KASHTA?) (Çoğul)",
+    "answer": "EV İÇİN PARA VERİYOR MUYUM?"
+  },
+  {
+    "question": "ТИ ДАВАШ ЛИ КНИГА НА ПРИЯТЕЛКА? (TI DAVASH LI KNIGA NA PRIYATELKA?) (Dişil)",
+    "answer": "SEN ARKADAŞINA KİTAP VERİYOR MUSUN?"
+  },
+  {
+    "question": "ТОЙ ДАВА ЛИ РЕЦЕПТА ЗА КЕКС? (TOY DAVA LI RETSEPTA ZA KEKS?) (Eril)",
+    "answer": "O KEK İÇİN REÇETE VERİYOR MU? (ERİL)"
+  },
+  {
+    "question": "ТЯ ДАВА ЛИ РЕЦЕПТА ЗА КЕКС? (TYA DAVA LI RETSEPTA ZA KEKS?) (Dişil)",
+    "answer": "O KEK İÇİN REÇETE VERİYOR MU? (DİŞİL)"
+  },
+  {
+    "question": "ТО ДАВА ЛИ РЕЦЕПТА ЗА КЕКС? (TO DAVA LI RETSEPTA ZA KEKS?) (Nötr)",
+    "answer": "O KEK İÇİN REÇETE VERİYOR MU? (NÖTR)"
+  },
+  {
+    "question": "НИЕ ДАВАМЕ ЛИ ЦВЕТЯ НА МАМА? (NIE DAVAME LI TSVETYA NA MAMA?) (Çoğul)",
+    "answer": "BİZ ANNEMİZE ÇİÇEK VERİYOR MUYUZ?"
+  },
+  {
+    "question": "ВИЕ ДАВАТЕ ЛИ МНОГО ЩАСТИЕ НА ДЕТЕТО СИ? (VIE DAVATE LI MNOGO SHTASTIE NA DETETO SI?) (Çoğul)",
+    "answer": "SİZ ÇOCUĞUNUZA ÇOK MUTLULUK VERİYOR MUSUNUZ?"
+  },
+  {
+    "question": "ТЕ ДАВАТ ЛИ ПАРИ НА БЕДНИТЕ ХОРА? (TE DAVAT LI PARI NA BEDNITE HORA?) (Çoğul)",
+    "answer": "ONLAR FAKİR İNSANLARA PARA VERİYOR MU?"
+  },
+  {
+    "question": "АЗ ИЗЛИЗАМ (AZ IZLIZAM)",
+    "answer": "BEN ÇIKIYORUM"
+  },
+  {
+    "question": "ТИ ИЗЛИЗАШ (TI IZLIZASH)",
+    "answer": "SEN ÇIKIYORSUN"
+  },
+  {
+    "question": "ТОЙ ИЗЛИЗА (TOY IZLIZA) (Eril)",
+    "answer": "O ÇIKIYOR (ERİL)"
+  },
+  {
+    "question": "ТЯ ИЗЛИЗА (TYA IZLIZA) (Dişil)",
+    "answer": "O ÇIKIYOR (DİŞİL)"
+  },
+  {
+    "question": "ТО ИЗЛИЗА (TO IZLIZA) (Nötr)",
+    "answer": "O ÇIKIYOR (NÖTR)"
+  },
+  {
+    "question": "НИЕ ИЗЛИЗАМЕ (NIE IZLIZAME) (Çoğul)",
+    "answer": "BİZ ÇIKIYORUZ"
+  },
+  {
+    "question": "ВИЕ ИЗЛИЗАТЕ (VIE IZLIZATE) (Çoğul)",
+    "answer": "SİZ ÇIKIYORSUNUZ"
+  },
+  {
+    "question": "ТЕ ИЗЛИЗАТ (TE IZLIZAT) (Çoğul)",
+    "answer": "ONLAR ÇIKIYOR"
+  },
+  {
+    "question": "АЗ ИЗЛЯЗОХ (AZ IZLYAZOH)",
+    "answer": "BEN ÇIKTIM"
+  },
+  {
+    "question": "ТИ ИЗЛЕЗЕ (TI IZLEZE)",
+    "answer": "SEN ÇIKTIN"
+  },
+  {
+    "question": "ТОЙ ИЗЛЕЗЕ (TOY IZLEZE) (Eril)",
+    "answer": "O ÇIKTI (ERİL)"
+  },
+  {
+    "question": "ТЯ ИЗЛЕЗЕ (TYA IZLEZE) (Dişil)",
+    "answer": "O ÇIKTI (DİŞİL)"
+  },
+  {
+    "question": "ТО ИЗЛЕЗЕ (TO IZLEZE) (Nötr)",
+    "answer": "O ÇIKTI (NÖTR)"
+  },
+  {
+    "question": "НИЕ ИЗЛЯЗОХМЕ (NIE IZLYAZOHME) (Çoğul)",
+    "answer": "BİZ ÇIKTIK"
+  },
+  {
+    "question": "ВИЕ ИЗЛЯЗОХТЕ (VIE IZLYAZOHTE) (Çoğul)",
+    "answer": "SİZ ÇIKTINIZ"
+  },
+  {
+    "question": "ТЕ ИЗЛЯЗОХА (TE IZLYAZOHA) (Çoğul)",
+    "answer": "ONLAR ÇIKTI"
+  },
+  {
+    "question": "ИЗЛИЗАМ ОТ РАБОТА (IZLIZAM OT RABOTA) (Dişil)",
+    "answer": "İŞTEN ÇIKIYORUM"
+  },
+  {
+    "question": "ТИ ИЗЛИЗАШ С КОЛАТА (TI IZLIZASH S KOLATA) (Dişil)",
+    "answer": "SEN ARABAYLA ÇIKIYORSUN"
+  },
+  {
+    "question": "ТОЙ ИЗЛИЗА БЕЗ ЧАНТА (TOY IZLIZA BEZ CHANTA) (Eril)",
+    "answer": "O ÇANTASIZ ÇIKIYOR (ERİL)"
+  },
+  {
+    "question": "ТЯ ИЗЛИЗА БЕЗ ЧАНТА (TYA IZLIZA BEZ CHANTA) (Dişil)",
+    "answer": "O ÇANTASIZ ÇIKIYOR (DİŞİL)"
+  },
+  {
+    "question": "ТО ИЗЛИЗА БЕЗ ЧАНТА (TO IZLIZA BEZ CHANTA) (Nötr)",
+    "answer": "O ÇANTASIZ ÇIKIYOR (NÖTR)"
+  },
+  {
+    "question": "НИЕ ИЗЛИЗАМЕ ОТ УРОК (NIE IZLIZAME OT UROK) (Çoğul)",
+    "answer": "BİZ DERSTEN ÇIKIYORUZ"
+  },
+  {
+    "question": "ВИЕ ИЗЛИЗАТЕ ОТ РАБОТА В 8 ЧАСА (VIE IZLIZATE OT RABOTA V 8 CHASA) (Çoğul)",
+    "answer": "SİZ İŞTEN SAAT 8’DE ÇIKIYORSUNUZ"
+  },
+  {
+    "question": "ТЕ ИЗЛИЗАТ НА ВЕЧЕРЯ (TE IZLIZAT NA VECHERYA) (Çoğul)",
+    "answer": "ONLAR AKŞAM YEMEĞİNE ÇIKIYOR"
+  },
+  {
+    "question": "АЗ ИЗЛЯЗОХ ОТ УЧИЛИЩЕ В 15 ЧАСА (AZ IZLYAZOH OT UCHILISHTE V 15 CHASA) (Nötr)",
+    "answer": "BEN OKULDAN SAAT 15’TE ÇIKTIM"
+  },
+  {
+    "question": "ТИ ИЗЛЕЗЕ С КОЛАТА ВЧЕРА (TI IZLEZE S KOLATA VCHERA) (Dişil)",
+    "answer": "SEN DÜN ARABAYLA ÇIKTIN"
+  },
+  {
+    "question": "ТОЙ ИЗЛЕЗЕ ДО МАГАЗИНА (TOY IZLEZE DO MAGAZINA) (Eril)",
+    "answer": "O MARKETE KADAR ÇIKTI (ERİL)"
+  },
+  {
+    "question": "ТЯ ИЗЛЕЗЕ ДО МАГАЗИНА (TYA IZLEZE DO MAGAZINA) (Dişil)",
+    "answer": "O MARKETE KADAR ÇIKTI (DİŞİL)"
+  },
+  {
+    "question": "ТО ИЗЛЕЗЕ ДО МАГАЗИНА (TO IZLEZE DO MAGAZINA) (Nötr)",
+    "answer": "O MARKETE KADAR ÇIKTI (NÖTR)"
+  },
+  {
+    "question": "НИЕ ИЗЛЯЗОХМЕ С 2 ЧАНТИ (NIE IZLYAZOHME S 2 CHANTI) (Çoğul)",
+    "answer": "BİZ 2 ÇANTA İLE ÇIKTIK"
+  },
+  {
+    "question": "ВИЕ ИЗЛЯЗОХТЕ В ПАРКА (VIE IZLYAZOHTE V PARKA) (Çoğul)",
+    "answer": "SİZ PARKA ÇIKTINIZ"
+  },
+  {
+    "question": "ТЕ ИЗЛЯЗОХА НА ОБЕДНА ПОЧИВКА (TE IZLYAZOHA NA OBEDNA POCHIVKA) (Çoğul)",
+    "answer": "ONLAR ÖĞLEN MOLASINA ÇIKTI"
+  },
+  {
+    "question": "АЗ НЕ ИЗЛИЗАМ ОТ РАБОТА (AZ NE IZLIZAM OT RABOTA) (Dişil)",
+    "answer": "İŞTEN ÇIKMIYORUM"
+  },
+  {
+    "question": "ТИ НЕ ИЗЛИЗАШ С КОЛАТА (TI NE IZLIZASH S KOLATA) (Dişil)",
+    "answer": "SEN ARABAYLA ÇIKMIYORSUN"
+  },
+  {
+    "question": "ТОЙ НЕ ИЗЛИЗА БЕЗ ЧАНТА (TOY NE IZLIZA BEZ CHANTA) (Eril)",
+    "answer": "O ÇANTASIZ ÇIKMIYOR (ERİL)"
+  },
+  {
+    "question": "ТЯ НЕ ИЗЛИЗА БЕЗ ЧАНТА (TYA NE IZLIZA BEZ CHANTA) (Dişil)",
+    "answer": "O ÇANTASIZ ÇIKMIYOR (DİŞİL)"
+  },
+  {
+    "question": "ТО НЕ ИЗЛИЗА БЕЗ ЧАНТА (TO NE IZLIZA BEZ CHANTA) (Nötr)",
+    "answer": "O ÇANTASIZ ÇIKMIYOR (NÖTR)"
+  },
+  {
+    "question": "НИЕ НЕ ИЗЛИЗАМЕ ОТ УРОК (NIE NE IZLIZAME OT UROK) (Çoğul)",
+    "answer": "BİZ DERSTEN ÇIKMIYORUZ"
+  },
+  {
+    "question": "ВИЕ НЕ ИЗЛИЗАТЕ ОТ РАБОТА В 8 ЧАСА (VIE NE IZLIZATE OT RABOTA V 8 CHASA) (Çoğul)",
+    "answer": "SİZ İŞTEN SAAT 8’DE ÇIKMIYORSUNUZ"
+  },
+  {
+    "question": "ТЕ НЕ ИЗЛИЗАТ НА ВЕЧЕРЯ (TE NE IZLIZAT NA VECHERYA) (Çoğul)",
+    "answer": "ONLAR AKŞAM YEMEĞİNE ÇIKMIYOR"
+  },
+  {
+    "question": "ИЗЛИЗАМ ЛИ ОТ РАБОТА? (IZLIZAM LI OT RABOTA?) (Dişil)",
+    "answer": "İŞTEN ÇIKIYOR MUYUM?"
+  },
+  {
+    "question": "ТИ ИЗЛИЗАШ ЛИ С КОЛАТА? (TI IZLIZASH LI S KOLATA?) (Dişil)",
+    "answer": "SEN ARABAYLA ÇIKIYOR MUSUN?"
+  },
+  {
+    "question": "ТЕ ПИСАХА ПИСМО ДО ДИРЕКТОРА (TE PISAHA PISMO DO DIREKTORA) (Çoğul)",
+    "answer": "ONLAR MÜDÜRE MEKTUP YAZDI"
+  },
+  {
+    "question": "АЗ НЕ ПИША КНИГА (AZ NE PISHA KNIGA) (Dişil)",
+    "answer": "KİTAP YAZMIYORUM"
+  },
+  {
+    "question": "АЗ НЕ ПИША ДЕКЛАРАЦИЯ (AZ NE PISHA DEKLARATSIYA) (Dişil)",
+    "answer": "DİLEKÇE YAZMIYORUM"
+  },
+  {
+    "question": "ТИ НЕ ПИШЕШ ДОМАШНО ПО БЪЛГАРСКИ ЕЗИК (TI NE PISHESH DOMASHNO PO BALGARSKI EZIK) (Nötr)",
+    "answer": "SEN BULGARCA DİLİ ÖDEVİ YAZMIYORSUN"
+  },
+  {
+    "question": "ТОЙ НЕ ПИШЕ СТИХОТВОРЕНИЕ (TOY NE PISHE STIHOTVORENIE) (Eril)",
+    "answer": "O ŞİİR YAZMIYOR (ERİL)"
+  },
+  {
+    "question": "ТЯ НЕ ПИШЕ СТИХОТВОРЕНИЕ (TYA NE PISHE STIHOTVORENIE) (Dişil)",
+    "answer": "O ŞİİR YAZMIYOR (DİŞİL)"
+  },
+  {
+    "question": "ТО НЕ ПИШЕ СТИХОТВОРЕНИЕ (TO NE PISHE STIHOTVORENIE) (Nötr)",
+    "answer": "O ŞİİR YAZMIYOR (NÖTR)"
+  },
+  {
+    "question": "НИЕ НЕ ПИШЕМ ПИСМО (NIE NE PISHEM PISMO) (Çoğul)",
+    "answer": "BİZ MEKTUP YAZMIYORUZ"
+  },
+  {
+    "question": "ВИЕ НЕ ПИШЕТЕ МНОГО ХУБАВО (VIE NE PISHETE MNOGO HUBAVO) (Çoğul)",
+    "answer": "SİZ ÇOK GÜZEL YAZMIYORSUNUZ"
+  },
+  {
+    "question": "ТЕ НЕ ПИШАТ СЪОБЩЕНИЕ ОТ ТЕЛЕФОНА (TE NE PISHAT SAOBSHTENIE OT TELEFONA) (Çoğul)",
+    "answer": "ONLAR TELEFONDAN MESAJ YAZMIYOR"
+  },
+  {
+    "question": "АЗ ПИША ЛИ КНИГА? (AZ PISHA LI KNIGA?) (Dişil)",
+    "answer": "KİTAP YAZIYOR MUYUM?"
+  },
+  {
+    "question": "АЗ ПИША ЛИ ДЕКЛАРАЦИЯ? (AZ PISHA LI DEKLARATSIYA?) (Dişil)",
+    "answer": "DİLEKÇE YAZIYOR MUYUM?"
+  },
+  {
+    "question": "ТИ ПИШЕШ ЛИ ДОМАШНО ПО БЪЛГАРСКИ ЕЗИК? (TI PISHESH LI DOMASHNO PO BALGARSKI EZIK?) (Nötr)",
+    "answer": "SEN BULGARCA DİLİ ÖDEVİ YAZIYOR MUSUN?"
+  },
+  {
+    "question": "ТОЙ ПИШЕ ЛИ СТИХОТВОРЕНИЕ? (TOY PISHE LI STIHOTVORENIE?) (Eril)",
+    "answer": "O ŞİİR YAZIYOR MU? (ERİL)"
+  },
+  {
+    "question": "ТЯ ПИШЕ ЛИ СТИХОТВОРЕНИЕ? (TYA PISHE LI STIHOTVORENIE?) (Dişil)",
+    "answer": "O ŞİİR YAZIYOR MU? (DİŞİL)"
+  },
+  {
+    "question": "ТО ПИШЕ ЛИ СТИХОТВОРЕНИЕ? (TO PISHE LI STIHOTVORENIE?) (Nötr)",
+    "answer": "O ŞİİR YAZIYOR MU? (NÖTR)"
+  },
+  {
+    "question": "НИЕ ПИШЕМ ЛИ ПИСМО? (NIE PISHEM LI PISMO?) (Çoğul)",
+    "answer": "BİZ MEKTUP YAZIYOR MUYUZ?"
+  },
+  {
+    "question": "ВИЕ ПИШЕТЕ ЛИ МНОГО ХУБАВО? (VIE PISHETE LI MNOGO HUBAVO?) (Çoğul)",
+    "answer": "SİZ ÇOK GÜZEL YAZIYOR MUSUNUZ?"
+  },
+  {
+    "question": "ТЕ ПИШАТ ЛИ СЪОБЩЕНИЕ ОТ ТЕЛЕФОНА? (TE PISHAT LI SAOBSHTENIE OT TELEFONA?) (Çoğul)",
+    "answer": "ONLAR TELEFONDAN MESAJ YAZIYOR MU?"
+  },
+  {
+    "question": "АЗ СЛУШАМ (AZ SLUSHAM)",
+    "answer": "BEN DİNLİYORUM"
+  },
+  {
+    "question": "ТИ СЛУШАШ (TI SLUSHASH)",
+    "answer": "SEN DİNLİYORSUN"
+  },
+  {
+    "question": "ТОЙ СЛУША (TOY SLUSHA) (Eril)",
+    "answer": "O DİNLİYOR (ERİL)"
+  },
+  {
+    "question": "ТЯ СЛУША (TYA SLUSHA) (Dişil)",
+    "answer": "O DİNLİYOR (DİŞİL)"
+  },
+  {
+    "question": "ТО СЛУША (TO SLUSHA) (Nötr)",
+    "answer": "O DİNLİYOR (NÖTR)"
+  },
+  {
+    "question": "НИЕ СЛУШАМЕ (NIE SLUSHAME) (Çoğul)",
+    "answer": "BİZ DİNLİYORUZ"
+  },
+  {
+    "question": "ВИЕ СЛУШАТЕ (VIE SLUSHATE) (Çoğul)",
+    "answer": "SİZ DİNLİYORSUNUZ"
+  },
+  {
+    "question": "ТЕ СЛУШАТ (TE SLUSHAT) (Çoğul)",
+    "answer": "ONLAR DİNLİYORLAR"
+  },
+  {
+    "question": "АЗ СЛУШАХ (AZ SLUSHAH)",
+    "answer": "BEN DİNLEDİM"
+  },
+  {
+    "question": "ТИ СЛУША (TI SLUSHA)",
+    "answer": "SEN DİNLEDİN"
+  },
+  {
+    "question": "ТОЙ СЛУША (TOY SLUSHA) (Eril)",
+    "answer": "O DİNLEDİ (ERİL)"
+  },
+  {
+    "question": "ТЯ СЛУША (TYA SLUSHA) (Dişil)",
+    "answer": "O DİNLEDİ (DİŞİL)"
+  },
+  {
+    "question": "ТО СЛУША (TO SLUSHA) (Nötr)",
+    "answer": "O DİNLEDİ (NÖTR)"
+  },
+  {
+    "question": "НИЕ СЛУШАХМЕ (NIE SLUSHAHME) (Çoğul)",
+    "answer": "BİZ DİNLEDİK"
+  },
+  {
+    "question": "ВИЕ СЛУШАХТЕ (VIE SLUSHAHTE) (Çoğul)",
+    "answer": "SİZ DİNLEDİNİZ"
+  },
+  {
+    "question": "ТЕ СЛУШАХА (TE SLUSHAHA) (Çoğul)",
+    "answer": "ONLAR DİNLEDİ"
+  },
+  {
+    "question": "АЗ СЛУШАМ ХУБАВА МУЗИКА (AZ SLUSHAM HUBAVA MUZIKA) (Dişil)",
+    "answer": "BEN GÜZEL MÜZİK DİNLİYORUM"
+  },
+  {
+    "question": "ТИ СЛУШАШ УРОК (TI SLUSHASH UROK) (Eril)",
+    "answer": "SEN DERS DİNLİYORSUN"
+  },
+  {
+    "question": "ТОЙ СЛУША УЧИТЕЛЯ (TOY SLUSHA UCHITELYA) (Eril)",
+    "answer": "O ÖĞRETMENİ DİNLİYOR (ERİL)"
+  },
+  {
+    "question": "ТЯ СЛУША УЧИТЕЛЯ (TYA SLUSHA UCHITELYA) (Dişil)",
+    "answer": "O ÖĞRETMENİ DİNLİYOR (DİŞİL)"
+  },
+  {
+    "question": "ТО СЛУША УЧИТЕЛЯ (TO SLUSHA UCHITELYA) (Nötr)",
+    "answer": "O ÖĞRETMENİ DİNLİYOR (NÖTR)"
+  },
+  {
+    "question": "НИЕ СЛУШАМЕ МУЗИКА ВСЕКИ ДЕН (NIE SLUSHAME MUZIKA VSEKI DEN) (Çoğul)",
+    "answer": "BİZ HER GÜN MÜZİK DİNLİYORUZ"
+  },
+  {
+    "question": "ВИЕ СЛУШАТЕ ДОБРЕ (VIE SLUSHATE DOBRE) (Çoğul)",
+    "answer": "SİZ İYİ DİNLİYORSUNUZ"
+  },
+  {
+    "question": "ТЕ СЛУШАТ КОНЦЕРТ В ПАРКА (TE SLUSHAT KONTSERT V PARKA) (Çoğul)",
+    "answer": "ONLAR PARKTA KONSER DİNLİYOR"
+  },
+  {
+    "question": "АЗ СЛУШАХ НОВИНИТЕ (AZ SLUSHAH NOVINITE) (Çoğul)",
+    "answer": "BEN HABERLERİ DİNLEDİM"
+  },
+  {
+    "question": "ТИ СЛУША МУЗИКА ПРЕЗ НОЩТА (TI SLUSHA MUZIKA PREZ NOSHTTA) (Dişil)",
+    "answer": "SEN GECE YARISI MÜZİK DİNLEDİN"
+  },
+  {
+    "question": "ТОЙ СЛУША ПРИКАЗКИ ВНИМАТЕЛНО (TOY SLUSHA PRIKAZKI VNIMATELNO) (Eril)",
+    "answer": "O MASALI DİKKATLE DİNLEDİ (ERİL)"
+  },
+  {
+    "question": "ТЯ СЛУША ПРИКАЗКИ ВНИМАТЕЛНО (TYA SLUSHA PRIKAZKI VNIMATELNO) (Dişil)",
+    "answer": "O MASALI DİKKATLE DİNLEDİ (DİŞİL)"
+  },
+  {
+    "question": "ТО СЛУША ПРИКАЗКИ ВНИМАТЕЛНО (TO SLUSHA PRIKAZKI VNIMATELNO) (Nötr)",
+    "answer": "O MASALI DİKKATLE DİNLEDİ (NÖTR)"
+  },
+  {
+    "question": "НИЕ СЛУШАХМЕ УЧИТЕЛКАТА (NIE SLUSHAHME UCHITELKATA) (Çoğul)",
+    "answer": "BİZ ÖĞRETMENİ DİNLEDİK"
+  },
+  {
+    "question": "ВИЕ СЛУШАХТЕ НОВАТА ПЕСЕН (VIE SLUSHAHTE NOVATA PESEN) (Çoğul)",
+    "answer": "SİZ YENİ ŞARKIYI DİNLEDİNİZ"
+  },
+  {
+    "question": "ТЕ СЛУШАХА РАДИО (TE SLUSHAHA RADIO) (Çoğul)",
+    "answer": "ONLAR RADYO DİNLEDİLER"
+  },
+  {
+    "question": "АЗ НЕ СЛУШАМ ХУБАВА МУЗИКА (AZ NE SLUSHAM HUBAVA MUZIKA) (Dişil)",
+    "answer": "BEN GÜZEL MÜZİK DİNLEMİYORUM"
+  },
+  {
+    "question": "ТИ НЕ СЛУШАШ УРОК (TI NE SLUSHASH UROK) (Eril)",
+    "answer": "SEN DERS DİNLEMİYORSUN"
+  },
+  {
+    "question": "ТОЙ НЕ СЛУША УЧИТЕЛЯ (TOY NE SLUSHA UCHITELYA) (Eril)",
+    "answer": "O ÖĞRETMENİ DİNLEMİYOR (ERİL)"
+  },
+  {
+    "question": "ТЯ НЕ СЛУША УЧИТЕЛЯ (TYA NE SLUSHA UCHITELYA) (Dişil)",
+    "answer": "O ÖĞRETMENİ DİNLEMİYOR (DİŞİL)"
+  },
+  {
+    "question": "ТО НЕ СЛУША УЧИТЕЛЯ (TO NE SLUSHA UCHITELYA) (Nötr)",
+    "answer": "O ÖĞRETMENİ DİNLEMİYOR (NÖTR)"
+  },
+  {
+    "question": "НИЕ НЕ СЛУШАМЕ МУЗИКА ВСЕКИ ДЕН (NIE NE SLUSHAME MUZIKA VSEKI DEN) (Çoğul)",
+    "answer": "BİZ HER GÜN MÜZİK DİNLEMİYORUZ"
+  },
+  {
+    "question": "ВИЕ НЕ СЛУШАТЕ ДОБРЕ (VIE NE SLUSHATE DOBRE) (Çoğul)",
+    "answer": "SİZ İYİ DİNLEMİYORSUNUZ"
+  },
+  {
+    "question": "ТЕ НЕ СЛУШАТ КОНЦЕРТ В ПАРКА (TE NE SLUSHAT KONTSERT V PARKA) (Çoğul)",
+    "answer": "ONLAR PARKTA KONSER DİNLEMİYOR"
+  },
+  {
+    "question": "АЗ СЛУШАМ ЛИ ХУБАВА МУЗИКА? (AZ SLUSHAM LI HUBAVA MUZIKA?) (Dişil)",
+    "answer": "BEN GÜZEL MÜZİK DİNLİYOR MUYUM?"
+  },
+  {
+    "question": "ТИ СЛУШАШ ЛИ УРОК? (TI SLUSHASH LI UROK?) (Eril)",
+    "answer": "SEN DERS DİNLİYOR MUSUN?"
+  },
+  {
+    "question": "ТОЙ СЛУША ЛИ УЧИТЕЛЯ? (TOY SLUSHA LI UCHITELYA?) (Eril)",
+    "answer": "O ÖĞRETMENİ DİNLİYOR MU? (ERİL)"
+  },
+  {
+    "question": "ТЯ СЛУША ЛИ УЧИТЕЛЯ? (TYA SLUSHA LI UCHITELYA?) (Dişil)",
+    "answer": "O ÖĞRETMENİ DİNLİYOR MU? (DİŞİL)"
+  },
+  {
+    "question": "ТО СЛУША ЛИ УЧИТЕЛЯ? (TO SLUSHA LI UCHITELYA?) (Nötr)",
+    "answer": "O ÖĞRETMENİ DİNLİYOR MU? (NÖTR)"
+  },
+  {
+    "question": "НИЕ СЛУШАМЕ ЛИ МУЗИКА ВСЕКИ ДЕН? (NIE SLUSHAME LI MUZIKA VSEKI DEN?) (Çoğul)",
+    "answer": "BİZ HER GÜN MÜZİK DİNLİYOR MUYUZ?"
+  },
+  {
+    "question": "ВИЕ СЛУШАТЕ ЛИ ДОБРЕ? (VIE SLUSHATE LI DOBRE?) (Çoğul)",
+    "answer": "SİZ İYİ DİNLİYOR MUSUNUZ?"
+  },
+  {
+    "question": "ТЕ СЛУШАТ ЛИ КОНЦЕРТ В ПАРКА? (TE SLUSHAT LI KONTSERT V PARKA?) (Çoğul)",
+    "answer": "ONLAR PARKTA KONSER DİNLİYOR MU?"
+  },
+  {
+    "question": "АЗ ИГРАЯ (AZ IGRAYA)",
+    "answer": "BEN OYNUYORUM"
+  },
+  {
+    "question": "ТИ ИГРАЕШ (TI IGRAESH)",
+    "answer": "SEN OYNUYORSUN"
+  },
+  {
+    "question": "ТОЙ ИГРАЕ (TOY IGRAE) (Eril)",
+    "answer": "O OYNUYOR (ERİL)"
+  },
+  {
+    "question": "ТЯ ИГРАЕ (TYA IGRAE) (Dişil)",
+    "answer": "O OYNUYOR (DİŞİL)"
+  },
+  {
+    "question": "ТО ИГРАЕ (TO IGRAE) (Nötr)",
+    "answer": "O OYNUYOR (NÖTR)"
+  },
+  {
+    "question": "НИЕ ИГРАЕМ (NIE IGRAEM) (Çoğul)",
+    "answer": "BİZ OYNUYORUZ"
+  },
+  {
+    "question": "ВИЕ ИГРАЕТЕ (VIE IGRAETE) (Çoğul)",
+    "answer": "SİZ OYNUYORSUNUZ"
+  },
+  {
+    "question": "ТЕ ИГРАЯТ (TE IGRAYAT) (Çoğul)",
+    "answer": "ONLAR OYNUYORLAR"
+  },
+  {
+    "question": "АЗ ИГРАХ (AZ IGRAH)",
+    "answer": "BEN OYNADIM"
+  },
+  {
+    "question": "ТИ ИГРА (TI IGRA)",
+    "answer": "SEN OYNADIN"
+  },
+  {
+    "question": "ТОЙ ИГРА (TOY IGRA) (Eril)",
+    "answer": "O OYNADI (ERİL)"
+  },
+  {
+    "question": "ТЯ ИГРА (TYA IGRA) (Dişil)",
+    "answer": "O OYNADI (DİŞİL)"
+  },
+  {
+    "question": "ТО ИГРА (TO IGRA) (Nötr)",
+    "answer": "O OYNADI (NÖTR)"
+  },
+  {
+    "question": "НИЕ ИГРАХМЕ (NIE IGRAHME) (Çoğul)",
+    "answer": "BİZ OYNADIK"
+  },
+  {
+    "question": "ВИЕ ИГРАХТЕ (VIE IGRAHTE) (Çoğul)",
+    "answer": "SİZ OYNADINIZ"
+  },
+  {
+    "question": "ТЕ ИГРАХА (TE IGRAHA) (Çoğul)",
+    "answer": "ONLAR OYNADI"
+  },
+  {
+    "question": "АЗ ИГРАЯ ФУТБОЛ (AZ IGRAYA FUTBOL) (Eril)",
+    "answer": "BEN FUTBOL OYNUYORUM"
+  },
+  {
+    "question": "ТИ ИГРАЕШ БАСКЕТБОЛ С ПРИЯТЕЛИ (TI IGRAESH BASKETBOL S PRIYATELI) (Eril)",
+    "answer": "SEN ARKADAŞLARLA BASKETBOL OYNUYORSUN"
+  },
+  {
+    "question": "ТОЙ ИГРАЕ С ТОПКА (TOY IGRAE S TOPKA) (Eril)",
+    "answer": "O TOPLA OYNUYOR (ERİL)"
+  },
+  {
+    "question": "ТЯ ИГРАЕ С ТОПКА (TYA IGRAE S TOPKA) (Dişil)",
+    "answer": "O TOPLA OYNUYOR (DİŞİL)"
+  },
+  {
+    "question": "ТО ИГРАЕ С ТОПКА (TO IGRAE S TOPKA) (Nötr)",
+    "answer": "O TOPLA OYNUYOR (NÖTR)"
+  },
+  {
+    "question": "НИЕ ИГРАЕМ В ПАРКА (NIE IGRAEM V PARKA) (Çoğul)",
+    "answer": "BİZ PARKTA OYNUYORUZ"
+  },
+  {
+    "question": "ВИЕ ИГРАЕТЕ С КАРТИ (VIE IGRAETE S KARTI) (Çoğul)",
+    "answer": "SİZ KARTLA OYNUYORSUNUZ"
+  },
+  {
+    "question": "ТЕ ИГРАЯТ НА УЛИЦАТА (TE IGRAYAT NA ULITSATA) (Çoğul)",
+    "answer": "ONLAR SOKAKTA OYNUYOR"
+  },
+  {
+    "question": "АЗ ИГРАХ ВОЛЕЙБОЛ ВЧЕРА (AZ IGRAH VOLEYBOL VCHERA) (Eril)",
+    "answer": "BEN DÜN VOLEYBOL OYNADIM"
+  },
+  {
+    "question": "ТИ ИГРА МНОГО ДОБРЕ (TI IGRA MNOGO DOBRE) (Eril)",
+    "answer": "SEN ÇOK İYİ OYNADIN"
+  },
+  {
+    "question": "ТОЙ ВЧЕРА ИГРА НА КОМПЮТЪРА (TOY VCHERA IGRA NA KOMPYUTARA) (Eril)",
+    "answer": "O DÜN BİLGİSAYARDA OYNADI (ERİL)"
+  },
+  {
+    "question": "ТЯ ВЧЕРА ИГРА НА КОМПЮТЪРА (TYA VCHERA IGRA NA KOMPYUTARA) (Dişil)",
+    "answer": "O DÜN BİLGİSAYARDA OYNADI (DİŞİL)"
+  },
+  {
+    "question": "ТО ВЧЕРА ИГРА НА КОМПЮТЪРА (TO VCHERA IGRA NA KOMPYUTARA) (Nötr)",
+    "answer": "O DÜN BİLGİSAYARDA OYNADI (NÖTR)"
+  },
+  {
+    "question": "НИЕ ИГРАХМЕ НА ПЛАЖА (NIE IGRAHME NA PLAZHA) (Çoğul)",
+    "answer": "BİZ PLAJDA OYNADIK"
+  },
+  {
+    "question": "ВИЕ ИГРАХТЕ МНОГО ДОБРЕ (VIE IGRAHTE MNOGO DOBRE) (Çoğul)",
+    "answer": "SİZ ÇOK İYİ OYNADINIZ"
+  },
+  {
+    "question": "ТЕ ИГРАХА ФУТБОЛ ДО ВЕЧЕРТА (TE IGRAHA FUTBOL DO VECHERTA) (Çoğul)",
+    "answer": "ONLAR AKŞAMA KADAR FUTBOL OYNADI"
+  },
+  {
+    "question": "АЗ НЕ ИГРАЯ ФУТБОЛ (AZ NE IGRAYA FUTBOL) (Eril)",
+    "answer": "BEN FUTBOL OYNAMIYORUM"
+  },
+  {
+    "question": "ТИ НЕ ИГРАЕШ БАСКЕТБОЛ С ПРИЯТЕЛИ (TI NE IGRAESH BASKETBOL S PRIYATELI) (Eril)",
+    "answer": "SEN ARKADAŞLARLA BASKETBOL OYNAMIYORSUN"
+  },
+  {
+    "question": "ТОЙ НЕ ИГРАЕ С ТОПКА (TOY NE IGRAE S TOPKA) (Eril)",
+    "answer": "O TOPLA OYNAMIYOR (ERİL)"
+  },
+  {
+    "question": "ТЯ НЕ ИГРАЕ С ТОПКА (TYA NE IGRAE S TOPKA) (Dişil)",
+    "answer": "O TOPLA OYNAMIYOR (DİŞİL)"
+  },
+  {
+    "question": "ТО НЕ ИГРАЕ С ТОПКА (TO NE IGRAE S TOPKA) (Nötr)",
+    "answer": "O TOPLA OYNAMIYOR (NÖTR)"
+  },
+  {
+    "question": "НИЕ НЕ ИГРАЕМ В ПАРКА (NIE NE IGRAEM V PARKA) (Çoğul)",
+    "answer": "BİZ PARKTA OYNAMIYORUZ"
+  },
+  {
+    "question": "ВИЕ НЕ ИГРАЕТЕ С КАРТИ (VIE NE IGRAETE S KARTI) (Çoğul)",
+    "answer": "SİZ KARTLA OYNAMIYORSUNUZ"
+  },
+  {
+    "question": "ТЕ НЕ ИГРАЯТ НА УЛИЦАТА (TE NE IGRAYAT NA ULITSATA) (Çoğul)",
+    "answer": "ONLAR SOKAKTA OYNAMIYOR"
+  },
+  {
+    "question": "АЗ ИГРАЯ ЛИ ФУТБОЛ? (AZ IGRAYA LI FUTBOL?) (Eril)",
+    "answer": "BEN FUTBOL OYNUYOR MUYUM?"
+  },
+  {
+    "question": "ТИ ИГРАЕШ ЛИ БАСКЕТБОЛ С ПРИЯТЕЛИ? (TI IGRAESH LI BASKETBOL S PRIYATELI?) (Eril)",
+    "answer": "SEN ARKADAŞLARLA BASKETBOL OYNUYOR MUSUN?"
+  },
+  {
+    "question": "ТОЙ ИГРАЕ ЛИ С ТОПКА? (TOY IGRAE LI S TOPKA?) (Eril)",
+    "answer": "O TOPLA OYNUYOR MU? (ERİL)"
+  },
+  {
+    "question": "ТЯ ИГРАЕ ЛИ С ТОПКА? (TYA IGRAE LI S TOPKA?) (Dişil)",
+    "answer": "O TOPLA OYNUYOR MU? (DİŞİL)"
+  },
+  {
+    "question": "ТО ИГРАЕ ЛИ С ТОПКА? (TO IGRAE LI S TOPKA?) (Nötr)",
+    "answer": "O TOPLA OYNUYOR MU? (NÖTR)"
+  },
+  {
+    "question": "НИЕ ИГРАЕМ ЛИ В ПАРКА? (NIE IGRAEM LI V PARKA?) (Çoğul)",
+    "answer": "BİZ PARKTA OYNUYOR MUYUZ?"
+  },
+  {
+    "question": "ВИЕ ИГРАЕТЕ ЛИ С КАРТИ? (VIE IGRAETE LI S KARTI?) (Çoğul)",
+    "answer": "SİZ KARTLA OYNUYOR MUSUNUZ?"
+  },
+  {
+    "question": "ТЕ ИГРАЯТ ЛИ НА УЛИЦАТА? (TE IGRAYAT LI NA ULITSATA?) (Çoğul)",
+    "answer": "ONLAR SOKAKTA OYNUYOR MU?"
+  },
+  {
+    "question": "АЗ МОГА (AZ MOGA)",
+    "answer": "BEN YAPABİLİRİM"
+  },
+  {
+    "question": "ТИ МОЖЕШ (TI MOZHESH)",
+    "answer": "SEN YAPABİLİRSİN"
+  },
+  {
+    "question": "ТОЙ МОЖЕ (TOY MOZHE) (Eril)",
+    "answer": "O YAPABİLİR (ERİL)"
+  },
+  {
+    "question": "ТЯ МОЖЕ (TYA MOZHE) (Dişil)",
+    "answer": "O YAPABİLİR (DİŞİL)"
+  },
+  {
+    "question": "ТО МОЖЕ (TO MOZHE) (Nötr)",
+    "answer": "O YAPABİLİR (NÖTR)"
+  },
+  {
+    "question": "НИЕ МОЖЕМ (NIE MOZHEM) (Çoğul)",
+    "answer": "BİZ YAPABİLİRİZ"
+  },
+  {
+    "question": "ВИЕ МОЖЕТЕ (VIE MOZHETE) (Çoğul)",
+    "answer": "SİZ YAPABİLİRSİNİZ"
+  },
+  {
+    "question": "ТЕ МОГАТ (TE MOGAT) (Çoğul)",
+    "answer": "ONLAR YAPABİLİR"
+  },
+  {
+    "question": "АЗ МОЖАХ (AZ MOZHAH)",
+    "answer": "BEN YAPABİLDİM"
+  },
+  {
+    "question": "ТИ МОЖА (TI MOZHA)",
+    "answer": "SEN YAPABİLDİN"
+  },
+  {
+    "question": "ТОЙ МОЖА (TOY MOZHA) (Eril)",
+    "answer": "O YAPABİLDİ (ERİL)"
+  },
+  {
+    "question": "ТЯ МОЖА (TYA MOZHA) (Dişil)",
+    "answer": "O YAPABİLDİ (DİŞİL)"
+  },
+  {
+    "question": "ТО МОЖА (TO MOZHA) (Nötr)",
+    "answer": "O YAPABİLDİ (NÖTR)"
+  },
+  {
+    "question": "НИЕ МОЖАХМЕ (NIE MOZHAHME) (Çoğul)",
+    "answer": "BİZ YAPABİLDİK"
+  },
+  {
+    "question": "ВИЕ МОЖАХТЕ (VIE MOZHAHTE) (Çoğul)",
+    "answer": "SİZ YAPABİLDİNİZ"
+  },
+  {
+    "question": "ТЕ МОЖАХА (TE MOZHAHA) (Çoğul)",
+    "answer": "ONLAR YAPABİLDİ"
+  },
+  {
+    "question": "АЗ МОГА ДА ЧЕТА НА БЪЛГАРСКИ ЕЗИК (AZ MOGA DA CHETA NA BALGARSKI EZIK) (Eril)",
+    "answer": "BEN BULGARCA DİLİ OKUYABİLİYORUM"
+  },
+  {
+    "question": "ТИ МОЖЕШ ДА ПИШЕШ (TI MOZHESH DA PISHESH) (Eril)",
+    "answer": "SEN YAZABİLİRSİN"
+  },
+  {
+    "question": "ТОЙ МОЖЕ ДА ГОВОРИ БЪЛГАРСКИ (TOY MOZHE DA GOVORI BALGARSKI) (Eril)",
+    "answer": "O BULGARCA KONUŞABİLİYOR (ERİL)"
+  },
+  {
+    "question": "ТЯ МОЖЕ ДА ГОВОРИ БЪЛГАРСКИ (TYA MOZHE DA GOVORI BALGARSKI) (Dişil)",
+    "answer": "O BULGARCA KONUŞABİLİYOR (DİŞİL)"
+  },
+  {
+    "question": "ТО МОЖЕ ДА ГОВОРИ БЪЛГАРСКИ (TO MOZHE DA GOVORI BALGARSKI) (Nötr)",
+    "answer": "O BULGARCA KONUŞABİLİYOR (NÖTR)"
+  },
+  {
+    "question": "НИЕ МОЖЕМ ДА ПИШЕМ (NIE MOZHEM DA PISHEM) (Çoğul)",
+    "answer": "BİZ YAZABİLİYORUZ"
+  },
+  {
+    "question": "ВИЕ МОЖЕТЕ ДА ЧЕТЕТЕ ВЕСТНИК (VIE MOZHETE DA CHETETE VESTNIK) (Çoğul)",
+    "answer": "SİZ GAZETE OKUYABİLİRSİNİZ"
+  },
+  {
+    "question": "ТЕ МОГАТ ДА ИГРАЯТ ВОЛЕЙБОЛ (TE MOGAT DA IGRAYAT VOLEYBOL) (Çoğul)",
+    "answer": "ONLAR VOLEYBOL OYNAYABİLİYOR"
+  },
+  {
+    "question": "АЗ МОЖАХ ДА ГОВОРЯ С ДИРЕКТОРА (AZ MOZHAH DA GOVORYA S DIREKTORA) (Eril)",
+    "answer": "BEN MÜDÜRLE KONUŞABİLDİM"
+  },
+  {
+    "question": "ТИ МОЖА ДА ПИШЕШ (TI MOZHA DA PISHESH) (Eril)",
+    "answer": "SEN YAZABİLDİN"
+  },
+  {
+    "question": "ТОЙ МОЖА ДА ЧЕТЕ (TOY MOZHA DA CHETE) (Eril)",
+    "answer": "O OKUYABİLDİ (ERİL)"
+  },
+  {
+    "question": "ТЯ МОЖА ДА ЧЕТЕ (TYA MOZHA DA CHETE) (Dişil)",
+    "answer": "O OKUYABİLDİ (DİŞİL)"
+  },
+  {
+    "question": "ТО МОЖА ДА ЧЕТЕ (TO MOZHA DA CHETE) (Nötr)",
+    "answer": "O OKUYABİLDİ (NÖTR)"
+  },
+  {
+    "question": "НИЕ МОЖАХМЕ ДА ГЛЕДАМЕ ФИЛМ (NIE MOZHAHME DA GLEDAME FILM) (Çoğul)",
+    "answer": "BİZ FİLM İZLEYEBİLDİK"
+  },
+  {
+    "question": "ВИЕ МОЖАХТЕ ДА СЛУШАТЕ МУЗИКА (VIE MOZHAHTE DA SLUSHATE MUZIKA) (Çoğul)",
+    "answer": "SİZ MÜZİK DİNLEYEBİLDİNİZ"
+  },
+  {
+    "question": "ТЕ МОЖАХА ДА ПИШАТ ПИСМО (TE MOZHAHA DA PISHAT PISMO) (Çoğul)",
+    "answer": "ONLAR MEKTUP YAZABİLDİ"
+  },
+  {
+    "question": "АЗ НЕ МОГА ДА ЧЕТА НА БЪЛГАРСКИ ЕЗИК (AZ NE MOGA DA CHETA NA BALGARSKI EZIK) (Eril)",
+    "answer": "BEN BULGARCA DİLİ OKUYAMIYORUM"
+  },
+  {
+    "question": "ТИ НЕ МОЖЕШ ДА ПИШЕШ (TI NE MOZHESH DA PISHESH) (Eril)",
+    "answer": "SEN YAZAMIYORSUN"
+  },
+  {
+    "question": "ТОЙ НЕ МОЖЕ ДА ГОВОРИ БЪЛГАРСКИ (TOY NE MOZHE DA GOVORI BALGARSKI) (Eril)",
+    "answer": "O BULGARCA KONUŞAMIYOR (ERİL)"
+  },
+  {
+    "question": "ТЯ НЕ МОЖЕ ДА ГОВОРИ БЪЛГАРСКИ (TYA NE MOZHE DA GOVORI BALGARSKI) (Dişil)",
+    "answer": "O BULGARCA KONUŞAMIYOR (DİŞİL)"
+  },
+  {
+    "question": "ТО НЕ МОЖЕ ДА ГОВОРИ БЪЛГАРСКИ (TO NE MOZHE DA GOVORI BALGARSKI) (Nötr)",
+    "answer": "O BULGARCA KONUŞAMIYOR (NÖTR)"
+  },
+  {
+    "question": "НИЕ НЕ МОЖЕМ ДА ПИШЕМ (NIE NE MOZHEM DA PISHEM) (Çoğul)",
+    "answer": "BİZ YAZAMIYORUZ"
+  },
+  {
+    "question": "ВИЕ НЕ МОЖЕТЕ ДА ЧЕТЕТЕ ВЕСТНИК (VIE NE MOZHETE DA CHETETE VESTNIK) (Çoğul)",
+    "answer": "SİZ GAZETE OKUYAMIYORSUNUZ"
+  },
+  {
+    "question": "ТЕ НЕ МОГАТ ДА ИГРАЯТ ВОЛЕЙБОЛ (TE NE MOGAT DA IGRAYAT VOLEYBOL) (Çoğul)",
+    "answer": "ONLAR VOLEYBOL OYNAYAMIYOR"
+  },
+  {
+    "question": "АЗ МОГА ЛИ ДА ЧЕТА НА БЪЛГАРСКИ ЕЗИК? (AZ MOGA LI DA CHETA NA BALGARSKI EZIK?) (Eril)",
+    "answer": "BEN BULGARCA DİLİ OKUYABİLİYOR MUYUM?"
+  },
+  {
+    "question": "ТИ МОЖЕШ ЛИ ДА ПИШЕШ? (TI MOZHESH LI DA PISHESH?) (Eril)",
+    "answer": "SEN YAZABİLİYOR MUSUN?"
+  },
+  {
+    "question": "ТОЙ МОЖЕ ЛИ ДА ГОВОРИ БЪЛГАРСКИ? (TOY MOZHE LI DA GOVORI BALGARSKI?) (Eril)",
+    "answer": "O BULGARCA KONUŞABİLİYOR MU? (ERİL)"
+  },
+  {
+    "question": "ТЯ МОЖЕ ЛИ ДА ГОВОРИ БЪЛГАРСКИ? (TYA MOZHE LI DA GOVORI BALGARSKI?) (Dişil)",
+    "answer": "O BULGARCA KONUŞABİLİYOR MU? (DİŞİL)"
+  },
+  {
+    "question": "ТО МОЖЕ ЛИ ДА ГОВОРИ БЪЛГАРСКИ? (TO MOZHE LI DA GOVORI BALGARSKI?) (Nötr)",
+    "answer": "O BULGARCA KONUŞABİLİYOR MU? (NÖTR)"
+  },
+  {
+    "question": "НИЕ МОЖЕМ ЛИ ДА ПИШЕМ? (NIE MOZHEM LI DA PISHEM?) (Çoğul)",
+    "answer": "BİZ YAZABİLİYOR MUYUZ?"
+  },
+  {
+    "question": "ВИЕ МОЖЕТЕ ЛИ ДА ЧЕТЕТЕ ВЕСТНИК? (VIE MOZHETE LI DA CHETETE VESTNIK?) (Çoğul)",
+    "answer": "SİZ GAZETE OKUYABİLİYOR MUSUNUZ?"
+  },
+  {
+    "question": "ТЕ МОГАТ ЛИ ДА ИГРАЯТ ВОЛЕЙБОЛ? (TE MOGAT LI DA IGRAYAT VOLEYBOL?) (Çoğul)",
+    "answer": "ONLAR VOLEYBOL OYNAYABİLİYOR MU?"
+  },
+  {
+    "question": "АЗ ВЗИМАМ (AZ VZIMAM)",
+    "answer": "BEN ALIYORUM"
+  },
+  {
+    "question": "ТИ ВЗИМАШ (TI VZIMASH)",
+    "answer": "SEN ALIYORSUN"
+  },
+  {
+    "question": "ТОЙ ВЗИМА (TOY VZIMA) (Eril)",
+    "answer": "O ALIYOR (ERİL)"
+  },
+  {
+    "question": "ТЯ ВЗИМА (TYA VZIMA) (Dişil)",
+    "answer": "O ALIYOR (DİŞİL)"
+  },
+  {
+    "question": "ТО ВЗИМА (TO VZIMA) (Nötr)",
+    "answer": "O ALIYOR (NÖTR)"
+  },
+  {
+    "question": "НИЕ ВЗИМАМЕ (NIE VZIMAME) (Çoğul)",
+    "answer": "BİZ ALIYORUZ"
+  },
+  {
+    "question": "ВИЕ ВЗИМАТЕ (VIE VZIMATE) (Çoğul)",
+    "answer": "SİZ ALIYORSUNUZ"
+  },
+  {
+    "question": "ТЕ ВЗИМАТ (TE VZIMAT) (Çoğul)",
+    "answer": "ONLAR ALIYOR"
+  },
+  {
+    "question": "АЗ ВЗЕХ (AZ VZEH)",
+    "answer": "BEN ALDIM"
+  },
+  {
+    "question": "ТИ ВЗЕ (TI VZE)",
+    "answer": "SEN ALDIN"
+  },
+  {
+    "question": "ТОЙ ВЗЕ (TOY VZE) (Eril)",
+    "answer": "O ALDI (ERİL)"
+  },
+  {
+    "question": "ТЯ ВЗЕ (TYA VZE) (Dişil)",
+    "answer": "O ALDI (DİŞİL)"
+  },
+  {
+    "question": "ТО ВЗЕ (TO VZE) (Nötr)",
+    "answer": "O ALDI (NÖTR)"
+  },
+  {
+    "question": "НИЕ ВЗЕХМЕ (NIE VZEHME) (Çoğul)",
+    "answer": "BİZ ALDIK"
+  },
+  {
+    "question": "ВИЕ ВЗЕХТЕ (VIE VZEHTE) (Çoğul)",
+    "answer": "SİZ ALDINIZ"
+  },
+  {
+    "question": "ТЕ ВЗЕХА (TE VZEHA) (Çoğul)",
+    "answer": "ONLAR ALDI"
+  },
+  {
+    "question": "АЗ ВЗИМАМ ЕДИН ХЛЯБ ОТ МАГАЗИНА (AZ VZIMAM EDIN HLYAB OT MAGAZINA) (Eril)",
+    "answer": "MARKETTEN BİR EKMEK ALIYORUM"
+  },
+  {
+    "question": "ТИ ВЗИМАШ ЕДНА ЧАША КАФЕ (TI VZIMASH EDNA CHASHA KAFE) (Dişil)",
+    "answer": "SEN BİR BARDAK KAHVE ALIYORSUN"
+  },
+  {
+    "question": "ТОЙ ВЗИМА 2 ТОРБИЧКИ С ПРОДУКТИ (TOY VZIMA 2 TORBICHKI S PRODUKTI) (Eril)",
+    "answer": "O 2 POŞET ÜRÜN ALIYOR (ERİL)"
+  },
+  {
+    "question": "ТЯ ВЗИМА 2 ТОРБИЧКИ С ПРОДУКТИ (TYA VZIMA 2 TORBICHKI S PRODUKTI) (Dişil)",
+    "answer": "O 2 POŞET ÜRÜN ALIYOR (DİŞİL)"
+  },
+  {
+    "question": "ТО ВЗИМА 2 ТОРБИЧКИ С ПРОДУКТИ (TO VZIMA 2 TORBICHKI S PRODUKTI) (Nötr)",
+    "answer": "O 2 POŞET ÜRÜN ALIYOR (NÖTR)"
+  },
+  {
+    "question": "НИЕ ВЗИМАМЕ 100 ЛЕВА ЗАПЛАТА (NIE VZIMAME 100 LEVA ZAPLATA) (Çoğul)",
+    "answer": "BİZ 100 LEVA MAAŞ ALIYORUZ"
+  },
+  {
+    "question": "ВИЕ ВЗИМАТЕ ПОДАРЪК (VIE VZIMATE PODARAK) (Çoğul)",
+    "answer": "SİZ HEDİYE ALIYORSUNUZ"
+  },
+  {
+    "question": "ТЕ ВЗИМАТ ВОДА ОТ КУХНЯТА (TE VZIMAT VODA OT KUHNYATA) (Çoğul)",
+    "answer": "ONLAR MUTFAKTAN SU ALIYOR"
+  },
+  {
+    "question": "АЗ ВЗЕХ ДРЕХИ ОТ МАГАЗИНА (AZ VZEH DREHI OT MAGAZINA) (Çoğul)",
+    "answer": "BEN MAĞAZADAN KIYAFET ALDIM"
+  },
+  {
+    "question": "ТИ ВЗЕ КАФЕ С МЛЯКО (TI VZE KAFE S MLYAKO) (Nötr)",
+    "answer": "SEN SÜTLÜ KAHVE ALDIN"
+  },
+  {
+    "question": "ТОЙ ВЗЕ КНИГА ОТ БИБЛИОТЕКАТА (TOY VZE KNIGA OT BIBLIOTEKATA) (Eril)",
+    "answer": "O KÜTÜPHANEDEN KİTAP ALDI (ERİL)"
+  },
+  {
+    "question": "ТЯ ВЗЕ КНИГА ОТ БИБЛИОТЕКАТА (TYA VZE KNIGA OT BIBLIOTEKATA) (Dişil)",
+    "answer": "O KÜTÜPHANEDEN KİTAP ALDI (DİŞİL)"
+  },
+  {
+    "question": "ТО ВЗЕ КНИГА ОТ БИБЛИОТЕКАТА (TO VZE KNIGA OT BIBLIOTEKATA) (Nötr)",
+    "answer": "O KÜTÜPHANEDEN KİTAP ALDI (NÖTR)"
+  },
+  {
+    "question": "НИЕ ВЗЕХМЕ ЧЕРВЕНО КОЛЕЛО ЗА СЕСТРА МИ (NIE VZEHME CHERVENO KOLELO ZA SESTRA MI) (Çoğul)",
+    "answer": "KIZ KARDEŞİM İÇİN KIRMIZI BİSİKLET ALDIK"
+  },
+  {
+    "question": "ВИЕ ВЗЕХТЕ ЛЮТЕНИЦА (VIE VZEHTE LYUTENITSA) (Çoğul)",
+    "answer": "SİZ SALÇA ALDINIZ"
+  },
+  {
+    "question": "ТЕ ВЗЕХА ХУБАВ ЛАПТОП (TE VZEHA HUBAV LAPTOP) (Çoğul)",
+    "answer": "ONLAR GÜZEL LAPTOP ALDI"
+  },
+  {
+    "question": "АЗ НЕ ВЗИМАМ ЕДИН ХЛЯБ ОТ МАГАЗИНА (AZ NE VZIMAM EDIN HLYAB OT MAGAZINA) (Eril)",
+    "answer": "MARKETTEN BİR EKMEK ALMIYORUM"
+  },
+  {
+    "question": "ТИ НЕ ВЗИМАШ ЕДНА ЧАША КАФЕ (TI NE VZIMASH EDNA CHASHA KAFE) (Dişil)",
+    "answer": "SEN BİR BARDAK KAHVE ALMIYORSUN"
+  },
+  {
+    "question": "ТОЙ НЕ ВЗИМА 2 ТОРБИЧКИ С ПРОДУКТИ (TOY NE VZIMA 2 TORBICHKI S PRODUKTI) (Eril)",
+    "answer": "O 2 POŞET ÜRÜN ALMIYOR (ERİL)"
+  },
+  {
+    "question": "ТЯ НЕ ВЗИМА 2 ТОРБИЧКИ С ПРОДУКТИ (TYA NE VZIMA 2 TORBICHKI S PRODUKTI) (Dişil)",
+    "answer": "O 2 POŞET ÜRÜN ALMIYOR (DİŞİL)"
+  },
+  {
+    "question": "ТО НЕ ВЗИМА 2 ТОРБИЧКИ С ПРОДУКТИ (TO NE VZIMA 2 TORBICHKI S PRODUKTI) (Nötr)",
+    "answer": "O 2 POŞET ÜRÜN ALMIYOR (NÖTR)"
+  },
+  {
+    "question": "НИЕ НЕ ВЗИМАМЕ 100 ЛЕВА ЗАПЛАТА (NIE NE VZIMAME 100 LEVA ZAPLATA) (Çoğul)",
+    "answer": "BİZ 100 LEVA MAAŞ ALMIYORUZ"
+  },
+  {
+    "question": "ВИЕ НЕ ВЗИМАТЕ ПОДАРЪК (VIE NE VZIMATE PODARAK) (Çoğul)",
+    "answer": "SİZ HEDİYE ALMIYORSUNUZ"
+  },
+  {
+    "question": "ТЕ НЕ ВЗИМАТ ВОДА ОТ КУХНЯТА (TE NE VZIMAT VODA OT KUHNYATA) (Çoğul)",
+    "answer": "ONLAR MUTFAKTAN SU ALMIYOR"
+  },
+  {
+    "question": "АЗ ВЗИМАМ ЛИ ЕДИН ХЛЯБ ОТ МАГАЗИНА? (AZ VZIMAM LI EDIN HLYAB OT MAGAZINA?) (Eril)",
+    "answer": "MARKETTEN BİR EKMEK ALIYOR MUYUM?"
+  },
+  {
+    "question": "ТИ ВЗИМАШ ЛИ ЕДНА ЧАША КАФЕ? (TI VZIMASH LI EDNA CHASHA KAFE?) (Dişil)",
+    "answer": "SEN BİR BARDAK KAHVE ALIYOR MUSUN?"
+  },
+  {
+    "question": "ТОЙ ВЗИМА ЛИ 2 ТОРБИЧКИ С ПРОДУКТИ? (TOY VZIMA LI 2 TORBICHKI S PRODUKTI?) (Eril)",
+    "answer": "O 2 POŞET ÜRÜN ALIYOR MU? (ERİL)"
+  },
+  {
+    "question": "ТЯ ВЗИМА ЛИ 2 ТОРБИЧКИ С ПРОДУКТИ? (TYA VZIMA LI 2 TORBICHKI S PRODUKTI?) (Dişil)",
+    "answer": "O 2 POŞET ÜRÜN ALIYOR MU? (DİŞİL)"
+  },
+  {
+    "question": "ТО ВЗИМА ЛИ 2 ТОРБИЧКИ С ПРОДУКТИ? (TO VZIMA LI 2 TORBICHKI S PRODUKTI?) (Nötr)",
+    "answer": "O 2 POŞET ÜRÜN ALIYOR MU? (NÖTR)"
+  },
+  {
+    "question": "НИЕ ВЗИМАМЕ ЛИ 100 ЛЕВА ЗАПЛАТА? (NIE VZIMAME LI 100 LEVA ZAPLATA?) (Çoğul)",
+    "answer": "BİZ 100 LEVA MAAŞ ALIYOR MUYUZ?"
+  },
+  {
+    "question": "ВИЕ ВЗИМАТЕ ЛИ ПОДАРЪК? (VIE VZIMATE LI PODARAK?) (Çoğul)",
+    "answer": "SİZ HEDİYE ALIYOR MUSUNUZ?"
+  },
+  {
+    "question": "ТЕ ВЗИМАТ ЛИ ВОДА ОТ КУХНЯТА? (TE VZIMAT LI VODA OT KUHNYATA?) (Çoğul)",
+    "answer": "ONLAR MUTFAKTAN SU ALIYOR MU?"
+  },
+  {
+    "question": "АЗ ДАВАМ (AZ DAVAM)",
+    "answer": "BEN VERİYORUM"
+  },
+  {
+    "question": "ТИ ДАВАШ (TI DAVASH)",
+    "answer": "SEN VERİYORSUN"
+  },
+  {
+    "question": "ТОЙ ДАВА (TOY DAVA) (Eril)",
+    "answer": "O VERİYOR (ERİL)"
+  },
+  {
+    "question": "ТЯ ДАВА (TYA DAVA) (Dişil)",
+    "answer": "O VERİYOR (DİŞİL)"
+  },
+  {
+    "question": "ТО ДАВА (TO DAVA) (Nötr)",
+    "answer": "O VERİYOR (NÖTR)"
+  },
+  {
+    "question": "НИЕ ДАВАМЕ (NIE DAVAME) (Çoğul)",
+    "answer": "BİZ VERİYORUZ"
+  },
+  {
+    "question": "ВИЕ ДАВАТЕ (VIE DAVATE) (Çoğul)",
+    "answer": "SİZ VERİYORSUNUZ"
+  },
+  {
+    "question": "ТЕ ДАВАТ (TE DAVAT) (Çoğul)",
+    "answer": "ONLAR VERİYOR"
+  },
+  {
+    "question": "АЗ ДАДОХ (AZ DADOH)",
+    "answer": "BEN VERDİM"
+  },
+  {
+    "question": "ТИ ДАДЕ (TI DADE)",
+    "answer": "SEN VERDİN"
+  },
+  {
+    "question": "ТОЙ ДАДЕ (TOY DADE) (Eril)",
+    "answer": "O VERDİ (ERİL)"
+  },
+  {
+    "question": "ТЯ ДАДЕ (TYA DADE) (Dişil)",
+    "answer": "O VERDİ (DİŞİL)"
+  },
+  {
+    "question": "ТО ДАДЕ (TO DADE) (Nötr)",
+    "answer": "O VERDİ (NÖTR)"
+  },
+  {
+    "question": "НИЕ ДАДОХМЕ (NIE DADOHME) (Çoğul)",
+    "answer": "BİZ VERDİK"
+  },
+  {
+    "question": "ВИЕ ДАДОХТЕ (VIE DADOHTE) (Çoğul)",
+    "answer": "SİZ VERDİNİZ"
+  },
+  {
+    "question": "ТЕ ДАДОХА (TE DADOHA) (Çoğul)",
+    "answer": "ONLAR VERDİ"
+  },
+  {
+    "question": "АЗ ДАВАМ ПАРИ ЗА КЪЩА (AZ DAVAM PARI ZA KASHTA) (Çoğul)",
+    "answer": "EV İÇİN PARA VERİYORUM"
+  },
+  {
+    "question": "ТИ ДАВАШ КНИГА НА ПРИЯТЕЛКА (TI DAVASH KNIGA NA PRIYATELKA) (Dişil)",
+    "answer": "SEN ARKADAŞINA KİTAP VERİYORSUN"
+  },
+  {
+    "question": "ТОЙ ДАВА РЕЦЕПТА ЗА КЕКС (TOY DAVA RETSEPTA ZA KEKS) (Eril)",
+    "answer": "O KEK İÇİN REÇETE VERİYOR (ERİL)"
+  },
+  {
+    "question": "ТЯ ДАВА РЕЦЕПТА ЗА КЕКС (TYA DAVA RETSEPTA ZA KEKS) (Dişil)",
+    "answer": "O KEK İÇİN REÇETE VERİYOR (DİŞİL)"
+  },
+  {
+    "question": "ТО ДАВА РЕЦЕПТА ЗА КЕКС (TO DAVA RETSEPTA ZA KEKS) (Nötr)",
+    "answer": "O KEK İÇİN REÇETE VERİYOR (NÖTR)"
+  },
+  {
+    "question": "НИЕ ДАВАМЕ ЦВЕТЯ НА МАМА (NIE DAVAME TSVETYA NA MAMA) (Çoğul)",
+    "answer": "BİZ ANNEMİZE ÇİÇEK VERİYORUZ"
+  },
+  {
+    "question": "ВИЕ ДАВАТЕ МНОГО ЩАСТИЕ НА ДЕТЕТО СИ (VIE DAVATE MNOGO SHTASTIE NA DETETO SI) (Çoğul)",
+    "answer": "SİZ ÇOCUĞUNUZA ÇOK MUTLULUK VERİYORSUNUZ"
+  },
+  {
+    "question": "ТЕ ДАВАТ ПАРИ НА БЕДНИТЕ ХОРА (TE DAVAT PARI NA BEDNITE HORA) (Çoğul)",
+    "answer": "ONLAR FAKİR İNSANLARA PARA VERİYOR"
+  },
+  {
+    "question": "АЗ ДАДОХ ПОДАРЪК НА СЕСТРА МИ (AZ DADOH PODARAK NA SESTRA MI) (Eril)",
+    "answer": "KIZ KARDEŞİME HEDİYE VERDİM"
+  },
+  {
+    "question": "ТИ ДАДЕ КНИГАТА НА УЧИТЕЛЯ (TI DADE KNIGATA NA UCHITELYA) (Dişil)",
+    "answer": "SEN KİTABI ÖĞRETMENE VERDİN"
+  },
+  {
+    "question": "ТОЙ ДАДЕ ТЕЛЕФОННИЯ СИ НОМЕР (TOY DADE TELEFONNIYA SI NOMER) (Eril)",
+    "answer": "O TELEFON NUMARASINI VERDİ (ERİL)"
+  },
+  {
+    "question": "ТЯ ДАДЕ ТЕЛЕФОННИЯ СИ НОМЕР (TYA DADE TELEFONNIYA SI NOMER) (Dişil)",
+    "answer": "O TELEFON NUMARASINI VERDİ (DİŞİL)"
+  },
+  {
+    "question": "ТО ДАДЕ ТЕЛЕФОННИЯ СИ НОМЕР (TO DADE TELEFONNIYA SI NOMER) (Nötr)",
+    "answer": "O TELEFON NUMARASINI VERDİ (NÖTR)"
+  },
+  {
+    "question": "НИЕ ДАДОХМЕ НАШИЯ АДРЕС (NIE DADOHME NASHIYA ADRES) (Çoğul)",
+    "answer": "BİZ BİZİM ADRESİ VERDİK"
+  },
+  {
+    "question": "ВИЕ ДАДОХТЕ ВАШАТА ЧАНТА (VIE DADOHTE VASHATA CHANTA) (Çoğul)",
+    "answer": "SİZ SİZİN ÇANTAYI VERDİNİZ"
+  },
+  {
+    "question": "ТЕ ДАДОХА ХРАНА НА КОТКИТЕ (TE DADOHA HRANA NA KOTKITE) (Çoğul)",
+    "answer": "ONLAR KEDİLERE YİYECEK VERDİ"
+  },
+  {
+    "question": "АЗ НЕ ДАВАМ ПАРИ ЗА КЪЩА (AZ NE DAVAM PARI ZA KASHTA) (Çoğul)",
+    "answer": "EV İÇİN PARA VERMİYORUM"
+  },
+  {
+    "question": "ТИ НЕ ДАВАШ КНИГА НА ПРИЯТЕЛКА (TI NE DAVASH KNIGA NA PRIYATELKA) (Dişil)",
+    "answer": "SEN ARKADAŞINA KİTAP VERMİYORSUN"
+  },
+  {
+    "question": "ТОЙ НЕ ДАВА РЕЦЕПТА ЗА КЕКС (TOY NE DAVA RETSEPTA ZA KEKS) (Eril)",
+    "answer": "O KEK İÇİN REÇETE VERMİYOR (ERİL)"
+  },
+  {
+    "question": "ТЯ НЕ ДАВА РЕЦЕПТА ЗА КЕКС (TYA NE DAVA RETSEPTA ZA KEKS) (Dişil)",
+    "answer": "O KEK İÇİN REÇETE VERMİYOR (DİŞİL)"
+  },
+  {
+    "question": "ТО НЕ ДАВА РЕЦЕПТА ЗА КЕКС (TO NE DAVA RETSEPTA ZA KEKS) (Nötr)",
+    "answer": "O KEK İÇİN REÇETE VERMİYOR (NÖTR)"
+  },
+  {
+    "question": "НИЕ НЕ ДАВАМЕ ЦВЕТЯ НА МАМА (NIE NE DAVAME TSVETYA NA MAMA) (Çoğul)",
+    "answer": "BİZ ANNEMİZE ÇİÇEK VERMİYORUZ"
+  },
+  {
+    "question": "ВИЕ НЕ ДАВАТЕ МНОГО ЩАСТИЕ НА ДЕТЕТО СИ (VIE NE DAVATE MNOGO SHTASTIE NA DETETO SI) (Çoğul)",
+    "answer": "SİZ ÇOCUĞUNUZA ÇOK MUTLULUK VERMİYORSUNUZ"
+  },
+  {
+    "question": "ТЕ НЕ ДАВАТ ПАРИ НА БЕДНИТЕ ХОРА (TE NE DAVAT PARI NA BEDNITE HORA) (Çoğul)",
+    "answer": "ONLAR FAKİR İNSANLARA PARA VERMİYOR"
+  },
+  {
+    "question": "АЗ ДАВАМ ЛИ ПАРИ ЗА КЪЩА? (AZ DAVAM LI PARI ZA KASHTA?) (Çoğul)",
+    "answer": "EV İÇİN PARA VERİYOR MUYUM?"
+  },
+  {
+    "question": "ТИ ДАВАШ ЛИ КНИГА НА ПРИЯТЕЛКА? (TI DAVASH LI KNIGA NA PRIYATELKA?) (Dişil)",
+    "answer": "SEN ARKADAŞINA KİTAP VERİYOR MUSUN?"
+  },
+  {
+    "question": "ТОЙ ДАВА ЛИ РЕЦЕПТА ЗА КЕКС? (TOY DAVA LI RETSEPTA ZA KEKS?) (Eril)",
+    "answer": "O KEK İÇİN REÇETE VERİYOR MU? (ERİL)"
+  },
+  {
+    "question": "ТЯ ДАВА ЛИ РЕЦЕПТА ЗА КЕКС? (TYA DAVA LI RETSEPTA ZA KEKS?) (Dişil)",
+    "answer": "O KEK İÇİN REÇETE VERİYOR MU? (DİŞİL)"
+  },
+  {
+    "question": "ТО ДАВА ЛИ РЕЦЕПТА ЗА КЕКС? (TO DAVA LI RETSEPTA ZA KEKS?) (Nötr)",
+    "answer": "O KEK İÇİN REÇETE VERİYOR MU? (NÖTR)"
+  },
+  {
+    "question": "НИЕ ДАВАМЕ ЛИ ЦВЕТЯ НА МАМА? (NIE DAVAME LI TSVETYA NA MAMA?) (Çoğul)",
+    "answer": "BİZ ANNEMİZE ÇİÇEK VERİYOR MUYUZ?"
+  },
+  {
+    "question": "ВИЕ ДАВАТЕ ЛИ МНОГО ЩАСТИЕ НА ДЕТЕТО СИ? (VIE DAVATE LI MNOGO SHTASTIE NA DETETO SI?) (Çoğul)",
+    "answer": "SİZ ÇOCUĞUNUZA ÇOK MUTLULUK VERİYOR MUSUNUZ?"
+  },
+  {
+    "question": "ТЕ ДАВАТ ЛИ ПАРИ НА БЕДНИТЕ ХОРА? (TE DAVAT LI PARI NA BEDNITE HORA?) (Çoğul)",
+    "answer": "ONLAR FAKİR İNSANLARA PARA VERİYOR MU?"
+  },
+  {
+    "question": "АЗ ИЗЛИЗАМ (AZ IZLIZAM)",
+    "answer": "BEN ÇIKIYORUM"
+  },
+  {
+    "question": "ТИ ИЗЛИЗАШ (TI IZLIZASH)",
+    "answer": "SEN ÇIKIYORSUN"
+  },
+  {
+    "question": "ТОЙ ИЗЛИЗА (TOY IZLIZA) (Eril)",
+    "answer": "O ÇIKIYOR (ERİL)"
+  },
+  {
+    "question": "ТЯ ИЗЛИЗА (TYA IZLIZA) (Dişil)",
+    "answer": "O ÇIKIYOR (DİŞİL)"
+  },
+  {
+    "question": "ТО ИЗЛИЗА (TO IZLIZA) (Nötr)",
+    "answer": "O ÇIKIYOR (NÖTR)"
+  },
+  {
+    "question": "НИЕ ИЗЛИЗАМЕ (NIE IZLIZAME) (Çoğul)",
+    "answer": "BİZ ÇIKIYORUZ"
+  },
+  {
+    "question": "ВИЕ ИЗЛИЗАТЕ (VIE IZLIZATE) (Çoğul)",
+    "answer": "SİZ ÇIKIYORSUNUZ"
+  },
+  {
+    "question": "ТЕ ИЗЛИЗАТ (TE IZLIZAT) (Çoğul)",
+    "answer": "ONLAR ÇIKIYOR"
+  },
+  {
+    "question": "АЗ ИЗЛЯЗОХ (AZ IZLYAZOH)",
+    "answer": "BEN ÇIKTIM"
+  },
+  {
+    "question": "ТИ ИЗЛЕЗЕ (TI IZLEZE)",
+    "answer": "SEN ÇIKTIN"
+  },
+  {
+    "question": "ТОЙ ИЗЛЕЗЕ (TOY IZLEZE) (Eril)",
+    "answer": "O ÇIKTI (ERİL)"
+  },
+  {
+    "question": "ТЯ ИЗЛЕЗЕ (TYA IZLEZE) (Dişil)",
+    "answer": "O ÇIKTI (DİŞİL)"
+  },
+  {
+    "question": "ТО ИЗЛЕЗЕ (TO IZLEZE) (Nötr)",
+    "answer": "O ÇIKTI (NÖTR)"
+  },
+  {
+    "question": "НИЕ ИЗЛЯЗОХМЕ (NIE IZLYAZOHME) (Çoğul)",
+    "answer": "BİZ ÇIKTIK"
+  },
+  {
+    "question": "ВИЕ ИЗЛЯЗОХТЕ (VIE IZLYAZOHTE) (Çoğul)",
+    "answer": "SİZ ÇIKTINIZ"
+  },
+  {
+    "question": "ТЕ ИЗЛЯЗОХА (TE IZLYAZOHA) (Çoğul)",
+    "answer": "ONLAR ÇIKTI"
+  },
+  {
+    "question": "ИЗЛИЗАМ ОТ РАБОТА (IZLIZAM OT RABOTA) (Dişil)",
+    "answer": "İŞTEN ÇIKIYORUM"
+  },
+  {
+    "question": "ТИ ИЗЛИЗАШ С КОЛАТА (TI IZLIZASH S KOLATA) (Dişil)",
+    "answer": "SEN ARABAYLA ÇIKIYORSUN"
+  },
+  {
+    "question": "ТОЙ ИЗЛИЗА БЕЗ ЧАНТА (TOY IZLIZA BEZ CHANTA) (Eril)",
+    "answer": "O ÇANTASIZ ÇIKIYOR (ERİL)"
+  },
+  {
+    "question": "ТЯ ИЗЛИЗА БЕЗ ЧАНТА (TYA IZLIZA BEZ CHANTA) (Dişil)",
+    "answer": "O ÇANTASIZ ÇIKIYOR (DİŞİL)"
+  },
+  {
+    "question": "ТО ИЗЛИЗА БЕЗ ЧАНТА (TO IZLIZA BEZ CHANTA) (Nötr)",
+    "answer": "O ÇANTASIZ ÇIKIYOR (NÖTR)"
+  },
+  {
+    "question": "НИЕ ИЗЛИЗАМЕ ОТ УРОК (NIE IZLIZAME OT UROK) (Çoğul)",
+    "answer": "BİZ DERSTEN ÇIKIYORUZ"
+  },
+  {
+    "question": "ВИЕ ИЗЛИЗАТЕ ОТ РАБОТА В 8 ЧАСА (VIE IZLIZATE OT RABOTA V 8 CHASA) (Çoğul)",
+    "answer": "SİZ İŞTEN SAAT 8’DE ÇIKIYORSUNUZ"
+  },
+  {
+    "question": "ТЕ ИЗЛИЗАТ НА ВЕЧЕРЯ (TE IZLIZAT NA VECHERYA) (Çoğul)",
+    "answer": "ONLAR AKŞAM YEMEĞİNE ÇIKIYOR"
+  },
+  {
+    "question": "АЗ ИЗЛЯЗОХ ОТ УЧИЛИЩЕ В 15 ЧАСА (AZ IZLYAZOH OT UCHILISHTE V 15 CHASA) (Nötr)",
+    "answer": "BEN OKULDAN SAAT 15’TE ÇIKTIM"
+  },
+  {
+    "question": "ТИ ИЗЛЕЗЕ С КОЛАТА ВЧЕРА (TI IZLEZE S KOLATA VCHERA) (Dişil)",
+    "answer": "SEN DÜN ARABAYLA ÇIKTIN"
+  },
+  {
+    "question": "ТОЙ ИЗЛЕЗЕ ДО МАГАЗИНА (TOY IZLEZE DO MAGAZINA) (Eril)",
+    "answer": "O MARKETE KADAR ÇIKTI (ERİL)"
+  },
+  {
+    "question": "ТЯ ИЗЛЕЗЕ ДО МАГАЗИНА (TYA IZLEZE DO MAGAZINA) (Dişil)",
+    "answer": "O MARKETE KADAR ÇIKTI (DİŞİL)"
+  },
+  {
+    "question": "ТО ИЗЛЕЗЕ ДО МАГАЗИНА (TO IZLEZE DO MAGAZINA) (Nötr)",
+    "answer": "O MARKETE KADAR ÇIKTI (NÖTR)"
+  },
+  {
+    "question": "НИЕ ИЗЛЯЗОХМЕ С 2 ЧАНТИ (NIE IZLYAZOHME S 2 CHANTI) (Çoğul)",
+    "answer": "BİZ 2 ÇANTA İLE ÇIKTIK"
+  },
+  {
+    "question": "ВИЕ ИЗЛЯЗОХТЕ В ПАРКА (VIE IZLYAZOHTE V PARKA) (Çoğul)",
+    "answer": "SİZ PARKA ÇIKTINIZ"
+  },
+  {
+    "question": "ТЕ ИЗЛЯЗОХА НА ОБЕДНА ПОЧИВКА (TE IZLYAZOHA NA OBEDNA POCHIVKA) (Çoğul)",
+    "answer": "ONLAR ÖĞLEN MOLASINA ÇIKTI"
+  },
+  {
+    "question": "АЗ НЕ ИЗЛИЗАМ ОТ РАБОТА (AZ NE IZLIZAM OT RABOTA) (Dişil)",
+    "answer": "İŞTEN ÇIKMIYORUM"
+  },
+  {
+    "question": "ТИ НЕ ИЗЛИЗАШ С КОЛАТА (TI NE IZLIZASH S KOLATA) (Dişil)",
+    "answer": "SEN ARABAYLA ÇIKMIYORSUN"
+  },
+  {
+    "question": "ТОЙ НЕ ИЗЛИЗА БЕЗ ЧАНТА (TOY NE IZLIZA BEZ CHANTA) (Eril)",
+    "answer": "O ÇANTASIZ ÇIKMIYOR (ERİL)"
+  },
+  {
+    "question": "ТЯ НЕ ИЗЛИЗА БЕЗ ЧАНТА (TYA NE IZLIZA BEZ CHANTA) (Dişil)",
+    "answer": "O ÇANTASIZ ÇIKMIYOR (DİŞİL)"
+  },
+  {
+    "question": "ТО НЕ ИЗЛИЗА БЕЗ ЧАНТА (TO NE IZLIZA BEZ CHANTA) (Nötr)",
+    "answer": "O ÇANTASIZ ÇIKMIYOR (NÖTR)"
+  },
+  {
+    "question": "НИЕ НЕ ИЗЛИЗАМЕ ОТ УРОК (NIE NE IZLIZAME OT UROK) (Çoğul)",
+    "answer": "BİZ DERSTEN ÇIKMIYORUZ"
+  },
+  {
+    "question": "ВИЕ НЕ ИЗЛИЗАТЕ ОТ РАБОТА В 8 ЧАСА (VIE NE IZLIZATE OT RABOTA V 8 CHASA) (Çoğul)",
+    "answer": "SİZ İŞTEN SAAT 8’DE ÇIKMIYORSUNUZ"
+  },
+  {
+    "question": "ТЕ НЕ ИЗЛИЗАТ НА ВЕЧЕРЯ (TE NE IZLIZAT NA VECHERYA) (Çoğul)",
+    "answer": "ONLAR AKŞAM YEMEĞİNE ÇIKMIYOR"
+  },
+  {
+    "question": "ИЗЛИЗАМ ЛИ ОТ РАБОТА? (IZLIZAM LI OT RABOTA?) (Dişil)",
+    "answer": "İŞTEN ÇIKIYOR MUYUM?"
+  },
+  {
+    "question": "ТИ ИЗЛИЗАШ ЛИ С КОЛАТА? (TI IZLIZASH LI S KOLATA?) (Dişil)",
+    "answer": "SEN ARABAYLA ÇIKIYOR MUSUN?"
+  },
+  {
+    "question": "ТОЙ ИЗЛИЗА ЛИ БЕЗ ЧАНТА? (TOY IZLIZA LI BEZ CHANTA?) (Eril)",
+    "answer": "O ÇANTASIZ ÇIKIYOR MU? (ERİL)"
+  },
+  {
+    "question": "ТЯ ИЗЛИЗА ЛИ БЕЗ ЧАНТА? (TYA IZLIZA LI BEZ CHANTA?) (Dişil)",
+    "answer": "O ÇANTASIZ ÇIKIYOR MU? (DİŞİL)"
+  },
+  {
+    "question": "ТО ИЗЛИЗА ЛИ БЕЗ ЧАНТА? (TO IZLIZA LI BEZ CHANTA?) (Nötr)",
+    "answer": "O ÇANTASIZ ÇIKIYOR MU? (NÖTR)"
+  },
+  {
+    "question": "НИЕ ИЗЛИЗАМЕ ЛИ ОТ УРОК? (NIE IZLIZAME LI OT UROK?) (Çoğul)",
+    "answer": "BİZ DERSTEN ÇIKIYOR MUYUZ?"
+  },
+  {
+    "question": "ВИЕ ИЗЛИЗАТЕ ЛИ ОТ РАБОТА В 8 ЧАСА? (VIE IZLIZATE LI OT RABOTA V 8 CHASA?) (Çoğul)",
+    "answer": "SİZ İŞTEN SAAT 8’DE ÇIKIYOR MUSUNUZ?"
+  },
+  {
+    "question": "ТЕ ИЗЛИЗАТ ЛИ НА ВЕЧЕРЯ? (TE IZLIZAT LI NA VECHERYA?) (Çoğul)",
+    "answer": "ONLAR AKŞAM YEMEĞİNE ÇIKIYOR MU?"
+  },
+  {
+    "question": "АЗ ВЛИЗАМ (AZ VLIZAM)",
+    "answer": "BEN GİRİYORUM"
+  },
+  {
+    "question": "ТИ ВЛИЗАШ (TI VLIZASH)",
+    "answer": "SEN GİRİYORSUN"
+  },
+  {
+    "question": "ТОЙ ВЛИЗА (TOY VLIZA) (Eril)",
+    "answer": "O GİRİYOR (ERİL)"
+  },
+  {
+    "question": "ТЯ ВЛИЗА (TYA VLIZA) (Dişil)",
+    "answer": "O GİRİYOR (DİŞİL)"
+  },
+  {
+    "question": "ТО ВЛИЗА (TO VLIZA) (Nötr)",
+    "answer": "O GİRİYOR (NÖTR)"
+  },
+  {
+    "question": "НИЕ ВЛИЗАМЕ (NIE VLIZAME) (Çoğul)",
+    "answer": "BİZ GİRİYORUZ"
+  },
+  {
+    "question": "ВИЕ ВЛИЗАТЕ (VIE VLIZATE) (Çoğul)",
+    "answer": "SİZ GİRİYORSUNUZ"
+  },
+  {
+    "question": "ТЕ ВЛИЗАТ (TE VLIZAT) (Çoğul)",
+    "answer": "ONLAR GİRİYOR"
+  },
+  {
+    "question": "АЗ ВЛЯЗОХ (AZ VLYAZOH)",
+    "answer": "BEN GİRDİM"
+  },
+  {
+    "question": "ТИ ВЛЕЗЕ (TI VLEZE)",
+    "answer": "SEN GİRDİN"
+  },
+  {
+    "question": "ТОЙ ВЛЕЗЕ (TOY VLEZE) (Eril)",
+    "answer": "O GİRDİ (ERİL)"
+  },
+  {
+    "question": "ТЯ ВЛЕЗЕ (TYA VLEZE) (Dişil)",
+    "answer": "O GİRDİ (DİŞİL)"
+  },
+  {
+    "question": "ТО ВЛЕЗЕ (TO VLEZE) (Nötr)",
+    "answer": "O GİRDİ (NÖTR)"
+  },
+  {
+    "question": "НИЕ ВЛЯЗОХМЕ (NIE VLYAZOHME) (Çoğul)",
+    "answer": "BİZ GİRDİK"
+  },
+  {
+    "question": "ВИЕ ВЛЯЗОХТЕ (VIE VLYAZOHTE) (Çoğul)",
+    "answer": "SİZ GİRDİNİZ"
+  },
+  {
+    "question": "ТЕ ВЛЯЗОХА (TE VLYAZOHA) (Çoğul)",
+    "answer": "ONLAR GİRDİ"
+  },
+  {
+    "question": "АЗ ВЛИЗАМ В СТАЯТА (AZ VLIZAM V STAYATA) (Dişil)",
+    "answer": "BEN ODAYA GİRİYORUM"
+  },
+  {
+    "question": "ТИ ВЛИЗАШ В МАГАЗИНА (TI VLIZASH V MAGAZINA) (Eril)",
+    "answer": "SEN MARKETE GİRİYORSUN"
+  },
+  {
+    "question": "ТОЙ ВЛИЗА В УЧИЛИЩЕ (TOY VLIZA V UCHILISHTE) (Eril)",
+    "answer": "O OKULA GİRİYOR (ERİL)"
+  },
+  {
+    "question": "ТЯ ВЛИЗА В УЧИЛИЩЕ (TYA VLIZA V UCHILISHTE) (Dişil)",
+    "answer": "O OKULA GİRİYOR (DİŞİL)"
+  },
+  {
+    "question": "ТО ВЛИЗА В УЧИЛИЩЕ (TO VLIZA V UCHILISHTE) (Nötr)",
+    "answer": "O OKULA GİRİYOR (NÖTR)"
+  },
+  {
+    "question": "НИЕ ВЛИЗАМЕ В РЕСТОРАНТА (NIE VLIZAME V RESTORANTA) (Çoğul)",
+    "answer": "BİZ RESTORANA GİRİYORUZ"
+  },
+  {
+    "question": "ВИЕ ВЛИЗАТЕ В ОФИСА (VIE VLIZATE V OFISA) (Çoğul)",
+    "answer": "SİZ OFİSE GİRİYORSUNUZ"
+  },
+  {
+    "question": "ТЕ ВЛИЗАТ В ПАРКА (TE VLIZAT V PARKA) (Çoğul)",
+    "answer": "ONLAR PARKA GİRİYOR"
+  },
+  {
+    "question": "АЗ ВЛЯЗОХ В СТАЯТА (AZ VLYAZOH V STAYATA) (Dişil)",
+    "answer": "BEN ODAYA GİRDİM"
+  },
+  {
+    "question": "ТИ ВЛЕЗЕ В УЧИЛИЩЕ (TI VLEZE V UCHILISHTE) (Nötr)",
+    "answer": "SEN OKULA GİRDİN"
+  },
+  {
+    "question": "ТОЙ ВЛЕЗЕ В ГАРАЖА (TOY VLEZE V GARAZHA) (Eril)",
+    "answer": "O GARAJA GİRDİ (ERİL)"
+  },
+  {
+    "question": "ТЯ ВЛЕЗЕ В ГАРАЖА (TYA VLEZE V GARAZHA) (Dişil)",
+    "answer": "O GARAJA GİRDİ (DİŞİL)"
+  },
+  {
+    "question": "ТО ВЛЕЗЕ В ГАРАЖА (TO VLEZE V GARAZHA) (Nötr)",
+    "answer": "O GARAJA GİRDİ (NÖTR)"
+  },
+  {
+    "question": "НИЕ ВЛЯЗОХМЕ В МАГАЗИНА ЗА КАФЕ (NIE VLYAZOHME V MAGAZINA ZA KAFE) (Çoğul)",
+    "answer": "BİZ MARKETE KAHVE İÇİN GİRDİK"
+  },
+  {
+    "question": "ВИЕ ВЛЯЗОХТЕ В МАГАЗИНА С КОЛИЧКАТА (VIE VLYAZOHTE V MAGAZINA S KOLICHKATA) (Çoğul)",
+    "answer": "SİZ MARKETE ALIŞVERİŞ ARABASI İLE GİRDİNİZ"
+  },
+  {
+    "question": "ТЕ ВЛЯЗОХА В ОФИСА В 5 ЧАСА (TE VLYAZOHA V OFISA V 5 CHASA) (Çoğul)",
+    "answer": "ONLAR OFİSE SAAT 5’TE GİRDİ"
+  },
+  {
+    "question": "АЗ НЕ ВЛИЗАМ В СТАЯТА (AZ NE VLIZAM V STAYATA) (Dişil)",
+    "answer": "BEN ODAYA GİRMİYORUM"
+  },
+  {
+    "question": "ТИ НЕ ВЛИЗАШ В МАГАЗИНА (TI NE VLIZASH V MAGAZINA) (Eril)",
+    "answer": "SEN MARKETE GİRMİYORSUN"
+  },
+  {
+    "question": "ТОЙ НЕ ВЛИЗА В УЧИЛИЩЕ (TOY NE VLIZA V UCHILISHTE) (Eril)",
+    "answer": "O OKULA GİRMİYOR (ERİL)"
+  },
+  {
+    "question": "ТЯ НЕ ВЛИЗА В УЧИЛИЩЕ (TYA NE VLIZA V UCHILISHTE) (Dişil)",
+    "answer": "O OKULA GİRMİYOR (DİŞİL)"
+  },
+  {
+    "question": "ТО НЕ ВЛИЗА В УЧИЛИЩЕ (TO NE VLIZA V UCHILISHTE) (Nötr)",
+    "answer": "O OKULA GİRMİYOR (NÖTR)"
+  },
+  {
+    "question": "НИЕ НЕ ВЛИЗАМЕ В РЕСТОРАНТА (NIE NE VLIZAME V RESTORANTA) (Çoğul)",
+    "answer": "BİZ RESTORANA GİRMİYORUZ"
+  },
+  {
+    "question": "ВИЕ НЕ ВЛИЗАТЕ В ОФИСА (VIE NE VLIZATE V OFISA) (Çoğul)",
+    "answer": "SİZ OFİSE GİRMİYORSUNUZ"
+  },
+  {
+    "question": "ТЕ НЕ ВЛИЗАТ В ПАРКА (TE NE VLIZAT V PARKA) (Çoğul)",
+    "answer": "ONLAR PARKA GİRMİYOR"
+  },
+  {
+    "question": "АЗ ВЛИЗАМ ЛИ В СТАЯТА? (AZ VLIZAM LI V STAYATA?) (Dişil)",
+    "answer": "BEN ODAYA GİRİYOR MUYUM?"
+  },
+  {
+    "question": "ТИ ВЛИЗАШ ЛИ В МАГАЗИНА? (TI VLIZASH LI V MAGAZINA?) (Eril)",
+    "answer": "SEN MARKETE GİRİYOR MUSUN?"
+  },
+  {
+    "question": "ТОЙ ВLIЗА ЛИ В УЧИЛИЩЕ? (TOY VLIZA LI V UCHILISHTE?) (Eril)",
+    "answer": "O OKULA GİRİYOR MU? (ERİL)"
+  },
+  {
+    "question": "ТЯ ВLIЗА ЛИ В УЧИЛИЩЕ? (TYA VLIZA LI V UCHILISHTE?) (Dişil)",
+    "answer": "O OKULA GİRİYOR MU? (DİŞİL)"
+  },
+  {
+    "question": "ТО ВLIЗА ЛИ В УЧИЛИЩЕ? (TO VLIZA LI V UCHILISHTE?) (Nötr)",
+    "answer": "O OKULA GİRİYOR MU? (NÖTR)"
+  },
+  {
+    "question": "НИЕ ВLIЗАМЕ ЛИ В РЕСТОРАНТА? (NIE VLIZAME LI V RESTORANTA?) (Çoğul)",
+    "answer": "BİZ RESTORANA GİRİYOR MUYUZ?"
+  },
+  {
+    "question": "ВИЕ ВLIЗАТЕ ЛИ В ОФИСА? (VIE VLIZATE LI V OFISA?) (Çoğul)",
+    "answer": "SİZ OFİSE GİRİYOR MUSUNUZ?"
+  },
+  {
+    "question": "ТЕ ВLIЗАТ ЛИ В ПАРКА? (TE VLIZAT LI V PARKA?) (Çoğul)",
+    "answer": "ONLAR PARKA GİRİYOR MU?"
+  }
+]
