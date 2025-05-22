@@ -1,0 +1,1054 @@
+[
+  {
+    "question": "БЯХ БОЛНА (BYAH BOLNA) (Dişil)",
+    "answer": "HASTAYDIM (DİŞİL)"
+  },
+  {
+    "question": "АЗ ВЧЕРА БЯХ БОЛНА (AZ VCHERA BYAH BOLNA) (Dişil)",
+    "answer": "BEN DÜN HASTAYDIM (DİŞİL)"
+  },
+  {
+    "question": "АЗ БЯХ МАЛКА (AZ BYAH MALKA) (Dişil)",
+    "answer": "BEN KÜÇÜKTÜM (DİŞİL)"
+  },
+  {
+    "question": "АЗ БЯХ МАЛЪК (AZ BYAH MALAK) (Eril)",
+    "answer": "BEN KÜÇÜKTÜM (ERİL)"
+  },
+  {
+    "question": "АЗ БЯХ СЛАБА (AZ BYAH SLABA) (Dişil)",
+    "answer": "BEN ZAYIFTIM (DİŞİL)"
+  },
+  {
+    "question": "АЗ БЯХ СЛАБ (AZ BYAH SLAB) (Eril)",
+    "answer": "BEN ZAYIFTIM (ERİL)"
+  },
+  {
+    "question": "ТИ БЕШЕ МНОГО БОЛЕН (TI BESHE MNOGO BOLEN) (Eril)",
+    "answer": "SEN ÇOK HASTAYDIN (ERİL)"
+  },
+  {
+    "question": "ТИ БЕШЕ МАЛКО БОЛЕН (TI BESHE MALKO BOLEN) (Eril)",
+    "answer": "SEN AZ / AZICIK HASTAYDIN (ERİL)"
+  },
+  {
+    "question": "ТИ ВЧЕРА БЕШЕ МНОГО БОЛНА (TI VCHERA BESHE MNOGO BOLNA) (Dişil)",
+    "answer": "SEN DÜN ÇOK HASTAYDIN (DİŞİL)"
+  },
+  {
+    "question": "ТИ БЕШЕ МАЛКО ДЕТЕ (TI BESHE MALKO DETE) (Nötr)",
+    "answer": "SEN KÜÇÜK ÇOCUKTUN (NÖTR)"
+  },
+  {
+    "question": "ТЯ БЕШЕ ЗЛЕ (TYA BESHE ZLE) (Dişil)",
+    "answer": "O KÖTÜYDÜ (DİŞİL)"
+  },
+  {
+    "question": "ТЯ БЕШЕ УЧИТЕЛКА (TYA BESHE UCHITELKA) (Dişil)",
+    "answer": "O ÖĞRETMENDİ (DİŞİL)"
+  },
+  {
+    "question": "ТОЙ БЕШЕ УЧИТЕЛ (TOY BESHE UCHITEL) (Eril)",
+    "answer": "O ÖĞRETMENDİ (ERİL)"
+  },
+  {
+    "question": "ТОЙ БЕШЕ ДОБЪР ЧОВЕК (TOY BESHE DOBAR CHOVEK) (Eril)",
+    "answer": "O İYİ İNSANDI (ERİL)"
+  },
+  {
+    "question": "ДОБЪР (DOBAR) (Eril)",
+    "answer": "İYİ KİŞİ (ERİL)"
+  },
+  {
+    "question": "ДОБРА (DOBRA) (Dişil)",
+    "answer": "İYİ KİŞİ (DİŞİL)"
+  },
+  {
+    "question": "ДОБЪР МЪЖ (DOBAR MAZH) (Eril)",
+    "answer": "İYİ ADAM"
+  },
+  {
+    "question": "ДОБРА ЖЕНА (DOBRA ZHENA) (Dişil)",
+    "answer": "İYİ KADIN"
+  },
+  {
+    "question": "ДОБРА РАБОТА (DOBRA RABOTA) (Dişil)",
+    "answer": "İYİ İŞ"
+  },
+  {
+    "question": "ТО БЕШЕ МАЛКО БЕБЕ (TO BESHE MALKO BEBE) (Nötr)",
+    "answer": "O KÜÇÜK BEBEKTİ (NÖTR)"
+  },
+  {
+    "question": "ТО БЕШЕ ЕДНО БОЛНО КУЧЕ (TO BESHE EDNO BOLNO KUCHE) (Nötr)",
+    "answer": "O KÜÇÜK HASTA BİR KÖPEKTİ"
+  },
+  {
+    "question": "НИЕ БЯХМЕ МНОГО ДОБРЕ (NIE BYAHME MNOGO DOBRE) (Çoğul)",
+    "answer": "BİZ ÇOK İYİYDİK"
+  },
+  {
+    "question": "ВИЕ БЯХТЕ УЧИТЕЛ (VIE BYAHTE UCHITEL) (Çoğul)",
+    "answer": "SİZ ÖĞRETMENDİNİZ"
+  },
+  {
+    "question": "ТЕ БЯХА БОЛНИ (TE BYAHA BOLNI) (Çoğul)",
+    "answer": "ONLAR HASTAYDI"
+  },
+  {
+    "question": "ТЕ БЯХА УЧЕНИЦИ (TE BYAHA UCHENITSI) (Çoğul)",
+    "answer": "ONLAR ÖĞRENCİYDİ"
+  },
+  {
+    "question": "ТЕ БЯХА МАЛКИ (TE BYAHA MALKI) (Çoğul)",
+    "answer": "ONLAR KÜÇÜKTÜ"
+  },
+  {
+    "question": "АЗ БЯХ ЛИ БОЛНА? (AZ BYAH LI BOLNA?) (Dişil)",
+    "answer": "BEN HASTA MIYDIM?"
+  },
+  {
+    "question": "ТИ БЕШЕ ЛИ БОЛЕН? (TI BESHE LI BOLEN?) (Eril)",
+    "answer": "SEN HASTA MIYDIN?"
+  },
+  {
+    "question": "ТО БЕШЕ ЛИ МАЛКО? (TO BESHE LI MALKO?) (Nötr)",
+    "answer": "O KÜÇÜK MÜYDÜ?"
+  },
+  {
+    "question": "ТЯ БЕШЕ ЛИ СЛАБА? (TYA BESHE LI SLABA?) (Dişil)",
+    "answer": "O ZAYIF MIYDI?"
+  },
+  {
+    "question": "ТОЙ БЕШЕ ЛИ УЧИТЕЛ? (TOY BESHE LI UCHITEL?) (Eril)",
+    "answer": "O ÖĞRETMEN MİYDİ?"
+  },
+  {
+    "question": "НИЕ БЯХМЕ ЛИ УЧЕНИЦИ? (NIE BYAHME LI UCHENITSI?) (Çoğul)",
+    "answer": "BİZ ÖĞRENCİ MİYDİK?"
+  },
+  {
+    "question": "ВИЕ БЯХТЕ ЛИ МАЛКИ? (VIE BYAHTE LI MALKI?) (Çoğul)",
+    "answer": "SİZ KÜÇÜK MÜYDÜNÜZ?"
+  },
+  {
+    "question": "ТЕ БЯХА ЛИ СЛАБИ? (TE BYAHA LI SLABI?) (Çoğul)",
+    "answer": "ONLAR ZAYIF MIYDI?"
+  },
+  {
+    "question": "АЗ НЕ БЯХ БОЛНА (AZ NE BYAH BOLNA) (Dişil)",
+    "answer": "BEN HASTA DEĞİLDİM"
+  },
+  {
+    "question": "ТИ НЕ БЕШЕ СЛАБ (TI NE BESHE SLAB) (Eril)",
+    "answer": "SEN ZAYIF DEĞİLDİN"
+  },
+  {
+    "question": "ТОЙ НЕ БЕШЕ УЧЕНИК (TOY NE BESHE UCHENIK) (Eril)",
+    "answer": "O ÖĞRENCİ DEĞİLDİ"
+  },
+  {
+    "question": "ТЯ НЕ БЕШЕ МАЛКА (TYA NE BESHE MALKA) (Dişil)",
+    "answer": "O KÜÇÜK DEĞİLDİ"
+  },
+  {
+    "question": "ТО НЕ БЕШЕ СЛАБО (TO NE BESHE SLABO) (Nötr)",
+    "answer": "O ZAYIF DEĞİLDİ"
+  },
+  {
+    "question": "НИЕ НЕ БЯХМЕ МАЛКИ (NIE NE BYAHME MALKI) (Çoğul)",
+    "answer": "BİZ KÜÇÜK DEĞİLDİK"
+  },
+  {
+    "question": "ВИЕ НЕ БЯХТЕ СЛАБИ (VIE NE BYAHTE SLABI) (Çoğul)",
+    "answer": "SİZ ZAYIF DEĞİLDİNİZ"
+  },
+  {
+    "question": "ТЕ НЕ БЯХА УЧЕНИЦИ (TE NE BYAHA UCHENITSI) (Çoğul)",
+    "answer": "ONLAR ÖĞRENCİ DEĞİLDİ"
+  },
+  {
+    "question": "ВЧЕРА КОЙ ДЕН БЕШЕ? (VCHERA KOY DEN BESHE?)",
+    "answer": "DÜN HANGİ GÜNDÜ?"
+  },
+  {
+    "question": "ВЧЕРА БЕШЕ ЧЕТВЪРТЪК (VCHERA BESHE CHETVARTAK) (Eril)",
+    "answer": "DÜN PERŞEMBEYDİ"
+  },
+  {
+    "question": "ВЧЕРА БЕШЕ СРЯДА (VCHERA BESHE SRYADA) (Dişil)",
+    "answer": "DÜN ÇARŞAMBAYDI"
+  },
+  {
+    "question": "ТОЗИ МЪЖ (TOZI MAZH) (Eril)",
+    "answer": "BU ERKEK / ADAM"
+  },
+  {
+    "question": "ТАЗИ ЖЕНА (TAZI ZHENA) (Dişil)",
+    "answer": "BU KADIN"
+  },
+  {
+    "question": "ТОВА ДЕТЕ (TOVA DETE) (Nötr)",
+    "answer": "BU ÇOCUK"
+  },
+  {
+    "question": "ТЕЗИ ХОРА (TEZI HORA) (Çoğul)",
+    "answer": "BU İNSANLAR"
+  },
+  {
+    "question": "ТОВА СА ЧЕРНИ ОБУВКИ (TOVA SA CHERNI OBUVKI) (Çoğul)",
+    "answer": "BUNLAR SİYAH AYAKKABI"
+  },
+  {
+    "question": "ТЕЗИ ОБУВКИ СА ЧЕРНИ (TEZI OBUVKI SA CHERNI) (Çoğul)",
+    "answer": "BU AYAKKABILAR SİYAH"
+  },
+  {
+    "question": "ТОЗИ МЪЖ Е БОЛЕН (TOZI MAZH E BOLEN) (Eril)",
+    "answer": "BU ADAM HASTA"
+  },
+  {
+    "question": "ТОЗИ ВЛАК Е ЧЕРЕН (TOZI VLAK E CHEREN) (Eril)",
+    "answer": "BU TREN SİYAH"
+  },
+  {
+    "question": "ТОЗИ ПАНТАЛОН Е СИН (TOZI PANTALON E SIN) (Eril)",
+    "answer": "BU PANTOLON MAVİ"
+  },
+  {
+    "question": "КОЙ ТЕЛЕФОН? (KOY TELEFON?) (Eril)",
+    "answer": "HANGİ TELEFON?"
+  },
+  {
+    "question": "ТОЗИ ТЕЛЕФОН (TOZI TELEFON) (Eril)",
+    "answer": "BU TELEFON"
+  },
+  {
+    "question": "КОЙ ТЕЛЕВИЗОР? (KOY TELEVIZOR?) (Eril)",
+    "answer": "HANGİ TELEVİZYON?"
+  },
+  {
+    "question": "ТОЗИ ТЕЛЕВИЗОР (TOZI TELEVIZOR) (Eril)",
+    "answer": "BU TELEVİZYON"
+  },
+  {
+    "question": "ТОЗИ СТОЛ (TOZI STOL) (Eril)",
+    "answer": "BU SANDALYE"
+  },
+  {
+    "question": "ТОЗИ СТОЛ Е СЧУПЕН (TOZI STOL E SCHUPEN) (Eril)",
+    "answer": "BU SANDALYE KIRIK"
+  },
+  {
+    "question": "ТОЗИ ТЕЛЕФОН Е РАЗВАЛЕН (TOZI TELEFON E RAZVALEN) (Eril)",
+    "answer": "BU TELEFON ARIZALI"
+  },
+  {
+    "question": "ТЕЗИ ПОРТОКАЛИ СА ОРАНЖЕВИ (TEZI PORTOKALI SA ORANZHEVI) (Çoğul)",
+    "answer": "BU PORTAKALLAR TURUNCU"
+  },
+  {
+    "question": "ТЕЗИ ЧАНТИ СА ЧЕРВЕНИ (TEZI CHANTI SA CHERVENI) (Çoğul)",
+    "answer": "BU ÇANTALAR KIRMIZI"
+  },
+  {
+    "question": "ТАЗИ КОЛА Е МАЛКА (TAZI KOLA E MALKA) (Dişil)",
+    "answer": "BU ARABA KÜÇÜK"
+  },
+  {
+    "question": "ТАЗИ ЧАНТА Е БЯЛА (TAZI CHANTA E BYALA) (Dişil)",
+    "answer": "BU ÇANTA BEYAZ"
+  },
+  {
+    "question": "ТАЗИ ЧАНТА Е СИНЯ (TAZI CHANTA E SINYA) (Dişil)",
+    "answer": "BU ÇANTA MAVİ"
+  },
+  {
+    "question": "ТАЗИ МАСА БЕШЕ СЧУПЕНА (TAZI MASA BESHE SCHUPENA) (Dişil)",
+    "answer": "BU MASA KIRIKTI"
+  },
+  {
+    "question": "ТОЗИ СТОЛ БЕШЕ СЧУПЕН (TOZI STOL BESHE SCHUPEN) (Eril)",
+    "answer": "BU SANDALYE KIRIKTI"
+  },
+  {
+    "question": "ТОЗИ ТЕЛЕФОН БЕШЕ РАЗВАЛЕН (TOZI TELEFON BESHE RAZVALEN) (Eril)",
+    "answer": "BU TELEFON ARIZALIYDI"
+  },
+  {
+    "question": "ТАЗИ КНИГА Е ИНТЕРЕСНА (TAZI KNIGA E INTERESNA) (Dişil)",
+    "answer": "BU KİTAP İLGİNÇ"
+  },
+  {
+    "question": "ТАЗИ КНИГА БЕШЕ ИНТЕРЕСНА (TAZI KNIGA BESHE INTERESNA) (Dişil)",
+    "answer": "BU KİTAP İLGİNÇTİ"
+  },
+  {
+    "question": "ТЕЗИ ПЛОДОВЕ (TEZI PLODOVE) (Çoğul)",
+    "answer": "BU MEYVELER"
+  },
+  {
+    "question": "ТЕЗИ ЗЕЛЕНЧУЦИ (TEZI ZELENCHUTSI) (Çoğul)",
+    "answer": "BU SEBZELER"
+  },
+  {
+    "question": "ЖЪЛТИ ЛИ СА ТЕЗИ БАНАНИ? (ZHALTI LI SA TEZI BANANI?) (Çoğul)",
+    "answer": "SARI MI BU MUZLAR?"
+  },
+  {
+    "question": "ЧЕРВЕНИ ЛИ СА ТЕЗИ ЧАНТИ? (CHERVENI LI SA TEZI CHANTI?) (Çoğul)",
+    "answer": "KIRMIZI MI BU ÇANTALAR?"
+  },
+  {
+    "question": "МАЛКА ЛИ Е ТАЗИ МАСА? (MALKA LI E TAZI MASA?) (Dişil)",
+    "answer": "KÜÇÜK MÜ BU MASA?"
+  },
+  {
+    "question": "КОЛКО СТРУВАТ ТЕЗИ БАНАНИ? (KOLKO STRUVAT TEZI BANANI?) (Çoğul)",
+    "answer": "BU MUZLARIN FİYATI NEDİR?"
+  },
+  {
+    "question": "КОЛКО СТРУВАТ ТЕЗИ КАФЕТА? (KOLKO STRUVAT TEZI KAFETA?) (Çoğul)",
+    "answer": "BU KAHVELERİN FİYATI NEDİR?"
+  },
+  {
+    "question": "ОНЗИ МЪЖ (ONZI MAZH) (Eril)",
+    "answer": "ŞU / O ERKEK / ADAM"
+  },
+  {
+    "question": "ОНАЗИ ЖЕНА (ONAZI ZHENA) (Dişil)",
+    "answer": "ŞU / O KADIN"
+  },
+  {
+    "question": "ОНОВА ДЕТЕ (ONOVA DETE) (Nötr)",
+    "answer": "ŞU / O ÇOCUK"
+  },
+  {
+    "question": "ОНЕЗИ ХОРА (ONEZI HORA) (Çoğul)",
+    "answer": "ŞU / O İNSANLAR"
+  },
+  {
+    "question": "ОНЗИ МЪЖ Е МНОГО БОЛЕН (ONZI MAZH E MNOGO BOLEN) (Eril)",
+    "answer": "ŞU / O ADAM ÇOK HASTA"
+  },
+  {
+    "question": "ОНЗИ СТОЛ Е СЧУПЕН (ONZI STOL E SCHUPEN) (Eril)",
+    "answer": "ŞU / O SANDALYE KIRIK"
+  },
+  {
+    "question": "ОНЗИ ТЕЛЕФОН Е РАЗВАЛЕН (ONZI TELEFON E RAZVALEN) (Eril)",
+    "answer": "ŞU / O TELEFON ARIZALI"
+  },
+  {
+    "question": "ОНАЗИ ЧАНТА Е РОЗОВА (ONAZI CHANTA E ROZOVA) (Dişil)",
+    "answer": "ŞU / O ÇANTA PEMBE"
+  },
+  {
+    "question": "ОНАЗИ ЧАША Е СЧУПЕНА (ONAZI CHASHA E SCHUPENA) (Dişil)",
+    "answer": "ŞU / O BARDAK KIRIK"
+  },
+  {
+    "question": "ОНАЗИ КНИГА Е ЧЕРВЕНА (ONAZI KNIGA E CHERVENA) (Dişil)",
+    "answer": "ŞU / O KİTAP KIRMIZI"
+  },
+  {
+    "question": "ОНОВА ДЕТЕ Е БОЛНО (ONOVA DETE E BOLNO) (Nötr)",
+    "answer": "ŞU / O ÇOCUK HASTA"
+  },
+  {
+    "question": "ОНОВА КУЧЕ Е МАЛКО (ONOVA KUCHE E MALKO) (Nötr)",
+    "answer": "ŞU / O KÖPEK KÜÇÜK"
+  },
+  {
+    "question": "ОНОВА КОЛЕЛО Е ЧЕРНО (ONOVA KOLELO E CHERNO) (Nötr)",
+    "answer": "ŞU / O BİSİKLET SİYAH"
+  },
+  {
+    "question": "ОНЕЗИ ЖЪЛТИ БАНАНИ (ONEZI ZHALTI BANANI) (Çoğul)",
+    "answer": "ŞU / O SARI MUZLAR"
+  },
+  {
+    "question": "ОНЕЗИ ЧЕРВЕНИ ЯГОДИ (ONEZI CHERVENI YAGODI) (Çoğul)",
+    "answer": "ŞU / O KIRMIZI ÇİLEKLER"
+  },
+  {
+    "question": "ОНЕЗИ ПЕТ РОЗОВИ ТЕНИСКИ (ONEZI PET ROZOVI TENISKI) (Çoğul)",
+    "answer": "ŞU / O 5 PEMBE TİŞÖRT"
+  },
+  {
+    "question": "ОНЕЗИ БЕЛИ ОБУВКИ (ONEZI BELI OBUVKI) (Çoğul)",
+    "answer": "ŞU / O BEYAZ AYAKKABILAR"
+  },
+  {
+    "question": "ОНАЗИ ЖЕНА БЕШЕ БОЛНА (ONAZI ZHENA BESHE BOLNA) (Dişil)",
+    "answer": "ŞU / O KADIN HASTAYDI"
+  },
+  {
+    "question": "ОНЗИ ТЕЛЕФОН БЕШЕ РАЗВАЛЕН (ONZI TELEFON BESHE RAZVALEN) (Eril)",
+    "answer": "ŞU / O TELEFON ARIZALIYDI"
+  },
+  {
+    "question": "АЗ ИМАМ (AZ IMAM)",
+    "answer": "BENİM VAR / BEN SAHİBİM"
+  },
+  {
+    "question": "ТИ ИМАШ (TI IMASH)",
+    "answer": "SENİN VAR / SEN SAHİPSİN"
+  },
+  {
+    "question": "ТОЙ/ТЯ/ТО ИМА (TOY/TYA/TO IMA)",
+    "answer": "ONUN VAR / O SAHİP"
+  },
+  {
+    "question": "НИЕ ИМАМЕ (NIE IMAME)",
+    "answer": "BİZİM VAR / BİZ SAHİBİZ"
+  },
+  {
+    "question": "ВИЕ ИМАТЕ (VIE IMATE)",
+    "answer": "SİZİN VAR / SİZ SAHİPSİNİZ"
+  },
+  {
+    "question": "ТЕ ИМАТ (TE IMAT)",
+    "answer": "ONLARIN VAR / ONLAR SAHİP"
+  },
+  {
+    "question": "ВИЕ ДНЕС ИМАТЕ УРОК (VIE DNES IMATE UROK)",
+    "answer": "SİZİN BUGÜN DERSİNİZ VAR"
+  },
+  {
+    "question": "ВИЕ СЕГА ИМАТЕ УРОК (VIE SEGA IMATE UROK)",
+    "answer": "SİZİN ŞİMDİ / ŞU AN DERSİNİZ VAR"
+  },
+  {
+    "question": "ВИЕ УТРЕ ИМАТЕ УРОК (VIE UTRE IMATE UROK)",
+    "answer": "SİZİN YARIN DERSİNİZ VAR"
+  },
+  {
+    "question": "АЗ ИМАМ УРОК (AZ IMAM UROK) (Eril)",
+    "answer": "BENİM DERSİM VAR"
+  },
+  {
+    "question": "ИМАМ УРОК (IMAM UROK) (Eril)",
+    "answer": "DERSİM VAR"
+  },
+  {
+    "question": "АЗ ИМАМ РАБОТА (AZ IMAM RABOTA) (Dişil)",
+    "answer": "BENİM İŞİM VAR"
+  },
+  {
+    "question": "АЗ ДНЕС ИМАМ МНОГО РАБОТА (AZ DNES IMAM MNOGO RABOTA)",
+    "answer": "BENİM BUGÜN ÇOK İŞİM VAR"
+  },
+  {
+    "question": "ДНЕС ИМАМ МАЛКО РАБОТА (DNES IMAM MALKO RABOTA)",
+    "answer": "BUGÜN AZ İŞİM VAR"
+  },
+  {
+    "question": "АЗ ИМАМ ПАСПОРТ (AZ IMAM PASPORT) (Eril)",
+    "answer": "PASAPORTUM VAR"
+  },
+  {
+    "question": "АЗ ИМАМ ВИЗА (AZ IMAM VIZA) (Dişil)",
+    "answer": "VİZEM VAR"
+  },
+  {
+    "question": "ИМАМ МНОГО КНИГИ (IMAM MNOGO KNIGI) (Çoğul)",
+    "answer": "ÇOK KİTAPLARIM VAR"
+  },
+  {
+    "question": "ИМАМ КАФЕ (IMAM KAFE) (Nötr)",
+    "answer": "KAHVEM VAR"
+  },
+  {
+    "question": "АЗ ИМАМ КАФЯВА ЧАНТА (AZ IMAM KAFYAVA CHANTA) (Dişil)",
+    "answer": "KAHVERENGİ ÇANTAM VAR"
+  },
+  {
+    "question": "ИМАМ ХУБАВ ТЕЛЕФОН (IMAM HUBAV TELEFON) (Eril)",
+    "answer": "GÜZEL TELEFONUM VAR"
+  },
+  {
+    "question": "ИМАМ МАЛКА КОЛА (IMAM MALKA KOLA) (Dişil)",
+    "answer": "KÜÇÜK ARABAM VAR"
+  },
+  {
+    "question": "ИМАМ КЪЩА (IMAM KASHTA) (Dişil)",
+    "answer": "EVİM VAR"
+  },
+  {
+    "question": "ИМАМ ЛАПТОП (IMAM LAPTOP) (Eril)",
+    "answer": "LAPTOPUM VAR"
+  },
+  {
+    "question": "АЗ ИМАМ СЕСТРА (AZ IMAM SESTRA) (Dişil)",
+    "answer": "KIZ KARDEŞİM VAR"
+  },
+  {
+    "question": "АЗ ИМАМ БРАТ (AZ IMAM BRAT) (Eril)",
+    "answer": "ERKEK KARDEŞİM VAR"
+  },
+  {
+    "question": "АЗ ИМАМ КАКА (AZ IMAM KAKA) (Dişil)",
+    "answer": "ABLAM VAR"
+  },
+  {
+    "question": "АЗ ИМАМ БАТКО (AZ IMAM BATKO) (Eril)",
+    "answer": "ABİM VAR"
+  },
+  {
+    "question": "АЗ ИМАМ БАБА (AZ IMAM BABA) (Dişil)",
+    "answer": "BÜYÜKANNEM VAR"
+  },
+  {
+    "question": "ИМАМ ДЯДО (IMAM DYADO) (Eril)",
+    "answer": "DEDEM VAR"
+  },
+  {
+    "question": "ИМАМ ПЕТ ЧЕРНИ КНИГИ (IMAM PET CHERNI KNIGI) (Çoğul)",
+    "answer": "5 SİYAH KİTABIM VAR"
+  },
+  {
+    "question": "ИМАМ ДЕСЕТ РОЗОВИ ТЕНИСКИ (IMAM DESET ROZOVI TENISKI) (Çoğul)",
+    "answer": "10 PEMBE TİŞÖRTÜM VAR"
+  },
+  {
+    "question": "АЗ ИМАМ МНОГО ЦВЕТЯ (AZ IMAM MNOGO TSVETYA) (Çoğul)",
+    "answer": "BENİM ÇOK ÇİÇEKLERİM VAR"
+  },
+  {
+    "question": "ИМАМ ВОДА (IMAM VODA) (Dişil)",
+    "answer": "SUYUM VAR"
+  },
+  {
+    "question": "ИМАМ КОТКА (IMAM KOTKA) (Dişil)",
+    "answer": "KEDİM VAR"
+  },
+  {
+    "question": "ИМАМ КУЧЕ (IMAM KUCHE) (Nötr)",
+    "answer": "KÖPEĞİM VAR"
+  },
+  {
+    "question": "ТИ ИМАШ УРОК (TI IMASH UROK) (Eril)",
+    "answer": "SENİN DERSİN VAR"
+  },
+  {
+    "question": "ТИ ИМАШ ПАСПОРТ (TI IMASH PASPORT) (Eril)",
+    "answer": "SENİN PASAPORTUN VAR"
+  },
+  {
+    "question": "ТИ ИМАШ ВИЗА (TI IMASH VIZA) (Dişil)",
+    "answer": "SENİN VİZEN VAR"
+  },
+  {
+    "question": "ТИ ИМАШ МАЛКО РАБОТА (TI IMASH MALKO RABOTA)",
+    "answer": "SENİN AZ İŞİN VAR"
+  },
+  {
+    "question": "ТИ ИМАШ МНОГО РАБОТА (TI IMASH MNOGO RABOTA)",
+    "answer": "SENİN ÇOK İŞİN VAR"
+  },
+  {
+    "question": "ИМАШ ЕДНА ЧЕРВЕНА КОЛА (IMASH EDNA CHERVENA KOLA) (Dişil)",
+    "answer": "BİR KIRMIZI ARABAN VAR"
+  },
+  {
+    "question": "ТЯ ИМА СЕДЕМ РОЗОВИ ТЕТРАДКИ (TYA IMA SEDEM ROZOVI TETRADKI) (Dişil)",
+    "answer": "ONUN 7 PEMBE DEFTERİ VAR"
+  },
+  {
+    "question": "ТЯ ИМА ЕДНА МАЛКА ЧЕРНА ЧАНТА (TYA IMA EDNA MALKA CHERNA CHANTA) (Dişil)",
+    "answer": "ONUN KÜÇÜK SİYAH BİR ÇANTASI VAR"
+  },
+  {
+    "question": "ТЯ ИМА УРОК (TYA IMA UROK) (Eril)",
+    "answer": "ONUN DERSİ VAR"
+  },
+  {
+    "question": "ТЯ ИМА МНОГО РАБОТА (TYA IMA MNOGO RABOTA)",
+    "answer": "ONUN ÇOK İŞİ VAR"
+  },
+  {
+    "question": "ТОЙ ИМА УРОК (TOY IMA UROK) (Eril)",
+    "answer": "ONUN DERSİ VAR"
+  },
+  {
+    "question": "ТОЙ ИМА МАЛКА ЧЕРНА КОЛА (TOY IMA MALKA CHERNA KOLA) (Eril)",
+    "answer": "ONUN KÜÇÜK SİYAH ARABASI VAR"
+  },
+  {
+    "question": "ТОЙ ИМА БЯЛО КОЛЕЛО (TOY IMA BYALO KOLELO) (Eril)",
+    "answer": "ONUN BEYAZ BİSİKLETİ VAR"
+  },
+  {
+    "question": "ТО ИМА ЕДНА СЕСТРА (TO IMA EDNA SESTRA) (Nötr)",
+    "answer": "ONUN BİR KIZ KARDEŞİ VAR"
+  },
+  {
+    "question": "ТО ИМА ЕДНО КОЛЕЛО (TO IMA EDNO KOLELO) (Nötr)",
+    "answer": "ONUN BİR BİSİKLETİ VAR"
+  },
+  {
+    "question": "ТО ИМА ЕДНО МАЛКО КУЧЕ (TO IMA EDNO MALKO KUCHE) (Nötr)",
+    "answer": "ONUN KÜÇÜK BİR KÖPEĞİ VAR"
+  },
+  {
+    "question": "НИЕ ИМАМЕ УРОК (NIE IMAME UROK) (Çoğul)",
+    "answer": "BİZİM DERSİMİZ VAR"
+  },
+  {
+    "question": "НИЕ УТРЕ ИМАМЕ УРОК (NIE UTRE IMAME UROK) (Çoğul)",
+    "answer": "BİZİM YARIN DERSİMİZ VAR"
+  },
+  {
+    "question": "НИЕ СЕГА ИМАМЕ УРОК (NIE SEGA IMAME UROK) (Çoğul)",
+    "answer": "BİZİM ŞİMDİ DERSİMİZ VAR"
+  },
+  {
+    "question": "НИЕ ДНЕС ИМАМЕ УРОК (NIE DNES IMAME UROK) (Çoğul)",
+    "answer": "BİZİM BUGÜN DERSİMİZ VAR"
+  },
+  {
+    "question": "НИЕ ИМАМЕ РАБОТА (NIE IMAME RABOTA) (Çoğul)",
+    "answer": "BİZİM İŞİMİZ VAR"
+  },
+  {
+    "question": "ИМАМЕ МНОГО РАБОТА (IMAME MNOGO RABOTA) (Çoğul)",
+    "answer": "ÇOK İŞİMİZ VAR"
+  },
+  {
+    "question": "ТЕ ИМАТ УРОК (TE IMAT UROK) (Çoğul)",
+    "answer": "ONLARIN DERSİ VAR"
+  },
+  {
+    "question": "ТЕ ИМАТ КЪЩА (TE IMAT KASHTA) (Çoğul)",
+    "answer": "ONLARIN EVİ VAR"
+  },
+  {
+    "question": "ТЕ ИМАТ ДВЕ КОЛИ (TE IMAT DVE KOLI) (Çoğul)",
+    "answer": "ONLARIN 2 ARABASI VAR"
+  },
+  {
+    "question": "ТЕ ИМАТ КОЛА (TE IMAT KOLA) (Çoğul)",
+    "answer": "ONLARIN ARABASI VAR"
+  },
+  {
+    "question": "ТЕ УТРЕ ИМАТ МНОГО РАБОТА (TE UTRE IMAT MNOGO RABOTA) (Çoğul)",
+    "answer": "ONLARIN YARIN ÇOK İŞİ VAR"
+  },
+  {
+    "question": "ИМАМ ЛИ? (IMAM LI?)",
+    "answer": "BENİM VAR MI? / BENDE VAR MI?"
+  },
+  {
+    "question": "ИМАШ ЛИ? (IMASH LI?)",
+    "answer": "SENİN VAR MI? / SENDE VAR MI?"
+  },
+  {
+    "question": "ИМАМ ЛИ УРОК? (IMAM LI UROK?)",
+    "answer": "DERSİM VAR MI?"
+  },
+  {
+    "question": "ДНЕС ИМАМ ЛИ УРОК? (DNES IMAM LI UROK?)",
+    "answer": "BUGÜN DERSİM VAR MI?"
+  },
+  {
+    "question": "УТРЕ ИМАМ ЛИ УРОК? (UTRE IMAM LI UROK?)",
+    "answer": "YARIN DERSİM VAR MI?"
+  },
+  {
+    "question": "УТРЕ ИМАМЕ ЛИ УРОК? (UTRE IMAME LI UROK?)",
+    "answer": "YARIN DERSİMİZ VAR MI?"
+  },
+  {
+    "question": "ДА, УТРЕ ИМАМЕ УРОК (DA, UTRE IMAME UROK)",
+    "answer": "EVET, YARIN DERSİMİZ VAR"
+  },
+  {
+    "question": "ИМАМ ЛИ ХИМИКАЛ? (IMAM LI HIMIKAL?) (Eril)",
+    "answer": "KALEMİM VAR MI?"
+  },
+  {
+    "question": "ИМАМ ЛИ ЧЕРНА ЧАНТА? (IMAM LI CHERNA CHANTA?) (Dişil)",
+    "answer": "SİYAH ÇANTAM VAR MI?"
+  },
+  {
+    "question": "ИМАМ ЛИ КОЛА? (IMAM LI KOLA?) (Dişil)",
+    "answer": "ARABAM VAR MI?"
+  },
+  {
+    "question": "ТИ ИМАШ ЛИ ТЕТРАДКА? (TI IMASH LI TETRADKA?) (Dişil)",
+    "answer": "SENİN DEFTERİN VAR MI?"
+  },
+  {
+    "question": "ИМАШ ЛИ ПАСПОРТ? (IMASH LI PASPORT?) (Eril)",
+    "answer": "PASAPORTUN VAR MI?"
+  },
+  {
+    "question": "ИМАШ ЛИ ВИЗА? (IMASH LI VIZA?) (Dişil)",
+    "answer": "VİZEN VAR MI?"
+  },
+  {
+    "question": "ДА, ИМАМ ПАСПОРТ (DA, IMAM PASPORT)",
+    "answer": "EVET, PASAPORTUM VAR"
+  },
+  {
+    "question": "ДА, ИМАМ ВИЗА (DA, IMAM VIZA)",
+    "answer": "EVET, VİZEM VAR"
+  },
+  {
+    "question": "ИМАШ ЛИ ДОКУМЕНТИ? (IMASH LI DOKUMENTI?) (Çoğul)",
+    "answer": "EVRAKLARIN / BELGELERİN VAR MI?"
+  },
+  {
+    "question": "ЛИЧНИ ДОКУМЕНТИ (LICHNI DOKUMENTI) (Çoğul)",
+    "answer": "KİMLİK - ЛИЧНА КАРТА, EHLİYET - ШОФЬОРСКА КНИЖКА, DOĞUM BELGESİ - АКТ ЗА РАЖДАНЕ, PASAPORT - ПАСПОРТ"
+  },
+  {
+    "question": "ИМАШ ЛИ ЛИЧНИ ДОКУМЕНТИ? (IMASH LI LICHNI DOKUMENTI?) (Çoğul)",
+    "answer": "KİŞİSEL EVRAKLARIN VAR MI?"
+  },
+  {
+    "question": "ДАЙ СИ ЛИЧНИТЕ ДОКУМЕНТИ (DAY SI LICHNITE DOKUMENTI)",
+    "answer": "KİŞİSEL EVRAKLARINI VER"
+  },
+  {
+    "question": "ДАЙТЕ СИ ЛИЧНИТЕ ДОКУМЕНТИ (DAYTE SI LICHNITE DOKUMENTI)",
+    "answer": "KİŞİSEL EVRAKLARINIZI VERİN"
+  },
+  {
+    "question": "ИМАШ ЛИ КОТКА? (IMASH LI KOTKA?) (Dişil)",
+    "answer": "KEDİN VAR MI?"
+  },
+  {
+    "question": "ИМАШ ЛИ СЕСТРА? (IMASH LI SESTRA?) (Dişil)",
+    "answer": "KIZ KARDEŞİN VAR MI?"
+  },
+  {
+    "question": "ИМАШ ЛИ КАКА? (IMASH LI KAKA?) (Dişil)",
+    "answer": "ABLAN VAR MI?"
+  },
+  {
+    "question": "ИМАШ ЛИ БАТКО? (IMASH LI BATKO?) (Eril)",
+    "answer": "ABİN VAR MI?"
+  },
+  {
+    "question": "ИМАШ ЛИ БРАТ? (IMASH LI BRAT?) (Eril)",
+    "answer": "ERKEK KARDEŞİN VAR MI?"
+  },
+  {
+    "question": "ИМАШ ЛИ ПАРИ? (IMASH LI PARI?) (Çoğul)",
+    "answer": "PARAN VAR MI?"
+  },
+  {
+    "question": "ДА, ИМАМ ПАРИ (DA, IMAM PARI)",
+    "answer": "EVET, PARAM VAR"
+  },
+  {
+    "question": "ТЕЗИ УЧЕНИЦИ ИМАТ ЛИ ТЕТРАДКИ? (TEZI UCHENITSI IMAT LI TETRADKI?) (Çoğul)",
+    "answer": "BU ÖĞRENCİLERİN DEFTERLERİ VAR MI?"
+  },
+  {
+    "question": "ТЕЗИ ЖЕНИ ИМАТ ЛИ ПАСПОРТИ? (TEZI ZHENI IMAT LI PASPORTI?) (Çoğul)",
+    "answer": "BU KADINLARIN PASAPORTLARI VAR MI?"
+  },
+  {
+    "question": "ТАЗИ ЖЕНА ИМА ЛИ ВИЗА? (TAZI ZHENA IMA LI VIZA?) (Dişil)",
+    "answer": "BU KADININ VİZESİ VAR MI?"
+  },
+  {
+    "question": "ОНЕЗИ ХОРА ИМАТ ЛИ РАБОТА? (ONEZI HORA IMAT LI RABOTA?) (Çoğul)",
+    "answer": "ŞU İNSANLARIN İŞİ VAR MI?"
+  },
+  {
+    "question": "ОНЗИ МЪЖ ИМА ЛИ КОЛА? (ONZI MAZH IMA LI KOLA?) (Eril)",
+    "answer": "ŞU / O ADAMIN ARABASI VAR MI?"
+  },
+  {
+    "question": "ОНАЗИ ЖЕНА ИМА ЛИ КОЛЕЛО? (ONAZI ZHENA IMA LI KOLELO?) (Dişil)",
+    "answer": "ŞU / O KADININ BİSİKLETİ VAR MI?"
+  },
+  {
+    "question": "ОНОВА ДЕТЕ ИМА ЛИ КНИГИ? (ONOVA DETE IMA LI KNIGI?) (Nötr)",
+    "answer": "ŞU / O ÇOCUĞUN KİTAPLARI VAR MI?"
+  },
+  {
+    "question": "АЗ НЯМАМ (AZ NYAMAM)",
+    "answer": "BENİM YOK"
+  },
+  {
+    "question": "ТИ НЯМАШ (TI NYAMASH)",
+    "answer": "SENİN YOK"
+  },
+  {
+    "question": "ТОЙ/ТЯ/ТО НЯМА (TOY/TYA/TO NYAMA)",
+    "answer": "ONUN YOK / O SAHİP DEĞİL"
+  },
+  {
+    "question": "НИЕ НЯМАМЕ (NIE NYAMAME)",
+    "answer": "BİZİM YOK / BİZ SAHİP DEĞİLİZ"
+  },
+  {
+    "question": "ВИЕ НЯМАТЕ (VIE NYAMATE)",
+    "answer": "SİZİN YOK / SİZ SAHİP DEĞİLSİNİZ"
+  },
+  {
+    "question": "ТЕ НЯМАТ (TE NYAMAT)",
+    "answer": "ONLARIN YOK / ONLAR SAHİP DEĞİL"
+  },
+  {
+    "question": "НЯМАМ УРОК (NYAMAM UROK) (Eril)",
+    "answer": "DERSİM YOK"
+  },
+  {
+    "question": "ДНЕС НЯМАМ УРОК (DNES NYAMAM UROK)",
+    "answer": "BUGÜN DERSİM YOK"
+  },
+  {
+    "question": "НЯМАМ РАБОТА (NYAMAM RABOTA) (Dişil)",
+    "answer": "İŞİM YOK"
+  },
+  {
+    "question": "НЯМАМ ПАСПОРТ (NYAMAM PASPORT) (Eril)",
+    "answer": "PASAPORTUM YOK"
+  },
+  {
+    "question": "НЯМАМ ВИЗА (NYAMAM VIZA) (Dişil)",
+    "answer": "VİZEM YOK"
+  },
+  {
+    "question": "НЯМАМ КЪЩА (NYAMAM KASHTA) (Dişil)",
+    "answer": "EVİM YOK"
+  },
+  {
+    "question": "НЯМАМ ПАРИ (NYAMAM PARI) (Çoğul)",
+    "answer": "PARAM YOK"
+  },
+  {
+    "question": "НЯМАМ КОЛА (NYAMAM KOLA) (Dişil)",
+    "answer": "ARABAM YOK"
+  },
+  {
+    "question": "НЯМАМ КОЛЕЛО (NYAMAM KOLELO) (Nötr)",
+    "answer": "BİSİKLETİM YOK"
+  },
+  {
+    "question": "НЯМАМ БРАТ (NYAMAM BRAT) (Eril)",
+    "answer": "ERKEK KARDEŞİM YOK"
+  },
+  {
+    "question": "НЯМАМ СЕСТРА (NYAMAM SESTRA) (Dişil)",
+    "answer": "KIZ KARDEŞİM YOK"
+  },
+  {
+    "question": "ТИ НЯМАШ УРОК (TI NYAMASH UROK) (Eril)",
+    "answer": "SENİN DERSİN YOK"
+  },
+  {
+    "question": "ТИ НЯМАШ ХИМИКАЛ (TI NYAMASH HIMIKAL) (Eril)",
+    "answer": "SENİN KALEMİN YOK"
+  },
+  {
+    "question": "ТИ НЯМАШ КЪЩА (TI NYAMASH KASHTA) (Dişil)",
+    "answer": "SENİN EVİN YOK"
+  },
+  {
+    "question": "ТЯ НЯМА ОБУВКИ (TYA NYAMA OBUVKI) (Dişil)",
+    "answer": "ONUN AYAKKABILARI YOK"
+  },
+  {
+    "question": "ТЯ НЯМА ЧАНТА (TYA NYAMA CHANTA) (Dişil)",
+    "answer": "ONUN ÇANTASI YOK"
+  },
+  {
+    "question": "ТОЙ НЯМА ЧЕРНА КОЛА (TOY NYAMA CHERNA KOLA) (Eril)",
+    "answer": "ONUN SİYAH ARABASI YOK"
+  },
+  {
+    "question": "ТОЙ НЯМА ПАСПОРТ (TOY NYAMA PASPORT) (Eril)",
+    "answer": "ONUN PASAPORTU YOK"
+  },
+  {
+    "question": "ТО НЯМА КОЛЕЛО (TO NYAMA KOLELO) (Nötr)",
+    "answer": "ONUN BİSİKLETİ YOK"
+  },
+  {
+    "question": "ВИЕ НЯМАТЕ УРОК (VIE NYAMATE UROK) (Çoğul)",
+    "answer": "SİZİN DERSİNİZ YOK"
+  },
+  {
+    "question": "НИЕ УТРЕ НЯМАМЕ УРОК (NIE UTRE NYAMAME UROK) (Çoğul)",
+    "answer": "BİZİM YARIN DERSİMİZ YOK"
+  },
+  {
+    "question": "НИЕ НЯМАМЕ ВИЗИ (NIE NYAMAME VIZI) (Çoğul)",
+    "answer": "BİZİM VİZELERİMİZ YOK"
+  },
+  {
+    "question": "ТЕ НЯМАТ ДОКУМЕНТИ (TE NYAMAT DOKUMENTI) (Çoğul)",
+    "answer": "ONLARIN EVRAKLARI YOK"
+  },
+  {
+    "question": "НЯМАМ ЛИ? (NYAMAM LI?)",
+    "answer": "BENİM YOK MU?"
+  },
+  {
+    "question": "НЯМАШ ЛИ? (NYAMASH LI?)",
+    "answer": "SENİN YOK MU?"
+  },
+  {
+    "question": "НЯМАМ ЛИ ПАРИ? (NYAMAM LI PARI?)",
+    "answer": "PARAM YOK MU?"
+  },
+  {
+    "question": "НЯМАМ ЛИ ВИЗА? (NYAMAM LI VIZA?)",
+    "answer": "VİZEM YOK MU?"
+  },
+  {
+    "question": "НЯМАМ ЛИ КОЛА? (NYAMAM LI KOLA?)",
+    "answer": "ARABAM YOK MU?"
+  },
+  {
+    "question": "НЯМАШ ЛИ ВИЗА? (NYAMASH LI VIZA?)",
+    "answer": "VİZEN YOK MU?"
+  },
+  {
+    "question": "НЯМАШ ЛИ КЪЩА? (NYAMASH LI KASHTA?)",
+    "answer": "EVİN YOK MU?"
+  },
+  {
+    "question": "НЯМАШ ЛИ РАБОТА? (NYAMASH LI RABOTA?)",
+    "answer": "İŞİN YOK MU?"
+  },
+  {
+    "question": "ТЯ НЯМА ЛИ ПАСПОРТ? (TYA NYAMA LI PASPORT?)",
+    "answer": "ONUN PASAPORTU YOK MU?"
+  },
+  {
+    "question": "ТОЙ НЯМА ЛИ КОЛА? (TOY NYAMA LI KOLA?)",
+    "answer": "ONUN ARABASI YOK MU?"
+  },
+  {
+    "question": "ТО НЯМА ЛИ КОЛЕЛО? (TO NYAMA LI KOLELO?)",
+    "answer": "ONUN BİSİKLETİ YOK MU?"
+  },
+  {
+    "question": "НИЕ УТРЕ НЯМАМЕ ЛИ УРОК? (NIE UTRE NYAMAME LI UROK?)",
+    "answer": "BİZİM YARIN DERSİMİZ YOK MU?"
+  },
+  {
+    "question": "НЕ, НИЕ УТРЕ НЯМАМЕ УРОК (NE, NIE UTRE NYAMAME UROK)",
+    "answer": "HAYIR, BİZİM YARIN DERSİMİZ YOK"
+  },
+  {
+    "question": "ВИЕ НЯМАТЕ ЛИ РАБОТА? (VIE NYAMATE LI RABOTA?)",
+    "answer": "SİZİN İŞİNİZ YOK MU?"
+  },
+  {
+    "question": "ТЕ НЯМАТ ЛИ ЧАНТИ? (TE NYAMAT LI CHANTI?)",
+    "answer": "ONLARIN ÇANTALARI YOK MU?"
+  },
+  {
+    "question": "ИМА ВОДА (IMA VODA) (Dişil)",
+    "answer": "SU VAR"
+  },
+  {
+    "question": "ИМА ПРОБЛЕМ (IMA PROBLEM) (Eril)",
+    "answer": "SORUN VAR"
+  },
+  {
+    "question": "НЯМА ВОДА (NYAMA VODA) (Dişil)",
+    "answer": "SU YOK"
+  },
+  {
+    "question": "НЯМА ПРОБЛЕМ (NYAMA PROBLEM) (Eril)",
+    "answer": "SORUN YOK"
+  },
+  {
+    "question": "ИМА КАФЕ (IMA KAFE) (Nötr)",
+    "answer": "KAHVE VAR"
+  },
+  {
+    "question": "ИМА БАНАН (IMA BANAN) (Eril)",
+    "answer": "MUZ VAR"
+  },
+  {
+    "question": "ИМА РАБОТА (IMA RABOTA) (Dişil)",
+    "answer": "İŞ VAR"
+  },
+  {
+    "question": "ИМА КОЛА (IMA KOLA) (Dişil)",
+    "answer": "ARABA VAR"
+  },
+  {
+    "question": "ИМА ЗАКУСКА (IMA ZAKUSKA) (Dişil)",
+    "answer": "KAHVALTI VAR"
+  },
+  {
+    "question": "ИМА КНИГА (IMA KNIGA) (Dişil)",
+    "answer": "KİTAP VAR"
+  },
+  {
+    "question": "ИМА АВТОБУС (IMA AVTOBUS) (Eril)",
+    "answer": "OTOBÜS VAR"
+  },
+  {
+    "question": "НЯМА КАФЕ (NYAMA KAFE) (Nötr)",
+    "answer": "KAHVE YOK"
+  },
+  {
+    "question": "НЯМА ЧАЙ (NYAMA CHAY) (Eril)",
+    "answer": "ÇAY YOK"
+  },
+  {
+    "question": "НЯМА БАНАН (NYAMA BANAN) (Eril)",
+    "answer": "MUZ YOK"
+  },
+  {
+    "question": "НЯМА КОЛА (NYAMA KOLA) (Dişil)",
+    "answer": "ARABA YOK"
+  },
+  {
+    "question": "ИМА ЛИ? (IMA LI?)",
+    "answer": "VAR MI?"
+  },
+  {
+    "question": "НЯМА ЛИ? (NYAMA LI?)",
+    "answer": "YOK MU?"
+  },
+  {
+    "question": "ИМА ЛИ КАФЕ? (IMA LI KAFE?)",
+    "answer": "KAHVE VAR MI?"
+  },
+  {
+    "question": "ИМА ЛИ ЗАКУСКА? (IMA LI ZAKUSKA?)",
+    "answer": "KAHVALTI VAR MI?"
+  },
+  {
+    "question": "ИМА ЛИ ЧАЙ? (IMA LI CHAY?)",
+    "answer": "ÇAY VAR MI?"
+  },
+  {
+    "question": "ИМА ЛИ АВТОБУС? (IMA LI AVTOBUS?)",
+    "answer": "OTOBÜS VAR MI?"
+  },
+  {
+    "question": "НЯМА ЛИ КАФЕ? (NYAMA LI KAFE?)",
+    "answer": "KAHVE YOK MU?"
+  },
+  {
+    "question": "НЯМА ЛИ ВОДА? (NYAMA LI VODA?)",
+    "answer": "SU YOK MU?"
+  },
+  {
+    "question": "НЯМА ЛИ ЗАКУСКА? (NYAMA LI ZAKUSKA?)",
+    "answer": "KAHVALTI YOK MU?"
+  },
+  {
+    "question": "НЯМА ЛИ ЧАЙ? (NYAMA LI CHAY?)",
+    "answer": "ÇAY YOK MU?"
+  },
+  {
+    "question": "НЯМА НИЩО (NYAMA NISHTO) (Nötr)",
+    "answer": "(HİÇBİR ŞEY YOK) ÖNEMLİ DEĞİL"
+  }
+]
