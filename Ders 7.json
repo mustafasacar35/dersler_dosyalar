@@ -1,0 +1,538 @@
+[
+  {
+    "question": "ЧАС (ÇAS)",
+    "answer": "SAAT"
+  },
+  {
+    "question": "КОЛКО Е ЧАСЪТ? (KOLKO E ÇASIT)",
+    "answer": "SAAT KAÇ?"
+  },
+  {
+    "question": "МИНУТА (MİNUTA)",
+    "answer": "DAKİKA"
+  },
+  {
+    "question": "СЕКУНДА (SEKUNDA)",
+    "answer": "SANİYE"
+  },
+  {
+    "question": "ПОЛОВИН (POLOVİN)",
+    "answer": "YARIM"
+  },
+  {
+    "question": "И (İ)",
+    "answer": "GEÇİYOR"
+  },
+  {
+    "question": "БЕЗ (BEZ)",
+    "answer": "VAR (EKSİK)"
+  },
+  {
+    "question": "СЛЕД ЕДИН ЧАС",
+    "answer": "1 SAAT SONRA"
+  },
+  {
+    "question": "СЛЕД ПЕТ МИНУТИ",
+    "answer": "5 DAKİKA SONRA"
+  },
+  {
+    "question": "СЛЕД ПОЛОВИН ЧАС",
+    "answer": "YARIM SAAT SONRA"
+  },
+  {
+    "question": "СЛЕД ДЕСЕТ СЕКУНДИ",
+    "answer": "10 SANİYE SONRA"
+  },
+  {
+    "question": "ЧАСЪТ Е ТРИ. (ÇASIT E TRİ.)",
+    "answer": "SAAT ÜÇ."
+  },
+  {
+    "question": "ЧАСЪТ Е СЕДЕМ. (ÇASIT E SEDEM.)",
+    "answer": "SAAT YEDİ."
+  },
+  {
+    "question": "ЧАСЪТ Е ПЕТ",
+    "answer": "SAAT 5"
+  },
+  {
+    "question": "ЧАСЪТ Е ЕДИНАЙСЕ",
+    "answer": "SAAT 11"
+  },
+  {
+    "question": "ЧАСЪТ Е ПЕТНАЙСЕ",
+    "answer": "SAAT 15"
+  },
+  {
+    "question": "ЧАСЪТ Е ПЕТ И ДЕСЕТ. (ÇASIT E PET İ DESET.)",
+    "answer": "SAAT BEŞİ ON GEÇİYOR."
+  },
+  {
+    "question": "ЧАСЪТ Е СЕДЕМ И ПЕТНАЙСЕ",
+    "answer": "SAAT YEDİYİ ONBEŞ GEÇİYOR"
+  },
+  {
+    "question": "ЧАСЪТ Е ДВАЙСЕ И ПЕТНАЙСЕ",
+    "answer": "SAAT YİRMİYİ ONBEŞ GEÇİYOR"
+  },
+  {
+    "question": "ЧАСЪТ Е ДЕСЕТ БЕЗ ПЕТ. (ÇASIT E DESET BEZ PET.)",
+    "answer": "SAAT ONA BEŞ VAR."
+  },
+  {
+    "question": "ЧАСЪТ Е ЧЕТИРИ БЕЗ ПЕТНАДЕСЕТ. (ÇASIT E ÇETİRİ BEZ PETNADESET.)",
+    "answer": "SAAT DÖRDE ON BEŞ VAR."
+  },
+  {
+    "question": "ЧАСЪТ Е СЕДЕМ БЕЗ ДВАЙСЕ",
+    "answer": "SAAT YEDİYE YİRMİ VAR"
+  },
+  {
+    "question": "ЧАСЪТ Е ДЕВЕТ БЕЗ ПЕТ",
+    "answer": "SAAT DOKUZA BEŞ VAR"
+  },
+  {
+    "question": "ЧАСЪТ Е СЕДЕМ И ПОЛОВИНА. (ÇASIT E SEDEM İ POLOVİNA.)",
+    "answer": "SAAT YEDİ BUÇUK."
+  },
+  {
+    "question": "ЧАСЪТ Е ТРИ И ПОЛОВИНА. (ÇASIT E TRİ İ POLOVİNA.)",
+    "answer": "SAAT ÜÇ BUÇUK."
+  },
+  {
+    "question": "ЧАСЪТ Е ПЕТ И ПОЛОВИНА",
+    "answer": "SAAT BEŞ BUÇUK"
+  },
+  {
+    "question": "ЧАСЪТ Е ОСЕМ И ПОЛОВИНА",
+    "answer": "SAAT SEKİZ BUÇUK"
+  },
+  {
+    "question": "ЧАСЪТ Е ШЕСТ И ТРИЙСЕ/ТРИДЕСЕТ",
+    "answer": "SAAT ALTI OTUZ"
+  },
+  {
+    "question": "ТОЧНО В ОСЕМ ЧАСА (TOÇNO V)",
+    "answer": "TAM SAAT SEKİZDE."
+  },
+  {
+    "question": "СЛЕДОБЕД (SLEDOBED)",
+    "answer": "ÖĞLEDEN SONRA"
+  },
+  {
+    "question": "СУТРИНТА (SUTRİNTA)",
+    "answer": "SABAHLEYİN"
+  },
+  {
+    "question": "ВЕЧЕРТА (VECHERTA)",
+    "answer": "AKŞAMLEYİN"
+  },
+  {
+    "question": "ПРЕЗ НОЩТА (PREZ NOSHTA)",
+    "answer": "GECELEYİN / GECE YARISI"
+  },
+  {
+    "question": "ТОЧНО",
+    "answer": "AYNEN"
+  },
+  {
+    "question": "ТОЧНО ТАКА",
+    "answer": "AYNEN ÖYLE"
+  },
+  {
+    "question": "ИМАМЕ УРОК ТОЧНО В ОСЕМ ЧАСА.",
+    "answer": "TAM SAAT SEKİZDE DERSİMİZ VAR"
+  },
+  {
+    "question": "ТИ ИМАШ ЛИ УРОК ТАЗИ ВЕЧЕР?",
+    "answer": "SENİN BU AKŞAM DERSİN VAR MI?"
+  },
+  {
+    "question": "ОТИВАМ НА РАБОТА В СЕДЕМ И ПОЛОВИНА.",
+    "answer": "SAAT YEDİ BUÇUKTA İŞE GİDİYORUM"
+  },
+  {
+    "question": "ОТИВАМ НА РАБОТА В ОСЕМ ЧАСА",
+    "answer": "SAAT SEKİZDE İŞE GİDİYORUM"
+  },
+  {
+    "question": "ИДВАМ ОТ РАБОТА В ШЕСТ И ПОЛОВИНА",
+    "answer": "SAAT ALTI BUÇUKTA İŞTEN GELİYORUM"
+  },
+  {
+    "question": "ОТИВАМ НА УРОК В ПЕТ И ПЕТНАЙСЕ",
+    "answer": "SAAT BEŞİ ONBEŞ GEÇE DERSE GİDİYORUM"
+  },
+  {
+    "question": "ИМАМ РАБОТА В ЧЕТИРИ И ПОЛОВИНА СЛЕДОБЕД",
+    "answer": "ÖĞLEDEN SONRA SAAT DÖRT BUÇUKTA İŞİM VAR"
+  },
+  {
+    "question": "НАШИЯТ УРОК Е ТОЧНО В ОСЕМ ЧАСА ВЕЧЕРТА",
+    "answer": "BİZİM DERSİMİZ TAM SAAT SEKİZDE AKŞAMLEYİN"
+  },
+  {
+    "question": "ВИЕ ИМАТЕ ЛИ УРОК В СЕДЕМ ЧАСА ВЕЧЕРТА?",
+    "answer": "SİZİN SAAT 7’DE AKŞAMLEYİN DERSİNİZ VAR MI?"
+  },
+  {
+    "question": "СТАВАМ В ДЕВЕТ ЧАСА СУТРИНТА.",
+    "answer": "SABAHLEYİN SAAT DOKUZDA KALKIYORUM"
+  },
+  {
+    "question": "СЪБУЖДАМ СЕ В ДЕВЕТ ЧАСА СУТРИНТА",
+    "answer": "SABAHLEYİN SAAT DOKUZDA UYANIYORUM"
+  },
+  {
+    "question": "СТАВАМ В ОСЕМ И ДВАЙСЕ И ПИЯ ЕДНО КАФЕ",
+    "answer": "SAAT SEKİZİ YİRMİ GEÇE KALKIYORUM VE BİR KAHVE İÇİYORUM"
+  },
+  {
+    "question": "СТАВАМ В ДЕСЕТ ЧАСА И ЯМ ЗАКУСКА",
+    "answer": "SAAT ONDA KALKIYORUM VE KAHVALTI YİYORUM"
+  },
+  {
+    "question": "СПЯ (SPYA)",
+    "answer": "UYUYORUM"
+  },
+  {
+    "question": "АЗ СПЯ",
+    "answer": "BEN UYUYORUM"
+  },
+  {
+    "question": "ЛЯГАМ (LYAGAM)",
+    "answer": "YATIYORUM"
+  },
+  {
+    "question": "ЛЯГАМ ДА СПЯ",
+    "answer": "UYUMAYA YATIYORUM"
+  },
+  {
+    "question": "АЗ ЛЯГАМ ДА СПЯ В ДВАНАЙСЕ ЧАСА ВЕЧЕРТА",
+    "answer": "BEN SAAT ONİKİDE AKŞAMLEYİN UYUMAYA YATIYORUM"
+  },
+  {
+    "question": "В КОЛКО ЧАСА ИМА АВТОБУС ЗА ИСТАНБУЛ?",
+    "answer": "SAAT KAÇTA İSTANBULA OTOBÜS VAR?"
+  },
+  {
+    "question": "ЗА ИСТАНБУЛ ИМА АВТОБУС В ДЕСЕТ И ПОЛОВИНА СУТРИНТА",
+    "answer": "İSTANBULA OTOBÜS SAAT ON BUÇUKTA SABAHLEYİN VAR"
+  },
+  {
+    "question": "АЗ ЯМ ЗАКУСКА В ДЕВЕТ И ДЕСЕТ",
+    "answer": "BEN DOKUZU ON GEÇE KAHVALTI YİYORUM"
+  },
+  {
+    "question": "АЗ ЯМ ОБЯД В ЕДИН ЧАСА",
+    "answer": "BEN SAAT 1’DE ÖĞLEN YEMEĞİ YİYORUM"
+  },
+  {
+    "question": "АЗ ЯМ ВЕЧЕРЯ В СЕДЕМ И ПЕТНАЙСЕ",
+    "answer": "BEN SAAT YEDİYİ ONBEŞ GEÇE AKŞAM YEMEĞİ YİYORUM"
+  },
+  {
+    "question": "СЛЕДОБЕД ОБИЧАМ ДА ПИЯ КАФЕ",
+    "answer": "ÖĞLEDEN SONRA KAHVE İÇMEYİ SEVİYORUM"
+  },
+  {
+    "question": "СЛЕДОБЕД ПИЯ КАФЕ И ЯМ ЯДКИ",
+    "answer": "ÖĞLEDEN SONRA KAHVE İÇİYORUM VE KURUYEMİŞ YİYORUM"
+  },
+  {
+    "question": "СЛЕД ТРИ ЧАСА НЕ ЯМ ХЛЯБ",
+    "answer": "SAAT ÜÇTEN SONRA EKMEK YEMİYORUM"
+  },
+  {
+    "question": "СУТРИН НЕ ЯМ ЗАКУСКА",
+    "answer": "SABAH KAHVALTI YEMİYORUM"
+  },
+  {
+    "question": "ВЕЧЕР ОБИЧАМ ДА ПИЯ ЧАЙ",
+    "answer": "AKŞAM ÇAY İÇMEYİ SEVİYORUM"
+  },
+  {
+    "question": "ОТИВАМ НА РАБОТА СЛЕД ТРИ ЧАСА",
+    "answer": "3 SAAT SONRA İŞE GİDİYORUM"
+  },
+  {
+    "question": "ДЪРЖАВА",
+    "answer": "ÜLKE"
+  },
+  {
+    "question": "ДЪРЖАВИ",
+    "answer": "ÜLKELER"
+  },
+  {
+    "question": "ТУРЦИЯ (TURTSİYA)",
+    "answer": "TÜRKİYE"
+  },
+  {
+    "question": "БЪЛГАРИЯ (BILGARİYA)",
+    "answer": "BULGARİSTAN"
+  },
+  {
+    "question": "ГЪРЦИЯ (GIRTSİYA)",
+    "answer": "YUNANİSTAN"
+  },
+  {
+    "question": "ГЕРМАНИЯ (GERMANİYA)",
+    "answer": "ALMANYA"
+  },
+  {
+    "question": "БЕЛГИЯ (BELGİYA)",
+    "answer": "BELÇİKA"
+  },
+  {
+    "question": "РУСИЯ (RUSİYA)",
+    "answer": "RUSYA"
+  },
+  {
+    "question": "ПОЛША (POLŞA)",
+    "answer": "POLONYA"
+  },
+  {
+    "question": "ФРАНЦИЯ (FRANTSİYA)",
+    "answer": "FRANSA"
+  },
+  {
+    "question": "ИТАЛИЯ (İTALİYA)",
+    "answer": "İTALYA"
+  },
+  {
+    "question": "ИСПАНИЯ (İSPANİYA)",
+    "answer": "İSPANYA"
+  },
+  {
+    "question": "ДАНИЯ (DANİYA)",
+    "answer": "DANİMARKA"
+  },
+  {
+    "question": "САЩ (USA) / АМЕРИКА (AMERİKA)",
+    "answer": "AMERİKA"
+  },
+  {
+    "question": "КИТАЙ (KİTAY)",
+    "answer": "ÇİN"
+  },
+  {
+    "question": "МАКЕДОНИЯ (MAKEDONİYA)",
+    "answer": "MAKEDONYA"
+  },
+  {
+    "question": "НИДЕРЛАНДИЯ (NİDERLANDİYA)",
+    "answer": "HOLLANDA"
+  },
+  {
+    "question": "ОТ КЪДЕ СИ? (OT KIDE Sİ?)",
+    "answer": "NERELİSİN?"
+  },
+  {
+    "question": "АЗ СЪМ ОТ БЪЛГАРИЯ",
+    "answer": "BULGARİSTANLIYIM"
+  },
+  {
+    "question": "АЗ СЪМ ОТ ТУРЦИЯ",
+    "answer": "TÜRKİYELİYİM"
+  },
+  {
+    "question": "АЗ СЪМ ОТ ГЕРМАНИЯ",
+    "answer": "ALMANYALIYIM"
+  },
+  {
+    "question": "АЗ СЪМ ОТ ВАРНА",
+    "answer": "BEN VARNALIYIM"
+  },
+  {
+    "question": "АЗ СЪМ ОТ ШУМЕН",
+    "answer": "BEN ŞUMENLİYİM"
+  },
+  {
+    "question": "АЗ СЪМ ОТ ЧОРЛУ",
+    "answer": "BEN ÇORLULUYUM"
+  },
+  {
+    "question": "ВИЕ ОТ КЪДЕ СТЕ?",
+    "answer": "SİZ NERELESİNİZ?"
+  },
+  {
+    "question": "НИЕ СМЕ ОТ ТУРЦИЯ",
+    "answer": "BİZ TÜRKİYELİYİZ"
+  },
+  {
+    "question": "КЪДЕ ЖИВЕЕШ?",
+    "answer": "NEREDE YAŞIYORSUN?"
+  },
+  {
+    "question": "АЗ ЖИВЕЯ ВЪВ ВАРНА",
+    "answer": "BEN VARNADA YAŞIYORUM"
+  },
+  {
+    "question": "АЗ ЖИВЕЯ В БУРСА",
+    "answer": "BURSADA YAŞIYORUM"
+  },
+  {
+    "question": "АЗ ЖИВЕЯ В ИСТАНБУЛ",
+    "answer": "İSTANBULDA YAŞIYORUM"
+  },
+  {
+    "question": "АЗ ЖИВЕЯ В ИЗМИР",
+    "answer": "İZMİRDE YAŞIYORUM"
+  },
+  {
+    "question": "НАЦИОНАЛНОСТ",
+    "answer": "MİLLİYET"
+  },
+  {
+    "question": "ТУРЧИН",
+    "answer": "TÜRK (ERKEK)"
+  },
+  {
+    "question": "ТУРКИНЯ",
+    "answer": "TÜRK (KADIN)"
+  },
+  {
+    "question": "БЪЛГАРИН",
+    "answer": "BULGAR (ERKEK)"
+  },
+  {
+    "question": "БЪЛГАРКА",
+    "answer": "BULGAR (KADIN)"
+  },
+  {
+    "question": "ГЪРК",
+    "answer": "YUNAN (ERKEK)"
+  },
+  {
+    "question": "ГЪРКИНЯ",
+    "answer": "YUNAN (KADIN)"
+  },
+  {
+    "question": "ГЕРМАНЕЦ",
+    "answer": "ALMAN (ERKEK)"
+  },
+  {
+    "question": "ГЕРМАНКА",
+    "answer": "ALMAN (KADIN)"
+  },
+  {
+    "question": "АЗ СЪМ ТУРКИНЯ",
+    "answer": "BEN TÜRKÜM (KADIN)"
+  },
+  {
+    "question": "АЗ СЪМ ТУРЧИН",
+    "answer": "BEN TÜRKÜM (ERKEK)"
+  },
+  {
+    "question": "ТОЙ Е ГЪРК",
+    "answer": "O YUNAN (ERKEK)"
+  },
+  {
+    "question": "ТЯ Е ГЕРМАНКА",
+    "answer": "O ALMAN (KADIN)"
+  },
+  {
+    "question": "ОТИВАМ В БЪЛГАРИЯ",
+    "answer": "BULGARİSTANA GİDİYORUM"
+  },
+  {
+    "question": "ОТИВАМ В ИСПАНИЯ",
+    "answer": "İSPANYAYA GİDİYORUM"
+  },
+  {
+    "question": "ИДВАМ ОТ ТУРЦИЯ",
+    "answer": "TÜRKİYEDEN GELİYORUM"
+  },
+  {
+    "question": "ИДВАМ ОТ БЪЛГАРИЯ",
+    "answer": "BULGARİSTANDAN GELİYORUM"
+  },
+  {
+    "question": "НА КОЛКО ГОДИНИ СИ? (NA KOLKO GODİNİ Sİ)",
+    "answer": "KAÇ YAŞINDASIN?"
+  },
+  {
+    "question": "АЗ СЪМ НА ТРИЙСЕ И ТРИ ГОДИНИ",
+    "answer": "BEN OTUZ ÜÇ YAŞINDAYIM"
+  },
+  {
+    "question": "АЗ СЪМ НА ДВАЙСЕ И ДЕВЕТ ГОДИНИ",
+    "answer": "BEN YİRMİ DOKUZ YAŞINDAYIM"
+  },
+  {
+    "question": "АЗ СЪМ НА ТРИЙСЕ И ПЕТ ГОДИНИ",
+    "answer": "BEN OTUZ BEŞ YAŞINDAYIM"
+  },
+  {
+    "question": "АЗ СЪМ НА ДЕСЕТ ГОДИНИ",
+    "answer": "BEN ON YAŞINDAYIM"
+  },
+  {
+    "question": "ПРОФЕСИИ (PROFESİİ)",
+    "answer": "MESLEKLER"
+  },
+  {
+    "question": "ПРОФЕСИЯ (PROFESİYA)",
+    "answer": "MESLEK"
+  },
+  {
+    "question": "МОЯТА ПРОФЕСИЯ",
+    "answer": "BENİM MESLEĞİM"
+  },
+  {
+    "question": "АЗ СЪМ УЧИТЕЛ",
+    "answer": "BEN ÖĞRETMENİM"
+  },
+  {
+    "question": "ЛЕКАР/ДОКТОР (LEKAR/DOKTOR)",
+    "answer": "DOKTOR"
+  },
+  {
+    "question": "УЧИТЕЛ (UÇİTEL)",
+    "answer": "ÖĞRETMEN"
+  },
+  {
+    "question": "ПОЛИЦАЙ (POLİTSAY)",
+    "answer": "POLİS"
+  },
+  {
+    "question": "ИНЖЕНЕР (İNJENER)",
+    "answer": "MÜHENDİS"
+  },
+  {
+    "question": "КАКВО РАБОТИШ?",
+    "answer": "NE İŞ YAPIYORSUN?"
+  },
+  {
+    "question": "АЗ РАБОТЯ КАТО ЛЕКАР",
+    "answer": "BEN DOKTOR OLARAK ÇALIŞIYORUM"
+  },
+  {
+    "question": "ТЯЛО (TYALO)",
+    "answer": "VÜCUT"
+  },
+  {
+    "question": "МОЕТО ТЯЛО",
+    "answer": "BENİM VÜCUDUM"
+  },
+  {
+    "question": "ГЛАВА (GLAVA)",
+    "answer": "KAFA"
+  },
+  {
+    "question": "РЪКА (RIKA)",
+    "answer": "KOL"
+  },
+  {
+    "question": "КРАК (KRAK)",
+    "answer": "AYAK"
+  },
+  {
+    "question": "БОЛИ МЕ ГЛАВАТА",
+    "answer": "BAŞIM AĞRIYOR"
+  },
+  {
+    "question": "БОЛИ МЕ РЪКАТА",
+    "answer": "KOLUM AĞRIYOR"
+  }
+]
