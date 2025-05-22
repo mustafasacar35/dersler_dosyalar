@@ -1,5 +1,5 @@
 {
-  "currentIndex": 118,
+  "currentIndex": 152,
   "score": 0,
   "answers": [
     null,
@@ -216,31 +216,38 @@
   ],
   "recentQuestions": [
     {
-      "index": 118,
-      "question": "БОТУШИ (BOTUSHI) (Çoğul)",
+      "index": 152,
+      "question": "ЕДНА ТИКВИЧКА (EDNA TIKVICHKA) (Dişil)",
       "answer": null,
-      "correctAnswer": "BOTLAR",
+      "correctAnswer": "BİR KABAK",
       "isCorrect": null
     },
     {
-      "index": 23,
-      "question": "ЕДИН АВТОБУС (EDIN AVTOBUS) (Eril)",
+      "index": 151,
+      "question": "ЕДИН КАРТОФ (EDIN KARTOF) (Eril)",
       "answer": null,
-      "correctAnswer": "BİR OTOBÜS",
+      "correctAnswer": "BİR PATATES",
       "isCorrect": null
     },
     {
-      "index": 179,
-      "question": "ЧИЙ Е ТОЗИ СТОЛ? (CHIY E TOZI STOL?)",
+      "index": 150,
+      "question": "ЕДНА ЧУШКА / ПИПЕР (EDNA CHUSHKA / PIPER) (Dişil / Eril)",
       "answer": null,
-      "correctAnswer": "BU SANDALYE KİMİN?",
+      "correctAnswer": "BİR BİBER",
       "isCorrect": null
     },
     {
-      "index": 0,
-      "question": "ЕДНO КУЧЕ (EDNO KUCHE) (Eril)",
+      "index": 149,
+      "question": "ЕДНО ЗЕЛЕ (EDNO ZELE) (Nötr)",
       "answer": null,
-      "correctAnswer": "BİR KÖPEK",
+      "correctAnswer": "BİR LAHANA",
+      "isCorrect": null
+    },
+    {
+      "index": 148,
+      "question": "ЕДИН МОРКОВ (EDIN MORKOV) (Eril)",
+      "answer": null,
+      "correctAnswer": "BİR HAVUÇ",
       "isCorrect": null
     }
   ],
@@ -257,7 +264,7 @@
   "isSearchMode": false,
   "isSpeechEnabled": false,
   "isLatinVisible": false,
-  "isRepeatWrongEnabled": false,
+  "isRepeatWrongEnabled": true,
   "isSoundEnabled": false,
   "jsonFiles": {
     "Ders 1": {
