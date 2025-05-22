@@ -1,5 +1,5 @@
 {
-  "currentIndex": 0,
+  "currentIndex": 173,
   "score": 0,
   "answers": [
     null,
@@ -216,10 +216,38 @@
   ],
   "recentQuestions": [
     {
-      "index": 0,
-      "question": "ЕДНO КУЧЕ (EDNO KUCHE) (Eril)",
+      "index": 173,
+      "question": "КОЙ Е ТОВА? (KOY E TOVA?)",
       "answer": null,
-      "correctAnswer": "BİR KÖPEK",
+      "correctAnswer": "BU KİM?",
+      "isCorrect": null
+    },
+    {
+      "index": 172,
+      "question": "КОЛКО? (KOLKO?)",
+      "answer": null,
+      "correctAnswer": "KAÇ? / NE KADAR?",
+      "isCorrect": null
+    },
+    {
+      "index": 171,
+      "question": "ЧИЙ? (CHIY?)",
+      "answer": null,
+      "correctAnswer": "KİMİN?",
+      "isCorrect": null
+    },
+    {
+      "index": 170,
+      "question": "КАК? (KAK?)",
+      "answer": null,
+      "correctAnswer": "NASIL?",
+      "isCorrect": null
+    },
+    {
+      "index": 169,
+      "question": "ЗАЩО? (ZASHTO?)",
+      "answer": null,
+      "correctAnswer": "NEDEN?",
       "isCorrect": null
     }
   ],
