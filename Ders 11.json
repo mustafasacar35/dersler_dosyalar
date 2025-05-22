@@ -1,0 +1,1006 @@
+[
+  {
+    "question": "Добър ден!",
+    "answer": "İyi günler!"
+  },
+  {
+    "question": "Как мога да ви помогна?",
+    "answer": "Size nasıl yardımcı olabilirim?"
+  },
+  {
+    "question": "Търся нещо за главоболие.",
+    "answer": "Baş ağrısı için bir şey arıyorum."
+  },
+  {
+    "question": "Имате ли рецепта?",
+    "answer": "Reçeteniz var mı?"
+  },
+  {
+    "question": "Не, нямам.",
+    "answer": "Hayır, yok."
+  },
+  {
+    "question": "Имате ли алергии?",
+    "answer": "Alerjiniz var mı?"
+  },
+  {
+    "question": "Как се използва това лекарство?",
+    "answer": "Bu ilaç nasıl kullanılıyor?"
+  },
+  {
+    "question": "Взимате една таблетка на всеки 6 часа.",
+    "answer": "Her 6 saatte 1 tablet alıyorsunuz."
+  },
+  {
+    "question": "Колко струва?",
+    "answer": "Fiyatı ne kadar?"
+  },
+  {
+    "question": "Пет лева.",
+    "answer": "Beş leva."
+  },
+  {
+    "question": "Добре, ще взема.",
+    "answer": "Tamam, alacağım."
+  },
+  {
+    "question": "Ето, заповядайте.",
+    "answer": "Buyurun."
+  },
+  {
+    "question": "Благодаря! Лек ден!",
+    "answer": "Teşekkür ederim! İyi günler!"
+  },
+  {
+    "question": "И на вас!",
+    "answer": "Size de!"
+  },
+  {
+    "question": "Какво ще желаете?",
+    "answer": "Ne arzu edersiniz?"
+  },
+  {
+    "question": "Едно парче шоколадова торта, моля.",
+    "answer": "Bir dilim çikolatalı pasta lütfen."
+  },
+  {
+    "question": "Искате ли нещо за пиене?",
+    "answer": "İçmek için bir şey ister misiniz?"
+  },
+  {
+    "question": "Да, едно кафе без мляко и захар.",
+    "answer": "Evet, sütsüz ve şekersiz bir kahve."
+  },
+  {
+    "question": "Тук ли ще ядете?",
+    "answer": "Burada mı yiyeceksiniz?"
+  },
+  {
+    "question": "Да, тук.",
+    "answer": "Evet, burada."
+  },
+  {
+    "question": "Общо девет лева.",
+    "answer": "Toplam 9 leva."
+  },
+  {
+    "question": "Ето. Благодаря!",
+    "answer": "Buyurun. Teşekkür ederim!"
+  },
+  {
+    "question": "Благодаря! Приятен апетит!",
+    "answer": "Teşekkür ederim! Afiyet olsun!"
+  },
+  {
+    "question": "Как се казвате?",
+    "answer": "Adınız nedir?"
+  },
+  {
+    "question": "Казвам се Елена Иванова.",
+    "answer": "Adım Elena İvanova."
+  },
+  {
+    "question": "Къде Ви боли?",
+    "answer": "Nereniz ağrıyor?"
+  },
+  {
+    "question": "Боли ме корема.",
+    "answer": "Karnım ağrıyor."
+  },
+  {
+    "question": "От кога Ви боли?",
+    "answer": "Ne zamandan beri ağrıyor?"
+  },
+  {
+    "question": "От два дни.",
+    "answer": "İki gündür."
+  },
+  {
+    "question": "Имате ли температура?",
+    "answer": "Ateşiniz var mı?"
+  },
+  {
+    "question": "Да, имам 38 градуса.",
+    "answer": "Evet, 38 derece ateşim var."
+  },
+  {
+    "question": "Ще Ви прегледам.",
+    "answer": "Sizi muayene edeceğim."
+  },
+  {
+    "question": "Трябва да пиете това лекарство три пъти на ден.",
+    "answer": "Bu ilacı günde üç kez almalısınız."
+  },
+  {
+    "question": "Бързо оздравяване!",
+    "answer": "Geçmiş olsun!"
+  },
+  {
+    "question": "От къде идвате?",
+    "answer": "Nereden geliyorsunuz?"
+  },
+  {
+    "question": "От Турция.",
+    "answer": "Türkiye’den."
+  },
+  {
+    "question": "Вашите документи моля!",
+    "answer": "Evraklarınız lütfen!"
+  },
+  {
+    "question": "Ето лична карта и паспорт.",
+    "answer": "İşte kimlik kartı ve pasaport."
+  },
+  {
+    "question": "За къде пътувате?",
+    "answer": "Nereye seyahat ediyorsunuz?"
+  },
+  {
+    "question": "Отивам във Варна.",
+    "answer": "Varna’ya gidiyorum."
+  },
+  {
+    "question": "Колко пътника има в колата?",
+    "answer": "Arabada kaç yolcu var?"
+  },
+  {
+    "question": "Има 4 пътника.",
+    "answer": "4 yolcu var."
+  },
+  {
+    "question": "Пътувате за работа или за почивка?",
+    "answer": "İş için mi, tatil için mi seyahat ediyorsunuz?"
+  },
+  {
+    "question": "За почивка.",
+    "answer": "Tatil için."
+  },
+  {
+    "question": "Имате ли нещо за деклариране?",
+    "answer": "Beyan etmeniz gereken bir şey var mı?"
+  },
+  {
+    "question": "Отвори багажника!",
+    "answer": "Bagajı aç!"
+  },
+  {
+    "question": "Имате ли алкохол или цигари?",
+    "answer": "Alkol veya sigaranız var mı?"
+  },
+  {
+    "question": "Само една бутилка вино.",
+    "answer": "Sadece bir şişe şarap."
+  },
+  {
+    "question": "Добре. Приятна почивка!",
+    "answer": "Tamam. İyi tatiller!"
+  },
+  {
+    "question": "Вашите документи, моля.",
+    "answer": "Evraklarınızı lütfen."
+  },
+  {
+    "question": "Ето личната карта и шофьорската книжка.",
+    "answer": "İşte kimlik kartı ve ehliyet."
+  },
+  {
+    "question": "Знаете ли защо ви спрях?",
+    "answer": "Neden sizi durdurduğumu biliyor musunuz?"
+  },
+  {
+    "question": "Не, не знам.",
+    "answer": "Hayır, bilmiyorum."
+  },
+  {
+    "question": "Карахте с 80 километра в час. Ограничението е 50.",
+    "answer": "80 km/s hızla gidiyordunuz. Sınır 50."
+  },
+  {
+    "question": "Извинявам се, не видях знака.",
+    "answer": "Özür dilerim, tabelayı görmedim."
+  },
+  {
+    "question": "Ще получите глоба.",
+    "answer": "Ceza alacaksınız."
+  },
+  {
+    "question": "Разбирам.",
+    "answer": "Anlıyorum."
+  },
+  {
+    "question": "Пожелавам ви приятен ден и безопасно шофиране.",
+    "answer": "Size iyi günler ve güvenli sürüşler dilerim."
+  },
+  {
+    "question": "Извинете, може ли да ви попитам нещо?",
+    "answer": "Afedersiniz, size bir şey sorabilir miyim?"
+  },
+  {
+    "question": "Разбира се, кажете.",
+    "answer": "Elbette, buyurun."
+  },
+  {
+    "question": "Тук трябва ли да се плаща за паркиране? Има ли синя зона?",
+    "answer": "Burada park için ücret ödeniyor mu? Bu sokak mavi park bölgesine dahil mi?"
+  },
+  {
+    "question": "Да, тук е синя зона. Работи от 8:30 часа до 19:30 часа. Трябва да изпратите SMS и платите паркирането.",
+    "answer": "Evet, burası mavi bölge. 08:30’dan 19:30’a kadar geçerli. Park ücretini ödemek için SMS göndermeniz gerekiyor."
+  },
+  {
+    "question": "А колко струва и за колко време е?",
+    "answer": "Ücreti ne kadar ve ne kadar süre geçerli?"
+  },
+  {
+    "question": "Един час струва 1 лев. Може да платите максимум за 2 часа.",
+    "answer": "Bir saat 1 leva. En fazla 2 saatlik ödeme yapabilirsiniz."
+  },
+  {
+    "question": "Как се плаща?",
+    "answer": "Nasıl ödeme yapılıyor?"
+  },
+  {
+    "question": "Изпращате SMS на номер 1303 с регистрационния номер на колата.",
+    "answer": "1303 numarasına aracınızın plakasını SMS olarak gönderiyorsunuz."
+  },
+  {
+    "question": "Благодаря ви много!",
+    "answer": "Çok teşekkür ederim!"
+  },
+  {
+    "question": "Моля! Приятен ден!",
+    "answer": "Rica ederim! İyi günler!"
+  },
+  {
+    "question": "Имате ли Kaufland карта или приложение?",
+    "answer": "Kaufland kartınız veya mobil uygulamanız var mı?"
+  },
+  {
+    "question": "Искате ли торбичка?",
+    "answer": "Poşet ister misiniz?"
+  },
+  {
+    "question": "Една торбичка, моля.",
+    "answer": "Bir poşet lütfen."
+  },
+  {
+    "question": "Всичко струва общо 25 лева и 40 стотинки.",
+    "answer": "Hepsi toplam 25 leva 40 kuruş."
+  },
+  {
+    "question": "Ще платя с карта.",
+    "answer": "Kartla ödeyeceğim."
+  },
+  {
+    "question": "Картата Ви безконтактна ли е? Сложете картата, моля.",
+    "answer": "Kartınızda temassız var mı? Kartı yerleştirin lütfen."
+  },
+  {
+    "question": "Да, картата ми е безконтактна.",
+    "answer": "Evet, kartımda temassız var."
+  },
+  {
+    "question": "Искате ли касова бележка?",
+    "answer": "Fiş ister misiniz?"
+  },
+  {
+    "question": "Какво ще правим днес?",
+    "answer": "Bugün ne yapacağız?"
+  },
+  {
+    "question": "Искам подстрижка, моля.",
+    "answer": "Saç kestirmek istiyorum, lütfen."
+  },
+  {
+    "question": "Колко късо?",
+    "answer": "Ne kadar kısa?"
+  },
+  {
+    "question": "Само малко. Два-три сантиметра.",
+    "answer": "Sadece biraz. İki-üç santim."
+  },
+  {
+    "question": "Искате ли сешоар след това?",
+    "answer": "Sonrasında fön ister misiniz?"
+  },
+  {
+    "question": "Готово. Харесва ли ви?",
+    "answer": "Hazır. Beğendiniz mi?"
+  },
+  {
+    "question": "Да, много! Благодаря!",
+    "answer": "Evet, çok beğendim! Teşekkür ederim!"
+  },
+  {
+    "question": "Пак заповядайте! Лек ден!",
+    "answer": "Yine buyrun! İyi günler!"
+  },
+  {
+    "question": "Мога ли да помогна?",
+    "answer": "Yardımcı olabilir miyim?"
+  },
+  {
+    "question": "Искам дълга плажна рокля.",
+    "answer": "Uzun plaj elbisesi istiyorum."
+  },
+  {
+    "question": "Какъв цвят искате?",
+    "answer": "Hangi rengi istersiniz?"
+  },
+  {
+    "question": "Червена, ако има.",
+    "answer": "Kırmızı, varsa."
+  },
+  {
+    "question": "Какъв размер носите?",
+    "answer": "Hangi bedeni giyiyorsunuz?"
+  },
+  {
+    "question": "M размер.",
+    "answer": "M beden."
+  },
+  {
+    "question": "Ето, заповядайте. Пробната е там.",
+    "answer": "Buyurun, deneme kabini orada."
+  },
+  {
+    "question": "Харесва ли Ви?",
+    "answer": "Beğendiniz mi?"
+  },
+  {
+    "question": "Да, много ми харесва. Колко струва?",
+    "answer": "Evet, çok beğendim. Fiyatı ne kadar?"
+  },
+  {
+    "question": "Петдесет лева.",
+    "answer": "50 leva."
+  },
+  {
+    "question": "Ще купя.",
+    "answer": "Onu alacağım."
+  },
+  {
+    "question": "Къде е Катедралата във Варна?",
+    "answer": "Varna’daki Katedral nerede?"
+  },
+  {
+    "question": "Катедралата е в центъра на града.",
+    "answer": "Katedral şehir merkezinde."
+  },
+  {
+    "question": "Може ли да ми кажете как да стигна до там?",
+    "answer": "Oraya nasıl gideceğimi söyleyebilir misiniz?"
+  },
+  {
+    "question": "Вървете направо по булевард “Мария Луиза”.",
+    "answer": "“Maria Luiza” bulvarı boyunca dümdüz gidin."
+  },
+  {
+    "question": "След това?",
+    "answer": "Sonra?"
+  },
+  {
+    "question": "На втория светофар завийте надясно.",
+    "answer": "İkinci trafik ışığından sağa dönün."
+  },
+  {
+    "question": "Далече ли е?",
+    "answer": "Uzak mı?"
+  },
+  {
+    "question": "Не, около десет минути пеша.",
+    "answer": "Hayır, yürüyerek yaklaşık on dakika."
+  },
+  {
+    "question": "Благодаря много за помощта!",
+    "answer": "Yardımınız için çok teşekkür ederim!"
+  },
+  {
+    "question": "Добре дошли!",
+    "answer": "Hoş geldiniz!"
+  },
+  {
+    "question": "Имам резервация на името на Мария.",
+    "answer": "Mariya adına bir rezervasyonum var."
+  },
+  {
+    "question": "Само момент… Да, виждам. Една стая за две нощувки.",
+    "answer": "Bir saniye… Evet, görüyorum. İki gecelik bir oda."
+  },
+  {
+    "question": "Да, точно така.",
+    "answer": "Evet, doğru."
+  },
+  {
+    "question": "Може ли лична карта или паспорт?",
+    "answer": "Kimlik veya pasaport alabilir miyim?"
+  },
+  {
+    "question": "Ето вашият ключ – стая 203, на втория етаж.",
+    "answer": "İşte anahtarınız – oda 203, ikinci katta."
+  },
+  {
+    "question": "Къде е асансьорът?",
+    "answer": "Asansör nerede?"
+  },
+  {
+    "question": "Точно в дясно от рецепцията.",
+    "answer": "Resepsiyonun hemen sağında."
+  },
+  {
+    "question": "Приятен престой!",
+    "answer": "İyi konaklamalar!"
+  },
+  {
+    "question": "Правите ли преводи на документи?",
+    "answer": "Belge çevirisi yapıyor musunuz?"
+  },
+  {
+    "question": "Какъв документ имате?",
+    "answer": "Ne tür bir belgeniz var?"
+  },
+  {
+    "question": "Имам акт за раждане за превод от български на турски.",
+    "answer": "Bulgarcadan Türkçeye çevrilmesi gereken bir doğum belgem var."
+  },
+  {
+    "question": "Искате ли обикновен или заверен превод?",
+    "answer": "Normal mi yoksa yeminli tercüme mi istiyorsunuz?"
+  },
+  {
+    "question": "Заверен, моля.",
+    "answer": "Yeminli, lütfen."
+  },
+  {
+    "question": "Преводът ще е готов утре следобед.",
+    "answer": "Çeviri yarın öğleden sonra hazır olacak."
+  },
+  {
+    "question": "Трийсет лева.",
+    "answer": "30 leva."
+  },
+  {
+    "question": "Поръчах си книга онлайн, но още не съм я получил.",
+    "answer": "İnternetten bir kitap sipariş ettim, ama henüz gelmedi."
+  },
+  {
+    "question": "Може ли да ми дадете номера на поръчката?",
+    "answer": "Bana sipariş numaranızı verir misiniz?"
+  },
+  {
+    "question": "Да, ето: 12345.",
+    "answer": "Evet, işte: 12345."
+  },
+  {
+    "question": "Поръчката ви е изпратена вчера. Ще я получите до два дни.",
+    "answer": "Siparişiniz dün gönderildi. İki gün içinde alacaksınız."
+  },
+  {
+    "question": "Мога ли да проследя пратката?",
+    "answer": "Kargoyu takip edebilir miyim?"
+  },
+  {
+    "question": "Да, можете да използвате линка, изпратих Ви имейл.",
+    "answer": "Evet, size e-posta ile gönderdiğim linki kullanabilirsiniz."
+  },
+  {
+    "question": "Ако имате още въпроси, обадете се.",
+    "answer": "Başka sorunuz olursa arayın."
+  },
+  {
+    "question": "Искам да изпратя тази пратка до София.",
+    "answer": "Bu paketi Sofya’ya göndermek istiyorum."
+  },
+  {
+    "question": "Колко тежи пратката?",
+    "answer": "Paket kaç kilo?"
+  },
+  {
+    "question": "Тежи около два килограма.",
+    "answer": "Yaklaşık iki kilo."
+  },
+  {
+    "question": "Искате ли бърза доставка или стандартна?",
+    "answer": "Hızlı teslimat mı yoksa standart mı istersiniz?"
+  },
+  {
+    "question": "Стандартна, моля. Колко ще струва?",
+    "answer": "Standart olsun lütfen. Ne kadar tutacak?"
+  },
+  {
+    "question": "Ще струва тридесет лева.",
+    "answer": "30 leva tutacak."
+  },
+  {
+    "question": "За колко време ще пристигне?",
+    "answer": "Ulaşması ne kadar sürecek?"
+  },
+  {
+    "question": "Около три дни.",
+    "answer": "Yaklaşık üç gün."
+  },
+  {
+    "question": "Слънцето изгрява.",
+    "answer": "Güneş doğuyor."
+  },
+  {
+    "question": "Успокой се!",
+    "answer": "Sakin ol!"
+  },
+  {
+    "question": "Събота.",
+    "answer": "Cumartesi."
+  },
+  {
+    "question": "Мария и Иван отиват в парка.",
+    "answer": "Mariya ve İvan parka gidiyor."
+  },
+  {
+    "question": "Те обичат да играят с топка и да се разхождат.",
+    "answer": "Onlar top oynamayı ve yürüyüş yapmayı seviyor."
+  },
+  {
+    "question": "В парка има много деца.",
+    "answer": "Parkta çok çocuk var."
+  },
+  {
+    "question": "Мария има топка.",
+    "answer": "Mariya’nın topu var."
+  },
+  {
+    "question": "Иван има шише с вода.",
+    "answer": "İvan’ın 1 şişe suyu var."
+  },
+  {
+    "question": "Те играят футбол и се смеят много.",
+    "answer": "Onlar futbol oynuyor ve çok gülüyorlar."
+  },
+  {
+    "question": "След играта седят на пейката и пият вода.",
+    "answer": "Oyundan sonra bankta oturuyorlar ve su içiyorlar."
+  },
+  {
+    "question": "След това отиват в магазина и купуват сладолед.",
+    "answer": "Sonra markete gidiyorlar ve dondurma satın alıyorlar."
+  },
+  {
+    "question": "Мария купува сладолед с шоколад, Иван купува сладолед с ванилия.",
+    "answer": "Mariya çikolatalı dondurma alıyor, İvan vanilyalı dondurma satın alıyor."
+  },
+  {
+    "question": "Те говорят за училище и уроците.",
+    "answer": "Okul ve derslerden konuşuyorlar."
+  },
+  {
+    "question": "Когато слънцето залязва, Мария и Иван си казват „довиждане“ и отиват към вкъщи.",
+    "answer": "Güneş batarken Mariya ve İvan birbirine görüşürüz diyor ve eve doğru gidiyor."
+  },
+  {
+    "question": "Те са щастливи и уморени след хубавия ден.",
+    "answer": "Onlar güzel bir günden sonra mutlu ve yorgun."
+  },
+  {
+    "question": "Анна живее в малък апартамент в града.",
+    "answer": "Anna şehirde küçük bir apartmanda yaşıyor."
+  },
+  {
+    "question": "Тя живее с нейното семейство.",
+    "answer": "O ailesiyle yaşıyor."
+  },
+  {
+    "question": "Има и по-малък брат.",
+    "answer": "Onun daha küçük erkek kardeşi de var."
+  },
+  {
+    "question": "Апартаментът има три стаи – хол, кухня и спалня.",
+    "answer": "Apartmanda 3 oda var – oturma odası, mutfak ve yatak odası."
+  },
+  {
+    "question": "В хола има диван, маса и телевизор.",
+    "answer": "Oturma odasında koltuk, masa ve televizyon var."
+  },
+  {
+    "question": "Анна обича да гледа филми вечер с нейното семейство.",
+    "answer": "Anna akşamları ailesiyle film izlemeyi seviyor."
+  },
+  {
+    "question": "Сутрин тя яде закуска в кухнята.",
+    "answer": "O sabah mutfakta kahvaltı yiyor."
+  },
+  {
+    "question": "Майка и прави чай и хляб със сирене и яйце.",
+    "answer": "Annesi çay, peynirli ekmek ve yumurta yapıyor."
+  },
+  {
+    "question": "След училище Анна пише домашни в стаята.",
+    "answer": "Okuldan sonra Anna odasında ödevini yazıyor."
+  },
+  {
+    "question": "Стаята и е чиста и светла.",
+    "answer": "Odası temiz ve aydınlık."
+  },
+  {
+    "question": "Има бюро, стол и рафт с книги.",
+    "answer": "Büro, sandalye ve kitaplık var."
+  },
+  {
+    "question": "Вечер в 20 часа всички ядат вечеря заедно.",
+    "answer": "Akşam saat 8’de herkes beraber akşam yemeği yiyor."
+  },
+  {
+    "question": "Говорят и се смеят.",
+    "answer": "Konuşuyorlar ve gülüyorlar."
+  },
+  {
+    "question": "Анна обича къщата и семейството си, защото там е хубаво и спокойно.",
+    "answer": "Anna evini ve ailesini seviyor, çünkü orası güzel ve sakin/huzurlu."
+  },
+  {
+    "question": "Сега е зима.",
+    "answer": "Şimdi kış."
+  },
+  {
+    "question": "Има много сняг и всичко е бяло.",
+    "answer": "Çok kar var ve her şey beyaz."
+  },
+  {
+    "question": "Семейството на Ели сега е на почивка в планината.",
+    "answer": "Eli’nin ailesi şimdi dağda tatilde."
+  },
+  {
+    "question": "Те са в малка хижа близо до ски пистата.",
+    "answer": "Onlar küçük bir dağ evinde kayak pistinin yakınlarında."
+  },
+  {
+    "question": "Сутрин пият чай и за закуска ядат топли банички.",
+    "answer": "Sabahları çay içiyorlar ve kahvaltı için sıcak baniçka yiyorlar."
+  },
+  {
+    "question": "След това Ели и нейният брат карат ски.",
+    "answer": "Sonra Eli ve erkek kardeşi kayak yapıyor."
+  },
+  {
+    "question": "Майка им прави снимки.",
+    "answer": "Anneleri onların fotoğrafını çekiyor."
+  },
+  {
+    "question": "За обяд всички отиват в хижата.",
+    "answer": "Öğlen yemeği için hepsi dağ evine gidiyorlar."
+  },
+  {
+    "question": "Там е топло.",
+    "answer": "Orası sıcak."
+  },
+  {
+    "question": "В камината дървата горят.",
+    "answer": "Şöminede odunlar yanıyor."
+  },
+  {
+    "question": "Следобед играят на игри на маса и пият горещ шоколад.",
+    "answer": "Öğleden sonra masa oyunları oynuyorlar ve sıcak çikolata içiyorlar."
+  },
+  {
+    "question": "Вечер след 19 часа гледат филм и слушат музика.",
+    "answer": "Akşam 7’den sonra film izliyorlar ve müzik dinliyorlar."
+  },
+  {
+    "question": "Всички са много весели.",
+    "answer": "Hepsi çok neşeli."
+  },
+  {
+    "question": "Зимната почивка е прекрасна!",
+    "answer": "Kış tatili harika!"
+  },
+  {
+    "question": "Няма училище.",
+    "answer": "Okul yok."
+  },
+  {
+    "question": "Алекс става в 8ETT часа и прави чай.",
+    "answer": "Aleks 8’de kalkıyor ve çay yapıyor."
+  },
+  {
+    "question": "Той яде за закуска сандвич с домат и сирене.",
+    "answer": "O kahvaltı için domatesli ve peynirli sandviç yiyor."
+  },
+  {
+    "question": "След това чисти стаята и подрежда книгите.",
+    "answer": "Ondan sonra odasını temizliyor ve kitapları düzenliyor."
+  },
+  {
+    "question": "Майка му готви обяд в кухнята.",
+    "answer": "Annesi mutfakta öğle yemeği yapıyor/pişiriyor."
+  },
+  {
+    "question": "Мирише вкусно!",
+    "answer": "Lezzetli kokuyor!"
+  },
+  {
+    "question": "За обяд има супа и пиле с ориз.",
+    "answer": "Öğle yemeği için çorba ve tavuklu pilav var."
+  },
+  {
+    "question": "Следобяд Алекс чете книга и слуша музика.",
+    "answer": "Öğleden sonra Aleks kitap okuyor ve müzik dinliyor."
+  },
+  {
+    "question": "Вечерта отива на кино с приятели.",
+    "answer": "Akşam arkadaşlarıyla sinemaya gidiyor."
+  },
+  {
+    "question": "Те са много щастливи, защото филмът е много интересен.",
+    "answer": "Onlar çok mutlu, çünkü film çok ilginç."
+  },
+  {
+    "question": "Събота е весел и интересен ден за Алекс и неговите приятели.",
+    "answer": "Cumartesi Aleks ve arkadaşları için neşeli ve ilginç bir gün."
+  },
+  {
+    "question": "Иван и семейството му отиват на село за събота и неделя.",
+    "answer": "İvan ve ailesi cumartesi ve pazar için köye gidiyorlar."
+  },
+  {
+    "question": "Там живеят баба му и дядо му.",
+    "answer": "Orada büyükannesi ve dedesi yaşıyor."
+  },
+  {
+    "question": "Селото е красиво и тихо.",
+    "answer": "Köy güzel ve sessiz."
+  },
+  {
+    "question": "Къщата е стара, но приятна.",
+    "answer": "Ev eski ama güzel/hoş."
+  },
+  {
+    "question": "В двора има много цветя и една котка.",
+    "answer": "Bahçede çok çiçek ve bir kedi var."
+  },
+  {
+    "question": "Баба му прави домашна баница, а дядо му показва градината и животните.",
+    "answer": "Büyükannesi ev böreği yapıyor, dedesi bahçeyi ve hayvanları gösteriyor."
+  },
+  {
+    "question": "Има домати, краставици, чушки, ябълки, праскови, череши и грозде.",
+    "answer": "Domates, salatalık, biber, elma, şeftali, kiraz ve üzüm var."
+  },
+  {
+    "question": "Иван много обича череши и праскови.",
+    "answer": "İvan kiraz ve şeftaliyi çok seviyor."
+  },
+  {
+    "question": "Следобед всички пият сок на двора и говорят.",
+    "answer": "Öğleden sonra herkes bahçede meyve suyu içiyor ve konuşuyor."
+  },
+  {
+    "question": "Вечер гледат звездите и слушат радио.",
+    "answer": "Akşam yıldızları izliyorlar ve radyo dinliyorlar."
+  },
+  {
+    "question": "Иван не иска да си тръгва, защото много му харесва.",
+    "answer": "İvan gitmek istemiyor, çünkü çok hoşuna gidiyor."
+  },
+  {
+    "question": "Той обича селото, животните, цветята и плодовете.",
+    "answer": "O köyü, hayvanları, çiçekleri ve meyveleri seviyor."
+  },
+  {
+    "question": "Мария отива на гарата рано сутрин.",
+    "answer": "Mariya tren istasyonuna sabah erken gidiyor."
+  },
+  {
+    "question": "Тя чака влака за София.",
+    "answer": "O Sofya’ya giden treni bekliyor."
+  },
+  {
+    "question": "Гарата е голяма и има много хора.",
+    "answer": "İstasyon büyük ve çok insan var."
+  },
+  {
+    "question": "Мария купува билет от касата.",
+    "answer": "Mariya gişeden bilet alıyor."
+  },
+  {
+    "question": "После сяда на пейката и гледа влаковете.",
+    "answer": "Sonra bankta oturuyor ve trenleri izliyor."
+  },
+  {
+    "question": "Влакът идва точно в 7 и 15 часа.",
+    "answer": "Tren tam saat 7:15’te geliyor."
+  },
+  {
+    "question": "Тя се качва във влака и сяда на мястото си.",
+    "answer": "O trene biniyor ve yerine oturuyor."
+  },
+  {
+    "question": "Пътниците говорят тихо.",
+    "answer": "Yolcular sessizce konuşuyor."
+  },
+  {
+    "question": "Влакът тръгва и Мария гледа през прозореца.",
+    "answer": "Tren hareket ediyor ve Mariya pencereden bakıyor."
+  },
+  {
+    "question": "Тя вижда планини, къщи, коли и хора.",
+    "answer": "O dağlar, evler, arabalar ve insanlar görüyor."
+  },
+  {
+    "question": "Всичко е спокойно и приятно.",
+    "answer": "Her şey sakin ve hoş."
+  },
+  {
+    "question": "След 5 часа Мария идва в София.",
+    "answer": "5 saat sonra Mariya Sofya’ya varıyor."
+  },
+  {
+    "question": "Петър и Елена отиват в ресторант.",
+    "answer": "Petar ve Elena restorana gidiyor."
+  },
+  {
+    "question": "Те седят на маса до прозореца.",
+    "answer": "Onlar pencerenin yanındaki masaya oturuyor."
+  },
+  {
+    "question": "Сервитьорът идва и дава менюто.",
+    "answer": "Garson geliyor ve menüyü veriyor."
+  },
+  {
+    "question": "Петър поръчва салата и пилешко шишче.",
+    "answer": "Petar salata ve tavuk şiş sipariş ediyor."
+  },
+  {
+    "question": "Елена иска супа и риба.",
+    "answer": "Elena çorba ve balık istiyor."
+  },
+  {
+    "question": "Те пият вода и вино.",
+    "answer": "Onlar su ve şarap içiyor."
+  },
+  {
+    "question": "Храната идва бързо.",
+    "answer": "Yemek hızlıca geliyor."
+  },
+  {
+    "question": "Тя е вкусна и топла.",
+    "answer": "Yemek lezzetli ve sıcak."
+  },
+  {
+    "question": "След това те благодарят и искат сметката.",
+    "answer": "Sonra teşekkür ediyorlar ve hesabı istiyorlar."
+  },
+  {
+    "question": "Петър плаща сметката и казва: „Благодаря за обслужването! Всичко беше много вкусно!“",
+    "answer": "Petar hesabı ödüyor ve diyor: “Hizmet için teşekkürler! Her şey çok lezzetliydi!”"
+  },
+  {
+    "question": "Сервитьорът им се усмихва и казва: „Моля! Заповядайте отново!“",
+    "answer": "Garson onlara gülümsüyor ve diyor: “Rica ederim! Yine buyurun!”"
+  },
+  {
+    "question": "Иван отива на пазара.",
+    "answer": "İvan pazara gidiyor."
+  },
+  {
+    "question": "Той купува плодове и зеленчуци.",
+    "answer": "O meyve ve sebze alıyor."
+  },
+  {
+    "question": "На пазара има много пресни плодове и зеленчуци.",
+    "answer": "Pazarda çok taze meyve ve sebze var."
+  },
+  {
+    "question": "Иван купува домати, краставици и чушки.",
+    "answer": "İvan domates, salatalık ve biber alıyor."
+  },
+  {
+    "question": "После купува ябълки, банани и портокали.",
+    "answer": "Sonra elma, muz ve portakal alıyor."
+  },
+  {
+    "question": "Той пита продавача: „Колко струват тези домати?“",
+    "answer": "O satıcıya soruyor: “Bu domatesler ne kadar?”"
+  },
+  {
+    "question": "Продавачът: „Доматите струват три лева килограма.“",
+    "answer": "Satıcı: “Domatesler kilo başına üç leva.”"
+  },
+  {
+    "question": "Иван плаща и отива към къщи с пълни торби.",
+    "answer": "İvan ödüyor ve torbaları dolu olarak eve gidiyor."
+  },
+  {
+    "question": "Той е много щастлив от покупката.",
+    "answer": "Alışverişten çok mutlu."
+  },
+  {
+    "question": "За вечеря прави вкусна салата с пресни зеленчуци.",
+    "answer": "Akşam yemeği için taze sebzelerle lezzetli bir salata yapıyor."
+  },
+  {
+    "question": "Мария отива в книжарницата.",
+    "answer": "Mariya kırtasiyeye gidiyor."
+  },
+  {
+    "question": "Тя купува нова книга, химикал и тетрадки за училище.",
+    "answer": "O okul için yeni bir kitap, kalem ve defter alıyor."
+  },
+  {
+    "question": "В книжарницата има много книги, учебници, романи, химикали и много други неща.",
+    "answer": "Kırtasiyede çok sayıda kitap, ders kitabı, roman, kalem ve başka şeyler var."
+  },
+  {
+    "question": "Мария пита продавача: „Къде са учебниците по български език?“",
+    "answer": "Mariya satıcıya soruyor: “Bulgarca ders kitapları nerede?”"
+  },
+  {
+    "question": "Продавачът посочва рафта и казва: „Ето тук, на ляво.“",
+    "answer": "Satıcı rafı gösteriyor ve diyor: “İşte burada, solda.”"
+  },
+  {
+    "question": "Мария избира учебник, тетрадка и червен химикал.",
+    "answer": "Mariya bir ders kitabı, defter ve kırmızı bir kalem seçiyor."
+  },
+  {
+    "question": "След това отива на касата.",
+    "answer": "Sonra kasaya gidiyor."
+  },
+  {
+    "question": "Тя е много щастлива.",
+    "answer": "O çok mutlu."
+  },
+  {
+    "question": "Днес Алекс и Деси отиват на кафене в центъра на града.",
+    "answer": "Bugün Aleks ve Desi şehir merkezinde bir kafeye gidiyor."
+  },
+  {
+    "question": "Те ще пият кафе и ще си говорят за интересни неща.",
+    "answer": "Onlar kahve içecek ve ilginç şeyler hakkında konuşacak."
+  },
+  {
+    "question": "Кафенето е тихо и спокойно и има много шарени цветя.",
+    "answer": "Kafe sessiz ve sakin, ve çok renkli çiçekler var."
+  },
+  {
+    "question": "Сервитьорът отива при тях и пита какво искат.",
+    "answer": "Garson yanlarına gidiyor ve ne istediklerini soruyor."
+  },
+  {
+    "question": "Алекс иска еспресо, а Деси иска чай с мед.",
+    "answer": "Aleks espresso istiyor, Desi ise ballı çay istiyor."
+  },
+  {
+    "question": "Те сядат до прозореца и гледат хората на улицата.",
+    "answer": "Pencerenin yanına oturuyorlar ve sokaktaki insanları izliyorlar."
+  },
+  {
+    "question": "След това плащат сметката и отиват в парка.",
+    "answer": "Sonra hesabı ödüyorlar ve parka gidiyorlar."
+  },
+  {
+    "question": "Алекс казва: „Днес беше много хубаво!“",
+    "answer": "Aleks diyor: “Bugün çok güzeldi!”"
+  },
+  {
+    "question": "Деси казва: „Да!“",
+    "answer": "Desi diyor: “Evet!”"
+  }
+]
