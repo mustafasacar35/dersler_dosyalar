@@ -1,5 +1,5 @@
 {
-  "currentIndex": 152,
+  "currentIndex": 67,
   "score": 0,
   "answers": [
     null,
@@ -69,7 +69,7 @@
     null,
     null,
     null,
-    null,
+    "dfhyd",
     null,
     null,
     null,
@@ -216,46 +216,52 @@
   ],
   "recentQuestions": [
     {
-      "index": 152,
-      "question": "ЕДНА ТИКВИЧКА (EDNA TIKVICHKA) (Dişil)",
+      "index": 67,
+      "question": "СЕДЯ (SEDYA)",
+      "answer": "dfhyd",
+      "correctAnswer": "OTURUYORUM",
+      "isCorrect": false
+    },
+    {
+      "index": 69,
+      "question": "СТАВАМ (STAVAM)",
       "answer": null,
-      "correctAnswer": "BİR KABAK",
+      "correctAnswer": "KALKIYORUM",
       "isCorrect": null
     },
     {
-      "index": 151,
-      "question": "ЕДИН КАРТОФ (EDIN KARTOF) (Eril)",
+      "index": 72,
+      "question": "ПРАВЯ (PRAVYA)",
       "answer": null,
-      "correctAnswer": "BİR PATATES",
+      "correctAnswer": "YAPIYORUM",
       "isCorrect": null
     },
     {
-      "index": 150,
-      "question": "ЕДНА ЧУШКА / ПИПЕР (EDNA CHUSHKA / PIPER) (Dişil / Eril)",
+      "index": 75,
+      "question": "ЖИВЕЯ (ZHIVEYA)",
       "answer": null,
-      "correctAnswer": "BİR BİBER",
+      "correctAnswer": "YAŞIYORUM",
       "isCorrect": null
     },
     {
-      "index": 149,
-      "question": "ЕДНО ЗЕЛЕ (EDNO ZELE) (Nötr)",
+      "index": 82,
+      "question": "ЧЕТА КНИГА (CHETA KNIGA)",
       "answer": null,
-      "correctAnswer": "BİR LAHANA",
-      "isCorrect": null
-    },
-    {
-      "index": 148,
-      "question": "ЕДИН МОРКОВ (EDIN MORKOV) (Eril)",
-      "answer": null,
-      "correctAnswer": "BİR HAVUÇ",
+      "correctAnswer": "KİTAP OKUYORUM",
       "isCorrect": null
     }
   ],
   "blacklist": [],
-  "wrongCount": {},
-  "priorityQueue": [],
-  "missedQuestions": [],
-  "questionCounter": 0,
+  "wrongCount": {
+    "67": 1
+  },
+  "priorityQueue": [
+    67
+  ],
+  "missedQuestions": [
+    67
+  ],
+  "questionCounter": 1,
   "isRandomOrder": false,
   "isTurkishQuestion": false,
   "lastSequentialIndex": 0,
