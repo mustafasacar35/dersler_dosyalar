@@ -1,0 +1,1254 @@
+[
+  {
+    "question": "БРАТ (BRAT)",
+    "answer": "KÜÇÜK ERKEK KARDEŞ"
+  },
+  {
+    "question": "СЕСТРА (SESTRA)",
+    "answer": "KÜÇÜK KIZ KARDEŞ"
+  },
+  {
+    "question": "КАКА (KAKA)",
+    "answer": "ABLA"
+  },
+  {
+    "question": "БАТКО (BATKO)",
+    "answer": "ABİ"
+  },
+  {
+    "question": "ЧИЧО (ÇİÇO)",
+    "answer": "AMCA"
+  },
+  {
+    "question": "ЛЕЛЯ (LELYA)",
+    "answer": "TEYZE (HALA)"
+  },
+  {
+    "question": "ВУЙЧО (VUYÇO)",
+    "answer": "DAYI"
+  },
+  {
+    "question": "ДЯДО (DYADO)",
+    "answer": "DEDE"
+  },
+  {
+    "question": "БАБА (BABA)",
+    "answer": "ANNEANNE (BABAANNE)"
+  },
+  {
+    "question": "СЪПРУГ (SIPRUG)",
+    "answer": "EŞ (ERKEK İÇİN)"
+  },
+  {
+    "question": "СЪПРУГА (SIPRUGA)",
+    "answer": "EŞ (KADIN İÇİN)"
+  },
+  {
+    "question": "СИН (SİN)",
+    "answer": "OĞUL"
+  },
+  {
+    "question": "ДЪЩЕРЯ (DIŞTERYA)",
+    "answer": "KIZ ÇOCUK"
+  },
+  {
+    "question": "БРАТОВЧЕД (BRATOVÇED)",
+    "answer": "ERKEK KUZEN"
+  },
+  {
+    "question": "БРАТОВЧЕДКА (BRATOVÇEDKA)",
+    "answer": "KIZ KUZEN"
+  },
+  {
+    "question": "МОМЧЕ (MOMÇE)",
+    "answer": "ERKEK (ERKEK ÇOCUK)"
+  },
+  {
+    "question": "МОМИЧЕ (MOMİÇE)",
+    "answer": "KIZ (KIZ ÇOCUK)"
+  },
+  {
+    "question": "ЦВЯТ (TSVYAT)",
+    "answer": "RENK"
+  },
+  {
+    "question": "ЦВЕТОВЕ (TSVETOVE)",
+    "answer": "RENKLER"
+  },
+  {
+    "question": "БЯЛ (BYAL)",
+    "answer": "BEYAZ"
+  },
+  {
+    "question": "БЕЛИ (BELI)",
+    "answer": "BEYAZLAR"
+  },
+  {
+    "question": "ЧЕРЕН (ÇEREN)",
+    "answer": "SİYAH"
+  },
+  {
+    "question": "ЧЕРНИ (ÇERNI)",
+    "answer": "SİYAHLAR"
+  },
+  {
+    "question": "ЧЕРВЕН (ÇERVEN)",
+    "answer": "KIRMIZI"
+  },
+  {
+    "question": "ЧЕРВЕНИ (ÇERVENI)",
+    "answer": "KIRMIZILAR"
+  },
+  {
+    "question": "СИН (SIN)",
+    "answer": "MAVİ"
+  },
+  {
+    "question": "СИНИ (SINI)",
+    "answer": "MAVİLER"
+  },
+  {
+    "question": "ЖЪЛТ (JILT)",
+    "answer": "SARI"
+  },
+  {
+    "question": "ЖЪЛТИ (JILTI)",
+    "answer": "SARILAR"
+  },
+  {
+    "question": "ЗЕЛЕН (ZELEN)",
+    "answer": "YEŞİL"
+  },
+  {
+    "question": "ЗЕЛЕНИ (ZELENI)",
+    "answer": "YEŞİLLER"
+  },
+  {
+    "question": "КАФЯВ (KAFYAV)",
+    "answer": "KAHVERENGİ"
+  },
+  {
+    "question": "КАФЕВИ (KAFEVI)",
+    "answer": "KAHVERENGİLER"
+  },
+  {
+    "question": "ОРАНЖЕВ (ORANJEV)",
+    "answer": "TURUNCU"
+  },
+  {
+    "question": "ОРАНЖЕВИ (ORANJEVI)",
+    "answer": "TURUNCULAR"
+  },
+  {
+    "question": "ЛИЛАВ (LİLAV)",
+    "answer": "MOR"
+  },
+  {
+    "question": "ЛИЛАВИ (LİLAVİ)",
+    "answer": "MORLAR"
+  },
+  {
+    "question": "РОЗОВ (ROZOV)",
+    "answer": "PEMBE"
+  },
+  {
+    "question": "РОЗОВИ (ROZOVI)",
+    "answer": "PEMBELER"
+  },
+  {
+    "question": "ШАРЕН (ŞAREN)",
+    "answer": "RENKLİ"
+  },
+  {
+    "question": "ШАРЕНИ (ŞARENİ)",
+    "answer": "RENKLİLER"
+  },
+  {
+    "question": "ЧЕРНО ПАЛТО",
+    "answer": "SİYAH KABAN"
+  },
+  {
+    "question": "ЧЕРНИ ПАЛТА",
+    "answer": "SİYAH KABANLAR"
+  },
+  {
+    "question": "ЧЕРНА КОЛА",
+    "answer": "SİYAH ARABA"
+  },
+  {
+    "question": "ЧЕРНИ КОЛИ",
+    "answer": "SİYAH ARABALAR"
+  },
+  {
+    "question": "ЧЕРЕН ХИМИКАЛ",
+    "answer": "SİYAH TÜKENMEZ KALEM"
+  },
+  {
+    "question": "ЧЕРНИ ХИМИКАЛИ",
+    "answer": "SİYAH TÜKENMEZ KALEMLER"
+  },
+  {
+    "question": "СИН МОЛИВ",
+    "answer": "MAVİ KALEM"
+  },
+  {
+    "question": "СИНИ МОЛИВИ",
+    "answer": "MAVİ KALEMLER"
+  },
+  {
+    "question": "СИНЬО ЦВЕТЕ",
+    "answer": "MAVİ ÇİÇEK"
+  },
+  {
+    "question": "СИНИ ЦВЕТЯ",
+    "answer": "MAVİ ÇİÇEKLER"
+  },
+  {
+    "question": "СИНЯ КОЛА",
+    "answer": "MAVİ ARABA"
+  },
+  {
+    "question": "СИНИ КОЛИ",
+    "answer": "MAVİ ARABALAR"
+  },
+  {
+    "question": "ЗЕЛЕН СТОЛ",
+    "answer": "YEŞİL SANDALYE"
+  },
+  {
+    "question": "ЗЕЛЕНИ СТОЛОВЕ",
+    "answer": "YEŞİL SANDALYELER"
+  },
+  {
+    "question": "ЗЕЛЕНО ПАЛТО",
+    "answer": "YEŞİL KABAN"
+  },
+  {
+    "question": "ЗЕЛЕНИ ПАЛТА",
+    "answer": "YEŞİL KABANLAR"
+  },
+  {
+    "question": "ЗЕЛЕНА ЧАША",
+    "answer": "YEŞİL BARDAK"
+  },
+  {
+    "question": "ЗЕЛЕНИ ЧАШИ",
+    "answer": "YEŞİL BARDAKLAR"
+  },
+  {
+    "question": "ЛИЛАВ ПАНТАЛОН",
+    "answer": "MOR PANTOLON"
+  },
+  {
+    "question": "ЛИЛАВИ ПАНТАЛОНИ",
+    "answer": "MOR PANTOLONLAR"
+  },
+  {
+    "question": "ЛИЛАВА ТЕНИСКА",
+    "answer": "MOR TİŞÖRT"
+  },
+  {
+    "question": "ЛИЛАВИ ТЕНИСКИ",
+    "answer": "MOR TİŞÖRTLER"
+  },
+  {
+    "question": "ЛИЛАВО КОЛЕЛО",
+    "answer": "MOR BİSİKLET"
+  },
+  {
+    "question": "ЛИЛАВИ КОЛЕЛА",
+    "answer": "MOR BİSİKLETLER"
+  },
+  {
+    "question": "РОЗОВ СОК",
+    "answer": "PEMBE MEYVE SUYU"
+  },
+  {
+    "question": "РОЗОВИ СОКОВЕ",
+    "answer": "PEMBE MEYVE SULARI"
+  },
+  {
+    "question": "РОЗОВА ВРАТА",
+    "answer": "PEMBE KAPI"
+  },
+  {
+    "question": "РОЗОВИ ВРАТИ",
+    "answer": "PEMBE KAPILAR"
+  },
+  {
+    "question": "РОЗОВО КОЛЕЛО",
+    "answer": "PEMBE BİSİKLET"
+  },
+  {
+    "question": "РОЗОВИ КОЛЕЛА",
+    "answer": "PEMBE BİSİKLETLER"
+  },
+  {
+    "question": "КАФЯВ КОЛАН",
+    "answer": "KAHVERENGİ KEMER"
+  },
+  {
+    "question": "КАФЕВИ КОЛАНИ",
+    "answer": "KAHVERENGİ KEMERLER"
+  },
+  {
+    "question": "КАФЯВА ЧАНТА",
+    "answer": "KAHVERENGİ ÇANTA"
+  },
+  {
+    "question": "КАФЕВИ ЧАНТИ",
+    "answer": "KAHVERENGİ ÇANTALAR"
+  },
+  {
+    "question": "КАФЯВО ЦВЕТЕ",
+    "answer": "KAHVERENGİ ÇİÇEK"
+  },
+  {
+    "question": "КАФЕВИ ЦВЕТЯ",
+    "answer": "KAHVERENGİ ÇİÇEKLER"
+  },
+  {
+    "question": "ОРАНЖЕВ ПОРТОКАЛ",
+    "answer": "TURUNCU PORTAKAL"
+  },
+  {
+    "question": "ОРАНЖЕВИ ПОРТОКАЛИ",
+    "answer": "TURUNCU PORTAKALLAR"
+  },
+  {
+    "question": "ОРАНЖЕВА МАСА",
+    "answer": "TURUNCU MASA"
+  },
+  {
+    "question": "ОРАНЖЕВИ МАСИ",
+    "answer": "TURUNCU MASALAR"
+  },
+  {
+    "question": "ОРАНЖЕВО КОЛЕЛО",
+    "answer": "TURUNCU BİSİKLET"
+  },
+  {
+    "question": "ОРАНЖЕВИ КОЛЕЛА",
+    "answer": "TURUNCU BİSİKLETLER"
+  },
+  {
+    "question": "ШАРЕН ПАНТАЛОН",
+    "answer": "RENKLİ PANTOLON"
+  },
+  {
+    "question": "ШАРЕНИ ПАНТАЛОНИ",
+    "answer": "RENKLİ PANTOLONLAR"
+  },
+  {
+    "question": "ШАРЕНА ШАПКА",
+    "answer": "RENKLİ ŞAPKA"
+  },
+  {
+    "question": "ШАРЕНИ ШАПКИ",
+    "answer": "RENKLİ ŞAPKALAR"
+  },
+  {
+    "question": "ШАРЕНО КОЛЕЛО",
+    "answer": "RENKLİ BİSİKLET"
+  },
+  {
+    "question": "ШАРЕНИ КОЛЕЛА",
+    "answer": "RENKLİ BİSİKLETLER"
+  },
+  {
+    "question": "ОБИЧАМ РОЗОВ ЦВЯТ (OBİÇAM ROZOV TSVYAT)",
+    "answer": "PEMBE RENGİ SEVİYORUM"
+  },
+  {
+    "question": "ОБИЧАМ ЧЕРЕН ЦВЯТ (OBİÇAM ÇEREN TSVYAT)",
+    "answer": "SİYAH RENGİ SEVİYORUM"
+  },
+  {
+    "question": "КОЙ Е ТОЗИ ЦВЯТ? (KOY E TOZİ TSVYAT)",
+    "answer": "BU HANGİ RENK?"
+  },
+  {
+    "question": "ТОВА Е СИН ЦВЯТ (TOVA E SİN TSVYAT)",
+    "answer": "BU MAVİ RENK"
+  },
+  {
+    "question": "ТОВА Е БЯЛ ЦВЯТ (TOVA E BYAL TSVYAT)",
+    "answer": "BU BEYAZ RENK"
+  },
+  {
+    "question": "ТОВА Е ЧЕРВЕН ЦВЯТ (TOVA E ÇERVEN TSVYAT)",
+    "answer": "BU KIRMIZI RENK"
+  },
+  {
+    "question": "ТОВА Е ЧЕРЕН ЦВЯТ (TOVA E ÇEREN TSVYAT)",
+    "answer": "BU SİYAH RENK"
+  },
+  {
+    "question": "ТОВА Е ЗЕЛЕН ЦВЯТ (TOVA E ZELEN TSVYAT)",
+    "answer": "BU YEŞİL RENK"
+  },
+  {
+    "question": "ТОВА Е ЛИЛАВ ЦВЯТ (TOVA E LİLAV TSVYAT)",
+    "answer": "BU MOR RENK"
+  },
+  {
+    "question": "ТОВА Е РОЗОВ ЦВЯТ (TOVA E ROZOV TSVYAT)",
+    "answer": "BU PEMBE RENK"
+  },
+  {
+    "question": "ТОВА Е ОРАНЖЕВ ЦВЯТ (TOVA E ORANJEV TSVYAT)",
+    "answer": "BU TURUNCU RENK"
+  },
+  {
+    "question": "ТОВА Е КАФЯВ ЦВЯТ (TOVA E KAFYAV TSVYAT)",
+    "answer": "BU KAHVERENGİ RENK"
+  },
+  {
+    "question": "ЯНУАРИ (YANUARİ)",
+    "answer": "OCAK"
+  },
+  {
+    "question": "ФЕВРУАРИ (FEVRUARİ)",
+    "answer": "ŞUBAT"
+  },
+  {
+    "question": "МАРТ (MART)",
+    "answer": "MART"
+  },
+  {
+    "question": "АПРИЛ (APRİL)",
+    "answer": "NİSAN"
+  },
+  {
+    "question": "МАЙ (MAY)",
+    "answer": "MAYIS"
+  },
+  {
+    "question": "ЮНИ (YUNİ)",
+    "answer": "HAZİRAN"
+  },
+  {
+    "question": "ЮЛИ (YULİ)",
+    "answer": "TEMMUZ"
+  },
+  {
+    "question": "АВГУСТ (AVGUST)",
+    "answer": "AĞUSTOS"
+  },
+  {
+    "question": "СЕПТЕМВРИ (SEPTEMVRİ)",
+    "answer": "EYLÜL"
+  },
+  {
+    "question": "ОКТОМВРИ (OKTOMVRİ)",
+    "answer": "EKİM"
+  },
+  {
+    "question": "НОЕМВРИ (NOEMVRİ)",
+    "answer": "KASIM"
+  },
+  {
+    "question": "ДЕКЕМВРИ (DEKEMVRİ)",
+    "answer": "ARALIK"
+  },
+  {
+    "question": "ТОВА КОЙ МЕСЕЦ Е? (TOVA KOY MESETS E?)",
+    "answer": "BU HANGİ AY?"
+  },
+  {
+    "question": "ТОВА Е МЕСЕЦ МАРТ (TOVA E MESETS MART)",
+    "answer": "BU MART AYI"
+  },
+  {
+    "question": "ТОВА Е МАРТ МЕСЕЦ (TOVA E MART MESETS)",
+    "answer": "BU MART AYI"
+  },
+  {
+    "question": "ТОВА Е АВГУСТ МЕСЕЦ (TOVA E AVGUST MESETS)",
+    "answer": "BU AĞUSTOS AYI"
+  },
+  {
+    "question": "ДНЕС (DNES)",
+    "answer": "BUGÜN"
+  },
+  {
+    "question": "ВЧЕРА (VÇERA)",
+    "answer": "DÜN"
+  },
+  {
+    "question": "УТРЕ (UTRE)",
+    "answer": "YARIN"
+  },
+  {
+    "question": "СЕГА (SEGA)",
+    "answer": "ŞİMDİ (ŞU AN)"
+  },
+  {
+    "question": "ДЕН (DEN)",
+    "answer": "GÜN"
+  },
+  {
+    "question": "СЕДМИЦА (SEDMİTSA)",
+    "answer": "HAFTA"
+  },
+  {
+    "question": "МЕСЕЦ (MESETS)",
+    "answer": "AY"
+  },
+  {
+    "question": "ГОДИНА (GODİNA)",
+    "answer": "YIL"
+  },
+  {
+    "question": "КОГА? (KOGA)",
+    "answer": "NE ZAMAN?"
+  },
+  {
+    "question": "ПОНЕДЕЛНИК (PONEDELNİK)",
+    "answer": "PAZARTESİ"
+  },
+  {
+    "question": "ВТОРНИК (VTORNİK)",
+    "answer": "SALI"
+  },
+  {
+    "question": "СРЯДА (SRYADA)",
+    "answer": "ÇARŞAMBA"
+  },
+  {
+    "question": "ЧЕТВЪРТЪК (ÇETVIRTIK)",
+    "answer": "PERŞEMBE"
+  },
+  {
+    "question": "ПЕТЪК (PETIK)",
+    "answer": "CUMA"
+  },
+  {
+    "question": "СЪБОТА (SIBOTA)",
+    "answer": "CUMARTESİ"
+  },
+  {
+    "question": "НЕДЕЛЯ (NEDELYA)",
+    "answer": "PAZAR"
+  },
+  {
+    "question": "КОЙ ДЕН Е? (KOY DEN E?)",
+    "answer": "HANGİ GÜN?"
+  },
+  {
+    "question": "ДНЕС Е ПЕТЪК (DNES E PETIK)",
+    "answer": "BUGÜN CUMA"
+  },
+  {
+    "question": "ДНЕС Е ВТОРНИК (DNES E VTORNİK)",
+    "answer": "BUGÜN SALI"
+  },
+  {
+    "question": "СЕГА Е ПОНЕДЕЛНИК (SEGA E PONEDELNİK)",
+    "answer": "ŞİMDİ PAZARTESİ"
+  },
+  {
+    "question": "УТРЕ КОЙ ДЕН Е? (UTRE KOY DEN E?)",
+    "answer": "YARIN HANGİ GÜN?"
+  },
+  {
+    "question": "УТРЕ Е СЪБОТА (UTRE E SIBOTA)",
+    "answer": "YARIN CUMARTESİ"
+  },
+  {
+    "question": "УТРЕ Е НЕДЕЛЯ (UTRE E NEDELYA)",
+    "answer": "YARIN PAZAR"
+  },
+  {
+    "question": "ПРОЛЕТ (PROLET)",
+    "answer": "İLKBAHAR"
+  },
+  {
+    "question": "ЛЯТО (LYATO)",
+    "answer": "YAZ"
+  },
+  {
+    "question": "ЕСЕН (ESEN)",
+    "answer": "SONBAHAR"
+  },
+  {
+    "question": "ЗИМА (ZİMA)",
+    "answer": "KIŞ"
+  },
+  {
+    "question": "СЕГА КОЙ СЕЗОН Е? (SEGA KOY SEZON E?)",
+    "answer": "ŞİMDİ HANGİ MEVSİM?"
+  },
+  {
+    "question": "СЕГА Е ПРОЛЕТ (SEGA E PROLET)",
+    "answer": "ŞİMDİ İLKBAHAR"
+  },
+  {
+    "question": "СЕГА Е ЛЯТО (SEGA E LYATO)",
+    "answer": "ŞİMDİ YAZ"
+  },
+  {
+    "question": "СЕГА Е ЕСЕН (SEGA E ESEN)",
+    "answer": "ŞİMDİ SONBAHAR"
+  },
+  {
+    "question": "СЕГА Е ЗИМА (SEGA E ZİMA)",
+    "answer": "ŞİMDİ KIŞ"
+  },
+  {
+    "question": "ЧИСЛО (ÇİSLO)",
+    "answer": "SAYI"
+  },
+  {
+    "question": "ЧИСЛА (ÇİSLA)",
+    "answer": "SAYILAR"
+  },
+  {
+    "question": "НОМЕР (NOMER)",
+    "answer": "NUMARA"
+  },
+  {
+    "question": "НУЛА (NULA)",
+    "answer": "0"
+  },
+  {
+    "question": "ЕДНО (EDNO)",
+    "answer": "1"
+  },
+  {
+    "question": "ДВЕ (DVE)",
+    "answer": "2"
+  },
+  {
+    "question": "ТРИ (TRİ)",
+    "answer": "3"
+  },
+  {
+    "question": "ЧЕТИРИ (ÇETİRİ)",
+    "answer": "4"
+  },
+  {
+    "question": "ПЕТ (PET)",
+    "answer": "5"
+  },
+  {
+    "question": "ШЕСТ (ŞEST)",
+    "answer": "6"
+  },
+  {
+    "question": "СЕДЕМ (SEDEM)",
+    "answer": "7"
+  },
+  {
+    "question": "ОСЕМ (OSEM)",
+    "answer": "8"
+  },
+  {
+    "question": "ДЕВЕТ (DEVET)",
+    "answer": "9"
+  },
+  {
+    "question": "ДЕСЕТ (DESET)",
+    "answer": "10"
+  },
+  {
+    "question": "ЕДИНАДЕСЕТ (EDİNADESET)",
+    "answer": "11"
+  },
+  {
+    "question": "ЕДИНАЙСЕ (EDİNAYSE)",
+    "answer": "11 (KISALTILMIŞ)"
+  },
+  {
+    "question": "ДВАНАДЕСЕТ (DVANADESET)",
+    "answer": "12"
+  },
+  {
+    "question": "ДВАНАЙСЕ (DVANAYSE)",
+    "answer": "12 (KISALTILMIŞ)"
+  },
+  {
+    "question": "ТРИНАДЕСЕТ (TRİNADESET)",
+    "answer": "13"
+  },
+  {
+    "question": "ТРИНАЙСЕ (TRİNAYSE)",
+    "answer": "13 (KISALTILMIŞ)"
+  },
+  {
+    "question": "ЧЕТИРИНАДЕСЕТ (ÇETİRİNADESET)",
+    "answer": "14"
+  },
+  {
+    "question": "ЧЕТИРИНАЙСЕ (ÇETİRİNAYSE)",
+    "answer": "14 (KISALTILMIŞ)"
+  },
+  {
+    "question": "ПЕТНАДЕСЕТ (PETNADESET)",
+    "answer": "15"
+  },
+  {
+    "question": "ПЕТНАЙСЕ (PETNAYSE)",
+    "answer": "15 (KISALTILMIŞ)"
+  },
+  {
+    "question": "ШЕСТНАДЕСЕТ (ŞESTNADESET)",
+    "answer": "16"
+  },
+  {
+    "question": "ШЕСНАЙСЕ (ŞESNAYSE)",
+    "answer": "16 (KISALTILMIŞ)"
+  },
+  {
+    "question": "СЕДЕМНАДЕСЕТ (SEDEMNADESET)",
+    "answer": "17"
+  },
+  {
+    "question": "СЕДЕМНАЙСЕ (SEDEMNAYSE)",
+    "answer": "17 (KISALTILMIŞ)"
+  },
+  {
+    "question": "ОСЕМНАДЕСЕТ (OSEMNADESET)",
+    "answer": "18"
+  },
+  {
+    "question": "ОСЕМНАЙСЕ (OSEMNAYSE)",
+    "answer": "18 (KISALTILMIŞ)"
+  },
+  {
+    "question": "ДЕВЕТНАДЕСЕТ (DEVETNADESET)",
+    "answer": "19"
+  },
+  {
+    "question": "ДЕВЕТНАЙСЕ (DEVETNAYSE)",
+    "answer": "19 (KISALTILMIŞ)"
+  },
+  {
+    "question": "ДВАДЕСЕТ (DVADESET)",
+    "answer": "20"
+  },
+  {
+    "question": "ДВАЙСЕ (DVAYSE)",
+    "answer": "20 (KISALTILMIŞ)"
+  },
+  {
+    "question": "КОЕ Е ТОВА ЧИСЛО? (KOE E TOVA ÇISLO)",
+    "answer": "BU HANGİ SAYI?"
+  },
+  {
+    "question": "ТОВА ЧИСЛО КОЕ Е? (TOVA ÇİSLO KOE E)",
+    "answer": "BU HANGİ SAYI?"
+  },
+  {
+    "question": "ТОВА Е ТРИ (TOVA E TRİ)",
+    "answer": "BU 3"
+  },
+  {
+    "question": "ТОВА ЧИСЛО Е ТРИ (TOVA ÇİSLO E TRİ)",
+    "answer": "BU SAYI 3"
+  },
+  {
+    "question": "ТОВА Е ЕДНА КОТКА (TOVA E EDNA KOTKA)",
+    "answer": "BU BİR KEDİ"
+  },
+  {
+    "question": "ТОВА Е ЕДНА ЧЕРНА КОТКА (TOVA E EDNA ÇERNA KOTKA)",
+    "answer": "BU SİYAH BİR KEDİ"
+  },
+  {
+    "question": "ТОВА СА ЧЕТИРИ СИНИ МАСИ (TOVA SA ÇETİRİ SİNİ MASİ)",
+    "answer": "BUNLAR 4 MAVİ MASA"
+  },
+  {
+    "question": "ТОВА СА ДЕСЕТ ЧЕРНИ ХИМИКАЛИ (TOVA SA DESET ÇERNİ HİMİKALİ)",
+    "answer": "BUNLAR 10 SİYAH TÜKENMEZ KALEM"
+  },
+  {
+    "question": "ТОВА Е ЕДИН БЯЛ ХИМИКАЛ (TOVA E EDİN BYAL HİMİKAL)",
+    "answer": "BU BİR BEYAZ TÜKENMEZ KALEM"
+  },
+  {
+    "question": "ТОВА СА ШЕСТ РОЗОВИ ОБУВКИ (TOVA SA ŞEST ROZOVİ OBUVKİ)",
+    "answer": "BUNLAR 6 PEMBE AYAKKABI"
+  },
+  {
+    "question": "ТОВА Е ЕДНА ЧЕРНА КОЛА (TOVA E EDNA ÇERNA KOLA)",
+    "answer": "BU BİR SİYAH ARABA"
+  },
+  {
+    "question": "ТОВА СА СЕДЕМ ЧЕРНИ КОЛИ (TOVA SA SEDEM ÇERNİ KOLİ)",
+    "answer": "BUNLAR 7 SİYAH ARABA"
+  },
+  {
+    "question": "ТОВА СА ОСЕМ ЛИЛАВИ МАСИ (TOVA SA OSEM LİLAVİ MASİ)",
+    "answer": "BUNLAR 8 MOR MASA"
+  },
+  {
+    "question": "ТОВА Е ЕДНА ЖЪЛТА ТЕТРАДКА (TOVA E EDNA JILTA TETRADKA)",
+    "answer": "BU BİR SARI DEFTER"
+  },
+  {
+    "question": "ТОВА СА ПЕТ БЕЛИ КОТКИ (TOVA SA PET BELİ KOTKİ)",
+    "answer": "BUNLAR 5 BEYAZ KEDİ"
+  },
+  {
+    "question": "ТОВА СА ДВЕ КАФЕВИ ВРАТИ (TOVA SA DVE KAFEVİ VRATİ)",
+    "answer": "BUNLAR 2 KAHVERENGİ KAPI"
+  },
+  {
+    "question": "ТОВА СА ДЕВЕТ ШАРЕНИ ТЕНИСКИ (TOVA SA DEVET ŞARENİ TENİSKİ)",
+    "answer": "BUNLAR 9 RENKLİ TİŞÖRT"
+  },
+  {
+    "question": "ТОВА СА ТРИНАЙСЕ РОЗОВИ ЯБЪЛКИ (TOVA SA TRİNAYSE ROZOVİ YABILKİ)",
+    "answer": "BUNLAR 13 PEMBE ELMA"
+  },
+  {
+    "question": "ТОВА СА ЕДНИ СИНИ ОЧИ (TOVA SA EDNİ SİNİ OÇİ)",
+    "answer": "BUNLAR MAVİ GÖZLER"
+  },
+  {
+    "question": "ИСКАМ (İSKAM)",
+    "answer": "İSTİYORUM"
+  },
+  {
+    "question": "ГЛЕДАМ (GLEDAM)",
+    "answer": "BAKIYORUM / GÖRÜYORUM"
+  },
+  {
+    "question": "АЗ СЪМ (AZ SIM)",
+    "answer": "BENİM"
+  },
+  {
+    "question": "ТИ СИ (Tİ Sİ)",
+    "answer": "SENSİN"
+  },
+  {
+    "question": "ТОЙ Е (TOY E)",
+    "answer": "O (ERİL)"
+  },
+  {
+    "question": "ТЯ Е (TYA E)",
+    "answer": "O (DİŞİL)"
+  },
+  {
+    "question": "ТО Е (TO E)",
+    "answer": "O (NÖTR)"
+  },
+  {
+    "question": "НИЕ СМЕ (NİE SME)",
+    "answer": "BİZİZ"
+  },
+  {
+    "question": "ВИЕ СТЕ (VİE STE)",
+    "answer": "SİZSİNİZ"
+  },
+  {
+    "question": "ТЕ СА (TE SA)",
+    "answer": "ONLAR"
+  },
+  {
+    "question": "ВИЕ КАК СТЕ? (VİE KAK STE?)",
+    "answer": "SİZ NASILSINIZ?"
+  },
+  {
+    "question": "ДОБРЕ СЪМ (DOBRE SIM)",
+    "answer": "İYİYİM"
+  },
+  {
+    "question": "АЗ СЪМ ДОБРЕ (AZ SIM DOBRE)",
+    "answer": "BEN İYİYİM"
+  },
+  {
+    "question": "БОЛЕН (BOLEN)",
+    "answer": "HASTA (ERİL)"
+  },
+  {
+    "question": "БОЛНА (BOLNA)",
+    "answer": "HASTA (DİŞİL)"
+  },
+  {
+    "question": "БОЛНО (BOLNO)",
+    "answer": "HASTA (NÖTR)"
+  },
+  {
+    "question": "БОЛНИ (BOLNİ)",
+    "answer": "HASTALAR (ÇOĞUL)"
+  },
+  {
+    "question": "МАЛЪК (MALIK)",
+    "answer": "KÜÇÜK (ERİL)"
+  },
+  {
+    "question": "МАЛКА (MALKA)",
+    "answer": "KÜÇÜK (DİŞİL)"
+  },
+  {
+    "question": "МАЛКО (MALKO)",
+    "answer": "KÜÇÜK (NÖTR)"
+  },
+  {
+    "question": "МАЛКИ (MALKİ)",
+    "answer": "KÜÇÜKLER (ÇOĞUL)"
+  },
+  {
+    "question": "СЛАБ (SLAB)",
+    "answer": "ZAYIF (ERİL)"
+  },
+  {
+    "question": "СЛАБА (SLABA)",
+    "answer": "ZAYIF (DİŞİL)"
+  },
+  {
+    "question": "СЛАБО (SLABO)",
+    "answer": "ZAYIF (NÖTR)"
+  },
+  {
+    "question": "СЛАБИ (SLABİ)",
+    "answer": "ZAYIFLAR (ÇOĞUL)"
+  },
+  {
+    "question": "АЗ СЪМ БОЛНА (AZ SIM BOLNA)",
+    "answer": "BEN HASTAYIM (DİŞİL)"
+  },
+  {
+    "question": "БОЛНА СЪМ (BOLNA SIM)",
+    "answer": "HASTAYIM (DİŞİL)"
+  },
+  {
+    "question": "АЗ СЪМ БОЛЕН (AZ SIM BOLEN)",
+    "answer": "BEN HASTAYIM (ERİL)"
+  },
+  {
+    "question": "БОЛЕН СЪМ (BOLEN SIM)",
+    "answer": "HASTAYIM (ERİL)"
+  },
+  {
+    "question": "АЗ СЪМ МАЛКА (AZ SIM MALKA)",
+    "answer": "BEN KÜÇÜĞÜM (DİŞİL)"
+  },
+  {
+    "question": "МАЛКА СЪМ (MALKA SIM)",
+    "answer": "KÜÇÜĞÜM (DİŞİL)"
+  },
+  {
+    "question": "АЗ СЪМ МАЛЪК (AZ SIM MALIK)",
+    "answer": "BEN KÜÇÜĞÜM (ERİL)"
+  },
+  {
+    "question": "МАЛЪК СЪМ (MALIK SIM)",
+    "answer": "KÜÇÜĞÜM (ERİL)"
+  },
+  {
+    "question": "АЗ СЪМ СЛАБА (AZ SIM SLABA)",
+    "answer": "BEN ZAYIFIM (DİŞİL)"
+  },
+  {
+    "question": "СЛАБА СЪМ (SLABA SIM)",
+    "answer": "ZAYIFIM (DİŞİL)"
+  },
+  {
+    "question": "АЗ СЪМ СЛАБ (AZ SIM SLAB)",
+    "answer": "BEN ZAYIFIM (ERİL)"
+  },
+  {
+    "question": "СЛАБ СЪМ (SLAB SIM)",
+    "answer": "ZAYIFIM (ERİL)"
+  },
+  {
+    "question": "ТИ СИ БОЛНА (Tİ Sİ BOLNA)",
+    "answer": "SEN HASTASIN (DİŞİL)"
+  },
+  {
+    "question": "БОЛНА СИ (BOLNA Sİ)",
+    "answer": "HASTASIN (DİŞİL)"
+  },
+  {
+    "question": "ТИ СИ БОЛЕН (Tİ Sİ BOLEN)",
+    "answer": "SEN HASTASIN (ERİL)"
+  },
+  {
+    "question": "БОЛЕН СИ (BOLEN Sİ)",
+    "answer": "HASTASIN (ERİL)"
+  },
+  {
+    "question": "ТИ СИ МАЛКА (Tİ Sİ MALKA)",
+    "answer": "SEN KÜÇÜKSÜN (DİŞİL)"
+  },
+  {
+    "question": "МАЛКА СИ (MALKA Sİ)",
+    "answer": "KÜÇÜKSÜN (DİŞİL)"
+  },
+  {
+    "question": "ТИ СИ СЛАБА (Tİ Sİ SLABA)",
+    "answer": "SEN ZAYIFSIN (DİŞİL)"
+  },
+  {
+    "question": "СЛАБА СИ (SLABA Sİ)",
+    "answer": "ZAYIFSIN (DİŞİL)"
+  },
+  {
+    "question": "ТИ СИ СЛАБ (Tİ Sİ SLAB)",
+    "answer": "SEN ZAYIFSIN (ERİL)"
+  },
+  {
+    "question": "СЛАБ СИ (SLAB Sİ)",
+    "answer": "ZAYIFSIN (ERİL)"
+  },
+  {
+    "question": "ТЯ Е БОЛНА (TYA E BOLNA)",
+    "answer": "O HASTA (DİŞİL)"
+  },
+  {
+    "question": "БОЛНА Е (BOLNA E)",
+    "answer": "O HASTA (DİŞİL)"
+  },
+  {
+    "question": "ТЯ Е МАЛКА (TYA E MALKA)",
+    "answer": "O KÜÇÜK (DİŞİL)"
+  },
+  {
+    "question": "МАЛКА Е (MALKA E)",
+    "answer": "O KÜÇÜK (DİŞİL)"
+  },
+  {
+    "question": "ТЯ Е СЛАБА (TYA E SLABA)",
+    "answer": "O ZAYIF (DİŞİL)"
+  },
+  {
+    "question": "СЛАБА Е (SLABA E)",
+    "answer": "O ZAYIF (DİŞİL)"
+  },
+  {
+    "question": "ТОЙ Е БОЛЕН (TOY E BOLEN)",
+    "answer": "O HASTA (ERİL)"
+  },
+  {
+    "question": "БОЛЕН Е (BOLEN E)",
+    "answer": "O HASTA (ERİL)"
+  },
+  {
+    "question": "ТОЙ Е МАЛЪК (TOY E MALIK)",
+    "answer": "O KÜÇÜK (ERİL)"
+  },
+  {
+    "question": "МАЛЪК Е (MALIK E)",
+    "answer": "O KÜÇÜK (ERİL)"
+  },
+  {
+    "question": "ТОЙ Е СЛАБ (TOY E SLAB)",
+    "answer": "O ZAYIF (ERİL)"
+  },
+  {
+    "question": "СЛАБ Е (SLAB E)",
+    "answer": "O ZAYIF (ERİL)"
+  },
+  {
+    "question": "ТО Е БОЛНО (TO E BOLNO)",
+    "answer": "O HASTA (NÖTR)"
+  },
+  {
+    "question": "БОЛНО Е (BOLNO E)",
+    "answer": "O HASTA (NÖTR)"
+  },
+  {
+    "question": "ТО Е МАЛКО (TO E MALKO)",
+    "answer": "O KÜÇÜK (NÖTR)"
+  },
+  {
+    "question": "МАЛКО Е (MALKO E)",
+    "answer": "O KÜÇÜK (NÖTR)"
+  },
+  {
+    "question": "ТО Е СЛАБО (TO E SLABO)",
+    "answer": "O ZAYIF (NÖTR)"
+  },
+  {
+    "question": "СЛАБО Е (SLABO E)",
+    "answer": "O ZAYIF (NÖTR)"
+  },
+  {
+    "question": "НИЕ СМЕ БОЛНИ (NİE SME BOLNİ)",
+    "answer": "BİZ HASTAYIZ"
+  },
+  {
+    "question": "БОЛНИ СМЕ (BOLNİ SME)",
+    "answer": "HASTAYIZ"
+  },
+  {
+    "question": "ВИЕ СТЕ БОЛНИ (VİE STE BOLNİ)",
+    "answer": "SİZ HASTASINIZ"
+  },
+  {
+    "question": "БОЛНИ СТЕ (BOLNİ STE)",
+    "answer": "HASTASINIZ"
+  },
+  {
+    "question": "ТЕ СА БОЛНИ (TE SA BOLNİ)",
+    "answer": "ONLAR HASTA"
+  },
+  {
+    "question": "БОЛНИ СА (BOLNİ SA)",
+    "answer": "ONLAR HASTA"
+  },
+  {
+    "question": "НИЕ СМЕ МАЛКИ (NİE SME MALKİ)",
+    "answer": "BİZ KÜÇÜĞÜZ"
+  },
+  {
+    "question": "МАЛКИ СМЕ (MALKİ SME)",
+    "answer": "KÜÇÜĞÜZ"
+  },
+  {
+    "question": "ВИЕ СТЕ МАЛКИ (VİE STE MALKİ)",
+    "answer": "SİZ KÜÇÜKSÜNÜZ"
+  },
+  {
+    "question": "МАЛКИ СТЕ (MALKİ STE)",
+    "answer": "SİZ KÜÇÜKSÜNÜZ"
+  },
+  {
+    "question": "ТЕ СА МАЛКИ (TE SA MALKİ)",
+    "answer": "ONLAR KÜÇÜK"
+  },
+  {
+    "question": "МАЛКИ СА (MALKİ SA)",
+    "answer": "ONLAR KÜÇÜK"
+  },
+  {
+    "question": "НИЕ СМЕ СЛАБИ (NİE SME SLABİ)",
+    "answer": "BİZ ZAYIFIZ"
+  },
+  {
+    "question": "СЛАБИ СМЕ (SLABİ SME)",
+    "answer": "ZAYIFIZ"
+  },
+  {
+    "question": "ВИЕ СТЕ СЛАБИ (VİE STE SLABİ)",
+    "answer": "SİZ ZAYIFSINIZ"
+  },
+  {
+    "question": "СЛАБИ СТЕ (SLABİ STE)",
+    "answer": "SİZ ZAYIFSINIZ"
+  },
+  {
+    "question": "ТЕ СА СЛАБИ (TE SA SLABİ)",
+    "answer": "ONLAR ZAYIF"
+  },
+  {
+    "question": "СЛАБИ СА (SLABİ SA)",
+    "answer": "ONLAR ZAYIF"
+  },
+  {
+    "question": "ТЯ Е ЕДНА БОЛНА ЖЕНА (TYA E EDNA BOLNA JENA)",
+    "answer": "O HASTA BİR KADIN"
+  },
+  {
+    "question": "ТЯ Е ЕДНА МАЛКА КОТКА (TYA E EDNA MALKA KOTKA)",
+    "answer": "O KÜÇÜK BİR KEDİ"
+  },
+  {
+    "question": "ТЯ Е ЕДНА БЯЛА ШАПКА (TYA E EDNA BYALA ŞAPKA)",
+    "answer": "O BEYAZ BİR ŞAPKA"
+  },
+  {
+    "question": "МАЛКА КОЛА (MALKA KOLA)",
+    "answer": "KÜÇÜK ARABA"
+  },
+  {
+    "question": "ТОВА Е ЕДНА МАЛКА ЧЕРНА КОЛА (TOVA E EDNA MALKA ÇERNA KOLA)",
+    "answer": "BU BİR KÜÇÜK SİYAH ARABA"
+  },
+  {
+    "question": "ТОЙ Е ЕДИН БОЛЕН МЪЖ (TOY E EDİN BOLEN MIJ)",
+    "answer": "O HASTA BİR ADAM"
+  },
+  {
+    "question": "ТОЙ Е СЛАБ МЪЖ (TOY E SLAB MIJ)",
+    "answer": "O ZAYIF BİR ADAM"
+  },
+  {
+    "question": "ТО Е БОЛНО ДЕТЕ (TO E BOLNO DETE)",
+    "answer": "O HASTA BİR ÇOCUK"
+  },
+  {
+    "question": "АЗ БОЛНА ЛИ СЪМ? (AZ BOLNA Lİ SIM?)",
+    "answer": "BEN HASTA MIYIM? (DİŞİL)"
+  },
+  {
+    "question": "АЗ БОЛЕН ЛИ СЪМ? (AZ BOLEN Lİ SIM?)",
+    "answer": "BEN HASTA MIYIM? (ERİL)"
+  },
+  {
+    "question": "МАЛКА ЛИ СЪМ? (MALKA Lİ SIM?)",
+    "answer": "KÜÇÜK MÜYÜM? (DİŞİL)"
+  },
+  {
+    "question": "СЛАБА ЛИ СЪМ? (SLABA Lİ SIM?)",
+    "answer": "ZAYIF MIYIM? (DİŞİL)"
+  },
+  {
+    "question": "АЗ НЕ СЪМ БОЛНА (AZ NE SIM BOLNA)",
+    "answer": "BEN HASTA DEĞİLİM (DİŞİL)"
+  },
+  {
+    "question": "НЕ СЪМ БОЛНА (NE SIM BOLNA)",
+    "answer": "HASTA DEĞİLİM (DİŞİL)"
+  },
+  {
+    "question": "АЗ НЕ СЪМ МАЛКА (AZ NE SIM MALKA)",
+    "answer": "BEN KÜÇÜK DEĞİLİM (DİŞİL)"
+  },
+  {
+    "question": "НЕ СЪМ МАЛКА (NE SIM MALKA)",
+    "answer": "KÜÇÜK DEĞİLİM (DİŞİL)"
+  },
+  {
+    "question": "АЗ НЕ СЪМ СЛАБА (AZ NE SIM SLABA)",
+    "answer": "BEN ZAYIF DEĞİLİM (DİŞİL)"
+  },
+  {
+    "question": "НЕ СЪМ СЛАБА (NE SIM SLABA)",
+    "answer": "ZAYIF DEĞİLİM (DİŞİL)"
+  },
+  {
+    "question": "АЗ НЕ СЪМ ЛИ БОЛНА? (AZ NE SIM Lİ BOLNA?)",
+    "answer": "BEN HASTA DEĞİL MİYİM? (DİŞİL)"
+  },
+  {
+    "question": "НЕ СЪМ ЛИ БОЛНА? (NE SIM Lİ BOLNA?)",
+    "answer": "HASTA DEĞİL MİYİM? (DİŞİL)"
+  },
+  {
+    "question": "НЕ СЪМ ЛИ БОЛЕН? (NE SIM Lİ BOLEN?)",
+    "answer": "HASTA DEĞİL MİYİM? (ERİL)"
+  },
+  {
+    "question": "ТЯ НЕ Е ЛИ МАЛКА? (TYA NE E Lİ MALKA?)",
+    "answer": "O KÜÇÜK DEĞİL Mİ? (DİŞİL)"
+  },
+  {
+    "question": "ТО НЕ Е ЛИ МАЛКО? (TO NE E Lİ MALKO?)",
+    "answer": "O KÜÇÜK DEĞİL Mİ? (NÖTR)"
+  },
+  {
+    "question": "МАЛКО КАФЕ (MALKO KAFE)",
+    "answer": "AZ (AZICIK) KAHVE"
+  },
+  {
+    "question": "ТОЙ НЕ Е ЛИ СЛАБ? (TOY NE E Lİ SLAB?)",
+    "answer": "O ZAYIF DEĞİL Mİ? (ERİL)"
+  },
+  {
+    "question": "НЕ ОБИЧАМ (NE OBİÇAM)",
+    "answer": "SEVMİYORUM"
+  },
+  {
+    "question": "ОБИЧАМ ЯГОДИ (OBİÇAM YAGODİ)",
+    "answer": "ÇİLEK SEVİYORUM"
+  },
+  {
+    "question": "НЕ ОБИЧАМ ЗЕЛЕ (NE OBİÇAM ZELE)",
+    "answer": "LAHANA SEVMİYORUM"
+  }
+]
