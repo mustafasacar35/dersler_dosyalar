@@ -1,5 +1,5 @@
 {
-  "currentIndex": 203,
+  "currentIndex": 41,
   "score": 0,
   "answers": [
     null,
@@ -216,6 +216,13 @@
   ],
   "recentQuestions": [
     {
+      "index": 41,
+      "question": "ЕДИН МЪЖ (EDIN MAZH) (Eril)",
+      "answer": null,
+      "correctAnswer": "BİR ERKEK / BİR ADAM",
+      "isCorrect": null
+    },
+    {
       "index": 203,
       "question": "ИЗВИНЯВАЙ! (IZVINYAVAY!)",
       "answer": null,
@@ -241,13 +248,6 @@
       "question": "КАК СЕ КАЗВАШ? (KAK SE KAZVASH?)",
       "answer": null,
       "correctAnswer": "ADIN NE?",
-      "isCorrect": null
-    },
-    {
-      "index": 209,
-      "question": "ОТ КЪДЕ СИ? (OT KADE SI?)",
-      "answer": null,
-      "correctAnswer": "NERELİSİN?",
       "isCorrect": null
     }
   ],
