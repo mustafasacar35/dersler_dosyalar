@@ -1,0 +1,1466 @@
+[
+  {
+    "question": "ПРЕД (PRED) (Nötr)",
+    "answer": "ÖNÜNDE"
+  },
+  {
+    "question": "Книгата е пред масата (KNIGATA E PRED MASATA)",
+    "answer": "Kitap masanın önünde"
+  },
+  {
+    "question": "ЗАД (ZAD) (Nötr)",
+    "answer": "ARKASINDA"
+  },
+  {
+    "question": "Колата е зад къщата (KOLATA E ZAD KASHTATA)",
+    "answer": "Araba evin arkasında"
+  },
+  {
+    "question": "МЕЖДУ (MEZHDU) (Nötr)",
+    "answer": "ARASINDA"
+  },
+  {
+    "question": "Столът е между масата и леглото (STOLAT E MEZHDU MASATA I LEGLOTO)",
+    "answer": "Sandalye masa ile yatak arasında"
+  },
+  {
+    "question": "ВЪРХУ (VARHU) (Nötr)",
+    "answer": "ÜZERİNDE"
+  },
+  {
+    "question": "НАД (NAD) (Nötr)",
+    "answer": "ÜSTÜNDE"
+  },
+  {
+    "question": "Тетрадката е върху бюрото (TETRADKATA E VARHU BYUROTO)",
+    "answer": "Defter masanın üzerinde"
+  },
+  {
+    "question": "Тетрадката е над бюрото (TETRADKATA E NAD BYUROTO)",
+    "answer": "Defter masanın üstünde"
+  },
+  {
+    "question": "ПРЕЗ (PREZ) (Nötr)",
+    "answer": "İÇİNDEN / BOYUNCA"
+  },
+  {
+    "question": "Минахме през границата (MINAHME PREZ GRANITSATA)",
+    "answer": "Sınırdan (içinden) geçtik"
+  },
+  {
+    "question": "През зимата е студено (PREZ ZIMATA E STUDENO)",
+    "answer": "Kış boyunca soğuk olur"
+  },
+  {
+    "question": "СРЕЩУ (SRESHTU) (Nötr)",
+    "answer": "KARŞISINDA / KARŞIYA"
+  },
+  {
+    "question": "Магазинът е срещу училището (MAGAZINAT E SRESHTU UCHILISHTETO)",
+    "answer": "Market okulun karşısında"
+  },
+  {
+    "question": "ПРИ (PRI) (Nötr)",
+    "answer": "YANINDA / SIRASINDA / ZAMANINDA / -DE"
+  },
+  {
+    "question": "Отидох при учителката (OTIDOH PRI UCHITELKATA)",
+    "answer": "Öğretmenin yanına gittim"
+  },
+  {
+    "question": "КЪМ (KAM) (Nötr)",
+    "answer": "DOĞRU / -E YÖNÜNDE"
+  },
+  {
+    "question": "Тръгнахме към България (TRAGNAHME KAM BALGARIYA)",
+    "answer": "Bulgaristan’a doğru yola çıktık"
+  },
+  {
+    "question": "Пред магазина има много коли (PRED MAGAZINA IMA MNOGO KOLI)",
+    "answer": "Marketin önünde çok araba var"
+  },
+  {
+    "question": "Аз съм пред училището (AZ SAM PRED UCHILISHTETO)",
+    "answer": "Ben okulun önündeyim"
+  },
+  {
+    "question": "Аз съм пред теб (AZ SAM PRED TEB)",
+    "answer": "Senin önündeyim / Senden önceyim"
+  },
+  {
+    "question": "Аптеката е пред театъра (APTEKATA E PRED TEATARA)",
+    "answer": "Eczane tiyatronun önünde"
+  },
+  {
+    "question": "Пред мен на опашката има много хора (PRED MEN NA OPASHKATA IMA MNOGO HORA)",
+    "answer": "Önümde sırada çok insan var"
+  },
+  {
+    "question": "Пред колата има куче (PRED KOLATA IMA KUCHE)",
+    "answer": "Arabanın önünde köpek var"
+  },
+  {
+    "question": "Зад мен има опашка от коли (ZAD MEN IMA OPASHKA OT KOLI)",
+    "answer": "Arkamda araba kuyruğu var"
+  },
+  {
+    "question": "Зад граница (ZAD GRANITSA)",
+    "answer": "Sınırın ötesi"
+  },
+  {
+    "question": "Зад парка има голям магазин (ZAD PARKA IMA GOLYAM MAGAZIN)",
+    "answer": "Parkın arkasında büyük market var"
+  },
+  {
+    "question": "Зад банката има аптека (ZAD BANKATA IMA APTEKA)",
+    "answer": "Bankanın arkasında eczane var"
+  },
+  {
+    "question": "Зад хотела има блок (ZAD HOTELA IMA BLOK)",
+    "answer": "Otelin arkasında apartman var"
+  },
+  {
+    "question": "Аз съм между вратата и прозореца (AZ SAM MEZHDU VRATATA I PROZORETSA)",
+    "answer": "Kapı ve pencere arasındayım"
+  },
+  {
+    "question": "Между леглото и гардероба има огледало (MEZHDU LEGLOTO I GARDEROBA IMA OGLEDALO)",
+    "answer": "Yatak ve gardırop arasında ayna var"
+  },
+  {
+    "question": "Книгата е между тетрадката и химикала (KNIGATA E MEZHDU TETRADKATA I HIMIKALA)",
+    "answer": "Kitap defter ve kalem arasında"
+  },
+  {
+    "question": "Кучето спи между възглавниците (KUCHETO SPI MEZHDU VAZGLAVNITSITE)",
+    "answer": "Köpek yastıkların arasında uyuyor"
+  },
+  {
+    "question": "Между мен и теб (MEZHDU MEN I TEB)",
+    "answer": "Seninle benim aramda"
+  },
+  {
+    "question": "Този проблем е само между мен и теб (TOZI PROBLEM E SAMO MEZHDU MEN I TEB)",
+    "answer": "Bu sorun sadece senin ve benim aramızda"
+  },
+  {
+    "question": "Върху покрива има котка (VARHU POKRIVA IMA KOTKA)",
+    "answer": "Çatının üzerinde kedi var"
+  },
+  {
+    "question": "Чантата е върху стола (CHANTATA E VARHU STOLA)",
+    "answer": "Çanta sandalyenin üzerinde"
+  },
+  {
+    "question": "Котката спи върху дивана (KOTKATA SPI VARHU DIVANA)",
+    "answer": "Kedi koltuğun üzerinde uyuyor"
+  },
+  {
+    "question": "Тя седи върху леглото (TYA SEDI VARHU LEGLOTO)",
+    "answer": "O yatağın üzerinde oturuyor"
+  },
+  {
+    "question": "Минавам през парка и отивам на ресторант (MINAVAM PREZ PARKA I OTIVAM NA RESTORANT)",
+    "answer": "Parkın içinden geçiyorum ve restorana gidiyorum"
+  },
+  {
+    "question": "Автобусът минава през Пловдив (AVTOBUSAT MINAVA PREZ PLOVDIV)",
+    "answer": "Otobüs Plovdiv’in içinden geçiyor"
+  },
+  {
+    "question": "Гледам през прозореца (GLEDAM PREZ PROZORETSA)",
+    "answer": "Camdan bakıyorum/izliyorum"
+  },
+  {
+    "question": "През лятото е много топло (PREZ LYATOTO E MNOGO TOPLO)",
+    "answer": "Yaz boyunca çok sıcak"
+  },
+  {
+    "question": "През деня уча български език (PREZ DENYA UCHA BALGARSKI EZIK)",
+    "answer": "Gün boyunca Bulgarca dili çalışıyorum"
+  },
+  {
+    "question": "Магазинът е срещу парка (MAGAZINAT E SRESHTU PARKA)",
+    "answer": "Market parkın karşısında"
+  },
+  {
+    "question": "Срещу училището и пощата има магазин (SRESHTU UCHILISHTETO I POSHTATA IMA MAGAZIN)",
+    "answer": "Okulun ve postanenin karşısında market var"
+  },
+  {
+    "question": "Къщата на Мария е срещу парка (KASHTATA NA MARIYA E SRESHTU PARKA)",
+    "answer": "Mariya’nın evi parkın karşısında"
+  },
+  {
+    "question": "Срещу мен има автогара (SRESHTU MEN IMA AVTOGARA)",
+    "answer": "Benim karşımda otogar var"
+  },
+  {
+    "question": "Детето е при майка му (DETETO E PRI MAYKA MU)",
+    "answer": "Çocuk annesinin yanında"
+  },
+  {
+    "question": "Отивам при лекаря (OTIVAM PRI LEKARYA)",
+    "answer": "Doktorun yanına gidiyorum"
+  },
+  {
+    "question": "Бях при баба и дядо на село (BYAH PRI BABA I DYADO NA SELO)",
+    "answer": "Köyde büyükannem ve dedemin yanındaydım"
+  },
+  {
+    "question": "Тя е при приятели (TYA E PRI PRIYATELI)",
+    "answer": "O arkadaşlarının yanında"
+  },
+  {
+    "question": "Отивам при мама (OTIVAM PRI MAMA)",
+    "answer": "Annemin yanına gidiyorum"
+  },
+  {
+    "question": "Отивам при Елиф (OTIVAM PRI ELIF)",
+    "answer": "Elif’in yanına gidiyorum"
+  },
+  {
+    "question": "Отивам при майка ми (OTIVAM PRI MAYKA MI)",
+    "answer": "Annemin yanına gidiyorum"
+  },
+  {
+    "question": "Отивам при моята майка (OTIVAM PRI MOYATA MAYKA)",
+    "answer": "Annemin yanına gidiyorum"
+  },
+  {
+    "question": "Отивам при татко (OTIVAM PRI TATKO)",
+    "answer": "Babamın yanına gidiyorum"
+  },
+  {
+    "question": "Отивам при баща ми (OTIVAM PRI BASHTA MI)",
+    "answer": "Babamın yanına gidiyorum"
+  },
+  {
+    "question": "Отивам при моят баща (OTIVAM PRI MOYAT BASHTA)",
+    "answer": "Babamın yanına gidiyorum"
+  },
+  {
+    "question": "Към мен идва голям автобус (KAM MEN IDVA GOLYAM AVTOBUS)",
+    "answer": "Bana doğru büyük otobüs geliyor"
+  },
+  {
+    "question": "Към мен и теб (KAM MEN I TEB)",
+    "answer": "Bana ve sana doğru"
+  },
+  {
+    "question": "Към кого? (KAM KOGO?)",
+    "answer": "Kime doğru?"
+  },
+  {
+    "question": "Вървя към магазина (VARVYA KAM MAGAZINA)",
+    "answer": "Markete doğru yürüyorum"
+  },
+  {
+    "question": "ФУТБОЛ (FUTBOL) (Eril)",
+    "answer": "FUTBOL"
+  },
+  {
+    "question": "БАСКЕТБОЛ (BASKETBOL) (Eril)",
+    "answer": "BASKETBOL"
+  },
+  {
+    "question": "ВОЛЕЙБОЛ (VOLEYBOL) (Eril)",
+    "answer": "VOLEYBOL"
+  },
+  {
+    "question": "ТЕНИС (TENIS) (Eril)",
+    "answer": "TENİS"
+  },
+  {
+    "question": "ПЛУВАНЕ (PLUVANE) (Nötr)",
+    "answer": "YÜZME"
+  },
+  {
+    "question": "ЛЕКА АТЛЕТИКА (LEKA ATLETIKA) (Dişil)",
+    "answer": "ATLETİZM"
+  },
+  {
+    "question": "ГИМНАСТИКА (GIMNASTIKA) (Dişil)",
+    "answer": "JİMNASTİK"
+  },
+  {
+    "question": "БОКС (BOKS) (Eril)",
+    "answer": "BOKS"
+  },
+  {
+    "question": "СКИ (SKI) (Nötr)",
+    "answer": "KAYAK"
+  },
+  {
+    "question": "КОНЕН СПОРТ (KONEN SPORT) (Eril)",
+    "answer": "BİNİCİLİK"
+  },
+  {
+    "question": "ГОЛФ (GOLF) (Eril)",
+    "answer": "GOLF"
+  },
+  {
+    "question": "БЕЙЗБОЛ (BEYZBOL) (Eril)",
+    "answer": "BEYZBOL"
+  },
+  {
+    "question": "Играя футбол (IGRAYA FUTBOL)",
+    "answer": "Futbol oynuyorum"
+  },
+  {
+    "question": "Обичам футбол (OBICHAM FUTBOL)",
+    "answer": "Futbol seviyorum"
+  },
+  {
+    "question": "Играя баскетбол (IGRAYA BASKETBOL)",
+    "answer": "Basketbol oynuyorum"
+  },
+  {
+    "question": "Обичам баскетбол (OBICHAM BASKETBOL)",
+    "answer": "Basketbol seviyorum"
+  },
+  {
+    "question": "Играя волейбол (IGRAYA VOLEYBOL)",
+    "answer": "Voleybol oynuyorum"
+  },
+  {
+    "question": "Обичам волейбол (OBICHAM VOLEYBOL)",
+    "answer": "Voleybol seviyorum"
+  },
+  {
+    "question": "Играя тенис (IGRAYA TENIS)",
+    "answer": "Tenis oynuyorum"
+  },
+  {
+    "question": "Обичам тенис (OBICHAM TENIS)",
+    "answer": "Tenis seviyorum"
+  },
+  {
+    "question": "Плувам (PLUVAM)",
+    "answer": "Yüzüyorum"
+  },
+  {
+    "question": "Обичам да плувам (OBICHAM DA PLUVAM)",
+    "answer": "Yüzmeyi seviyorum"
+  },
+  {
+    "question": "Играя бейзбол (IGRAYA BEYZBOL)",
+    "answer": "Beyzbol oynuyorum"
+  },
+  {
+    "question": "Обичам бейзбол (OBICHAM BEYZBOL)",
+    "answer": "Beyzbol seviyorum"
+  },
+  {
+    "question": "Играя голф (IGRAYA GOLF)",
+    "answer": "Golf oynuyorum"
+  },
+  {
+    "question": "Обичам голф (OBICHAM GOLF)",
+    "answer": "Golf seviyorum"
+  },
+  {
+    "question": "Карам ски (KARAM SKI)",
+    "answer": "Kayak yapıyorum"
+  },
+  {
+    "question": "Обичам да карам ски (OBICHAM DA KARAM SKI)",
+    "answer": "Kayak yapmayı seviyorum"
+  },
+  {
+    "question": "Тренирам лека атлетика (TRENIRAM LEKA ATLETIKA)",
+    "answer": "Atletizm antremanı yapıyorum"
+  },
+  {
+    "question": "Занимавам се с лека атлетика (ZANIMAVAM SE S LEKA ATLETIKA)",
+    "answer": "Atletizm ile uğraşıyorum"
+  },
+  {
+    "question": "Обичам лека атлетика (OBICHAM LEKA ATLETIKA)",
+    "answer": "Atletizmi seviyorum"
+  },
+  {
+    "question": "Тренирам конен спорт (TRENIRAM KONEN SPORT)",
+    "answer": "Binicilik antremanı yapıyorum"
+  },
+  {
+    "question": "Занимавам се с конен спорт (ZANIMAVAM SE S KONEN SPORT)",
+    "answer": "Binicilik ile uğraşıyorum"
+  },
+  {
+    "question": "Тренирам бокс (TRENIRAM BOKS)",
+    "answer": "Boks antremanı yapıyorum"
+  },
+  {
+    "question": "Занимавам се с бокс (ZANIMAVAM SE S BOKS)",
+    "answer": "Boks ile uğraşıyorum"
+  },
+  {
+    "question": "Занимавам се с четене на книги (ZANIMAVAM SE S CHETENE NA KNIGI)",
+    "answer": "Kitap okuma ile uğraşıyorum"
+  },
+  {
+    "question": "Заета съм (ZAETA SAM) (Dişil)",
+    "answer": "Meşgulüm"
+  },
+  {
+    "question": "Зает съм (ZAET SAM) (Eril)",
+    "answer": "Meşgulüm"
+  },
+  {
+    "question": "Занимавам се със земеделие (ZANIMAVAM SE SAS ZEMEDELIE)",
+    "answer": "Tarım ile uğraşıyorum"
+  },
+  {
+    "question": "Занимавам се с животновъдство (ZANIMAVAM SE S ZHIVOTNOVADSTVO)",
+    "answer": "Hayvancılık ile uğraşıyorum"
+  },
+  {
+    "question": "СПАЛНЯ (SPALNYA) (Dişil)",
+    "answer": "YATAK ODASI"
+  },
+  {
+    "question": "КУХНЯ (KUHNYA) (Dişil)",
+    "answer": "MUTFAK"
+  },
+  {
+    "question": "БАНЯ (BANYA) (Dişil)",
+    "answer": "BANYO"
+  },
+  {
+    "question": "ХОЛ (HOL) (Eril)",
+    "answer": "OTURMA ODASI"
+  },
+  {
+    "question": "ДЕТСКА СТАЯ (DETSKA STAYA) (Dişil)",
+    "answer": "ÇOCUK ODASI"
+  },
+  {
+    "question": "ГАРАЖ (GARAZH) (Eril)",
+    "answer": "GARAJ"
+  },
+  {
+    "question": "КОРИДОР (KORIDOR) (Eril)",
+    "answer": "KORİDOR / ANTRE"
+  },
+  {
+    "question": "ТЕРАСА (TERASA) (Dişil)",
+    "answer": "TERAS"
+  },
+  {
+    "question": "БАЛКОН (BALKON) (Eril)",
+    "answer": "BALKON"
+  },
+  {
+    "question": "МАЗЕ (MAZE) (Nötr)",
+    "answer": "KİLER"
+  },
+  {
+    "question": "Аз съм в спалнята (AZ SAM V SPALNYATA)",
+    "answer": "Yatak odasındayım"
+  },
+  {
+    "question": "Аз спя в спалнята (AZ SPYA V SPALNYATA)",
+    "answer": "Yatak odasında uyuyorum"
+  },
+  {
+    "question": "Аз съм в кухнята (AZ SAM V KUHNYATA)",
+    "answer": "Mutfaktayım"
+  },
+  {
+    "question": "В кухнята съм (V KUHNYATA SAM)",
+    "answer": "Mutfaktayım"
+  },
+  {
+    "question": "Къде си? (KADE SI?)",
+    "answer": "Neredesin?"
+  },
+  {
+    "question": "Аз ям в кухнята (AZ YAM V KUHNYATA)",
+    "answer": "Mutfakta yiyorum"
+  },
+  {
+    "question": "Аз ям закуска в кухнята (AZ YAM ZAKUSKA V KUHNYATA)",
+    "answer": "Mutfakta kahvaltı yiyorum"
+  },
+  {
+    "question": "Аз съм в банята (AZ SAM V BANYATA)",
+    "answer": "Banyodayım"
+  },
+  {
+    "question": "Аз съм в хола (AZ SAM V HOLA)",
+    "answer": "Oturma odasındayım"
+  },
+  {
+    "question": "Гледам филм в хола (GLEDAM FILM V HOLA)",
+    "answer": "Oturma odasında film izliyorum"
+  },
+  {
+    "question": "Аз съм в трапезарията (AZ SAM V TRAPEZARIYATA)",
+    "answer": "Mutfaktayım"
+  },
+  {
+    "question": "Аз ям обяд в трапезарията (AZ YAM OBYAD V TRAPEZARIYATA)",
+    "answer": "Mutfakta öğlen yemeği yiyorum"
+  },
+  {
+    "question": "Аз съм в детската стая (AZ SAM V DETSKATA STAYA)",
+    "answer": "Çocuk odasındayım"
+  },
+  {
+    "question": "Аз играя в детската стая (AZ IGRAYA V DETSKATA STAYA)",
+    "answer": "Çocuk odasında oynuyorum"
+  },
+  {
+    "question": "Аз съм в гаража (AZ SAM V GARAZHA)",
+    "answer": "Garajdayım"
+  },
+  {
+    "question": "В гаража е колата ми (V GARAZHA E KOLATA MI)",
+    "answer": "Arabam garajda"
+  },
+  {
+    "question": "Аз съм в коридора (AZ SAM V KORIDORA)",
+    "answer": "Koridordayım"
+  },
+  {
+    "question": "Аз съм на терасата (AZ SAM NA TERASATA)",
+    "answer": "Terasdayım"
+  },
+  {
+    "question": "Аз съм на балкона (AZ SAM NA BALKONA)",
+    "answer": "Balkondayım"
+  },
+  {
+    "question": "Пия кафе на терасата (PIYA KAFE NA TERASATA)",
+    "answer": "Terasda kahve içiyorum"
+  },
+  {
+    "question": "Пия кафе на балкона (PIYA KAFE NA BALKONA)",
+    "answer": "Balkonda kahve içiyorum"
+  },
+  {
+    "question": "Аз съм в мазето (AZ SAM V MAZETO)",
+    "answer": "Kilerdeyim"
+  },
+  {
+    "question": "В банята ли си? (V BANYATA LI SI?)",
+    "answer": "Banyoda mısın?"
+  },
+  {
+    "question": "Кой е в хола? (KOY E V HOLA?)",
+    "answer": "Oturma odasında kim var?"
+  },
+  {
+    "question": "Той вечеря в кухнята (TOY VECHERYA V KUHNYATA)",
+    "answer": "O mutfakta akşam yemeği yiyor"
+  },
+  {
+    "question": "То пие чай в детската стая (TO PIE CHAY V DETSKATA STAYA)",
+    "answer": "O çocuk odasında çay içiyor"
+  },
+  {
+    "question": "ЛЕГЛО (LEGLO) (Nötr)",
+    "answer": "YATAK"
+  },
+  {
+    "question": "ГАРДЕРОБ (GARDEROB) (Eril)",
+    "answer": "GARDIROP"
+  },
+  {
+    "question": "ШКАФ (SHKAF) (Eril)",
+    "answer": "ŞİFONYER"
+  },
+  {
+    "question": "СПАЛЕН КОМПЛЕКТ (SPALEN KOMPLEKT) (Eril)",
+    "answer": "NEVRESİM TAKIMI"
+  },
+  {
+    "question": "ВЪЗГЛАВНИЦА (VAZGLAVNITSA) (Dişil)",
+    "answer": "YASTIK"
+  },
+  {
+    "question": "ОДЕАЛО (ODEALO) (Nötr)",
+    "answer": "BATTANİYE"
+  },
+  {
+    "question": "ЗАВИВКА (ZAVIVKA) (Dişil)",
+    "answer": "ÖRTÜ"
+  },
+  {
+    "question": "ТОАЛЕТКА (TOALETKA) (Dişil)",
+    "answer": "MAKYAJ MASASI"
+  },
+  {
+    "question": "ГРИМОВЕ (GRIMOVE) (Çoğul)",
+    "answer": "MAKYAJ MALZEMELERİ"
+  },
+  {
+    "question": "ПАРФЮМ (PARFYUM) (Eril)",
+    "answer": "PARFÜM"
+  },
+  {
+    "question": "ПЛОТ (PLOT) (Eril)",
+    "answer": "TEZGAH"
+  },
+  {
+    "question": "МИВКА (MIVKA) (Dişil)",
+    "answer": "LAVABO"
+  },
+  {
+    "question": "СЪДОМИЯЛНА (SADOMIYALNA) (Dişil)",
+    "answer": "BULAŞIK MAKİNESİ"
+  },
+  {
+    "question": "МАСА (MASA) (Dişil)",
+    "answer": "MASA"
+  },
+  {
+    "question": "СТОЛ (STOL) (Eril)",
+    "answer": "SANDALYE"
+  },
+  {
+    "question": "СТОЛОВЕ (STOLOVE) (Çoğul)",
+    "answer": "SANDALYELER"
+  },
+  {
+    "question": "ГОТВАРСКА ПЕЧКА (GOTVARSKA PECHKA) (Dişil)",
+    "answer": "FIRIN"
+  },
+  {
+    "question": "ФУРНА (FURNA) (Dişil)",
+    "answer": "FIRIN"
+  },
+  {
+    "question": "МИКРОВЪЛНОВА ПЕЧКА (MIKROVALNOVA PECHKA) (Dişil)",
+    "answer": "MİKRODALGA"
+  },
+  {
+    "question": "КУХНЕНСКИ РОБОТИ (KUHNENSKI ROBOTI) (Çoğul)",
+    "answer": "KÜÇÜK MUTFAK ROBOTLARI"
+  },
+  {
+    "question": "НОЖ (NOZH) (Eril)",
+    "answer": "BIÇAK"
+  },
+  {
+    "question": "ВИЛИЦА (VILITSA) (Dişil)",
+    "answer": "ÇATAL"
+  },
+  {
+    "question": "ЛЪЖИЦА (LAZHITSA) (Dişil)",
+    "answer": "KAŞIK"
+  },
+  {
+    "question": "ЧИНИЯ (CHINIYA) (Dişil)",
+    "answer": "TABAK"
+  },
+  {
+    "question": "КУПА (KUPA) (Dişil)",
+    "answer": "KASE"
+  },
+  {
+    "question": "ТЕНДЖЕРА (TENDZHERA) (Dişil)",
+    "answer": "TENCERE"
+  },
+  {
+    "question": "ТАВА (TAVA) (Dişil)",
+    "answer": "TAVA"
+  },
+  {
+    "question": "ТИГАН (TIGAN) (Eril)",
+    "answer": "TAVA"
+  },
+  {
+    "question": "КАФЕ МАШИНА (KAFE MASHINA) (Dişil)",
+    "answer": "KAHVE MAKİNESİ"
+  },
+  {
+    "question": "ХЛАДИЛНИК (HLADILNIK) (Eril)",
+    "answer": "BUZDOLABI"
+  },
+  {
+    "question": "МИКСЕР (MIKSER) (Eril)",
+    "answer": "ÇIRPICI"
+  },
+  {
+    "question": "ТОСТЕР (TOSTER) (Eril)",
+    "answer": "TOST MAKİNESİ"
+  },
+  {
+    "question": "ТОАЛЕТНА ЧИНИЯ (TOALETNA CHINIYA) (Dişil)",
+    "answer": "KLOZET"
+  },
+  {
+    "question": "ДУШ (DUSH) (Eril)",
+    "answer": "DUŞ"
+  },
+  {
+    "question": "ВАНА (VANA) (Dişil)",
+    "answer": "KÜVET"
+  },
+  {
+    "question": "ОГЛЕДАЛО (OGLEDALO) (Nötr)",
+    "answer": "AYNA"
+  },
+  {
+    "question": "ПЕРАЛНЯ (PERALNYA) (Dişil)",
+    "answer": "ÇAMAŞIR MAKİNESİ"
+  },
+  {
+    "question": "СУШИЛНЯ (SUSHILNYA) (Dişil)",
+    "answer": "KURUTMA MAKİNESİ"
+  },
+  {
+    "question": "БОЙЛЕР (BOYLER) (Eril)",
+    "answer": "ŞOFBEN"
+  },
+  {
+    "question": "ТОАЛЕТНА ХАРТИЯ (TOALETNA HARTIYA) (Dişil)",
+    "answer": "TUVALET KAĞIDI"
+  },
+  {
+    "question": "САПУН (SAPUN) (Eril)",
+    "answer": "SABUN"
+  },
+  {
+    "question": "ШАМПОАН (SHAMPOAN) (Eril)",
+    "answer": "ŞAMPUAN"
+  },
+  {
+    "question": "КРЕМ ЗА КОСА (KREM ZA KOSA) (Eril)",
+    "answer": "SAÇ KREMİ"
+  },
+  {
+    "question": "ДУШ ГЕЛ (DUSH GEL) (Eril)",
+    "answer": "DUŞ JELİ"
+  },
+  {
+    "question": "ХАВЛИЯ (HAVLIYA) (Dişil)",
+    "answer": "HAVLU"
+  },
+  {
+    "question": "ЧЕТКА ЗА ЗЪБИ (CHETKA ZA ZABI) (Dişil)",
+    "answer": "DİŞ FIRÇASI"
+  },
+  {
+    "question": "ПАСТА ЗА ЗЪБИ (PASTA ZA ZABI) (Dişil)",
+    "answer": "DİŞ MACUNU"
+  },
+  {
+    "question": "КЪРПА (KARPA) (Dişil)",
+    "answer": "HAVLU"
+  },
+  {
+    "question": "ЧЕТКА ЗА КОСА (CHETKA ZA KOSA) (Dişil)",
+    "answer": "SAÇ FIRÇASI"
+  },
+  {
+    "question": "СЕШОАР (SESHOAR) (Eril)",
+    "answer": "SAÇ KURUTMA MAKİNESİ"
+  },
+  {
+    "question": "ХОЛНА МАСА (HOLNA MASA) (Dişil)",
+    "answer": "MASA (ORTA SEHPA)"
+  },
+  {
+    "question": "БИБЛИОТЕКА (BIBLIOTEKA) (Dişil)",
+    "answer": "KİTAPLIK"
+  },
+  {
+    "question": "СЕКЦИЯ (SEKTSIYA) (Dişil)",
+    "answer": "TV ÜNİTESİ"
+  },
+  {
+    "question": "СКРИН (SKRIN) (Eril)",
+    "answer": "DOLAP (ÇEKMECELİ)"
+  },
+  {
+    "question": "ТЕЛЕВИЗОР (TELEVISOR) (Eril)",
+    "answer": "TELEVİZYON"
+  },
+  {
+    "question": "КЛИМАТИК (KLIMATIK) (Eril)",
+    "answer": "KLİMA"
+  },
+  {
+    "question": "ЧАСОВНИК (CHASOVNIK) (Eril)",
+    "answer": "SAAT"
+  },
+  {
+    "question": "КИЛИМ (KILIM) (Eril)",
+    "answer": "HALI"
+  },
+  {
+    "question": "ПЕРДЕ (PERDE) (Nötr)",
+    "answer": "PERDE"
+  },
+  {
+    "question": "ТЮЛ (TYUL) (Eril)",
+    "answer": "TÜL"
+  },
+  {
+    "question": "КАРТИНА (KARTINA) (Dişil)",
+    "answer": "RESİM"
+  },
+  {
+    "question": "СВЕЩ (SVESHT) (Dişil)",
+    "answer": "MUM"
+  },
+  {
+    "question": "РАМКА ЗА СНИМКИ (RAMKA ZA SNIMKI) (Dişil)",
+    "answer": "FOTOĞRAF ÇERÇEVESİ"
+  },
+  {
+    "question": "ДЕТСКО ЛЕГЛО (DETSKO LEGLO) (Nötr)",
+    "answer": "ÇOCUK YATAĞI"
+  },
+  {
+    "question": "БЮРО (BYURO) (Nötr)",
+    "answer": "BÜRO / MASA"
+  },
+  {
+    "question": "РАФТОВЕ ЗА КНИГИ (RAFTOVE ZA KNIGI) (Çoğul)",
+    "answer": "KİTAPLIK / KİTAP RAFLARI"
+  },
+  {
+    "question": "КУТИЯ ЗА ИГРАЧКИ (KUTIYA ZA IGRACHKI) (Dişil)",
+    "answer": "OYUNCAK KUTUSU"
+  },
+  {
+    "question": "ИГРАЧКИ (IGRACHKI) (Çoğul)",
+    "answer": "OYUNCAK"
+  },
+  {
+    "question": "ПЛЮШЕНО МЕЧЕ (PLYUSHENO MECHE) (Nötr)",
+    "answer": "OYUNCAK AYI"
+  },
+  {
+    "question": "ЛЮЛКА (LYULKA) (Dişil)",
+    "answer": "SALINCAK"
+  },
+  {
+    "question": "ЛЕГО (LEGO) (Nötr)",
+    "answer": "LEGO"
+  },
+  {
+    "question": "ПЪЗЕЛ (PAZEL) (Eril)",
+    "answer": "BULMACA"
+  },
+  {
+    "question": "КНИЖКИ (KNIZHKI) (Çoğul)",
+    "answer": "ÇOCUK VEYA BEBEK KİTAPLARI"
+  },
+  {
+    "question": "ИНСТРУМЕНТИ (INSTRUMENTI) (Çoğul)",
+    "answer": "ALETLER"
+  },
+  {
+    "question": "ГУМА (GUMA) (Dişil)",
+    "answer": "LASTİK"
+  },
+  {
+    "question": "БАРБЕКЮ (BARBEKYU) (Nötr)",
+    "answer": "BARBEKÜ"
+  },
+  {
+    "question": "КЛЮЧОВЕ (KLYUCHOVE) (Çoğul)",
+    "answer": "ANAHTARLAR"
+  },
+  {
+    "question": "ВРЪХНИ ДРЕХИ (VRAHNI DREHI) (Çoğul)",
+    "answer": "DIŞ GİYİM"
+  },
+  {
+    "question": "ПОРТМАНТО (PORTMANTO) (Nötr)",
+    "answer": "PORTMANTO"
+  },
+  {
+    "question": "ШКАФ ЗА ОБУВКИ (SHKAF ZA OBUVKI) (Eril)",
+    "answer": "AYAKKABI DOLABI"
+  },
+  {
+    "question": "ЦВЕТЯ (TSVETYA) (Çoğul)",
+    "answer": "ÇİÇEKLER"
+  },
+  {
+    "question": "ЧАДЪР (CHADAR) (Eril)",
+    "answer": "ŞEMSİYE"
+  },
+  {
+    "question": "ЛЕЙКА (LEYKA) (Dişil)",
+    "answer": "ÇİÇEK SULAMA KABI"
+  },
+  {
+    "question": "КАШОНИ (KASHONI) (Çoğul)",
+    "answer": "KOLİLER"
+  },
+  {
+    "question": "КАШОН (KASHON) (Eril)",
+    "answer": "KOLİ"
+  },
+  {
+    "question": "НЕПОТРЕБНОСТИ (NEPOTREBNOSTI) (Çoğul)",
+    "answer": "GEREKSİZ ŞEYLER"
+  },
+  {
+    "question": "БУРКАНИ (BURKANI) (Çoğul)",
+    "answer": "KAVANOZLAR"
+  },
+  {
+    "question": "ГАЗОВА ЛАМПА (GAZOVA LAMPA) (Dişil)",
+    "answer": "GAZ LAMBASI"
+  },
+  {
+    "question": "ДВАДЕСЕТ И ЕДНО (DVADESET I EDNO) (Nötr)",
+    "answer": "21"
+  },
+  {
+    "question": "ДВАДЕСЕТ И ДВЕ (DVADESET I DVE) (Nötr)",
+    "answer": "22"
+  },
+  {
+    "question": "ДВАДЕСЕТ И ТРИ (DVADESET I TRI) (Nötr)",
+    "answer": "23"
+  },
+  {
+    "question": "ДВАДЕСЕТ И ЧЕТИРИ (DVADESET I CHETIRI) (Nötr)",
+    "answer": "24"
+  },
+  {
+    "question": "ДВАДЕСЕТ И ПЕТ (DVADESET I PET) (Nötr)",
+    "answer": "25"
+  },
+  {
+    "question": "ДВАДЕСЕТ И ШЕСТ (DVADESET I SHEST) (Nötr)",
+    "answer": "26"
+  },
+  {
+    "question": "ДВАДЕСЕТ И СЕДЕМ (DVADESET I SEDEM) (Nötr)",
+    "answer": "27"
+  },
+  {
+    "question": "ДВАДЕСЕТ И ОСЕМ (DVADESET I OSEM) (Nötr)",
+    "answer": "28"
+  },
+  {
+    "question": "ДВАДЕСЕТ И ДЕВЕТ (DVADESET I DEVET) (Nötr)",
+    "answer": "29"
+  },
+  {
+    "question": "ТРИДЕСЕТ (TRIDESET) (Nötr)",
+    "answer": "30"
+  },
+  {
+    "question": "ТРИЙСЕ (TRIYSE) (Nötr)",
+    "answer": "30"
+  },
+  {
+    "question": "ЧЕТИРИДЕСЕТ (CHETIRIDESET) (Nötr)",
+    "answer": "40"
+  },
+  {
+    "question": "ЧЕТИРСЕ (CHETIRSE) (Nötr)",
+    "answer": "40"
+  },
+  {
+    "question": "ПЕТДЕСЕТ (PETDESET) (Nötr)",
+    "answer": "50"
+  },
+  {
+    "question": "ПЕДЕСЕ (PEDESE) (Nötr)",
+    "answer": "50"
+  },
+  {
+    "question": "ШЕСТДЕСЕТ (SHESTDESET) (Nötr)",
+    "answer": "60"
+  },
+  {
+    "question": "ШЕЙСЕ (SHEYSE) (Nötr)",
+    "answer": "60"
+  },
+  {
+    "question": "СЕДЕМДЕСЕТ (SEDEMDESET) (Nötr)",
+    "answer": "70"
+  },
+  {
+    "question": "СЕДЕМДЕСЕ (SEDEMDESSE) (Nötr)",
+    "answer": "70"
+  },
+  {
+    "question": "ОСЕМДЕСЕТ (OSEMDESET) (Nötr)",
+    "answer": "80"
+  },
+  {
+    "question": "ОСЕМДЕСЕ (OSEMDESE) (Nötr)",
+    "answer": "80"
+  },
+  {
+    "question": "ДЕВЕТДЕСЕТ (DEVETDESET) (Nötr)",
+    "answer": "90"
+  },
+  {
+    "question": "ДЕВЕДЕСЕ (DEVEDESE) (Nötr)",
+    "answer": "90"
+  },
+  {
+    "question": "СТО (STO) (Nötr)",
+    "answer": "100"
+  },
+  {
+    "question": "ДВЕСТА (DVESTA) (Nötr)",
+    "answer": "200"
+  },
+  {
+    "question": "ТРИСТА (TRISTA) (Nötr)",
+    "answer": "300"
+  },
+  {
+    "question": "ЧЕТИРИСТОТИН (CHETIRISTOTIN) (Nötr)",
+    "answer": "400"
+  },
+  {
+    "question": "ПЕТСТОТИН (PETSTOTIN) (Nötr)",
+    "answer": "500"
+  },
+  {
+    "question": "ШЕСТСТОТИН (SHESTSTOTIN) (Nötr)",
+    "answer": "600"
+  },
+  {
+    "question": "СЕДЕМСТОТИН (SEDEMSTOTIN) (Nötr)",
+    "answer": "700"
+  },
+  {
+    "question": "ОСЕМСТОТИН (OSEMSTOTIN) (Nötr)",
+    "answer": "800"
+  },
+  {
+    "question": "ДЕВЕТСТОТИН (DEVETSTOTIN) (Nötr)",
+    "answer": "900"
+  },
+  {
+    "question": "ХИЛЯДА (HILYADA) (Dişil)",
+    "answer": "1000"
+  },
+  {
+    "question": "ДВЕ ХИЛЯДИ (DVE HILYADI) (Çoğul)",
+    "answer": "2000"
+  },
+  {
+    "question": "ТРИ ХИЛЯДИ (TRI HILYADI) (Çoğul)",
+    "answer": "3000"
+  },
+  {
+    "question": "ЧЕТИРИ ХИЛЯДИ (CHETIRI HILYADI) (Çoğul)",
+    "answer": "4000"
+  },
+  {
+    "question": "ДЕСЕТ ХИЛЯДИ (DESET HILYADI) (Çoğul)",
+    "answer": "10.000"
+  },
+  {
+    "question": "СТО ХИЛЯДИ (STO HILYADI) (Çoğul)",
+    "answer": "100.000"
+  },
+  {
+    "question": "СТО И ЕДНО (STO I EDNO) (Nötr)",
+    "answer": "101"
+  },
+  {
+    "question": "СТО И ДВЕ (STO I DVE) (Nötr)",
+    "answer": "102"
+  },
+  {
+    "question": "СТО И ДВАЙСЕ (STO I DVAYSE) (Nötr)",
+    "answer": "120"
+  },
+  {
+    "question": "СТО И ПЕТДЕСЕ (STO I PEDESE) (Nötr)",
+    "answer": "150"
+  },
+  {
+    "question": "ХИЛЯДА И СТО (HILYADA I STO) (Nötr)",
+    "answer": "1100"
+  },
+  {
+    "question": "ХИЛЯДА СТО И ПЕТДЕСЕ (HILYADA STO I PEDESE) (Nötr)",
+    "answer": "1150"
+  },
+  {
+    "question": "ДЕСЕТ ХИЛЯДИ И СТО (DESET HILYADI I STO) (Nötr)",
+    "answer": "10100"
+  },
+  {
+    "question": "СТО И ДЕСЕТ ХИЛЯДИ (STO I DESET HILYADI) (Nötr)",
+    "answer": "110000"
+  },
+  {
+    "question": "СТО И ДВАЙСЕ ХИЛЯДИ (STO I DVAYSE HILYADI) (Nötr)",
+    "answer": "120000"
+  },
+  {
+    "question": "ХИЛЯДА ДЕВЕТСТОТИН И ОСЕМДЕСЕТ И ПЕТ (HILYADA DEVETSTOTIN I OSEMDESET I PET) (Nötr)",
+    "answer": "1985"
+  },
+  {
+    "question": "ХИЛЯДА И ДЕВЕТСТОТИН (HILYADA I DEVETSTOTIN) (Nötr)",
+    "answer": "1900"
+  },
+  {
+    "question": "ТУК (TUK) (Nötr)",
+    "answer": "BURADA"
+  },
+  {
+    "question": "Аз съм тук (AZ SAM TUK)",
+    "answer": "Ben buradayım"
+  },
+  {
+    "question": "Тук съм (TUK SAM)",
+    "answer": "Buradayım"
+  },
+  {
+    "question": "Дойдох от тук (DOYDOH OT TUK)",
+    "answer": "Ben buradan geldim"
+  },
+  {
+    "question": "Тук е моята къща (TUK E MOYATA KASHTA)",
+    "answer": "Burada benim evim"
+  },
+  {
+    "question": "Тук имам къща (TUK IMAM KASHTA)",
+    "answer": "Burada evim var"
+  },
+  {
+    "question": "Аз живея тук (AZ ZHIVEYA TUK)",
+    "answer": "Ben burada yaşıyorum"
+  },
+  {
+    "question": "ТАМ (TAM) (Nötr)",
+    "answer": "ORADA"
+  },
+  {
+    "question": "Колата е там, до дървото (KOLATA E TAM, DO DARVOTO)",
+    "answer": "Araba orada, ağacın yanında"
+  },
+  {
+    "question": "Детето е там, до парка (DETETO E TAM, DO PARKA)",
+    "answer": "Çocuk orada, parkın yanında"
+  },
+  {
+    "question": "Аз съм там (AZ SAM TAM)",
+    "answer": "Ben oradayım"
+  },
+  {
+    "question": "Той е там (TOY E TAM)",
+    "answer": "O orada"
+  },
+  {
+    "question": "Магазинът е там (MAGAZINAT E TAM)",
+    "answer": "Market orada"
+  },
+  {
+    "question": "Там има куче (TAM IMA KUCHE)",
+    "answer": "Orada köpek var"
+  },
+  {
+    "question": "Децата играят там (DETSATA IGRAT TAM)",
+    "answer": "Çocuklar orada oynuyor"
+  },
+  {
+    "question": "ГОРЕ (GORE) (Nötr)",
+    "answer": "YUKARIDA"
+  },
+  {
+    "question": "Котката е горе на покрива (KOTKATA E GORE NA POKRIVA)",
+    "answer": "Kedi yukarıda, çatının üstünde"
+  },
+  {
+    "question": "Горе на тавана има кашони (GORE NA TAVANA IMA KASHONI)",
+    "answer": "Çatı katında koliler var"
+  },
+  {
+    "question": "Горе на дървото има череши (GORE NA DARVOTO IMA CHERESHI)",
+    "answer": "Yukarıda ağaçta kirazlar var"
+  },
+  {
+    "question": "Горе съм (GORE SAM)",
+    "answer": "Yukarıdayım"
+  },
+  {
+    "question": "ДОЛУ (DOLU) (Nötr)",
+    "answer": "AŞAĞIDA"
+  },
+  {
+    "question": "Той живее долу на първия етаж (TOY ZHIVEE DOLU NA PARVIYA ETAZH)",
+    "answer": "O, aşağıda, birinci katta yaşıyor"
+  },
+  {
+    "question": "Долу има котка (DOLU IMA KOTKA)",
+    "answer": "Aşağıda kedi var"
+  },
+  {
+    "question": "Колата е долу на паркинга (KOLATA E DOLU NA PARKINGA)",
+    "answer": "Araba aşağıda otoparkta"
+  },
+  {
+    "question": "Детето е долу пред блока (DETETO E DOLU PRED BLOKA)",
+    "answer": "Çocuk aşağıda apartmanın önünde"
+  },
+  {
+    "question": "Кучето спи долу пред къщата (KUCHETO SPI DOLU PRED KASHTATA)",
+    "answer": "Köpek aşağıda evin önünde uyuyor"
+  },
+  {
+    "question": "Кашоните са долу в мазето (KASHONITE SA DOLU V MAZETO)",
+    "answer": "Koliler aşağıda kilerde"
+  },
+  {
+    "question": "Слизам долу (SLIZAM DOLU)",
+    "answer": "Aşağı iniyorum"
+  },
+  {
+    "question": "Долу съм (DOLU SAM)",
+    "answer": "Aşağıdayım"
+  },
+  {
+    "question": "Аз съм долу (AZ SAM DOLU)",
+    "answer": "Aşağıdayım"
+  },
+  {
+    "question": "ВЪТРЕ (VATRE) (Nötr)",
+    "answer": "İÇERİDE"
+  },
+  {
+    "question": "Всички са вътре в стаята (VSICHKI SA VATRE V STAYATA)",
+    "answer": "Herkes içeride, odada"
+  },
+  {
+    "question": "Детето е вътре в стаята (DETETO E VATRE V STAYATA)",
+    "answer": "Çocuk içeride, odada"
+  },
+  {
+    "question": "Вътре в стаята има ли телевизор? (VATRE V STAYATA IMA LI TELEVIZOR?)",
+    "answer": "İçeride odada televizyon var mı?"
+  },
+  {
+    "question": "Аз съм вътре в кухнята (AZ SAM VATRE V KUHNYATA)",
+    "answer": "Ben mutfağın içindeyim / mutfaktayım"
+  },
+  {
+    "question": "НАВЪН (NAVAN) (Nötr)",
+    "answer": "DIŞARIDA"
+  },
+  {
+    "question": "Децата играят навън (DETSATA IGRAT NAVAN)",
+    "answer": "Çocuklar dışarıda oynuyor"
+  },
+  {
+    "question": "Всички са навън (VSICHKI SA NAVAN)",
+    "answer": "Herkes dışarıda"
+  },
+  {
+    "question": "Излизам навън (IZLIZAM NAVAN)",
+    "answer": "Dışarı çıkıyorum"
+  },
+  {
+    "question": "Котката е навън (KOTKATA E NAVAN)",
+    "answer": "Kedi dışarıda"
+  },
+  {
+    "question": "Кучето е навън (KUCHETO E NAVAN)",
+    "answer": "Köpek dışarıda"
+  },
+  {
+    "question": "Аз съм навън (AZ SAM NAVAN)",
+    "answer": "Ben dışarıdayım"
+  },
+  {
+    "question": "Колата е навън пред къщата (KOLATA E NAVAN PRED KASHTATA)",
+    "answer": "Araba dışarıda evin önünde"
+  },
+  {
+    "question": "Има ли хора навън? (IMA LI HORA NAVAN?)",
+    "answer": "Dışarıda insan var mı?"
+  },
+  {
+    "question": "Навън е студено (NAVAN E STUDENO)",
+    "answer": "Dışarısı soğuk"
+  },
+  {
+    "question": "Навън е топло (NAVAN E TOPLO)",
+    "answer": "Dışarısı sıcak"
+  },
+  {
+    "question": "Навън има дъжд (NAVAN IMA DAZHD)",
+    "answer": "Dışarıda yağmur var"
+  },
+  {
+    "question": "Навън е слънчево (NAVAN Eშׁ E SLANCHEVO)",
+    "answer": "Dışarısı güneşli"
+  },
+  {
+    "question": "Навън е ветровито (NAVAN E VETROVITO)",
+    "answer": "Dışarısı rüzgarlı"
+  },
+  {
+    "question": "Навън има ли сняг? (NAVAN IMA LI SNYAG?)",
+    "answer": "Dışarıda kar var mı?"
+  },
+  {
+    "question": "ОТПРЕД (OT PRED) (Nötr)",
+    "answer": "ÖNDE"
+  },
+  {
+    "question": "Колата е паркирана отпред (KOLATA E PARKIRANA OTPRED)",
+    "answer": "Araba önde park edilmiş"
+  },
+  {
+    "question": "Децата играят отпред (DETSATA IGRAT OTPRED)",
+    "answer": "Çocuklar önde oynuyor"
+  },
+  {
+    "question": "Отпред има парк (OT PRED IMA PARK)",
+    "answer": "Önde park var"
+  },
+  {
+    "question": "Той/Тя/То седи отпред в колата (TOY/TYA/TO SEDI OTPRED V KOLATA)",
+    "answer": "O arabada önde oturuyor"
+  },
+  {
+    "question": "Не паркирайте отпред/пред къщата (NE PARKIRAYTE OTPRED/PRED KASHTATA)",
+    "answer": "Evin önüne park etmeyin"
+  },
+  {
+    "question": "ОТЗАД (OTZAD) (Nötr)",
+    "answer": "ARKADA"
+  },
+  {
+    "question": "Градината е отзад на къщата (GRADINATA E OTZAD NA KASHTATA)",
+    "answer": "Bahçe evin arkasında"
+  },
+  {
+    "question": "Отзад на парка има училище (OTZAD NA PARKA IMA UCHILISHTE)",
+    "answer": "Parkın arkasında okul var"
+  },
+  {
+    "question": "Те идват отзад (TE IDVAT OTZAD)",
+    "answer": "Onlar arkadan geliyor"
+  },
+  {
+    "question": "Отивам отзад жп гарата (OTIVAM OTZAD ZHP GARATA)",
+    "answer": "Tren istasyonunun arkasına gidiyorum"
+  },
+  {
+    "question": "Тя седи отзад (TYA SEDI OTZAD)",
+    "answer": "O arkada oturuyor"
+  },
+  {
+    "question": "БЛИЗО (BLIZO) (Nötr)",
+    "answer": "YAKIN"
+  },
+  {
+    "question": "Аз съм близо до границата (AZ SAM BLIZO DO GRANITSATA)",
+    "answer": "Sınıra yakınım"
+  },
+  {
+    "question": "Близо до магазина има банка (BLIZO DO MAGAZINA IMA BANKA)",
+    "answer": "Markete yakın banka var"
+  },
+  {
+    "question": "Близо ли сте? (BLIZO LI STE?)",
+    "answer": "Yakın mısınız?"
+  },
+  {
+    "question": "Близо съм до центъра (BLIZO SAM DO TSENTARA)",
+    "answer": "Merkeze/çarşıya yakınım"
+  },
+  {
+    "question": "Близо до училището има автогара (BLIZO DO UCHILISHTETO IMA AVTOGARA)",
+    "answer": "Okula yakın otogar var"
+  },
+  {
+    "question": "Близо до гарата има голям супермаркет (BLIZO DO GARATA IMA GOLYAM SUPERMARKET)",
+    "answer": "İstasyonun yanında büyük market var"
+  },
+  {
+    "question": "Близо до автобуса (BLIZO DO AVTOBUSA)",
+    "answer": "Otobüse yakın"
+  },
+  {
+    "question": "Близо до Истанбул има един малък град (BLIZO DO ISTANBUL IMA EDIN MALAK GRAD)",
+    "answer": "İstanbul’a yakın küçük bir şehir var"
+  },
+  {
+    "question": "Близо до София (BLIZO DO SOFIYA)",
+    "answer": "Sofya’ya yakın"
+  },
+  {
+    "question": "Близо до България (BLIZO DO BALGARIYA)",
+    "answer": "Bulgaristan’a yakın"
+  },
+  {
+    "question": "ДАЛЕЧ (DALECH) (Nötr)",
+    "answer": "UZAK"
+  },
+  {
+    "question": "Далеч от всичко (DALECH OT VSICHKO)",
+    "answer": "Her şeyden uzak"
+  },
+  {
+    "question": "Далеч от града (DALECH OT GRADA)",
+    "answer": "Şehirden uzak"
+  },
+  {
+    "question": "Далеч от хората (DALECH OT HORATA)",
+    "answer": "İnsanlardan uzak"
+  },
+  {
+    "question": "Далеч от границата (DALECH OT GRANITSATA)",
+    "answer": "Sınırdan uzak"
+  },
+  {
+    "question": "Моята работа е далеч от вкъщи (MOYATA RABOTA E DALECH OT VKASHTI)",
+    "answer": "Benim işim evden uzak"
+  },
+  {
+    "question": "Гледам на далеч (GLEDAM NA DALECH)",
+    "answer": "Uzağa bakıyorum"
+  },
+  {
+    "question": "На далеч има градина с красиви цветя (NA DALECH IMA GRADINA S KRASIVI TSVETYA)",
+    "answer": "Uzakta güzel çiçek bahçesi var"
+  },
+  {
+    "question": "Далеч от тук (DALECH OT TUK)",
+    "answer": "Buradan uzakta"
+  },
+  {
+    "question": "Далеч ли си? (DALECH LI SI?)",
+    "answer": "Uzakta mısın?"
+  },
+  {
+    "question": "Далеч ли е твоята работа? (DALECH LI E TVOYATA RABOTA?)",
+    "answer": "Senin işin uzak mı?"
+  },
+  {
+    "question": "Дървото и реката са далеч от къщата (DARVOTO I REKATA SA DALECH OT KASHTATA)",
+    "answer": "Nehir ve ağaç evden uzakta"
+  },
+  {
+    "question": "Далеч ли живееш от твоето семейство? (DALECH LI ZHIVESH OT TVOETO SEMEYSTVO?)",
+    "answer": "Ailenden uzakta mı yaşıyorsun?"
+  },
+  {
+    "question": "Стой далеч! (STOY DALECH!)",
+    "answer": "Uzak dur!"
+  },
+  {
+    "question": "Не виждам далеч (NE VIZHDAM DALECH)",
+    "answer": "Uzağı görmüyorum"
+  },
+  {
+    "question": "Стой на три метра далеч от мен (STOY NA TRI METRA DALECH OT MEN)",
+    "answer": "Benden 3 metre uzakta dur"
+  }
+]
