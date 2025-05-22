@@ -1,5 +1,5 @@
 {
-  "currentIndex": 8,
+  "currentIndex": 0,
   "score": 0,
   "answers": [
     null,
@@ -215,13 +215,6 @@
     null
   ],
   "recentQuestions": [
-    {
-      "index": 8,
-      "question": "ЕДИН ДИВАН (EDIN DIVAN) (Eril)",
-      "answer": null,
-      "correctAnswer": "BİR KOLTUK",
-      "isCorrect": null
-    },
     {
       "index": 0,
       "question": "ЕДНO КУЧЕ (EDNO KUCHE) (Eril)",
