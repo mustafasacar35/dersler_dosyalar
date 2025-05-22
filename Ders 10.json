@@ -1,0 +1,990 @@
+[
+  {
+    "question": "ЩЕ ЧЕТА КНИГА (SHTE CHETA KNIGA)",
+    "answer": "KİTAP OKUYACAĞIM"
+  },
+  {
+    "question": "ЩЕ ГЛЕДАМ ФИЛМ (SHTE GLEDAM FILM)",
+    "answer": "FİLM İZLEYECEĞİM"
+  },
+  {
+    "question": "ЩЕ ГЛЕДАМ ИНТЕРЕСЕН ФИЛМ (SHTE GLEDAM INTERESEN FILM) (Eril)",
+    "answer": "İLGİNÇ FİLM İZLEYECEĞİM"
+  },
+  {
+    "question": "ЩЕ СТАВАМ (SHTE STAVAM)",
+    "answer": "KALKACAĞIM"
+  },
+  {
+    "question": "ЩЕ СТАВАМ ЗА РАБОТА (SHTE STAVAM ZA RABOTA)",
+    "answer": "İŞ İÇİN KALKACAĞIM"
+  },
+  {
+    "question": "ЩЕ СТАВАМ ЗА РАБОТА В СЕДЕМ И ПОЛОВИНА (SHTE STAVAM ZA RABOTA V SEDEM I POLOVINA)",
+    "answer": "İŞ İÇİN SAAT 7.30'DA KALKACAĞIM"
+  },
+  {
+    "question": "ЩЕ ОТИВАМ НА УРОК (SHTE OTIVAM NA UROK)",
+    "answer": "DERSE GİDECEĞİM"
+  },
+  {
+    "question": "ЩЕ ОТИВАМ НА УРОК С АВТОБУС (SHTE OTIVAM NA UROK S AVTOBUS)",
+    "answer": "OTOBÜSLE DERSE GİDECEĞİM"
+  },
+  {
+    "question": "ЩЕ ОТИВАМ НА УРОК С АВТОБУС В ЕДИНАЙСЕ ЧАСА (SHTE OTIVAM NA UROK S AVTOBUS V EDINAYSE CHASA)",
+    "answer": "SAAT 11'DE OTOBÜSLE DERSE GİDECEĞİM"
+  },
+  {
+    "question": "ЩЕ ЯМ ЗАКУСКА (SHTE YAM ZAKUSKA) (Dişil)",
+    "answer": "KAHVALTI YAPACAĞIM"
+  },
+  {
+    "question": "ЩЕ ЯМ ЗАКУСКА В ДЕВЕТ ЧАСА (SHTE YAM ZAKUSKA V DEVET CHASA)",
+    "answer": "SAAT 9'DA KAHVALTI YAPACAĞIM"
+  },
+  {
+    "question": "ЩЕ ЯМ ПЛОДОВЕ (SHTE YAM PLODOVE) (Çoğul)",
+    "answer": "MEYVE YİYECEĞİM"
+  },
+  {
+    "question": "ЩЕ ПИЯ ЕДНО КАФЕ (SHTE PIYA EDNO KAFE) (Nötr)",
+    "answer": "BİR KAHVE İÇECEĞİM"
+  },
+  {
+    "question": "В ТРИ ЧАСА СЛЕДОБЕД ЩЕ ПИЯ ЕДНО КАФЕ (V TRI CHASA SLEDOBED SHTE PIYA EDNO KAFE)",
+    "answer": "ÖĞLEDEN SONRA SAAT 3'TE BİR KAHVE İÇECEĞİM"
+  },
+  {
+    "question": "ЩЕ ИСКАМ ПОМОЩ (SHTE ISKAM POMOSHT) (Dişil)",
+    "answer": "YARDIM İSTEYECEĞİM"
+  },
+  {
+    "question": "ЩЕ ИСКАМ ПОМОЩ ЗА ТОЗИ РАЗВАЛЕН ТЕЛЕФОН (SHTE ISKAM POMOSHT ZA TOZI RAZVALEN TELEFON) (Eril)",
+    "answer": "BU BOZUK TELEFON İÇİN YARDIM İSTEYECEĞİM"
+  },
+  {
+    "question": "ЩЕ ОТИВАМ НА РАБОТА (SHTE OTIVAM NA RABOTA)",
+    "answer": "İŞE GİDECEĞİM"
+  },
+  {
+    "question": "УТРЕ В ОСЕМ И ПЕТНАЙСЕ ЩЕ ОТИВАМ НА РАБОТА (UTRE V OSEM I PETNAYSE SHTE OTIVAM NA RABOTA)",
+    "answer": "YARIN SAAT 08:15'TE İŞE GİDECEĞİM"
+  },
+  {
+    "question": "ЩЕ ОТИВАМ НА РАБОТА С КОЛА (SHTE OTIVAM NA RABOTA S KOLA) (Dişil)",
+    "answer": "İŞE ARABAYLA GİDECEĞİM"
+  },
+  {
+    "question": "ЩЕ ЧИСТЯ КЪЩАТА (SHTE CHISTYA KASHTATA) (Dişil)",
+    "answer": "EVİ TEMİZLEYECEĞİM"
+  },
+  {
+    "question": "В СЪБОТА ЩЕ ЧИСТЯ КЪЩАТА (V SABOTA SHTE CHISTYA KASHTATA)",
+    "answer": "CUMARTESİ EVİ TEMİZLEYECEĞİM"
+  },
+  {
+    "question": "ЩЕ ПРАВЯ ВЕЧЕРЯ (SHTE PRAVYA VECHERYA) (Dişil)",
+    "answer": "AKŞAM YEMEĞİ YAPACAĞIM"
+  },
+  {
+    "question": "ЗА ВЕЧЕРЯ ЩЕ ПРАВЯ ПИЛЕШКО И ЗЕЛЕНЧУЦИ (ZA VECHERYA SHTE PRAVYA PILESHKO I ZELENCHUTSI) (Nötr, Çoğul)",
+    "answer": "AKŞAM YEMEĞİ İÇİN TAVUK VE SEBZE YAPACAĞIM"
+  },
+  {
+    "question": "ЩЕ ПРАВЯ КАФЕ (SHTE PRAVYA KAFE) (Nötr)",
+    "answer": "KAHVE YAPACAĞIM"
+  },
+  {
+    "question": "ЩЕ ПРАВЯ ТУРСКО КАФЕ НА ВСИЧКИ (SHTE PRAVYA TURSKO KAFE NA VSICHKI)",
+    "answer": "HERKESE TÜRK KAHVESİ YAPACAĞIM"
+  },
+  {
+    "question": "ЩЕ ПРАВЯ ЧАЙ (SHTE PRAVYA CHAY) (Eril)",
+    "answer": "ÇAY YAPACAĞIM"
+  },
+  {
+    "question": "ЩЕ ПРАВЯ ЧАЙ И ТОСТ ЗА ЗАКУСКА (SHTE PRAVYA CHAY I TOST ZA ZAKUSKA)",
+    "answer": "KAHVALTI İÇİN ÇAY VE TOST YAPACAĞIM"
+  },
+  {
+    "question": "ЩЕ ГЛАДЯ ДРЕХИ (SHTE GLADYA DREHI) (Çoğul)",
+    "answer": "KIYAFET ÜTÜLEYECEĞİM"
+  },
+  {
+    "question": "ЩЕ ОТИВАМ В БЪЛГАРИЯ (SHTE OTIVAM V BALGARIYA)",
+    "answer": "BULGARİSTAN'A GİDECEĞİM"
+  },
+  {
+    "question": "В ПЕТЪК ЩЕ ОТИВАМ В БЪЛГАРИЯ СЪС САМОЛЕТ (V PETAK SHTE OTIVAM V BALGARIYA SAS SAMOLET)",
+    "answer": "CUMA GÜNÜ UÇAKLA BULGARİSTAN'A GİDECEĞİM"
+  },
+  {
+    "question": "ЩЕ ЖИВЕЯ В СОФИЯ (SHTE ZHIVEYA V SOFIYA)",
+    "answer": "SOFYA'DA YAŞAYACAĞIM"
+  },
+  {
+    "question": "ЩЕ ЖИВЕЯ В ГЕРМАНИЯ (SHTE ZHIVEYA V GERMANIYA)",
+    "answer": "ALMANYA'DA YAŞAYACAĞIM"
+  },
+  {
+    "question": "ЩЕ ИМАМ УРОК (SHTE IMAM UROK) (Eril)",
+    "answer": "DERSİM OLACAK"
+  },
+  {
+    "question": "ЩЕ ИМАМ НОВ ТЕЛЕФОН (SHTE IMAM NOV TELEFON) (Eril)",
+    "answer": "YENİ TELEFONUM OLACAK"
+  },
+  {
+    "question": "КАКВО ЩЕ ПРАВИТЕ УТРЕ? (KAKVO SHTE PRAVITE UTRE?) (Çoğul)",
+    "answer": "YARIN NE YAPACAKSINIZ?"
+  },
+  {
+    "question": "НЯМА ДА ЧЕТА КНИГА (NYAMA DA CHETA KNIGA) (Dişil)",
+    "answer": "KİTAP OKUMAYACAĞIM"
+  },
+  {
+    "question": "НЯМА ДА ГЛЕДАМ ФИЛМ (NYAMA DA GLEDAM FILM) (Eril)",
+    "answer": "FİLM İZLEMEYECEĞİM"
+  },
+  {
+    "question": "НЯМА ДА СТАВАМ (NYAMA DA STAVAM)",
+    "answer": "KALKMAYACAĞIM"
+  },
+  {
+    "question": "НЯМА ДА ОТИВАМ НА УРОК (NYAMA DA OTIVAM NA UROK)",
+    "answer": "DERSE GİTMEYECEĞİM"
+  },
+  {
+    "question": "НЯМА ДА ЯМ ЗАКУСКА (NYAMA DA YAM ZAKUSKA) (Dişil)",
+    "answer": "KAHVALTI YEMEYECEĞİM"
+  },
+  {
+    "question": "НЯМА ДА ЯМ ПЛОДОВЕ (NYAMA DA YAM PLODOVE) (Çoğul)",
+    "answer": "MEYVE YEMEYECEĞİM"
+  },
+  {
+    "question": "НЯМА ДА ПИЯ ЕДНО КАФЕ (NYAMA DA PIYA EDNO KAFE) (Nötr)",
+    "answer": "BİR KAHVE İÇMEYECEĞİM"
+  },
+  {
+    "question": "НЯМА ДА ИСКАМ ПОМОЩ (NYAMA DA ISKAM POMOSHT) (Dişil)",
+    "answer": "YARDIM İSTEMEYECEĞİM"
+  },
+  {
+    "question": "НЯМА ДА ОТИВАМ НА РАБОТА (NYAMA DA OTIVAM NA RABOTA)",
+    "answer": "İŞE GİTMEYECEĞİM"
+  },
+  {
+    "question": "НЯМА ДА ЧИСТЯ КЪЩАТА (NYAMA DA CHISTYA KASHTATA) (Dişil)",
+    "answer": "EVİ TEMİZLEMEYECEĞİM"
+  },
+  {
+    "question": "НЯМА ДА ПРАВЯ ВЕЧЕРЯ (NYAMA DA PRAVYA VECHERYA) (Dişil)",
+    "answer": "AKŞAM YEMEĞİ YAPMAYACAĞIM"
+  },
+  {
+    "question": "НЯМА ДА ПРАВЯ КАФЕ (NYAMA DA PRAVYA KAFE) (Nötr)",
+    "answer": "KAHVE YAPMAYACAĞIM"
+  },
+  {
+    "question": "НЯМА ДА ПРАВЯ ЧАЙ (NYAMA DA PRAVYA CHAY) (Eril)",
+    "answer": "ÇAY YAPMAYACAĞIM"
+  },
+  {
+    "question": "НЯМА ДА ОТИВАМ В БЪЛГАРИЯ (NYAMA DA OTIVAM V BALGARIYA)",
+    "answer": "BULGARİSTAN’A GİTMEYECEĞİM"
+  },
+  {
+    "question": "НЯМА ДА ЖИВЕЯ В СОФИЯ (NYAMA DA ZHIVEYA V SOFIYA)",
+    "answer": "SOFYA'DA YAŞAMAYACAĞIM"
+  },
+  {
+    "question": "НЯМА ДА ПРАВЯ НИЩО (NYAMA DA PRAVYA NISHTO) (Nötr)",
+    "answer": "HİÇBİR ŞEY YAPMAYACAĞIM"
+  },
+  {
+    "question": "НЯМА ДА ПИША (NYAMA DA PISHA)",
+    "answer": "YAZMAYACAĞIM"
+  },
+  {
+    "question": "НЯМА ДА ОТИВАМ НА ПОЧИВКА (NYAMA DA OTIVAM NA POCHIVKA) (Dişil)",
+    "answer": "TATİLE GİTMEYECEĞİM"
+  },
+  {
+    "question": "НЕ ИСКАМ ДА ВИЖДАМ НИКОГО (NE ISKAM DA VIZHDAM NIKOGO)",
+    "answer": "KİMSEYİ GÖRMEK İSTEMİYORUM"
+  },
+  {
+    "question": "НЯМА ДА ГОВОРЯ ВЕЧЕ С ТЕБ (NYAMA DA GOVORYA VECHE S TEB)",
+    "answer": "ARTIK SENİNLE KONUŞMAYACAĞIM"
+  },
+  {
+    "question": "НЯМА ДА СЛУШАМ МУЗИКА (NYAMA DA SLUSHAM MUZIKA) (Dişil)",
+    "answer": "MÜZİK DİNLEMEYECEĞİM"
+  },
+  {
+    "question": "НЯМА ДА ЧИСТЯ СТАЯТА МИ (NYAMA DA CHISTYA STAYATA MI) (Dişil)",
+    "answer": "ODAMI TEMİZLEMEYECEĞİM"
+  },
+  {
+    "question": "ТОЙ НЯМА ДА ЯДЕ СЛАДОЛЕД (TOY NYAMA DA YADE SLADOLED) (Eril)",
+    "answer": "DONDURMA YEMEYECEK (ERİL)"
+  },
+  {
+    "question": "ТЯ НЯМА ДА ЯДЕ СЛАДОЛЕД (TYA NYAMA DA YADE SLADOLED) (Dişil)",
+    "answer": "DONDURMA YEMEYECEK (DİŞİL)"
+  },
+  {
+    "question": "ТО НЯМА ДА ЯДЕ СЛАДОЛЕД (TO NYAMA DA YADE SLADOLED) (Nötr)",
+    "answer": "DONDURMA YEMEYECEK (NÖTR)"
+  },
+  {
+    "question": "НИЕ НЯМА ДА ИМАМЕ УРОК УТРЕ (NIE NYAMA DA IMAME UROK UTRE) (Çoğul)",
+    "answer": "BİZİM YARIN DERSİMİZ OLMAYACAK"
+  },
+  {
+    "question": "НЯМА ДА ОТИДА НА ПАЗАРА ДА КУПУВАМ БАНАНИ (NYAMA DA OTIDA NA PAZARA DA KUPUVAM BANANI) (Çoğul)",
+    "answer": "PAZARA MUZ SATIN ALMAK İÇİN GİTMEYECEĞİM"
+  },
+  {
+    "question": "НЯМА ДА КУПУВАМ СИРЕНЕ И МЛЯКО (NYAMA DA KUPUVAM SIRENE I MLYAKO) (Nötr)",
+    "answer": "PEYNİR VE SÜT SATIN ALMAYACAĞIM"
+  },
+  {
+    "question": "НЯМА ДА ИДВАМ ВЪВ ВАШАТА КЪЩА (NYAMA DA IDVAM VAV VASHATA KASHTA) (Dişil)",
+    "answer": "SİZİN EVİNİZE GELMEYECEĞİM"
+  },
+  {
+    "question": "НЯМА ДА КАРАМ КОЛА (NYAMA DA KARAM KOLA) (Dişil)",
+    "answer": "ARABA SÜRMEYECEĞİM"
+  },
+  {
+    "question": "НЯМА ДА КАРАМ КОЛЕЛО (NYAMA DA KARAM KOLELO) (Nötr)",
+    "answer": "BİSİKLET SÜRMEYECEĞİM"
+  },
+  {
+    "question": "НЯМА ДА ИГРАЯ ФУТБОЛ (NYAMA DA IGRYA FUTBOL) (Eril)",
+    "answer": "FUTBOL OYNAMAYACAĞIM"
+  },
+  {
+    "question": "НЯМА ДА ГОВОРЯ ПО ТЕЛЕФОНА (NYAMA DA GOVORYA PO TELEFONA) (Eril)",
+    "answer": "TELEFONLA KONUŞMAYACAĞIM"
+  },
+  {
+    "question": "НЯМА ДА ОТВОРЯ ПРОЗОРЕЦА (NYAMA DA OTVORYA PROZORETSA) (Eril)",
+    "answer": "CAMI AÇMAYACAĞIM"
+  },
+  {
+    "question": "НЯМА ДА ОТВОРЯ ВРАТАТА (NYAMA DA OTVORYA VRATATA) (Dişil)",
+    "answer": "KAPIYI AÇMAYACAĞIM"
+  },
+  {
+    "question": "НЯМА ДА ЗАКЪСНЕЯ ЗА РАБОТА (NYAMA DA ZAKASNEYA ZA RABOTA)",
+    "answer": "İŞE GEÇ KALMAYACAĞIM"
+  },
+  {
+    "question": "НЯМА ДА ПРАВЯ СУПА ЗА ВЕЧЕРЯ (NYAMA DA PRAVYA SUPA ZA VECHERYA) (Dişil)",
+    "answer": "AKŞAM YEMEĞİ İÇİN ÇORBA YAPMAYACAĞIM"
+  },
+  {
+    "question": "НЯМА ДА ВАЛИ ДЪЖД (NYAMA DA VALI DAZHD) (Eril)",
+    "answer": "YAĞMUR YAĞMAYACAK"
+  },
+  {
+    "question": "НЯМА ДА ОТИВАМ НА МОРЕ (NYAMA DA OTIVAM NA MORE) (Nötr)",
+    "answer": "DENİZE GİTMEYECEĞİM"
+  },
+  {
+    "question": "НЯМА ДА УЧА БЪЛГАРСКИ ЕЗИК (NYAMA DA UCHA BALGARSKI EZIK) (Eril)",
+    "answer": "BULGARCA ÖĞRENMEYECEĞİM"
+  },
+  {
+    "question": "НЯМА ДА ТИ ДАМ ПАРИ (NYAMA DA TI DAM PARI) (Çoğul)",
+    "answer": "SANA PARA VERMEYECEĞİM"
+  },
+  {
+    "question": "СЛУШАМ МУЗИКА ПО РАДИОТО (SLUSHAM MUZIKA PO RADIOTO) (Nötr)",
+    "answer": "RADYODAN MÜZİK DİNLİYORUM"
+  },
+  {
+    "question": "ГЛЕДАМ НОВИНИ ПО ТЕЛЕВИЗОРА (GLEDAM NOVINI PO TELEVIZORA) (Çoğul)",
+    "answer": "TELEVİZYONDAN HABER İZLİYORUM"
+  },
+  {
+    "question": "ЩЯХ ДА ЧЕТА КНИГА (SHTYAH DA CHETA KNIGA) (Dişil)",
+    "answer": "KİTAP OKUYACAKTIM"
+  },
+  {
+    "question": "ЩЯХ ДА ГЛЕДАМ ФИЛМ (SHTYAH DA GLEDAM FILM) (Eril)",
+    "answer": "FİLM İZLEYECEKTİM"
+  },
+  {
+    "question": "ЩЯХ ДА СТАВАМ (SHTYAH DA STAVAM)",
+    "answer": "KALKACAKTIM"
+  },
+  {
+    "question": "ЩЯХ ДА ОТИВАМ НА УРОК (SHTYAH DA OTIVAM NA UROK)",
+    "answer": "DERSE GİDECEKTİM"
+  },
+  {
+    "question": "ЩЯХ ДА ЯМ ЗАКУСКА (SHTYAH DA YAM ZAKUSKA) (Dişil)",
+    "answer": "KAHVALTI YAPACAKTIM"
+  },
+  {
+    "question": "ЩЯХ ДА ЯМ ПЛОДОВЕ (SHTYAH DA YAM PLODOVE) (Çoğul)",
+    "answer": "MEYVE YİYECEKTİM"
+  },
+  {
+    "question": "ЩЯХ ДА ПИЯ ЕДНО КАФЕ (SHTYAH DA PIYA EDNO KAFE) (Nötr)",
+    "answer": "BİR KAHVE İÇECEKTİM"
+  },
+  {
+    "question": "ЩЯХ ДА ИСКАМ ПОМОЩ (SHTYAH DA ISKAM POMOSHT) (Dişil)",
+    "answer": "YARDIM İSTEYECEKTİM"
+  },
+  {
+    "question": "ЩЯХ ДА ОТИВАМ НА РАБОТА (SHTYAH DA OTIVAM NA RABOTA)",
+    "answer": "İŞE GİDECEKTİM"
+  },
+  {
+    "question": "ЩЯХ ДА ЧИСТЯ КЪЩАТА (SHTYAH DA CHISTYA KASHTATA) (Dişil)",
+    "answer": "EVİ TEMİZLEYECEKTİM"
+  },
+  {
+    "question": "ЩЯХ ДА ПРАВЯ ВЕЧЕРЯ (SHTYAH DA PRAVYA VECHERYA) (Dişil)",
+    "answer": "AKŞAM YEMEĞİ YAPACAKTIM"
+  },
+  {
+    "question": "ЩЯХ ДА ПРАВЯ КАФЕ (SHTYAH DA PRAVYA KAFE) (Nötr)",
+    "answer": "KAHVE YAPACAKTIM"
+  },
+  {
+    "question": "ЩЯХ ДА ПРАВЯ ЧАЙ (SHTYAH DA PRAVYA CHAY) (Eril)",
+    "answer": "ÇAY YAPACAKTIM"
+  },
+  {
+    "question": "ЩЯХ ДА ОТИВАМ В БЪЛГАРИЯ (SHTYAH DA OTIVAM V BALGARIYA)",
+    "answer": "BULGARİSTAN’A GİDECEKTİM"
+  },
+  {
+    "question": "ЩЯХ ДА ЖИВЕЯ В СОФИЯ (SHTYAH DA ZHIVEYA V SOFIYA)",
+    "answer": "SOFYA'DA YAŞAYACAKTIM"
+  },
+  {
+    "question": "ЩЯХ ДА ОТИВАМ НА РАБОТА, НО НЯМА ДА ОТИВАМ (SHTYAH DA OTIVAM NA RABOTA, NO NYAMA DA OTIVAM)",
+    "answer": "İŞE GİDECEKTİM AMA GİTMEYECEĞİM"
+  },
+  {
+    "question": "ЩЯХ ДА ОТИВАМ НА РАБОТА, НО НЯМА ДА ОТИВАМ, ЗАЩОТО СЪМ БОЛНА (SHTYAH DA OTIVAM NA RABOTA, NO NYAMA DA OTIVAM, ZASHTOTO SAM BOLNA) (Dişil)",
+    "answer": "İŞE GİDECEKTİM AMA GİTMEYECEĞİM ÇÜNKÜ HASTAYIM"
+  },
+  {
+    "question": "ЩЯХ ДА ПИТАМ ЕДИН АДРЕС (SHTYAH DA PITAM EDIN ADRES) (Eril)",
+    "answer": "BİR ADRES SORACAKTIM"
+  },
+  {
+    "question": "ЩЯХ ДА ИСКАМ ТВОЯ НОМЕР (SHTYAH DA ISKAM TVOYA NOMER) (Eril)",
+    "answer": "SENİN NUMARANI İSTEYECEKTİM"
+  },
+  {
+    "question": "ЩЯХ ДА ГОТВЯ (SHTYAH DA GOTVYA)",
+    "answer": "YEMEK YAPACAKTIM"
+  },
+  {
+    "question": "ЩЯХ ДА КУПЯ ЕДИН КИЛОГРАМ КАРТОФИ (SHTYAH DA KUPYA EDIN KILOGRAM KARTOFI) (Çoğul)",
+    "answer": "BİR KİLOGRAM PATATES SATIN ALACAKTIM"
+  },
+  {
+    "question": "ЩЯХ ДА ТИ КУПЯ ЦВЕТЯ (SHTYAH DA TI KUPYA TSVETYA) (Çoğul)",
+    "answer": "SANA ÇİÇEK SATIN ALACAKTIM"
+  },
+  {
+    "question": "ЩЯХ ДА ОТИДА НА РАЗХОДКА С КУЧЕТО МИ (SHTYAH DA OTIDA NA RAZHODKA S KUCHETO MI) (Nötr)",
+    "answer": "KÖPEĞİMLE YÜRÜYÜŞE GİDECEKTİM"
+  },
+  {
+    "question": "ЩЯХ ДА ВИ КАНЯ НА ВЕЧЕРЯ (SHTYAH DA VI KANYA NA VECHERYA) (Çoğul)",
+    "answer": "SİZİ AKŞAM YEMEĞİNE DAVET EDECEKTİM"
+  },
+  {
+    "question": "НЯМАШЕ ДА ЧЕТА КНИГА (NYAMASHE DA CHETA KNIGA) (Dişil)",
+    "answer": "KİTAP OKUMAYACAKTIM"
+  },
+  {
+    "question": "НЯМАШЕ ДА ГЛЕДАМ ФИЛМ (NYAMASHE DA GLEDAM FILM) (Eril)",
+    "answer": "FİLM İZLEMEYECEKTİM"
+  },
+  {
+    "question": "НЯМАШЕ ДА СТАВАМ (NYAMASHE DA STAVAM)",
+    "answer": "KALKMAYACAKTIM"
+  },
+  {
+    "question": "НЯМАШЕ ДА ОТИВАМ НА УРОК (NYAMASHE DA OTIVAM NA UROK)",
+    "answer": "DERSE GİTMEYECEKTİM"
+  },
+  {
+    "question": "НЯМАШЕ ДА ЯМ ЗАКУСКА (NYAMASHE DA YAM ZAKUSKA) (Dişil)",
+    "answer": "KAHVALTI YAPMAYACAKTIM"
+  },
+  {
+    "question": "НЯМАШЕ ДА ЯМ ПЛОДОВЕ (NYAMASHE DA YAM PLODOVE) (Çoğul)",
+    "answer": "MEYVE YEMEYECEKTİM"
+  },
+  {
+    "question": "НЯМАШЕ ДА ПИЯ ЕДНО КАФЕ (NYAMASHE DA PIYA EDNO KAFE) (Nötr)",
+    "answer": "BİR KAHVE İÇMEYECEKTİM"
+  },
+  {
+    "question": "НЯМАШЕ ДА ИСКАМ ПОМОЩ (NYAMASHE DA ISKAM POMOSHT) (Dişil)",
+    "answer": "YARDIM İSTEMEYECEKTİM"
+  },
+  {
+    "question": "НЯМАШЕ ДА ОТИВАМ НА РАБОТА (NYAMASHE DA OTIVAM NA RABOTA)",
+    "answer": "İŞE GİTMEYECEKTİM"
+  },
+  {
+    "question": "НЯМАШЕ ДА ЧИСТЯ КЪЩАТА (NYAMASHE DA CHISTYA KASHTATA) (Dişil)",
+    "answer": "EVİ TEMİZLEMEYECEKTİM"
+  },
+  {
+    "question": "НЯМАШЕ ДА ПРАВЯ ВЕЧЕРЯ (NYAMASHE DA PRAVYA VECHERYA) (Dişil)",
+    "answer": "AKŞAM YEMEĞİ YAPMAYACAKTIM"
+  },
+  {
+    "question": "НЯМАШЕ ДА ПРАВЯ КАФЕ (NYAMASHE DA PRAVYA KAFE) (Nötr)",
+    "answer": "KAHVE YAPMAYACAKTIM"
+  },
+  {
+    "question": "НЯМАШЕ ДА ПРАВЯ ЧАЙ (NYAMASHE DA PRAVYA CHAY) (Eril)",
+    "answer": "ÇAY YAPMAYACAKTIM"
+  },
+  {
+    "question": "НЯМАШЕ ДА ОТИВАМ В БЪЛГАРИЯ (NYAMASHE DA OTIVAM V BALGARIYA)",
+    "answer": "BULGARİSTAN'A GİTMEYECEKTİM"
+  },
+  {
+    "question": "НЯМАШЕ ДА ЖИВЕЯ В СОФИЯ (NYAMASHE DA ZHIVEYA V SOFIYA)",
+    "answer": "SOFYA’DA YAŞAMAYACAKTIM"
+  },
+  {
+    "question": "НЯМАШЕ ДА КАРАМ КОЛЕЛО (NYAMASHE DA KARAM KOLELO) (Nötr)",
+    "answer": "BİSİKLET SÜRMEYECEKTİM"
+  },
+  {
+    "question": "НЯМАШЕ ДА СЛУШАМ МУЗИКА (NYAMASHE DA SLUSHAM MUZIKA) (Dişil)",
+    "answer": "MÜZİK DİNLEMEYECEKTİM"
+  },
+  {
+    "question": "НЯМАШЕ ДА СТАВАМ В СЕДЕМ ЧАСА (NYAMASHE DA STAVAM V SEDEM CHASA)",
+    "answer": "SAAT YEDİDE KALKMAYACAKTIM"
+  },
+  {
+    "question": "ДНЕС НЯМАШЕ ДА ИМА УРОК (DNES NYAMASHE DA IMA UROK) (Eril)",
+    "answer": "BUGÜN DERS OLMAYACAKTI"
+  },
+  {
+    "question": "ДНЕС НЯМАШЕ ДА ПИЕМ КАФЕ С ПРИЯТЕЛИ (DNES NYAMASHE DA PIEM KAFE S PRIYATELI) (Çoğul)",
+    "answer": "BUGÜN ARKADAŞLARLA KAHVE İÇMEYECEKTİK"
+  },
+  {
+    "question": "ДНЕС НЯМАШЕ ДА ИМА ВЯТЪР (DNES NYAMASHE DA IMA VYATAR) (Eril)",
+    "answer": "BUGÜN RÜZGAR OLMAYACAKTI"
+  },
+  {
+    "question": "ВЧЕРА НЯМАШЕ ДА ОТИВАМ НА РАБОТА (VCHERA NYAMASHE DA OTIVAM NA RABOTA)",
+    "answer": "DÜN İŞE GİTMEYECEKTİM"
+  },
+  {
+    "question": "ВЧЕРА НЯМАШЕ ДА ГЛЕДАМ ФИЛМ (VCHERA NYAMASHE DA GLEDAM FILM) (Eril)",
+    "answer": "DÜN FİLM İZLEMEYECEKTİM"
+  },
+  {
+    "question": "ДРУГАТА СЕДМИЦА НЯМАШЕ ДА ХОДЯ В БЪЛГАРИЯ, НО ЩЕ ХОДЯ (DRUGATA SEDMITSA NYAMASHE DA HODYA V BALGARIYA, NO SHTE HODYA)",
+    "answer": "ÖNÜMÜZDEKİ HAFTA BULGARİSTAN’A GİTMEYECEKTİM AMA GİDECEĞİM"
+  },
+  {
+    "question": "АЗ ЯМ ЯБЪЛКА И БАНАН (AZ YAM YABALKA I BANAN) (Dişil, Eril)",
+    "answer": "BEN ELMA VE MUZ YİYORUM"
+  },
+  {
+    "question": "АЗ ИСКАМ ДА ЯМ, НО НЯМАМ ВРЕМЕ (AZ ISKAM DA YAM, NO NYAMAM VREME) (Nötr)",
+    "answer": "YEMEK YEMEK İSTİYORUM, AMA ZAMANIM YOK"
+  },
+  {
+    "question": "ИСКАШ ЛИ ЧАЙ ИЛИ КАФЕ? (ISKASH LI CHAY ILI KAFE?) (Eril, Nötr)",
+    "answer": "ÇAY MI YOKSA KAHVE Mİ İSTERSİN?"
+  },
+  {
+    "question": "АЗ НЕ ЯМ СЛАДКО, ЗАЩОТО НЕ ОБИЧАМ ЗАХАР (AZ NE YAM SLADKO, ZASHTOTO NE OBICHAM ZAHAR) (Nötr)",
+    "answer": "TATLI YEMİYORUM ÇÜNKÜ ŞEKERİ SEVMİYORUM"
+  },
+  {
+    "question": "АКО ИМАШ ВРЕМЕ, ЕЛА ПРИ МЕН (AKO IMASH VREME, ELA PRI MEN) (Nötr)",
+    "answer": "EĞER ZAMANIN VARSA, YANIMA GEL"
+  },
+  {
+    "question": "КОГАТО СЪМ ГЛАДЕН, ЯМ МНОГО (KOGATO SAM GLADEN, YAM MNOGO) (Eril)",
+    "answer": "AÇ OLDUĞUMDA ÇOK YERİM"
+  },
+  {
+    "question": "ЗНАМ, ЧЕ ТОЙ Е ДОБЪР ЧОВЕК (ZNAM, CHE TOY E DOBAR CHOVEK) (Eril)",
+    "answer": "ONUN İYİ BİR İNSAN OLDUĞUNU BİLİYORUM"
+  },
+  {
+    "question": "АЗ ОБИЧАМ КАФЕ И ЧАЙ (AZ OBICHAM KAFE I CHAY) (Nötr, Eril)",
+    "answer": "KAHVE VE ÇAY SEVİYORUM"
+  },
+  {
+    "question": "ТЯ ЧЕТЕ КНИГА И СЛУША МУЗИКА (TYA CHETE KNIGA I SLUSHA MUZIKA) (Dişil)",
+    "answer": "O KİTAP OKUYOR VE MÜZİK DİNLİYOR"
+  },
+  {
+    "question": "ОБИЧАМ ЖИВОТНИТЕ, НО НАЙ-МНОГО ОБИЧАМ КОТКИ (OBICHAM ZHIVOTNITE, NO NAY-MNOGO OBICHAM KOTKI) (Çoğul, Dişil)",
+    "answer": "HAYVANLARI SEVERİM, AMA EN ÇOK KEDİLERİ SEVERİM"
+  },
+  {
+    "question": "ТОЙ РАБОТИ МНОГО, НО ИМА МАЛКО СВОБОДНО ВРЕМЕ (TOY RABOTI MNOGO, NO IMA MALKO SVOBODNO VREME) (Eril, Nötr)",
+    "answer": "O ÇOK ÇALIŞIYOR, AMA AZ BOŞ ZAMANI VAR"
+  },
+  {
+    "question": "СТАНАХ РАНО, ЗАЩОТО ИМАХ ВАЖНА СРЕЩА (STANAH RANO, ZASHTOTO IMAH VAZHNA SRESHTA) (Dişil)",
+    "answer": "ERKEN KALKTIM ÇÜNKÜ ÖNEMLİ BİR TOPLANTIM VARDI"
+  },
+  {
+    "question": "ТЯ НЕ Е ТУК, ЗАЩОТО Е НА РАБОТА (TYA NE E TUK, ZASHTOTO E NA RABOTA) (Dişil)",
+    "answer": "O BURADA DEĞİL ÇÜNKÜ İŞTE"
+  },
+  {
+    "question": "ОБИЧАМ ДА ЧЕТА, КОГАТО ИМАМ ВРЕМЕ (OBICHAM DA CHETA, KOGATO IMAM VREME) (Nötr)",
+    "answer": "ZAMANIM OLDUĞUNDA KİTAP OKUMAYI SEVERİM"
+  },
+  {
+    "question": "ТОЙ Е ЩАСТЛИВ, КОГАТО ИГРАЕ С ДЕЦАТА (TOY E SHTASTLIV, KOGATO IGRAE S DETSATA) (Eril, Çoğul)",
+    "answer": "O MUTLUDUR, ÇOCUKLARLA OYNADIĞINDA"
+  },
+  {
+    "question": "АКО ВАЛИ ДЪЖД, ЩЕ ПИЕМ КАФЕ ВКЪЩИ (AKO VALI DAZHD, SHTE PIEM KAFE VKASHTI) (Eril, Nötr)",
+    "answer": "EĞER YAĞMUR YAĞARSA, EVDE KAHVE İÇECEĞİZ"
+  },
+  {
+    "question": "ТЯ ЩЕ ДОЙДЕ, АКО ИМА ВРЕМЕ (TYA SHTE DOYDE, AKO IMA VREME) (Dişil, Nötr)",
+    "answer": "O GELECEK, EĞER ZAMANI OLURSA"
+  },
+  {
+    "question": "ЩЕ КУПЯ ЯБЪЛКИ ИЛИ БАНАНИ (SHTE KUPYA YABALKI ILI BANANI) (Çoğul)",
+    "answer": "ELMA YA DA MUZ ALACAĞIM"
+  },
+  {
+    "question": "ТИ ИСКАШ КАФЕ ИЛИ ЧАЙ? (TI ISKASH KAFE ILI CHAY?) (Nötr, Eril)",
+    "answer": "SEN KAHVE YA DA ÇAY İSTİYORSUN?"
+  },
+  {
+    "question": "ТЯ КАЗА, ЧЕ ЩЕ ДОЙДЕ УТРЕ (TYA KAZA, CHE SHTE DOYDE UTRE) (Dişil)",
+    "answer": "O YARIN GELECEĞİNİ SÖYLEDİ"
+  },
+  {
+    "question": "ЗНАМ, ЧЕ ТОЙ Е МНОГО ДОБЪР (ZNAM, CHE TOY E MNOGO DOBAR) (Eril)",
+    "answer": "ONUN ÇOK İYİ OLDUĞUNU BİLİYORUM"
+  },
+  {
+    "question": "ВЛЕЗТЕ! (VLEZTE!) (Çoğul)",
+    "answer": "GİRİN!"
+  },
+  {
+    "question": "ИЗЧАКАЙТЕ! (IZCHAKAYTE!) (Çoğul)",
+    "answer": "BEKLEYİN!"
+  },
+  {
+    "question": "ПРОЧЕТЕТЕ! (PROCHETETE!) (Çoğul)",
+    "answer": "OKUYUN!"
+  },
+  {
+    "question": "ТУК НЕ СЕ ПУШИ! (TUK NE SE PUSHI!)",
+    "answer": "BURADA SİGARA İÇİLMEZ!"
+  },
+  {
+    "question": "ИЗЧАКАЙТЕ ТУК! (IZCHAKAYTE TUK!) (Çoğul)",
+    "answer": "BURADA BEKLEYİN!"
+  },
+  {
+    "question": "ОТВОРЕТЕ ПРОЗОРЕЦА! (OTVORETE PROZORETSA!) (Eril)",
+    "answer": "PENCEREYİ AÇIN!"
+  },
+  {
+    "question": "ЗАТВОРЕТЕ ВРАТАТА! (ZATVORETE VRATATA!) (Dişil)",
+    "answer": "KAPIYI KAPATIN!"
+  },
+  {
+    "question": "НАТИСНЕТЕ БУТОНА! (NATISNETE BUTONA!) (Eril)",
+    "answer": "DÜĞMEYE BASIN!"
+  },
+  {
+    "question": "СЛЕДВАЙТЕ ЗНАЦИТЕ! (SLEDVAYTE ZNATSITE!) (Çoğul)",
+    "answer": "İŞARETLERİ TAKİP EDİN!"
+  },
+  {
+    "question": "ПОПЪЛНЕТЕ ФОРМУЛЯРА! (POPALNETE FORMYULARA!) (Eril)",
+    "answer": "FORMU DOLDURUN!"
+  },
+  {
+    "question": "ИЗПОЛЗВАЙТЕ САМО С ВОДА! (IZPOLZVAYTE SAMO S VODA!) (Dişil)",
+    "answer": "SADECE SU İLE KULLANIN!"
+  },
+  {
+    "question": "ВНИМАНИЕ! ПЛЪЗГАЩ СЕ ПОД! (VNIMANIE! PLAZGASHT SE POD!) (Eril)",
+    "answer": "DİKKAT! KAYGAN ZEMİN!"
+  },
+  {
+    "question": "ТУК НЕ МОГАТ ДА ВЛИЗАТ БРЕМЕННИ ЖЕНИ (TUK NE MOGAT DA VLIZAT BREMENNI ZHENI) (Çoğul)",
+    "answer": "BURAYA HAMİLELER GİREMEZ"
+  },
+  {
+    "question": "ТУК НЕ Е ЗА БРЕМЕННИ ЖЕНИ (TUK NE E ZA BREMENNI ZHENI) (Çoğul)",
+    "answer": "BURASI HAMİLELER İÇİN DEĞİL"
+  },
+  {
+    "question": "ТУК Е МЯСТО ЗА БРЕМЕННИ И ВЪЗРАСТНИ ХОРА (TUK E MYASTO ZA BREMENNI I VAZRASTNI HORA) (Çoğul)",
+    "answer": "BU YER YAŞLI İNSANLAR VE HAMİLELER İÇİN"
+  },
+  {
+    "question": "НЕ ПАРКИРАЙ! (NE PARKIRAY!)",
+    "answer": "PARK ETME!"
+  },
+  {
+    "question": "НЕ ГОВОРЕТЕ С ВИСОК ГЛАС! (NE GOVORETE S VISOK GLAS!) (Çoğul)",
+    "answer": "YÜKSEK SESLE KONUŞMAYIN!"
+  },
+  {
+    "question": "НЕ ВЛИЗАЙ! (NE VLIZAY!)",
+    "answer": "GİRME!"
+  },
+  {
+    "question": "НЕ ПИПАЙ! (NE PIPAY!)",
+    "answer": "DOKUNMA!"
+  },
+  {
+    "question": "ИЗЧАКАЙТЕ НА ОПАШКАТА! (IZCHAKAYTE NA OPASHKATA!) (Dişil, Çoğul)",
+    "answer": "SIRADA BEKLEYİN!"
+  },
+  {
+    "question": "НЕ СНИМАЙТЕ! (NE SNIMAYTE!) (Çoğul)",
+    "answer": "FOTOĞRAF ÇEKMEYİN!"
+  },
+  {
+    "question": "ЗАБРАНЕНО ЗА ДЕЦА! (ZABRANENO ZA DETSA!) (Çoğul)",
+    "answer": "ÇOCUKLAR İÇİN YASAK!"
+  },
+  {
+    "question": "ЗАБРАНЕНО ВЛИЗАНЕТО! (ZABRANENO VLIZANETO!) (Nötr)",
+    "answer": "GİRMEK YASAK!"
+  },
+  {
+    "question": "ЗАБРАНЕНО ПЛУВАНЕТО! (ZABRANENO PLUVANETO!) (Nötr)",
+    "answer": "YÜZMEK YASAK!"
+  },
+  {
+    "question": "НЕ ПИЙТЕ ВОДА ОТ ТУК! (NE PIYTE VODA OT TUK!) (Dişil, Çoğul)",
+    "answer": "BURADAN SU İÇMEYİN!"
+  },
+  {
+    "question": "ЗАБРАНЕНО ПИЕНЕТО НА ВОДА! (ZABRANENO PIENETO NA VODA!) (Nötr)",
+    "answer": "SU İÇMEK YASAK!"
+  },
+  {
+    "question": "КАРАЙ БАВНО! (KARAY BAVNO!)",
+    "answer": "YAVAŞ SÜR!"
+  },
+  {
+    "question": "КАРАЙ ВНИМАТЕЛНО! (KARAY VNIMATELNO!)",
+    "answer": "DİKKATLİ SÜR!"
+  },
+  {
+    "question": "КАРАЙ С 50! (KARAY S 50!)",
+    "answer": "50 İLE SÜR!"
+  },
+  {
+    "question": "ЗАВИЙ НА ЛЯВО! (ZAVIY NA LYAVO!)",
+    "answer": "SOLA DÖN!"
+  },
+  {
+    "question": "ЗАБРАНЕНО ЗАВИВАНЕТО НА ЛЯВО! (ZABRANENO ZAVIVANETO NA LYAVO!) (Nötr)",
+    "answer": "SOLA DÖNÜŞ YASAK!"
+  },
+  {
+    "question": "ЗАБРАНЕНО ЗАВИВАНЕТО НА ДЯСНО! (ZABRANENO ZAVIVANETO NA DYASNO!) (Nötr)",
+    "answer": "SAĞA DÖNÜŞ YASAK!"
+  },
+  {
+    "question": "ЗАБРАНЕНО ИЗПРЕВАРВАНЕТО! (ZABRANENO IZPREVARVANETO!) (Nötr)",
+    "answer": "SOLLAMA YAPMAK YASAK!"
+  },
+  {
+    "question": "НОСЕТЕ МАСКА! (NOSETE MASKA!) (Dişil, Çoğul)",
+    "answer": "MASKE TAKIN!"
+  },
+  {
+    "question": "НОСЕТЕ КАСКА! (NOSETE KASKA!) (Dişil, Çoğul)",
+    "answer": "KASK TAKIN!"
+  },
+  {
+    "question": "ПЛАТЕТЕ В БРОЙ! (PLATETE V BROY!) (Çoğul)",
+    "answer": "NAKİT ÖDEME YAPIN!"
+  },
+  {
+    "question": "САМО В БРОЙ! (SAMO V BROY!)",
+    "answer": "SADECE NAKİT!"
+  },
+  {
+    "question": "САМО С КАРТА! (SAMO S KARTA!) (Dişil)",
+    "answer": "SADECE KART İLE!"
+  },
+  {
+    "question": "ОПАСНО! (OPASNO!) (Nötr)",
+    "answer": "TEHLİKELİ!"
+  },
+  {
+    "question": "НЕ ДАВАЙТЕ ХРАНА НА ЖИВОТНИТЕ! (NE DAVAYTE HRANA NA ZHIVOTNITE!) (Dişil, Çoğul)",
+    "answer": "HAYVANLARA YİYECEK VERMEYİN!"
+  },
+  {
+    "question": "НЕ ДОБЛИЖАВАЙТЕ! (NE DOBLIZHAVAYTE!) (Çoğul)",
+    "answer": "YAKLAŞMAYIN!"
+  },
+  {
+    "question": "СПРИ! (SPRI!)",
+    "answer": "DUR!"
+  },
+  {
+    "question": "СПРИ ТУК! (SPRI TUK!)",
+    "answer": "BURADA DUR!"
+  },
+  {
+    "question": "ЕЛА ТУК! (ELA TUK!)",
+    "answer": "BURAYA GEL!"
+  },
+  {
+    "question": "ПАЗИ ДИСТАНЦИЯ! (PAZI DISTANTSIYA!) (Dişil)",
+    "answer": "MESAFEYİ KORU!"
+  },
+  {
+    "question": "СПАЗВАЙ ДИСТАНЦИЯ! (SPAZVAY DISTANTSIYA!) (Dişil)",
+    "answer": "MESAFEYE UY!"
+  },
+  {
+    "question": "ОПАСНО ЗА ЖИВОТА! (OPASNO ZA ZHIVOTA!) (Nötr)",
+    "answer": "HAYATİ TEHLİKE!"
+  },
+  {
+    "question": "ВИСОК ВОЛТАЖ! (VISOK VOLTAZH!) (Eril)",
+    "answer": "YÜKSEK VOLTAJ!"
+  },
+  {
+    "question": "ВНИМАНИЕ! ОПАСНО КУЧЕ! (VNIMANIE! OPASNO KUCHE!) (Nötr)",
+    "answer": "DİKKAT! TEHLİKELİ KÖPEK!"
+  },
+  {
+    "question": "НЕ ГОВОРЕТЕ С ШОФЬОРА! (NE GOVORETE S SHOFYORA!) (Eril, Çoğul)",
+    "answer": "ŞOFÖRLE KONUŞMAYIN!"
+  },
+  {
+    "question": "НЕ ХВЪРЛЯЙТЕ БОКЛУК! (NE HVARLYAYTE BOKLUK!) (Eril, Çoğul)",
+    "answer": "ÇÖP ATMAYIN!"
+  },
+  {
+    "question": "НЕ ВЛИЗАЙТЕ С ХРАНА И НАПИТКИ! (NE VLIZAYTE S HRANA I NAPITKI!) (Dişil, Çoğul)",
+    "answer": "YİYECEK VE İÇECEKLE GİRMEYİN!"
+  },
+  {
+    "question": "НЕ СЕ ВЛИЗА С ДОМАШНИ ЛЮБИМЦИ! (NE SE VLIZA S DOMASHNI LYUBIMTSI!) (Çoğul)",
+    "answer": "EVCİL HAYVANLA GİRMEYİN!"
+  },
+  {
+    "question": "ЗАБРАНЕНО ЗА ЛИЦА ПОД 18 ГОДИНИ! (ZABRANENO ZA LITSA POD 18 GODINI!) (Çoğul)",
+    "answer": "18 YAŞ ALTI KİŞİLER İÇİN YASAK!"
+  },
+  {
+    "question": "ДОБЪР ДЕН! КЪДЕ МОГА ДА ПОДАМ ДОКУМЕНТИ ЗА НОВ ПАСПОРТ? (DOBAR DEN! KADE MOGA DA PODAM DOKUMENTI ZA NOV PASPORT?)",
+    "answer": "İYİ GÜNLER! YENİ PASAPORT BAŞVURUSU İÇİN BELGELERİ NEREYE VEREBİLİRİM?"
+  },
+  {
+    "question": "ПЪРВО ТРЯБВА ДА ПОПЪЛНИТЕ ТОЗИ ФОРМУЛЯР (PARVO TRYABVA DA POPALNITE TOZI FORMYULAR) (Eril)",
+    "answer": "ÖNCE BU FORMU DOLDURMANIZ GEREKİYOR"
+  },
+  {
+    "question": "ДОБРЕ, А СЛЕД ТОВА? ТРЯБВА ЛИ ДА НОСЯ СНИМКА? (DOBRE, A SLED TOVA? TRYABVA LI DA NOSYA SNIMKA?) (Dişil)",
+    "answer": "TAMAM, SONRA? FOTOĞRAF GETİRMEM GEREKİYOR MU?"
+  },
+  {
+    "question": "НЕ, ТУК ЩЕ ВИ НАПРАВИМ СНИМКА (NE, TUK SHTE VI NAPRAVIM SNIMKA) (Dişil)",
+    "answer": "HAYIR, BURADA SİZİN FOTOĞRAFINIZI ÇEKECEĞİZ"
+  },
+  {
+    "question": "КЪДЕ ТРЯБВА ДА ПЛАТЯ ТАКСАТА? (KADE TRYABVA DA PLATYA TAKSATA?) (Dişil)",
+    "answer": "ÜCRETİ NEREYE ÖDEMEM GEREKİYOR?"
+  },
+  {
+    "question": "ПЛАТЕТЕ НА ПЪРВО ГИШЕ В КРАЯ НА КОРИДОРА (PLATETE NA PARVO GISHE V KRAYA NA KORIDORA) (Eril)",
+    "answer": "KORİDORUN SONUNDA BULUNAN BİRİNCİ GİŞEYE ÖDEME YAPIN"
+  },
+  {
+    "question": "БЛАГОДАРЯ ВИ МНОГО! (BLAGODARYA VI MNOGO!) (Çoğul)",
+    "answer": "ÇOK TEŞEKKÜR EDERİM!"
+  },
+  {
+    "question": "ДОБЪР ДЕН! ИСКАМ ДА ОТКРИЯ НОВА БАНКОВА СМЕТКА (DOBAR DEN! ISKAM DA OTKRIYA NOVA BANKOVA SMETKA) (Dişil)",
+    "answer": "İYİ GÜNLER! YENİ BANKA HESABI AÇMAK İSTİYORUM"
+  },
+  {
+    "question": "МОЛЯ ПОПЪЛНЕТЕ ТОЗИ ФОРМУЛЯР (MOLYA POPALNETE TOZI FORMYULAR) (Eril)",
+    "answer": "LÜTFEN BU FORMU DOLDURUN"
+  },
+  {
+    "question": "ТРЯБВА ЛИ ДА НОСЯ ЛИЧНА КАРТА? (TRYABVA LI DA NOSYA LICHNA KARTA?) (Dişil)",
+    "answer": "KİMLİK KARTI GETİRMEM GEREKİYOR MU?"
+  },
+  {
+    "question": "ДА, МОЛЯ. ПОКАЖЕТЕ ЛИЧНАТА СИ КАРТА (DA, MOLYA. POKAZHETE LICHNATA SI KARTA) (Dişil)",
+    "answer": "EVET, LÜTFEN. KİMLİK KARTINIZI GÖSTERİN"
+  },
+  {
+    "question": "КОЛКО ВРЕМЕ ОТНЕМА ОТКРИВАНЕТО НА СМЕТКАТА? (KOLKO VREME OTNEMA OTKRIVANETO NA SMETKATA?) (Dişil)",
+    "answer": "HESAP AÇMAK NE KADAR SÜRER?"
+  },
+  {
+    "question": "ОКОЛО 10 МИНУТИ. СЛЕД ТОВА ЩЕ ПОЛУЧИТЕ ДЕБИТНА КАРТА (OKOLO 10 MINUTI. SLED TOVA SHTE POLUCHITE DEBITNA KARTA) (Dişil)",
+    "answer": "YAKLAŞIK 10 DAKİKA SÜRER. SONRASINDA BİR BANKA KARTI ALACAKSINIZ"
+  },
+  {
+    "question": "ТРЯБВА ЛИ ДА ПЛАТЯ НЕЩО СЕГА? (TRYABVA LI DA PLATYA NESHTO SEGA?) (Nötr)",
+    "answer": "ŞİMDİ BİR ÖDEME YAPMAM GEREKİYOR MU?"
+  },
+  {
+    "question": "НЕ, ОТКРИВАНЕТО Е БЕЗПЛАТНО (NE, OTKRIVANETO E BEZPLATNO) (Nötr)",
+    "answer": "HAYIR, AÇILIŞ ÜCRETSİZ"
+  },
+  {
+    "question": "ДА, ТАКСАТА ЗА ОТКРИВАНЕ НА СМЕТКА Е 10 ЛЕВА (DA, TAKSATA ZA OTKRIVANETO NA SMETKA E 10 LEVA) (Dişil)",
+    "answer": "EVET, HESAP AÇMA ÜCRETİ 10 LEVA"
+  },
+  {
+    "question": "ДОБЪР ДЕН! КАКВО ЩЕ ЖЕЛАЕТЕ? (DOBAR DEN! KAKVO SHTE ZHELAETE?) (Çoğul)",
+    "answer": "İYİ GÜNLER! NE ARZU EDERSİNİZ?"
+  },
+  {
+    "question": "ДОБЪР ДЕН! МЕНЮ, МОЛЯ (DOBAR DEN! MENYU, MOLYA)",
+    "answer": "İYİ GÜNLER! MENÜ LÜTFEN"
+  },
+  {
+    "question": "ЗАПОВЯДАЙТЕ (ZAPOVYADAYTE) (Çoğul)",
+    "answer": "BUYURUN"
+  },
+  {
+    "question": "ЩЕ ВЗЕМА ШОПСКА САЛАТА И ПИЛЕШКО ФИЛЕ (SHTE VZEMA SHOPSKA SALATA I PILESHKO FILE) (Dişil, Nötr)",
+    "answer": "BİR ŞOPSKA SALATA VE TAVUK FİLE ALACAĞIM"
+  },
+  {
+    "question": "ИСКАТЕ ЛИ НЕЩО ЗА ПИЕНЕ? (ISKATE LI NESHTO ZA PIENE?) (Nötr, Çoğul)",
+    "answer": "İÇECEK BİR ŞEY İSTER MİSİNİZ?"
+  },
+  {
+    "question": "ДА, ЕДНА ВОДА, МОЛЯ (DA, EDNA VODA, MOLYA) (Dişil)",
+    "answer": "EVET, BİR SU LÜTFEN"
+  },
+  {
+    "question": "ДОБРЕ. ВСИЧКО ТОВА ЛИ Е? (DOBRE. VSICHKO TOVA LI E?)",
+    "answer": "TAMAM. HEPSİ BU KADAR MI?"
+  },
+  {
+    "question": "ДА, БЛАГОДАРЯ (DA, BLAGODARYA)",
+    "answer": "EVET, TEŞEKKÜR EDERİM"
+  },
+  {
+    "question": "ПОРЪЧКАТА ЩЕ БЪДЕ ГОТОВА СЛЕД МАЛКО (PORACHKATA SHTE BADE GOTOVA SLED MALKO) (Dişil)",
+    "answer": "SİPARİŞİNİZ BİRAZDAN HAZIR OLACAK"
+  },
+  {
+    "question": "КНИГАТА Е ПРЕД МАСАТА (KNIGATA E PRED MASATA) (Dişil)",
+    "answer": "KİTAP MASANIN ÖNÜNDE"
+  },
+  {
+    "question": "КОЛАТА Е ЗАД КЪЩАТА (KOLATA E ZAD KASHTATA) (Dişil)",
+    "answer": "ARABA EVİN ARKASINDA"
+  },
+  {
+    "question": "СТОЛЪТ Е МЕЖДУ МАСАТА И ЛЕГЛОТО (STOLAT E MEZHDU MASATA I LEGLOTO) (Eril)",
+    "answer": "SANDALYE MASA İLE YATAK ARASINDA"
+  },
+  {
+    "question": "ТЕТРАДКАТА Е ВЪРХУ БЮРОТО (TETRADKATA E VARHU BYUROTO) (Dişil)",
+    "answer": "DEFTER MASANIN ÜZERİNDE"
+  },
+  {
+    "question": "ТЕТРАДКАТА Е НАД БЮРОТО (TETRADKATA E NAD BYUROTO) (Dişil)",
+    "answer": "DEFTER MASANIN ÜZERİNDE"
+  },
+  {
+    "question": "МИНАХМЕ ПРЕЗ ГРАНИЦАТА (MINAHME PREZ GRANITSATA) (Dişil)",
+    "answer": "SINIRDAN GEÇTİK"
+  },
+  {
+    "question": "ПРЕЗ ЗИМАТА Е СТУДЕНО (PREZ ZIMATA E STUDENO) (Dişil, Nötr)",
+    "answer": "KIŞIN SOĞUK OLUR"
+  },
+  {
+    "question": "МАГАЗИНЪТ Е СРЕЩУ УЧИЛИЩЕТО (MAGAZINAT E SRESHTU UCHILISHTETO) (Eril, Nötr)",
+    "answer": "MARKET OKULUN KARŞISINDA"
+  },
+  {
+    "question": "ОТИДОХ ПРИ УЧИТЕЛКАТА (OTIDOH PRI UCHITELKATA) (Dişil)",
+    "answer": "ÖĞRETMENİN YANINA GİTTİM"
+  },
+  {
+    "question": "ТРЪГНАХМЕ КЪМ БЪЛГАРИЯ (TRAGNAHME KAM BALGARIYA)",
+    "answer": "BULGARİSTAN’A DOĞRU YOLA ÇIKTIK"
+  },
+  {
+    "question": "ПРЕД МАГАЗИНА ИМА МНОГО КОЛИ (PRED MAGAZINA IMA MNOGO KOLI) (Çoğul)",
+    "answer": "MARKETİN ÖNÜNDE ÇOK ARABA VAR"
+  },
+  {
+    "question": "АЗ СЪМ ПРЕД УЧИЛИЩЕТО (AZ SAM PRED UCHILISHTETO) (Nötr)",
+    "answer": "BEN OKULUN ÖNÜNDEYİM"
+  },
+  {
+    "question": "АЗ СЪМ ПРЕД ТЕБ (AZ SAM PRED TEB)",
+    "answer": "SENİN ÖNÜNDEYİM / SENDEN ÖNCEYİM"
+  },
+  {
+    "question": "АПТЕКАТА Е ПРЕД ТЕАТЪРА (APTEKATA E PRED TEATARA) (Dişil, Eril)",
+    "answer": "ECZANE TİYATRONUN ÖNÜNDE"
+  },
+  {
+    "question": "ПРЕД МЕН НА ОПАШКАТА ИМА МНОГО ХОРА (PRED MEN NA OPASHKATA IMA MNOGO HORA) (Çoğul)",
+    "answer": "ÖNÜMDE SIRADA ÇOK İNSAN VAR"
+  },
+  {
+    "question": "ПРЕД КОЛАТА ИМА КУЧЕ (PRED KOLATA IMA KUCHE) (Nötr)",
+    "answer": "ARABANIN ÖNÜNDE KÖPEK VAR"
+  },
+  {
+    "question": "ЗАД МЕН ИМА ОПАШКА ОТ КОЛИ (ZAD MEN IMA OPASHKA OT KOLI) (Çoğul)",
+    "answer": "ARKAMDA ARABA KUYRUĞU VAR"
+  },
+  {
+    "question": "ЗАД ГРАНИЦА (ZAD GRANITSA) (Dişil)",
+    "answer": "SINIR ÖTESİ"
+  },
+  {
+    "question": "ЗАД ПАРКА ИМА ГОЛЯМ МАГАЗИН (ZAD PARKA IMA GOLYAM MAGAZIN) (Eril)",
+    "answer": "PARKIN ARKASINDA BÜYÜK MARKET VAR"
+  },
+  {
+    "question": "ЗАД БАНКАТА ИМА АПТЕКА (ZAD BANKATA IMA APTEKA) (Dişil)",
+    "answer": "BANKANIN ARKASINDA ECZANE VAR"
+  },
+  {
+    "question": "ЗАД ХОТЕЛА ИМА БЛОК (ZAD HOTELA IMA BLOK) (Eril)",
+    "answer": "OTELİN ARKASINDA APARTMAN VAR"
+  }
+]
