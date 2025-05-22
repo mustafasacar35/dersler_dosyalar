@@ -1,0 +1,846 @@
+[
+  {
+    "question": "ЕДНO КУЧЕ (EDNO KUCHE) (Eril)",
+    "answer": "BİR KÖPEK"
+  },
+  {
+    "question": "ЕДНА КОТКА (EDNA KOTKA) (Dişil)",
+    "answer": "BİR KEDİ"
+  },
+  {
+    "question": "ЕДНО ЦВЕТЕ (EDNO TSVETE) (Nötr)",
+    "answer": "BİR ÇİÇEK"
+  },
+  {
+    "question": "ЕДНА КНИГА (EDNA KNIGA) (Dişil)",
+    "answer": "BİR KİTAP"
+  },
+  {
+    "question": "ЕДНА КОЛА (EDNA KOLA) (Dişil)",
+    "answer": "BİR ARABA"
+  },
+  {
+    "question": "ЕДНО КОЛЕЛО (EDNO KOLELO) (Nötr)",
+    "answer": "BİR BİSİKLET"
+  },
+  {
+    "question": "ЕДИН ЛАПТОП (EDIN LAPTOP) (Eril)",
+    "answer": "BİR LAPTOP"
+  },
+  {
+    "question": "ЕДИН КОМПЮТЪР (EDIN KOMPYUTAR) (Eril)",
+    "answer": "BİR BİLGİSAYAR"
+  },
+  {
+    "question": "ЕДИН ДИВАН (EDIN DIVAN) (Eril)",
+    "answer": "BİR KOLTUK"
+  },
+  {
+    "question": "ЕДИН ХЛЯБ (EDIN HLYAB) (Eril)",
+    "answer": "BİR EKMEK"
+  },
+  {
+    "question": "ЕДИН ТЕЛЕФОН (EDIN TELEFON) (Eril)",
+    "answer": "BİR TELEFON"
+  },
+  {
+    "question": "ЕДНА РИЗА (EDNA RIZA) (Dişil)",
+    "answer": "BİR GÖMLEK"
+  },
+  {
+    "question": "ЕДНА ТЕТРАДКА (EDNA TETRADKA) (Dişil)",
+    "answer": "BİR DEFTER"
+  },
+  {
+    "question": "ЕДИН УЧИТЕЛ (EDIN UCHITEL) (Eril)",
+    "answer": "BİR ÖĞRETMEN"
+  },
+  {
+    "question": "ЕДИН УЧЕНИК (EDIN UCHENIK) (Eril)",
+    "answer": "BİR ÖĞRENCİ"
+  },
+  {
+    "question": "ЕДНА КЪЩА (EDNA KASHTA) (Dişil)",
+    "answer": "BİR EV"
+  },
+  {
+    "question": "ЕДНА МАСА (EDNA MASA) (Dişil)",
+    "answer": "BİR MASA"
+  },
+  {
+    "question": "ЕДИН СТОЛ (EDIN STOL) (Eril)",
+    "answer": "BİR SANDALYE"
+  },
+  {
+    "question": "ЕДНА ВРАТА (EDNA VRATA) (Dişil)",
+    "answer": "BİR KAPI"
+  },
+  {
+    "question": "ЕДИН ХИМИКАЛ (EDIN HIMIKAL) (Eril)",
+    "answer": "BİR TÜKENMEZ KALEM"
+  },
+  {
+    "question": "ЕДНА ЧАША (EDNA CHASHA) (Dişil)",
+    "answer": "BİR BARDAK"
+  },
+  {
+    "question": "ЕДНА ШАПКА (EDNA SHAPKA) (Dişil)",
+    "answer": "BİR ŞAPKA"
+  },
+  {
+    "question": "ЕДНО ЯКЕ (EDNO YAKE) (Nötr)",
+    "answer": "BİR MONT"
+  },
+  {
+    "question": "ЕДИН АВТОБУС (EDIN AVTOBUS) (Eril)",
+    "answer": "BİR OTOBÜS"
+  },
+  {
+    "question": "ЕДИН ВЛАК (EDIN VLAK) (Eril)",
+    "answer": "BİR TREN"
+  },
+  {
+    "question": "ЕДИН ФИЛМ (EDIN FILM) (Eril)",
+    "answer": "BİR FİLM"
+  },
+  {
+    "question": "ЕДНО УЧИЛИЩЕ (EDNO UCHILISHTE) (Nötr)",
+    "answer": "BİR OKUL"
+  },
+  {
+    "question": "ЕДИН МАГАЗИН (EDIN MAGAZIN) (Eril)",
+    "answer": "BİR MARKET"
+  },
+  {
+    "question": "ЕДНО ЛЕГЛО (EDNO LEGLO) (Nötr)",
+    "answer": "BİR YATAK"
+  },
+  {
+    "question": "ЕДНО КАФЕ (EDNO KAFE) (Nötr)",
+    "answer": "BİR KAHVE"
+  },
+  {
+    "question": "ЕДИН ЧАЙ (EDIN CHAY) (Eril)",
+    "answer": "BİR ÇAY"
+  },
+  {
+    "question": "ЕДИН БАЛОН (EDIN BALON) (Eril)",
+    "answer": "BİR BALON"
+  },
+  {
+    "question": "ЕДНА РАБОТА (EDNA RABOTA) (Dişil)",
+    "answer": "BİR İŞ"
+  },
+  {
+    "question": "ЕДНА ВЕЧЕРЯ (EDNA VECHERYA) (Dişil)",
+    "answer": "BİR AKŞAM YEMEĞİ"
+  },
+  {
+    "question": "ЕДНА ЗАКУСКА (EDNA ZAKUSKA) (Dişil)",
+    "answer": "BİR KAHVALTI"
+  },
+  {
+    "question": "ЕДИН ОБЯД (EDIN OBYAD) (Eril)",
+    "answer": "BİR ÖĞLEN YEMEĞİ"
+  },
+  {
+    "question": "ЕДНА ЧАНТА (EDNA CHANTA) (Dişil)",
+    "answer": "BİR ÇANTA"
+  },
+  {
+    "question": "ОБУВКИ (OBUVKI) (Çoğul)",
+    "answer": "AYAKKABILAR / ÇİFT AYAKKABI"
+  },
+  {
+    "question": "ЕДНА ОБУВКА (EDNA OBUVKA) (Dişil)",
+    "answer": "BİR TEK AYAKKABI"
+  },
+  {
+    "question": "ЕДНА ТОРБИЧКА (EDNA TORBICHKA) (Dişil)",
+    "answer": "BİR POŞET"
+  },
+  {
+    "question": "ЕДИН ТЕЛЕВИЗОР (EDIN TELEVIZOR) (Eril)",
+    "answer": "BİR TELEVİZYON"
+  },
+  {
+    "question": "ЕДИН МЪЖ (EDIN MAZH) (Eril)",
+    "answer": "BİR ERKEK / BİR ADAM"
+  },
+  {
+    "question": "ЕДНА ЖЕНА (EDNA ZHENA) (Dişil)",
+    "answer": "BİR KADIN"
+  },
+  {
+    "question": "ЕДНО ДЕТЕ (EDNO DETE) (Nötr)",
+    "answer": "BİR ÇOCUK"
+  },
+  {
+    "question": "ТОВА Е ЕДНА КНИГА (TOVA E EDNA KNIGA)",
+    "answer": "BU BİR KİTAP (Dişil)"
+  },
+  {
+    "question": "ТОВА Е ЕДИН МЪЖ (TOVA E EDIN MAZH)",
+    "answer": "BU BİR ERKEK (Eril)"
+  },
+  {
+    "question": "ТОВА Е ЕДНО КУЧЕ (TOVA E EDNO KUCHE)",
+    "answer": "BU BİR KÖPEK (Nötr)"
+  },
+  {
+    "question": "ТОВА Е ЕДНО БЕБЕ (TOVA E EDNO BEBE)",
+    "answer": "BU BİR BEBEK (Nötr)"
+  },
+  {
+    "question": "ХУБАВ ГРАД (HUBAV GRAD) (Eril)",
+    "answer": "GÜZEL ŞEHİR"
+  },
+  {
+    "question": "ХУБАВА ЖЕНА (HUBAVA ZHENA) (Dişil)",
+    "answer": "GÜZEL KADIN"
+  },
+  {
+    "question": "ХУБАВО МОРЕ (HUBAVO MORE) (Nötr)",
+    "answer": "GÜZEL DENİZ"
+  },
+  {
+    "question": "МАГАЗИНИ (MAGAZINI) (Çoğul)",
+    "answer": "MAĞAZALAR / DÜKKANLAR"
+  },
+  {
+    "question": "ВЛАКОВЕ (VLAKOVE) (Çoğul)",
+    "answer": "TRENLER"
+  },
+  {
+    "question": "УЧИТЕЛИ (UCHITELI) (Çoğul)",
+    "answer": "ÖĞRETMENLER"
+  },
+  {
+    "question": "ХИМИКАЛИ (HIMIKALI) (Çoğul)",
+    "answer": "KALEMLER"
+  },
+  {
+    "question": "СТОЛОВЕ (STOLOVE) (Çoğul)",
+    "answer": "SANDALYELER"
+  },
+  {
+    "question": "ЖЕНИ (ZHENI) (Çoğul)",
+    "answer": "KADINLAR"
+  },
+  {
+    "question": "ВРАТИ (VRATI) (Çoğul)",
+    "answer": "KAPILAR"
+  },
+  {
+    "question": "ПАЛТА (PALTA) (Çoğul)",
+    "answer": "KABANLAR"
+  },
+  {
+    "question": "ДЕЦА (DETSA) (Çoğul)",
+    "answer": "ÇOCUKLAR"
+  },
+  {
+    "question": "ЧОВЕК (CHOVEK) (Eril)",
+    "answer": "İNSAN"
+  },
+  {
+    "question": "ХОРА (HORA) (Çoğul)",
+    "answer": "İNSANLAR"
+  },
+  {
+    "question": "ЯМ (YAM)",
+    "answer": "YİYORUM"
+  },
+  {
+    "question": "ПИЯ (PIYA)",
+    "answer": "İÇİYORUM"
+  },
+  {
+    "question": "ЧЕТА (CHETA)",
+    "answer": "OKUYORUM (kitap, dergi, gazete için)"
+  },
+  {
+    "question": "ПАЗАРУВАМ / КУПУВАМ (PAZARUVAM / KUPUVAM)",
+    "answer": "ALIŞVERİŞ YAPMAK / SATIN ALMAK"
+  },
+  {
+    "question": "ИДВАМ (IDVAM)",
+    "answer": "GELİYORUM"
+  },
+  {
+    "question": "СЕДЯ (SEDYA)",
+    "answer": "OTURUYORUM"
+  },
+  {
+    "question": "ОТИВАМ (OTIVAM)",
+    "answer": "GİDİYORUM"
+  },
+  {
+    "question": "СТАВАМ (STAVAM)",
+    "answer": "KALKIYORUM"
+  },
+  {
+    "question": "МИЯ (MIYA)",
+    "answer": "YIKIYORUM"
+  },
+  {
+    "question": "ЧИСТЯ (CHISTYA)",
+    "answer": "TEMİZLİYORUM"
+  },
+  {
+    "question": "ПРАВЯ (PRAVYA)",
+    "answer": "YAPIYORUM"
+  },
+  {
+    "question": "ОБЛИЧАМ СЕ (OBLICHAM SE)",
+    "answer": "GİYİNİYORUM"
+  },
+  {
+    "question": "ОБИЧАМ (OBICHAM)",
+    "answer": "SEVİYORUM"
+  },
+  {
+    "question": "ЖИВЕЯ (ZHIVEYA)",
+    "answer": "YAŞIYORUM"
+  },
+  {
+    "question": "ГОВОРЯ (GOVORYA)",
+    "answer": "KONUŞUYORUM"
+  },
+  {
+    "question": "УЧА (UCHA)",
+    "answer": "DERS ÇALIŞIYORUM"
+  },
+  {
+    "question": "КАКВО ПРАВИШ? (KAKVO PRAVISH?)",
+    "answer": "NE YAPIYORSUN?"
+  },
+  {
+    "question": "ЯМ ХЛЯБ (YAM HLYAB)",
+    "answer": "EKMEK YİYORUM"
+  },
+  {
+    "question": "ЯМ ЗАКУСКА (YAM ZAKUSKA)",
+    "answer": "KAHVALTI YİYORUM"
+  },
+  {
+    "question": "ПИЯ КАФЕ (PIYA KAFE)",
+    "answer": "KAHVE İÇİYORUM"
+  },
+  {
+    "question": "ЧЕТА КНИГА (CHETA KNIGA)",
+    "answer": "KİTAP OKUYORUM"
+  },
+  {
+    "question": "ПРАВЯ ЗАКУСКА (PRAVYA ZAKUSKA)",
+    "answer": "KAHVALTI HAZIRLIYORUM"
+  },
+  {
+    "question": "ОБИЧАМ ЧАЙ (OBICHAM CHAY)",
+    "answer": "ÇAY SEVİYORUM"
+  },
+  {
+    "question": "ОБИЧАМ ЦВЕТЕ (OBICHAM TSVETE)",
+    "answer": "ÇİÇEK SEVİYORUM"
+  },
+  {
+    "question": "КАКВО Е ТОВА? (KAKVO E TOVA?)",
+    "answer": "BU NEDİR? (Tekil)"
+  },
+  {
+    "question": "КАКВО СА ТОВА? (KAKVO SA TOVA?)",
+    "answer": "BUNLAR NEDİR? (Çoğul)"
+  },
+  {
+    "question": "ТОВА Е КУЧЕ (TOVA E KUCHE)",
+    "answer": "BU KÖPEK"
+  },
+  {
+    "question": "ТОВА СА МАСИ (TOVA SA MASI)",
+    "answer": "BUNLAR MASA"
+  },
+  {
+    "question": "ЕДНА ВОДА (EDNA VODA) (Dişil)",
+    "answer": "BİR SU"
+  },
+  {
+    "question": "ЕДИН ЧАЙ (EDIN CHAY) (Eril)",
+    "answer": "BİR ÇAY"
+  },
+  {
+    "question": "ЕДНО КАФЕ (EDNO KAFE) (Nötr)",
+    "answer": "BİR KAHVE"
+  },
+  {
+    "question": "ЕДНО КАПУЧИНО (EDNO KAPUCHINO) (Nötr)",
+    "answer": "BİR KAPUÇİNO"
+  },
+  {
+    "question": "ЕДИН СОК (EDIN SOK) (Eril)",
+    "answer": "BİR MEYVE SUYU"
+  },
+  {
+    "question": "ЕДНО ПРЯСНО МЛЯКО (EDNO PRYASNO MLYAKO) (Nötr)",
+    "answer": "BİR TAZE SÜT"
+  },
+  {
+    "question": "ЕДНО КИСЕЛО МЛЯКО (EDNO KISELO MLYAKO) (Nötr)",
+    "answer": "BİR YOĞURT"
+  },
+  {
+    "question": "ЕДНО СИРЕНЕ (EDNO SIRENE) (Nötr)",
+    "answer": "BİR BEYAZ PEYNİR"
+  },
+  {
+    "question": "ЕДИН КАШКАВАЛ (EDIN KASHKAVAL) (Eril)",
+    "answer": "BİR KAŞAR PEYNİRİ"
+  },
+  {
+    "question": "ЕДНО МАСЛО (EDNO MASLO) (Nötr)",
+    "answer": "BİR TEREYAĞI"
+  },
+  {
+    "question": "ЕДИН ХЛЯБ (EDIN HLYAB) (Eril)",
+    "answer": "BİR EKMEK"
+  },
+  {
+    "question": "ЕДНА ФИЛИЯ (EDNA FILIYA) (Dişil)",
+    "answer": "BİR DİLİM EKMEK"
+  },
+  {
+    "question": "ЕДНА БАНИЦА (EDNA BANITSA) (Dişil)",
+    "answer": "BİR BÖREK"
+  },
+  {
+    "question": "ЕДНО ЯЙЦЕ (EDNO YAYTSE) (Nötr)",
+    "answer": "BİR YUMURTA"
+  },
+  {
+    "question": "ЕДИН САЛАМ (EDIN SALAM) (Eril)",
+    "answer": "BİR SALAM"
+  },
+  {
+    "question": "ЕДНА ЗАХАР (EDNA ZAHAR) (Dişil)",
+    "answer": "BİR ŞEKER"
+  },
+  {
+    "question": "ЕДИН МЕД (EDIN MED) (Eril)",
+    "answer": "BİR BAL"
+  },
+  {
+    "question": "ЯМ СИРЕНЕ (YAM SIRENE)",
+    "answer": "PEYNİR YİYORUM"
+  },
+  {
+    "question": "ЯМ БАНИЦА (YAM BANITSA)",
+    "answer": "BÖREK YİYORUM"
+  },
+  {
+    "question": "ПИЯ ВОДА (PIYA VODA)",
+    "answer": "SU İÇİYORUM"
+  },
+  {
+    "question": "ПИЯ СОК (PIYA SOK)",
+    "answer": "MEYVE SUYU İÇİYORUM"
+  },
+  {
+    "question": "ОБИЧАМ КАШКАВАЛ (OBICHAM KASHKAVAL)",
+    "answer": "KAŞAR SEVİYORUM"
+  },
+  {
+    "question": "ОБИЧАМ МЕД (OBICHAM MED)",
+    "answer": "BAL SEVİYORUM"
+  },
+  {
+    "question": "ЕДИН ПУЛОВЕР (EDIN PULOVER) (Eril)",
+    "answer": "BİR KAZAK"
+  },
+  {
+    "question": "ЕДНА ТЕНИСКА (EDNA TENISKA) (Dişil)",
+    "answer": "BİR TİŞÖRT"
+  },
+  {
+    "question": "КЪСИ ПАНТАЛОНИ (KASI PANTALONI) (Çoğul)",
+    "answer": "KISA PANTOLONLAR"
+  },
+  {
+    "question": "ЕДНА ШАПКА (EDNA SHAPKA) (Dişil)",
+    "answer": "BİR ŞAPKA"
+  },
+  {
+    "question": "ЧОРАПИ (CHORAPI) (Çoğul)",
+    "answer": "ÇORAPLAR"
+  },
+  {
+    "question": "БОТУШИ (BOTUSHI) (Çoğul)",
+    "answer": "BOTLAR"
+  },
+  {
+    "question": "ЕДИН ШАЛ (EDIN SHAL) (Eril)",
+    "answer": "BİR ŞAL"
+  },
+  {
+    "question": "РЪКАВИЦИ (RAKAVITSI) (Çoğul)",
+    "answer": "ELDİVENLER"
+  },
+  {
+    "question": "ЕДНА НОЩНИЦА (EDNA NOSHTNITSA) (Dişil)",
+    "answer": "BİR GECE ELBİSESİ"
+  },
+  {
+    "question": "ЕДНА ПИЖАМА (EDNA PIZHAMA) (Dişil)",
+    "answer": "BİR PİJAMA"
+  },
+  {
+    "question": "ОЧИЛА (OCHILA) (Çoğul)",
+    "answer": "GÖZLÜKLER"
+  },
+  {
+    "question": "СЛЪНЧЕВИ ОЧИЛА (SLANCHEVI OCHILA) (Çoğul)",
+    "answer": "GÜNEŞ GÖZLÜKLERİ"
+  },
+  {
+    "question": "ЕДИН КОЛАН (EDIN KOLAN) (Eril)",
+    "answer": "BİR KEMER"
+  },
+  {
+    "question": "ЕДНА ЯБЪЛКА (EDNA YABALKA) (Dişil)",
+    "answer": "BİR ELMA"
+  },
+  {
+    "question": "ЕДНА КРУША (EDNA KRUSHA) (Dişil)",
+    "answer": "BİR ARMUT"
+  },
+  {
+    "question": "ЕДНА ЯГОДА (EDNA YAGODA) (Dişil)",
+    "answer": "BİR ÇİLEK"
+  },
+  {
+    "question": "ЕДИН ГРЕЙПФРУТ (EDIN GREYPFRUT) (Eril)",
+    "answer": "BİR GREYFURT"
+  },
+  {
+    "question": "ЕДНА СЛИВА (EDNA SLIVA) (Dişil)",
+    "answer": "BİR ERİK"
+  },
+  {
+    "question": "ЕДНА СМОКИНЯ (EDNA SMOKINYA) (Dişil)",
+    "answer": "BİR İNCİR"
+  },
+  {
+    "question": "ЕДНА ПРАСКОВА (EDNA PRASKOVA) (Dişil)",
+    "answer": "BİR ŞEFTALİ"
+  },
+  {
+    "question": "ЕДНА КАЙСИЯ (EDNA KAYSIYA) (Dişil)",
+    "answer": "BİR KAYISI"
+  },
+  {
+    "question": "ЕДНО ГРОЗДЕ (EDNO GROZDE) (Nötr)",
+    "answer": "BİR ÜZÜM"
+  },
+  {
+    "question": "ЕДИН ПЪПЕШ (EDIN PAPESH) (Eril)",
+    "answer": "BİR KAVUN"
+  },
+  {
+    "question": "ЕДНА ДИНЯ (EDNA DINYA) (Dişil)",
+    "answer": "BİR KARPUZ"
+  },
+  {
+    "question": "ЕДИН БАНАН (EDIN BANAN) (Eril)",
+    "answer": "BİR MUZ"
+  },
+  {
+    "question": "ЕДИН ЛИМОН (EDIN LIMON) (Eril)",
+    "answer": "BİR LİMON"
+  },
+  {
+    "question": "ЕДИН ПОРТОКАЛ (EDIN PORTOKAL) (Eril)",
+    "answer": "BİR PORTAKAL"
+  },
+  {
+    "question": "ЕДНА ЧЕРЕША (EDNA CHERESHA) (Dişil)",
+    "answer": "BİR KİRAZ"
+  },
+  {
+    "question": "АЗ ЯМ БАНАН (AZ YAM BANAN)",
+    "answer": "MUZ YİYORUM"
+  },
+  {
+    "question": "АЗ ЯМ ЯБЪЛКА (AZ YAM YABALKA)",
+    "answer": "ELMA YİYORUM"
+  },
+  {
+    "question": "ЯМ ЯГОДА (YAM YAGODA)",
+    "answer": "ÇİLEK YİYORUM"
+  },
+  {
+    "question": "ЯМ ПРАСКОВА (YAM PRASKOVA)",
+    "answer": "ŞEFTALİ YİYORUM"
+  },
+  {
+    "question": "ЕДИН ДОМАТ (EDIN DOMAT) (Eril)",
+    "answer": "BİR DOMATES"
+  },
+  {
+    "question": "ЕДНА КРАСТАВИЦА (EDNA KRASTAVITSA) (Dişil)",
+    "answer": "BİR SALATALIK"
+  },
+  {
+    "question": "ЕДИН ЧЕСЪН (EDIN CHESAN) (Eril)",
+    "answer": "BİR SARIMSAK"
+  },
+  {
+    "question": "ЕДИН МОРКОВ (EDIN MORKOV) (Eril)",
+    "answer": "BİR HAVUÇ"
+  },
+  {
+    "question": "ЕДНО ЗЕЛЕ (EDNO ZELE) (Nötr)",
+    "answer": "BİR LAHANA"
+  },
+  {
+    "question": "ЕДНА ЧУШКА / ПИПЕР (EDNA CHUSHKA / PIPER) (Dişil / Eril)",
+    "answer": "BİR BİBER"
+  },
+  {
+    "question": "ЕДИН КАРТОФ (EDIN KARTOF) (Eril)",
+    "answer": "BİR PATATES"
+  },
+  {
+    "question": "ЕДНА ТИКВИЧКА (EDNA TIKVICHKA) (Dişil)",
+    "answer": "BİR KABAK"
+  },
+  {
+    "question": "ЕДНА ГЪБА (EDNA GABA) (Dişil)",
+    "answer": "BİR MANTAR"
+  },
+  {
+    "question": "ЕДИН СПАНАК (EDIN SPANAK) (Eril)",
+    "answer": "BİR ISPANAK"
+  },
+  {
+    "question": "ЕДНА МАРУЛЯ (EDNA MARULYA) (Dişil)",
+    "answer": "BİR MARUL"
+  },
+  {
+    "question": "ЕДИН ЛУК (EDIN LUK) (Eril)",
+    "answer": "BİR SOĞAN"
+  },
+  {
+    "question": "ЯМ ДОМАТ (YAM DOMAT)",
+    "answer": "DOMATES YİYORUM"
+  },
+  {
+    "question": "ЯМ ЗЕЛЕ (YAM ZELE)",
+    "answer": "LAHANA YİYORUM"
+  },
+  {
+    "question": "ЕВЕТ BULGARCADA NASILDIR? (EVET BULGARTSADA NASILDIR?)",
+    "answer": "ДА (DA)"
+  },
+  {
+    "question": "HAYIR BULGARCADA NASILDIR? (HAYIR BULGARTSADA NASILDIR?)",
+    "answer": "НЕ (NE)"
+  },
+  {
+    "question": "ТОВА МАСА ЛИ Е? (TOVA MASA LI E?)",
+    "answer": "BU MASA MI?"
+  },
+  {
+    "question": "ТОВА Е МАСА (TOVA E MASA)",
+    "answer": "BU MASA"
+  },
+  {
+    "question": "ТОВА КОМПЮТЪР ЛИ Е? (TOVA KOMPYUTAR LI E?)",
+    "answer": "BU BİLGİSAYAR MI?"
+  },
+  {
+    "question": "ТОВА Е КОМПЮТЪР (TOVA E KOMPYUTAR)",
+    "answer": "BU BİLGİSAYAR"
+  },
+  {
+    "question": "КОЙ? (KOY?)",
+    "answer": "KİM? / HANGİ?"
+  },
+  {
+    "question": "КАКВО? (KAKVO?)",
+    "answer": "NE?"
+  },
+  {
+    "question": "КОГА? (KOGA?)",
+    "answer": "NE ZAMAN?"
+  },
+  {
+    "question": "КЪДЕ? (KADE?)",
+    "answer": "NEREDE?"
+  },
+  {
+    "question": "ЗАЩО? (ZASHTO?)",
+    "answer": "NEDEN?"
+  },
+  {
+    "question": "КАК? (KAK?)",
+    "answer": "NASIL?"
+  },
+  {
+    "question": "ЧИЙ? (CHIY?)",
+    "answer": "KİMİN?"
+  },
+  {
+    "question": "КОЛКО? (KOLKO?)",
+    "answer": "KAÇ? / NE KADAR?"
+  },
+  {
+    "question": "КОЙ Е ТОВА? (KOY E TOVA?)",
+    "answer": "BU KİM?"
+  },
+  {
+    "question": "КАКВО ИСКАШ? (KAKVO ISKASH?)",
+    "answer": "NE İSTİYORSUN?"
+  },
+  {
+    "question": "КЪДЕ ЖИВЕЕШ? (KADE ZHIVEEZH?)",
+    "answer": "NEREDE YAŞIYORSUN?"
+  },
+  {
+    "question": "КОГА ЩЕ ДОЙДЕШ? (KOGA SHTE DOYDESH?)",
+    "answer": "NE ZAMAN GELECEKSİN?"
+  },
+  {
+    "question": "ЗАЩО ЗАКЪСНЯВАШ? (ZASHTO ZAKASNYAVASH?)",
+    "answer": "NEDEN GEÇ KALIYORSUN?"
+  },
+  {
+    "question": "КАК СИ? (KAK SI?)",
+    "answer": "NASILSIN?"
+  },
+  {
+    "question": "ЧИЙ Е ТОЗИ СТОЛ? (CHIY E TOZI STOL?)",
+    "answer": "BU SANDALYE KİMİN?"
+  },
+  {
+    "question": "КОЛКО СТРУВА? (KOLKO STRUVA?)",
+    "answer": "FİYAT NEDİR?"
+  },
+  {
+    "question": "КОЛКО СТРУВА ЕДНО КАФЕ? (KOLKO STRUVA EDNO KAFE?)",
+    "answer": "BİR KAHVE FİYATI NEDİR?"
+  },
+  {
+    "question": "КОЛКО СТРУВА ЕДИН ЧАЙ? (KOLKO STRUVA EDIN CHAY?)",
+    "answer": "BİR ÇAY FİYATI NEDİR?"
+  },
+  {
+    "question": "ЗДРАВЕЙ (ZDRAVEY)",
+    "answer": "MERHABA, SELAM"
+  },
+  {
+    "question": "ЗДРАВЕЙТЕ (ZDRAVEYTE)",
+    "answer": "MERHABA (Çoğul veya Resmi)"
+  },
+  {
+    "question": "ДОБРО УТРО (DOBRO UTRO)",
+    "answer": "GÜNAYDIN, İYİ SABAHLAR"
+  },
+  {
+    "question": "ДОБЪР ДЕН (DOBAR DEN)",
+    "answer": "İYİ GÜNLER"
+  },
+  {
+    "question": "ДОБЪР ВЕЧЕР (DOBAR VECHER)",
+    "answer": "İYİ AKŞAMLAR"
+  },
+  {
+    "question": "ЛЕКА НОЩ (LEKA NOSHT)",
+    "answer": "İYİ GECELER"
+  },
+  {
+    "question": "ДОВИЖДАНЕ (DOVIZHDANE)",
+    "answer": "GÖRÜŞMEK ÜZERE"
+  },
+  {
+    "question": "КАК СИ? (KAK SI?)",
+    "answer": "NASILSIN?"
+  },
+  {
+    "question": "КАКВО ПРАВИШ? (KAKVO PRAVISH?)",
+    "answer": "NE YAPIYORSUN?"
+  },
+  {
+    "question": "ДОБРЕ (DOBRE)",
+    "answer": "İYİ / TAMAM"
+  },
+  {
+    "question": "БИВА (BIVA)",
+    "answer": "FENA DEĞİL"
+  },
+  {
+    "question": "ДОБРЕ ЛИ СИ? (DOBRE LI SI?)",
+    "answer": "İYİ MİSİN?"
+  },
+  {
+    "question": "ДОБРЕ СЪМ (DOBRE SAM)",
+    "answer": "İYİYİM"
+  },
+  {
+    "question": "ДОБРЕ СЪМ, А ТИ? (DOBRE SAM, A TI?)",
+    "answer": "BEN İYİYİM, YA SEN?"
+  },
+  {
+    "question": "ВСИЧКО НАЙ-ХУБАВО (VSICHKO NAY-HUBAVO)",
+    "answer": "HER ŞEY GÖNLÜNCE OLSUN"
+  },
+  {
+    "question": "ПОЗДРАВИ (POZDRAVI)",
+    "answer": "SELAMLAR"
+  },
+  {
+    "question": "БЛАГОДАРЯ (BLAGODARYA)",
+    "answer": "TEŞEKKÜRLER"
+  },
+  {
+    "question": "ПАК ЗАПОВЯДАЙ (PAK ZAPOVYADAY)",
+    "answer": "YİNE BUYUR"
+  },
+  {
+    "question": "МОЛЯ (MOLYA)",
+    "answer": "LÜTFEN / RİCA EDERİM"
+  },
+  {
+    "question": "МОЖЕ ЛИ ДА МИ КАЖЕТЕ ... (MOZHE LI DA MI KAZHETE ...)",
+    "answer": "BANA SÖYLEYEBİLİR MİSİNİZ?"
+  },
+  {
+    "question": "ИЗВИНЯВАЙ! (IZVINYAVAY!)",
+    "answer": "PARDON! AFFEDERSİN!"
+  },
+  {
+    "question": "ИЗВИНЕТЕ! (IZVINETE!)",
+    "answer": "AFFEDERSİNİZ!"
+  },
+  {
+    "question": "ОБИЧАМ ТЕ! (OBICHAM TE!)",
+    "answer": "SENİ SEVİYORUM"
+  },
+  {
+    "question": "ЛИПСВАШ МИ (LIPSVASH MI)",
+    "answer": "SENİ ÖZLEDİM"
+  },
+  {
+    "question": "НА КОЛКО ГОДИНИ СИ? (NA KOLKO GODINI SI?)",
+    "answer": "KAÇ YAŞINDASIN?"
+  },
+  {
+    "question": "КАК СЕ КАЗВАШ? (KAK SE KAZVASH?)",
+    "answer": "ADIN NE?"
+  },
+  {
+    "question": "ОТ КЪДЕ СИ? (OT KADE SI?)",
+    "answer": "NERELİSİN?"
+  },
+  {
+    "question": "МОЖЕ ЛИ ДА МИ КАЖЕТЕ КОЛКО СТРУВА ЕДНО КАФЕ? (MOZHE LI DA MI KAZHETE KOLKO STRUVA EDNO KAFE?)",
+    "answer": "BANA BİR KAHVE FİYATINI SÖYLEYEBİLİR MİSİNİZ?"
+  }
+]
