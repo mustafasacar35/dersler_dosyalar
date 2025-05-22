@@ -1,5 +1,5 @@
 {
-  "currentIndex": 180,
+  "currentIndex": 203,
   "score": 0,
   "answers": [
     null,
@@ -216,38 +216,38 @@
   ],
   "recentQuestions": [
     {
-      "index": 180,
-      "question": "КОЛКО СТРУВА? (KOLKO STRUVA?)",
+      "index": 203,
+      "question": "ИЗВИНЯВАЙ! (IZVINYAVAY!)",
       "answer": null,
-      "correctAnswer": "FİYAT NEDİR?",
+      "correctAnswer": "PARDON! AFFEDERSİN!",
       "isCorrect": null
     },
     {
-      "index": 179,
-      "question": "ЧИЙ Е ТОЗИ СТОЛ? (CHIY E TOZI STOL?)",
+      "index": 202,
+      "question": "МОЖЕ ЛИ ДА МИ КАЖЕТЕ ... (MOZHE LI DA MI KAZHETE ...)",
       "answer": null,
-      "correctAnswer": "BU SANDALYE KİMİN?",
+      "correctAnswer": "BANA SÖYLEYEBİLİR MİSİNİZ?",
       "isCorrect": null
     },
     {
-      "index": 178,
-      "question": "КАК СИ? (KAK SI?)",
+      "index": 205,
+      "question": "ОБИЧАМ ТЕ! (OBICHAM TE!)",
       "answer": null,
-      "correctAnswer": "NASILSIN?",
+      "correctAnswer": "SENİ SEVİYORUM",
       "isCorrect": null
     },
     {
-      "index": 176,
-      "question": "КОГА ЩЕ ДОЙДЕШ? (KOGA SHTE DOYDESH?)",
+      "index": 208,
+      "question": "КАК СЕ КАЗВАШ? (KAK SE KAZVASH?)",
       "answer": null,
-      "correctAnswer": "NE ZAMAN GELECEKSİN?",
+      "correctAnswer": "ADIN NE?",
       "isCorrect": null
     },
     {
-      "index": 175,
-      "question": "КЪДЕ ЖИВЕЕШ? (KADE ZHIVEEZH?)",
+      "index": 209,
+      "question": "ОТ КЪДЕ СИ? (OT KADE SI?)",
       "answer": null,
-      "correctAnswer": "NEREDE YAŞIYORSUN?",
+      "correctAnswer": "NERELİSİN?",
       "isCorrect": null
     }
   ],
