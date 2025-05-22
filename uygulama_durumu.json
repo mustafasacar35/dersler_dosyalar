@@ -1,5 +1,5 @@
 {
-  "currentIndex": 41,
+  "currentIndex": 15,
   "score": 0,
   "answers": [
     null,
@@ -69,7 +69,7 @@
     null,
     null,
     null,
-    "dfhyd",
+    null,
     null,
     null,
     null,
@@ -216,52 +216,46 @@
   ],
   "recentQuestions": [
     {
-      "index": 41,
-      "question": "ЕДИН МЪЖ (EDIN MAZH) (Eril)",
+      "index": 15,
+      "question": "ЕДНА КЪЩА (EDNA KASHTA) (Dişil)",
       "answer": null,
-      "correctAnswer": "BİR ERKEK / BİR ADAM",
+      "correctAnswer": "BİR EV",
       "isCorrect": null
     },
     {
-      "index": 203,
-      "question": "ИЗВИНЯВАЙ! (IZVINYAVAY!)",
+      "index": 14,
+      "question": "ЕДИН УЧЕНИК (EDIN UCHENIK) (Eril)",
       "answer": null,
-      "correctAnswer": "PARDON! AFFEDERSİN!",
+      "correctAnswer": "BİR ÖĞRENCİ",
       "isCorrect": null
     },
     {
-      "index": 202,
-      "question": "МОЖЕ ЛИ ДА МИ КАЖЕТЕ ... (MOZHE LI DA MI KAZHETE ...)",
+      "index": 13,
+      "question": "ЕДИН УЧИТЕЛ (EDIN UCHITEL) (Eril)",
       "answer": null,
-      "correctAnswer": "BANA SÖYLEYEBİLİR MİSİNİZ?",
+      "correctAnswer": "BİR ÖĞRETMEN",
       "isCorrect": null
     },
     {
-      "index": 205,
-      "question": "ОБИЧАМ ТЕ! (OBICHAM TE!)",
+      "index": 11,
+      "question": "ЕДНА РИЗА (EDNA RIZA) (Dişil)",
       "answer": null,
-      "correctAnswer": "SENİ SEVİYORUM",
+      "correctAnswer": "BİR GÖMLEK",
       "isCorrect": null
     },
     {
-      "index": 208,
-      "question": "КАК СЕ КАЗВАШ? (KAK SE KAZVASH?)",
+      "index": 10,
+      "question": "ЕДИН ТЕЛЕФОН (EDIN TELEFON) (Eril)",
       "answer": null,
-      "correctAnswer": "ADIN NE?",
+      "correctAnswer": "BİR TELEFON",
       "isCorrect": null
     }
   ],
   "blacklist": [],
-  "wrongCount": {
-    "67": 1
-  },
-  "priorityQueue": [
-    67
-  ],
-  "missedQuestions": [
-    67
-  ],
-  "questionCounter": 1,
+  "wrongCount": {},
+  "priorityQueue": [],
+  "missedQuestions": [],
+  "questionCounter": 0,
   "isRandomOrder": false,
   "isTurkishQuestion": false,
   "lastSequentialIndex": 0,
@@ -270,7 +264,7 @@
   "isSearchMode": false,
   "isSpeechEnabled": false,
   "isLatinVisible": false,
-  "isRepeatWrongEnabled": true,
+  "isRepeatWrongEnabled": false,
   "isSoundEnabled": false,
   "jsonFiles": {
     "Ders 1": {
