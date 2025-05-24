@@ -1,5 +1,5 @@
 {
-  "currentIndex": 28,
+  "currentIndex": 53,
   "score": 0,
   "answers": [
     "",
@@ -216,38 +216,38 @@
   ],
   "recentQuestions": [
     {
-      "index": 28,
-      "question": "ЕДНО ЛЕГЛО (EDNO LEGLO) (Nötr)",
+      "index": 53,
+      "question": "УЧИТЕЛИ (UCHITELI) (Çoğul)",
       "answer": null,
-      "correctAnswer": "BİR YATAK",
+      "correctAnswer": "ÖĞRETMENLER",
       "isCorrect": null
     },
     {
-      "index": 27,
-      "question": "ЕДИН МАГАЗИН (EDIN MAGAZIN) (Eril)",
+      "index": 52,
+      "question": "ВЛАКОВЕ (VLAKOVE) (Çoğul)",
       "answer": null,
-      "correctAnswer": "BİR MARKET",
+      "correctAnswer": "TRENLER",
       "isCorrect": null
     },
     {
-      "index": 26,
-      "question": "ЕДНО УЧИЛИЩЕ (EDNO UCHILISHTE) (Nötr)",
+      "index": 51,
+      "question": "МАГАЗИНИ (MAGAZINI) (Çoğul)",
       "answer": null,
-      "correctAnswer": "BİR OKUL",
+      "correctAnswer": "MAĞAZALAR / DÜKKANLAR",
       "isCorrect": null
     },
     {
-      "index": 25,
-      "question": "ЕДИН ФИЛМ (EDIN FILM) (Eril)",
+      "index": 49,
+      "question": "ХУБАВА ЖЕНА (HUBAVA ZHENA) (Dişil)",
       "answer": null,
-      "correctAnswer": "BİR FİLM",
+      "correctAnswer": "GÜZEL KADIN",
       "isCorrect": null
     },
     {
-      "index": 24,
-      "question": "ЕДИН ВЛАК (EDIN VLAK) (Eril)",
+      "index": 48,
+      "question": "ХУБАВ ГРАД (HUBAV GRAD) (Eril)",
       "answer": null,
-      "correctAnswer": "BİR TREN",
+      "correctAnswer": "GÜZEL ŞEHİR",
       "isCorrect": null
     }
   ],
