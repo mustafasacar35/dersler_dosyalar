@@ -1,5 +1,5 @@
 {
-  "currentIndex": 0,
+  "currentIndex": 46,
   "score": 0,
   "answers": [
     null,
@@ -216,10 +216,38 @@
   ],
   "recentQuestions": [
     {
-      "index": 0,
-      "question": "ЕДНO КУЧЕ (EDNO KUCHE) (Eril)",
+      "index": 46,
+      "question": "ТОВА Е ЕДНО КУЧЕ (TOVA E EDNO KUCHE)",
       "answer": null,
-      "correctAnswer": "BİR KÖPEK",
+      "correctAnswer": "BU BİR KÖPEK (Nötr)",
+      "isCorrect": null
+    },
+    {
+      "index": 45,
+      "question": "ТОВА Е ЕДИН МЪЖ (TOVA E EDIN MAZH)",
+      "answer": null,
+      "correctAnswer": "BU BİR ERKEK (Eril)",
+      "isCorrect": null
+    },
+    {
+      "index": 42,
+      "question": "ЕДНА ЖЕНА (EDNA ZHENA) (Dişil)",
+      "answer": null,
+      "correctAnswer": "BİR KADIN",
+      "isCorrect": null
+    },
+    {
+      "index": 38,
+      "question": "ЕДНА ОБУВКА (EDNA OBUVKA) (Dişil)",
+      "answer": null,
+      "correctAnswer": "BİR TEK AYAKKABI",
+      "isCorrect": null
+    },
+    {
+      "index": 31,
+      "question": "ЕДИН БАЛОН (EDIN BALON) (Eril)",
+      "answer": null,
+      "correctAnswer": "BİR BALON",
       "isCorrect": null
     }
   ],
@@ -19618,12 +19646,12 @@
       "Bugün"
     ],
     [
-      "живее",
-      "yaşıyor"
+      "Анна",
+      "Anna"
     ],
     [
-      "зима",
-      "kış"
+      "Сега",
+      "Şimdi"
     ]
   ]
 }
