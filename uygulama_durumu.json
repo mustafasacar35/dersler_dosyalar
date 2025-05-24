@@ -1,8 +1,8 @@
 {
-  "currentIndex": 53,
+  "currentIndex": 32,
   "score": 0,
   "answers": [
-    "",
+    null,
     null,
     null,
     null,
@@ -216,50 +216,25 @@
   ],
   "recentQuestions": [
     {
-      "index": 53,
-      "question": "УЧИТЕЛИ (UCHITELI) (Çoğul)",
+      "index": 32,
+      "question": "ЕДНА РАБОТА (EDNA RABOTA) (Dişil)",
       "answer": null,
-      "correctAnswer": "ÖĞRETMENLER",
+      "correctAnswer": "BİR İŞ",
       "isCorrect": null
     },
     {
-      "index": 52,
-      "question": "ВЛАКОВЕ (VLAKOVE) (Çoğul)",
+      "index": 0,
+      "question": "ЕДНO КУЧЕ (EDNO KUCHE) (Eril)",
       "answer": null,
-      "correctAnswer": "TRENLER",
-      "isCorrect": null
-    },
-    {
-      "index": 51,
-      "question": "МАГАЗИНИ (MAGAZINI) (Çoğul)",
-      "answer": null,
-      "correctAnswer": "MAĞAZALAR / DÜKKANLAR",
-      "isCorrect": null
-    },
-    {
-      "index": 49,
-      "question": "ХУБАВА ЖЕНА (HUBAVA ZHENA) (Dişil)",
-      "answer": null,
-      "correctAnswer": "GÜZEL KADIN",
-      "isCorrect": null
-    },
-    {
-      "index": 48,
-      "question": "ХУБАВ ГРАД (HUBAV GRAD) (Eril)",
-      "answer": null,
-      "correctAnswer": "GÜZEL ŞEHİR",
+      "correctAnswer": "BİR KÖPEK",
       "isCorrect": null
     }
   ],
   "blacklist": [],
-  "wrongCount": {
-    "0": 1
-  },
+  "wrongCount": {},
   "priorityQueue": [],
-  "missedQuestions": [
-    0
-  ],
-  "questionCounter": 1,
+  "missedQuestions": [],
+  "questionCounter": 0,
   "isRandomOrder": false,
   "isTurkishQuestion": false,
   "lastSequentialIndex": 0,
