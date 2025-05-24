@@ -1,5 +1,5 @@
 {
-  "currentIndex": 100,
+  "currentIndex": 102,
   "score": 0,
   "answers": [
     null,
@@ -216,6 +216,20 @@
   ],
   "recentQuestions": [
     {
+      "index": 102,
+      "question": "ЕДНА БАНИЦА (EDNA BANITSA) (Dişil)",
+      "answer": null,
+      "correctAnswer": "BİR BÖREK",
+      "isCorrect": null
+    },
+    {
+      "index": 101,
+      "question": "ЕДНА ФИЛИЯ (EDNA FILIYA) (Dişil)",
+      "answer": null,
+      "correctAnswer": "BİR DİLİM EKMEK",
+      "isCorrect": null
+    },
+    {
       "index": 100,
       "question": "ЕДИН ХЛЯБ (EDIN HLYAB) (Eril)",
       "answer": null,
@@ -234,20 +248,6 @@
       "question": "ЕДНО КАФЕ (EDNO KAFE) (Nötr)",
       "answer": null,
       "correctAnswer": "BİR KAHVE",
-      "isCorrect": null
-    },
-    {
-      "index": 81,
-      "question": "ПИЯ КАФЕ (PIYA KAFE)",
-      "answer": null,
-      "correctAnswer": "KAHVE İÇİYORUM",
-      "isCorrect": null
-    },
-    {
-      "index": 68,
-      "question": "ОТИВАМ (OTIVAM)",
-      "answer": null,
-      "correctAnswer": "GİDİYORUM",
       "isCorrect": null
     }
   ],
