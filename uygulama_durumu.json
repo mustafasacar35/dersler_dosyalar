@@ -1,5 +1,5 @@
 {
-  "currentIndex": 162,
+  "currentIndex": 81,
   "score": 0,
   "answers": [
     null,
@@ -216,38 +216,38 @@
   ],
   "recentQuestions": [
     {
-      "index": 162,
-      "question": "ТОВА Е МАСА (TOVA E MASA)",
+      "index": 81,
+      "question": "ПИЯ КАФЕ (PIYA KAFE)",
       "answer": null,
-      "correctAnswer": "BU MASA",
+      "correctAnswer": "KAHVE İÇİYORUM",
       "isCorrect": null
     },
     {
-      "index": 161,
-      "question": "ТОВА МАСА ЛИ Е? (TOVA MASA LI E?)",
+      "index": 80,
+      "question": "ЯМ ЗАКУСКА (YAM ZAKUSKA)",
       "answer": null,
-      "correctAnswer": "BU MASA MI?",
+      "correctAnswer": "KAHVALTI YİYORUM",
       "isCorrect": null
     },
     {
-      "index": 158,
-      "question": "ЯМ ЗЕЛЕ (YAM ZELE)",
+      "index": 78,
+      "question": "КАКВО ПРАВИШ? (KAKVO PRAVISH?)",
       "answer": null,
-      "correctAnswer": "LAHANA YİYORUM",
+      "correctAnswer": "NE YAPIYORSUN?",
       "isCorrect": null
     },
     {
-      "index": 151,
-      "question": "ЕДИН КАРТОФ (EDIN KARTOF) (Eril)",
+      "index": 75,
+      "question": "ЖИВЕЯ (ZHIVEYA)",
       "answer": null,
-      "correctAnswer": "BİR PATATES",
+      "correctAnswer": "YAŞIYORUM",
       "isCorrect": null
     },
     {
-      "index": 148,
-      "question": "ЕДИН МОРКОВ (EDIN MORKOV) (Eril)",
+      "index": 73,
+      "question": "ОБЛИЧАМ СЕ (OBLICHAM SE)",
       "answer": null,
-      "correctAnswer": "BİR HAVUÇ",
+      "correctAnswer": "GİYİNİYORUM",
       "isCorrect": null
     }
   ],
