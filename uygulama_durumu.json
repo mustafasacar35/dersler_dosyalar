@@ -236,7 +236,7 @@
   "isSearchMode": false,
   "isSpeechEnabled": false,
   "isLatinVisible": false,
-  "isRepeatWrongEnabled": false,
+  "isRepeatWrongEnabled": true,
   "isSoundEnabled": false,
   "jsonFiles": {
     "Ders 1": {
