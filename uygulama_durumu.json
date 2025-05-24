@@ -19611,5 +19611,19 @@
   },
   "isMissedMode": false,
   "isBulgarianKeyboard": true,
-  "isCapsOn": false
+  "isCapsOn": false,
+  "selectedWords": [
+    [
+      "Днес",
+      "Bugün"
+    ],
+    [
+      "живее",
+      "yaşıyor"
+    ],
+    [
+      "зима",
+      "kış"
+    ]
+  ]
 }
