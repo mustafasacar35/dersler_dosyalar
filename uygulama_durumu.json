@@ -1,5 +1,5 @@
 {
-  "currentIndex": 0,
+  "currentIndex": 82,
   "score": 0,
   "answers": [
     null,
@@ -216,10 +216,38 @@
   ],
   "recentQuestions": [
     {
-      "index": 0,
-      "question": "ЕДНO КУЧЕ (EDNO KUCHE) (Eril)",
+      "index": 82,
+      "question": "ЧЕТА КНИГА (CHETA KNIGA)",
       "answer": null,
-      "correctAnswer": "BİR KÖPEK",
+      "correctAnswer": "KİTAP OKUYORUM",
+      "isCorrect": null
+    },
+    {
+      "index": 81,
+      "question": "ПИЯ КАФЕ (PIYA KAFE)",
+      "answer": null,
+      "correctAnswer": "KAHVE İÇİYORUM",
+      "isCorrect": null
+    },
+    {
+      "index": 78,
+      "question": "КАКВО ПРАВИШ? (KAKVO PRAVISH?)",
+      "answer": null,
+      "correctAnswer": "NE YAPIYORSUN?",
+      "isCorrect": null
+    },
+    {
+      "index": 71,
+      "question": "ЧИСТЯ (CHISTYA)",
+      "answer": null,
+      "correctAnswer": "TEMİZLİYORUM",
+      "isCorrect": null
+    },
+    {
+      "index": 61,
+      "question": "ХОРА (HORA) (Çoğul)",
+      "answer": null,
+      "correctAnswer": "İNSANLAR",
       "isCorrect": null
     }
   ],
