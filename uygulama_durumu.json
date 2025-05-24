@@ -1,5 +1,5 @@
 {
-  "currentIndex": 46,
+  "currentIndex": 162,
   "score": 0,
   "answers": [
     null,
@@ -216,38 +216,38 @@
   ],
   "recentQuestions": [
     {
-      "index": 46,
-      "question": "ТОВА Е ЕДНО КУЧЕ (TOVA E EDNO KUCHE)",
+      "index": 162,
+      "question": "ТОВА Е МАСА (TOVA E MASA)",
       "answer": null,
-      "correctAnswer": "BU BİR KÖPEK (Nötr)",
+      "correctAnswer": "BU MASA",
       "isCorrect": null
     },
     {
-      "index": 45,
-      "question": "ТОВА Е ЕДИН МЪЖ (TOVA E EDIN MAZH)",
+      "index": 161,
+      "question": "ТОВА МАСА ЛИ Е? (TOVA MASA LI E?)",
       "answer": null,
-      "correctAnswer": "BU BİR ERKEK (Eril)",
+      "correctAnswer": "BU MASA MI?",
       "isCorrect": null
     },
     {
-      "index": 42,
-      "question": "ЕДНА ЖЕНА (EDNA ZHENA) (Dişil)",
+      "index": 158,
+      "question": "ЯМ ЗЕЛЕ (YAM ZELE)",
       "answer": null,
-      "correctAnswer": "BİR KADIN",
+      "correctAnswer": "LAHANA YİYORUM",
       "isCorrect": null
     },
     {
-      "index": 38,
-      "question": "ЕДНА ОБУВКА (EDNA OBUVKA) (Dişil)",
+      "index": 151,
+      "question": "ЕДИН КАРТОФ (EDIN KARTOF) (Eril)",
       "answer": null,
-      "correctAnswer": "BİR TEK AYAKKABI",
+      "correctAnswer": "BİR PATATES",
       "isCorrect": null
     },
     {
-      "index": 31,
-      "question": "ЕДИН БАЛОН (EDIN BALON) (Eril)",
+      "index": 148,
+      "question": "ЕДИН МОРКОВ (EDIN MORKOV) (Eril)",
       "answer": null,
-      "correctAnswer": "BİR BALON",
+      "correctAnswer": "BİR HAVUÇ",
       "isCorrect": null
     }
   ],
@@ -19639,19 +19639,5 @@
   },
   "isMissedMode": false,
   "isBulgarianKeyboard": true,
-  "isCapsOn": false,
-  "selectedWords": [
-    [
-      "Днес",
-      "Bugün"
-    ],
-    [
-      "Анна",
-      "Anna"
-    ],
-    [
-      "Сега",
-      "Şimdi"
-    ]
-  ]
+  "isCapsOn": false
 }
