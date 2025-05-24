@@ -1,8 +1,8 @@
 {
-  "currentIndex": 81,
+  "currentIndex": 28,
   "score": 0,
   "answers": [
-    null,
+    "",
     null,
     null,
     null,
@@ -216,46 +216,50 @@
   ],
   "recentQuestions": [
     {
-      "index": 81,
-      "question": "ПИЯ КАФЕ (PIYA KAFE)",
+      "index": 28,
+      "question": "ЕДНО ЛЕГЛО (EDNO LEGLO) (Nötr)",
       "answer": null,
-      "correctAnswer": "KAHVE İÇİYORUM",
+      "correctAnswer": "BİR YATAK",
       "isCorrect": null
     },
     {
-      "index": 80,
-      "question": "ЯМ ЗАКУСКА (YAM ZAKUSKA)",
+      "index": 27,
+      "question": "ЕДИН МАГАЗИН (EDIN MAGAZIN) (Eril)",
       "answer": null,
-      "correctAnswer": "KAHVALTI YİYORUM",
+      "correctAnswer": "BİR MARKET",
       "isCorrect": null
     },
     {
-      "index": 78,
-      "question": "КАКВО ПРАВИШ? (KAKVO PRAVISH?)",
+      "index": 26,
+      "question": "ЕДНО УЧИЛИЩЕ (EDNO UCHILISHTE) (Nötr)",
       "answer": null,
-      "correctAnswer": "NE YAPIYORSUN?",
+      "correctAnswer": "BİR OKUL",
       "isCorrect": null
     },
     {
-      "index": 75,
-      "question": "ЖИВЕЯ (ZHIVEYA)",
+      "index": 25,
+      "question": "ЕДИН ФИЛМ (EDIN FILM) (Eril)",
       "answer": null,
-      "correctAnswer": "YAŞIYORUM",
+      "correctAnswer": "BİR FİLM",
       "isCorrect": null
     },
     {
-      "index": 73,
-      "question": "ОБЛИЧАМ СЕ (OBLICHAM SE)",
+      "index": 24,
+      "question": "ЕДИН ВЛАК (EDIN VLAK) (Eril)",
       "answer": null,
-      "correctAnswer": "GİYİNİYORUM",
+      "correctAnswer": "BİR TREN",
       "isCorrect": null
     }
   ],
   "blacklist": [],
-  "wrongCount": {},
+  "wrongCount": {
+    "0": 1
+  },
   "priorityQueue": [],
-  "missedQuestions": [],
-  "questionCounter": 0,
+  "missedQuestions": [
+    0
+  ],
+  "questionCounter": 1,
   "isRandomOrder": false,
   "isTurkishQuestion": false,
   "lastSequentialIndex": 0,
