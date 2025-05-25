@@ -1,7 +1,47 @@
 {
-  "currentIndex": 82,
+  "currentIndex": 14,
   "score": 0,
   "answers": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
     null,
     null,
     null,
@@ -216,38 +256,38 @@
   ],
   "recentQuestions": [
     {
-      "index": 82,
-      "question": "ЧЕТА КНИГА (CHETA KNIGA)",
+      "index": 14,
+      "question": "Какво ще желаете?",
       "answer": null,
-      "correctAnswer": "KİTAP OKUYORUM",
+      "correctAnswer": "Ne arzu edersiniz?",
       "isCorrect": null
     },
     {
-      "index": 81,
-      "question": "ПИЯ КАФЕ (PIYA KAFE)",
+      "index": 13,
+      "question": "И на вас!",
       "answer": null,
-      "correctAnswer": "KAHVE İÇİYORUM",
+      "correctAnswer": "Size de!",
       "isCorrect": null
     },
     {
-      "index": 78,
-      "question": "КАКВО ПРАВИШ? (KAKVO PRAVISH?)",
+      "index": 12,
+      "question": "Благодаря! Лек ден!",
       "answer": null,
-      "correctAnswer": "NE YAPIYORSUN?",
+      "correctAnswer": "Teşekkür ederim! İyi günler!",
       "isCorrect": null
     },
     {
-      "index": 71,
-      "question": "ЧИСТЯ (CHISTYA)",
+      "index": 11,
+      "question": "Ето, заповядайте.",
       "answer": null,
-      "correctAnswer": "TEMİZLİYORUM",
+      "correctAnswer": "Buyurun.",
       "isCorrect": null
     },
     {
-      "index": 61,
-      "question": "ХОРА (HORA) (Çoğul)",
+      "index": 10,
+      "question": "Добре, ще взема.",
       "answer": null,
-      "correctAnswer": "İNSANLAR",
+      "correctAnswer": "Tamam, alacağım.",
       "isCorrect": null
     }
   ],
@@ -1114,7 +1154,7 @@
           "answer": "BANA BİR KAHVE FİYATINI SÖYLEYEBİLİR MİSİNİZ?"
         }
       ],
-      "selected": true
+      "selected": false
     },
     "Ders 2": {
       "data": [
@@ -18165,7 +18205,7 @@
           "answer": "Desi diyor: “Evet!”"
         }
       ],
-      "selected": false
+      "selected": true
     },
     "Ders 12": {
       "data": [
