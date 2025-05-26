@@ -1,5 +1,5 @@
 {
-  "currentIndex": 14,
+  "currentIndex": 29,
   "score": 0,
   "answers": [
     null,
@@ -256,38 +256,38 @@
   ],
   "recentQuestions": [
     {
-      "index": 14,
-      "question": "Какво ще желаете?",
+      "index": 29,
+      "question": "Имате ли температура?",
       "answer": null,
-      "correctAnswer": "Ne arzu edersiniz?",
+      "correctAnswer": "Ateşiniz var mı?",
       "isCorrect": null
     },
     {
-      "index": 13,
-      "question": "И на вас!",
+      "index": 27,
+      "question": "От кога Ви боли?",
       "answer": null,
-      "correctAnswer": "Size de!",
+      "correctAnswer": "Ne zamandan beri ağrıyor?",
       "isCorrect": null
     },
     {
-      "index": 12,
-      "question": "Благодаря! Лек ден!",
+      "index": 26,
+      "question": "Боли ме корема.",
       "answer": null,
-      "correctAnswer": "Teşekkür ederim! İyi günler!",
+      "correctAnswer": "Karnım ağrıyor.",
       "isCorrect": null
     },
     {
-      "index": 11,
-      "question": "Ето, заповядайте.",
+      "index": 24,
+      "question": "Казвам се Елена Иванова.",
       "answer": null,
-      "correctAnswer": "Buyurun.",
+      "correctAnswer": "Adım Elena İvanova.",
       "isCorrect": null
     },
     {
-      "index": 10,
-      "question": "Добре, ще взема.",
+      "index": 23,
+      "question": "Как се казвате?",
       "answer": null,
-      "correctAnswer": "Tamam, alacağım.",
+      "correctAnswer": "Adınız nedir?",
       "isCorrect": null
     }
   ],
