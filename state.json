@@ -1,5 +1,5 @@
 {
-  "currentIndex": 31,
+  "currentIndex": 0,
   "score": 0,
   "answers": [
     null,
@@ -216,38 +216,10 @@
   ],
   "recentQuestions": [
     {
-      "index": 31,
-      "question": "ЕДИН БАЛОН (EDIN BALON) (Eril)",
+      "index": 0,
+      "question": "ЕДНO КУЧЕ (EDNO KUCHE) (Eril)",
       "answer": null,
-      "correctAnswer": "BİR BALON",
-      "isCorrect": null
-    },
-    {
-      "index": 30,
-      "question": "ЕДИН ЧАЙ (EDIN CHAY) (Eril)",
-      "answer": null,
-      "correctAnswer": "BİR ÇAY",
-      "isCorrect": null
-    },
-    {
-      "index": 26,
-      "question": "ЕДНО УЧИЛИЩЕ (EDNO UCHILISHTE) (Nötr)",
-      "answer": null,
-      "correctAnswer": "BİR OKUL",
-      "isCorrect": null
-    },
-    {
-      "index": 24,
-      "question": "ЕДИН ВЛАК (EDIN VLAK) (Eril)",
-      "answer": null,
-      "correctAnswer": "BİR TREN",
-      "isCorrect": null
-    },
-    {
-      "index": 13,
-      "question": "ЕДИН УЧИТЕЛ (EDIN UCHITEL) (Eril)",
-      "answer": null,
-      "correctAnswer": "BİR ÖĞRETMEN",
+      "correctAnswer": "BİR KÖPEK",
       "isCorrect": null
     }
   ],
@@ -19639,34 +19611,5 @@
   },
   "isMissedMode": false,
   "isBulgarianKeyboard": true,
-  "isCapsOn": false,
-  "paragraphSelections": {
-    "Зимна почивка": [
-      "Сега = Şimdi"
-    ],
-    "В КЪЩАТА НА АННА": [
-      "Анна = Anna",
-      "филми = film"
-    ],
-    "В ПАРКА С ПРИЯТЕЛИ": [
-      "Мария = Mariya"
-    ],
-    "ПОСЕЩЕНИЕ НА СЕЛО": [
-      "Иван = İvan",
-      "и = ve",
-      "семейството = aile",
-      "му = onun",
-      "отиват = gidiyorlar"
-    ],
-    "ВЕЧЕРЯ В РЕСТОРАНТ": [
-      "Петър = Petır"
-    ],
-    "ПОКУПКИ НА ПАЗАРА": [
-      "Иван = İvan"
-    ],
-    "ВЕСЕЛ СЪБОТЕН ДЕН": [
-      "защото = çünkü"
-    ]
-  },
-  "lastSaved": "2025-05-29T17:56:04.037Z"
+  "isCapsOn": false
 }
