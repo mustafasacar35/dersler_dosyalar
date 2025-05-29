@@ -1,5 +1,5 @@
 {
-  "currentIndex": 72,
+  "currentIndex": 0,
   "score": 0,
   "answers": [
     null,
@@ -216,38 +216,10 @@
   ],
   "recentQuestions": [
     {
-      "index": 72,
-      "question": "ПРАВЯ (PRAVYA)",
+      "index": 0,
+      "question": "ЕДНO КУЧЕ (EDNO KUCHE) (Eril)",
       "answer": null,
-      "correctAnswer": "YAPIYORUM",
-      "isCorrect": null
-    },
-    {
-      "index": 71,
-      "question": "ЧИСТЯ (CHISTYA)",
-      "answer": null,
-      "correctAnswer": "TEMİZLİYORUM",
-      "isCorrect": null
-    },
-    {
-      "index": 70,
-      "question": "МИЯ (MIYA)",
-      "answer": null,
-      "correctAnswer": "YIKIYORUM",
-      "isCorrect": null
-    },
-    {
-      "index": 69,
-      "question": "СТАВАМ (STAVAM)",
-      "answer": null,
-      "correctAnswer": "KALKIYORUM",
-      "isCorrect": null
-    },
-    {
-      "index": 67,
-      "question": "СЕДЯ (SEDYA)",
-      "answer": null,
-      "correctAnswer": "OTURUYORUM",
+      "correctAnswer": "BİR KÖPEK",
       "isCorrect": null
     }
   ],
