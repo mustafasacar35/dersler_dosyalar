@@ -1,5 +1,5 @@
 {
-  "currentIndex": 0,
+  "currentIndex": 31,
   "score": 0,
   "answers": [
     null,
@@ -216,10 +216,38 @@
   ],
   "recentQuestions": [
     {
-      "index": 0,
-      "question": "ЕДНO КУЧЕ (EDNO KUCHE) (Eril)",
+      "index": 31,
+      "question": "ЕДИН БАЛОН (EDIN BALON) (Eril)",
       "answer": null,
-      "correctAnswer": "BİR KÖPEK",
+      "correctAnswer": "BİR BALON",
+      "isCorrect": null
+    },
+    {
+      "index": 30,
+      "question": "ЕДИН ЧАЙ (EDIN CHAY) (Eril)",
+      "answer": null,
+      "correctAnswer": "BİR ÇAY",
+      "isCorrect": null
+    },
+    {
+      "index": 26,
+      "question": "ЕДНО УЧИЛИЩЕ (EDNO UCHILISHTE) (Nötr)",
+      "answer": null,
+      "correctAnswer": "BİR OKUL",
+      "isCorrect": null
+    },
+    {
+      "index": 24,
+      "question": "ЕДИН ВЛАК (EDIN VLAK) (Eril)",
+      "answer": null,
+      "correctAnswer": "BİR TREN",
+      "isCorrect": null
+    },
+    {
+      "index": 13,
+      "question": "ЕДИН УЧИТЕЛ (EDIN UCHITEL) (Eril)",
+      "answer": null,
+      "correctAnswer": "BİR ÖĞRETMEN",
       "isCorrect": null
     }
   ],
@@ -236,7 +264,7 @@
   "isSearchMode": false,
   "isSpeechEnabled": false,
   "isLatinVisible": false,
-  "isRepeatWrongEnabled": true,
+  "isRepeatWrongEnabled": false,
   "isSoundEnabled": false,
   "jsonFiles": {
     "Ders 1": {
@@ -19621,8 +19649,6 @@
       "филми = film"
     ],
     "В ПАРКА С ПРИЯТЕЛИ": [
-      "Днес = Bugün",
-      "събота = cumartesi",
       "Мария = Mariya"
     ],
     "ПОСЕЩЕНИЕ НА СЕЛО": [
@@ -19641,5 +19667,6 @@
     "ВЕСЕЛ СЪБОТЕН ДЕН": [
       "защото = çünkü"
     ]
-  }
+  },
+  "lastSaved": "2025-05-29T17:56:04.037Z"
 }
