@@ -1,47 +1,7 @@
 {
-  "currentIndex": 29,
+  "currentIndex": 0,
   "score": 0,
   "answers": [
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
     null,
     null,
     null,
@@ -256,38 +216,10 @@
   ],
   "recentQuestions": [
     {
-      "index": 29,
-      "question": "Имате ли температура?",
+      "index": 0,
+      "question": "ЕДНO КУЧЕ (EDNO KUCHE) (Eril)",
       "answer": null,
-      "correctAnswer": "Ateşiniz var mı?",
-      "isCorrect": null
-    },
-    {
-      "index": 27,
-      "question": "От кога Ви боли?",
-      "answer": null,
-      "correctAnswer": "Ne zamandan beri ağrıyor?",
-      "isCorrect": null
-    },
-    {
-      "index": 26,
-      "question": "Боли ме корема.",
-      "answer": null,
-      "correctAnswer": "Karnım ağrıyor.",
-      "isCorrect": null
-    },
-    {
-      "index": 24,
-      "question": "Казвам се Елена Иванова.",
-      "answer": null,
-      "correctAnswer": "Adım Elena İvanova.",
-      "isCorrect": null
-    },
-    {
-      "index": 23,
-      "question": "Как се казвате?",
-      "answer": null,
-      "correctAnswer": "Adınız nedir?",
+      "correctAnswer": "BİR KÖPEK",
       "isCorrect": null
     }
   ],
@@ -1154,7 +1086,7 @@
           "answer": "BANA BİR KAHVE FİYATINI SÖYLEYEBİLİR MİSİNİZ?"
         }
       ],
-      "selected": false
+      "selected": true
     },
     "Ders 2": {
       "data": [
@@ -18205,7 +18137,7 @@
           "answer": "Desi diyor: “Evet!”"
         }
       ],
-      "selected": true
+      "selected": false
     },
     "Ders 12": {
       "data": [
