@@ -1,5 +1,5 @@
 {
-  "currentIndex": 172,
+  "currentIndex": 0,
   "score": 0,
   "answers": [
     null,
@@ -216,38 +216,10 @@
   ],
   "recentQuestions": [
     {
-      "index": 172,
-      "question": "КОЛКО? (KOLKO?)",
+      "index": 0,
+      "question": "ЕДНO КУЧЕ (EDNO KUCHE) (Eril)",
       "answer": null,
-      "correctAnswer": "KAÇ? / NE KADAR?",
-      "isCorrect": null
-    },
-    {
-      "index": 173,
-      "question": "КОЙ Е ТОВА? (KOY E TOVA?)",
-      "answer": null,
-      "correctAnswer": "BU KİM?",
-      "isCorrect": null
-    },
-    {
-      "index": 174,
-      "question": "КАКВО ИСКАШ? (KAKVO ISKASH?)",
-      "answer": null,
-      "correctAnswer": "NE İSTİYORSUN?",
-      "isCorrect": null
-    },
-    {
-      "index": 176,
-      "question": "КОГА ЩЕ ДОЙДЕШ? (KOGA SHTE DOYDESH?)",
-      "answer": null,
-      "correctAnswer": "NE ZAMAN GELECEKSİN?",
-      "isCorrect": null
-    },
-    {
-      "index": 179,
-      "question": "ЧИЙ Е ТОЗИ СТОЛ? (CHIY E TOZI STOL?)",
-      "answer": null,
-      "correctAnswer": "BU SANDALYE KİMİN?",
+      "correctAnswer": "BİR KÖPEK",
       "isCorrect": null
     }
   ],
