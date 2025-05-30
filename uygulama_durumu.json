@@ -1,5 +1,5 @@
 {
-  "currentIndex": 454,
+  "currentIndex": 469,
   "score": 0,
   "answers": [
     null,
@@ -925,38 +925,38 @@
   ],
   "recentQuestions": [
     {
-      "index": 454,
-      "question": "ТИ СИ МАЛКА (Tİ Sİ MALKA)",
+      "index": 469,
+      "question": "МАЛЪК Е (MALIK E)",
       "answer": null,
-      "correctAnswer": "SEN KÜÇÜKSÜN (DİŞİL)",
+      "correctAnswer": "O KÜÇÜK (ERİL)",
       "isCorrect": null
     },
     {
-      "index": 453,
-      "question": "БОЛЕН СИ (BOLEN Sİ)",
+      "index": 470,
+      "question": "ТОЙ Е СЛАБ (TOY E SLAB)",
       "answer": null,
-      "correctAnswer": "HASTASIN (ERİL)",
+      "correctAnswer": "O ZAYIF (ERİL)",
       "isCorrect": null
     },
     {
-      "index": 449,
-      "question": "СЛАБ СЪМ (SLAB SIM)",
+      "index": 472,
+      "question": "ТО Е БОЛНО (TO E BOLNO)",
       "answer": null,
-      "correctAnswer": "ZAYIFIM (ERİL)",
+      "correctAnswer": "O HASTA (NÖTR)",
       "isCorrect": null
     },
     {
-      "index": 444,
-      "question": "АЗ СЪМ МАЛЪК (AZ SIM MALIK)",
+      "index": 475,
+      "question": "МАЛКО Е (MALKO E)",
       "answer": null,
-      "correctAnswer": "BEN KÜÇÜĞÜM (ERİL)",
+      "correctAnswer": "O KÜÇÜK (NÖTR)",
       "isCorrect": null
     },
     {
-      "index": 435,
-      "question": "СЛАБА (SLABA)",
+      "index": 478,
+      "question": "НИЕ СМЕ БОЛНИ (NİE SME BOLNİ)",
       "answer": null,
-      "correctAnswer": "ZAYIF (DİŞİL)",
+      "correctAnswer": "BİZ HASTAYIZ",
       "isCorrect": null
     }
   ],
