@@ -1,0 +1,874 @@
+[
+  {
+    "question": "Аз живея във Варна на улица Мир, пети етаж. (Az zhiveya vav Varna na ulitsa Mir, peti etazh.)",
+    "answer": "Varna şehri Mir sokakta beşinci katta yaşıyorum."
+  },
+  {
+    "question": "В квартала ми има голям магазин, поща, сладкарница и ресторант. (V kvartala mi ima golyam magazin, poshta, sladkarnitsa i restorant.)",
+    "answer": "Mahallemizde büyük market, postane, pastane ve restoran var."
+  },
+  {
+    "question": "Живея със семейството си. (Zhiveya sas semeystvoto si.)",
+    "answer": "Ailemle yaşıyorum."
+  },
+  {
+    "question": "Имам малка, но тиха и спокойна стая. (Imam malka, no tiha i spokoyna staya.)",
+    "answer": "Küçük ama sessiz ve sakin bir odam var."
+  },
+  {
+    "question": "В стаята ми има легло, маса, стол, лампа, книги и малък телевизор. (V stayata mi ima leglo, masa, stol, lampa, knigi i malak televizor.)",
+    "answer": "Odamda yatak, masa, sandalye, lamba, kitaplar ve küçük televizyon var."
+  },
+  {
+    "question": "Много обичам града си и квартала си. (Mnogo obicham grada si i kvartala si.)",
+    "answer": "Şehrimi ve mahallemi çok seviyorum."
+  },
+  {
+    "question": "Живея в малко село близо до Бургас. (Zhiveya v malko selo blizo do Burgas.)",
+    "answer": "Burgas’a yakın küçük bir köyde yaşıyorum."
+  },
+  {
+    "question": "В селото има само малък магазин. (V seloto ima samo malak magazin.)",
+    "answer": "Köyde sadece küçük bir dükkan var."
+  },
+  {
+    "question": "В селото има много животни, цветя и градини. (V seloto ima mnogo zhivotni, tsvetya i gradini.)",
+    "answer": "Köyde çok hayvan, çiçek ve bahçeler var."
+  },
+  {
+    "question": "Живея с баба ми и дядо ми. (Zhiveya s baba mi i dyado mi.)",
+    "answer": "Büyükannem ve büyükbabam ile yaşıyorum."
+  },
+  {
+    "question": "Ядем домашна храна като баница със сирене, домашно сирене, зеленчуци и плодове. (Yadem domashna hrana kato banitsa sas sirene, domashno sirene, zelenchutsi i plodove.)",
+    "answer": "Peynirli börek, ev yapımı peynir, sebze ve meyve gibi ev yemekleri yiyoruz."
+  },
+  {
+    "question": "Най-много обичам домашна храна. (Nay-mnogo obicham domashna hrana.)",
+    "answer": "En çok ev yemeklerini seviyorum."
+  },
+  {
+    "question": "Много обичам природата и спокойния живот. (Mnogo obicham prirodata i spokoyniya zhivot.)",
+    "answer": "Doğayı ve rahat yaşam tarzını çok seviyorum."
+  },
+  {
+    "question": "Северозапад (Severozapad)",
+    "answer": "Kuzeybatı"
+  },
+  {
+    "question": "Североизток (Severoiztok)",
+    "answer": "Kuzeydoğu"
+  },
+  {
+    "question": "Югозапад (Yugozapad)",
+    "answer": "Güneybatı"
+  },
+  {
+    "question": "Югоизток (Yugoiztok)",
+    "answer": "Güneydoğu"
+  },
+  {
+    "question": "Къщата ми е на север от центъра. (Kashtata mi e na sever ot tsentara.)",
+    "answer": "Evim merkezin kuzeyinde."
+  },
+  {
+    "question": "Пазарът е на юг от парка. (Pazarat e na yug ot parka.)",
+    "answer": "Pazar parkın güneyinde."
+  },
+  {
+    "question": "Изгревът е на изток от града. (Izgreval e na iztok ot grada.)",
+    "answer": "Güneşin doğuşu şehrin doğusundadır."
+  },
+  {
+    "question": "Залез (Zalez)",
+    "answer": "Gün batımı"
+  },
+  {
+    "question": "Слънцето залязва на запад. (Slantseto zalyazva na zapad.)",
+    "answer": "Güneş batıda batıyor."
+  },
+  {
+    "question": "Изгрява (Izgryava)",
+    "answer": "Gün doğuyor"
+  },
+  {
+    "question": "Улицата е в дясно от супермаркета. (Ulitsata e v dyasno ot supermarketa.)",
+    "answer": "Sokak marketin sağındadır."
+  },
+  {
+    "question": "Магазинът е горе до блока. (Magazinat e gore do bloka.)",
+    "answer": "Mağaza yukarıda apartmanın yanında."
+  },
+  {
+    "question": "Долу до реката има красива градина. (Dolu do rekata ima krasiva gradina.)",
+    "answer": "Aşağıda nehrin yanında güzel bahçe var."
+  },
+  {
+    "question": "Гарата е на североизток от хотела. (Garata e na severoiztok ot hotela.)",
+    "answer": "Tren istasyonu otelin kuzeydoğusundadır."
+  },
+  {
+    "question": "Летището е на запад от града. (Letishteto e na zapad ot grada.)",
+    "answer": "Havaalanı şehrin batısındadır."
+  },
+  {
+    "question": "Селото е на югозапад от града. (Seloto e na yugozapad ot grada.)",
+    "answer": "Köy şehrin güneybatısındadır."
+  },
+  {
+    "question": "Автогарата е на северозапад от летището. (Avtogarata e na severozapad ot letishteto.)",
+    "answer": "Otogar havaalanının kuzeybatısındadır."
+  },
+  {
+    "question": "Продължете в посока северозапад. (Prodalzhete v posoka severozapad.)",
+    "answer": "Kuzeybatı yönünde ilerleyin."
+  },
+  {
+    "question": "Киното е на юг от центъра. (Kinoto e na yug ot tsentara.)",
+    "answer": "Sinema merkezin güneyinde."
+  },
+  {
+    "question": "Винаги (Vinagi)",
+    "answer": "Her zaman, daima"
+  },
+  {
+    "question": "Почти винаги (Pochti vinagi)",
+    "answer": "Neredeyse her zaman, hemen hemen"
+  },
+  {
+    "question": "Често (CHesto)",
+    "answer": "Sık sık, çoğu zaman"
+  },
+  {
+    "question": "Понякога (Ponyakoga)",
+    "answer": "Bazen, ara sıra"
+  },
+  {
+    "question": "Рядко (Ryadko)",
+    "answer": "Nadiren"
+  },
+  {
+    "question": "Почти никога (Pochti nikoga)",
+    "answer": "Neredeyse hiç, çok nadir"
+  },
+  {
+    "question": "Никога (Nikoga)",
+    "answer": "Asla"
+  },
+  {
+    "question": "Винаги ям закуска в осем часа. (Vinagi yam zakuska v osem chasa.)",
+    "answer": "Her zaman saat sekizde kahvaltı yiyorum."
+  },
+  {
+    "question": "Аз винаги ставам рано. (Az vinagi stavam rano.)",
+    "answer": "Her zaman erken kalkıyorum."
+  },
+  {
+    "question": "Всяка сутрин ставам рано. (Vsyaka sutrin stavam rano.)",
+    "answer": "Her sabah erken kalkıyorum."
+  },
+  {
+    "question": "Тя винаги пие кафе със захар. (Tya vinagi pie kafe sas zahar.)",
+    "answer": "O her zaman şekerli kahve içiyor."
+  },
+  {
+    "question": "Винаги бях добра с теб. (Vinagi byah dobra s teb.)",
+    "answer": "Seninle her zaman iyiydim."
+  },
+  {
+    "question": "Винаги съм весела. (Vinagi sam veselа.)",
+    "answer": "Her zaman neşeliyim."
+  },
+  {
+    "question": "Винаги ще те обичам. (Vinagi shte te obicham.)",
+    "answer": "Seni daima seveceğim."
+  },
+  {
+    "question": "Винаги ще помня този ден. (Vinagi shte pomnya tozi den.)",
+    "answer": "Daima bu günü hatırlayacağım."
+  },
+  {
+    "question": "Почти винаги сутрин пия кафе. (Pochti vinagi sutrin piya kafe.)",
+    "answer": "Hemen hemen sabahları kahve içiyorum."
+  },
+  {
+    "question": "Той почти винаги отива на работа с кола. (Toy pochti vinagi otiva na rabota s kola.)",
+    "answer": "O neredeyse her zaman işe arabayla gidiyor."
+  },
+  {
+    "question": "Почти винаги събота и неделя имам работа. (Pochti vinagi sabota i nedelya imam rabota.)",
+    "answer": "Neredeyse her zaman cumartesi ve pazar işim var."
+  },
+  {
+    "question": "Почти винаги вечер чета книга. (Pochti vinagi vecher cheta kniga.)",
+    "answer": "Hemen hemen akşamları kitap okuyorum."
+  },
+  {
+    "question": "Често отивам на разходка в парка. (CHesto otivam na razhodka v parka.)",
+    "answer": "Sık sık parka yürüyüşe gidiyorum."
+  },
+  {
+    "question": "Колко често отиваш на фитнес? (Kolko chesto otivash na fitnes?)",
+    "answer": "Ne sıklıkla spor salonuna gidiyorsun?"
+  },
+  {
+    "question": "Той често гледа филми. (Toy chesto gleda filmi.)",
+    "answer": "O sık sık film izler."
+  },
+  {
+    "question": "Често за закуска ям кисело мляко и банан. (CHesto za zakuska yam kiselo mlyako i banan.)",
+    "answer": "Sık sık kahvaltı için yuurt ve muz yiyorum."
+  },
+  {
+    "question": "Често пия зелен чай. (CHesto piya zelen chay.)",
+    "answer": "Sık sık yeşil çay içiyorum."
+  },
+  {
+    "question": "Често играя тенис. (CHesto igraya tenis.)",
+    "answer": "Sık sık tenis oynuyorum."
+  },
+  {
+    "question": "Много често отивам в България. (Mnogo chesto otivam v Balgariya.)",
+    "answer": "Çok sık Bulgaristan’a gidiyorum."
+  },
+  {
+    "question": "Често отивам на село. (CHesto otivam na selo.)",
+    "answer": "Sık sık köye gidiyorum."
+  },
+  {
+    "question": "Понякога вечер пия чай. (Ponyakoga vecher piya chay.)",
+    "answer": "Bazen akşamları çay içiyorum."
+  },
+  {
+    "question": "Понякога имам по-малко работа. (Ponyakoga imam po-malko rabota.)",
+    "answer": "Bazen daha az işim var."
+  },
+  {
+    "question": "Понякога отивам на театър. (Ponyakoga otivam na teatar.)",
+    "answer": "Bazen tiyatroya gidiyorum."
+  },
+  {
+    "question": "Понякога не правя нищо. (Ponyakoga ne pravya nishto.)",
+    "answer": "Bazen hiçbir şey yapmıyorum."
+  },
+  {
+    "question": "Рядко ям сладко. (Ryadko yam sladko.)",
+    "answer": "Nadiren tatlı yiyorum."
+  },
+  {
+    "question": "Той рядко слуша музика. (Toy ryadko slusha muzika.)",
+    "answer": "O nadiren müzik dinliyor."
+  },
+  {
+    "question": "Рядко отивам на фитнес. (Ryadko otivam na fitnes.)",
+    "answer": "Nadiren spor salonuna gidiyorum."
+  },
+  {
+    "question": "Рядко играя волейбол. (Ryadko igraya voleybol.)",
+    "answer": "Nadiren voleybol oynuyorum."
+  },
+  {
+    "question": "Рядко пия студен чай. (Ryadko piya studen chay.)",
+    "answer": "Nadiren soğuk çay içiyorum."
+  },
+  {
+    "question": "Рядко отивам в България. (Ryadko otivam v Balgariya.)",
+    "answer": "Nadiren Bulgaristan’a gidiyorum."
+  },
+  {
+    "question": "Почти никога не слушам музика. (Pochti nikoga ne slusham muzika.)",
+    "answer": "Neredeyse hiç müzik dinlemiyorum."
+  },
+  {
+    "question": "Тя почти никога не пие кафе. (Tya pochti nikoga ne pie kafe.)",
+    "answer": "O neredeyse hiç kahve içmiyor."
+  },
+  {
+    "question": "Почти никога не вали дъжд. (Pochti nikoga ne vali dazhd.)",
+    "answer": "Neredeyse hiç yağmur yağmıyor."
+  },
+  {
+    "question": "Почти никога нямам време. (Pochti nikoga nyamam vreme.)",
+    "answer": "Neredeyse hiç vaktim yok."
+  },
+  {
+    "question": "Никога не пия кафе със захар. (Nikoga ne piya kafe sas zahar.)",
+    "answer": "Asla şekerli kahve içmiyorum."
+  },
+  {
+    "question": "Никога не закъснявам. (Nikoga ne zakasnyavam.)",
+    "answer": "Asla geç kalmıyorum."
+  },
+  {
+    "question": "Никога няма да забравя. (Nikoga nyama da zabrava.)",
+    "answer": "Asla unutmayacağım."
+  },
+  {
+    "question": "Никога не ям хляб вечер. (Nikoga ne yam hlyab vecher.)",
+    "answer": "Asla akşamları ekmek yemiyorum."
+  },
+  {
+    "question": "Той никога не чете вестник. (Toy nikoga ne chete vestnik.)",
+    "answer": "O asla gazete okumuyor."
+  },
+  {
+    "question": "Никога не казвай никога! (Nikoga ne kazvay nikoga!)",
+    "answer": "Asla asla deme!"
+  },
+  {
+    "question": "Скъп (Skap)",
+    "answer": "Değerli, kıymetli, pahalı"
+  },
+  {
+    "question": "Любим (Lyubim)",
+    "answer": "En sevilen, favori, sevgili"
+  },
+  {
+    "question": "Мил (Mil)",
+    "answer": "Sevimli, tatlı, nazik, canım, iyi kalpli"
+  },
+  {
+    "question": "Прекрасен (Prekrasen)",
+    "answer": "Harika, muhteşem"
+  },
+  {
+    "question": "Чудесен (CHudesen)",
+    "answer": "Mükemmel, şahane"
+  },
+  {
+    "question": "Нежен (Nezhen)",
+    "answer": "Nazik, ince, hassas, zarif"
+  },
+  {
+    "question": "Приятен (Pryaten)",
+    "answer": "Hoş, keyifli, sempatik"
+  },
+  {
+    "question": "Възхитителен (Vazhititelen)",
+    "answer": "Hayranlık uyandıran"
+  },
+  {
+    "question": "Ти си много скъпа за мен. (Ti si mnogo skapa za men.)",
+    "answer": "Sen benim için çok değerlisin."
+  },
+  {
+    "question": "Този часовник е много скъп. (Tozi chasovnik e mnogo skap.)",
+    "answer": "Bu saat çok pahalı."
+  },
+  {
+    "question": "В магазина е много скъпо. (V magazina e mnogo skapo.)",
+    "answer": "Markette çok pahalı."
+  },
+  {
+    "question": "Тази чанта е много скъпа. (Tazi chanta e mnogo skapa.)",
+    "answer": "Bu çanta çok pahalı."
+  },
+  {
+    "question": "Всичко е много скъпо. (Vsichko e mnogo skapo.)",
+    "answer": "Her şey çok pahalı."
+  },
+  {
+    "question": "Това е моята любима песен. (Tova e moyata lyubima pesen.)",
+    "answer": "Bu benim en sevdiğim şarkı."
+  },
+  {
+    "question": "Моята любима учителка (Moyata lyubima uchitelka)",
+    "answer": "En sevdiğim öğretmenim"
+  },
+  {
+    "question": "Те са моите любими приятели. (Te sa moite lyubimi priyateli.)",
+    "answer": "Onlar benim en sevdiğim arkadaşlarım."
+  },
+  {
+    "question": "Шоколадът е моето любимо сладко. (Shokoladat e moeto lyubimo sladko.)",
+    "answer": "Çikolata en sevdiğim tatlı."
+  },
+  {
+    "question": "Паркът е моето любимо място. (Parkat e moeto lyubimo myasto.)",
+    "answer": "Park benim en sevdiğim yer."
+  },
+  {
+    "question": "Това е моят любим съпруг. (Tova e moyat lyubim saprug.)",
+    "answer": "Bu benim sevgili eşim."
+  },
+  {
+    "question": "Най-любимата ми книга е Малкия Принц. (Nay-lyubimata mi kniga e Malkiya Prints.)",
+    "answer": "Favori kitabım Küçük Prens."
+  },
+  {
+    "question": "Най-любимият ми филм е Титаник. (Nay-lyubimiyat mi film e Titanik.)",
+    "answer": "En sevdiğim film Titanik."
+  },
+  {
+    "question": "Тя е много мил човек. (Tya e mnogo mil chovek.)",
+    "answer": "O çok nazik bir insan."
+  },
+  {
+    "question": "Той е много мил днес. (Toy e mnogo mil dnes.)",
+    "answer": "O bugün çok nazik."
+  },
+  {
+    "question": "Добре дошли, мили ученици! (Dobre doshli, mili uchenitsi!)",
+    "answer": "Hoş geldiniz, sevgili öğrenciler!"
+  },
+  {
+    "question": "Добре дошли, мили гости! (Dobre doshli, mili gosti!)",
+    "answer": "Hoş geldiniz, sevgili misafirler!"
+  },
+  {
+    "question": "Много мил подарък (Mnogo mil podarak)",
+    "answer": "Çok tatlı/sevimli hediye"
+  },
+  {
+    "question": "Вие сте много мили хора. (Vie ste mnogo mili hora.)",
+    "answer": "Siz çok nazik insanlarsınız."
+  },
+  {
+    "question": "Мила моя (Mila moya)",
+    "answer": "Canım benim – kadın için"
+  },
+  {
+    "question": "Мили мой (Mili moy)",
+    "answer": "Canım benim – erkek için"
+  },
+  {
+    "question": "Днес е един прекрасен ден за разходка в парка. (Dnes e edin prekrasen den za razhodka v parka.)",
+    "answer": "Bugün parkta yürüyüş için harika bir gün."
+  },
+  {
+    "question": "Тук всичко е прекрасно. (Tuk vsichko e prekrasno.)",
+    "answer": "Burada her şey harika."
+  },
+  {
+    "question": "Ти си прекрасен човек. (Ti si prekrasen chovek.)",
+    "answer": "Sen harika bir insansın."
+  },
+  {
+    "question": "Всички сте прекрасни. (Vsichki ste prekrasni.)",
+    "answer": "Hepiniz harikasınız."
+  },
+  {
+    "question": "Имам прекрасно семейство. (Imam prekrasno semeystvo.)",
+    "answer": "Harika bir ailem var."
+  },
+  {
+    "question": "Моите деца са прекрасни. (Moite detsa sa prekrasni.)",
+    "answer": "Benim çocuklarım harika."
+  },
+  {
+    "question": "Имаш прекрасно палто. (Imash prekrasno palto.)",
+    "answer": "Harika bir kabanın var."
+  },
+  {
+    "question": "Колко прекрасен човек си ти! (Kolko prekrasen chovek si ti!)",
+    "answer": "Sen ne kadar harika bir insansın!"
+  },
+  {
+    "question": "Аз рисувам прекрасно. (Az risuvam prekrasno.)",
+    "answer": "Ben harika resim yapıyorum."
+  },
+  {
+    "question": "Готвя много прекрасно. (Gotvya mnogo prekrasno.)",
+    "answer": "Çok harika yemek yapıyorum."
+  },
+  {
+    "question": "Правя прекрасно кафе. (Pravya prekrasno kafe.)",
+    "answer": "Harika kahve yapıyorum."
+  },
+  {
+    "question": "Ти си чудесна приятелка. (Ti si chudesna priyatelka.)",
+    "answer": "Sen şahane bir arkadaşsın – kadın için."
+  },
+  {
+    "question": "Ти си чудесен приятел. (Ti si chudesen priyatel.)",
+    "answer": "Sen şahane bir arkadaşsın – erkek için."
+  },
+  {
+    "question": "Имам чудесна майка. (Imam chudesna mayka.)",
+    "answer": "Şahane bir annem var."
+  },
+  {
+    "question": "Моята работа е чудесна. (Moyata rabota e chudesna.)",
+    "answer": "Benim işim şahane."
+  },
+  {
+    "question": "Днес времето е чудесно. (Dnes vremeto e chudesno.)",
+    "answer": "Bugün hava mükemmel."
+  },
+  {
+    "question": "Чудесен ден за пикник (CHudesen den za piknik)",
+    "answer": "Piknik için harika bir gün"
+  },
+  {
+    "question": "Чудо (CHudo)",
+    "answer": "Mucize"
+  },
+  {
+    "question": "Тя е много нежна жена. (Tya e mnogo nezhna zhena.)",
+    "answer": "O çok hassas/narin bir kadın."
+  },
+  {
+    "question": "Нежни думи (Nezhni dumi)",
+    "answer": "Nazik kelimeler"
+  },
+  {
+    "question": "Нежна блуза (Nezhna bluza)",
+    "answer": "Zarif bluz"
+  },
+  {
+    "question": "Това беше много нежен жест. (Tova beshe mnogo nezhen zhest.)",
+    "answer": "Bu çok ince/zarif bir jestti."
+  },
+  {
+    "question": "Тя говори с много нежен глас. (Tya govori s mnogo nezhen glas.)",
+    "answer": "O çok nazik bir ses tonu ile konuşuyor."
+  },
+  {
+    "question": "Днес времето е приятно. (Dnes vremeto e pryaten.)",
+    "answer": "Bugün hava hoş."
+  },
+  {
+    "question": "Приятно ми е. (Pryatno mi e.)",
+    "answer": "Memnun oldum."
+  },
+  {
+    "question": "Приятен човек (Pryaten chovek)",
+    "answer": "Hoş insan"
+  },
+  {
+    "question": "Приятна вечер (Pryatna vecher)",
+    "answer": "İyi akşamlar"
+  },
+  {
+    "question": "Приятен ден (Pryaten den)",
+    "answer": "İyi günler"
+  },
+  {
+    "question": "Приятен аромат (Pryaten aromat)",
+    "answer": "Hoş aroma"
+  },
+  {
+    "question": "Приятна музика (Pryatna muzika)",
+    "answer": "Hoş müzik"
+  },
+  {
+    "question": "Този концерт беше възхитителен. (Tozi kontsert beshe vazhititelen.)",
+    "answer": "Bu konser hayranlık uyandırıcıydı."
+  },
+  {
+    "question": "Филмът беше възхитителен. (Filmat beshe vazhititelen.)",
+    "answer": "Film hayranlık uyandırıcıydı."
+  },
+  {
+    "question": "Песента е възхитителна. (Pesenta e vazhititelna.)",
+    "answer": "Şarkı hayranlık uyandırıcı."
+  },
+  {
+    "question": "Тя е възхитителна жена. (Tya e vazhititelna zhena.)",
+    "answer": "O hayranlık uyandırıcı bir kadın."
+  },
+  {
+    "question": "Възхитителна гледка (Vazhititelna gledka)",
+    "answer": "Hayranlık uyandıran manzara"
+  },
+  {
+    "question": "Кой? (Koy?)",
+    "answer": "Kim? (Eril)"
+  },
+  {
+    "question": "Коя? (Koya?)",
+    "answer": "Kim? (Dişil)"
+  },
+  {
+    "question": "Кое? (Koe?)",
+    "answer": "Kim? (Nötr)"
+  },
+  {
+    "question": "Кои? (Koi?)",
+    "answer": "Kimler? (Çoğul)"
+  },
+  {
+    "question": "Кой е този мъж? (Koy e tozi mazh?)",
+    "answer": "Kim bu adam?"
+  },
+  {
+    "question": "Този мъж е моят чичо. (Tozi mazh e moyat chicho.)",
+    "answer": "Bu adam benim amcam."
+  },
+  {
+    "question": "Кой пише домашни? (Koy pishe domashni?)",
+    "answer": "Kim ödev yazıyor?"
+  },
+  {
+    "question": "Мария пише домашни. (Mariya pishe domashni.)",
+    "answer": "Mariya ödev yazıyor."
+  },
+  {
+    "question": "Кой гледа филм? (Koy gleda film?)",
+    "answer": "Kim film izliyor?"
+  },
+  {
+    "question": "Аз и моето семейство гледаме филм. (Az i moeto semeystvo gledame film.)",
+    "answer": "Ben ve ailem film izliyoruz."
+  },
+  {
+    "question": "Кой отива на работа? (Koy otiva na rabota?)",
+    "answer": "Kim işe gidiyor?"
+  },
+  {
+    "question": "На работа отива моята кака. (Na rabota otiva moyata kaka.)",
+    "answer": "İşe benim ablam gidiyor."
+  },
+  {
+    "question": "Кой не пие чай? (Koy ne pie chay?)",
+    "answer": "Kim çay içmiyor?"
+  },
+  {
+    "question": "Елена не пие чай. (Elena ne pie chay.)",
+    "answer": "Elena çay içmiyor."
+  },
+  {
+    "question": "Кой ти каза това? (Koy ti kaza tova?)",
+    "answer": "Bunu sana kim söyledi?"
+  },
+  {
+    "question": "Той ми каза. (Toy mi kaza.)",
+    "answer": "O söyledi."
+  },
+  {
+    "question": "Кой не чете книга? (Koy ne chete kniga?)",
+    "answer": "Kim kitap okumuyor?"
+  },
+  {
+    "question": "Моята приятелка не чете книга. (Moyata priyatelka ne chete kniga.)",
+    "answer": "Arkadaşım kitap okumuyor."
+  },
+  {
+    "question": "Кой не слуша музика? (Koy ne slusha muzika?)",
+    "answer": "Kim müzik dinlemiyor?"
+  },
+  {
+    "question": "Моят батко не слуша музика. (Moyat batko ne slusha muzika.)",
+    "answer": "Abim müzik dinlemiyor."
+  },
+  {
+    "question": "Кой идва с нас? (Koy idva s nas?)",
+    "answer": "Kim bizimle geliyor?"
+  },
+  {
+    "question": "С нас идва леля ми. (S nas idva lelya mi.)",
+    "answer": "Bizimle teyzem geliyor."
+  },
+  {
+    "question": "Кой отива в Турция? (Koy otiva v Turtsiya?)",
+    "answer": "Türkiye’ye kim gidiyor?"
+  },
+  {
+    "question": "В Турция отиваме аз, сестра ми, батко ми и мама. (V Turtsiya otivame az, sestra mi, batko mi i mama.)",
+    "answer": "Türkiye’ye ben, kız kardeşim, abim ve annem gidiyoruz."
+  },
+  {
+    "question": "Коя е тази жена? (Koya e tazi zhena?)",
+    "answer": "Kim bu kadın?"
+  },
+  {
+    "question": "Тази жена е моята прекрасна майка. (Tazi zhena e moyata prekrasna mayka.)",
+    "answer": "Bu kadın benim muhteşem annem."
+  },
+  {
+    "question": "Коя книга четеш? (Koya kniga chetesh?)",
+    "answer": "Hangi kitabı okuyorsun?"
+  },
+  {
+    "question": "Чета Хари Потър. (CHeta Hari Potar.)",
+    "answer": "Harry Potter okuyorum."
+  },
+  {
+    "question": "Коя е твоята кака? (Koya e tvoyata kaka?)",
+    "answer": "Senin ablan hangisi?"
+  },
+  {
+    "question": "Моята кака е със сини очи и кафява коса. (Moyata kaka e sas sini ochi i kafyava kosa.)",
+    "answer": "Ablam mavi gözlü ve kahverengi saçlı."
+  },
+  {
+    "question": "Коя чанта е по-хубава? (Koya chanta e po-hubava?)",
+    "answer": "Hangi çanta daha güzel?"
+  },
+  {
+    "question": "Тази розова чанта е по-хубава. (Tazi rozova chanta e po-hubava.)",
+    "answer": "Bu pembe çanta daha güzel."
+  },
+  {
+    "question": "Коя от вас е по-малка? (Koya ot vas e po-malka?)",
+    "answer": "Hanginiz daha küçük? (Dişil)"
+  },
+  {
+    "question": "Аз съм по-малка. (Az sam po-malka.)",
+    "answer": "Ben daha küçüğüm. (Dişil)"
+  },
+  {
+    "question": "Кой от вас е по-малък? (Koy ot vas e po-malak?)",
+    "answer": "Hanginiz daha küçük? (Eril)"
+  },
+  {
+    "question": "Аз съм по-малък. (Az sam po-malak.)",
+    "answer": "Ben daha küçüğüm. (Eril)"
+  },
+  {
+    "question": "Кой от вас е по-малък на възраст? (Koy ot vas e po-malak na vazrast?)",
+    "answer": "Yaş olarak hanginiz daha küçük?"
+  },
+  {
+    "question": "На години аз съм по-малък. (Na godini az sam po-malak.)",
+    "answer": "Yaş olarak ben daha küçüğüm."
+  },
+  {
+    "question": "Коя е най-хубавата чанта? (Koya e nay-hubavata chanta?)",
+    "answer": "Hangi çanta en güzel?"
+  },
+  {
+    "question": "Най-хубавата чанта е на Мария. (Nay-hubavata chanta e na Mariya.)",
+    "answer": "En güzel çanta Mariya’nın."
+  },
+  {
+    "question": "Кое е това момче? (Koe e tova momche?)",
+    "answer": "Kim bu çocuk/erkek?"
+  },
+  {
+    "question": "Това момче е моят син. (Tova momche e moyat sin.)",
+    "answer": "Bu çocuk benim oğlum."
+  },
+  {
+    "question": "Кое е това момиче? (Koe e tova momiche?)",
+    "answer": "Kim bu kız çocuğu?"
+  },
+  {
+    "question": "Това момиче е на съседите. (Tova momiche e na sasedite.)",
+    "answer": "Bu kız çocuğu komşuların."
+  },
+  {
+    "question": "Съсед (Sased)",
+    "answer": "Erkek komşu"
+  },
+  {
+    "question": "Съседка (Sasedka)",
+    "answer": "Kadın komşu"
+  },
+  {
+    "question": "Съседи (Sasedi)",
+    "answer": "Komşular"
+  },
+  {
+    "question": "Кое дете е твоето? (Koe dete e tvoeto?)",
+    "answer": "Hangi çocuk senin?"
+  },
+  {
+    "question": "Моето дете е с червена тениска. (Moeto dete e s chervena teniska.)",
+    "answer": "Benim çocuğum kırmızı tişörtlü."
+  },
+  {
+    "question": "Кое време предпочиташ да пием кафе? (Koe vreme predpochitash da piem kafe?)",
+    "answer": "Kahve içmek için hangi zamanı tercih ediyorsun?"
+  },
+  {
+    "question": "Предпочитам да пием кафе следобед. (Predpochitam da piem kafe sledobed.)",
+    "answer": "Öğleden sonra kahve içmeyi tercih ediyorum."
+  },
+  {
+    "question": "Кое мляко е прясно? (Koe mlyako e pryano?)",
+    "answer": "Hangi süt taze?"
+  },
+  {
+    "question": "Това мляко отпред е прясно. (Tova mlyako otpred e pryano.)",
+    "answer": "Bu öndeki süt taze."
+  },
+  {
+    "question": "Кое месо е прясно? (Koe meso e pryano?)",
+    "answer": "Hangi et taze?"
+  },
+  {
+    "question": "Това месо е от днес. (Tova meso e ot dnes.)",
+    "answer": "Bu et bugünden."
+  },
+  {
+    "question": "Кое място е твоето? (Koe myasto e tvoeto?)",
+    "answer": "Hangi yer senin?"
+  },
+  {
+    "question": "Моето място е номер три. (Moeto myasto e nomer tri.)",
+    "answer": "Benim yerim üç numara."
+  },
+  {
+    "question": "Кои са тези хора? (Koi sa tezi hora?)",
+    "answer": "Kim bu insanlar?"
+  },
+  {
+    "question": "Тези хора са моето семейство. (Tezi hora sa moeto semeystvo.)",
+    "answer": "Bu insanlar benim ailem."
+  },
+  {
+    "question": "Кои животни обичаш? (Koi zhivotni obichash?)",
+    "answer": "Hangi hayvanları seviyorsun?"
+  },
+  {
+    "question": "Обичам всички животни. (Obicham vsichki zhivotni.)",
+    "answer": "Tüm hayvanları seviyorum."
+  },
+  {
+    "question": "Аз често ям домашна храна. (Az chesto yam domashna hrana.)",
+    "answer": "Sık sık ev yemeği yiyorum."
+  },
+  {
+    "question": "Ти понякога четеш книги? (Ti ponyakoga chetesh knigi?)",
+    "answer": "Bazen kitap okuyor musun?"
+  },
+  {
+    "question": "Той рядко пие кафе. (Toy ryadko pie kafe.)",
+    "answer": "O nadiren kahve içiyor."
+  },
+  {
+    "question": "Тя почти никога не яде сладко. (Tya pochti nikoga ne yade sladko.)",
+    "answer": "O neredeyse hiç tatlı yemiyor."
+  },
+  {
+    "question": "Ние никога не закъсняваме за работа. (Nie nikoga ne zakasnyavame za rabota.)",
+    "answer": "Biz asla işe geç kalmayız."
+  },
+  {
+    "question": "Вие винаги ли сте весели? (Vie vinagi li ste veseli?)",
+    "answer": "Siz her zaman neşeli misiniz?"
+  },
+  {
+    "question": "Те понякога гледат филми. (Te ponyakoga gledat filmi.)",
+    "answer": "Onlar bazen film izler."
+  },
+  {
+    "question": "Ти си много нежен приятел. (Ti si mnogo nezhen priyatel.)",
+    "answer": "Sen çok nazik bir arkadaşsın."
+  },
+  {
+    "question": "Това е много приятен ресторант. (Tova e mnogo pryaten restorant.)",
+    "answer": "Bu çok hoş bir restoran."
+  },
+  {
+    "question": "Имаме възхитителна гледка от прозореца. (Imame vazhititelna gledka ot prozoretsa.)",
+    "answer": "Pencereden hayranlık uyandıran bir manzaramız var."
+  },
+  {
+    "question": "Кой купува хляб? (Koy kupuva hlyab?)",
+    "answer": "Kim ekmek satın alıyor?"
+  },
+  {
+    "question": "Коя е най-любимата ти песен? (Koya e nay-lyubimata ti pesen?)",
+    "answer": "En sevdiğin şarkı hangisi?"
+  },
+  {
+    "question": "Кое е най-хубавото място в града? (Koe e nay-hubavoto myasto v grada?)",
+    "answer": "Şehirdeki en güzel yer hangisi?"
+  },
+  {
+    "question": "Кои книги четеш често? (Koi knigi chetesh chesto?)",
+    "answer": "Hangi kitapları sık sık okuyorsun?"
+  }
+]

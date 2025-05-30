@@ -1,0 +1,886 @@
+[
+  {
+    "question": "Варено месо (Vareno meso)",
+    "answer": "Haşlanmış et"
+  },
+  {
+    "question": "Пилешко месо (Pileshko meso)",
+    "answer": "Tavuk eti"
+  },
+  {
+    "question": "Телешко месо (Teleshko meso)",
+    "answer": "Dana eti"
+  },
+  {
+    "question": "Агнешко месо (Agneshko meso)",
+    "answer": "Kuzu eti"
+  },
+  {
+    "question": "Свинско месо (Svinsko meso)",
+    "answer": "Domuz eti"
+  },
+  {
+    "question": "Месо на фурна (Meso na furna)",
+    "answer": "Fırınlanmış et"
+  },
+  {
+    "question": "Месо на скара (Meso na skara)",
+    "answer": "Izgara et"
+  },
+  {
+    "question": "Пилешко на скара (Pileshko na skara)",
+    "answer": "Tavuk ızgara"
+  },
+  {
+    "question": "Телешко на скара (Teleshko na skara)",
+    "answer": "Dana ızgara"
+  },
+  {
+    "question": "Агнешко на скара (Agneshko na skara)",
+    "answer": "Kuzu ızgara"
+  },
+  {
+    "question": "Спагетти болонезе (Spageti boloneze)",
+    "answer": "Spagetti bolonez"
+  },
+  {
+    "question": "Риба на фурна (Riba na furna)",
+    "answer": "Fırınlanmış balık"
+  },
+  {
+    "question": "Риба на скара (Riba na skara)",
+    "answer": "Izgara balık"
+  },
+  {
+    "question": "Майонеза (Mayoneza)",
+    "answer": "Mayonez"
+  },
+  {
+    "question": "Лютеница (Lyutenitsa)",
+    "answer": "Lütenitsa/Salça"
+  },
+  {
+    "question": "Кетчуп (Ketchup)",
+    "answer": "Ketçap"
+  },
+  {
+    "question": "Макарони със сирене (Makaroni sas sirene)",
+    "answer": "Peynirli makarna"
+  },
+  {
+    "question": "Макарони с доматен сос (Makaroni s domaten sos)",
+    "answer": "Domates soslu makarna"
+  },
+  {
+    "question": "Бургер (Burger)",
+    "answer": "Burger"
+  },
+  {
+    "question": "Сандвич със салам (Sandvich sas salam)",
+    "answer": "Salamlı sandviç"
+  },
+  {
+    "question": "Сандвич със салам и майонеза (Sandvich sas salam i mayoneza)",
+    "answer": "Mayonezli ve salamlı sandviç"
+  },
+  {
+    "question": "Бисквити с шоколад (Biskviti s shokolad)",
+    "answer": "Çikolatalı bisküvi"
+  },
+  {
+    "question": "Бисквити с какао (Biskviti s kakao)",
+    "answer": "Kakaolu bisküvi"
+  },
+  {
+    "question": "Пилешко кюфте (Pileshko kyufte)",
+    "answer": "Tavuk köftesi"
+  },
+  {
+    "question": "Телешко кюфте (Teleshko kyufte)",
+    "answer": "Dana köftesi"
+  },
+  {
+    "question": "Червена леща (Chervena leshta)",
+    "answer": "Kırmızı mercimek"
+  },
+  {
+    "question": "Пилешко кебапче (Pileshko kebapche)",
+    "answer": "Tavuk kebapçe"
+  },
+  {
+    "question": "Телешко кебапче (Teleshko kebapche)",
+    "answer": "Dana kebapçe"
+  },
+  {
+    "question": "Пилешко шишче (Pileshko shishche)",
+    "answer": "Tavuk şiş"
+  },
+  {
+    "question": "Пилешки крилца (Pileshki kriltsa)",
+    "answer": "Tavuk kanat"
+  },
+  {
+    "question": "Крем супа (Krem supa)",
+    "answer": "Kremalı çorba"
+  },
+  {
+    "question": "Пилешка супа (Pileshka supa)",
+    "answer": "Tavuk çorbası"
+  },
+  {
+    "question": "Супа от леща (Supa ot leshta)",
+    "answer": "Mercimek çorbası"
+  },
+  {
+    "question": "Грах (Grah)",
+    "answer": "Bezelye"
+  },
+  {
+    "question": "Бамя (Bamya)",
+    "answer": "Bamya"
+  },
+  {
+    "question": "Кренвирш (Krenvirsh)",
+    "answer": "Sosis"
+  },
+  {
+    "question": "Зелен боб (Zelen bob)",
+    "answer": "Yeşil fasulye"
+  },
+  {
+    "question": "Нохут (Nohut)",
+    "answer": "Nohut"
+  },
+  {
+    "question": "Фиде (Fide)",
+    "answer": "Şehriye"
+  },
+  {
+    "question": "Принцеса (Printsesa)",
+    "answer": "Prenses/Açık tost"
+  },
+  {
+    "question": "Патладжан (Patladzhan)",
+    "answer": "Patlıcan"
+  },
+  {
+    "question": "Олио (Olio)",
+    "answer": "Sıvı yağ (Ayçiçek yağı)"
+  },
+  {
+    "question": "Пълнени чушки (Palneni chushki)",
+    "answer": "Biber dolması"
+  },
+  {
+    "question": "Създърма (Sazdarma)",
+    "answer": "Kavurma"
+  },
+  {
+    "question": "Зехтин (Zehtin)",
+    "answer": "Zeytinyağı"
+  },
+  {
+    "question": "Дробчета (Drobcheta)",
+    "answer": "Ciğer"
+  },
+  {
+    "question": "Шкембе чорба (Shkembe chorba)",
+    "answer": "İşkembe çorbası"
+  },
+  {
+    "question": "Шаран (Sharan)",
+    "answer": "Sazan balığı"
+  },
+  {
+    "question": "Цаца (Tsatsa)",
+    "answer": "Küçük balık (hamsi gibi)"
+  },
+  {
+    "question": "Варена царевица (Varena tsarevitsa)",
+    "answer": "Haşlanmış mısır"
+  },
+  {
+    "question": "Скариди (Skaridi)",
+    "answer": "Karides"
+  },
+  {
+    "question": "Пържени картофки със сирене (Parzheni kartofki sas sirene)",
+    "answer": "Peynirli patates"
+  },
+  {
+    "question": "Каламар (Kalamar)",
+    "answer": "Kalamar"
+  },
+  {
+    "question": "Пресни картофи (Presni kartofi)",
+    "answer": "Taze patates"
+  },
+  {
+    "question": "Замразени (Zamrazeni)",
+    "answer": "Dondurulmuş"
+  },
+  {
+    "question": "Добър ден! (Dobаr den!)",
+    "answer": "İyi günler!"
+  },
+  {
+    "question": "Заповядайте. Какво желаете? (Zapovyadayte. Kakvo zhelaete?)",
+    "answer": "Buyurun. Ne arzu edersiniz?"
+  },
+  {
+    "question": "Може ли меню, моля? (Mozhe li meny, molya?)",
+    "answer": "Menü alabilir miyim, lütfen?"
+  },
+  {
+    "question": "Много съм гладна. (Mnogo sam gladna.)",
+    "answer": "Çok açım."
+  },
+  {
+    "question": "Заповядайте менюто. (Zapovyadayte menyuto.)",
+    "answer": "İşte buyrun menü."
+  },
+  {
+    "question": "Какво препоръчвате? (Kakvo preporachvate?)",
+    "answer": "Ne tavsiye edersiniz?"
+  },
+  {
+    "question": "Каква храна има тук? (Kakva hrana ima tuk?)",
+    "answer": "Ne tür yemekler var burada?"
+  },
+  {
+    "question": "Има ли супи или пилешко шишче? (Ima li supi ili pileshko shishche?)",
+    "answer": "Çorba veya tavuk şiş var mı?"
+  },
+  {
+    "question": "Има ли кюфтета и кебапчета? (Ima li kyufteta i kebapcheta?)",
+    "answer": "Köfte ve kebapçe var mı?"
+  },
+  {
+    "question": "Да, имаме, но днес препоръчваме пилешка супа и мусака. (Da, imame, no dnes preporachvame pileshka supa i musaka.)",
+    "answer": "Evet, var ama bugün tavuk çorbası ve musakka öneriyoruz."
+  },
+  {
+    "question": "Една пилешка супа и една мусака, моля. (Edna pileshka supa i edna musaka, molya.)",
+    "answer": "Bir tavuk çorbası ve bir musakka lütfen."
+  },
+  {
+    "question": "Искате ли нещо за пиене? (Iskate li neshto za piene?)",
+    "answer": "İçmek için bir şey ister misiniz?"
+  },
+  {
+    "question": "Да, един айрян, моля. (Da, edin ayran, molya.)",
+    "answer": "Evet, bir ayran lütfen."
+  },
+  {
+    "question": "Ще донеса поръчката след малко. (Shte donesa porachkata sled malko.)",
+    "answer": "Siparişinizi birazdan getireceğim."
+  },
+  {
+    "question": "Много благодаря! (Mnogo blagodarya!)",
+    "answer": "Çok teşekkür ederim!"
+  },
+  {
+    "question": "Храната изглежда много вкусна! (Hranata izglezhda mnogo vkusna!)",
+    "answer": "Yemek çok lezzetli görünüyor!"
+  },
+  {
+    "question": "Мусаката беше много вкусна! (Musakata beše mnogo vkusna!)",
+    "answer": "Musakka çok lezzetliydi!"
+  },
+  {
+    "question": "Супата и тя беше много добра – топла и ароматна. (Supata i tya beše mnogo dobra – topla i aromatna.)",
+    "answer": "Çorba da çok iyiydi – sıcak ve aromalı."
+  },
+  {
+    "question": "Ти яде ли от салатата? (Ti yade li ot salatata?)",
+    "answer": "Salatadan yedin mi?"
+  },
+  {
+    "question": "Да ядох. И тя беше много свежа и вкусна. (Da yadoh. I tya beše mnogo svezha i vkusna.)",
+    "answer": "Evet yedim. Çok taze ve lezzetliydi."
+  },
+  {
+    "question": "Харесва ми ресторантът. (Haresva mi restorantat.)",
+    "answer": "Bu restoranı beğendim."
+  },
+  {
+    "question": "Храната е добра, обслужването беше бързо. (Hranata e dobra, obsluzhvaneto beše barzo.)",
+    "answer": "Yemek güzel, servis hızlıydı."
+  },
+  {
+    "question": "Съгласен съм/Съгласна съм. Ще дойдем пак! (Sglasen sam/Sglasna sam. Shte doydem pak!)",
+    "answer": "Katılıyorum. Yine geleceğiz!"
+  },
+  {
+    "question": "Извинете, може ли сметката? (Izvinete, mozhe li smetkata?)",
+    "answer": "Afedersiniz, hesabı alabilir miyim?"
+  },
+  {
+    "question": "Ето я сметката – двадесет и осем лева. (Eto ya smetkata – dvadeset i osem leva.)",
+    "answer": "İşte hesap – 28 leva."
+  },
+  {
+    "question": "Ето тридесет лева. (Eto trideset leva.)",
+    "answer": "Buyurun, 30 leva."
+  },
+  {
+    "question": "Искате ли ресто? (Iskate li resto?)",
+    "answer": "Para üstü ister misiniz?"
+  },
+  {
+    "question": "Не, благодаря. Останалото е за вас. (Ne, blagodarya. Ostanaloto e za vas.)",
+    "answer": "Hayır, teşekkür ederim. Üstü sizde kalsın."
+  },
+  {
+    "question": "Приятен ден! (Pryaten den!)",
+    "answer": "İyi günler!"
+  },
+  {
+    "question": "И на вас! (I na vas!)",
+    "answer": "Size de!"
+  },
+  {
+    "question": "Спагетите са солени. (Spagetite sa soleni.)",
+    "answer": "Spagetti tuzlu."
+  },
+  {
+    "question": "Пилешката супа е солена. (Pileshkata supa e solena.)",
+    "answer": "Tavuk çorbası tuzlu."
+  },
+  {
+    "question": "Макароните са солени. (Makaronite sa soleni.)",
+    "answer": "Makarna tuzlu."
+  },
+  {
+    "question": "Лещата е солена. (Leshtata e solena.)",
+    "answer": "Mercimek tuzlu."
+  },
+  {
+    "question": "Сладоледът е сладък. (Sladoledat e sladak.)",
+    "answer": "Dondurma tatlı."
+  },
+  {
+    "question": "Аз ям варено месо. (Az yam vareno meso.)",
+    "answer": "Ben haşlanmış et yiyorum."
+  },
+  {
+    "question": "Ти ядеш пилешко на скара. (Ti yadesh pileshko na skara.)",
+    "answer": "Sen tavuk ızgara yiyorsun."
+  },
+  {
+    "question": "Той яде риба на фурна. (Toy yade riba na furna.)",
+    "answer": "O fırınlanmış balık yiyor."
+  },
+  {
+    "question": "Тя яде спагети болонезе. (Tya yade spageti boloneze.)",
+    "answer": "O spagetti bolonez yiyor."
+  },
+  {
+    "question": "Ние ядем пълнени чушки. (Nie yadem palneni chushki.)",
+    "answer": "Biz biber dolması yiyoruz."
+  },
+  {
+    "question": "Вие ядете пилешки крилца. (Vie yadete pileshki kriltsa.)",
+    "answer": "Siz tavuk kanat yiyorsunuz."
+  },
+  {
+    "question": "Те ядат шкембе чорба. (Te yadat shkembe chorba.)",
+    "answer": "Onlar işkembe çorbası yiyor."
+  },
+  {
+    "question": "Аз ядох сандвич със салам. (Az yadoh sandvich sas salam.)",
+    "answer": "Ben salamlı sandviç yedim."
+  },
+  {
+    "question": "Ти яде ли пържени картофки със сирене? (Ti yade li parzheni kartofki sas sirene?)",
+    "answer": "Sen peynirli patates yedin mi?"
+  },
+  {
+    "question": "Той яде ли супа от леща? (Toy yade li supa ot leshta?)",
+    "answer": "O mercimek çorbası yedi mi?"
+  },
+  {
+    "question": "Тя не яде месо на скара. (Tya ne yade meso na skara.)",
+    "answer": "O ızgara et yemiyor."
+  },
+  {
+    "question": "Ние не ядохме бургер. (Nie ne yadohme burger.)",
+    "answer": "Biz burger yemedik."
+  },
+  {
+    "question": "Вие ядете ли скариди? (Vie yadete li skaridi?)",
+    "answer": "Siz karides yiyor musunuz?"
+  },
+  {
+    "question": "Те ядоха ли каламар? (Te yadoha li kalamar?)",
+    "answer": "Onlar kalamar yedi mi?"
+  },
+  {
+    "question": "Аз пия половин литър айрян. (Az piya polovin litаr ayran.)",
+    "answer": "Ben yarım litre ayran içiyorum."
+  },
+  {
+    "question": "Ти пиеш ли вино? (Ti piesh li vino?)",
+    "answer": "Sen şarap içiyor musun?"
+  },
+  {
+    "question": "Той пие ли бира? (Toy pie li bira?)",
+    "answer": "O bira içiyor mu?"
+  },
+  {
+    "question": "Тя пие една бутилка вода. (Tya pie edna butilka voda.)",
+    "answer": "O bir şişe su içiyor."
+  },
+  {
+    "question": "Ние пихме два литра сок. (Nie pihme dva litra sok.)",
+    "answer": "Biz iki litre meyve suyu içtik."
+  },
+  {
+    "question": "Вие пиете ли кафе? (Vie piete li kafe?)",
+    "answer": "Siz kahve içiyor musunuz?"
+  },
+  {
+    "question": "Те пиха ли вино? (Te piha li vino?)",
+    "answer": "Onlar şarap içti mi?"
+  },
+  {
+    "question": "Първи път (Parvi pat)",
+    "answer": "İlk defa"
+  },
+  {
+    "question": "Втори път (Vtori pat)",
+    "answer": "İkinci defa"
+  },
+  {
+    "question": "За първи път бях в България. (Za parvi pat byah v Balgariya.)",
+    "answer": "İlk defa Bulgaristan’daydım."
+  },
+  {
+    "question": "За втори път отивам до магазина. (Za vtori pat otivam do magazina.)",
+    "answer": "İkinci kez markete gidiyorum."
+  },
+  {
+    "question": "Аз съм първа в списъка. (Az sam parva v spisaka.)",
+    "answer": "Listede birinciyim."
+  },
+  {
+    "question": "Нямах втори шанс. (Nyamah vtori shans.)",
+    "answer": "İkinci şansım yoktu."
+  },
+  {
+    "question": "Хафтата втори ден (Haftata vtori den)",
+    "answer": "Haftanın ikinci günü"
+  },
+  {
+    "question": "Пети ден не пия кафе. (Peti den ne piya kafe.)",
+    "answer": "Beş gündür kahve içmiyorum."
+  },
+  {
+    "question": "Ти си втори номер. (Ti si vtori nomer.)",
+    "answer": "Sen ikinci numarasın."
+  },
+  {
+    "question": "Седем дни не ям хляб. (Sedem dni ne yam hlyab.)",
+    "answer": "Yedi gündür ekmek yemiyorum."
+  },
+  {
+    "question": "Трето място (Treto myasto)",
+    "answer": "Üçüncü yer/sıra"
+  },
+  {
+    "question": "Втори учител (Vtori uchitel)",
+    "answer": "İkinci öğretmen"
+  },
+  {
+    "question": "Пета седмица (Peta sedmitsa)",
+    "answer": "Beşinci hafta"
+  },
+  {
+    "question": "Втори автобус идва на автогарата. (Vtori avtobus idva na avtogarata.)",
+    "answer": "İkinci otobüs otogara geliyor."
+  },
+  {
+    "question": "Трети ден сме на отпуска. (Treti den sme na otpuska.)",
+    "answer": "Tatilde üçüncü günümüz."
+  },
+  {
+    "question": "Отпуска (Otpuska)",
+    "answer": "Yıllık izin"
+  },
+  {
+    "question": "Втората ядене е пилешко с ориз. (Vtorata yadene e pileshko s oriz.)",
+    "answer": "İkinci yemek tavuklu pilav."
+  },
+  {
+    "question": "Той живее на шестия етаж. (Toy zhivee na shestiya etazh.)",
+    "answer": "O altıncı katta yaşıyor."
+  },
+  {
+    "question": "Седмата книга е най-интересна. (Sedmata kniga e nay-interesna.)",
+    "answer": "Yedinci kitap en ilginç."
+  },
+  {
+    "question": "Седмата тема е интересна. (Sedmata tema e interesna.)",
+    "answer": "Yedinci konu ilginç."
+  },
+  {
+    "question": "Хафтата трети ден е сряда. (Haftata treti den e sryada.)",
+    "answer": "Haftanın üçüncü günü çarşamba."
+  },
+  {
+    "question": "Десетата кола е по-красива. (Desetata kola e po-krasiva.)",
+    "answer": "Onuncu araba daha güzel."
+  },
+  {
+    "question": "Ще отивам на първото събрание утре. (Shte otivam na parvoto sabranie utre.)",
+    "answer": "Yarın ilk toplantıya gideceğim."
+  },
+  {
+    "question": "Вчера беше моят втори ден на работа. (Vchera beshe moyat vtori den na rabota.)",
+    "answer": "Dün benim işte ikinci günümdü."
+  },
+  {
+    "question": "Втората седмица от месеца (Vtorata sedmitsa ot mesetsa)",
+    "answer": "Ayın ikinci haftası"
+  },
+  {
+    "question": "Петият месец от годината е Май. (Petiyat mesets ot godinata e May.)",
+    "answer": "Yılın beşinci ayı Mayıs."
+  },
+  {
+    "question": "Утре отивам на първия урок по музика. (Utre otivam na parvija urok po muzika.)",
+    "answer": "Yarın ilk müzik dersime gidiyorum."
+  },
+  {
+    "question": "Един брой банан (Edin broy banan)",
+    "answer": "Bir adet muz"
+  },
+  {
+    "question": "Два броя дини (Dva broya dini)",
+    "answer": "İki adet karpuz"
+  },
+  {
+    "question": "Три броя вафли (Tri broya vafli)",
+    "answer": "Üç adet gofret"
+  },
+  {
+    "question": "Три килограма домати (Tri kilograma domati)",
+    "answer": "Üç kilo domates"
+  },
+  {
+    "question": "Пет килограма картофи (Pet kilograma kartofi)",
+    "answer": "Beş kilo patates"
+  },
+  {
+    "question": "Един и половина килограма череши (Edin i polovina kilograma chereshki)",
+    "answer": "Bir buçuk kilo kiraz"
+  },
+  {
+    "question": "Два и половина килограма ябълки (Dva i polovina kilograma yabalki)",
+    "answer": "İki buçuk kilo elma"
+  },
+  {
+    "question": "Шестстотин петдесет и пет грама кашкавал (Shestotin petdeset i pet grama kashkaval)",
+    "answer": "Altı yüz elli beş gram kaşar"
+  },
+  {
+    "question": "Седемстотин грама сирене (Sedemstotin grama sirene)",
+    "answer": "Yedi yüz gram peynir"
+  },
+  {
+    "question": "Шестстотин и петдесет грама ядки (Shestotin i petdeset grama yadki)",
+    "answer": "Altı yüz elli gram çerez"
+  },
+  {
+    "question": "Пет литра прясно мляко (Pet litra pryasno mlyako)",
+    "answer": "Beş litre taze süt"
+  },
+  {
+    "question": "Един и половина литра вода (Edin i polovina litra voda)",
+    "answer": "Bir buçuk litre su"
+  },
+  {
+    "question": "Двеста и петдесет милилитра кафе (Dvesta i petdeset mililitra kafe)",
+    "answer": "İki yüz elli mililitre kahve"
+  },
+  {
+    "question": "Колко литра алкохол имаш в колата? (Kolko litra alkohol imash v kolata?)",
+    "answer": "Arabada kaç litre alkol var?"
+  },
+  {
+    "question": "Има ли алкохол в колата? (Ima li alkohol v kolata?)",
+    "answer": "Arabada alkol var mı?"
+  },
+  {
+    "question": "Имам един литър вино. (Imam edin litаr vino.)",
+    "answer": "Bir litre şarabım var."
+  },
+  {
+    "question": "Имам само два литра бира. (Imam samo dva litra bira.)",
+    "answer": "Sadece iki litre biram var."
+  },
+  {
+    "question": "Няма алкохол в колата. (Nyama alkohol v kolata.)",
+    "answer": "Arabada alkol yok."
+  },
+  {
+    "question": "Искам половин килограм череши. (Iskam polovin kilogram chereshki.)",
+    "answer": "Yarım kilo kiraz istiyorum."
+  },
+  {
+    "question": "Купувам половин килограм сирене. (Kupuvam polovin kilogram sirene.)",
+    "answer": "Yarım kilo peynir satın alıyorum."
+  },
+  {
+    "question": "В хладилника има половин литър сок. (V hladilnika ima polovin litаr sok.)",
+    "answer": "Buzdolabında yarım litre meyve suyu var."
+  },
+  {
+    "question": "Колко килограма ягоди купи? (Kolko kilograma yagodi kupi?)",
+    "answer": "Kaç kilo çilek satın aldın?"
+  },
+  {
+    "question": "Дай ми пет килограма картофи. (Day mi pet kilograma kartofi.)",
+    "answer": "Bana beş kilo patates ver."
+  },
+  {
+    "question": "Искам три килограма лук и чесън. (Iskam tri kilograma luk i chesan.)",
+    "answer": "Üç kilo soğan ve sarımsak istiyorum."
+  },
+  {
+    "question": "Колко струва едно шише вода? (Kolko struva edno shishe voda?)",
+    "answer": "Bir şişe suyun fiyatı nedir?"
+  },
+  {
+    "question": "Колко струва една бутилка вино? (Kolko struva edna butilka vino?)",
+    "answer": "Bir şişe şarabın fiyatı nedir?"
+  },
+  {
+    "question": "Една бутилка вино струва дванадесет лева. (Edna butilka vino struva dvanadeset leva.)",
+    "answer": "Bir şişe şarap on iki leva."
+  },
+  {
+    "question": "Искам един пакет бонбони и един пакет кафе. (Iskam edin paket bonboni i edin paket kafe.)",
+    "answer": "Bir paket çikolata ve bir paket kahve istiyorum."
+  },
+  {
+    "question": "Колко пакета цигари има в чантата? (Kolko paketa tsigari ima v chantata?)",
+    "answer": "Çantada kaç paket sigara var?"
+  },
+  {
+    "question": "Какво имаш в чантата? (Kakvo imash v chantata?)",
+    "answer": "Çantanda ne var?"
+  },
+  {
+    "question": "Купувам два пакета вафли, един литър вино и петстотин грама ядки. (Kupuvam dva paketa vafli, edin litаr vino i petstotin grama yadki.)",
+    "answer": "İki paket gofret, bir litre şarap ve beş yüz gram çerez satın alıyorum."
+  },
+  {
+    "question": "Купих един литър мляко от магазина. (Kupih edin litаr mlyako ot magazina.)",
+    "answer": "Marketten bir litre süt satın aldım."
+  },
+  {
+    "question": "Баба ми купи един килограм и петстотин грама кашкавал. (Baba mi kupi edin kilogram i petstotin grama kashkaval.)",
+    "answer": "Büyükannem bir buçuk kilo kaşar satın aldı."
+  },
+  {
+    "question": "Сто грама кафе, моля. (Sto grama kafe, molya.)",
+    "answer": "Yüz gram kahve, lütfen."
+  },
+  {
+    "question": "Къде има кантар? (Kade ima kantar?)",
+    "answer": "Tartı nerede?"
+  },
+  {
+    "question": "Може ли да претеглите този пъпеш? (Mozhe li da preteglite tozi papesh?)",
+    "answer": "Bu kavunu tartabilir misiniz?"
+  },
+  {
+    "question": "Аз купувам домати от пазара. (Az kupuvam domati ot pazara.)",
+    "answer": "Pazardan domates satın alıyorum."
+  },
+  {
+    "question": "Аз купувам кашкавал от магазина. (Az kupuvam kashkaval ot magazina.)",
+    "answer": "Marketten kaşar satın alıyorum."
+  },
+  {
+    "question": "Аз купувам месо от големия магазин. (Az kupuvam meso ot golemiya magazin.)",
+    "answer": "Büyük marketten et satın alıyorum."
+  },
+  {
+    "question": "Плащам на касата. (Plashtam na kasata.)",
+    "answer": "Kasada ödeme yapıyorum."
+  },
+  {
+    "question": "Плащам сметката на касата. (Plashtam smetkata na kasata.)",
+    "answer": "Kasada hesabı ödüyorum."
+  },
+  {
+    "question": "Аз съм на касата. (Az sam na kasata.)",
+    "answer": "Ben kasadayım."
+  },
+  {
+    "question": "Има ли картофи на пазара? (Ima li kartofi na pazara?)",
+    "answer": "Pazarda patates var mı?"
+  },
+  {
+    "question": "Аз купувам зеле от пазара. (Az kupuvam zele ot pazara.)",
+    "answer": "Pazardan lahana satın alıyorum."
+  },
+  {
+    "question": "Отивам на пазара. (Otivam na pazara.)",
+    "answer": "Pazara gidiyorum."
+  },
+  {
+    "question": "На пазара има само зеленчуци и плодове. (Na pazara ima samo zelenchutsi i plodove.)",
+    "answer": "Pazarda sadece sebze ve meyve var."
+  },
+  {
+    "question": "Колко килограма картофи искате? (Kolko kilograma kartofi iskate?)",
+    "answer": "Kaç kilo patates istiyorsunuz?"
+  },
+  {
+    "question": "Искам пет килограма картофи и два килограма пипер. (Iskam pet kilograma kartofi i dva kilograma piper.)",
+    "answer": "Beş kilo patates ve iki kilo biber istiyorum."
+  },
+  {
+    "question": "Искам два килограма кренвирши. (Iskam dva kilograma krenvirshi.)",
+    "answer": "İki kilo sosis istiyorum."
+  },
+  {
+    "question": "Качих килограми. (Kachih kilogrammi.)",
+    "answer": "Kilo aldım."
+  },
+  {
+    "question": "Напълнях. (Napalnyah.)",
+    "answer": "Kilo aldım."
+  },
+  {
+    "question": "Свалих килограми. (Svalih kilogrammi.)",
+    "answer": "Kilo verdim."
+  },
+  {
+    "question": "Отслабнах. (Otslabnah.)",
+    "answer": "Zayıfladım."
+  },
+  {
+    "question": "Град (Grad)",
+    "answer": "Şehir"
+  },
+  {
+    "question": "Село (Selo)",
+    "answer": "Köy"
+  },
+  {
+    "question": "Квартал (Kvartal)",
+    "answer": "Semt"
+  },
+  {
+    "question": "Жилищен комплекс (Zhilishten kompleks)",
+    "answer": "Konut kompleksi"
+  },
+  {
+    "question": "Улица (Ulitsa)",
+    "answer": "Sokak"
+  },
+  {
+    "question": "Булевард (Bulevard)",
+    "answer": "Bulvar"
+  },
+  {
+    "question": "Номер (Nomer)",
+    "answer": "Numara"
+  },
+  {
+    "question": "Блок (Blok)",
+    "answer": "Blok"
+  },
+  {
+    "question": "Вход (Vhod)",
+    "answer": "Giriş"
+  },
+  {
+    "question": "Етаж (Etazh)",
+    "answer": "Kat"
+  },
+  {
+    "question": "Апартамент (Apartament)",
+    "answer": "Daire"
+  },
+  {
+    "question": "Пощенски код (Poshtenski kod)",
+    "answer": "Posta kodu"
+  },
+  {
+    "question": "Нов адрес (Nov adres)",
+    "answer": "Yeni adres"
+  },
+  {
+    "question": "Стар адрес (Star adres)",
+    "answer": "Eski adres"
+  },
+  {
+    "question": "Настоящ адрес (Nastoyasht adres)",
+    "answer": "Şimdiki adres"
+  },
+  {
+    "question": "Вашият настоящ адрес (Vashiyat nastoyasht adres)",
+    "answer": "Sizin şimdiki adresiniz"
+  },
+  {
+    "question": "В кой град живеете? (V koy grad zhiveete?)",
+    "answer": "Hangi şehirde yaşıyorsunuz?"
+  },
+  {
+    "question": "В кой квартал живееш? (V koy kvartal zhiveesh?)",
+    "answer": "Hangi semtte yaşıyorsun?"
+  },
+  {
+    "question": "Моят адрес е град Шумен, улица Васил Друмев № 6. (Moyat adres e grad Shumen, ulitsa Vasil Drumev nomer 6.)",
+    "answer": "Adresim Şumen şehri, Vasil Drumev sokağı numara 6."
+  },
+  {
+    "question": "Аз живея в голям град в апартамент. (Az zhiveya v golyam grad v apartament.)",
+    "answer": "Ben büyük şehirde apartmanda yaşıyorum."
+  },
+  {
+    "question": "В града има много улици и паркове. (V grada ima mnogo ulitsi i parkove.)",
+    "answer": "Şehirde çok sokak ve park var."
+  },
+  {
+    "question": "Рая живее в село в къща. (Raya zhivee v selo v kashta.)",
+    "answer": "Raya bir köyde evde yaşıyor."
+  },
+  {
+    "question": "В селото няма апартаменти. (V seloto nyama apartamenti.)",
+    "answer": "Köyde apartman yok."
+  },
+  {
+    "question": "Аз купувам една кутия бонбони. (Az kupuvam edna kutiya bonboni.)",
+    "answer": "Bir kutu çikolata satın alıyorum."
+  },
+  {
+    "question": "Ти купуваш ли един пакет кафе? (Ti kupuvash li edin paket kafe?)",
+    "answer": "Bir paket kahve satın alıyor musun?"
+  },
+  {
+    "question": "Той купи ли една бутилка вино? (Toy kupi li edna butilka vino?)",
+    "answer": "O bir şişe şarap satın aldı mı?"
+  },
+  {
+    "question": "Тя не купува замразени продукти. (Tya ne kupuva zamrazeni produkti.)",
+    "answer": "O dondurulmuş ürünler satın almıyor."
+  },
+  {
+    "question": "Ние купихме ли три килограма месо? (Nie kupihme li tri kilograma meso?)",
+    "answer": "Biz üç kilo et satın aldık mı?"
+  },
+  {
+    "question": "Вие купувате ли пресни картофи? (Vie kupuvate li presni kartofi?)",
+    "answer": "Siz taze patates satın alıyor musunuz?"
+  },
+  {
+    "question": "Те купиха ли два пакета вафли? (Te kupiha li dva paketa vafli?)",
+    "answer": "Onlar iki paket gofret satın aldı mı?"
+  }
+]
