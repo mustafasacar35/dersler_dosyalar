@@ -1,21 +1,10 @@
 {
-  "jsonFiles": {
-    "Ders 1": {
-      "selected": true,
-      "score": 80
-    },
-    "Ders 2": {
-      "selected": false,
-      "score": 45
-    }
-  },
+  "jsonFiles": {},
   "paragraphSelections": {
-    "Ders 1": [
-      "ученик",
-      "училище"
+    "В ПАРКА С ПРИЯТЕЛИ": [
+      "събота = cumartesi"
     ],
-    "Ders 2": [
-      "семейство"
-    ]
+    "В КЪЩАТА НА АННА": [],
+    "Зимна почивка": []
   }
 }
