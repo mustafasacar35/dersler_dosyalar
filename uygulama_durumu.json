@@ -1,28 +1,25 @@
 {
-  "paragraphSelections": {
-    "Зимна почивка": [
-      "Сега = Şimdi"
-    ],
-    "В КЪЩАТА НА АННА": [
-      "Анна = Anna",
-      "филми = film"
-    ],
-    "В ПАРКА С ПРИЯТЕЛИ": [],
-    "ПОСЕЩЕНИЕ НА СЕЛО": [
-      "Иван = İvan",
-      "и = ve",
-      "семейството = aile",
-      "му = onun",
-      "отиват = gidiyorlar"
-    ],
-    "ВЕЧЕРЯ В РЕСТОРАНТ": [
-      "Петър = Petır"
-    ],
-    "ПОКУПКИ НА ПАЗАРА": [
-      "Иван = İvan"
-    ],
-    "ВЕСЕЛ СЪБОТЕН ДЕН": [
-      "защото = çünkü"
-    ]
-  }
+  "currentIndex": 0,
+  "score": 0,
+  "answers": [],
+  "recentQuestions": [],
+  "blacklist": [],
+  "wrongCount": {},
+  "priorityQueue": [],
+  "missedQuestions": [],
+  "questionCounter": 0,
+  "isRandomOrder": false,
+  "isTurkishQuestion": false,
+  "lastSequentialIndex": 0,
+  "searchResults": [],
+  "searchIndex": 0,
+  "isSearchMode": false,
+  "isSpeechEnabled": false,
+  "isLatinVisible": false,
+  "isRepeatWrongEnabled": true,
+  "isSoundEnabled": false,
+  "jsonFiles": {},
+  "isMissedMode": false,
+  "isBulgarianKeyboard": true,
+  "isCapsOn": false
 }
