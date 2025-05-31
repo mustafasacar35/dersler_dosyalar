@@ -1,5 +1,5 @@
 {
-  "currentIndex": 0,
+  "currentIndex": 55,
   "score": 0,
   "answers": [
     null,
@@ -216,10 +216,38 @@
   ],
   "recentQuestions": [
     {
-      "index": 0,
-      "question": "ЕДНO КУЧЕ (EDNO KUCHE) (Eril)",
+      "index": 55,
+      "question": "СТОЛОВЕ (STOLOVE) (Çoğul)",
       "answer": null,
-      "correctAnswer": "BİR KÖPEK",
+      "correctAnswer": "SANDALYELER",
+      "isCorrect": null
+    },
+    {
+      "index": 52,
+      "question": "ВЛАКОВЕ (VLAKOVE) (Çoğul)",
+      "answer": null,
+      "correctAnswer": "TRENLER",
+      "isCorrect": null
+    },
+    {
+      "index": 45,
+      "question": "ТОВА Е ЕДИН МЪЖ (TOVA E EDIN MAZH)",
+      "answer": null,
+      "correctAnswer": "BU BİR ERKEK (Eril)",
+      "isCorrect": null
+    },
+    {
+      "index": 41,
+      "question": "ЕДИН МЪЖ (EDIN MAZH) (Eril)",
+      "answer": null,
+      "correctAnswer": "BİR ERKEK / BİR ADAM",
+      "isCorrect": null
+    },
+    {
+      "index": 33,
+      "question": "ЕДНА ВЕЧЕРЯ (EDNA VECHERYA) (Dişil)",
+      "answer": null,
+      "correctAnswer": "BİR AKŞAM YEMEĞİ",
       "isCorrect": null
     }
   ],
