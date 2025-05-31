@@ -1,1 +1,21 @@
-{ "hello": "world" }
+{
+  "jsonFiles": {
+    "Ders 1": {
+      "selected": true,
+      "score": 80
+    },
+    "Ders 2": {
+      "selected": false,
+      "score": 45
+    }
+  },
+  "paragraphSelections": {
+    "Ders 1": [
+      "ученик",
+      "училище"
+    ],
+    "Ders 2": [
+      "семейство"
+    ]
+  }
+}
