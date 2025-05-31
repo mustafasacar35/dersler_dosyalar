@@ -1,5 +1,5 @@
 {
-  "currentIndex": 0,
+  "currentIndex": 1,
   "score": 0,
   "answers": [
     null,
@@ -215,6 +215,13 @@
     null
   ],
   "recentQuestions": [
+    {
+      "index": 1,
+      "question": "ЕДНА КОТКА (EDNA KOTKA) (Dişil)",
+      "answer": null,
+      "correctAnswer": "BİR KEDİ",
+      "isCorrect": null
+    },
     {
       "index": 0,
       "question": "ЕДНO КУЧЕ (EDNO KUCHE) (Eril)",
