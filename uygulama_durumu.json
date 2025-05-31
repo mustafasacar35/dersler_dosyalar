@@ -1,5 +1,5 @@
 {
-  "currentIndex": 30,
+  "currentIndex": 0,
   "score": 0,
   "answers": [
     null,
@@ -32,7 +32,7 @@
     null,
     null,
     null,
-    "sdf",
+    null,
     null,
     null,
     null,
@@ -216,50 +216,18 @@
   ],
   "recentQuestions": [
     {
-      "index": 30,
-      "question": "ЕДИН ЧАЙ (EDIN CHAY) (Eril)",
-      "answer": "sdf",
-      "correctAnswer": "BİR ÇAY",
-      "isCorrect": false
-    },
-    {
-      "index": 28,
-      "question": "ЕДНО ЛЕГЛО (EDNO LEGLO) (Nötr)",
+      "index": 0,
+      "question": "ЕДНO КУЧЕ (EDNO KUCHE) (Eril)",
       "answer": null,
-      "correctAnswer": "BİR YATAK",
-      "isCorrect": null
-    },
-    {
-      "index": 26,
-      "question": "ЕДНО УЧИЛИЩЕ (EDNO UCHILISHTE) (Nötr)",
-      "answer": null,
-      "correctAnswer": "BİR OKUL",
-      "isCorrect": null
-    },
-    {
-      "index": 22,
-      "question": "ЕДНО ЯКЕ (EDNO YAKE) (Nötr)",
-      "answer": null,
-      "correctAnswer": "BİR MONT",
-      "isCorrect": null
-    },
-    {
-      "index": 16,
-      "question": "ЕДНА МАСА (EDNA MASA) (Dişil)",
-      "answer": null,
-      "correctAnswer": "BİR MASA",
+      "correctAnswer": "BİR KÖPEK",
       "isCorrect": null
     }
   ],
   "blacklist": [],
-  "wrongCount": {
-    "30": 1
-  },
+  "wrongCount": {},
   "priorityQueue": [],
-  "missedQuestions": [
-    30
-  ],
-  "questionCounter": 1,
+  "missedQuestions": [],
+  "questionCounter": 0,
   "isRandomOrder": false,
   "isTurkishQuestion": false,
   "lastSequentialIndex": 0,
