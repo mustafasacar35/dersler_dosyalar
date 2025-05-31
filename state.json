@@ -2,7 +2,13 @@
   "jsonFiles": {},
   "paragraphSelections": {
     "В ПАРКА С ПРИЯТЕЛИ": [
-      "събота = cumartesi"
+      "събота = cumartesi",
+      "парка = park",
+      "обичат = seviyorlar",
+      "играят = oynuyorlar",
+      "топка = top",
+      "да = (eylem belirteci)",
+      "отиват = gidiyorlar"
     ],
     "В КЪЩАТА НА АННА": [],
     "Зимна почивка": []
