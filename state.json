@@ -21145,7 +21145,7 @@
     "В КЪЩАТА НА АННА": [],
     "Зимна почивка": []
   },
-  "currentIndex": 0,
+  "currentIndex": 46,
   "answers": [
     null,
     null,
@@ -21193,7 +21193,7 @@
     null,
     null,
     null,
-    null,
+    "ghxk",
     null,
     null,
     null,
@@ -21359,15 +21359,47 @@
     null,
     null
   ],
-  "missedQuestions": [],
-  "wrongCount": {},
+  "missedQuestions": [
+    46
+  ],
+  "wrongCount": {
+    "46": 1
+  },
   "priorityQueue": [],
   "recentQuestions": [
     {
-      "index": 0,
-      "question": "ЕДНO КУЧЕ (EDNO KUCHE) (Eril)",
+      "index": 46,
+      "question": "ТОВА Е ЕДНО КУЧЕ (TOVA E EDNO KUCHE)",
+      "answer": "ghxk",
+      "correctAnswer": "BU BİR KÖPEK (Nötr)",
+      "isCorrect": false
+    },
+    {
+      "index": 45,
+      "question": "ТОВА Е ЕДИН МЪЖ (TOVA E EDIN MAZH)",
       "answer": null,
-      "correctAnswer": "BİR KÖPEK",
+      "correctAnswer": "BU BİR ERKEK (Eril)",
+      "isCorrect": null
+    },
+    {
+      "index": 44,
+      "question": "ТОВА Е ЕДНА КНИГА (TOVA E EDNA KNIGA)",
+      "answer": null,
+      "correctAnswer": "BU BİR KİTAP (Dişil)",
+      "isCorrect": null
+    },
+    {
+      "index": 42,
+      "question": "ЕДНА ЖЕНА (EDNA ZHENA) (Dişil)",
+      "answer": null,
+      "correctAnswer": "BİR KADIN",
+      "isCorrect": null
+    },
+    {
+      "index": 40,
+      "question": "ЕДИН ТЕЛЕВИЗОР (EDIN TELEVIZOR) (Eril)",
+      "answer": null,
+      "correctAnswer": "BİR TELEVİZYON",
       "isCorrect": null
     }
   ],
