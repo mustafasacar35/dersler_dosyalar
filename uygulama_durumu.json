@@ -221,34 +221,6 @@
       "answer": null,
       "correctAnswer": "BİR KÖPEK",
       "isCorrect": null
-    },
-    {
-      "index": 6,
-      "question": "ЕДИН ЛАПТОП (EDIN LAPTOP) (Eril)",
-      "answer": null,
-      "correctAnswer": "BİR LAPTOP",
-      "isCorrect": null
-    },
-    {
-      "index": 13,
-      "question": "ЕДИН УЧИТЕЛ (EDIN UCHITEL) (Eril)",
-      "answer": null,
-      "correctAnswer": "BİR ÖĞRETMEN",
-      "isCorrect": null
-    },
-    {
-      "index": 20,
-      "question": "ЕДНА ЧАША (EDNA CHASHA) (Dişil)",
-      "answer": null,
-      "correctAnswer": "BİR BARDAK",
-      "isCorrect": null
-    },
-    {
-      "index": 29,
-      "question": "ЕДНО КАФЕ (EDNO KAFE) (Nötr)",
-      "answer": null,
-      "correctAnswer": "BİR KAHVE",
-      "isCorrect": null
     }
   ],
   "blacklist": [],
