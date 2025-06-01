@@ -1,6 +1,6 @@
 {
-  "currentIndex": 175,
-  "score": 1,
+  "currentIndex": 125,
+  "score": 0,
   "answers": [
     null,
     null,
@@ -177,7 +177,43 @@
     null,
     null,
     null,
-    "NEREDE YAŞIYORSUN",
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
     null,
     null,
     null,
@@ -216,38 +252,38 @@
   ],
   "recentQuestions": [
     {
-      "index": 175,
-      "question": "КЪДЕ ЖИВЕЕШ? (KADE ZHIVEEZH?)",
-      "answer": "NEREDE YAŞIYORSUN",
-      "correctAnswer": "NEREDE YAŞIYORSUN?",
-      "isCorrect": true
-    },
-    {
-      "index": 177,
-      "question": "ЗАЩО ЗАКЪСНЯВАШ? (ZASHTO ZAKASNYAVASH?)",
+      "index": 125,
+      "question": "ДРУГАТА СЕДМИЦА НЯМАШЕ ДА ХОДЯ В БЪЛГАРИЯ, НО ЩЕ ХОДЯ (DRUGATA SEDMITSA NYAMASHE DA HODYA V BALGARIYA, NO SHTE HODYA)",
       "answer": null,
-      "correctAnswer": "NEDEN GEÇ KALIYORSUN?",
+      "correctAnswer": "ÖNÜMÜZDEKİ HAFTA BULGARİSTAN’A GİTMEYECEKTİM AMA GİDECEĞİM",
       "isCorrect": null
     },
     {
-      "index": 182,
-      "question": "КОЛКО СТРУВА ЕДИН ЧАЙ? (KOLKO STRUVA EDIN CHAY?)",
+      "index": 124,
+      "question": "DÜN FİLM İZLEMEYECEKTİM",
       "answer": null,
-      "correctAnswer": "BİR ÇAY FİYATI NEDİR?",
+      "correctAnswer": "ВЧЕРА НЯМАШЕ ДА ГЛЕДАМ ФИЛМ (VCHERA NYAMASHE DA GLEDAM FILM) (Eril)",
       "isCorrect": null
     },
     {
-      "index": 190,
-      "question": "КАК СИ? (KAK SI?)",
+      "index": 123,
+      "question": "DÜN İŞE GİTMEYECEKTİM",
       "answer": null,
-      "correctAnswer": "NASILSIN?",
+      "correctAnswer": "ВЧЕРА НЯМАШЕ ДА ОТИВАМ НА РАБОТА (VCHERA NYAMASHE DA OTIVAM NA RABOTA)",
       "isCorrect": null
     },
     {
-      "index": 201,
-      "question": "МОЛЯ (MOLYA)",
+      "index": 122,
+      "question": "BUGÜN RÜZGAR OLMAYACAKTI",
       "answer": null,
-      "correctAnswer": "LÜTFEN / RİCA EDERİM",
+      "correctAnswer": "ДНЕС НЯМАШЕ ДА ИМА ВЯТЪР (DNES NYAMASHE DA IMA VYATAR) (Eril)",
+      "isCorrect": null
+    },
+    {
+      "index": 121,
+      "question": "BUGÜN ARKADAŞLARLA KAHVE İÇMEYECEKTİK",
+      "answer": null,
+      "correctAnswer": "ДНЕС НЯМАШЕ ДА ПИЕМ КАФЕ С ПРИЯТЕЛИ (DNES NYAMASHE DA PIEM KAFE S PRIYATELI) (Çoğul)",
       "isCorrect": null
     }
   ],
@@ -255,7 +291,7 @@
   "wrongCount": {},
   "priorityQueue": [],
   "missedQuestions": [],
-  "questionCounter": 1,
+  "questionCounter": 0,
   "isRandomOrder": false,
   "isTurkishQuestion": false,
   "lastSequentialIndex": 0,
@@ -263,7 +299,7 @@
   "searchIndex": 0,
   "isSearchMode": false,
   "isSpeechEnabled": false,
-  "isLatinVisible": false,
+  "isLatinVisible": true,
   "isRepeatWrongEnabled": false,
   "isSoundEnabled": false,
   "jsonFiles": {
@@ -1114,7 +1150,7 @@
           "answer": "BANA BİR KAHVE FİYATINI SÖYLEYEBİLİR MİSİNİZ?"
         }
       ],
-      "selected": true
+      "selected": false
     },
     "Ders 2": {
       "data": [
@@ -17156,7 +17192,7 @@
           "answer": "OTELİN ARKASINDA APARTMAN VAR"
         }
       ],
-      "selected": false
+      "selected": true
     },
     "Ders 11": {
       "data": [
