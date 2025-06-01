@@ -236,7 +236,7 @@
   "isSearchMode": false,
   "isSpeechEnabled": false,
   "isLatinVisible": false,
-  "isRepeatWrongEnabled": true,
+  "isRepeatWrongEnabled": false,
   "isSoundEnabled": false,
   "jsonFiles": {
     "Ders 1": {
@@ -19620,5 +19620,5 @@
     "В КЪЩАТА НА АННА": [],
     "Зимна почивка": []
   },
-  "lastSaved": "2025-06-01T20:03:54.145Z"
+  "lastSaved": "2025-06-01T20:34:14.287Z"
 }
