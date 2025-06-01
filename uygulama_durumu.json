@@ -1,6 +1,6 @@
 {
-  "currentIndex": 41,
-  "score": 0,
+  "currentIndex": 175,
+  "score": 1,
   "answers": [
     null,
     null,
@@ -177,7 +177,7 @@
     null,
     null,
     null,
-    null,
+    "NEREDE YAŞIYORSUN",
     null,
     null,
     null,
@@ -216,38 +216,38 @@
   ],
   "recentQuestions": [
     {
-      "index": 41,
-      "question": "ЕДИН МЪЖ (EDIN MAZH) (Eril)",
+      "index": 175,
+      "question": "КЪДЕ ЖИВЕЕШ? (KADE ZHIVEEZH?)",
+      "answer": "NEREDE YAŞIYORSUN",
+      "correctAnswer": "NEREDE YAŞIYORSUN?",
+      "isCorrect": true
+    },
+    {
+      "index": 177,
+      "question": "ЗАЩО ЗАКЪСНЯВАШ? (ZASHTO ZAKASNYAVASH?)",
       "answer": null,
-      "correctAnswer": "BİR ERKEK / BİR ADAM",
+      "correctAnswer": "NEDEN GEÇ KALIYORSUN?",
       "isCorrect": null
     },
     {
-      "index": 40,
-      "question": "ЕДИН ТЕЛЕВИЗОР (EDIN TELEVIZOR) (Eril)",
+      "index": 182,
+      "question": "КОЛКО СТРУВА ЕДИН ЧАЙ? (KOLKO STRUVA EDIN CHAY?)",
       "answer": null,
-      "correctAnswer": "BİR TELEVİZYON",
+      "correctAnswer": "BİR ÇAY FİYATI NEDİR?",
       "isCorrect": null
     },
     {
-      "index": 39,
-      "question": "ЕДНА ТОРБИЧКА (EDNA TORBICHKA) (Dişil)",
+      "index": 190,
+      "question": "КАК СИ? (KAK SI?)",
       "answer": null,
-      "correctAnswer": "BİR POŞET",
+      "correctAnswer": "NASILSIN?",
       "isCorrect": null
     },
     {
-      "index": 38,
-      "question": "ЕДНА ОБУВКА (EDNA OBUVKA) (Dişil)",
+      "index": 201,
+      "question": "МОЛЯ (MOLYA)",
       "answer": null,
-      "correctAnswer": "BİR TEK AYAKKABI",
-      "isCorrect": null
-    },
-    {
-      "index": 37,
-      "question": "ОБУВКИ (OBUVKI) (Çoğul)",
-      "answer": null,
-      "correctAnswer": "AYAKKABILAR / ÇİFT AYAKKABI",
+      "correctAnswer": "LÜTFEN / RİCA EDERİM",
       "isCorrect": null
     }
   ],
@@ -255,7 +255,7 @@
   "wrongCount": {},
   "priorityQueue": [],
   "missedQuestions": [],
-  "questionCounter": 0,
+  "questionCounter": 1,
   "isRandomOrder": false,
   "isTurkishQuestion": false,
   "lastSequentialIndex": 0,
