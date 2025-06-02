@@ -1,0 +1,3134 @@
+<!DOCTYPE html>
+
+<html lang="tr">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>
+   Bulgarca Öğrenme Uygulaması
+  </title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"/>
+<style>
+   .selected-word { color: red !important; font-weight: bold; }
+
+        body { 
+            background-color: #f8f9fa; 
+            padding: 20px; 
+            display: flex; 
+            flex-direction: column; 
+            min-height: 100vh; 
+            margin: 0; 
+            transition: background-color 0.3s, color 0.3s;
+        }
+        .bahnschrift-font { 
+    font-family: 'Bahnschrift', sans-serif !important; 
+}
+.capitalize-text { 
+    text-transform: capitalize !important; 
+}
+.uppercase-text { 
+    text-transform: uppercase !important; 
+}
+.cyrillicText {
+    /* transition: all 0.3s ease; */ /* Zaten kaldırılmış, emin olmak için yorum satırı */
+}
+
+.bahnschrift-font {
+    font-family: 'Bahnschrift', sans-serif !important;
+}
+
+.italic-text {
+    font-style: italic !important;
+}
+
+.sentence-case {
+    text-transform: lowercase !important;
+}
+.sentence-case::first-letter {
+    text-transform: uppercase !important;
+}
+
+.uppercase-text {
+    text-transform: uppercase !important;
+}
+
+.lowercase-text {
+    text-transform: lowercase !important;
+}
+        .top-bar { margin-bottom: 20px; }
+        .content-wrapper { display: flex; flex-grow: 1; }
+        .sidebar { width: 250px; margin-right: 20px; flex-shrink: 0; }
+        .main-content { flex-grow: 1; overflow-y: auto; }
+        .card { margin-bottom: 15px; background-color: #fff; transition: background-color 0.3s; }
+        .result-icon { font-size: 1.5em; margin-right: 10px; }
+        .correct { color: green; }
+        .incorrect { color: red; }
+        .unanswered { color: black; }
+        #score { font-size: 1.2em; font-weight: bold; }
+        #recent-questions, #search-results, #blacklist, #missed-questions { 
+            margin-top: 20px; 
+            max-height: 150px; 
+            overflow-y: auto; 
+        }
+        .recent-question, .search-result, .blacklist-item, .missed-question { 
+            cursor: pointer; 
+            padding: 5px; 
+            border-bottom: 1px solid #ddd; 
+        }
+        .recent-question:hover, .search-result:hover, .blacklist-item:hover, .missed-question:hover { 
+            background-color: #e9ecef; 
+        }
+        .edit-icon { cursor: pointer; margin-left: 10px; color: #007bff; }
+        .edit-icon:hover { color: #0056b3; }
+        .blacklist-toggle { margin-right: 10px; }
+        .search-active { background-color: #d4edda; }
+        .search-container { display: flex; align-items: center; }
+        .search-container label { margin-left: 5px; margin-right: 10px; }
+        .json-file { display: flex; align-items: center; justify-content: space-between; margin-bottom: 10px; }
+        .delete-btn { margin-left: 10px; }
+        .speaking { color: #28a745; }
+        .card-title { font-size: 1.5em; font-weight: bold; }
+        #input-answer { width: 70%; font-size: 1.1em; }
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        #result.correct { animation: fadeIn 0.5s ease-in; color: green; }
+        #result.incorrect { animation: fadeIn 0.5s ease-in; color: red; }
+        .dark-theme { background-color: #343a40; color: #f8f9fa; }
+        .dark-theme .card { background-color: #495057; }
+        .dark-theme .btn-primary { background-color: #007bff; }
+        .reference-table { margin-top: 20px; }
+        .reference-table table { 
+            width: 100%; 
+            border-collapse: collapse; 
+            font-size: 0.9em; 
+        }
+        .reference-table th, .reference-table td { 
+            border: 1px solid #ddd; 
+            padding: 8px; 
+            text-align: center; 
+        }
+        .reference-table th { background-color: #f2f2f2; }
+        .highlight { background-color: #ffff99; }
+        .correct-highlight { background-color: #ccffcc; }
+        .incorrect-highlight { background-color: #ffcccc; }
+        @keyframes blinkCorrect {
+            0% { background-color: #ccffcc; }
+            50% { background-color: #99cc99; }
+            100% { background-color: #ccffcc; }
+        }
+        @keyframes blinkIncorrect {
+            0% { background-color: #ffcccc; }
+            50% { background-color: #ff9999; }
+            100% { background-color: #ffcccc; }
+        }
+        .blink-correct { animation: blinkCorrect 0.5s ease 3; }
+        .blink-incorrect { animation: blinkIncorrect 0.5s ease 3; }
+        #question-slider { width: 100%; margin-bottom: 20px; }
+        #slider-info { font-size: 1em; margin-top: 5px; }
+        #progress-percentage { margin-right: 15px; font-weight: bold; }
+        #question-count { font-weight: bold; }
+        #virtual-keyboard {
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            background-color: #f1f1f1;
+            padding: 10px;
+            display: none;
+            z-index: 1000;
+            transition: all 0.3s;
+        }
+        #virtual-keyboard button {
+            margin: 2px;
+            padding: 5px 10px;
+            font-size: 1em;
+            min-width: 40px;
+        }
+        .dark-theme #virtual-keyboard {
+            background-color: #495057;
+        }
+        .keyboard-row {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        @media (max-width: 768px) {
+            .sidebar { width: 100%; margin-right: 0; margin-bottom: 20px; }
+            .content-wrapper { flex-direction: column; }
+            .btn { font-size: 0.9em; padding: 5px; }
+            #input-answer { width: 100%; }
+            #virtual-keyboard button { font-size: 0.8em; padding: 4px 8px; min-width: 30px; }
+        }
+  </style>
+</head>
+<body>
+<div class="top-bar container">
+<h1 class="text-center mb-4">
+    Bulgarca Öğrenme Uygulaması
+   </h1>
+<input class="form-range" id="question-slider" max="0" min="0" type="range" value="0"/>
+<div class="text-center mb-3" id="slider-info">
+<span id="progress-percentage">
+     0%
+    </span>
+<span id="question-count">
+     0 / 0
+    </span>
+</div>
+<div class="progress mb-3">
+<div aria-valuemax="100" aria-valuemin="0" aria-valuenow="0" class="progress-bar" id="progressBar" role="progressbar" style="width: 0%;">
+</div>
+</div>
+<div class="row mb-3">
+<div class="col-md-2">
+<div class="dropdown">
+<button class="btn btn-primary dropdown-toggle w-100" data-bs-toggle="dropdown" type="button">
+       Seçenekler
+      </button>
+<ul class="dropdown-menu">
+<li>
+<button class="dropdown-item" data-bs-target="#loadJsonModal" data-bs-toggle="modal">
+         Ders Ekle
+        </button>
+</li>
+<li>
+<button class="dropdown-item" id="exportJsonBtn">
+         Dersi Dışarı Aktar
+        </button>
+</li>
+<li>
+<button class="dropdown-item" id="saveToGitHubBtn">
+         GitHub'a Kaydet
+        </button>
+</li>
+<li>
+<button class="dropdown-item" id="saveBtn">
+         Kaydet
+        </button>
+</li>
+<li>
+<button class="dropdown-item" id="loadStateBtn">
+         Durum Yükle
+        </button>
+</li>
+<li>
+<button class="dropdown-item" id="resetBtn">
+         Reset
+        </button>
+</li>
+<li>
+<button class="dropdown-item" id="toggleThemeBtn">
+         Koyu Tema
+        </button>
+</li>
+<li><button class="dropdown-item" data-bs-target="#tokenModal" data-bs-toggle="modal">GitHub Token Gir</button></li></ul>
+</div>
+</div>
+<div class="col-md-2">
+<button class="btn btn-info w-100 mb-2" id="toggleOrderBtn">
+      Sıralı Mod (Şu an: Sıralı)
+     </button>
+</div>
+<div class="col-md-2">
+<button class="btn btn-warning w-100 mb-2" id="toggleLangBtn">
+      Türkçe Sorulara Geç
+     </button>
+</div>
+<div class="col-md-2">
+<button class="btn btn-secondary w-100 mb-2" id="toggleSpeechBtn">
+      Sesli Okuma (Kapalı)
+     </button>
+</div>
+<div class="col-md-2">
+<button class="btn btn-secondary w-100 mb-2" id="toggleSoundBtn">
+      Ses Efektleri (Kapalı)
+     </button>
+</div>
+<div class="col-md-2">
+<button class="btn btn-danger w-100 mb-2" id="reviewMissedBtn">
+      Bilemediklerim Sınavı
+     </button>
+</div>
+</div>
+<div aria-hidden="true" aria-labelledby="loadJsonModalLabel" class="modal fade" id="loadJsonModal" tabindex="-1">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-header">
+<h5 class="modal-title" id="loadJsonModalLabel">
+        Ders Ekle
+       </h5>
+<button aria-label="Close" class="btn-close" data-bs-dismiss="modal" type="button">
+</button>
+</div>
+<div class="modal-body">
+<div class="mb-3">
+<label class="form-label" for="fileUrl">
+         GitHub Raw URL'si:
+        </label>
+<input class="form-control" id="fileUrl" placeholder="Örn: https://raw.githubusercontent.com/.../DERS_6.JSON" type="text"/>
+</div>
+<div class="mb-3">
+<label class="form-label" for="localJsonFile">
+         Yerel JSON Dosyası:
+        </label>
+<input accept=".json" class="form-control" id="localJsonFile" type="file"/>
+</div>
+</div>
+<div class="modal-footer">
+<button class="btn btn-secondary" data-bs-dismiss="modal" type="button">
+        Kapat
+       </button>
+<button class="btn btn-primary" id="loadFromUrlBtn" type="button">
+        URL'den Ekle
+       </button>
+<button class="btn btn-primary" id="loadFromLocalBtn" type="button">
+        Yerelden Ekle
+       </button>
+</div>
+</div>
+</div>
+</div>
+<div class="row mb-3">
+<div class="col-md-2">
+<button class="btn btn-secondary w-100 mb-2" id="toggleRepeatWrongBtn">
+      Yanlışları Tekrarla (Açık)
+     </button>
+</div>
+<div class="col-md-2">
+<button class="btn btn-secondary w-100 mb-2" id="toggleLatinBtn">
+      Latince Göster (Kapalı)
+     </button>
+</div>
+<div class="col-md-2">
+</div>
+<div class="col-md-2">
+<button class="btn btn-info w-100 mb-2" id="toggleKeyboardBtn">
+      Klavye Aç
+     </button>
+</div>
+<div class="col-md-6">
+<div class="search-container">
+<input id="focus-questions" type="checkbox"/>
+<label for="focus-questions">
+       Odak Sorular
+      </label>
+<input class="form-control" id="search-input" placeholder="Sorularda ara..." type="text"/>
+<div class="form-check ms-3">
+<input checked="" class="form-check-input" id="autoNextToggle" type="checkbox"/>
+<label class="form-check-label" for="autoNextToggle">
+        Otomatik İlerle
+       </label>
+</div>
+</div>
+</div>
+</div>
+<div class="text-center mb-3" id="score">
+    Puan: 0
+   </div>
+<div class="d-flex gap-2 mb-3">
+<button class="btn btn-outline-secondary mb-3" id="toggleFontBtn" style="margin-right: 10px;">
+     Bahnschrift Font
+    </button>
+<button class="btn btn-outline-secondary mb-3" id="toggleCaseBtn" style="margin-right: 10px;">
+     Büyük/Küçük Harf
+    </button>
+<button class="btn btn-outline-secondary mb-3" id="toggleItalicBtn">
+     İtalik Yazı
+    </button>
+</div>
+</div>
+<div id="virtual-keyboard">
+<div class="keyboard-row" id="keyboard-content">
+</div>
+<div class="keyboard-row">
+<button onclick="toggleCaps()">
+     Caps
+    </button>
+<button onclick="addToInput(' ')">
+     Space
+    </button>
+<button onclick="deleteLast()">
+     Backspace
+    </button>
+<button onclick="checkAnswer()">
+     Enter
+    </button>
+<button onclick="moveCursor(-1)">
+     ←
+    </button>
+<button onclick="moveCursor(1)">
+     →
+    </button>
+<button onclick="copyText()">
+     Copy
+    </button>
+<button onclick="pasteText()">
+     Paste
+    </button>
+<button onclick="toggleLanguage()">
+     TR/BG
+    </button>
+<button onclick="closeKeyboard()">
+     Kapat
+    </button>
+</div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js">
+   window.onload = function() {
+  window.addEventListener('keydown', window.keydownHandler);
+};
+
+window.addEventListener('DOMContentLoaded', function () {
+  document.addEventListener('keydown', function(event) {
+
+    const title = document.getElementById('title');
+    if (title) {
+      title.innerText = "Tuş algılandı: " + event.key;
+    }
+
+    const input = document.getElementById('input-answer');
+    const isInputActive = document.activeElement === input;
+    const isSearchActive = document.activeElement === document.getElementById('search-input');
+
+    if (event.key === 'ArrowUp' || event.key === 'ArrowDown') {
+        event.preventDefault();
+        if (event.key === 'ArrowUp') {
+            if (typeof isMissedMode !== 'undefined' && isMissedMode && missedQuestions.indexOf(currentIndex) > 0) {
+                currentIndex = missedQuestions[missedQuestions.indexOf(currentIndex) - 1];
+            } else if (typeof isSearchMode !== 'undefined' && isSearchMode && searchIndex > 0) {
+                searchIndex--;
+                currentIndex = searchResults[searchIndex];
+            } else if (currentIndex > 0) {
+                do {
+                    currentIndex--;
+                } while (typeof blacklist !== 'undefined' && blacklist.includes(currentIndex) && currentIndex > 0);
+            }
+        } else {
+            if (typeof moveToNextQuestion === 'function') {
+                moveToNextQuestion();
+            }
+        }
+        if (typeof renderContent === 'function') {
+            renderContent();
+        }
+        return;
+    }
+
+    if (!isInputActive && !isSearchActive) {
+        if (event.key === 'ArrowLeft') {
+            event.preventDefault();
+            if (typeof isMissedMode !== 'undefined' && isMissedMode && missedQuestions.indexOf(currentIndex) > 0) {
+                currentIndex = missedQuestions[missedQuestions.indexOf(currentIndex) - 1];
+            } else if (typeof isSearchMode !== 'undefined' && isSearchMode && searchIndex > 0) {
+                searchIndex--;
+                currentIndex = searchResults[searchIndex];
+            } else if (currentIndex > 0) {
+                do {
+                    currentIndex--;
+                } while (typeof blacklist !== 'undefined' && blacklist.includes(currentIndex) && currentIndex > 0);
+            }
+            if (typeof renderContent === 'function') {
+                renderContent();
+            }
+            return;
+        } else if (event.key === 'ArrowRight') {
+            event.preventDefault();
+            if (typeof moveToNextQuestion === 'function') {
+                moveToNextQuestion();
+            }
+            if (typeof renderContent === 'function') {
+                renderContent();
+            }
+            return;
+        }
+    }
+
+    if (event.key === 'Enter') {
+        event.preventDefault();
+        if (isInputActive && typeof checkAnswer === 'function') {
+            checkAnswer();
+        } else if (typeof moveToNextQuestion === 'function') {
+            moveToNextQuestion();
+            if (typeof renderContent === 'function') {
+                renderContent();
+            }
+        }
+    }
+  });
+});
+  </script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js">
+   window.onload = function() {
+  window.addEventListener('keydown', window.keydownHandler);
+};
+  </script>
+<script>
+   let lessonData = [];
+        let jsonFiles = {};
+        window.currentIndex = 0;
+        let score = 0;
+        let answers = [];
+        let recentQuestions = [];
+        window.blacklist = [];
+        let wrongCount = {};
+        let priorityQueue = [];
+        window.missedQuestions = [];
+        let questionCounter = 0;
+        let isRandomOrder = false;
+        let isTurkishQuestion = false;
+        let lastIndexBeforeJump = -1;
+        let autoNextTimeout = null;
+        let isAutoNextPaused = false;
+        let lastSequentialIndex = 0;
+        window.searchResults = [];
+        window.searchIndex = 0;
+        window.isSearchMode = false;
+        let isResultShown = false;
+        let isSpeechEnabled = false;
+        let isLatinVisible = false;
+        let isRepeatWrongEnabled = false;
+        let isSoundEnabled = false;
+        window.isMissedMode = false;
+        let isBulgarianKeyboard = true;
+        let isCapsOn = false;
+        let isItalicEnabled = false;
+
+        
+
+
+async function loadParagraphs() {
+  const container = document.getElementById("paragraph-files");
+  if (!container) return;
+  for (const para of paragraphUrls) {
+    try {
+      const res = await fetch(para.url);
+      if (!res.ok) throw new Error();
+      const data = await res.json();
+      const btn = document.createElement("button");
+      btn.textContent = para.name;
+      btn.className = "btn btn-outline-primary w-100 mb-2";
+      btn.onclick = () => renderParagraph(data[0]);
+      container.appendChild(btn);
+    } catch (e) {
+      console.error(`Paragraf yüklenemedi: ${para.name}`);
+    }
+  }
+}
+
+function renderParagraph(paragraph) {
+  const contentDiv = document.getElementById("content");
+  const isBG = !isTurkishQuestion;
+  const text = isBG ? paragraph.bg : paragraph.tr;
+  const matchWords = isBG ? paragraph.tr.split(/\s+/) : paragraph.bg.split(/\s+/);
+  const bgWords = text.split(/\s+/);
+  const wordMap = new Map();
+  bgWords.forEach((w, i) => {
+    const clean = w.replace(/[^\wа-яА-ЯёЁ]/gi, '');
+    const tooltip = matchWords[i] || '';
+    wordMap.set(clean, tooltip);
+  });
+
+  const sentence = bgWords.map(w => {
+    const base = w.replace(/[^\wа-яА-ЯёЁ]/gi, '');
+    const title = wordMap.get(base) || '';
+    return `<span class="paragraph-word" title="${title}" onclick="addToWordList('${base}', '${title}')">${w}</span>`;
+  }).join(' ');
+
+  contentDiv.innerHTML = `
+    <div class="card-body">
+      <h5 class="card-title">${paragraph.title} <span id="unknown-count" style="font-size:0.8em; color:gray;">(kelimeler=0)</span></h5>
+      <p>${sentence}</p>
+      <div class="mt-3">
+        <h6>Bilinmeyen Kelimeler</h6>
+        <ul id="word-list" class="list-group"></ul>
+      </div>
+    </div>
+  `;
+}
+
+
+function addToWordList(bg, tr) {
+  const allWords = document.querySelectorAll('.paragraph-word');
+  allWords.forEach(word => {
+    if (word.textContent.trim() === bg.trim()) {
+      word.classList.add('selected-word');
+    }
+  });
+
+      const ul = document.getElementById("word-list");
+    const id = bg + "=" + tr;
+    
+    if (document.getElementById(id)) return;
+ const previouslyHighlighted = document.querySelectorAll(`.paragraph-word.selected-word[data-bg='${bg}']`);
+    previouslyHighlighted.forEach(span => span.classList.remove('selected-word'));
+
+    const li = document.createElement("li");
+    li.textContent = `${bg} = ${tr}`;
+    li.id = id;
+    li.className = "list-group-item";
+    li.onclick = () => {
+        const matchingSpans = document.querySelectorAll('.paragraph-word');
+        matchingSpans.forEach(span => {
+            if (span.textContent.trim() === bg.trim()) {
+                span.classList.remove('selected-word');
+            }
+        });
+        li.remove();
+        const countEl = document.getElementById("unknown-count");
+        if (countEl) {
+            const current = parseInt(countEl.textContent.match(/\d+/)?.[0] || "1");
+            countEl.textContent = `(kelimeler=${current - 1})`;
+        }
+        saveParagraphState(); // Değişikliği kaydet
+    };
+    ul.appendChild(li);
+    
+    const countEl = document.getElementById("unknown-count");
+    if (countEl) {
+        const current = parseInt(countEl.textContent.match(/\d+/)?.[0] || "0");
+        countEl.textContent = `(kelimeler=${current + 1})`;
+    }
+    
+    saveParagraphState(); // Yeni kelime eklendiğinde kaydet
+};
+
+
+
+        const numberToText = {
+            "0": "sıfır", "1": "bir", "2": "iki", "3": "üç", "4": "dört", "5": "beş",
+            "6": "altı", "7": "yedi", "8": "sekiz", "9": "dokuz", "10": "on",
+            "11": "onbir", "12": "oniki", "13": "onüç", "14": "ondört", "15": "onbeş",
+            "16": "onaltı", "17": "onyedi", "18": "onsekiz", "19": "ondokuz", "20": "yirmi",
+            "30": "otuz", "40": "kırk", "50": "elli", "60": "altmış", "70": "yetmiş",
+            "80": "seksen", "90": "doksan", "100": "yüz"
+        };
+        const textToNumber = Object.fromEntries(Object.entries(numberToText).map(([key, value]) => [value, key]));
+        const cyrillicToLatin = {
+            "А": "A", "Б": "B", "В": "V", "Г": "G", "Д": "D", "Е": "E", "Ж": "ZH",
+            "З": "Z", "И": "I", "Й": "Y", "К": "K", "Л": "L", "М": "M", "Н": "N",
+            "О": "O", "П": "P", "Р": "R", "С": "S", "Т": "T", "У": "U", "Ф": "F",
+            "Х": "H", "Ц": "TS", "Ч": "CH", "Ш": "SH", "Щ": "SHT", "Ъ": "A", "Ь": "",
+            "Ю": "YU", "Я": "YA", "Ѝ": "I"
+        };
+        const possessivePronouns = {
+            "benim": ["МОЯТ (moyat)", "МОЯТА (moyata)", "МОЕТО (moeto)", "МОИТЕ (moite)"],
+            "senin": ["ТВОЯТ (tvoyat)", "ТВОЯТА (tvoyata)", "ТВОЕТО (tvoeto)", "ТВОИТЕ (tvoite)"],
+            "onun_erkek": ["НЕГОВИЯТ (negoviyat)", "НЕГОВАТА (negovata)", "НЕГОВОТО (negovoto)", "НЕГОВИТЕ (negovite)"],
+            "onun_kadın": ["НЕЙНИЯТ (neyniyat)", "НЕЙНАТА (neynata)", "НЕЙНОТО (neynoto)", "НЕЙНИТЕ (neynite)"],
+            "bizim": ["НАШИЯТ (naşiyat)", "НАШАТА (naşata)", "НАШЕТО (naşeto)", "НАШИТЕ (naşite)"],
+            "sizin": ["ВАШИЯТ (vaşiyat)", "ВАШАТА (vaşata)", "ВАШЕТО (vaşeto)", "ВАШИТЕ (vaşite)"],
+            "onların": ["ТЕХНИЯТ (tehniyat)", "ТЯХНАТА (tyahnata)", "ТЯХНОТО (tyahnoto)", "ТЕХНИТЕ (tehnite)"]
+        };
+        const shortPossessivePronouns = {
+            "benim": "МИ (mi)",
+            "senin": "ТИ (ti)",
+            "onun_erkek": "МУ (mu)",
+            "onun_kadın": "И (i)",
+            "bizim": "НИ (ni)",
+            "sizin": "ВИ (vi)",
+            "onların": "ИМ (im)"
+        };
+        const demonstrativePronouns = {
+            "bu": ["ТОЗИ (TOZİ)", "ТАЗИ (TAZİ)", "ТОВА (TOVA)", "ТЕЗИ (TEZİ)"],
+            "şu_o": ["ОНЗИ (ONZİ)", "ОНАЗИ (ONAZİ)", "ОНОВА (ONOVA)", "ОНЕЗИ (ONEZİ)"]
+        };
+        const prepositions = [
+            ["В (V)", "İçinde, -de, -da", "КНИГАТА Е В ЧАНТАТА", "Kitap çantanın içinde"],
+            ["За (Za)", "İçin", "ТОВА Е ЧАНТА ЗА КНИГИ", "Bu çanta kitap için"],
+            ["С (S)", "İle, birlikte", "ТОЙ ИДВА С КОЛА", "O, araba ile geliyor"],
+            ["ДО (Do)", "Yanında; -e kadar", "РАБОТИ ДО 5 ЧАСА", "Saat 5'e kadar çalışıyor"],
+            ["СЛЕД (Sled)", "Sonra", "ЩЕ ДОЙДА СЛЕД ВЕЧЕРЯ", "Yemekten sonra geleceğim"],
+            ["ОТ (Ot)", "-den, -dan", "ИДВА ОТ УЧИЛИЩЕ", "Okuldan geliyor"],
+            ["НА (Na)", "-nın/-nin, -e/-a üzerinde", "КНИГАТА Е НА МАСАТА", "Kitap masanın üzerinde"]
+        ];
+        const questionParticles = { "li": "ЛИ (li) - Soru eki, cümleyi soru haline getirir" };
+        const bulgarianKeys = [
+            'А', 'Б', 'В', 'Г', 'Д', 'Е', 'Ж', 'З', 'И', 'Й', 'К', 'Л', 'М', 'Н', 'О', 'П', 'Р', 'С', 'Т', 'У', 'Ф', 'Х', 'Ц', 'Ч', 'Ш', 'Щ', 'Ъ', 'Ь', 'Ю', 'Я',
+            '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', '.', ',', '!', '?', ';', ':', '"', "'"
+        ];
+        const turkishKeys = [
+            'A', 'B', 'C', 'Ç', 'D', 'E', 'F', 'G', 'Ğ', 'H', 'I', 'İ', 'J', 'K', 'L', 'M', 'N', 'O', 'Ö', 'P', 'R', 'S', 'Ş', 'T', 'U', 'Ü', 'V', 'Y', 'Z',
+            '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', '.', ',', '!', '?', ';', ':', '"', "'"
+        ];
+
+        const githubLessonUrls = [
+            { name: "Ders 1", url: "https://raw.githubusercontent.com/mustafasacar35/dersler_dosyalar/main/DERS_1.JSON" },
+            { name: "Ders 2", url: "https://raw.githubusercontent.com/mustafasacar35/dersler_dosyalar/main/DERS_2.JSON" },
+            { name: "Ders 3", url: "https://raw.githubusercontent.com/mustafasacar35/dersler_dosyalar/main/DERS_3.JSON" },
+            { name: "Ders 4", url: "https://raw.githubusercontent.com/mustafasacar35/dersler_dosyalar/main/DERS_4.JSON" },
+            { name: "Ders 5", url: "https://raw.githubusercontent.com/mustafasacar35/dersler_dosyalar/main/DERS_5.JSON" },
+            { name: "Ders 6", url: "https://raw.githubusercontent.com/mustafasacar35/dersler_dosyalar/main/DERS_6.JSON" },
+            { name: "Ders 7", url: "https://raw.githubusercontent.com/mustafasacar35/dersler_dosyalar/main/DERS_7.JSON" },
+            { name: "Ders 8", url: "https://raw.githubusercontent.com/mustafasacar35/dersler_dosyalar/main/DERS_8.JSON" },
+            { name: "Ders 9", url: "https://raw.githubusercontent.com/mustafasacar35/dersler_dosyalar/main/DERS_9.JSON" },
+            { name: "Ders 9 - Fiiller", url: "https://raw.githubusercontent.com/mustafasacar35/dersler_dosyalar/main/DERS_9_fiiller.JSON" },
+            { name: "Ders 10", url: "https://raw.githubusercontent.com/mustafasacar35/dersler_dosyalar/main/DERS_10.JSON" },
+            { name: "Ders 11", url: "https://raw.githubusercontent.com/mustafasacar35/dersler_dosyalar/main/DERS_11.JSON" },
+            { name: "Ders 12", url: "https://raw.githubusercontent.com/mustafasacar35/dersler_dosyalar/main/DERS_12.JSON" },
+        ];
+
+async function loadAllLessons() {
+    for (const lesson of githubLessonUrls) {
+        try {
+            const response = await fetch(lesson.url);
+            if (!response.ok) throw new Error(`Ders yüklenemedi: ${lesson.name} - ${response.status}`);
+            const data = await response.json();
+            // Sadece "Ders 1" için selected: true, diğerleri için false
+            jsonFiles[lesson.name] = { data: data, selected: lesson.name === "Ders 1" };
+        } catch (error) {
+            console.error(`Hata: ${lesson.name} yüklenemedi - ${error.message}`);
+        }
+    }
+    updateLessonData();
+    updateJsonFilesList();
+    updateJsonFilesList(); renderContent();
+    updateSlider();
+}
+
+        function cyrillicToLatinText(text) {
+            return text.split('').map(char => cyrillicToLatin[char] || char).join('').toUpperCase();
+        }
+
+        function normalizeText(text) {
+            let normalized = text
+                .toLowerCase()
+                .normalize('NFKD')
+                .replace(/[\u0300-\u036f]/g, '')
+                .replace(/[ıİ]/g, 'i')
+                .replace(/[iI]/g, 'i')
+                .replace(/sh/g, 'ş')
+                .replace(/zh/g, 'j')
+                .replace(/ch/g, 'ç')
+                .replace(/sht/g, 'şt')
+                .replace(/ъ/g, 'ı')
+                .replace(/[^\w\s]/g, '')
+                .replace(/\s+/g, ' ')
+                .trim();
+
+            const words = normalized.split(/\s+/);
+            const numberNormalized = words.map(word => textToNumber[word] || word).join(' ');
+            const textNormalized = words.map(word => numberToText[word] || word).join(' ');
+            const joined = words.join('');
+            const numberJoined = numberNormalized.replace(/\s+/g, '');
+            const textJoined = textNormalized.replace(/\s+/g, '');
+
+            return {
+                original: normalized,
+                numberForm: numberNormalized,
+                textForm: textNormalized,
+                joinedForm: joined,
+                numberJoinedForm: numberJoined,
+                textJoinedForm: textJoined
+            };
+        }
+
+        function isCyrillic(text) {
+            return /[А-ЯЁЪЬ]/i.test(text.charAt(0));
+        }
+
+        function cleanTextForSpeech(text) {
+            return text.replace(/\s*\(.*?\)\s*/g, ' ').trim();
+        }
+
+function cleanTextForDisplay(text, preserveCase = false) {
+    // Parantez içindeki metinleri kaldır (isteğe bağlı, bazı durumlarda korunabilir)
+    const baseText = text.replace(/\s*\(.*?\)\s*/g, '').trim();
+    
+    if (!isCyrillic(baseText)) {
+        return baseText; // Kiril alfabesi değilse değişiklik yapma
+    }
+    
+    // Kiril alfabesi için formatlamaları uygula
+    let formattedText = baseText;
+    
+    // Stil sınıflarını ekle
+    let classes = ['cyrillicText'];
+    if (window.globalFontState) {
+        classes.push('bahnschrift-font');
+    }
+    if (isItalicEnabled) {
+        classes.push('italic-text');
+    }
+    // Büyük/küçük harf yönetimi tamamen CSS ile
+    if (window.globalCaseState === 1) {
+        classes.push('sentence-case');
+    } else if (window.globalCaseState === 2) {
+        classes.push('uppercase-text');
+    } else {
+        classes.push('lowercase-text');
+    }
+    
+    // Latin görünümü için
+    if (isLatinVisible && !isTurkishQuestion) {
+        return `<span class="${classes.join(' ')}">${formattedText}</span> (${cyrillicToLatinText(baseText)})`;
+    }
+    
+    return `<span class="${classes.join(' ')}">${formattedText}</span>`;
+}
+        
+function playSound(type) {
+            if (!isSoundEnabled) return;
+            const audio = new Audio(type === 'correct' 
+                ? 'https://www.myinstants.com/media/sounds/correct-ding.mp3'
+                : 'https://www.myinstants.com/media/sounds/wrong-buzzer.mp3');
+            audio.play();
+        }
+
+        function speakText(text) {
+            if (isSpeechEnabled && 'speechSynthesis' in window) {
+                const cleanText = cleanTextForSpeech(text);
+                const utterance = new SpeechSynthesisUtterance(cleanText);
+                const isBulgarian = isCyrillic(cleanText);
+                utterance.lang = isBulgarian ? 'bg-BG' : 'tr-TR';
+                utterance.rate = 0.9;
+                utterance.pitch = 1.0;
+
+                const availableVoices = speechSynthesis.getVoices();
+                const hasBulgarianVoice = availableVoices.some(voice => voice.lang === 'bg-BG');
+                if (isBulgarian && !hasBulgarianVoice) {
+                    utterance.text = cyrillicToLatinText(cleanText);
+                    utterance.lang = 'tr-TR';
+                }
+
+                speechSynthesis.cancel();
+                speechSynthesis.speak(utterance);
+
+                const title = document.querySelector('.card-title');
+                if (title) title.classList.add('speaking');
+                utterance.onend = () => { if (title) title.classList.remove('speaking'); };
+            }
+        }
+
+        window.addEventListener('load', () => {
+            speechSynthesis.getVoices();
+            loadAllLessons();
+  
+        });
+
+        function levenshteinDistance(a, b) {
+            const matrix = Array(b.length + 1).fill(null).map(() => Array(a.length + 1).fill(null));
+            for (let i = 0; i <= a.length; i++) matrix[0][i] = i;
+            for (let j = 0; j <= b.length; j++) matrix[j][0] = j;
+            for (let j = 1; j <= b.length; j++) {
+                for (let i = 1; i <= a.length; i++) {
+                    const indicator = a[i - 1] === b[j - 1] ? 0 : 1;
+                    matrix[j][i] = Math.min(
+                        matrix[j][i - 1] + 1,
+                        matrix[j - 1][i] + 1,
+                        matrix[j - 1][i - 1] + indicator
+                    );
+                }
+            }
+            return matrix[b.length][a.length];
+        }
+
+        function isAnswerCloseEnough(input, correct) {
+            const inputNorm = typeof input === 'string' ? normalizeText(input) : input;
+            const correctNorm = typeof correct === 'string' ? normalizeText(correct) : correct;
+            const inputWords = inputNorm.original.split(/\s+/);
+            const correctWords = correctNorm.original.split(/\s+/);
+
+            if (Math.abs(inputWords.length - correctWords.length) > 1) return false;
+
+            function isTransposition(word1, word2) {
+                if (word1.length !== word2.length || Math.abs(word1.length - word2.length) > 1) return false;
+                if (word1 === word2) return true;
+
+                let diffCount = 0;
+                let diffPositions = [];
+                for (let i = 0; i < word1.length; i++) {
+                    if (word1[i] !== word2[i]) {
+                        diffCount++;
+                        diffPositions.push(i);
+                        if (diffCount > 2) return false;
+                    }
+                }
+                if (diffCount !== 2) return false;
+
+                const [pos1, pos2] = diffPositions;
+                return word1[pos1] === word2[pos2] && word1[pos2] === word2[pos1];
+            }
+
+            const matches = inputWords.every((inputWord, i) => {
+                if (i >= correctWords.length) return true;
+                const correctWord = correctWords[i];
+                return (
+                    inputWord === correctWord ||
+                    levenshteinDistance(inputWord, correctWord) <= 1 ||
+                    isTransposition(inputWord, correctWord)
+                );
+            });
+
+            const coversAll = correctWords.every((correctWord, i) => {
+                if (i >= inputWords.length) return true;
+                const inputWord = inputWords[i];
+                return (
+                    inputWord === correctWord ||
+                    levenshteinDistance(inputWord, correctWord) <= 1 ||
+                    isTransposition(inputWord, correctWord)
+                );
+            });
+
+            return matches && coversAll;
+        }
+
+        function getActiveQuestionCount() {
+            return isMissedMode ? missedQuestions.length : isSearchMode ? searchResults.length : lessonData.length - blacklist.length;
+        }
+
+        function getTotalQuestionCount() {
+            return Object.values(jsonFiles).reduce((sum, file) => sum + file.data.length, 0);
+        }
+
+        function extractParentheticalWords(question) {
+            const match = question.match(/\((.*?)\)/);
+            if (!match) return [];
+            return match[1].split(' - ')[0].trim().split(/\s+/);
+        }
+
+        function extractBaseAnswer(answer) {
+            const match = answer.match(/^(.*?)\s*\((.*?)\)$/);
+            return match ? [match[1].trim(), answer] : [answer, answer];
+        }
+
+        function generateCombinations(words, baseAnswer) {
+            const results = [baseAnswer];
+            const combos = [];
+            for (let i = 1; i < (1 << words.length); i++) {
+                const combo = [];
+                for (let j = 0; j < words.length; j++) {
+                    if (i & (1 << j)) combo.push(words[j]);
+                }
+                combos.push(combo);
+            }
+            combos.forEach(combo => {
+                const permutations = getPermutations(combo);
+                permutations.forEach(perm => {
+                    results.push(`${perm.join(' ')} ${baseAnswer}`);
+                });
+            });
+            return results;
+        }
+
+        function getPermutations(arr) {
+            if (arr.length === 0) return [[]];
+            const result = [];
+            for (let i = 0; i < arr.length; i++) {
+                const rest = arr.slice(0, i).concat(arr.slice(i + 1));
+                const subPerms = getPermutations(rest);
+                subPerms.forEach(subPerm => {
+                    result.push([arr[i]].concat(subPerm));
+                });
+            }
+            return result;
+        }
+
+        function saveState() {
+            const state = {
+                currentIndex, score, answers, recentQuestions, blacklist, wrongCount, priorityQueue,
+                missedQuestions, questionCounter, isRandomOrder, isTurkishQuestion, lastSequentialIndex,
+                searchResults, searchIndex, isSearchMode, isSpeechEnabled, isLatinVisible, isRepeatWrongEnabled,
+                isSoundEnabled, jsonFiles, isMissedMode, isBulgarianKeyboard, isCapsOn
+            };
+            const defaultName = 'bulgarca_app_state.json';
+            const fileName = prompt("Durumu kaydetmek için bir dosya adı girin:", defaultName) || defaultName;
+            const jsonStr = JSON.stringify(state, null, 2);
+            const blob = new Blob([jsonStr], { type: 'application/json' });
+            const url = URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = fileName.endsWith('.json') ? fileName : `${fileName}.json`;
+            a.click();
+            URL.revokeObjectURL(url);
+            localStorage.setItem('bulgarcaAppState', jsonStr);
+            alert(`Durum '${a.download}' olarak kaydedildi!`);
+        }
+
+        async function loadSavedState() {
+    try {
+        const response = await fetch('https://raw.githubusercontent.com/mustafasacar35/dersler_dosyalar/main/state.json');
+        if (!response.ok) throw new Error(`GitHub'dan durum yüklenemedi: ${response.status}`);
+        
+        const state = await response.json();
+        console.log("GitHub'dan yüklenen durum:", state);
+        
+        // Önce localStorage'ı temizle
+        localStorage.clear();
+        
+        // Paragraf seçimlerini localStorage'a kaydet
+        if (state.paragraphSelections) {
+            localStorage.setItem("paragraphSelections", JSON.stringify(state.paragraphSelections));
+            console.log("Paragraf seçimleri yüklendi:", state.paragraphSelections);
+        }
+        
+        // Diğer durumları uygula
+        applyState(state);
+        
+        // Eğer aktif bir paragraf varsa, durumunu güncelle
+        const currentTitle = document.querySelector(".card-title")?.textContent?.split("(")[0]?.trim();
+        if (currentTitle) {
+            restoreParagraphState(currentTitle);
+        }
+        
+        alert("Durum GitHub'dan başarıyla yüklendi!");
+    } catch (error) {
+        console.error('GitHub durum yükleme hatası:', error);
+        alert("GitHub'dan yükleme başarısız: " + error.message);
+    }
+}
+if (typeof window.saveToGitHub === 'function') {
+    window.saveToGitHub = saveToGitHub;
+}
+
+if (typeof window.loadSavedState === 'function') {
+    window.loadSavedState = loadSavedState;
+}
+
+console.log("Paragraf durum yönetimi düzeltmeleri yüklendi!");
+        function applyState(state) {
+            currentIndex = state.currentIndex || 0;
+            score = state.score || 0;
+            answers = state.answers || [];
+            recentQuestions = state.recentQuestions || [];
+            blacklist = state.blacklist || [];
+            wrongCount = state.wrongCount || {};
+            priorityQueue = state.priorityQueue || [];
+            missedQuestions = state.missedQuestions || [];
+            questionCounter = state.questionCounter || 0;
+            isRandomOrder = state.isRandomOrder || false;
+            isTurkishQuestion = state.isTurkishQuestion || false;
+            lastSequentialIndex = state.lastSequentialIndex || 0;
+            searchResults = state.searchResults || [];
+            searchIndex = state.searchIndex || 0;
+            isSearchMode = state.isSearchMode || false;
+            isSpeechEnabled = state.isSpeechEnabled || false;
+            isLatinVisible = state.isLatinVisible || false;
+            isRepeatWrongEnabled = state.isRepeatWrongEnabled !== undefined ? state.isRepeatWrongEnabled : true;
+            isSoundEnabled = state.isSoundEnabled || false;
+            jsonFiles = state.jsonFiles || {};
+            isMissedMode = state.isMissedMode || false;
+            isBulgarianKeyboard = state.isBulgarianKeyboard !== undefined ? state.isBulgarianKeyboard : true;
+            isCapsOn = state.isCapsOn || false;
+            lessonData = [];
+            Object.entries(jsonFiles).forEach(([name, file]) => {
+                if (file.selected) lessonData = lessonData.concat(file.data);
+            });
+            updateUIFromState();
+            renderContent();
+            updateSlider();
+        }
+
+        function updateUIFromState() {
+    document.getElementById('toggleOrderBtn').innerText = `Sıralı Mod (Şu an: ${isRandomOrder ? 'Rastgele' : 'Sıralı'})`;
+    document.getElementById('toggleLangBtn').innerText = isTurkishQuestion ? 'Bulgarca Sorulara Geç' : 'Türkçe Sorulara Geç';
+    document.getElementById('toggleSpeechBtn').innerText = `Sesli Okuma (${isSpeechEnabled ? 'Açık' : 'Kapalı'})`;
+    document.getElementById('toggleSoundBtn').innerText = `Ses Efektleri (${isSoundEnabled ? 'Açık' : 'Kapalı'})`;
+    document.getElementById('toggleRepeatWrongBtn').innerText = `Yanlışları Tekrarla (${isRepeatWrongEnabled ? 'Açık' : 'Kapalı'})`;
+    document.getElementById('toggleLatinBtn').innerText = `Latince Göster (${isLatinVisible ? 'Açık' : 'Kapalı'})`;
+    document.getElementById('toggleItalicBtn').innerText = `İtalik Yazı (${isItalicEnabled ? 'Açık' : 'Kapalı'})`;
+    document.getElementById('toggleThemeBtn').innerText = document.body.classList.contains('dark-theme') ? 'Açık Tema' : 'Koyu Tema';
+    document.getElementById('score').innerText = `Puan: ${score}`;
+    
+    // Format butonlarını güncelle
+    document.getElementById('toggleFontBtn').innerText = window.globalFontState ? 
+        'Normal Font' : 'Bahnschrift Font';
+    
+    // Büyük/küçük harf butonu metnini güncelle
+    let caseButtonText = 'Büyük/Küçük Harf';
+    if (window.globalCaseState === 1) {
+        caseButtonText = 'İlk Harf Büyük';
+    } else if (window.globalCaseState === 2) {
+        caseButtonText = 'TÜMÜ BÜYÜK';
+    } else {
+        caseButtonText = 'tümü küçük';
+    }
+    document.getElementById('toggleCaseBtn').innerText = caseButtonText;
+    
+    updateJsonFilesList();
+    updateProgressBar();
+    updateMissedQuestions();
+    
+   }
+        function resetState() {
+            localStorage.removeItem('bulgarcaAppState');
+            currentIndex = 0;
+            score = 0;
+            answers = [];
+            recentQuestions = [];
+            blacklist = [];
+            wrongCount = {};
+            priorityQueue = [];
+            missedQuestions = [];
+            questionCounter = 0;
+            isRandomOrder = false;
+            isTurkishQuestion = false;
+            lastIndexBeforeJump = -1;
+            lastSequentialIndex = 0;
+            searchResults = [];
+            searchIndex = 0;
+            isSearchMode = false;
+            isSpeechEnabled = false;
+            isLatinVisible = false;
+            isRepeatWrongEnabled = true;
+            isSoundEnabled = false;
+            isMissedMode = false;
+            isBulgarianKeyboard = true;
+            isCapsOn = false;
+            jsonFiles = {};
+            lessonData = [];
+            loadAllLessons();
+  
+            updateUIFromState();
+            renderContent();
+            alert("Durum sıfırlandı!");
+        }
+
+        function saveToGitHub() {
+            Object.entries(jsonFiles).forEach(([name, file]) => {
+                
+            });
+            }
+
+        function updateLessonData() {
+            lessonData = [];
+            Object.entries(jsonFiles).forEach(([name, file]) => {
+                if (file.selected) {
+                    lessonData = lessonData.concat(file.data);
+                }
+            });
+            currentIndex = lessonData.length > 0 ? Math.min(currentIndex, lessonData.length - 1) : 0;
+            answers = Array(lessonData.length).fill(null);
+            recentQuestions = [];
+            blacklist = [];
+            wrongCount = {};
+            priorityQueue = [];
+            missedQuestions = [];
+            renderContent();
+            updateSlider();
+        }
+
+        function updateProgressBar() {
+            const progress = getActiveQuestionCount() > 0 ? ((currentIndex + 1) / getActiveQuestionCount()) * 100 : 0;
+            const progressBar = document.getElementById('progressBar');
+            progressBar.style.width = `${progress}%`;
+            progressBar.setAttribute('aria-valuenow', progress);
+        }
+
+        function updateSlider() {
+            const slider = document.getElementById('question-slider');
+            const totalQuestions = getActiveQuestionCount();
+            slider.max = totalQuestions - 1;
+            slider.value = isMissedMode ? missedQuestions.indexOf(currentIndex) : isSearchMode ? searchIndex : currentIndex;
+
+            const progressPercentage = totalQuestions > 0 ? Math.round(((slider.value / slider.max) * 100)) : 0;
+            const percentageSpan = document.getElementById('progress-percentage');
+            if (percentageSpan) percentageSpan.innerText = `${progressPercentage}%`;
+
+            const currentQuestionNumber = isMissedMode ? missedQuestions.indexOf(currentIndex) + 1 : isSearchMode ? searchIndex + 1 : currentIndex + 1;
+            const questionCountSpan = document.getElementById('question-count');
+            if (questionCountSpan) questionCountSpan.innerText = `${currentQuestionNumber} / ${totalQuestions}`;
+        }
+
+function renderPossessiveTable(matchedWord) {
+    let tableHTML = `
+        <div class="reference-table possessive-table">
+            <h6>TAM İYELİK ZAMİRLERİ:</h6>
+            <p>Tam iyelik zamirleri, isimden önce ya da vurgu gerektiğinde kullanılır.</p>
+            <table>
+                <thead>
+                    <tr>
+                        <th></th>
+                        <th>Eril</th>
+                        <th>Dişil</th>
+                        <th>Nötr</th>
+                        <th>Çoğul</th>
+                    </tr>
+                </thead>
+                <tbody>
+    `;
+    const rows = [
+        ["Benim", possessivePronouns["benim"]],
+        ["Senin", possessivePronouns["senin"]],
+        ["Onun (erkek)", possessivePronouns["onun_erkek"]],
+        ["Onun (kadın)", possessivePronouns["onun_kadın"]],
+        ["Bizim", possessivePronouns["bizim"]],
+        ["Sizin", possessivePronouns["sizin"]],
+        ["Onların", possessivePronouns["onların"]]
+    ];
+    rows.forEach(([label, pronouns]) => {
+        tableHTML += `<tr><td>${label}</td>`;
+        pronouns.forEach(pronoun => {
+            const word = pronoun.split(' ')[0];
+            const isHighlighted = matchedWord && word === matchedWord;
+            const formattedPronoun = cleanTextForDisplay(pronoun);
+            tableHTML += `<td class="${isHighlighted ? 'highlight' : ''}" data-word="${word}">${formattedPronoun}</td>`;
+        });
+        tableHTML += `</tr>`;
+    });
+    tableHTML += `</tbody></table></div>`;
+    return tableHTML;
+}
+       
+function renderShortPossessiveTable(matchedWord) {
+    let tableHTML = `
+        <div class="reference-table short-possessive-table">
+            <h6>KISA İYELİK ZAMİRLERİ:</h6>
+            <p>Kısa iyelik zamirleri günlük konuşmalarda çok sık kullanılır ve Bulgarca iletişimde temel bir rol oynar.</p>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Türkçe</th>
+                        <th>Bulgarca</th>
+                    </tr>
+                </thead>
+                <tbody>
+    `;
+    const rows = [
+        ["Benim", shortPossessivePronouns["benim"]],
+        ["Senin", shortPossessivePronouns["senin"]],
+        ["Onun (erkek)", shortPossessivePronouns["onun_erkek"]],
+        ["Onun (kadın)", shortPossessivePronouns["onun_kadın"]],
+        ["Bizim", shortPossessivePronouns["bizim"]],
+        ["Sizin", shortPossessivePronouns["sizin"]],
+        ["Onların", shortPossessivePronouns["onların"]]
+    ];
+    rows.forEach(([turkish, bulgarian]) => {
+        const word = bulgarian.split(' ')[0];
+        const isHighlighted = matchedWord && word === matchedWord;
+        const formattedBulgarian = cleanTextForDisplay(bulgarian);
+        tableHTML += `<tr><td>${turkish}</td><td class="${isHighlighted ? 'highlight' : ''}" data-word="${word}">${formattedBulgarian}</td></tr>`;
+    });
+    tableHTML += `</tbody></table></div>`;
+    return tableHTML;
+}
+        
+function renderDemonstrativeTable(matchedWord) {
+            let tableHTML = `
+                <div class="reference-table demonstrative-table">
+                    <h6>YAKIN NESNELER (BU) - UZAK NESNELER (ŞU/O):</h6>
+                    <p>Gösterim zamirleri, nesnelerin yakınlık veya uzaklığını belirtmek için kullanılır.</p>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Tür</th>
+                                <th>Eril</th>
+                                <th>Dişil</th>
+                                <th>Nötr</th>
+                                <th>Çoğul</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+            `;
+            const rows = [
+                ["BU", demonstrativePronouns["bu"]],
+                ["ŞU/O", demonstrativePronouns["şu_o"]]
+            ];
+            rows.forEach(([label, pronouns]) => {
+                tableHTML += `<tr><td>${label}</td>`;
+                pronouns.forEach(pronoun => {
+                    const word = pronoun.split(' ')[0];
+                    const isHighlighted = matchedWord && word === matchedWord;
+                    tableHTML += `<td class="${isHighlighted ? 'highlight' : ''}" data-word="${word}">${pronoun}</td>`;
+                });
+                tableHTML += `</tr>`;
+            });
+            tableHTML += `</tbody></table></div>`;
+            return tableHTML;
+        }
+
+        function renderPrepositionTable(matchedWord) {
+            let tableHTML = `
+                <div class="reference-table preposition-table">
+                    <h6>BULGARCADA EDATLAR:</h6>
+                    <p>Bulgarcada edatlar cümlede nesneler, kişiler ve olaylar arasındaki ilişkileri ifade etmek için kullanılır.</p>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Edat</th>
+                                <th>Türkçe Anlamı</th>
+                                <th>Örnek Cümle</th>
+                                <th>Anlamı</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+            `;
+            prepositions.forEach(row => {
+                tableHTML += `<tr>`;
+                row.forEach((cell, index) => {
+                    const word = index === 0 ? cell.split(' ')[0] : '';
+                    const isHighlighted = matchedWord && index === 0 && word === matchedWord;
+                    tableHTML += `<td class="${isHighlighted ? 'highlight' : ''}" data-word="${word}">${cell}</td>`;
+                });
+                tableHTML += `</tr>`;
+            });
+            tableHTML += `</tbody></table></div>`;
+            return tableHTML;
+        }
+
+        function renderQuestionParticlesTable(matchedWord) {
+            let tableHTML = `
+                <div class="reference-table question-particles-table">
+                    <h6>SORU EKLERİ:</h6>
+                    <p>Soru ekleri, Bulgarca'da cümleleri soru haline getirmek için kullanılır.</p>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Bulgarca</th>
+                                <th>Açıklama</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+            `;
+            const rows = [["ЛИ (li)", "Soru eki, cümleyi soru haline getirir"]];
+            rows.forEach(([bulgarian, description]) => {
+                const word = bulgarian.split(' ')[0];
+                const isHighlighted = matchedWord && word === matchedWord;
+                tableHTML += `<tr><td class="${isHighlighted ? 'highlight' : ''}" data-word="${word}">${bulgarian}</td><td>${description}</td></tr>`;
+            });
+            tableHTML += `</tbody></table></div>`;
+            return tableHTML;
+        }
+
+        function getReferenceTables(text) {
+            const words = text.split(/\s+/);
+            const allPossessives = Object.values(possessivePronouns).flat().map(p => p.split(' ')[0]);
+            const allShortPossessives = Object.values(shortPossessivePronouns).map(p => p.split(' ')[0]);
+            const allDemonstratives = Object.values(demonstrativePronouns).flat().map(p => p.split(' ')[0]);
+            const allPrepositions = prepositions.map(p => p[0].split(' ')[0]);
+            const allQuestionParticles = Object.values(questionParticles).map(p => p.split(' ')[0]);
+
+            const matchedPossessive = words.find(word => allPossessives.includes(word));
+            const matchedShortPossessive = words.find(word => allShortPossessives.includes(word));
+            const matchedDemonstrative = words.find(word => allDemonstratives.includes(word));
+            const matchedPreposition = words.find(word => allPrepositions.includes(word));
+            const matchedQuestionParticle = words.find(word => allQuestionParticles.includes(word));
+
+            let tables = '';
+            const tableOrder = [];
+
+            if (matchedPossessive) tableOrder.push({ type: 'possessive', word: matchedPossessive, index: text.indexOf(matchedPossessive) });
+            if (matchedShortPossessive) tableOrder.push({ type: 'shortPossessive', word: matchedShortPossessive, index: text.indexOf(matchedShortPossessive) });
+            if (matchedDemonstrative) tableOrder.push({ type: 'demonstrative', word: matchedDemonstrative, index: text.indexOf(matchedDemonstrative) });
+            if (matchedPreposition) tableOrder.push({ type: 'preposition', word: matchedPreposition, index: text.indexOf(matchedPreposition) });
+            if (matchedQuestionParticle) tableOrder.push({ type: 'questionParticle', word: matchedQuestionParticle, index: text.indexOf(matchedQuestionParticle) });
+
+            tableOrder.sort((a, b) => a.index - b.index);
+
+            tableOrder.forEach(item => {
+                if (item.type === 'possessive') tables += renderPossessiveTable(item.word);
+                else if (item.type === 'shortPossessive') tables += renderShortPossessiveTable(item.word);
+                else if (item.type === 'demonstrative') tables += renderDemonstrativeTable(item.word);
+                else if (item.type === 'preposition') tables += renderPrepositionTable(item.word);
+                else if (item.type === 'questionParticle') tables += renderQuestionParticlesTable(item.word);
+            });
+
+            return tables;
+        }
+
+        function updateTableFeedback(isCorrect, matchedWords) {
+            const tables = document.querySelectorAll('.reference-table');
+            tables.forEach(table => {
+                const cells = table.querySelectorAll('td[data-word]');
+                cells.forEach(cell => {
+                    const word = cell.getAttribute('data-word');
+                    if (matchedWords.includes(word)) {
+                        cell.classList.remove('highlight', 'correct-highlight', 'incorrect-highlight');
+                        if (isCorrect) {
+                            cell.classList.add('blink-correct');
+                            cell.classList.add('correct-highlight');
+                            cell.innerHTML = `✅ ${cell.innerHTML.replace(/^✅\s*|^❌\s*/, '')}`;
+                        } else {
+                            cell.classList.add('blink-incorrect');
+                            cell.classList.add('incorrect-highlight');
+                            cell.innerHTML = `❌ ${cell.innerHTML.replace(/^✅\s*|^❌\s*/, '')}`;
+                        }
+                        setTimeout(() => {
+                            cell.classList.remove('blink-correct', 'blink-incorrect');
+                        }, 1500);
+                    }
+                });
+            });
+        }
+
+        async function loadOnlineLesson(fileUrl, fileName = 'GitHubLesson.json') {
+            try {
+                const response = await fetch(fileUrl);
+                if (!response.ok) throw new Error('Ağ yanıtı başarısız: ' + response.status);
+                const newData = await response.json();
+                jsonFiles[fileName] = { data: newData, selected: true };
+                updateLessonData();
+                updateJsonFilesList();
+                score = 0;
+                document.getElementById('score').innerText = `Puan: 0`;
+                alert(`${fileName} başarıyla yüklendi!`);
+            } catch (error) {
+                alert("GitHub'dan ders yüklenemedi: " + error.message);
+            }
+        }
+
+        window.renderContent = function() {
+            const contentDiv = document.getElementById('content');
+            if (!contentDiv) return;
+
+            const tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'));
+            tooltipTriggerList.forEach(tooltipTriggerEl => {
+                const tooltip = bootstrap.Tooltip.getInstance(tooltipTriggerEl);
+                if (tooltip) tooltip.dispose();
+            });
+
+            if (!lessonData || lessonData.length === 0) {
+                contentDiv.innerHTML = '<div class="card-body"><p>Lütfen bir ders ekleyin.</p></div>';
+                return;
+            }
+
+            if (currentIndex < 0 || currentIndex >= lessonData.length) {
+                currentIndex = 0;
+            }
+
+            const item = lessonData[currentIndex];
+            if (!item || !item.question || !item.answer) {
+                contentDiv.innerHTML = '<div class="card-body"><p>Geçersiz veri formatı: Soru veya cevap eksik.</p></div>';
+                return;
+            }
+
+            let question = isTurkishQuestion ? item.answer : (Array.isArray(item.question) ? item.question[0] : item.question);
+            question = cleanTextForDisplay(question);
+            const tooltipAnswer = isTurkishQuestion 
+                ? (Array.isArray(item.question) ? item.question.map(q => `${q} - ${cyrillicToLatinText(q)}`).join(' / ') : `${item.question} - ${cyrillicToLatinText(item.question)}`)
+                : item.answer;
+
+            const referenceTables = getReferenceTables(question + ' ' + tooltipAnswer);
+
+            contentDiv.innerHTML = `
+                <div class="card-body ${isSearchMode ? 'search-active' : ''} ${isMissedMode ? 'missed-active' : ''}">
+                    <h5 class="card-title" data-bs-toggle="tooltip" data-bs-placement="top" title="${tooltipAnswer}">${question} <span class="edit-icon" onclick="editQuestion()">✏️</span> <span class="edit-icon" onclick="toggleBlacklist(${currentIndex})">${blacklist.includes(currentIndex) ? '✖' : '🚫'}</span></h5>
+                    <div class="input-group mb-3">
+                        <input type="text" class="form-control" id="input-answer" placeholder="Cevabınızı buraya yazın" value="${answers[currentIndex] || ''}">
+                        <button class="btn btn-outline-primary" onclick="checkAnswer()">Kontrol Et</button>
+                        <button id="prevBtn" class="btn btn-secondary me-2" ${isMissedMode ? (missedQuestions.indexOf(currentIndex) === 0) : isSearchMode ? (searchIndex === 0) : (currentIndex === 0) ? 'disabled' : ''}>Geri</button>
+                        <button id="nextBtn" class="btn btn-secondary" ${isMissedMode ? (missedQuestions.indexOf(currentIndex) === missedQuestions.length - 1) : currentIndex === lessonData.length - 1 || blacklist.includes(currentIndex) ? 'disabled' : ''}>İleri</button>
+                        <button class="btn btn-outline-warning" id="editBtn" onclick="enableEdit()" ${answers[currentIndex] ? '' : 'disabled'}>Düzenle</button>
+                    </div>
+                    <div id="result"></div>
+                    <p>Soru: ${isMissedMode ? missedQuestions.indexOf(currentIndex) + 1 : isSearchMode ? searchIndex + 1 : currentIndex + 1}/${getActiveQuestionCount()} (${getTotalQuestionCount()}) ${isMissedMode ? '(Bilemediklerim Modu)' : isSearchMode ? '(Arama Modu)' : ''}</p>
+                    ${referenceTables}
+                </div>
+            `;
+            updateRecentQuestions();
+            updateBlacklist();
+            updateMissedQuestions();
+            updateProgressBar();
+            updateSlider();
+
+            const newTooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'));
+            newTooltipTriggerList.map(function (tooltipTriggerEl) {
+                return new bootstrap.Tooltip(tooltipTriggerEl);
+            });
+
+            const input = document.getElementById('input-answer');
+            if (input && document.activeElement.id === 'input-answer') { input.focus();
+                input.removeEventListener('keypress', input._keypressHandler);
+                document.removeEventListener('keydown', document._keydownHandler);
+
+                // Türkçe sorular aktifse ve metin alanı etkinse klavyeyi aç
+                if (isTurkishQuestion && !input.disabled) {
+                    const keyboard = document.getElementById('virtual-keyboard');
+                    if (keyboard.style.display === 'none' || keyboard.style.display === '') {
+                        keyboard.style.display = 'block';
+                        renderKeyboard();
+                        document.getElementById('toggleKeyboardBtn').innerText = 'Klavye Kapat';
+                    }
+                }
+
+                
+
+window.keydownHandler = (event) => {
+    const inputAnswer = document.getElementById('input-answer');
+    const searchInput = document.getElementById('search-input');
+    const isInputActive = document.activeElement === inputAnswer;
+    const isSearchActive = document.activeElement === searchInput;
+
+    // Yukarı / Aşağı → Her zaman çalışır
+    if (event.key === 'ArrowUp' || event.key === 'ArrowDown') {
+        event.preventDefault();
+        if (event.key === 'ArrowUp') {
+            if (isMissedMode && missedQuestions.indexOf(currentIndex) > 0) {
+                currentIndex = missedQuestions[missedQuestions.indexOf(currentIndex) - 1];
+            } else if (isSearchMode && searchIndex > 0) {
+                searchIndex--;
+                currentIndex = searchResults[searchIndex];
+            } else if (currentIndex > 0) {
+                do {
+                    currentIndex--;
+                } while (blacklist.includes(currentIndex) && currentIndex > 0);
+            }
+        } else {
+            moveToNextQuestion();
+        }
+        renderContent();
+        return;
+    }
+
+    // Sağ / Sol → input'lar aktif değilse çalışır
+    if (!isInputActive && !isSearchActive) {
+        if (event.key === 'ArrowLeft') {
+            event.preventDefault();
+            if (isMissedMode && missedQuestions.indexOf(currentIndex) > 0) {
+                currentIndex = missedQuestions[missedQuestions.indexOf(currentIndex) - 1];
+            } else if (isSearchMode && searchIndex > 0) {
+                searchIndex--;
+                currentIndex = searchResults[searchIndex];
+            } else if (currentIndex > 0) {
+                do {
+                    currentIndex--;
+                } while (blacklist.includes(currentIndex) && currentIndex > 0);
+            }
+            renderContent();
+            return;
+        } else if (event.key === 'ArrowRight') {
+            event.preventDefault();
+            moveToNextQuestion();
+            renderContent();
+            return;
+        }
+    }
+
+    // Enter tuşu
+    if (event.key === 'Enter') {
+        event.preventDefault();
+        if (isInputActive) {
+            checkAnswer();
+        } else {
+            moveToNextQuestion();
+            renderContent();
+        }
+        return;
+    }
+
+document.removeEventListener('keydown', window.boundKeydownHandler);
+window.boundKeydownHandler = function(event) {
+    const input = document.getElementById('input-answer');
+    const isInputActive = document.activeElement === input;
+    const isSearchActive = document.activeElement === document.getElementById('search-input');
+
+    if (event.key === 'ArrowUp' || event.key === 'ArrowDown') {
+        event.preventDefault();
+        if (event.key === 'ArrowUp') {
+            if (isMissedMode && missedQuestions.indexOf(currentIndex) > 0) {
+                currentIndex = missedQuestions[missedQuestions.indexOf(currentIndex) - 1];
+            } else if (isSearchMode && searchIndex > 0) {
+                searchIndex--;
+                currentIndex = searchResults[searchIndex];
+            } else if (currentIndex > 0) {
+                do {
+                    currentIndex--;
+                } while (blacklist.includes(currentIndex) && currentIndex > 0);
+            }
+        } else {
+            moveToNextQuestion();
+        }
+        renderContent();
+        return;
+    }
+
+    if (!isInputActive && !isSearchActive) {
+        if (event.key === 'ArrowLeft') {
+            event.preventDefault();
+            if (isMissedMode && missedQuestions.indexOf(currentIndex) > 0) {
+                currentIndex = missedQuestions[missedQuestions.indexOf(currentIndex) - 1];
+            } else if (isSearchMode && searchIndex > 0) {
+                searchIndex--;
+                currentIndex = searchResults[searchIndex];
+            } else if (currentIndex > 0) {
+                do {
+                    currentIndex--;
+                } while (blacklist.includes(currentIndex) && currentIndex > 0);
+            }
+            renderContent();
+            return;
+        } else if (event.key === 'ArrowRight') {
+            event.preventDefault();
+            moveToNextQuestion();
+            renderContent();
+            return;
+        }
+    }
+
+    if (event.key === 'Enter') {
+        event.preventDefault();
+        if (isInputActive) {
+            checkAnswer();
+        } else {
+            moveToNextQuestion();
+            renderContent();
+        }
+        return;
+    }
+};
+document.addEventListener('keydown', window.boundKeydownHandler);
+
+};
+
+
+                document.addEventListener('keydown', keydownHandler);
+                document._keydownHandler = keydownHandler;
+
+                input._keypressHandler = (event) => {
+                    if (event.key === 'Enter') {
+                        event.preventDefault();
+                        if (!isResultShown) {
+                            checkAnswer();
+                        } else {
+                            if (autoNextTimeout) clearTimeout(autoNextTimeout);
+                            moveToNextQuestion();
+                            renderContent();
+                        }
+                    }
+                };
+            }
+
+            if (!isResultShown) {
+                contentDiv.addEventListener('click', function() {
+                    isAutoNextPaused = true;
+                    if (autoNextTimeout) {
+                        clearTimeout(autoNextTimeout);
+                        autoNextTimeout = null;
+                    }
+                }, { once: true });
+            }
+
+            if (answers[currentIndex] && !isAutoNextPaused) {
+                checkAnswer(true);
+            }
+
+            const prevBtn = document.getElementById('prevBtn');
+            const nextBtn = document.getElementById('nextBtn');
+            if (prevBtn) {
+                prevBtn.addEventListener('click', () => {
+                    if (isMissedMode) {
+                        const currentMissedIdx = missedQuestions.indexOf(currentIndex);
+                        if (currentMissedIdx > 0) {
+                            currentIndex = missedQuestions[currentMissedIdx - 1];
+                            renderContent();
+                        }
+                    } else if (isSearchMode) {
+                        if (searchIndex > 0) {
+                            searchIndex--;
+                            currentIndex = searchResults[searchIndex];
+                            renderContent();
+                        }
+                    } else if (currentIndex > 0) {
+                        do {
+                            currentIndex--;
+                        } while (blacklist.includes(currentIndex) && currentIndex > 0);
+                        renderContent();
+                    }
+                });
+            }
+            if (nextBtn) {
+                nextBtn.addEventListener('click', () => {
+                    moveToNextQuestion();
+                    renderContent();
+                });
+            }
+
+            if (autoNextTimeout) {
+                clearTimeout(autoNextTimeout);
+                autoNextTimeout = null;
+            }
+            isResultShown = false;
+
+            if (isSpeechEnabled) {
+                speakText(question);
+            }
+
+        }
+
+        window.checkAnswer = function(isReload = false) {
+    const input = document.getElementById('input-answer');
+    if (!input) return;
+    const inputValue = input.value.trim();
+    const item = lessonData[currentIndex];
+    let correctAnswers = isTurkishQuestion 
+        ? (Array.isArray(item.question) ? item.question : [item.question]) 
+        : [item.answer];
+
+    const baseCorrectAnswers = correctAnswers.map(a => extractBaseAnswer(a)[0]);
+    const normalizedCorrectAnswers = baseCorrectAnswers.map(a => normalizeText(a));
+    const latinCorrectAnswers = baseCorrectAnswers.map(a => normalizeText(cyrillicToLatinText(a)));
+    const inputNormalized = normalizeText(inputValue);
+
+    const questionText = isTurkishQuestion ? item.answer : (Array.isArray(item.question) ? item.question[0] : item.question);
+    const parentheticalWords = extractParentheticalWords(questionText);
+    const normalizedBaseAnswer = normalizeText(extractBaseAnswer(correctAnswers[0])[0]);
+    const extendedCorrectAnswers = parentheticalWords.length > 0 
+        ? generateCombinations(parentheticalWords.map(w => normalizeText(w).original), normalizedBaseAnswer.original) 
+        : [normalizedBaseAnswer.original];
+    const extendedLatinCorrectAnswers = parentheticalWords.length > 0 
+        ? generateCombinations(parentheticalWords.map(w => normalizeText(w).original), normalizeText(cyrillicToLatinText(extractBaseAnswer(correctAnswers[0])[0])).original) 
+        : [normalizeText(cyrillicToLatinText(extractBaseAnswer(correctAnswers[0])[0])).original];
+
+    let isCorrect = false;
+
+    if (inputValue === '') {
+        if (!isReload) {
+            answers[currentIndex] = inputValue;
+            wrongCount[currentIndex] = (wrongCount[currentIndex] || 0) + 1;
+            if (isRepeatWrongEnabled && !priorityQueue.includes(currentIndex)) priorityQueue.push(currentIndex);
+            if (!missedQuestions.includes(currentIndex)) missedQuestions.push(currentIndex);
+            playSound('incorrect');
+        }
+    } else {
+        const inputForms = [
+            inputNormalized.original.toLowerCase(),
+            inputNormalized.numberForm.toLowerCase(),
+            inputNormalized.textForm.toLowerCase(),
+            inputNormalized.joinedForm.toLowerCase(),
+            inputNormalized.numberJoinedForm.toLowerCase(),
+            inputNormalized.textJoinedForm.toLowerCase()
+        ];
+
+        if (isTurkishQuestion) {
+            // Türkçe soru, Bulgarca cevap bekleniyor
+            const allCorrectAnswers = extendedCorrectAnswers.flatMap(a => {
+                const norm = normalizeText(a);
+                return [
+                    norm.original.toLowerCase(),
+                    norm.numberForm.toLowerCase(),
+                    norm.textForm.toLowerCase(),
+                    norm.joinedForm.toLowerCase(),
+                    norm.numberJoinedForm.toLowerCase(),
+                    norm.textJoinedForm.toLowerCase()
+                ];
+            });
+            const allLatinCorrectAnswers = extendedLatinCorrectAnswers.flatMap(a => {
+                const norm = normalizeText(a);
+                return [
+                    norm.original.toLowerCase(),
+                    norm.numberForm.toLowerCase(),
+                    norm.textForm.toLowerCase(),
+                    norm.joinedForm.toLowerCase(),
+                    norm.numberJoinedForm.toLowerCase(),
+                    norm.textJoinedForm.toLowerCase()
+                ];
+            });
+
+            console.log("Türkçe soru - Doğru cevaplar (Kiril):", allCorrectAnswers);
+            console.log("Türkçe soru - Doğru cevaplar (Latin):", allLatinCorrectAnswers);
+            console.log("Girilen cevap:", inputForms);
+
+            isCorrect = allCorrectAnswers.some(a => inputForms.includes(a)) || 
+                        allLatinCorrectAnswers.some(a => inputForms.includes(a));
+        } else {
+            // Bulgarca soru, Türkçe cevap bekleniyor
+            const allCorrectAnswers = extendedCorrectAnswers.flatMap(a => {
+                const norm = normalizeText(a);
+                return [
+                    norm.original.toLowerCase(),
+                    norm.numberForm.toLowerCase(),
+                    norm.textForm.toLowerCase(),
+                    norm.joinedForm.toLowerCase(),
+                    norm.numberJoinedForm.toLowerCase(),
+                    norm.textJoinedForm.toLowerCase()
+                ];
+            });
+
+            console.log("Bulgarca soru - Doğru cevaplar:", allCorrectAnswers);
+            console.log("Girilen cevap:", inputForms);
+
+            isCorrect = allCorrectAnswers.some(a => inputForms.includes(a));
+        }
+
+        if (!isReload) {
+            answers[currentIndex] = inputValue;
+            if (isCorrect) {
+                if (!wrongCount[currentIndex]) score += 1;
+                delete wrongCount[currentIndex];
+                priorityQueue = priorityQueue.filter(i => i !== currentIndex);
+                missedQuestions = missedQuestions.filter(i => i !== currentIndex);
+                playSound('correct');
+            } else {
+                wrongCount[currentIndex] = (wrongCount[currentIndex] || 0) + 1;
+                if (isRepeatWrongEnabled && !priorityQueue.includes(currentIndex)) priorityQueue.push(currentIndex);
+                if (!missedQuestions.includes(currentIndex)) missedQuestions.push(currentIndex);
+                playSound('incorrect');
+            }
+        }
+    }
+
+    const fullCorrectAnswer = isTurkishQuestion 
+        ? correctAnswers.map(a => `${a}${isLatinVisible ? ` (${cyrillicToLatinText(a)})` : ''}`).join(' / ')
+        : correctAnswers.map(a => `${a}${isLatinVisible ? ` - ${cyrillicToLatinText(a)}` : ''}`).join(' / ');
+
+    const words = (questionText + ' ' + fullCorrectAnswer).split(/\s+/);
+    const allPossessives = Object.values(possessivePronouns).flat().map(p => p.split(' ')[0]);
+    const allShortPossessives = Object.values(shortPossessivePronouns).map(p => p.split(' ')[0]);
+    const allDemonstratives = Object.values(demonstrativePronouns).flat().map(p => p.split(' ')[0]);
+    const allPrepositions = prepositions.map(p => p[0].split(' ')[0]);
+    const allQuestionParticles = Object.values(questionParticles).map(p => p.split(' ')[0]);
+
+    const matchedWords = [];
+    if (words.some(word => allPossessives.includes(word))) matchedWords.push(words.find(word => allPossessives.includes(word)));
+    if (words.some(word => allShortPossessives.includes(word))) matchedWords.push(words.find(word => allShortPossessives.includes(word)));
+    if (words.some(word => allDemonstratives.includes(word))) matchedWords.push(words.find(word => allDemonstratives.includes(word)));
+    if (words.some(word => allPrepositions.includes(word))) matchedWords.push(words.find(word => allPrepositions.includes(word)));
+    if (words.some(word => allQuestionParticles.includes(word))) matchedWords.push(words.find(word => allQuestionParticles.includes(word)));
+
+    const resultDiv = document.getElementById('result');
+    if (resultDiv) {
+        if (inputValue === '') {
+            resultDiv.innerHTML = `<span class="result-icon incorrect">❌</span> Cevap boş bırakıldı! Doğru cevap: ${fullCorrectAnswer}`;
+            resultDiv.className = 'incorrect';
+        } else if (isCorrect) {
+            resultDiv.innerHTML = `<span class="result-icon correct">✅</span> Doğru! Girdiğiniz cevap: ${inputValue}`;
+            if (matchedWords.length > 0) updateTableFeedback(true, matchedWords);
+            if (!isReload && !isAutoNextPaused && (isMissedMode ? missedQuestions.indexOf(currentIndex) < missedQuestions.length - 1 : currentIndex < lessonData.length - 1)) {
+                if (document.getElementById('autoNextToggle').checked) {
+                    autoNextTimeout = setTimeout(() => {
+                        moveToNextQuestion();
+                        renderContent();
+                    }, 1500);
+                }
+            }
+            resultDiv.className = 'correct';
+        } else {
+            resultDiv.innerHTML = `<span class="result-icon incorrect">❌</span> Yanlış! Doğru cevap: ${fullCorrectAnswer} (Sizinki: ${inputValue})`;
+            if (matchedWords.length > 0) updateTableFeedback(false, matchedWords);
+            resultDiv.className = 'incorrect';
+        }
+    }
+
+    document.getElementById('score').innerText = `Puan: ${score}`;
+    input.disabled = true;
+
+    if (isTurkishQuestion) {
+        const keyboard = document.getElementById('virtual-keyboard');
+        if (keyboard.style.display === 'block') {
+            keyboard.style.display = 'none';
+            document.getElementById('toggleKeyboardBtn').innerText = 'Klavye Aç';
+        }
+    }
+
+    updateMissedQuestions();
+    isResultShown = true;
+
+    if (!isReload) {
+        questionCounter++;
+        updateRecentQuestions();
+    }
+}
+
+        window.moveToNextQuestion = function() {
+            if (isMissedMode) {
+                const currentMissedIdx = missedQuestions.indexOf(currentIndex);
+                if (currentMissedIdx < missedQuestions.length - 1) {
+                    currentIndex = missedQuestions[currentMissedIdx + 1];
+                }
+            } else if (isSearchMode) {
+                if (searchIndex < searchResults.length - 1) {
+                    searchIndex++;
+                    currentIndex = searchResults[searchIndex];
+                }
+            } else if (isRepeatWrongEnabled && priorityQueue.length > 0) {
+                currentIndex = priorityQueue.shift();
+            } else if (isRandomOrder) {
+                let nextIndex;
+                do {
+                    nextIndex = Math.floor(Math.random() * lessonData.length);
+                } while (blacklist.includes(nextIndex) || nextIndex === currentIndex);
+                lastSequentialIndex = currentIndex;
+                currentIndex = nextIndex;
+            } else {
+                if (currentIndex < lessonData.length - 1) {
+                    do {
+                        currentIndex++;
+                    } while (blacklist.includes(currentIndex) && currentIndex < lessonData.length - 1);
+                }
+            }
+            isAutoNextPaused = false;
+        }
+
+        function enableEdit() {
+            const input = document.getElementById('input-answer');
+            if (input && input.disabled) {
+                input.disabled = false;
+                input.focus();
+
+                // Türkçe sorular aktifse ve metin alanı etkinleştiyse klavyeyi aç
+                if (isTurkishQuestion) {
+                    const keyboard = document.getElementById('virtual-keyboard');
+                    if (keyboard.style.display === 'none' || keyboard.style.display === '') {
+                        keyboard.style.display = 'block';
+                        renderKeyboard();
+                        document.getElementById('toggleKeyboardBtn').innerText = 'Klavye Kapat';
+                    }
+                }
+
+                const resultDiv = document.getElementById('result');
+                if (resultDiv) resultDiv.innerHTML = '';
+                isResultShown = false;
+            }
+        }
+
+        function editQuestion() {
+            const item = lessonData[currentIndex];
+            const newQuestion = prompt("Soruyu düzenle:", item.question);
+            const newAnswer = prompt("Cevabı düzenle:", item.answer);
+            if (newQuestion && newAnswer) {
+                item.question = newQuestion;
+                item.answer = newAnswer;
+                renderContent();
+            }
+        }
+
+        function toggleBlacklist(index) {
+            const blacklistIndex = blacklist.indexOf(index);
+            if (blacklistIndex === -1) {
+                blacklist.push(index);
+            } else {
+                blacklist.splice(blacklistIndex, 1);
+            }
+            updateBlacklist();
+            renderContent();
+        }
+
+function updateRecentQuestions() {
+    if (!lessonData[currentIndex]) return;
+    const recentItem = {
+        index: currentIndex,
+        question: isTurkishQuestion ? lessonData[currentIndex].answer : lessonData[currentIndex].question,
+        answer: answers[currentIndex],
+        correctAnswer: isTurkishQuestion ? lessonData[currentIndex].question : lessonData[currentIndex].answer,
+        isCorrect: answers[currentIndex] && isAnswerCloseEnough(answers[currentIndex], isTurkishQuestion ? lessonData[currentIndex].question : lessonData[currentIndex].answer)
+    };
+    const existingIndex = recentQuestions.findIndex(item => item.index === currentIndex);
+    if (existingIndex !== -1) {
+        recentQuestions.splice(existingIndex, 1);
+    }
+    recentQuestions.unshift(recentItem);
+    if (recentQuestions.length > 5) recentQuestions.pop();
+
+    const recentList = document.getElementById('recent-list');
+    if (recentList) {
+        recentList.innerHTML = recentQuestions.map((item, idx) => {
+            const statusClass = item.answer === '' ? 'unanswered' : item.isCorrect ? 'correct' : 'incorrect';
+            const formattedQuestion = cleanTextForDisplay(item.question);
+            const formattedAnswer = item.answer ? cleanTextForDisplay(item.answer) : '(Boş bırakıldı)';
+            return `
+                <div class="recent-question ${statusClass}" onclick="jumpToQuestion(${item.index})">
+                    ${idx + 1}. ${formattedQuestion} 
+                    (Cevap: ${formattedAnswer})
+                </div>`;
+        }).join('');
+    }
+}
+
+function updateBlacklist() {
+    const blacklistList = document.getElementById('blacklist-list');
+    if (blacklistList) {
+        blacklistList.innerHTML = blacklist.map(index => {
+            const item = lessonData[index];
+            const formattedQuestion = cleanTextForDisplay(item.question);
+            return `<div class="blacklist-item" onclick="jumpToQuestion(${index})">${formattedQuestion}</div>`;
+        }).join('');
+    }
+}
+
+function updateMissedQuestions() {
+    const missedList = document.getElementById('missed-list');
+    if (missedList) {
+        missedList.innerHTML = missedQuestions.map(index => {
+            const item = lessonData[index];
+            const formattedQuestion = cleanTextForDisplay(item.question);
+            return `<div class="missed-question" onclick="jumpToQuestion(${index})">${formattedQuestion}</div>`;
+        }).join('');
+    }
+}
+        
+function jumpToQuestion(index) {
+            if (lastIndexBeforeJump === -1) lastIndexBeforeJump = currentIndex;
+            currentIndex = index;
+            if (isSearchMode) {
+                searchIndex = searchResults.indexOf(index);
+            }
+            renderContent();
+        }
+
+function searchQuestions() {
+    const searchInput = document.getElementById('search-input').value;
+    const normalizedSearch = normalizeText(searchInput).original.toLowerCase();
+    const focusOnly = document.getElementById('focus-questions').checked;
+    
+    if (normalizedSearch === '') {
+        isSearchMode = false;
+        searchResults = [];
+        searchIndex = 0;
+        currentIndex = lastIndexBeforeJump !== -1 ? lastIndexBeforeJump : currentIndex;
+        lastIndexBeforeJump = -1;
+        renderContent();
+        document.getElementById('search-results').style.display = 'none';
+        return;
+    }
+
+    searchResults = lessonData
+        .map((item, index) => ({ item, index }))
+        .filter(({ item, index }) => {
+            if (focusOnly && !wrongCount[index] && !missedQuestions.includes(index)) return false;
+            const question = normalizeText(isTurkishQuestion ? item.answer : item.question).original.toLowerCase();
+            const answer = normalizeText(isTurkishQuestion ? item.question : item.answer).original.toLowerCase();
+            return question.includes(normalizedSearch) || answer.includes(normalizedSearch);
+        })
+        .map(({ index }) => index);
+
+    if (searchResults.length > 0) {
+        isSearchMode = true;
+        searchIndex = 0;
+        currentIndex = searchResults[searchIndex];
+        document.getElementById('search-results').style.display = 'block';
+        const searchList = document.getElementById('search-list');
+        if (searchList) {
+            searchList.innerHTML = searchResults.map(index => {
+                const item = lessonData[index];
+                const formattedQuestion = cleanTextForDisplay(item.question);
+                return `<div class="search-result" onclick="jumpToQuestion(${index})">${formattedQuestion}</div>`;
+            }).join('');
+        }
+    } else {
+        isSearchMode = false;
+        document.getElementById('search-results').style.display = 'none';
+    }
+    renderContent();
+}
+
+function toggleTheme() {
+            document.body.classList.toggle('dark-theme');
+            document.getElementById('toggleThemeBtn').innerText = document.body.classList.contains('dark-theme') ? 'Açık Tema' : 'Koyu Tema';
+        }
+
+        function updateJsonFilesList() {
+            const jsonFilesDiv = document.getElementById('json-files');
+            if (jsonFilesDiv) {
+                jsonFilesDiv.innerHTML = Object.entries(jsonFiles).map(([name, file]) => `
+                    <div class="json-file">
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="${name}" ${file.selected ? 'checked' : ''} onchange="toggleJsonFile('${name}')">
+                            <label class="form-check-label" for="${name}">${name} (${file.data.length} soru)</label>
+                        </div>
+                        <button class="btn btn-danger btn-sm delete-btn" onclick="deleteJsonFile('${name}')">Sil</button>
+                    </div>
+                `).join('');
+            }
+        }
+
+        function toggleJsonFile(name) {
+            jsonFiles[name].selected = !jsonFiles[name].selected;
+            updateLessonData();
+        }
+
+        function deleteJsonFile(name) {
+            if (confirm(`${name} dosyasını silmek istediğinize emin misiniz?`)) {
+                delete jsonFiles[name];
+                updateLessonData();
+                updateJsonFilesList();
+            }
+        }
+
+        function exportJson() {
+            const exportData = lessonData.map(item => ({
+                question: item.question,
+                answer: item.answer
+            }));
+            const jsonStr = JSON.stringify(exportData, null, 2);
+            const blob = new Blob([jsonStr], { type: 'application/json' });
+            const url = URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = 'lesson_export.json';
+            a.click();
+            URL.revokeObjectURL(url);
+        }
+
+        function renderKeyboard() {
+            const keyboardContent = document.getElementById('keyboard-content');
+            if (!keyboardContent) return;
+
+            const keys = isBulgarianKeyboard ? bulgarianKeys : turkishKeys;
+            keyboardContent.innerHTML = keys.map(key => {
+                const displayKey = isCapsOn ? key.toUpperCase() : key.toLowerCase();
+                return `<button onclick="addToInput('${displayKey}')">${displayKey}</button>`;
+            }).join('');
+        }
+
+        function addToInput(char) {
+            const input = document.getElementById('input-answer');
+            if (input && !input.disabled) {
+                const start = input.selectionStart;
+                const end = input.selectionEnd;
+                input.value = input.value.substring(0, start) + char + input.value.substring(end);
+                input.focus();
+                input.selectionStart = input.selectionEnd = start + char.length;
+            }
+        }
+
+        function deleteLast() {
+            const input = document.getElementById('input-answer');
+            if (input && !input.disabled) {
+                const start = input.selectionStart;
+                const end = input.selectionEnd;
+                if (start === end && start > 0) {
+                    input.value = input.value.substring(0, start - 1) + input.value.substring(end);
+                    input.selectionStart = input.selectionEnd = start - 1;
+                } else if (start !== end) {
+                    input.value = input.value.substring(0, start) + input.value.substring(end);
+                    input.selectionStart = input.selectionEnd = start;
+                }
+                input.focus();
+            }
+        }
+
+        function moveCursor(direction) {
+            const input = document.getElementById('input-answer');
+            if (input && !input.disabled) {
+                const pos = input.selectionStart;
+                input.selectionStart = input.selectionEnd = pos + direction;
+                input.focus();
+            }
+        }
+
+        function copyText() {
+            const input = document.getElementById('input-answer');
+            if (input && !input.disabled) {
+                navigator.clipboard.writeText(input.value);
+            }
+        }
+
+        async function pasteText() {
+            const input = document.getElementById('input-answer');
+            if (input && !input.disabled) {
+                const text = await navigator.clipboard.readText();
+                const start = input.selectionStart;
+                const end = input.selectionEnd;
+                input.value = input.value.substring(0, start) + text + input.value.substring(end);
+                input.selectionStart = input.selectionEnd = start + text.length;
+                input.focus();
+            }
+        }
+
+        function toggleCaps() {
+            isCapsOn = !isCapsOn;
+            renderKeyboard();
+        }
+
+        function toggleLanguage() {
+            isBulgarianKeyboard = !isBulgarianKeyboard;
+            renderKeyboard();
+        }
+
+        function openKeyboard() {
+            const keyboard = document.getElementById('virtual-keyboard');
+            keyboard.style.display = 'block';
+            renderKeyboard();
+            document.getElementById('toggleKeyboardBtn').innerText = 'Klavye Kapat';
+        }
+
+        function closeKeyboard() {
+            const keyboard = document.getElementById('virtual-keyboard');
+            keyboard.style.display = 'none';
+            document.getElementById('toggleKeyboardBtn').innerText = 'Klavye Aç';
+        }
+
+        document.getElementById('toggleOrderBtn').addEventListener('click', () => {
+            isRandomOrder = !isRandomOrder;
+            document.getElementById('toggleOrderBtn').innerText = `Sıralı Mod (Şu an: ${isRandomOrder ? 'Rastgele' : 'Sıralı'})`;
+            renderContent();
+        });
+
+        document.getElementById('toggleLangBtn').addEventListener('click', () => {
+            isTurkishQuestion = !isTurkishQuestion;
+            document.getElementById('toggleLangBtn').innerText = isTurkishQuestion ? 'Bulgarca Sorulara Geç' : 'Türkçe Sorulara Geç';
+            renderContent();
+        });
+
+        document.getElementById('toggleSpeechBtn').addEventListener('click', () => {
+            isSpeechEnabled = !isSpeechEnabled;
+            document.getElementById('toggleSpeechBtn').innerText = `Sesli Okuma (${isSpeechEnabled ? 'Açık' : 'Kapalı'})`;
+            if (isSpeechEnabled) speakText(lessonData[currentIndex].question);
+        });
+
+        document.getElementById('toggleSoundBtn').addEventListener('click', () => {
+            isSoundEnabled = !isSoundEnabled;
+            document.getElementById('toggleSoundBtn').innerText = `Ses Efektleri (${isSoundEnabled ? 'Açık' : 'Kapalı'})`;
+        });
+
+        document.getElementById('toggleRepeatWrongBtn').addEventListener('click', () => {
+            isRepeatWrongEnabled = !isRepeatWrongEnabled;
+            document.getElementById('toggleRepeatWrongBtn').innerText = `Yanlışları Tekrarla (${isRepeatWrongEnabled ? 'Açık' : 'Kapalı'})`;
+            if (!isRepeatWrongEnabled) priorityQueue = [];
+        });
+
+        document.getElementById('toggleLatinBtn').addEventListener('click', () => {
+            isLatinVisible = !isLatinVisible;
+            document.getElementById('toggleLatinBtn').innerText = `Latince Göster (${isLatinVisible ? 'Açık' : 'Kapalı'})`;
+            renderContent();
+        });
+
+        document.getElementById('reviewMissedBtn').addEventListener('click', () => {
+            if (missedQuestions.length === 0) {
+                alert("Henüz bilemediğiniz soru yok!");
+                return;
+            }
+            isMissedMode = !isMissedMode;
+            if (isMissedMode) {
+                currentIndex = missedQuestions[0];
+            } else {
+                currentIndex = lastIndexBeforeJump !== -1 ? lastIndexBeforeJump : currentIndex;
+                lastIndexBeforeJump = -1;
+            }
+            renderContent();
+        });
+
+// Arama kutusu için event listener'lar
+document.getElementById('search-input').addEventListener('input', searchQuestions);
+document.getElementById('focus-questions').addEventListener('change', searchQuestions);
+
+// Arama kutusunda odaklanma kontrolü için event listener'lar
+document.getElementById('search-input').addEventListener('focus', function() {
+    isSearchFocused = true;
+});
+document.getElementById('search-input').addEventListener('blur', function() {
+    isSearchFocused = false;
+});
+        document.getElementById('question-slider').addEventListener('input', (e) => {
+            const newIndex = parseInt(e.target.value);
+            if (isMissedMode) {
+                currentIndex = missedQuestions[newIndex];
+            } else if (isSearchMode) {
+                searchIndex = newIndex;
+                currentIndex = searchResults[searchIndex];
+            } else {
+                currentIndex = newIndex;
+            }
+            renderContent();
+        });
+
+        document.getElementById('exportJsonBtn').addEventListener('click', exportJson);
+        document.getElementById('saveToGitHubBtn').addEventListener('click', saveToGitHub);
+        document.getElementById('saveBtn').addEventListener('click', saveState);
+        document.getElementById('loadStateBtn').addEventListener('click', loadSavedState);
+        document.getElementById('resetBtn').addEventListener('click', resetState);
+        document.getElementById('toggleThemeBtn').addEventListener('click', toggleTheme);
+
+        document.getElementById('loadFromUrlBtn').addEventListener('click', () => {
+            const fileUrl = document.getElementById('fileUrl').value.trim();
+            if (fileUrl) {
+                loadOnlineLesson(fileUrl);
+                bootstrap.Modal.getInstance(document.getElementById('loadJsonModal')).hide();
+            } else {
+                alert('Lütfen geçerli bir URL girin!');
+            }
+        });
+
+        document.getElementById('loadFromLocalBtn').addEventListener('click', () => {
+            const fileInput = document.getElementById('localJsonFile');
+            const file = fileInput.files[0];
+            if (file) {
+                const reader = new FileReader();
+                reader.onload = (e) => {
+                    try {
+                        const newData = JSON.parse(e.target.result);
+                        const fileName = file.name.split('.')[0];
+                        jsonFiles[fileName] = { data: newData, selected: true };
+                        updateLessonData();
+                        updateJsonFilesList();
+                        score = 0;
+                        document.getElementById('score').innerText = `Puan: 0`;
+                        bootstrap.Modal.getInstance(document.getElementById('loadJsonModal')).hide();
+                        alert(`${fileName} başarıyla yüklendi!`);
+                    } catch (error) {
+                        alert('Geçersiz JSON dosyası: ' + error.message);
+                    }
+                };
+                reader.readAsText(file);
+            } else {
+                alert('Lütfen bir dosya seçin!');
+            }
+        });
+
+        document.getElementById('toggleKeyboardBtn').addEventListener('click', () => {
+            const keyboard = document.getElementById('virtual-keyboard');
+            if (keyboard.style.display === 'none' || keyboard.style.display === '') {
+                openKeyboard();
+            } else {
+                closeKeyboard();
+            }
+        });
+    
+window.onload = function() {
+  window.addEventListener('keydown', window.keydownHandler);
+};
+  </script>
+<script>
+   // Global durum değişkenlerini tanımla
+window.globalFontState = 0; // 0: normal, 1: bahnschrift
+window.globalCaseState = 0; // 0: küçük harf, 1: ilk harf büyük, 2: büyük harf
+window.globalItalicState = 0; // 0: normal, 1: italik
+
+function isCyrillicText(text) {
+    return /[\u0400-\u04FF]/.test(text);
+}
+
+document.getElementById('toggleFontBtn').addEventListener('click', () => {
+    window.globalFontState = (window.globalFontState + 1) % 2;
+    document.getElementById('toggleFontBtn').innerText = window.globalFontState ? 
+        'Normal Font' : 'Bahnschrift Font';
+    renderContent(); // İçeriği yeniden oluştur
+});
+
+document.getElementById('toggleCaseBtn').addEventListener('click', () => {
+    window.globalCaseState = (window.globalCaseState + 1) % 3;
+    
+    let buttonText = 'Büyük/Küçük Harf';
+    if (window.globalCaseState === 1) {
+        buttonText = 'İlk Harf Büyük';
+    } else if (window.globalCaseState === 2) {
+        buttonText = 'TÜMÜ BÜYÜK';
+    } else {
+        buttonText = 'tümü küçük';
+    }
+    
+    document.getElementById('toggleCaseBtn').innerText = buttonText;
+    renderContent(); // İçeriği yeniden oluştur
+});
+
+document.getElementById('toggleItalicBtn').addEventListener('click', () => {
+    isItalicEnabled = !isItalicEnabled;
+    window.globalItalicState = isItalicEnabled ? 1 : 0;
+    document.getElementById('toggleItalicBtn').innerText = isItalicEnabled ? 
+        'Normal Yazı' : 'İtalik Yazı';
+    renderContent(); // İçeriği yeniden oluştur
+});
+  </script>
+<script>
+   document.addEventListener('keydown', (e) => {
+    console.log("KEY PRESSED:", e.key);
+  });
+
+window.onload = function() {
+  window.addEventListener('keydown', window.keydownHandler);
+};
+
+window.addEventListener('DOMContentLoaded', function () {
+  document.addEventListener('keydown', function(event) {
+
+    const title = document.getElementById('title');
+    if (title) {
+      title.innerText = "Tuş algılandı: " + event.key;
+    }
+
+    const input = document.getElementById('input-answer');
+    const isInputActive = document.activeElement === input;
+    const isSearchActive = document.activeElement === document.getElementById('search-input');
+
+    if (event.key === 'ArrowUp' || event.key === 'ArrowDown') {
+        event.preventDefault();
+        if (event.key === 'ArrowUp') {
+            if (typeof isMissedMode !== 'undefined' && isMissedMode && missedQuestions.indexOf(currentIndex) > 0) {
+                currentIndex = missedQuestions[missedQuestions.indexOf(currentIndex) - 1];
+            } else if (typeof isSearchMode !== 'undefined' && isSearchMode && searchIndex > 0) {
+                searchIndex--;
+                currentIndex = searchResults[searchIndex];
+            } else if (currentIndex > 0) {
+                do {
+                    currentIndex--;
+                } while (typeof blacklist !== 'undefined' && blacklist.includes(currentIndex) && currentIndex > 0);
+            }
+        } else {
+            if (typeof moveToNextQuestion === 'function') {
+                moveToNextQuestion();
+            }
+        }
+        if (typeof renderContent === 'function') {
+            renderContent();
+        }
+        return;
+    }
+
+    if (!isInputActive && !isSearchActive) {
+        if (event.key === 'ArrowLeft') {
+            event.preventDefault();
+            if (typeof isMissedMode !== 'undefined' && isMissedMode && missedQuestions.indexOf(currentIndex) > 0) {
+                currentIndex = missedQuestions[missedQuestions.indexOf(currentIndex) - 1];
+            } else if (typeof isSearchMode !== 'undefined' && isSearchMode && searchIndex > 0) {
+                searchIndex--;
+                currentIndex = searchResults[searchIndex];
+            } else if (currentIndex > 0) {
+                do {
+                    currentIndex--;
+                } while (typeof blacklist !== 'undefined' && blacklist.includes(currentIndex) && currentIndex > 0);
+            }
+            if (typeof renderContent === 'function') {
+                renderContent();
+            }
+            return;
+        } else if (event.key === 'ArrowRight') {
+            event.preventDefault();
+            if (typeof moveToNextQuestion === 'function') {
+                moveToNextQuestion();
+            }
+            if (typeof renderContent === 'function') {
+                renderContent();
+            }
+            return;
+        }
+    }
+
+    if (event.key === 'Enter') {
+        event.preventDefault();
+        if (isInputActive && typeof checkAnswer === 'function') {
+            checkAnswer();
+        } else if (typeof moveToNextQuestion === 'function') {
+            moveToNextQuestion();
+            if (typeof renderContent === 'function') {
+                renderContent();
+            }
+        }
+    }
+  });
+});
+  </script>
+<script>
+   async function loadParagraphs() {
+  const container = document.getElementById("paragraph-files");
+  if (!container) return console.warn("Sidebar paragraf container bulunamadı.");
+
+  
+
+  for (const para of paragraphUrls) {
+    try {
+      const res = await fetch(para.url);
+      if (!res.ok) throw new Error("Veri çekilemedi");
+      const data = await res.json();
+      console.log("Yüklenen veri:", data);
+      const btn = document.createElement("button");
+      btn.textContent = para.name;
+      btn.className = "btn btn-outline-primary w-100 mb-2";
+      btn.onclick = () => {
+        console.log("Paragraf butonuna tıklandı:", para.name);
+        if (data && data.bg && data.tr) {
+          renderParagraph(data);
+        } else {
+          console.error("Beklenen formatta veri yok:", data);
+          alert("Paragraf formatı hatalı ya da eksik.");
+        }
+      };
+      container.appendChild(btn);
+    } catch (e) {
+      console.error("Paragraf yüklenemedi:", para.name, e);
+    }
+  }
+}
+
+
+function renderParagraph(paragraph) {
+  const contentDiv = document.getElementById("content");
+  const isBG = !isTurkishQuestion;
+  const text = isBG ? paragraph.bg : paragraph.tr;
+  const wordMap = paragraph.map || {};
+  const words = text.split(/(\s+|(?=[.,!?„"":;]))/);
+  const sentence = words.map(w => {
+    const clean = w.replace(/[.,!?“"„";:]/g, '').trim();
+    const tooltip = isBG ? (wordMap[clean] || '') : '';
+    return `<span class="paragraph-word" title="${tooltip}" onclick="addToWordList('${clean}', '${tooltip}')">${w}</span>`;
+  }).join('');
+  contentDiv.innerHTML = `
+    <div class="card-body">
+      <h5 class="card-title">${paragraph.title} <span id="unknown-count" style="font-size:0.8em; color:gray;">(kelimeler=0)</span></h5>
+      <p>${sentence}</p>
+      <div class="mt-3">
+        <h6>Bilinmeyen Kelimeler</h6>
+        <ul id="word-list" class="list-group"></ul>
+      </div>
+    </div>
+  `;
+}
+
+window.addEventListener("load", () => { loadAllLessons();  });
+  </script>
+<script>
+   async function loadParagraphs() {
+  const container = document.getElementById("paragraph-files");
+  if (!container) return;
+  for (const para of paragraphUrls) {
+    try {
+      const res = await fetch(para.url);
+      if (!res.ok) throw new Error("Veri çekilemedi");
+      const data = await res.json();
+      const btn = document.createElement("button");
+      btn.textContent = para.name;
+      btn.className = "btn btn-outline-primary w-100 mb-2";
+      btn.onclick = () => {
+        if (data && data.bg && data.tr) {
+          renderParagraph(data);
+        } else {
+          alert("Paragraf formatı hatalı.");
+        }
+      };
+      container.appendChild(btn);
+    } catch (e) {
+      console.error("Paragraf yüklenemedi:", para.name, e);
+    }
+  }
+}
+
+window.addEventListener("load", () => {
+  loadAllLessons();
+  
+});
+
+
+function renderParagraph(paragraph) {
+  const contentDiv = document.getElementById("content");
+  const isBG = !isTurkishQuestion;
+  const text = isBG ? paragraph.bg : paragraph.tr;
+  const wordMap = paragraph.map || {};
+  const words = text.split(/(\s+|(?=[.,!?„"":;]))/);
+  const sentence = words.map(w => {
+    const clean = w.replace(/[.,!?“"„";:]/g, '').trim();
+    const tooltip = isBG ? (wordMap[clean] || '') : '';
+    return `<span class="paragraph-word" title="${tooltip}" onclick="addToWordList('${clean}', '${tooltip}')">${w}</span>`;
+  }).join('');
+  contentDiv.innerHTML = `
+    <div class="card-body">
+      <h5 class="card-title">${paragraph.title} <span id="unknown-count" style="font-size:0.8em; color:gray;">(kelimeler=0)</span></h5>
+      <p>${sentence}</p>
+      <div class="mt-3">
+        <h6>Bilinmeyen Kelimeler</h6>
+        <ul id="word-list" class="list-group"></ul>
+      </div>
+    </div>
+  `;
+}
+  </script>
+<script>
+   async function loadParagraphs() {
+  const container = document.getElementById("paragraph-files");
+  if (!container) return;
+  for (const para of paragraphUrls) {
+    try {
+      const res = await fetch(para.url);
+      if (!res.ok) throw new Error("Veri çekilemedi");
+      const data = await res.json();
+      const btn = document.createElement("button");
+      btn.textContent = para.name;
+      btn.className = "btn btn-outline-primary w-100 mb-2";
+      btn.onclick = () => {
+        if (data && data.bg && data.tr) {
+          renderParagraph(data);
+        } else {
+          alert("Paragraf formatı hatalı.");
+        }
+      };
+      container.appendChild(btn);
+    } catch (e) {
+      console.error("Paragraf yüklenemedi:", para.name, e);
+    }
+  }
+}
+
+window.addEventListener("load", () => {
+  loadAllLessons();
+  
+});
+
+
+function renderParagraph(paragraph) {
+  const contentDiv = document.getElementById("content");
+  const isBG = !isTurkishQuestion;
+  const text = isBG ? paragraph.bg : paragraph.tr;
+  const wordMap = paragraph.map || {};
+  const words = text.split(/(\s+|(?=[.,!?„"":;]))/);
+  const sentence = words.map(w => {
+    const clean = w.replace(/[.,!?“"„";:]/g, '').trim();
+    const tooltip = isBG ? (wordMap[clean] || '') : '';
+    return `<span class="paragraph-word" title="${tooltip}" onclick="addToWordList('${clean}', '${tooltip}')">${w}</span>`;
+  }).join('');
+  contentDiv.innerHTML = `
+    <div class="card-body">
+      <h5 class="card-title">${paragraph.title} <span id="unknown-count" style="font-size:0.8em; color:gray;">(kelimeler=0)</span></h5>
+      <p>${sentence}</p>
+      <div class="mt-3">
+        <h6>Bilinmeyen Kelimeler</h6>
+        <ul id="word-list" class="list-group"></ul>
+      </div>
+    </div>
+  `;
+}
+  </script>
+<script>
+   const paragraphUrls = [
+  { name: "Paragraf 1", url: "https://raw.githubusercontent.com/mustafasacar35/dersler_dosyalar/main/paragraf_1.JSON" },
+  { name: "Paragraf 2", url: "https://raw.githubusercontent.com/mustafasacar35/dersler_dosyalar/main/paragraf_2.JSON" },
+  { name: "Paragraf 3", url: "https://raw.githubusercontent.com/mustafasacar35/dersler_dosyalar/main/paragraf_3.JSON" },
+  { name: "Paragraf 4", url: "https://raw.githubusercontent.com/mustafasacar35/dersler_dosyalar/main/paragraf_4.JSON" },
+  { name: "Paragraf 5", url: "https://raw.githubusercontent.com/mustafasacar35/dersler_dosyalar/main/paragraf_5.JSON" },
+  { name: "Paragraf 6", url: "https://raw.githubusercontent.com/mustafasacar35/dersler_dosyalar/main/paragraf_6.JSON" },
+  { name: "Paragraf 7", url: "https://raw.githubusercontent.com/mustafasacar35/dersler_dosyalar/main/paragraf_7.JSON" },
+  { name: "Paragraf 8", url: "https://raw.githubusercontent.com/mustafasacar35/dersler_dosyalar/main/paragraf_8.JSON" },
+  { name: "Paragraf 9", url: "https://raw.githubusercontent.com/mustafasacar35/dersler_dosyalar/main/paragraf_9.JSON" },
+  { name: "Paragraf 10", url: "https://raw.githubusercontent.com/mustafasacar35/dersler_dosyalar/main/paragraf_10.JSON" }
+];
+
+async function loadParagraphs() {
+  const container = document.getElementById("paragraph-files");
+  if (!container) return;
+  for (const para of paragraphUrls) {
+    try {
+      const res = await fetch(para.url);
+      if (!res.ok) throw new Error("Veri çekilemedi");
+      const data = await res.json();
+      const btn = document.createElement("button");
+      btn.textContent = para.name;
+      btn.className = "btn btn-outline-primary w-100 mb-2";
+      btn.onclick = () => {
+        if (data && data.bg && data.tr) {
+          renderParagraph(data);
+        } else {
+          alert("Paragraf formatı hatalı.");
+        }
+      };
+      container.appendChild(btn);
+    } catch (e) {
+      console.error("Paragraf yüklenemedi:", para.name, e);
+    }
+  }
+}
+
+window.addEventListener("load", () => {
+  loadAllLessons();
+  loadParagraphs();
+});
+
+
+function renderParagraph(paragraph) {
+  const contentDiv = document.getElementById("content");
+  const isBG = !isTurkishQuestion;
+  const text = isBG ? paragraph.bg : paragraph.tr;
+  const wordMap = paragraph.map || {};
+  const words = text.split(/(\s+|(?=[.,!?„"":;]))/);
+  const sentence = words.map(w => {
+    const clean = w.replace(/[.,!?“"„";:]/g, '').trim();
+    const tooltip = isBG ? (wordMap[clean] || '') : '';
+    return `<span class="paragraph-word" title="${tooltip}" onclick="addToWordList('${clean}', '${tooltip}')">${w}</span>`;
+  }).join('');
+  contentDiv.innerHTML = `
+    <div class="card-body">
+      <h5 class="card-title">${paragraph.title} <span id="unknown-count" style="font-size:0.8em; color:gray;">(kelimeler=0)</span></h5>
+      <p>${sentence}</p>
+      <div class="mt-3">
+        <h6>Bilinmeyen Kelimeler</h6>
+        <ul id="word-list" class="list-group"></ul>
+      </div>
+    </div>
+  `;
+}
+  </script>
+<script>
+   document.addEventListener("DOMContentLoaded", function () {
+    const italicBtn = document.getElementById("toggleItalicBtn");
+    if (!italicBtn) return;
+
+    // Eski event listener'ları temizle
+    const newBtn = italicBtn.cloneNode(true);
+    italicBtn.parentNode.replaceChild(newBtn, italicBtn);
+
+    newBtn.addEventListener("click", (e) => {
+        e.preventDefault();
+        e.stopPropagation();
+
+        isItalicEnabled = !isItalicEnabled;
+        newBtn.innerText = `İtalik Yazı (${isItalicEnabled ? 'Açık' : 'Kapalı'})`;
+
+        const content = document.getElementById("content");
+        if (!content) return;
+
+        const paragraphWords = content.querySelectorAll(".paragraph-word");
+        if (paragraphWords.length > 0) {
+            paragraphWords.forEach(span => {
+                span.classList.toggle("italic-text", isItalicEnabled);
+            });
+        } else if (typeof renderContent === "function") {
+            renderContent();
+        }
+    });
+});
+  </script>
+<script>
+   document.addEventListener("DOMContentLoaded", function () {
+    // FONT BUTONU
+    const fontBtn = document.getElementById("toggleFontBtn");
+    if (fontBtn) {
+        const newFontBtn = fontBtn.cloneNode(true);
+        fontBtn.parentNode.replaceChild(newFontBtn, fontBtn);
+        newFontBtn.addEventListener("click", (e) => {
+            e.preventDefault();
+            e.stopPropagation();
+
+            window.globalFontState = !window.globalFontState;
+            newFontBtn.innerText = window.globalFontState ? 'Normal Font' : 'Bahnschrift Font';
+
+            const content = document.getElementById("content");
+            if (!content) return;
+
+            const paragraphWords = content.querySelectorAll(".paragraph-word");
+            if (paragraphWords.length > 0) {
+                paragraphWords.forEach(span => {
+                    span.classList.toggle("bahnschrift-font", window.globalFontState);
+                });
+            } else if (typeof renderContent === "function") {
+                renderContent();
+            }
+        });
+    }
+
+    // HARF DURUMU BUTONU
+    const caseBtn = document.getElementById("toggleCaseBtn");
+    if (caseBtn) {
+        const newCaseBtn = caseBtn.cloneNode(true);
+        caseBtn.parentNode.replaceChild(newCaseBtn, caseBtn);
+        newCaseBtn.addEventListener("click", (e) => {
+            e.preventDefault();
+            e.stopPropagation();
+
+            window.globalCaseState = (window.globalCaseState + 1) % 3;
+            const caseText = window.globalCaseState === 1 ? "İlk Harf Büyük"
+                             : window.globalCaseState === 2 ? "TÜMÜ BÜYÜK"
+                             : "tümü küçük";
+            newCaseBtn.innerText = caseText;
+
+            const content = document.getElementById("content");
+            if (!content) return;
+
+            const paragraphWords = content.querySelectorAll(".paragraph-word");
+            if (paragraphWords.length > 0) {
+                paragraphWords.forEach(span => {
+                    span.classList.remove("sentence-case", "uppercase-text", "lowercase-text");
+                    if (window.globalCaseState === 1) {
+                        span.classList.add("sentence-case");
+                    } else if (window.globalCaseState === 2) {
+                        span.classList.add("uppercase-text");
+                    } else {
+                        span.classList.add("lowercase-text");
+                    }
+                });
+            } else if (typeof renderContent === "function") {
+                renderContent();
+            }
+        });
+    }
+});
+  </script>
+<script>
+   const GITHUB_USERNAME = "mustafasacar35";
+const GITHUB_REPO = "dersler_dosyalar";
+const GITHUB_FILE_PATH = "state.json";
+const GITHUB_TOKEN = "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";
+
+async function saveStateToGitHub() {
+    try {
+        console.log("GitHub'a kaydetme işlemi başlatıldı...");
+        
+        // Güncel durumu hazırla
+        const currentParagraphSelections = JSON.parse(localStorage.getItem("paragraphSelections") || '{}');
+        console.log("Kaydedilecek paragraf seçimleri:", currentParagraphSelections);
+        
+        const state = {
+            currentIndex, 
+            score, 
+            answers, 
+            recentQuestions, 
+            blacklist, 
+            wrongCount,
+            priorityQueue, 
+            missedQuestions, 
+            questionCounter, 
+            isRandomOrder,
+            isTurkishQuestion, 
+            lastSequentialIndex, 
+            searchResults, 
+            searchIndex,
+            isSearchMode, 
+            isSpeechEnabled, 
+            isLatinVisible, 
+            isRepeatWrongEnabled,
+            isSoundEnabled, 
+            jsonFiles, 
+            isMissedMode, 
+            isBulgarianKeyboard, 
+            isCapsOn,
+            paragraphSelections: currentParagraphSelections,
+            lastSaved: new Date().toISOString()
+        };
+
+        console.log("GitHub'a gönderilecek tam durum:", state);
+        const content = btoa(unescape(encodeURIComponent(JSON.stringify(state, null, 2))));
+
+        // Önce mevcut dosyayı kontrol et
+        console.log("GitHub API'ye bağlanılıyor...");
+        const getRes = await fetch(`https://api.github.com/repos/${GITHUB_USERNAME}/${GITHUB_REPO}/contents/${GITHUB_FILE_PATH}`, {
+            headers: { 
+                "Authorization": `Bearer ${GITHUB_TOKEN}`,
+                "Accept": "application/vnd.github.v3+json"
+            }
+        });
+        
+        let sha = undefined;
+        if (getRes.ok) {
+            const getData = await getRes.json();
+            sha = getData.sha;
+            console.log("Mevcut dosya SHA bulundu:", sha);
+        }
+
+        console.log("Yeni durum GitHub'a gönderiliyor...");
+        const putRes = await fetch(`https://api.github.com/repos/${GITHUB_USERNAME}/${GITHUB_REPO}/contents/${GITHUB_FILE_PATH}`, {
+            method: "PUT",
+            headers: {
+                "Authorization": `Bearer ${GITHUB_TOKEN}`,
+                "Accept": "application/vnd.github.v3+json",
+                "Content-Type": "application/json"
+            },
+            body: JSON.stringify({
+                message: "Uygulama durumu güncellendi - " + new Date().toLocaleString(),
+                content: content,
+                sha: sha,
+                committer: {
+                    name: "Bulgarca Uygulama",
+                    email: "app@example.com"
+                }
+            })
+        });
+
+        if (putRes.ok) {
+            console.log("GitHub'a kayıt başarılı!");
+            localStorage.setItem("lastSavedState", JSON.stringify(state));
+            alert("Durum başarıyla GitHub'a kaydedildi!");
+        } else {
+            const error = await putRes.json();
+            console.error("GitHub kayıt hatası:", error);
+            throw new Error(error.message || "GitHub'a kayıt başarısız");
+        }
+    } catch (err) {
+        console.error("GitHub kayıt hatası:", err);
+        alert("GitHub'a kayıt sırasında hata: " + err.message);
+    }
+}
+
+async function loadStateFromGitHub() {
+    const res = await fetch(`https://api.github.com/repos/${GITHUB_USERNAME}/${GITHUB_REPO}/contents/${GITHUB_FILE_PATH}`, {
+        headers: { Authorization: `Bearer ${GITHUB_TOKEN}` }
+    });
+
+    if (!res.ok) {
+        alert("GitHub'dan durum yüklenemedi.");
+        return;
+    }
+
+    const data = await res.json();
+    const decoded = decodeURIComponent(escape(atob(data.content)));
+    try {
+        const parsed = JSON.parse(decoded);
+        applyState(parsed);
+        alert("Durum GitHub'dan başarıyla yüklendi.");
+    } catch (e) {
+        alert("Yüklenen veriler bozuk veya geçersiz.");
+    }
+}
+
+document.getElementById('saveToGitHubBtn').addEventListener('click', saveStateToGitHub);
+document.getElementById('loadStateBtn').addEventListener('click', loadStateFromGitHub);
+  </script>
+<div class="content-wrapper container" style="display: flex; gap: 20px;">
+<div class="sidebar card" style="width: 20%;">
+<div class="card-body">
+<h6>
+      Dersler
+     </h6>
+<div id="json-files">
+</div>
+</div>
+</div>
+<div class="main-content">
+<div class="card" id="content"></div>
+<div class="card" id="recent-questions"><div class="card-body"><h6>Son 5 Soru:</h6><div id="recent-list"></div></div></div>
+<div class="card" id="search-results"><div class="card-body"><h6>Arama Sonuçları:</h6><div id="search-list"></div></div></div>
+<div class="card" id="blacklist"><div class="card-body"><h6>Karalisteye Alınanlar:</h6><div id="blacklist-list"></div></div></div>
+<div class="card" id="missed-questions"><div class="card-body"><h6>Bilemediğim Sorular:</h6><div id="missed-list"></div></div></div>
+</div>
+<div class="sidebar card" style="width: 20%;">
+<div class="card-body">
+<h6>
+      Paragraf Çalışmaları
+     </h6>
+<div id="paragraph-files">
+</div>
+</div>
+</div>
+</div>
+<script>
+// Paragraph State Storage
+function saveParagraphState() {
+    const title = document.querySelector(".card-title")?.textContent?.split("(")[0]?.trim();
+    if (!title) return;
+    
+    const words = Array.from(document.querySelectorAll("#word-list li")).map(li => li.textContent);
+    const allStates = JSON.parse(localStorage.getItem("paragraphSelections") || '{}');
+    allStates[title] = words;
+    localStorage.setItem("paragraphSelections", JSON.stringify(allStates));
+    
+    // GitHub'a kaydetmek için son durumu güncelle
+    const lastSavedState = JSON.parse(localStorage.getItem("lastSavedState") || '{}');
+    lastSavedState.paragraphSelections = allStates;
+    localStorage.setItem("lastSavedState", JSON.stringify(lastSavedState));
+
+    console.log(`Paragraf durumu kaydedildi: ${title} [${words.join(', ')}]`);
+}
+
+function loadParagraphState(paragraphTitle) {
+    const saved = JSON.parse(localStorage.getItem("paragraphSelections") || '{}');
+    return saved[paragraphTitle] || [];
+}
+
+function restoreParagraphState(title) {
+    if (!title) return;
+    
+    console.log("Paragraf durumu yükleniyor:", title);
+    const savedState = JSON.parse(localStorage.getItem("paragraphSelections") || '{}');
+    const savedWords = savedState[title] || [];
+    console.log("Kaydedilmiş kelimeler:", savedWords);
+
+    // Kelime listesini temizle ve yeniden oluştur
+    const wordList = document.getElementById("word-list");
+    if (!wordList) return;
+    wordList.innerHTML = '';
+
+    let wordCount = 0;
+
+    // Tüm paragraf kelimelerinin işaretlemesini kaldır
+    document.querySelectorAll('.paragraph-word').forEach(span => {
+        span.classList.remove('selected-word');
+    });
+
+    // Kaydedilmiş kelimeleri işle
+    savedWords.forEach(wordEntry => {
+        if (typeof wordEntry === 'string') {
+            const [bg, tr] = wordEntry.split(" = ").map(s => s.trim());
+            if (bg && tr) {
+                // Kelime listesine ekle
+                const li = document.createElement("li");
+                li.textContent = `${bg} = ${tr}`;
+                li.id = `${bg}=${tr}`;
+                li.className = "list-group-item";
+                li.onclick = () => {
+                    // Kırmızı rengi kaldır
+                    document.querySelectorAll('.paragraph-word').forEach(span => {
+                        if (span.textContent.trim() === bg.trim()) {
+                            span.classList.remove('selected-word');
+                        }
+                    });
+                    li.remove();
+                    
+                    // Sayacı güncelle
+                    const countEl = document.getElementById("unknown-count");
+                    if (countEl) {
+                        const current = parseInt(countEl.textContent.match(/\d+/)?.[0] || "1");
+                        countEl.textContent = `(kelimeler=${current - 1})`;
+                    }
+                    saveParagraphState();
+                };
+                wordList.appendChild(li);
+                wordCount++;
+
+                // Paragraftaki kelimeleri işaretle
+                document.querySelectorAll('.paragraph-word').forEach(span => {
+                    if (span.textContent.trim() === bg.trim()) {
+                        span.classList.add('selected-word');
+                    }
+                });
+            }
+        }
+    });
+
+    // Kelime sayacını güncelle
+    const countEl = document.getElementById("unknown-count");
+    if (countEl) {
+        countEl.textContent = `(kelimeler=${wordCount})`;
+    }
+
+    console.log(`Paragraf durumu restore edildi: ${title} [${savedWords.join(', ')}]`);
+}
+
+const originalAddToWordList = addToWordList;
+addToWordList = function(bg, tr) {
+  originalAddToWordList(bg, tr);
+  saveParagraphState();
+};
+
+const originalRenderParagraph = renderParagraph;
+renderParagraph = function(paragraph) {
+  originalRenderParagraph(paragraph);
+  const map = {};
+  restoreParagraphState(paragraph.title, map);
+};
+
+const originalApplyState = applyState;
+applyState = function(state) {
+  originalApplyState(state);
+  if (state.paragraphSelections) {
+    localStorage.setItem("paragraphSelections", JSON.stringify(state.paragraphSelections));
+    localStorage.setItem("paragraphSelectionsSavedForGitHub", JSON.stringify(state.paragraphSelections));
+  }
+};
+
+// REAL GITHUB SAVE FUNCTION
+async function saveToGitHub() {
+    // GÜNCEL paragraf seçimlerini al
+    const currentParagraphSelections = JSON.parse(localStorage.getItem("paragraphSelections") || '{}');
+    
+    const state = {
+        currentIndex, score, answers, recentQuestions, blacklist, wrongCount, priorityQueue,
+        missedQuestions, questionCounter, isRandomOrder, isTurkishQuestion, lastSequentialIndex,
+        searchResults, searchIndex, isSearchMode, isSpeechEnabled, isLatinVisible, isRepeatWrongEnabled,
+        isSoundEnabled, jsonFiles, isMissedMode, isBulgarianKeyboard, isCapsOn,
+        paragraphSelections: currentParagraphSelections // GÜNCEL veriyi ekle
+    };
+
+    console.log("GitHub'a kaydedilecek paragraf durumları:", currentParagraphSelections);
+
+    const token = "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";
+    const content = btoa(unescape(encodeURIComponent(JSON.stringify(state, null, 2))));
+
+    try {
+        // Önce mevcut dosyayı kontrol et
+        const getRes = await fetch("https://api.github.com/repos/mustafasacar35/dersler_dosyalar/contents/state.json", {
+            headers: { "Authorization": `Bearer ${token}` }
+        });
+        
+        let sha = undefined;
+        if (getRes.ok) {
+            const getData = await getRes.json();
+            sha = getData.sha;
+        }
+
+        // Yeni durumu kaydet
+        const response = await fetch("https://api.github.com/repos/mustafasacar35/dersler_dosyalar/contents/state.json", {
+            method: "PUT",
+            headers: {
+                "Authorization": `Bearer ${token}`,
+                "Content-Type": "application/json"
+            },
+            body: JSON.stringify({
+                message: "Uygulama durumu güncellendi - " + new Date().toLocaleString(),
+                content: content,
+                ...(sha && { sha }),
+                committer: {
+                    name: "Bulgarca Uygulama",
+                    email: "app@example.com"
+                }
+            })
+        });
+
+        if (response.ok) {
+            // Başarılı kayıt durumunda localStorage'a da kaydet
+            localStorage.setItem("paragraphSelectionsSavedForGitHub", JSON.stringify(currentParagraphSelections));
+            alert("Durum ve paragraf seçimleri başarıyla GitHub'a kaydedildi!");
+            console.log("GitHub kayıt başarılı");
+        } else {
+            const error = await response.json();
+            throw new Error(error.message || "GitHub'a kayıt başarısız");
+        }
+    } catch (err) {
+        console.error("GitHub kayıt hatası:", err);
+        alert("GitHub'a kayıt sırasında hata: " + err.message);
+    }
+}
+window.renderParagraph = function(paragraph) {
+    const contentDiv = document.getElementById("content");
+    const isBG = !isTurkishQuestion;
+    const text = isBG ? paragraph.bg : paragraph.tr;
+    const wordMap = paragraph.map || {};
+    const words = text.split(/(\s+|(?=[.,!?„""":;]))/);
+    const sentence = words.map(w => {
+        const clean = w.replace(/[.,!?""„";:]/g, '').trim();
+        const tooltip = isBG ? (wordMap[clean] || '') : '';
+        return `<span class="paragraph-word" title="${tooltip}" onclick="addToWordList('${clean}', '${tooltip}')">${w}</span>`;
+    }).join('');
+    
+    contentDiv.innerHTML = `
+        <div class="card-body">
+            <h5 class="card-title">${paragraph.title} <span id="unknown-count" style="font-size:0.8em; color:gray;">(kelimeler=0)</span></h5>
+            <p>${sentence}</p>
+            <div class="mt-3">
+                <h6>Bilinmeyen Kelimeler</h6>
+                <ul id="word-list" class="list-group"></ul>
+            </div>
+        </div>
+    `;
+    
+    // Durumu restore et
+    setTimeout(() => {
+        restoreParagraphState(paragraph.title);
+    }, 100);
+};
+const originalLoadSavedState = loadSavedState;
+loadSavedState = async function() {
+  try {
+    const response = await fetch('https://raw.githubusercontent.com/mustafasacar35/dersler_dosyalar/main/state.json');
+    if (!response.ok) throw new Error(`GitHub'dan durum yüklenemedi: ${response.status}`);
+    const state = await response.json();
+    localStorage.clear();
+    applyState(state);
+    alert(`Durum GitHub'dan başarıyla yüklendi!`);
+  } catch (error) {
+    console.warn('GitHub durum dosyası ilk seferde bulunamadı.');
+  }
+};
+
+let paragraphStates = {
+    highlightedWords: {}, // Her paragraf için işaretlenen kelimeler
+    removedWords: {} // Her paragraf için kaldırılan kelimeler
+};
+</script>
+
+<div aria-hidden="true" aria-labelledby="tokenModalLabel" class="modal fade" id="tokenModal" tabindex="-1">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-header">
+<h5 class="modal-title" id="tokenModalLabel">GitHub Token</h5>
+<button aria-label="Kapat" class="btn-close" data-bs-dismiss="modal" type="button"></button>
+</div>
+<div class="modal-body">
+<input class="form-control" id="githubTokenInput" placeholder="GitHub Token’ınızı girin" type="password"/>
+</div>
+<div class="modal-footer">
+<button class="btn btn-secondary" data-bs-dismiss="modal" type="button">İptal</button>
+<button class="btn btn-primary" onclick="saveToken()" type="button">Kaydet</button>
+</div>
+</div>
+</div>
+</div>
+<script>
+function saveToken() {
+  const token = document.getElementById('githubTokenInput').value.trim();
+  if (token) {
+    localStorage.setItem('github_token', token);
+    alert("GitHub token kaydedildi!");
+  } else {
+    alert("Lütfen geçerli bir token girin.");
+  }
+}
+
+function getToken() {
+  return localStorage.getItem('github_token') || '';
+}
+</script></body>
+</html>
